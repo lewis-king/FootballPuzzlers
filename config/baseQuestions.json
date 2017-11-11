@@ -1,0 +1,12 @@
+[
+  {
+    "questionId": 1,
+    "question": "Name the one player who won more than 5 Player of the Month awards in the Premier League",
+    "acceptableAnswers": ["Steven Gerrard", "Gerrard"]
+  },
+  {
+    "questionId": 2,
+    "question": "Who is the only player to have scored for seven Premier League clubs?",
+    "acceptableAnswers": ["Craig Bellamy", "Bellamy"]
+  }
+]
