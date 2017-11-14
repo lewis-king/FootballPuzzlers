@@ -10,9 +10,10 @@ const styles = StyleSheet.create({
     headerStyle: {
         textAlign: 'center',
         alignItems: 'center',
-        margin: 10,
+        margin: 5,
         fontSize: 30,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        color: '#ffffff'
     },
 });
 

@@ -1,13 +1,5 @@
 import React, { Component } from 'react';
 import {AppRegistry} from 'react-native';
-import Main from './src/components/main'
+import RouteNavigator from "./src/components/navigator";
 
-export default class App extends Component {
-  render() {
-    return (
-      <Main />
-    );
-  }
-}
-
-AppRegistry.registerComponent('FootballTrivia', () => App);
+AppRegistry.registerComponent('FootballTrivia', () => RouteNavigator);

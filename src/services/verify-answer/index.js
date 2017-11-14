@@ -1,6 +1,7 @@
 export default function verifyAnswer(givenAnswer, qAndA) {
-    console.log("acceptableAnswers: " + qAndA.acceptableAnswers)
-    const filtered = qAndA.acceptableAnswers.filter((e) => {
+    const acceptedAnswersArr = qAndA.acceptableAnswers.split(",");
+    console.log("acceptableAnswers: " + acceptedAnswersArr);
+    const filtered = acceptedAnswersArr.filter((e) => {
         return e.toUpperCase() === givenAnswer.toUpperCase();
     });
     console.log("filtered array: " + filtered);
