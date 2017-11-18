@@ -9,7 +9,9 @@ export default class SubmitAnswer extends Component {
         this.state = {
             givenAnswer: 'Enter answer',
             question: props.question,
-            action: props.action
+            action: props.action,
+            submitBtnTxt: props.submitBtnTxt,
+            isHistoric: props.isHistoric
         }
     }
 
@@ -22,11 +24,15 @@ export default class SubmitAnswer extends Component {
     }
 
     onSubmit = () => {
-        console.log("Given answer is: " + this.state.givenAnswer);
-        const isCorrect = VerifyAnswer(this.state.givenAnswer, this.state.question);
+        const givenAnswer = this.state.isHistoric ? this.state.question.acceptableAnswers.split(",")["0"]
+            : this.state.givenAnswer;
+        console.log("Given answer is: " + givenAnswer);
+        const isCorrect = VerifyAnswer(givenAnswer, this.state.question);
         console.log("isCorrect?: " + isCorrect);
         if (isCorrect) {
-            QuestionsDAO.updateQuestion(this.state.question.id);
+            if (!this.state.isHistoric) {
+                QuestionsDAO.updateQuestion(this.state.question.id);
+            }
             this.state.action();
         } else {
             //do nothing
@@ -39,10 +45,10 @@ export default class SubmitAnswer extends Component {
         <View>
             <TextInput style={textInput}
                        onChangeText={(givenAnswer) => this.setState({givenAnswer})}
-                       value={this.state.text}>
+                       value={this.state.isHistoric ? this.state.question.acceptableAnswers.split(",")["0"] : this.state.text}>
             </TextInput>
             <TouchableOpacity onPress={this.onSubmit} style={submitBtn}>
-                <Text style={submitTxt}>Submit</Text>
+                <Text style={submitTxt}>{this.state.submitBtnTxt}</Text>
             </TouchableOpacity>
         </View>
         );
@@ -64,16 +70,18 @@ const styles = StyleSheet.create({
         color: '#fffdfe',
         paddingTop: 10,
         paddingBottom: 10,
+        fontFamily: 'cabin',
         fontWeight: 'bold',
         fontSize: 20
     },
     textInput: {
-        height: 40,
-        borderWidth: 1,
+        height: 45,
+        borderWidth: 2,
         borderColor: '#fffdfe',
         borderRadius: 5,
-        fontSize: 16,
-        fontFamily: 'Roboto',
-        backgroundColor: 'rgba(255, 255, 255, 0.20)',
+        fontSize: 20,
+        fontFamily: 'cabin_bold_italic',
+        textAlign: 'center',
+        backgroundColor: 'rgba(255, 255, 255, 0.20)'
     }
 });

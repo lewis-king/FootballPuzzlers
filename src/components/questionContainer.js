@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import ReactNative, {
     AppRegistry,
     Image,
@@ -15,10 +15,8 @@ import baseQuestions from '../../config/baseQuestions.json';
 import {
     AdMobBanner,
     AdMobInterstitial,
-    PublisherBanner,
-    AdMobRewarded,
 } from 'react-native-admob';
-import {BACKGROUND_IMAGE} from '../resources/images';
+import {BACKGROUND_IMAGE, SHARE_IMAGE} from '../resources/images';
 import QuestionsDAO from '../dao/questions-dao';
 
 export default class QuestionContainer extends Component {
@@ -31,14 +29,35 @@ export default class QuestionContainer extends Component {
             isHistoric,
             counter: 0
         };
+        if (AdMobInterstitial.getAdUnitId)
+        AdMobInterstitial.setAdUnitID('ca-app-pub-5964830289406172/2390323530');
         this.nextQuestion = this.nextQuestion.bind(this);
         this.updateState = this.updateState.bind(this);
-        if (!isHistoric) {
-            QuestionsDAO.preLoadQuestions(baseQuestions);
-        }
     }
 
     componentWillMount() {
+
+        AdMobInterstitial.addEventListener('adLoaded',
+            () => console.log('AdMobInterstitial adLoaded')
+        );
+        AdMobInterstitial.addEventListener('adFailedToLoad',
+            (error) => console.warn(error)
+        );
+        AdMobInterstitial.addEventListener('adOpened',
+            () => console.log('AdMobInterstitial => adOpened')
+        );
+        AdMobInterstitial.addEventListener('adClosed',
+            () => {
+                console.log('AdMobInterstitial => adClosed');
+                AdMobInterstitial.requestAd().catch(error => console.warn(error));
+            }
+        );
+        AdMobInterstitial.addEventListener('adLeftApplication',
+            () => console.log('AdMobInterstitial => adLeftApplication')
+        );
+
+        //AdMobInterstitial.requestAd().catch(error => console.warn(error));
+
         if (this.state.isHistoric) {
             QuestionsDAO.retrieveAllAnsweredQuestions(this.updateState)
         } else {
@@ -46,25 +65,49 @@ export default class QuestionContainer extends Component {
         }
     }
 
+    componentWillUnmount() {
+        AdMobInterstitial.removeAllListeners();
+    }
+
     updateState(questionsFromDB) {
         this.setState({
             questions: questionsFromDB,
-            question: questionsFromDB[this.state.counter]});
+            question: questionsFromDB[this.state.counter]
+        });
+    }
+
+    showInterstitial() {
+        //Let's show the interstitial every 3 questions
+        if (this.state.counter % 3 === 0) {
+            AdMobInterstitial.requestAd(AdMobInterstitial.showAd);
+        }
     }
 
     nextQuestion = () => {
-        let counter = this.state.counter++;
-        this.setState({
-            question: this.state.questions[counter],
-            counter
-        })
+        if (this.state.counter === this.state.questions.length - 1) {
+            console.log("I want to navigate...");
+            if(this.state.isHistoric) {
+                console.log("Back to mainmenu");
+                this.props.navigation.navigate('MainMenu');
+            } else {
+                console.log("to completed");
+                this.props.navigation.navigate('Completed');
+            }
+        } else {
+            let counter = ++this.state.counter;
+            this.showInterstitial();
+            this.setState({
+                question: this.state.questions[counter],
+                counter
+            })
+        }
     }
 
     share = () => {
         Share.share({
             message: this.state.question.toString(),
             title: 'I\'m stuck on Football Puzzlers!',
-            url: 'http://google.com'
+            url: ''
         }, {
             dialogTitle: 'I\'m stuck!',
             excludedActivityTypes: [],
@@ -74,13 +117,16 @@ export default class QuestionContainer extends Component {
     }
 
     render() {
-        const {container, content, image, qId} = styles;
+        const {container, content, image, shareImg, shareView, qId} = styles;
+        if (this.state.questions.length === 0) {
+            return null;
+        }
         return (
             <View style={container}>
                 <Image source={BACKGROUND_IMAGE} style={image}>
                     <View style={content}>
                         <View>
-                        <Header/>
+                            <Header text={'Football Puzzlers'}/>
                             <Text style={qId}>Question: {this.state.question.id}</Text>
                         </View>
                         <Question question={this.state.question}/>
@@ -91,11 +137,15 @@ export default class QuestionContainer extends Component {
                                 testDevices={'EMULATOR'}
                                 onAdFailedToLoad={error => console.error(error)}
                             />
-                            <TouchableHighlight onPress={this.share}>
-                                <Text style={styles.shareText}>Share Question</Text>
-                            </TouchableHighlight>
+                            <View style={shareView}>
+                                <TouchableHighlight onPress={this.share} activeOpacity={0.8} underlayColor={'#fffdfe'}>
+                                    <Image source={SHARE_IMAGE} style={shareImg}/>
+                                </TouchableHighlight>
+                            </View>
                         </View>
-                        <SubmitAnswer question={this.state.question} action={this.nextQuestion}/>
+                        <SubmitAnswer question={this.state.question} action={this.nextQuestion}
+                                      submitBtnTxt={this.state.isHistoric ? 'Next' : 'Submit'}
+                                      isHistoric={this.state.isHistoric}/>
                     </View>
                 </Image>
             </View>
@@ -120,15 +170,19 @@ const styles = StyleSheet.create({
         backgroundColor: 'transparent',
         resizeMode: 'stretch',
     },
-    shareText: {
-        fontSize: 20,
-        margin: 10,
-        textAlign: 'center',
-        alignItems: 'center'
+    shareView: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column'
+    },
+    shareImg: {
+        height: 50,
+        width: 50,
     },
     qId: {
         textAlign: 'center',
         alignItems: 'center',
+        fontFamily: 'cabin',
         fontSize: 20,
         fontWeight: 'bold',
         color: '#e2e2e2'

@@ -2,12 +2,19 @@ import React, {Component} from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {StackNavigator} from 'react-navigation';
 import Header from './header';
-import QuestionDAO from '../dao/questions-dao';
+import QuestionsDAO from '../dao/questions-dao';
+import baseQuestions from '../../config/baseQuestions.json';
+import {Fonts} from '../../src/utils/font';
 
 export default class MainMenu extends Component {
 
+    constructor(props) {
+        super(props);
+        QuestionsDAO.preLoadQuestions(baseQuestions);
+    }
+
     componentWillMount() {
-        const userProgress = QuestionDAO.retrieveUserProgress() + "%";
+        const userProgress = QuestionsDAO.retrieveUserProgress() + "%";
         this.setState({
             userProgress
         })
@@ -17,7 +24,7 @@ export default class MainMenu extends Component {
         const {btnStyle, container, submitTxt, progressTxt} = styles;
         return (
             <View style={container}>
-                <Header/>
+                <Header text={'Football Puzzlers'}/>
                 <TouchableOpacity onPress={() =>
                     this.props.navigation.navigate('Questions', {isHistoric: false})} style={btnStyle}>
                     <Text style={submitTxt}>Start/Continue</Text>
@@ -56,7 +63,8 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom: 10,
         fontWeight: 'bold',
-        fontSize: 20
+        fontSize: 20,
+        fontFamily: Fonts.Cabin
     },
     progressTxt: {
         alignSelf: 'center',
@@ -64,6 +72,7 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom: 10,
         fontWeight: 'bold',
-        fontSize: 20
+        fontSize: 20,
+        fontFamily: Fonts.Cabin
     }
 });

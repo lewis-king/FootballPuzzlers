@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {StackNavigator} from 'react-navigation';
-import MainMenu from "./mainMenu";
-import QuestionContainer from "./questionContainer";
+import MainMenu from './mainMenu';
+import Completed from './completed';
+import QuestionContainer from './questionContainer';
 
 const RootNavigator = StackNavigator({
         MainMenu: {screen: MainMenu},
@@ -11,6 +12,7 @@ const RootNavigator = StackNavigator({
                 isHistoric: ':isHistoric'
             }
         },
+        Completed: {screen: Completed},
         initialRouteName: {screen: MainMenu}
     },
     {

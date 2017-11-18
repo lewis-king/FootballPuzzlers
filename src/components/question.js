@@ -12,9 +12,9 @@ const Question = (props) => {
 const styles = StyleSheet.create({
     questionStyle: {
         margin: 10,
-        fontFamily: 'sans-serif',
-        fontSize: 16,
+        fontFamily: 'cabin',
         fontWeight: 'bold',
+        fontSize: 16,
         textShadowColor: '#252525',
         shadowOffset: {width: 2, height: 2},
         textShadowRadius: 15,
