@@ -39,9 +39,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>NSAppTransportSecurity</key>
-	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
@@ -52,5 +51,33 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Cabin-Bold.ttf</string>
+		<string>Cabin-BoldItalic.ttf</string>
+		<string>Cabin-Italic.ttf</string>
+		<string>Cabin-Medium.ttf</string>
+		<string>Cabin-MediumItalic.ttf</string>
+		<string>Cabin-Regular.ttf</string>
+		<string>Cabin-SemiBold.ttf</string>
+		<string>Cabin-SemiBoldItalic.ttf</string>
+		<string>cabin_bold_italic.ttf</string>
+		<string>cabin_bold.ttf</string>
+		<string>cabin_italic.ttf</string>
+		<string>cabin_medium_italic.ttf</string>
+		<string>cabin_medium.ttf</string>
+		<string>cabin_regular.ttf</string>
+		<string>cabin_semi_bold_italic.ttf</string>
+		<string>cabin_semi_bold.ttf</string>
+		<string>Cabin_bold_italic.ttf</string>
+		<string>Cabin_bold.ttf</string>
+		<string>Cabin_italic.ttf</string>
+		<string>Cabin_medium_italic.ttf</string>
+		<string>Cabin_medium.ttf</string>
+		<string>Cabin_regular.ttf</string>
+		<string>Cabin_semi_bold_italic.ttf</string>
+		<string>Cabin_semi_bold.ttf</string>
+		<string>cabin.ttf</string>
+	</array>
 </dict>
 </plist>

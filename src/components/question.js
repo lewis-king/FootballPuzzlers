@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         margin: 10,
         fontFamily: 'cabin',
         fontWeight: 'bold',
-        fontSize: 16,
+        fontSize: 17,
         textShadowColor: '#252525',
         shadowOffset: {width: 2, height: 2},
         textShadowRadius: 15,

@@ -1,9 +1,8 @@
 import React from 'React';
-import {StyleSheet, Text} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import Header from './header';
 
 const Completed = () => {
-    const {headerStyle} = styles;
     return (
         <View>
         <Header/>
