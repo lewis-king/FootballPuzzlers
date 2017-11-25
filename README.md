@@ -7,3 +7,7 @@ First start and emulator or connect a device!
 
 **Clean Rebuild**
 `rm -rf node_modules && npm install && react-native link`
+
+**Generate App Icon**
+Install GraphicsMagick and ImageMagick, then:
+`yo rn-toolbox:assets --icon ./src/resources/images/Football_Who_Am_I.png`

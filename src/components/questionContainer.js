@@ -19,6 +19,8 @@ import {
 import {SHARE_IMAGE} from '../resources/images';
 import QuestionsDAO from '../dao/questions-dao';
 import LinearGradient from 'react-native-linear-gradient';
+import {Colours} from '../utils/colours';
+
 AdMobInterstitial.setAdUnitID('ca-app-pub-5964830289406172/2390323530');
 
 export default class QuestionContainer extends Component {
@@ -70,7 +72,13 @@ export default class QuestionContainer extends Component {
         this.setState({
             questions: questionsFromDB,
             question: questionsFromDB[0]
-        });
+        }, this.goToCompleted);
+    }
+
+    goToCompleted() {
+        if (this.state.questions.length === 0) {
+            this.props.navigation.navigate('Completed');
+        }
     }
 
     showInterstitial() {
@@ -81,9 +89,9 @@ export default class QuestionContainer extends Component {
     }
 
     nextQuestion = () => {
-        if (this.state.question.id === this.state.questions.length) {
+        if (this.state.question.id === this.state.questions.length - 1) {
             console.log("I want to navigate...");
-            if(this.state.isHistoric) {
+            if (this.state.isHistoric) {
                 console.log("Back to mainmenu");
                 this.props.navigation.navigate('MainMenu');
             } else {
@@ -121,18 +129,26 @@ export default class QuestionContainer extends Component {
         if (this.state.questions.length === 0) {
             return null;
         }
+        const rand = Math.floor(Math.random() * (9 - 0 + 1)) + 0;
         return (
             <View style={container}>
-                <LinearGradient start={{x: 0.0, y:0.25}} end={{x: 0.5, y:1.0}}
+                <LinearGradient start={{x: 0.0, y: 0.25}} end={{x: 0.5, y: 1.0}}
                                 locations={[0, 0.5, 0.6]}
-                                colors={['#C2C2C2', '#8c8c8c', '#696969']}
+                                colors={Colours[rand]}
                                 style={gradient}>
                     <View style={content}>
                         <View>
                             <Header text={'Football - Who am I?'}/>
                             <Text style={qId}>Question: {this.state.question.id}</Text>
                         </View>
-                        <Question question={this.state.question}/>
+                        <View>
+                            <Question question={this.state.question}/>
+                            <View style={shareView}>
+                                <TouchableHighlight onPress={this.share} activeOpacity={0.8} underlayColor={'#fffdfe'}>
+                                    <Image source={SHARE_IMAGE} style={shareImg}/>
+                                </TouchableHighlight>
+                            </View>
+                        </View>
                         <View>
                             <AdMobBanner
                                 adSize="banner"
@@ -140,11 +156,6 @@ export default class QuestionContainer extends Component {
                                 testDevices={'EMULATOR'}
                                 onAdFailedToLoad={error => console.error(error)}
                             />
-                            <View style={shareView}>
-                                <TouchableHighlight onPress={this.share} activeOpacity={0.8} underlayColor={'#fffdfe'}>
-                                    <Image source={SHARE_IMAGE} style={shareImg}/>
-                                </TouchableHighlight>
-                            </View>
                         </View>
                         <SubmitAnswer question={this.state.question} action={this.nextQuestion}
                                       submitBtnTxt={this.state.isHistoric ? 'Next' : 'Submit'}
@@ -184,6 +195,6 @@ const styles = StyleSheet.create({
         fontFamily: 'cabin',
         fontSize: 20,
         fontWeight: 'bold',
-        color: '#e2e2e2'
+        color: '#3d3d3d'
     },
 });

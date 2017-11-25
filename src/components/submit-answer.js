@@ -44,6 +44,8 @@ export default class SubmitAnswer extends Component {
                 this.setState({
                     targetColor: 'rgba(63, 104, 28, 1)'
                 }, this.animateSubmitBtn(() => this.nextQuestion()));
+            } else {
+                this.nextQuestion();
             }
         } else {
             this.setState({
