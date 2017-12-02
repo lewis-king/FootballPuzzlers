@@ -10,17 +10,19 @@ const QuestionDAO = {
 
     persistQuestionsToDB: function(questions) {
         console.log("About to save questions to DB");
+        let counter = 1;
         questions.forEach((question => {
             realm.write(() => {
                 console.log("Saving question with id: " + question.questionId);
                 realm.create('Question',
                     {
-                        id: question.questionId,
+                        id: counter,
                         question: question.question,
                         acceptableAnswers: question.acceptableAnswers.toString(),
                         answered: false
                     })
             })
+            counter++;
         }));
         console.log("Finished saving questions to the DB");
     },

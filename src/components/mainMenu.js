@@ -16,10 +16,18 @@ export default class MainMenu extends Component {
 
     componentWillMount() {
         console.log("In component will mount!");
-        const userProgress = QuestionsDAO.retrieveUserProgress() + "%";
+        this.refreshProgress();
+    }
+
+    refreshProgress() {
+        const userProgress = QuestionsDAO.retrieveUserProgress();
         this.setState({
             userProgress
         })
+    }
+
+    componentDidUpdate() {
+        console.log("Component did update");
     }
 
     componentDidMount() {
@@ -28,9 +36,14 @@ export default class MainMenu extends Component {
 
     componentWillReceiveProps(newProps) {
         console.log("component will receive props");
+        const userProgress = QuestionsDAO.retrieveUserProgress();
+        this.setState({
+            userProgress
+        })
     }
 
     render() {
+        console.log("RENDERING MAIN MENU");
         const {btnStyle, container, content, image, submitTxt, progressTxt} = styles;
         return (
             <View style={container}>
@@ -39,14 +52,14 @@ export default class MainMenu extends Component {
                         <Header text={'Football - Who am I?'}/>
                         <TouchableOpacity onPress={() =>
                             this.props.navigation.navigate('Questions', {isHistoric: false})} style={btnStyle}>
-                            <Text style={submitTxt}>Start/Continue</Text>
+                            <Text style={submitTxt}>{this.state.userProgress === 0 ? "Start" : "Continue"}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={() =>
                             this.props.navigation.navigate('Questions', {isHistoric: true})} style={btnStyle}>
                             <Text style={submitTxt}>Question History</Text>
                         </TouchableOpacity>
                         <Text style={progressTxt}>
-                            Progress: {this.state.userProgress}
+                            Progress: {this.state.userProgress}%
                         </Text>
                     </View>
                 </Image>
@@ -89,7 +102,7 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom: 10,
         fontWeight: 'bold',
-        fontSize: 20,
+        fontSize: 22,
         fontFamily: Fonts.Cabin
     },
     progressTxt: {

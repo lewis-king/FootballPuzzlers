@@ -20,6 +20,7 @@ import {SHARE_IMAGE} from '../resources/images';
 import QuestionsDAO from '../dao/questions-dao';
 import LinearGradient from 'react-native-linear-gradient';
 import {Colours} from '../utils/colours';
+import {Constants} from '../utils/constants';
 
 AdMobInterstitial.setAdUnitID('ca-app-pub-5964830289406172/2390323530');
 
@@ -77,7 +78,13 @@ export default class QuestionContainer extends Component {
 
     goToCompleted() {
         if (this.state.questions.length === 0) {
-            this.props.navigation.navigate('Completed');
+            if (this.state.isHistoric) {
+                this.props.navigation.navigate('Completed', {title: "",
+                    paragraph: Constants.nothingToSeeHere});
+            } else {
+                this.props.navigation.navigate('Completed', {title: Constants.congratsTitle,
+                    paragraph: Constants.congratsParagraph});
+            }
         }
     }
 
@@ -89,14 +96,17 @@ export default class QuestionContainer extends Component {
     }
 
     nextQuestion = () => {
-        if (this.state.question.id === this.state.questions.length - 1) {
+        console.log("question id is: " +this.state.question.id);
+        console.log("questions length is: " +this.state.questions.length);
+        if (this.state.question.id === this.state.questions.length || this.state.questions.length === 0) {
             console.log("I want to navigate...");
             if (this.state.isHistoric) {
                 console.log("Back to mainmenu");
                 this.props.navigation.navigate('MainMenu');
             } else {
                 console.log("to completed");
-                this.props.navigation.navigate('Completed');
+                this.props.navigation.navigate('Completed', {title: Constants.congratsTitle,
+                    paragraph: Constants.congratsParagraph});
             }
         } else {
             this.showInterstitial();

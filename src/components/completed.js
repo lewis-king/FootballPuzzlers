@@ -4,17 +4,23 @@ import Header from './header';
 
 export default class Completed extends Component {
 
+    constructor(props) {
+        super(props);
+        const {title, paragraph} = props.navigation.state.params;
+        this.state = {
+            title,
+            paragraph
+        }
+    }
+
     render() {
         const {congrats, container, paragraphText, btnStyle, submitTxt} = styles;
         return (
             <View style={container}>
                 <Header text={'Football - Who am I?'}/>
-                <Text style={congrats}>Congratulations!</Text>
+                <Text style={congrats}>{this.state.title}</Text>
                 <Text style={paragraphText}>
-                    Wow! You've made it to the end, very impressive!
-                    {"\n"}This is the first iteration of the app, I'll be adding more
-                    features and questions in the near future, so stay tuned!
-                    {"\n"}I hope you enjoyed 'Football - Who am I?'
+                    {this.state.paragraph}
                 </Text>
                 <TouchableOpacity onPress={() => this.props.navigation.navigate('MainMenu')} style={btnStyle}>
                     <Text style={submitTxt}>Main Menu</Text>

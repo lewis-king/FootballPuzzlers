@@ -7,7 +7,7 @@ export default class SubmitAnswer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            givenAnswer: 'Enter answer',
+            givenAnswer: '',
             question: props.question,
             action: props.action,
             submitBtnTxt: props.submitBtnTxt,
@@ -21,7 +21,7 @@ export default class SubmitAnswer extends Component {
     componentWillReceiveProps(nextProps) {
         console.log("component will receive props");
         this.setState({
-            givenAnswer: 'Enter answer',
+            givenAnswer: '',
             question: nextProps.question,
             action: nextProps.action
         })
@@ -88,8 +88,10 @@ export default class SubmitAnswer extends Component {
         return (
         <View>
             <TextInput style={textInput}
+                       placeholder={"Enter answer..."}
                        onChangeText={(givenAnswer) => this.setState({givenAnswer})}
-                       value={this.state.isHistoric ? this.state.question.acceptableAnswers.split(",")["0"] : this.state.text}>
+                       value={this.state.isHistoric ? this.state.question.acceptableAnswers.split(",")["0"] : this.state.givenAnswer}
+                       editable={!this.state.isHistoric}>
             </TextInput>
             <AnimatedButton onPress={this.onSubmit} style={[submitBtn, {backgroundColor: submitBtnBackColor}]}>
                 <Text style={submitTxt}>{this.state.isChecking ? 'Checking...' : this.state.submitBtnTxt}</Text>
