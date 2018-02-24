@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
         color: '#3d3d3d'
     },
     container: {
+        backgroundColor: 'rgba(95, 125, 132, 0.30)',
         flex: 1,
         justifyContent: 'space-between',
     },

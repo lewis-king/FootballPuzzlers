@@ -1,0 +1,15 @@
+A Football(soccer) trivia guess who style app in which you will be given certain facts about a player and you must guess who is being described.
+The questions are predominately based around the Premier League with the majority within the last decade era.
+A bit of background around building the game:
+You may or may not be part of a social circle which love to talk about football whether it's on social media or physically together at say a pub. Every now and then someone in the group may have heard about an intriguing & difficult question in which you must guess the answer as a group. The guessing stage may go on for hours without the answer being revealed based on how hard the question is and the knowledge of the group. 
+This app has been built to bring this experience to an actual platform rather than it just being an email thread or social media message. So the game has been designed without any clues or passes, the idea of the game is to try and answer the question and if you are unable to, get your friends involved whether it is in-person of using the 'Share' functionality in the game.
+
+The facts are based around the career of the individual including things like:
+* Clubs the player has played for
+* Teammates the player has played with
+* Managers the player has been managed by
+* Accolades the player has won throughout his career (including both individual and club honours)
+
+The questions generally get harder as you progress, and the game has not been designed in a way you can blitz through in one sitting. If you get stuck, reach out for help. There are no shortcuts in the game.
+
+I hope you enjoy and feel free to leave some feedback!

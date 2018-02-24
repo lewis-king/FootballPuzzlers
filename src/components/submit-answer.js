@@ -2,12 +2,13 @@ import React, {Component} from 'react';
 import {Animated, StyleSheet, Text, TouchableOpacity, TextInput, View} from 'react-native';
 import VerifyAnswer from '../services/verify-answer';
 import QuestionsDAO from '../dao/questions-dao';
+//import * as Animatable from 'react-native-animatable';
 
 export default class SubmitAnswer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            givenAnswer: '',
+            givenAnswer: props.givenAnswer,
             question: props.question,
             action: props.action,
             submitBtnTxt: props.submitBtnTxt,
@@ -21,7 +22,7 @@ export default class SubmitAnswer extends Component {
     componentWillReceiveProps(nextProps) {
         console.log("component will receive props");
         this.setState({
-            givenAnswer: '',
+            givenAnswer: nextProps.givenAnswer,
             question: nextProps.question,
             action: nextProps.action
         })
@@ -30,6 +31,11 @@ export default class SubmitAnswer extends Component {
     nextQuestion() {
         console.log("Question answered correctly, moving onto next...");
         QuestionsDAO.updateQuestion(this.state.question.id);
+        const submitTxt = this.state.isHistoric ? "Next" : "Submit";
+        this.setState({
+            givenAnswer: '',
+            submitBtnTxt: submitTxt
+        });
         this.state.action();
     }
 
@@ -43,7 +49,10 @@ export default class SubmitAnswer extends Component {
             if (!this.state.isHistoric) {
                 this.setState({
                     targetColor: 'rgba(63, 104, 28, 1)'
-                }, this.animateSubmitBtn(() => this.nextQuestion()));
+                }, this.animateSubmitBtn("Correct!", () => {
+                    this.flushSubmitBtnState(true);
+                    this.nextQuestion()
+                }));
             } else {
                 this.nextQuestion();
             }
@@ -51,32 +60,40 @@ export default class SubmitAnswer extends Component {
             this.setState({
                 targetColor: 'rgba(212, 62, 42, 1)'
             });
-            this.animateSubmitBtn(() => console.log("Incorrect answer, animated fail scenario"));
+            this.animateSubmitBtn("Incorrect, try again", () => {
+                console.log("Incorrect answer, animated fail scenario");
+                this.flushSubmitBtnState(false);
+            });
         }
-    }
+    };
 
-    animateSubmitBtn = (callback) => {
+    flushSubmitBtnState = (isCorrect) => {
+        const submitTxt = this.state.isHistoric ? "Next" : "Submit";
+        this.setState({
+            givenAnswer: this.state.givenAnswer,
+            submitBtnBackColor: new Animated.Value(0),
+            submitBtnTxt: submitTxt
+        })
+    };
+
+    animateSubmitBtn = (submitBtnTxt, callback) => {
         this.setState({
             isChecking: true
         });
         Animated.sequence([
             Animated.timing(this.state.submitBtnBackColor, {
                 delay: 1000,
-                duration: 500,
+                duration: 1000,
                 toValue: 1
-            }),
-            Animated.timing(this.state.submitBtnBackColor, {
-                delay: 1500,
-                duration: 700,
-                toValue: 0
             })
         ]).start(() => {
             this.setState({
-                isChecking: false
-            })
-            callback();
+                isChecking: false,
+                submitBtnTxt
+            });
+            setTimeout(callback, 2000);
         });
-    }
+    };
 
     render() {
         const {submitBtn, submitTxt, textInput} = styles;
@@ -93,7 +110,8 @@ export default class SubmitAnswer extends Component {
                        value={this.state.isHistoric ? this.state.question.acceptableAnswers.split(",")["0"] : this.state.givenAnswer}
                        editable={!this.state.isHistoric}>
             </TextInput>
-            <AnimatedButton onPress={this.onSubmit} style={[submitBtn, {backgroundColor: submitBtnBackColor}]}>
+            <AnimatedButton onPress={this.onSubmit} style={[submitBtn, {backgroundColor: submitBtnBackColor}]}
+            disabled={this.state.isChecking}>
                 <Text style={submitTxt}>{this.state.isChecking ? 'Checking...' : this.state.submitBtnTxt}</Text>
             </AnimatedButton>
         </View>
@@ -125,7 +143,7 @@ const styles = StyleSheet.create({
         borderColor: '#fffdfe',
         borderRadius: 5,
         fontSize: 20,
-        fontFamily: 'cabin_bold_italic',
+        fontFamily: 'Cabin-BoldItalic',
         textAlign: 'center',
         backgroundColor: 'rgba(255, 255, 255, 0.20)'
     }

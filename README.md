@@ -11,3 +11,11 @@ First start and emulator or connect a device!
 **Generate App Icon**
 Install GraphicsMagick and ImageMagick, then:
 `yo rn-toolbox:assets --icon ./src/resources/images/Football_Who_Am_I.png`
+
+**Generate Android Artefact**
+In android dir:
+`./gradlew assembleRelease`
+
+**Release IOS Beta**
+In ios/fastlane dir:
+`fastlane ios beta`

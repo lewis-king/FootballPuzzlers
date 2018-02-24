@@ -1,6 +1,6 @@
 import React from 'React';
 import {StyleSheet, Text} from 'react-native';
-import {Fonts} from '../../src/utils/font';
+import {Fonts} from '../utils/fonts';
 
 const Header = (props) => {
     const headerTxt = props.text;
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     headerStyle: {
         textAlign: 'center',
         alignItems: 'center',
-        margin: 5,
+        margin: 3,
         fontFamily: Fonts.Cabin,
         fontSize: 30,
         fontWeight: 'bold',

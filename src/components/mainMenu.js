@@ -4,7 +4,7 @@ import {StackNavigator} from 'react-navigation';
 import Header from './header';
 import QuestionsDAO from '../dao/questions-dao';
 import baseQuestions from '../../config/baseQuestions.json';
-import {Fonts} from '../../src/utils/font';
+import {Fonts} from '../utils/fonts';
 import {BACKGROUND_IMAGE} from "../resources/images/index";
 
 export default class MainMenu extends Component {
@@ -19,12 +19,12 @@ export default class MainMenu extends Component {
         this.refreshProgress();
     }
 
-    refreshProgress() {
+    refreshProgress = () => {
         const userProgress = QuestionsDAO.retrieveUserProgress();
         this.setState({
             userProgress
         })
-    }
+    };
 
     componentDidUpdate() {
         console.log("Component did update");
@@ -51,12 +51,18 @@ export default class MainMenu extends Component {
                     <View style={content}>
                         <Header text={'Football - Who am I?'}/>
                         <TouchableOpacity onPress={() =>
-                            this.props.navigation.navigate('Questions', {isHistoric: false})} style={btnStyle}>
+                            this.props.navigation.navigate('Questions',
+                                {isHistoric: false, refreshProgress: this.refreshProgress})} style={btnStyle}>
                             <Text style={submitTxt}>{this.state.userProgress === 0 ? "Start" : "Continue"}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={() =>
-                            this.props.navigation.navigate('Questions', {isHistoric: true})} style={btnStyle}>
+                            this.props.navigation.navigate('Questions',
+                                {isHistoric: true, refreshProgress: this.refreshProgress})} style={btnStyle}>
                             <Text style={submitTxt}>Question History</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity onPress={() =>
+                            this.props.navigation.navigate('HowToPlay')} style={btnStyle}>
+                            <Text style={submitTxt}>How to play</Text>
                         </TouchableOpacity>
                         <Text style={progressTxt}>
                             Progress: {this.state.userProgress}%

@@ -10,19 +10,35 @@ const QuestionDAO = {
 
     persistQuestionsToDB: function(questions) {
         console.log("About to save questions to DB");
-        let counter = 1;
-        questions.forEach((question => {
+        const currQs = realm.objects("Question");
+        questions.forEach(((question, i) => {
             realm.write(() => {
-                console.log("Saving question with id: " + question.questionId);
+                console.log("Saving question with id: " + question.id);
+                const {GK, DEF, MID, FWD, RET, ENG} = question.clues;
+                console.log("question.clues is: " + question.clues);
+                //!!!!STORE THIS AS BOOLEAN NOT STRING, BOOLEAN.VALUEOF
+                console.log("GK, DEF, MID, FWD, RET, ENG is " + GK + DEF + MID + FWD + RET + ENG);
+                console.log("index is: ", i);
+                console.log("Current Questions is: " +currQs);
+                const isAnswered = (currQs[i] !== undefined && currQs[i].answered !== undefined
+                                                            && currQs[i].answered) || false;
                 realm.create('Question',
                     {
-                        id: counter,
+                        id: question.id,
                         question: question.question,
                         acceptableAnswers: question.acceptableAnswers.toString(),
-                        answered: false
-                    })
-            })
-            counter++;
+                        clues: {GK, DEF, MID, FWD, RET, ENG},
+                        answered: isAnswered,
+                        cluesObtained: {
+                            GK: false,
+                            DEF: false,
+                            MID: false,
+                            FWD: false,
+                            RET: false,
+                            ENG: false
+                        }
+                    }, true)
+            });
         }));
         console.log("Finished saving questions to the DB");
     },
@@ -56,9 +72,10 @@ const QuestionDAO = {
     retrieveAllQuestions: function () {
         let questions = realm.objects('Question');
         console.log("Returning total questions from the DB: " + questions.length);
-        if (baseQuestions.length > questions.length) {
+        /*if (baseQuestions.length > questions.length) {
             QuestionDAO.purgeDatabase(QuestionDAO.persistQuestionsToDB);
-        }
+        }*/
+        QuestionDAO.persistQuestionsToDB(baseQuestions);
         return questions;
     },
 
