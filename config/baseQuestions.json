@@ -947,5 +947,31 @@
         "RET": false,
 	"ENG": false
     }
+  },
+  {
+    "id": 74,
+    "question": "I won the English League Cup during my time in the Premier League.\nPlayers I have played with include Joe Cole, Reyes, Doni & Forlán and I have a FIFA World Cup runners up medal to my name",
+    "acceptableAnswers": ["Maxi Rodríguez", "Rodríguez", "Maxi Rodriguez", "Rodriguez"],
+    "clues": {
+	"GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	"ENG": false
+    }
+  },
+  {
+    "id": 75,
+    "question": "Some of the teams I've played for include Leeds United, Crystal Palace, Birmingham City & Chelsea.\nI've played with Drogba, Sebastian Larsson & Cameron Jerome to name a few.",
+    "acceptableAnswers": ["Mikael Forssell", "Forssell"],
+    "clues": {
+	"GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	"ENG": false
+    }
   }
 ]

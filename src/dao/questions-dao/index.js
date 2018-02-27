@@ -4,8 +4,7 @@ import realm from '../realm';
 
 const QuestionDAO = {
     preLoadQuestions: function(questions) {
-        //First check whether we need to load questions into DB
-        const questionsInDB = QuestionDAO.retrieveAllQuestions();
+        QuestionDAO.persistQuestionsToDB(questions);
     },
 
     persistQuestionsToDB: function(questions) {
@@ -22,6 +21,17 @@ const QuestionDAO = {
                 console.log("Current Questions is: " +currQs);
                 const isAnswered = (currQs[i] !== undefined && currQs[i].answered !== undefined
                                                             && currQs[i].answered) || false;
+                const selectedClues = {
+                        GK: (currQs[i] !== undefined && currQs[i].selectedClues.GK !== '') ? currQs[i].selectedClues.GK : '',
+                        DEF: (currQs[i] !== undefined && currQs[i].selectedClues.DEF !== '') ? currQs[i].selectedClues.DEF : '',
+                        MID: (currQs[i] !== undefined && currQs[i].selectedClues.MID !== '') ? currQs[i].selectedClues.MID : '',
+                        FWD: (currQs[i] !== undefined && currQs[i].selectedClues.FWD !== '') ? currQs[i].selectedClues.FWD : '',
+                        RET: (currQs[i] !== undefined && currQs[i].selectedClues.RET !== '') ? currQs[i].selectedClues.RET : '',
+                        ENG: (currQs[i] !== undefined && currQs[i].selectedClues.ENG !== '') ? currQs[i].selectedClues.ENG : ''
+                    };
+                const selectedCluesArr = Object.values(selectedClues);
+                console.log("about to save this many selected clues: " +selectedCluesArr.length);
+
                 realm.create('Question',
                     {
                         id: question.id,
@@ -29,14 +39,7 @@ const QuestionDAO = {
                         acceptableAnswers: question.acceptableAnswers.toString(),
                         clues: {GK, DEF, MID, FWD, RET, ENG},
                         answered: isAnswered,
-                        cluesObtained: {
-                            GK: false,
-                            DEF: false,
-                            MID: false,
-                            FWD: false,
-                            RET: false,
-                            ENG: false
-                        }
+                        selectedClues
                     }, true)
             });
         }));
@@ -51,6 +54,16 @@ const QuestionDAO = {
         console.log("Finished writing update that question is answered");
     },
 
+    updateSelectedClues: function (id, selectedClues) {
+        realm.write(() => {
+            realm.create('Question',
+                {
+                    id: id,
+                    selectedClues: selectedClues
+                }, true)
+        });
+    },
+
     retrieveAllUnansweredQuestions: function (callback) {
         let questions = realm.objects('Question').filtered('answered == false');
         console.log("Returning total number of unanswered questions from the DB: " + questions.length);
@@ -59,6 +72,8 @@ const QuestionDAO = {
             console.log("Question: " + e.question);
             console.log("Acceptable Answers: " + e.acceptableAnswers);
             console.log("Answered?: " + e.answered);
+            const selectedCluesArr = Object.values(e.selectedClues);
+            console.log("about to retrieve this many selected clues: " +selectedCluesArr.length);
         });
         callback(questions);
     },
@@ -72,10 +87,6 @@ const QuestionDAO = {
     retrieveAllQuestions: function () {
         let questions = realm.objects('Question');
         console.log("Returning total questions from the DB: " + questions.length);
-        /*if (baseQuestions.length > questions.length) {
-            QuestionDAO.purgeDatabase(QuestionDAO.persistQuestionsToDB);
-        }*/
-        QuestionDAO.persistQuestionsToDB(baseQuestions);
         return questions;
     },
 

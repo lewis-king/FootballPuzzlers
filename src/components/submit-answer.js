@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Animated, StyleSheet, Text, TouchableOpacity, TextInput, View} from 'react-native';
 import VerifyAnswer from '../services/verify-answer';
 import QuestionsDAO from '../dao/questions-dao';
-//import * as Animatable from 'react-native-animatable';
+import * as Animatable from 'react-native-animatable';
 
 export default class SubmitAnswer extends Component {
     constructor(props) {
@@ -15,7 +15,8 @@ export default class SubmitAnswer extends Component {
             isHistoric: props.isHistoric,
             submitBtnBackColor: new Animated.Value(0),
             isChecking: false,
-            targetColor: 'rgba(212, 62, 42, 1)'
+            targetColor: 'rgba(212, 62, 42, 1)',
+            submitBtnAnimation: ""
         }
     }
 
@@ -72,11 +73,13 @@ export default class SubmitAnswer extends Component {
         this.setState({
             givenAnswer: this.state.givenAnswer,
             submitBtnBackColor: new Animated.Value(0),
-            submitBtnTxt: submitTxt
+            submitBtnTxt: submitTxt,
+            submitBtnAnimation: ""
         })
     };
 
     animateSubmitBtn = (submitBtnTxt, callback) => {
+        const submitBtnAnimation = submitBtnTxt === "Correct!" ? "tada" : "shake";
         this.setState({
             isChecking: true
         });
@@ -89,7 +92,8 @@ export default class SubmitAnswer extends Component {
         ]).start(() => {
             this.setState({
                 isChecking: false,
-                submitBtnTxt
+                submitBtnTxt,
+                submitBtnAnimation
             });
             setTimeout(callback, 2000);
         });
@@ -112,7 +116,7 @@ export default class SubmitAnswer extends Component {
             </TextInput>
             <AnimatedButton onPress={this.onSubmit} style={[submitBtn, {backgroundColor: submitBtnBackColor}]}
             disabled={this.state.isChecking}>
-                <Text style={submitTxt}>{this.state.isChecking ? 'Checking...' : this.state.submitBtnTxt}</Text>
+                <Animatable.Text animation={this.state.submitBtnAnimation} style={submitTxt}>{this.state.isChecking ? 'Checking...' : this.state.submitBtnTxt}</Animatable.Text>
             </AnimatedButton>
         </View>
         );

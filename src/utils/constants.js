@@ -31,5 +31,5 @@ export const Constants = {
     "\nI'd also love to hear your feedback and suggestions, so please review." +
     "\nI hope you enjoyed 'Football - Who am I?'",
     nothingToSeeHere: "Nothing to see here yet...",
-    questionsTotal: 73
+    questionsTotal: 75
 };

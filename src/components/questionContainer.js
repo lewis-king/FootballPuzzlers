@@ -52,6 +52,7 @@ export default class QuestionContainer extends Component {
     constructor(props) {
         super(props);
         const {isHistoric, refreshProgress} = props.navigation.state.params;
+        const rand = this.randNum();
         this.state = {
             questions: [],
             isHistoric,
@@ -61,15 +62,14 @@ export default class QuestionContainer extends Component {
             revealBtnBackColour: 'rgba(34, 92, 105, 1)',
             modalVisible: false,
             clues: Constants.clues,
-            selectedClues: {},
-            clueCount: 0
+            rand
         };
         this.nextQuestion = this.nextQuestion.bind(this);
         this.updateState = this.updateState.bind(this);
     }
 
     componentDidMount() {
-
+        console.log("component did mount");
         AdMobInterstitial.addEventListener('adLoaded',
             () => console.log('AdMobInterstitial adLoaded')
         );
@@ -149,10 +149,17 @@ export default class QuestionContainer extends Component {
         AdMobRewarded.removeAllListeners();
     }
 
+    randNum(from, to) {
+        return Math.floor(Math.random() * (9 - 0 + 1)) + 0;
+    }
+
     updateState(questionsFromDB) {
+        const clueCount = this.calculateClueCount(questionsFromDB[0].selectedClues);
         this.setState({
             questions: questionsFromDB,
             question: questionsFromDB[0],
+            selectedClues: questionsFromDB[0].selectedClues,
+            clueCount
         }, this.goToCompleted);
     }
 
@@ -193,18 +200,36 @@ export default class QuestionContainer extends Component {
                     paragraph: Constants.congratsParagraph});
             }
         } else {
-            this.showInterstitial();
+            if (!this.state.isHistoric) {
+                this.showInterstitial();
+            }
             //Questions are reloaded from DB on next question which means index to grab active
             //question should always be 0
             const index = this.state.isHistoric ? this.state.question.id : 0;
+            const clueCount = this.calculateClueCount(this.state.questions[index].selectedClues);
+            const selectedClues = this.state.questions[index].selectedClues;
+            const rand = this.randNum();
             this.setState({
                 question: this.state.questions[index],
-                selectedClues: {},
-                clueCount: 0
+                selectedClues,
+                clueCount,
+                rand,
+                givenAnswer: ''
             });
             console.log("set state in next question");
             this.state.refreshProgress()
         }
+    };
+
+    calculateClueCount = (selectedClues) => {
+        let clueCount = 0;
+        Object.keys(selectedClues).map(function(keyName, keyIndex){
+            let selected = selectedClues[keyName];
+            if (selected !== "") {
+                clueCount++
+            }
+        });
+        return clueCount;
     };
 
     share = () => {
@@ -278,9 +303,9 @@ export default class QuestionContainer extends Component {
     };
 
     showCluesOverlay = () => {
-      this.setState({
-          modalVisible: true
-      })
+        this.setState({
+            modalVisible: true
+        })
     };
 
     hideCluesOverlay = () => {
@@ -291,23 +316,29 @@ export default class QuestionContainer extends Component {
 
     chooseClue = (clueId) => {
         //ux of button checking...
-        console.log("clueId selected is: " +clueId);
+        console.log("clueId selected is: " + clueId);
         //check if clue is yes or no...
         const clueAnswer = this.state.question.clues[clueId] ? "True" : "False";
-        console.log("clue answer is: " +clueAnswer);
-        const newClueCount = ++this.state.clueCount;
+        console.log("clue answer is: " + clueAnswer);
+
         this.setState(prevState => ({
             selectedClues: {
                 ...prevState.selectedClues,
                 [clueId]: clueAnswer
             },
-            clueCount: newClueCount
-        }));
-        console.log("selected clues: " +this.state.selectedClues[clueId]);
+        }), () => {
+            const newClueCount = this.calculateClueCount(this.state.selectedClues);
+            this.setState({
+                clueCount: newClueCount
+            });
+            QuestionsDAO.updateSelectedClues(this.state.question.id, this.state.selectedClues);
+        });
+        console.log("selected clues: " + this.state.selectedClues[clueId]);
     };
 
     determineClueRevealBackgroundCol = (clueRevealState) => {
-        const result = clueRevealState === undefined ? 'rgba(52, 52, 52, 0.0)' : clueRevealState == 'True' ? '#137F16' : '#922C30';
+        const result = (clueRevealState === undefined || clueRevealState === '')
+            ? 'rgba(52, 52, 52, 0.0)' : clueRevealState == 'True' ? '#137F16' : '#922C30';
         return result;
     };
 
@@ -318,7 +349,6 @@ export default class QuestionContainer extends Component {
         if (this.state.questions.length === 0) {
             return null;
         }
-        const rand = Math.floor(Math.random() * (9 - 0 + 1)) + 0;
         const revealLetterCopy = 'Reveal\nLetter';
         const cluesCopy = 'Choose\nClue';
         const AnimatedButton = Animated.createAnimatedComponent(TouchableOpacity);
@@ -326,7 +356,7 @@ export default class QuestionContainer extends Component {
             <View style={container}>
                 <LinearGradient start={{x: 0.0, y: 0.25}} end={{x: 0.5, y: 1.0}}
                                 locations={[0, 0.5, 0.6]}
-                                colors={Colours[rand]}
+                                colors={Colours[this.state.rand]}
                                 style={gradient}>
                     <View style={content}>
                         <View style={header}>
@@ -351,16 +381,18 @@ export default class QuestionContainer extends Component {
                                         <View>
                                             <View style={clueElements}>
                                                 <AnimatedButton
-                                                    disabled={this.state.clueCount >= 2}
+                                                    visible={!this.state.isHistoric}
+                                                    disabled={this.state.clueCount >= 2 || this.state.isHistoric}
                                                     onPress={() => this.chooseClue(item.key)}
                                                     style={[cluesBtn, {backgroundColor: this.state.revealBtnBackColour}]}>
                                                     <Text style={cluesTxt}>{item.desc}</Text>
                                                 </AnimatedButton>
                                                 <AnimatedButton
+                                                    visible={!this.state.isHistoric}
                                                     disabled={true}
                                                     style={[clueRevealBtn, {backgroundColor:
                                                         this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])}]}>
-                                                    <Text style={cluesTxt}>{this.state.selectedClues[item.key] !== undefined
+                                                    <Text style={cluesTxt}>{this.state.selectedClues[item.key] !== undefined || this.state.selectedClues[item.key] !== ''
                                                         ? this.state.selectedClues[item.key].toString() : "?"}
                                                     </Text>
                                                 </AnimatedButton>
@@ -395,7 +427,7 @@ export default class QuestionContainer extends Component {
                             <AdMobBanner
                                 adSize="banner"
                                 adUnitID={bannerId}
-                                onAdFailedToLoad={error => console.warn(error)}
+                                onAdFailedToLoad={(error) => error}
                             />
                         </View>
                         <SubmitAnswer question={this.state.question} action={this.nextQuestion}
@@ -451,7 +483,7 @@ const styles = StyleSheet.create({
         paddingTop: 5,
         paddingBottom: 5,
         paddingRight: 5,
-        paddingLeft: 5,
+        paddingLeft: 7,
         margin: 7
     },
     cluesTxt: {

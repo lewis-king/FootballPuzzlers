@@ -12,7 +12,7 @@ Question.schema = {
         acceptableAnswers: 'string',
         answered: 'bool',
         clues: 'Clues',
-        obtainedClues: 'Clues'
+        selectedClues: 'SelectedClues'
     }
 };
 
@@ -29,8 +29,21 @@ Clues.schema = {
     }
 };
 
+class SelectedClues extends Realm.Object {}
+SelectedClues.schema = {
+    name: 'SelectedClues',
+    properties: {
+        GK: 'string',
+        DEF: 'string',
+        MID: 'string',
+        FWD: 'string',
+        RET: 'string',
+        ENG: 'string'
+    }
+};
+
 export default new Realm({
-    schema: [Question, Clues],
+    schema: [Question, Clues, SelectedClues],
     schemaVersion: 1,
     migration: (oldRealm, newRealm) => {
         // only apply this change if upgrading to schemaVersion 1
