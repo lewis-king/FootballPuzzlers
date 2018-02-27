@@ -365,7 +365,7 @@
   },
   {
     "id": 29,
-    "question": "Now retired, I reached the 100 goal mark in the Premier League without scoring from the penalty spot.\nI played for 5 different Premier League teams but never won the league",
+    "question": "I reached the 100 goal mark in the Premier League without scoring from the penalty spot.\nI played for 5 different Premier League teams but never won the league",
     "acceptableAnswers": ["Emile Heskey", "Heskey"],
     "clues": {
 	"GK": false,
@@ -422,7 +422,7 @@
     "clues": {
 	"GK": false,
         "DEF": false,
-        "MID": false,
+        "MID": true,
         "FWD": true,
         "RET": false,
 	"ENG": false
@@ -652,11 +652,11 @@
   {
     "id": 51,
     "question": "I'm a forward who has played with the likes of Torres, Kalou, Alonso & Keane.\nAfter scoring a hat-trick in the last game of the season to secure my club their first league title in the 21st century I announced my retirement",
-    "acceptableAnswers": ["Dirk Kuyt", "Kuyt", "Dirk Kuijt"],
+    "acceptableAnswers": ["Dirk Kuyt", "Kuyt", "Dirk Kuijt", "Kuijt"],
     "clues": {
 	"GK": false,
         "DEF": false,
-        "MID": false,
+        "MID": true,
         "FWD": true,
         "RET": true,
 	"ENG": false
@@ -682,7 +682,7 @@
     "clues": {
 	"GK": false,
         "DEF": false,
-        "MID": false,
+        "MID": true,
         "FWD": true,
         "RET": false,
 	"ENG": false
@@ -771,10 +771,10 @@
     "question": "I have managed to win 2 Premier League medals by only playing a total of 12 matches in total for two different teams.\nThe two teams were Arsenal and Man City",
     "acceptableAnswers": ["Richard Wright", "Wright"],
     "clues": {
-	"GK": false,
+	"GK": true,
         "DEF": false,
         "MID": false,
-        "FWD": true,
+        "FWD": false,
         "RET": true,
 	"ENG": true
     }
