@@ -5,6 +5,7 @@
 	};
 	objectVersion = 48;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -33,6 +34,7 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* FootballTriviaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FootballTriviaTests.m */; };
 		33FC227E646F469E89EEDEF1 /* cabin_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA145BECFBE4416B44ECA82 /* cabin_bold.ttf */; };
+		38B6A5BAF4AF44BCA550C85C /* Cabin Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FF09091BF40698A0DBAF9 /* Cabin Bold Italic.ttf */; };
 		3B0C6B5CA97A4E2DA1D26982 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3D806A5E93E4A09BC327428 /* Foundation.ttf */; };
 		3E4DF89F6F6547E6B1F23D69 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5010278AB7BD439088F4BB05 /* SimpleLineIcons.ttf */; };
 		419797BC4A554497ACA47639 /* cabin_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CBD7B5A30864C8780565FA8 /* cabin_italic.ttf */; };
@@ -72,7 +74,6 @@
 		E0E8279B4F6D495882EE465B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 567284CA417B4BD8B4B9818D /* libz.tbd */; };
 		E433812609664AA0A20E5E75 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00DF2D8641464D5EB8B63087 /* Zocial.ttf */; };
 		FCFE4A34A09D4F499C3E8FED /* cabin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55EC996B6E274C86BDB08C71 /* cabin.ttf */; };
-		38B6A5BAF4AF44BCA550C85C /* Cabin Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C6FF09091BF40698A0DBAF9 /* Cabin Bold Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -394,6 +395,7 @@
 		8CF2ABE6200D399F0061693D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FootballTrivia/Images.xcassets; sourceTree = "<group>"; };
 		91D9D96F6CF043AD819BE277 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		9B4E353F9F8D481C9E5A04BC /* cabin_medium_italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cabin_medium_italic.ttf; path = ../assets/fonts/cabin_medium_italic.ttf; sourceTree = "<group>"; };
+		9C6FF09091BF40698A0DBAF9 /* Cabin Bold Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin Bold Italic.ttf"; path = "../assets/fonts/Cabin Bold Italic.ttf"; sourceTree = "<group>"; };
 		9E471A587BA94DC58C830AFD /* cabin_semi_bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cabin_semi_bold.ttf; path = ../assets/fonts/cabin_semi_bold.ttf; sourceTree = "<group>"; };
 		A40666BF830946F6A8EAA516 /* Cabin_bold_italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Cabin_bold_italic.ttf; path = ../assets/fonts/Cabin_bold_italic.ttf; sourceTree = "<group>"; };
 		A4E08CF78BA943348EE16E1A /* Cabin-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-SemiBold.ttf"; path = "../assets/fonts/Cabin-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -411,7 +413,6 @@
 		EB7A999792A149D29C9363A5 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		F152003BC17C44A3968B2680 /* RNAdMobManager.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAdMobManager.xcodeproj; path = "../node_modules/react-native-admob/ios/RNAdMobManager.xcodeproj"; sourceTree = "<group>"; };
 		FAA3D6216ED74767A1E6EF93 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		9C6FF09091BF40698A0DBAF9 /* Cabin Bold Italic.ttf */ = {isa = PBXFileReference; name = "Cabin Bold Italic.ttf"; path = "../assets/fonts/Cabin Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1331,7 +1332,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 16;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = A6879GHMXY;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1370,7 +1371,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = A6879GHMXY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

@@ -37,12 +37,13 @@ import Overlay from 'react-native-modal-overlay';
 //real iOS AdUnitID interstitial ca-app-pub-5964830289406172/6822239473
 //real iOS AdUnitID reward ca-app-pub-5964830289406172/1062440473
 //test banner ca-app-pub-3940256099942544/2934735716
-//test interstitial ca-app-pub-3940256099942544/4411468910'
+//test const interstitialId = "ca-app-pub-3940256099942544/4411468910";
+//test const rewardedId = "ca-app-pub-3940256099942544/5224354917";
+//banner test const bannerId = "ca-app-pub-3940256099942544/2934735716";
 
 const interstitialId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/6822239473' : 'ca-app-pub-5964830289406172/1517036977';
-//const bannerId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/9312671442' : 'ca-app-pub-5964830289406172/2390323530';
+const bannerId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/9312671442' : 'ca-app-pub-5964830289406172/2390323530';
 const rewardedId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/1062440473' : 'ca-app-pub-5964830289406172/2139718423';
-const bannerId = "ca-app-pub-3940256099942544/2934735716";
 
 AdMobInterstitial.setAdUnitID(interstitialId);
 AdMobRewarded.setAdUnitID(rewardedId);
@@ -74,7 +75,7 @@ export default class QuestionContainer extends Component {
             () => console.log('AdMobInterstitial adLoaded')
         );
         AdMobInterstitial.addEventListener('adFailedToLoad',
-            (error) => console.warn(error)
+            (error) => console.log(error)
         );
         AdMobInterstitial.addEventListener('adOpened',
             () => console.log('AdMobInterstitial => adOpened')
@@ -82,7 +83,7 @@ export default class QuestionContainer extends Component {
         AdMobInterstitial.addEventListener('adClosed',
             () => {
                 console.log('AdMobInterstitial => adClosed');
-                AdMobInterstitial.requestAd().catch(error => console.warn(error));
+                AdMobInterstitial.requestAd().catch(error => console.log(error));
             }
         );
         AdMobInterstitial.addEventListener('adLeftApplication',
@@ -107,7 +108,7 @@ export default class QuestionContainer extends Component {
         );
         AdMobRewarded.addEventListener('adFailedToLoad',
             (error) => {
-                console.warn(error);
+                console.log(error);
                 this.resetRevealLetterBtn();
             }
         );
@@ -126,7 +127,7 @@ export default class QuestionContainer extends Component {
         AdMobRewarded.addEventListener('adClosed',
             () => {
                 console.log('AdMobRewarded => adClosed');
-                AdMobRewarded.requestAd().catch(error => console.warn(error));
+                AdMobRewarded.requestAd().catch(error => console.log(error));
                 this.resetRevealLetterBtn();
             }
         );
@@ -154,11 +155,17 @@ export default class QuestionContainer extends Component {
     }
 
     updateState(questionsFromDB) {
-        const clueCount = this.calculateClueCount(questionsFromDB[0].selectedClues);
+        const questions = questionsFromDB;
+        let clueCount = 0;
+        let selectedClues = {};
+        if (questions.length !== 0) {
+            selectedClues = questionsFromDB[0].selectedClues;
+            clueCount = this.calculateClueCount(questionsFromDB[0].selectedClues);
+        }
         this.setState({
-            questions: questionsFromDB,
+            questions,
             question: questionsFromDB[0],
-            selectedClues: questionsFromDB[0].selectedClues,
+            selectedClues,
             clueCount
         }, this.goToCompleted);
     }
@@ -178,8 +185,8 @@ export default class QuestionContainer extends Component {
     showInterstitial() {
         //Let's show the interstitial every 3 questions
         if (this.state.question.id % 3 === 0) {
-            AdMobInterstitial.showAd().catch(error => console.warn(error));
-            AdMobInterstitial.requestAd().catch(error => console.warn(error));
+            AdMobInterstitial.showAd().catch(error => console.log(error));
+            AdMobInterstitial.requestAd().catch(error => console.log(error));
         }
     }
 
@@ -251,7 +258,7 @@ export default class QuestionContainer extends Component {
             revealBtnBackColour: '#5f7d84'
         });
         AdMobRewarded.showAd().catch(error => {
-
+            this.resetRevealLetterBtn();
         });
     };
 
@@ -262,11 +269,10 @@ export default class QuestionContainer extends Component {
         }, () => {
             Alert.alert(
                 'Reveal Letter',
-                'If you watch the following Ad, the first letter of the player\'s last name will be revealed',
+                'If you watch the following advert, the first letter of the player\'s last name will be revealed (requires internet)',
                 [
                     {text: 'No thanks', onPress: () => {
                         console.log('Cancel Pressed');
-                        //AdMobRewarded.requestAd().catch(error => console.warn(error));
                         this.resetRevealLetterBtn()}, style: 'cancel'},
                     {text: 'Let\'s do it!', onPress: () => this.showRewardedAd()},
                 ],
@@ -425,9 +431,9 @@ export default class QuestionContainer extends Component {
                         </View>
                         <View style={adBanner}>
                             <AdMobBanner
-                                adSize="banner"
+                                adSize="smartBannerPortrait"
                                 adUnitID={bannerId}
-                                onAdFailedToLoad={(error) => error}
+                                onAdFailedToLoad={(error) => console.log(error)}
                             />
                         </View>
                         <SubmitAnswer question={this.state.question} action={this.nextQuestion}
@@ -451,13 +457,11 @@ const styles = StyleSheet.create({
     },
     cluesBtn: {
         alignSelf: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
         borderRadius: 5,
         borderWidth: 1,
         borderColor: '#2f8492',
-        paddingTop: 5,
-        paddingBottom: 10,
-        paddingRight: 10,
-        paddingLeft: 10,
         width: 220,
         height: 35
     },
@@ -478,15 +482,16 @@ const styles = StyleSheet.create({
         width: 50,
         height: 35,
         alignSelf: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
         borderRadius: 5,
         borderWidth: 1,
-        paddingTop: 5,
-        paddingBottom: 5,
-        paddingRight: 5,
-        paddingLeft: 7,
         margin: 7
     },
     cluesTxt: {
+        alignSelf: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
         fontFamily: 'cabin',
         fontSize: 16,
         color: '#fffdfe'
@@ -549,8 +554,6 @@ const styles = StyleSheet.create({
         paddingBottom: 5,
         paddingRight: 8,
         paddingLeft: 8,
-        width: 60,
-        height: 40
     },
     revealBtnTxt: {
         alignSelf: 'center',

@@ -2,26 +2,26 @@ export const Constants = {
     title: "Football - Who am I?",
     clues: [{
                 key: "GK",
-                desc: "I am a goalkeeper?"
+                desc: "I am a goalkeeper"
             },
             {
                 key: "DEF",
-                desc: "I am a defender?"
+                desc: "I am a defender"
             },
             {
                 key: "MID",
-                desc: "I am a midfielder?"
+                desc: "I am a midfielder"
             },
             {
                 key: "FWD",
-                desc: "I am a forward?"
+                desc: "I am a forward"
             },
             {
                 key: "RET",
-                desc: "I have retired from playing?"
+                desc: "I have retired from playing"
             },
             {   key: "ENG",
-                desc: "I am English?"
+                desc: "I am English"
 
             }],
     congratsTitle: "Congratulations!",

@@ -1,6 +1,6 @@
 import Realm from 'realm';
 import baseQuestions from '../../../config/baseQuestions.json';
-import realm from '../realm';
+import realm from '../realm/schema/realm';
 
 const QuestionDAO = {
     preLoadQuestions: function(questions) {
@@ -22,12 +22,12 @@ const QuestionDAO = {
                 const isAnswered = (currQs[i] !== undefined && currQs[i].answered !== undefined
                                                             && currQs[i].answered) || false;
                 const selectedClues = {
-                        GK: (currQs[i] !== undefined && currQs[i].selectedClues.GK !== '') ? currQs[i].selectedClues.GK : '',
-                        DEF: (currQs[i] !== undefined && currQs[i].selectedClues.DEF !== '') ? currQs[i].selectedClues.DEF : '',
-                        MID: (currQs[i] !== undefined && currQs[i].selectedClues.MID !== '') ? currQs[i].selectedClues.MID : '',
-                        FWD: (currQs[i] !== undefined && currQs[i].selectedClues.FWD !== '') ? currQs[i].selectedClues.FWD : '',
-                        RET: (currQs[i] !== undefined && currQs[i].selectedClues.RET !== '') ? currQs[i].selectedClues.RET : '',
-                        ENG: (currQs[i] !== undefined && currQs[i].selectedClues.ENG !== '') ? currQs[i].selectedClues.ENG : ''
+                        GK: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.GK !== '') ? currQs[i].selectedClues.GK : '',
+                        DEF: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.DEF !== '') ? currQs[i].selectedClues.DEF : '',
+                        MID: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.MID !== '') ? currQs[i].selectedClues.MID : '',
+                        FWD: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.FWD !== '') ? currQs[i].selectedClues.FWD : '',
+                        RET: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.RET !== '') ? currQs[i].selectedClues.RET : '',
+                        ENG: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.ENG !== '') ? currQs[i].selectedClues.ENG : ''
                     };
                 const selectedCluesArr = Object.values(selectedClues);
                 console.log("about to save this many selected clues: " +selectedCluesArr.length);

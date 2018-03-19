@@ -352,7 +352,7 @@
   },
   {
     "id": 28,
-    "question": "I've represented my country at both the Euros and World Cup.\nI was Man of the Match in an FA Cup Final and also have won the Premier League and Champions League\nI've played with Flamini, Kolo Touré, Coutinho & Aquilani",
+    "question": "I've represented my country at both the Euros and World Cup.\nI was Man of the Match in an FA Cup Final and also have won the Premier League and Champions League.\nI've played with Flamini, Kolo Touré, Coutinho & Aquilani",
     "acceptableAnswers": ["Mario Balotelli", "Balotelli"],
     "clues": {
 	"GK": false,
@@ -651,7 +651,7 @@
   },
   {
     "id": 51,
-    "question": "I'm a forward who has played with the likes of Torres, Kalou, Alonso & Keane.\nAfter scoring a hat-trick in the last game of the season to secure my club their first league title in the 21st century I announced my retirement",
+    "question": "I'm an attacking player who has played with the likes of Torres, Kalou, Alonso & Keane.\nAfter scoring a hat-trick in the last game of the season to secure my club their first league title in the 21st century I announced my retirement",
     "acceptableAnswers": ["Dirk Kuyt", "Kuyt", "Dirk Kuijt", "Kuijt"],
     "clues": {
 	"GK": false,
@@ -742,7 +742,7 @@
   },
   {
     "id": 58,
-    "question": "During my playing career (now retired), I have been managed by the likes of Souness, Mourinho, Ranieri & Allardyce.\nIn 2002 I made the UEFA Team of the Year which featured the likes of Ronaldo(9), Henry & Zidane. Henry was again to feature later on in my career when he did something in a World Cup qualifier which led to us being knocked out",
+    "question": "During my playing career (now retired), I have been managed by the likes of Souness, Mourinho, Ranieri & Allardyce.\nIn 2002 I made the UEFA Team of the Year which featured the likes of Ronaldo(9), Henry & Zidane",
     "acceptableAnswers": ["Damien Duff", "Duff"],
     "clues": {
 	"GK": false,
