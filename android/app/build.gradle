@@ -102,10 +102,9 @@ def getPassword(String currentUser, String keyChain) {
     stdout.toString().trim()
 }
 
-//def releasekeypass = getPassword("","FootballWhoAmI-release-key")
-//def releasekeyalias = getPassword("","FootballWhoAmIKey")
-def releasekeypass = "32213221"
-def releasekeyalias = "32213221"
+def releasekeypass = getPassword("","FootballWhoAmI-release-key")
+def releasekeyalias = getPassword("","FootballWhoAmIKey")
+
 
 
 android {
