@@ -5,7 +5,6 @@
 	};
 	objectVersion = 48;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -62,7 +61,6 @@
 		A10712A2CD774AA0BBECDFE2 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EC29317ECEA4801B589792E /* Octicons.ttf */; };
 		A25BA52535EE427FBCC8A39B /* cabin_semi_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E471A587BA94DC58C830AFD /* cabin_semi_bold.ttf */; };
 		A8B398DC01CD4836A312A3CD /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA3D6216ED74767A1E6EF93 /* MaterialIcons.ttf */; };
-		A8D5031395DF42F393592423 /* libRNAdMobManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD2D94DE55843A09286B9EF /* libRNAdMobManager.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B10067605BCF4C299FDA4960 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B37E1BBE4CB4ECD96163B68 /* EvilIcons.ttf */; };
 		C20FEC844E9F4550A64EFDE9 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AC100D0437943A395ECCBEE /* Entypo.ttf */; };
@@ -74,6 +72,7 @@
 		E0E8279B4F6D495882EE465B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 567284CA417B4BD8B4B9818D /* libz.tbd */; };
 		E433812609664AA0A20E5E75 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00DF2D8641464D5EB8B63087 /* Zocial.ttf */; };
 		FCFE4A34A09D4F499C3E8FED /* cabin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55EC996B6E274C86BDB08C71 /* cabin.ttf */; };
+		354A54C92F3948D2880B379E /* libRNAdMobManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C2E0D6F4E041CA9DF0C58E /* libRNAdMobManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,13 +286,6 @@
 			remoteGlobalIDString = F60690131CA2766F0003FB26;
 			remoteInfo = RealmReact;
 		};
-		8CF2AB871FF7EBBD0061693D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F152003BC17C44A3968B2680 /* RNAdMobManager.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A96DA7741C146D7200FC639B;
-			remoteInfo = RNAdMobManager;
-		};
 		8CF2ABD11FF800F60061693D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -366,7 +358,6 @@
 		2D02E47B1E0B4A5D006451C7 /* FootballTrivia-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FootballTrivia-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* FootballTrivia-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FootballTrivia-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F895FA6AFD3460D98088C2E /* cabin_regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cabin_regular.ttf; path = ../assets/fonts/cabin_regular.ttf; sourceTree = "<group>"; };
-		3DD2D94DE55843A09286B9EF /* libRNAdMobManager.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAdMobManager.a; sourceTree = "<group>"; };
 		479B7219955745B0B174A7E9 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		4940D071C8064022AAE978D0 /* Cabin-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-BoldItalic.ttf"; path = "../assets/fonts/Cabin-BoldItalic.ttf"; sourceTree = "<group>"; };
 		5010278AB7BD439088F4BB05 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
@@ -411,8 +402,9 @@
 		E3D806A5E93E4A09BC327428 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		E693ED345A574C6693657755 /* Cabin_regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Cabin_regular.ttf; path = ../assets/fonts/Cabin_regular.ttf; sourceTree = "<group>"; };
 		EB7A999792A149D29C9363A5 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
-		F152003BC17C44A3968B2680 /* RNAdMobManager.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAdMobManager.xcodeproj; path = "../node_modules/react-native-admob/ios/RNAdMobManager.xcodeproj"; sourceTree = "<group>"; };
 		FAA3D6216ED74767A1E6EF93 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		DFE4C7D7008E4B08AC6BFE66 /* RNAdMobManager.xcodeproj */ = {isa = PBXFileReference; name = "RNAdMobManager.xcodeproj"; path = "../node_modules/react-native-admob/ios/RNAdMobManager.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		F9C2E0D6F4E041CA9DF0C58E /* libRNAdMobManager.a */ = {isa = PBXFileReference; name = "libRNAdMobManager.a"; path = "libRNAdMobManager.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,12 +426,12 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				A8D5031395DF42F393592423 /* libRNAdMobManager.a in Frameworks */,
 				6026209F43504E0198B416C8 /* libRealmReact.a in Frameworks */,
 				47162EAF7C6F4E07BAC6557F /* libc++.tbd in Frameworks */,
 				E0E8279B4F6D495882EE465B /* libz.tbd in Frameworks */,
 				C32F6A99DBEE4707AB6CE0B5 /* libBVLinearGradient.a in Frameworks */,
 				D72DCF1CB34C45279F9BAAF5 /* libRNVectorIcons.a in Frameworks */,
+				354A54C92F3948D2880B379E /* libRNAdMobManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,10 +649,10 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				F152003BC17C44A3968B2680 /* RNAdMobManager.xcodeproj */,
 				CAD27118A2044D8B8E018986 /* RealmReact.xcodeproj */,
 				EB7A999792A149D29C9363A5 /* BVLinearGradient.xcodeproj */,
 				5B656AA291844F239C76EE67 /* RNVectorIcons.xcodeproj */,
+				DFE4C7D7008E4B08AC6BFE66 /* RNAdMobManager.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -715,14 +707,6 @@
 			isa = PBXGroup;
 			children = (
 				8CF2AB851FF7EBBD0061693D /* libRealmReact.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8CF2AB791FF7EBBC0061693D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8CF2AB881FF7EBBD0061693D /* libRNAdMobManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -910,10 +894,6 @@
 				{
 					ProductGroup = 8CF2AB771FF7EBBC0061693D /* Products */;
 					ProjectRef = CAD27118A2044D8B8E018986 /* RealmReact.xcodeproj */;
-				},
-				{
-					ProductGroup = 8CF2AB791FF7EBBC0061693D /* Products */;
-					ProjectRef = F152003BC17C44A3968B2680 /* RNAdMobManager.xcodeproj */;
 				},
 				{
 					ProductGroup = 8CF2ABDB1FF800F60061693D /* Products */;
@@ -1133,13 +1113,6 @@
 			remoteRef = 8CF2AB841FF7EBBD0061693D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		8CF2AB881FF7EBBD0061693D /* libRNAdMobManager.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNAdMobManager.a;
-			remoteRef = 8CF2AB871FF7EBBD0061693D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		8CF2ABD21FF800F60061693D /* libthird-party.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1345,6 +1318,7 @@
 					"$(SRCROOT)..\node_modules\nealmsrc/**",
 					"$(SRCROOT)..\node_modules\neact-native-linear-gradientBVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = FootballTrivia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1360,6 +1334,10 @@
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.king.FootballTrivia";
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FootballTrivia\"",
+				);
 			};
 			name = Debug;
 		};
@@ -1383,6 +1361,7 @@
 					"$(SRCROOT)..\node_modules\nealmsrc/**",
 					"$(SRCROOT)..\node_modules\neact-native-linear-gradientBVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = FootballTrivia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1398,6 +1377,10 @@
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.king.FootballTrivia";
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FootballTrivia\"",
+				);
 			};
 			name = Release;
 		};
@@ -1419,6 +1402,7 @@
 					"$(SRCROOT)..\node_modules\nealmsrc/**",
 					"$(SRCROOT)..\node_modules\neact-native-linear-gradientBVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = "FootballTrivia-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1457,6 +1441,7 @@
 					"$(SRCROOT)..\node_modules\nealmsrc/**",
 					"$(SRCROOT)..\node_modules\neact-native-linear-gradientBVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = "FootballTrivia-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

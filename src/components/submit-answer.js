@@ -3,6 +3,7 @@ import {Animated, StyleSheet, Text, TouchableOpacity, TextInput, View} from 'rea
 import VerifyAnswer from '../services/verify-answer';
 import QuestionsDAO from '../dao/questions-dao';
 import * as Animatable from 'react-native-animatable';
+import {Fonts} from '../utils/fonts';
 
 export default class SubmitAnswer extends Component {
     constructor(props) {
@@ -15,7 +16,7 @@ export default class SubmitAnswer extends Component {
             isHistoric: props.isHistoric,
             submitBtnBackColor: new Animated.Value(0),
             isChecking: false,
-            targetColor: 'rgba(212, 62, 42, 1)',
+            targetColor: 'rgba(255, 0, 88, 1)',
             submitBtnAnimation: ""
         }
     }
@@ -49,7 +50,7 @@ export default class SubmitAnswer extends Component {
         if (isCorrect) {
             if (!this.state.isHistoric) {
                 this.setState({
-                    targetColor: 'rgba(63, 104, 28, 1)'
+                    targetColor: 'rgba(35, 237, 113, 1)'
                 }, this.animateSubmitBtn("Correct!", () => {
                     this.flushSubmitBtnState(true);
                     this.nextQuestion()
@@ -59,7 +60,7 @@ export default class SubmitAnswer extends Component {
             }
         } else {
             this.setState({
-                targetColor: 'rgba(212, 62, 42, 1)'
+                targetColor: 'rgba(255, 0, 88, 1)'
             });
             this.animateSubmitBtn("Incorrect, try again", () => {
                 console.log("Incorrect answer, animated fail scenario");
@@ -104,12 +105,13 @@ export default class SubmitAnswer extends Component {
         const AnimatedButton = Animated.createAnimatedComponent(TouchableOpacity);
         const submitBtnBackColor = this.state.submitBtnBackColor.interpolate({
             inputRange: [0, 1],
-            outputRange: ['rgba(34, 92, 105, 1)', this.state.targetColor]
+            outputRange: ['rgba(255, 0, 88, 1)', this.state.targetColor]
         });
         return (
         <View>
             <TextInput style={textInput}
-                       placeholder={"Enter answer..."}
+                       placeholder={"Your answer..."}
+                       placeholderTextColor={'gray'}
                        onChangeText={(givenAnswer) => this.setState({givenAnswer})}
                        value={this.state.isHistoric ? this.state.question.acceptableAnswers.split(",")["0"] : this.state.givenAnswer}
                        editable={!this.state.isHistoric}>
@@ -128,27 +130,24 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch',
         borderRadius: 5,
         borderWidth: 1,
-        borderColor: '#2f8492',
+        borderColor: '#FF0058',
         paddingTop: 10,
         paddingBottom: 10
     },
     submitTxt: {
         alignSelf: 'center',
-        color: '#fffdfe',
+        color: '#FFFFFF',
         paddingTop: 10,
         paddingBottom: 10,
-        fontFamily: 'cabin',
+        fontFamily: Fonts.Cabin,
         fontWeight: 'bold',
         fontSize: 20
     },
     textInput: {
+        color: '#FFFFFF',
         height: 45,
-        borderWidth: 2,
-        borderColor: '#fffdfe',
-        borderRadius: 5,
         fontSize: 20,
         fontFamily: 'Cabin-BoldItalic',
         textAlign: 'center',
-        backgroundColor: 'rgba(255, 255, 255, 0.20)'
     }
 });

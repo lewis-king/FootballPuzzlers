@@ -1,3 +1,4 @@
 export const Fonts = {
-    Cabin: 'cabin',
+    //Cabin: 'Aileron',
+    Cabin: 'cabin'
 };

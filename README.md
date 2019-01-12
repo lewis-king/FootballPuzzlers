@@ -8,7 +8,7 @@ The questions are predominantly based around the Premier League with the majorit
 
 
 **Run**
-First start and emulator or connect a device!
+First start an emulator or connect a device!
 
 `react-native run-android`
 

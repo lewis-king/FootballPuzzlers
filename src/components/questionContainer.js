@@ -4,6 +4,7 @@ import ReactNative, {
     Animated,
     FlatList,
     Image,
+    //Modal,
     Share,
     StyleSheet,
     Text,
@@ -14,6 +15,7 @@ import ReactNative, {
     Platform,
     ScrollView
 } from 'react-native';
+import Modal from "react-native-modal";
 import Header from './header';
 import Question from './question';
 import SubmitAnswer from './submit-answer';
@@ -22,6 +24,7 @@ import {
     AdMobInterstitial,
     AdMobRewarded
 } from 'react-native-admob';
+import {Fonts} from '../utils/fonts';
 import {SHARE_IMAGE} from '../resources/images';
 import QuestionsDAO from '../dao/questions-dao';
 import LinearGradient from 'react-native-linear-gradient';
@@ -29,6 +32,7 @@ import {Colours} from '../utils/colours';
 import {Constants} from '../utils/constants';
 import KeyboardSpacer from 'react-native-keyboard-spacer';
 import Overlay from 'react-native-modal-overlay';
+import {connect} from 'react-redux';
 
 //real Android AdUnitID banner ca-app-pub-5964830289406172/2390323530
 //real Android AdUnitID interstitial ca-app-pub-5964830289406172/1517036977
@@ -52,12 +56,13 @@ export default class QuestionContainer extends Component {
 
     constructor(props) {
         super(props);
-        const {isHistoric, refreshProgress} = props.navigation.state.params;
+        const {question, category, isHistoric} = props.navigation.state.params;
         const rand = this.randNum();
         this.state = {
+            question,
+            category,
             questions: [],
             isHistoric,
-            refreshProgress,
             givenAnswer: '',
             revealLetterBtnDisabled: false,
             revealBtnBackColour: 'rgba(34, 92, 105, 1)',
@@ -137,7 +142,6 @@ export default class QuestionContainer extends Component {
 
         AdMobInterstitial.requestAd();
         AdMobRewarded.requestAd();
-
         if (this.state.isHistoric) {
             QuestionsDAO.retrieveAllAnsweredQuestions(this.updateState)
         } else {
@@ -164,7 +168,6 @@ export default class QuestionContainer extends Component {
         }
         this.setState({
             questions,
-            question: questionsFromDB[0],
             selectedClues,
             clueCount
         }, this.goToCompleted);
@@ -210,21 +213,7 @@ export default class QuestionContainer extends Component {
             if (!this.state.isHistoric) {
                 this.showInterstitial();
             }
-            //Questions are reloaded from DB on next question which means index to grab active
-            //question should always be 0
-            const index = this.state.isHistoric ? this.state.question.id : 0;
-            const clueCount = this.calculateClueCount(this.state.questions[index].selectedClues);
-            const selectedClues = this.state.questions[index].selectedClues;
-            const rand = this.randNum();
-            this.setState({
-                question: this.state.questions[index],
-                selectedClues,
-                clueCount,
-                rand,
-                givenAnswer: ''
-            });
-            console.log("set state in next question");
-            this.state.refreshProgress()
+            this.props.navigation.navigate('QuestionSelector', {category: category, questions: this.state.questions});
         }
     };
 
@@ -350,31 +339,47 @@ export default class QuestionContainer extends Component {
 
     render() {
         console.log("I'm rendering");
-        const {adBanner, cluesBtn, clueElements, cluesHeaderTxt, cluesList, cluesTxt, container, content, gradient, header,
-            headerQId, shareImg, shareRow, shareView, qId, revealBtn, revealBtnTxt, clueRevealBtn} = styles;
+        const {adBanner, cluesBtn, cluesBtnContent, clueElements, cluesHeaderTxt, cluesList, cluesOverlay, closeCluesOverlay, cluesTitle, cluesTxt, cluesQuestionContext, container, content, gradient, header,
+            headerQId, shareImg, cluesRow, shareView, qId, revealBtn, revealBtnTxt, clueRevealBtn} = styles;
         if (this.state.questions.length === 0) {
             return null;
         }
-        const revealLetterCopy = 'Reveal\nLetter';
-        const cluesCopy = 'Choose\nClue';
+        const revealLetterCopy = 'Reveal a Letter';
+        const cluesCopy = 'View 2 Clues';
         const AnimatedButton = Animated.createAnimatedComponent(TouchableOpacity);
         return (
             <View style={container}>
-                <LinearGradient start={{x: 0.0, y: 0.25}} end={{x: 0.5, y: 1.0}}
-                                locations={[0, 0.5, 0.6]}
-                                colors={Colours[this.state.rand]}
-                                style={gradient}>
                     <View style={content}>
                         <View style={header}>
                             <View>
-                            <Header text={Constants.title}/>
-                            </View>
-                            <View style={headerQId}>
-                                <Text style={qId}>Q{this.state.question.id}</Text>
+                            <Header text={"Question " + this.state.question.id}/>
                             </View>
                         </View>
                         <View>
-                            <Overlay visible={this.state.modalVisible} closeOnTouchOutside animationType="bounceInDown"
+                          <Modal isVisible={this.state.modalVisible} animationIn="slideInUp">
+                            <View style={cluesOverlay}>
+                              <TouchableHighlight onPress={this.hideCluesOverlay}>
+                                <Text style={closeCluesOverlay}>X</Text>
+                              </TouchableHighlight>
+                              <Text style={cluesTitle}>
+                                Two of the clues below are linked to the player. Tap below to reveal.
+                              </Text>
+                              <Text style={cluesQuestionContext}>{this.state.question.question}</Text>
+                              <View style={cluesList}>
+                              <FlatList data={this.state.clues} extraData={this.state}
+                              renderItem={({item}) =>
+                                <AnimatedButton style={cluesBtn} onPress={() => this.chooseClue(item.key)}>
+                                  <View style={[cluesBtnContent, {backgroundColor:
+                                      this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])}]}>
+                                    <Text style={cluesTxt}>{item.desc}</Text>
+                                  </View>
+                                </AnimatedButton>
+                              }>
+                              </FlatList>
+                              </View>
+                            </View>
+                          </Modal>
+                            {/*<Overlay visible={this.state.modalVisible} closeOnTouchOutside animationType="bounceInDown"
                                      containerStyle={{backgroundColor: 'rgba(95, 125, 132, 0.78)'}}
                                      childrenWrapperStyle={{backgroundColor: '#eee'}} onClose={this.hideCluesOverlay} >
                                 <Text style={cluesHeaderTxt}>Choose a Clue or Two</Text>
@@ -407,22 +412,19 @@ export default class QuestionContainer extends Component {
                                     }
                                 />
                                 <Text>{this.state.clueCount >= 2 ? "Clue limit reached for this question" : ""}</Text>
-                            </Overlay>
+                            </Overlay>*/}
                             <ScrollView>
                                 <Question question={this.state.question}/>
                             </ScrollView>
                             <View style={shareView}>
-                                <View style={shareRow}>
+                                <View style={cluesRow}>
                                     <AnimatedButton onPress={this.showCluesOverlay}
-                                                    style={[revealBtn, {backgroundColor: this.state.revealBtnBackColour}]}
+                                                    style={[revealBtn]}
                                                     disabled={false}>
                                         <Text style={revealBtnTxt}>{cluesCopy}</Text>
                                     </AnimatedButton>
-                                    <TouchableHighlight onPress={this.share} activeOpacity={0.8} underlayColor={'#fffdfe'}>
-                                    <Image source={SHARE_IMAGE} style={shareImg}/>
-                                    </TouchableHighlight>
                                     <AnimatedButton onPress={this.showRevealLetterAlert}
-                                                    style={[revealBtn, {backgroundColor: this.state.revealBtnBackColour}]}
+                                                    style={[revealBtn]}
                                                     disabled={this.state.revealLetterBtnDisabled}>
                                         <Text style={revealBtnTxt}>{revealLetterCopy}</Text>
                                     </AnimatedButton>
@@ -437,10 +439,9 @@ export default class QuestionContainer extends Component {
                             />
                         </View>
                         <SubmitAnswer question={this.state.question} action={this.nextQuestion}
-                                      submitBtnTxt={this.state.isHistoric ? 'Next' : 'Submit'}
+                                      submitBtnTxt={this.state.isHistoric ? 'Back' : 'Submit'}
                                       isHistoric={this.state.isHistoric} givenAnswer={this.state.givenAnswer}/>
                     </View>
-                </LinearGradient>
                 {/*//TODO: Add conditional logic as KeyboardSpacer is only needed for iOS.*/}
                 <KeyboardSpacer/>
             </View>
@@ -456,14 +457,20 @@ const styles = StyleSheet.create({
         flexDirection: 'row'
     },
     cluesBtn: {
-        alignSelf: 'center',
-        alignItems: 'center',
+        alignItems: 'stretch',
+        height: 70,
         justifyContent: 'center',
+        flexDirection: 'column',
+        flex: 1,
+        backgroundColor: 'white',
         borderRadius: 5,
         borderWidth: 1,
-        borderColor: '#2f8492',
-        width: 220,
-        height: 35
+        marginRight: 20,
+        marginLeft: 20,
+        marginBottom: 10
+    },
+    cluesBtnContent: {
+      flexDirection: 'column'
     },
     clueElements: {
         flex: 1,
@@ -471,16 +478,16 @@ const styles = StyleSheet.create({
         margin: 5
     },
     cluesHeaderTxt: {
-      fontFamily: 'cabin',
+      fontFamily: Fonts.Cabin,
       fontWeight: 'bold',
       fontSize: 20
     },
     cluesList: {
-      padding: 5
+      flexDirection: 'column',
+      justifyContent: 'space-between'
     },
     clueRevealBtn: {
         width: 50,
-        height: 35,
         alignSelf: 'center',
         alignItems: 'center',
         justifyContent: 'center',
@@ -488,22 +495,56 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         margin: 7
     },
+    cluesOverlay: {
+      marginTop: 20,
+      borderTopLeftRadius: 55,
+      borderTopRightRadius: 55,
+      flexDirection: 'column',
+      flex: 1,
+      justifyContent: 'space-between',
+      backgroundColor: 'rgba(108, 74, 248, 1)'
+    },
+    closeCluesOverlay: {
+      alignSelf: 'flex-end',
+      color: 'white',
+      fontSize: 32,
+      marginRight: 30,
+      marginTop: 10
+    },
+    cluesTitle: {
+      color: 'white',
+      fontSize: 20,
+      textAlign: 'center',
+      marginBottom: 10
+    },
+    cluesRow: {
+      justifyContent: 'space-between',
+      flexDirection: 'row'
+    },
     cluesTxt: {
         alignSelf: 'center',
         alignItems: 'center',
         justifyContent: 'center',
-        fontFamily: 'cabin',
-        fontSize: 16,
-        color: '#fffdfe'
+        fontFamily: Fonts.Cabin,
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: 'black'
+    },
+    cluesQuestionContext: {
+      fontSize: 16,
+      textAlign: 'center',
+      marginBottom: 10,
+      color: 'rgba(255, 255, 255, 0.5)'
     },
     container: {
         flex: 1,
         justifyContent: 'space-between',
+        backgroundColor: '#0E1B2F'
     },
     content: {
         flex: 1,
         justifyContent: 'space-between',
-        backgroundColor: 'rgba(255, 255, 255, 0.55)'
+        backgroundColor: '#0E1B2F'
     },
     header: {
         alignContent: 'space-between',
@@ -523,11 +564,6 @@ const styles = StyleSheet.create({
     gradient: {
         flex: 1,
     },
-    shareRow: {
-      justifyContent: 'center',
-      alignItems: 'center',
-      flexDirection: 'row'
-    },
     shareView: {
         justifyContent: 'center',
         alignItems: 'center',
@@ -540,27 +576,34 @@ const styles = StyleSheet.create({
     qId: {
         alignSelf: 'stretch',
         textAlign: 'right',
-        fontFamily: 'cabin',
+        fontFamily: Fonts.Cabin,
         fontSize: 20,
         fontWeight: 'bold',
         color: '#575757'
     },
     revealBtn: {
-        alignSelf: 'center',
+        backgroundColor: 'rgba(108, 74, 248, 1)',
         borderRadius: 5,
         borderWidth: 1,
-        borderColor: '#2f8492',
+        borderColor: 'rgba(108, 74, 248, 1)',
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
         paddingTop: 5,
         paddingBottom: 5,
         paddingRight: 8,
         paddingLeft: 8,
+        marginLeft: 10,
+        marginRight: 10,
+        height: 50,
+        width: 150
     },
     revealBtnTxt: {
         alignSelf: 'center',
-        color: '#fffdfe',
-        fontFamily: 'cabin',
+        color: '#FFFFFF',
+        fontFamily: Fonts.Cabin,
         fontWeight: 'bold',
-        fontSize: 12,
+        fontSize: 18,
         textAlign: 'center'
     }
 });

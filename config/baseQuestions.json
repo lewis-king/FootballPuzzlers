@@ -1,3 +1,1307 @@
-/*
-Copy questions from: https://gitlab.com/lewis-king/questions-repo/
-*/
+[
+  {
+    "id": 1,
+    "questionId": 1,
+    "question": "I was the first player to have won more than 5 Player of the Month awards in the Premier League",
+    "acceptableAnswers": ["Steven Gerrard", "Gerrard"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 2,
+    "questionId": 2,
+    "question": "I've scored the most Premier League goals in a calendar year",
+    "acceptableAnswers": ["Harry Kane", "Kane"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 3,
+    "questionId": 3,
+    "question": "I'm the leading all-time Scottish goalscorer in Premier League history",
+    "acceptableAnswers": ["Duncan Ferguson", "Ferguson"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 4,
+    "questionId": 4,
+    "question": "Which player has scored the most headed goals in the Premier League?",
+    "acceptableAnswers": ["Peter Crouch", "Crouch"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 5,
+    "questionId": 5,
+    "question": "I've scored 5 goals in a single Premier League match in the fastest time",
+    "acceptableAnswers": ["Sergio Agüero", "Agüero", "Sergio Aguero", "Aguero"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 6,
+    "questionId": 6,
+    "question": "I've made over 50 caps for my country and have made more than 450 appearances in the Premier League.\nI won the Premier League for the first time after playing in the division for more than a decade.\nI was picked as Player of the Season for my club in my 19th Premier League campaign",
+    "acceptableAnswers": ["Gareth Barry", "Barry"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 7,
+    "questionId": 7,
+    "question": "I'm the record holder for the most consecutive Premier League appearances",
+    "acceptableAnswers": ["Brad Friedel", "Friedel"],
+    "clues": {
+	    "GK": true,
+        "DEF": false,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 8,
+    "questionId": 8,
+    "question": "I registered the fastest goal in a Champions League final and made over 900 appearances for one club",
+    "acceptableAnswers": ["Paolo Maldini", "Maldini"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 9,
+    "questionId": 9,
+    "question": "I've scored the fastest Premier League hat-trick.\nThe following year I was named in the PFA Premier League Team of the Year after scoring 13 league goals.\nI've represented my country at the African Cup of Nations.",
+    "acceptableAnswers": ["Sadio Mané", "Mané", "Sadio Mane", "Mane"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 10,
+    "questionId": 10,
+    "question": "I've scored a hat-trick from set pieces in a single Premier League game.\nI've won the Premier League as many times as I've been named PFA Player of the Month (which is greater than 2).\nMy Premier League career spans over 10 years",
+    "acceptableAnswers": ["Wayne Rooney", "Rooney"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": true,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 11,
+    "questionId": 11,
+    "question": "I've scored the most Premier League goals as a substitute.\nDuring my career I've played with the likes of Berbatov, Júlio César, Van Der Vaart & Joleon Lescott",
+    "acceptableAnswers": ["Jermain Defoe", "Defoe"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 12,
+    "questionId": 12,
+    "question": "I've scored the most own-goals in a Premier League season.\nI've played on the same team as Pogrebnyak, Keane, Pennant & Glen Johnson",
+    "acceptableAnswers": ["Martin Škrtel", "Škrtel", "Martin Skrtel", "Skrtel"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 13,
+    "questionId": 13,
+    "question": "I still hold the record for the fastest Premier League goal.\nI've been capped for England and featured in the 2010 FIFA World Cup.\nI've played alongside Gallas, Carrick & Robinson during my career",
+    "acceptableAnswers": ["Ledley King", "King"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 14,
+    "questionId": 14,
+    "question": "Over 2200 (and counting) penalties have been taken in the history of the Premier League\nI'm the only player who has taken one under the age of 18?",
+    "acceptableAnswers": ["Michael Owen", "Owen"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 15,
+    "questionId": 15,
+    "question": "I made over 300 Premier League appearances all for the same team.\nDuring that time, my club lifted 11 trophies. One of my famous goals was voted the best Premier League goal of all time.",
+    "acceptableAnswers": ["Dennis Bergkamp", "Bergkamp"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 16,
+    "questionId": 16,
+    "question": "I'm the only player to have scored for seven Premier League clubs?",
+    "acceptableAnswers": ["Craig Bellamy", "Bellamy"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 17,
+    "questionId": 17,
+    "question": "I played for Alex Ferguson, won the Premier League and the Champions League. My team mates included Arteta, Mignolet, Shearer, Klosse, Bale, Rodwell, Adebayor, Duff, Cahill, Drenthe. Who am I?",
+    "acceptableAnswers": ["Louis Saha", "Saha"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 18,
+    "questionId": 18,
+    "question": "I've played both in the Premier League and Championship\nI've played with Lescott at 3 different clubs and with Pienaar and Sinclair at 2 different clubs\nI have a Premier League medal to my name",
+    "acceptableAnswers": ["Jack Rodwell", "Rodwell"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 19,
+    "questionId": 19,
+    "question": "I scored my first Premier League goal at the age of 16.\nSome of the names I've been managed by are Allardyce, Rodgers, Mancini & O'Neill",
+    "acceptableAnswers": ["James Milner", "Milner"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 20,
+    "questionId": 20,
+    "question": "I've got the record for the joint highest Premier League Player of the Season awards.\nDuring one of these seasons I helped my club to a record breaking 14 consecutive games without conceding a goal.",
+    "acceptableAnswers": ["Nemanja Vidić", "Nemanja Vidić", "Nemanja Vidic", "Vidic"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 21,
+    "questionId": 21,
+    "question": "I have been relegated from the Premier League 4 times with 3 different clubs.\nI've played for my country (Cameroon) at a World Cup, have been managed by Harry Redknapp and have played in the same team as Defoe and Bale",
+    "acceptableAnswers": ["Sébastien Bassong", "Bassong", "Sebastien Bassong"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 22,
+    "questionId": 22,
+    "question": "I've made the most assists in a Premier League season.\nI've never won the League cup but I've won the FA cup, Community Shield and League Title.\nAnother accolade to my name is the European Golden Boot",
+    "acceptableAnswers": ["Thierry Henry", "Henry"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 23,
+    "questionId": 23,
+    "question": "Some of the players I've played with include Phil Jones, Samuel Eto'o, Steven N'Zonzi & Míchel Salgado.\nMy accumulated transfer fee total for my career is in excess of £40 mil",
+    "acceptableAnswers": ["Christopher Samba", "Samba"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 24,
+    "questionId": 24,
+    "question": "I'm a retired striker who has played for a number of clubs which include Chelsea, PSG, Man City & Monaco.\nIn 2018 I will take office after being elected president of my home country",
+    "acceptableAnswers": ["George Weah", "Weah"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 25,
+    "questionId": 25,
+    "question": "I was the top assist provider for one Premier League season, the season after I won the Premier League Golden Boot.\nI've played with Stekelenburg, Dembélé & Taarabt to name a few and have been managed by Sir Alex Ferguson.",
+    "acceptableAnswers": ["Dimitar Berbatov", "Berbatov"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 26,
+    "questionId": 26,
+    "question": "I've played for both London clubs Chelsea and Tottenham.\nI've never won the league but have lifted the FA cup.\nOne of my career highlights is scoring the winner in a UEFA Super Cup final",
+    "acceptableAnswers": ["Gus Poyet", "Poyet"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 27,
+    "questionId": 27,
+    "question": "I've missed the most Premier League penalties in history with 11",
+    "acceptableAnswers": ["Alan Shearer", "Shearer"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 28,
+    "questionId": 28,
+    "question": "I've represented my country at both the Euros and World Cup.\nI was Man of the Match in an FA Cup Final and also have won the Premier League and Champions League.\nI've played with Flamini, Kolo Touré, Coutinho & Aquilani",
+    "acceptableAnswers": ["Mario Balotelli", "Balotelli"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 29,
+    "questionId": 29,
+    "question": "I reached the 100 goal mark in the Premier League without scoring from the penalty spot.\nI played for 5 different Premier League teams but never won the league",
+    "acceptableAnswers": ["Emile Heskey", "Heskey"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 30,
+    "questionId": 30,
+    "question": "My senior career spanned (now retired) over 500 games in which I scored more than 150 goals.\nTeams I have played for include Shanghai Shenhua, PSG, Chelsea, Juventus & Arsenal.\nI've played 50 games at international level, scoring 12 goals and have won the Euros.\nAccumulation of all of my transfer fees equates to over £110mil",
+    "acceptableAnswers": ["Nicolas Anelka", "Anelka"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 31,
+    "questionId": 31,
+    "question": "I'm a joint record holder of the infamous most Premier League red cards in a season.\nI've won all of the three English top flight trophies (PL, FA, LC) and have a Champions League medal.\nSome of the players I have played with include Rose, Berbatov &  Mame Biram Diouf",
+    "acceptableAnswers": ["Wes Brown", "Brown"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 32,
+    "questionId": 32,
+    "question": "I've not won the Premier League but have won the Champions League with an English club having played in defence during the match.\nThe following season the team I played for was relegated",
+    "acceptableAnswers": ["José Bosingwa", "Bosingwa", "Jose Bosingwa"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 33,
+    "questionId": 33,
+    "question": "Some of the clubs I have played for include Roma, Arsenal and Lille.\nI'm an African Cup of Nations winner.\nPlayers I have played with include Podolski, Ashley Cole & Idrissa Gueye",
+    "acceptableAnswers": ["Gervinho"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 34,
+    "questionId": 34,
+    "question": "I'm the all-time leading goalscorer for my country and I've scored a total of 3 hat-tricks in the Premier League.\nI've been managed by Glenn Hoddle & Rafael Benítez and have played in the same side as Cudicini & Ashley Cole",
+    "acceptableAnswers": ["Robbie Keane", "Keane"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 35,
+    "questionId": 35,
+    "question": "I've played for Chelsea and have been managed by the likes of Mourinho & Scolari. My teammates have included Demba Ba, Malouda, Pepe & Arnautović.\nI've won 3 different top flight European domestic leagues",
+    "acceptableAnswers": ["Ricardo Quaresma", "Quaresma"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 36,
+    "questionId": 36,
+    "question": "I've scored more Premier League goals than Dennis Bergkamp.\nI've won the Premier League and FA Cup, but not the League Cup.\nI've scored a goal in the Champions League Final.\nSince retiring from playing, I have managed a club in the Premier League, although the team were relegated during my tenure",
+    "acceptableAnswers": ["Ole Gunnar Solskjær", "Ole Gunnar Solskjaer", "Solskjaer"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 37,
+    "questionId": 37,
+    "question": "I've scored the most goals in a Premier League season for a relegated club, this also made me the highest scoring Englishman in the league that season.\nI've been managed by David Moyes & Steve McClaren",
+    "acceptableAnswers": ["Andy Johnson", "Johnson", "Andrew Johnson"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 38,
+    "questionId": 38,
+    "question": "I've won the Scottish Premier League with Rangers and have been named African Player of the Year on multiple occasions.\nPele included me in his FIFA 100 - 'greatest living footballers'.\nI've played with Phil Jones & Carragher",
+    "acceptableAnswers": ["El Hadji Diouf", "Diouf"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 39,
+    "questionId": 39,
+    "question": "I've scored 30 goals or more in a Premier League season which earned me the Golden Boot and also the European Golden Shoe.\nI've been managed by Alex McLeish & Kevin Keegan and have played in the same team as Milan Baros & Djemba-Djemba",
+    "acceptableAnswers": ["Kevin Phillips", "Phillips"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 40,
+    "questionId": 40,
+    "question": "I was born after the Premier League began and I've managed to score a hat-trick in it.",
+    "acceptableAnswers": ["Raheem Sterling", "Sterling"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 41,
+    "questionId": 41,
+    "question": "I've scored a hat-trick of headers in a single Premier League match.\nI've played for two different Spanish teams, two different Russian teams and a single English team as part of my career (as of 2018).\nI didn't win La Liga but have lifted the Russian Premier League & Russian Super Cup trophies",
+    "acceptableAnswers": ["Salomón Rondón", "Rondón", "Salomon Rondon", "Rondon"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 42,
+    "questionId": 42,
+    "question": "I've played every minute of a title winning Premier League season.\nI've also won the French League Cup, English League Cup & Europa League.",
+    "acceptableAnswers": ["César Azpilicueta", "Cesar Azpilicueta", "Azpilicueta", "Dave"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 43,
+    "questionId": 43,
+    "question": "I'm the only player to have taken 10 or more penalties in the Premier League and convert them all.\nI've won more than one Premier League title and have lifted the Champions League",
+    "acceptableAnswers": ["Yaya Touré", "Touré", "Yaya Toure", "Toure"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 44,
+    "questionId": 44,
+    "question": "My goals to game ratio for club and country was above 0.47.\nI've won the Bundesliga golden boot on two occasions without winning the league.\nI've scored hat-trick(s) in the Premier League and the UEFA Cup\nand I've got an African Cup of Nations runners up medal having lost the final on penalties.",
+    "acceptableAnswers": ["Tony Yeboah", "Anthony Yeboah", "Yeboah"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 45,
+    "questionId": 45,
+    "question": "I've scored a Premier League penalty with both feet.\nTeams I've played for include Spurs, QPR & West Ham.\nI played Sunday League football for Senrab FC alongside John Terry & Ledley King.\nI've won the Second & Third Division's Golden Boot and made it to England International level",
+    "acceptableAnswers": ["Bobby Zamora", "Zamora", "Robert Zamora"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 46,
+    "questionId": 46,
+    "question": "I've scored a hat-trick in the Premier League, FA Cup and Champions League.\nI've played on the same team as Walcott, Gerrard & Terry during my career.",
+    "acceptableAnswers": ["Yossi Benayoun", "Benayoun"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 47,
+    "questionId": 47,
+    "question": "I'm the all-time top goalscorer for my country.\nI've won the Golden Boot in Serie A, Bundesliga, UEFA Europa League and was the joint second highest scorer in the FIFA World Cup 2010 qualifiers.\nIn terms of trophies, I've won the Premier League and the Bundesliga.",
+    "acceptableAnswers": ["Edin Džeko", "Džeko", "Edin Dzeko", "Dzeko"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 48,
+    "questionId": 48,
+    "question": "I'm in the Guinness World Records for the longest goal scored in football.\nIt's my only career goal and my only club career accolade is a Premier League title",
+    "acceptableAnswers": ["Asmir Begović", "Begović", "Asmir Begovic", "Begovic"],
+    "clues": {
+	    "GK": true,
+        "DEF": false,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 49,
+    "questionId": 49,
+    "question": "I've won the Premier League, La Liga, Ligue 1 and the Champions League\nSince retiring I've been an assistant coach in the French and English leagues alonside the same manager\nI've also managed a club but I'm most recognisable from playing with the likes of Zinedine Zidane and Raul to name a few",
+    "acceptableAnswers": ["Claude Makélélé", "Makélélé", "Claude Makelele", "Makelele"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 50,
+    "questionId": 50,
+    "question": "I've been capped internationally for Scotland and have played for two relegated Premier League teams in the same season.\nI've played in all 4 professional domestic England leagues and have made the PFA Team of the Year in League One & Two.\nI've been promoted to the Premier League with two different clubs",
+    "acceptableAnswers": ["George Boyd", "Boyd"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": true,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 51,
+    "questionId": 51,
+    "question": "I'm an attacking player who has played with the likes of Torres, Kalou, Alonso & Keane.\nAfter scoring a hat-trick in the last game of the season to secure my club their first league title in the 21st century I announced my retirement",
+    "acceptableAnswers": ["Dirk Kuyt", "Kuyt", "Dirk Kuijt", "Kuijt"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 52,
+    "questionId": 52,
+    "question": "I've played alongside the likes of Messi, Bojan, Robin van Persie & Kolo Toure.\nMy greatest club achievements include a La Liga title and a UEFA Champions League.\nOne season I got the highest assists in the Bundesliga",
+    "acceptableAnswers": ["Alexander Hleb", "Hleb"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 53,
+    "questionId": 53,
+    "question": "I've played in the same team as Sergio Aguero, Gary Medel, Felipe Melo and Radamel Falcao\nI'm a forward still currently playing as of 2018 however, I've have not scored more than 10 goals in a single season since 2012-2013\nI've won the Premier League and League Cup in the same season",
+    "acceptableAnswers": ["Stevan Jovetić", "Stevan Jovetic", "Jovetić", "Jovetic"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 54,
+    "questionId": 54,
+    "question": "I'm a striker who ended up taking more corners than having shots during my time in the Premier League.\nSome of the players I have played with include Nolito, Luis Suárez & Juan Mata.\nI've scored an International goal against England at Wembley.",
+    "acceptableAnswers": ["Iago Aspas", "Aspas"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 55,
+    "questionId": 55,
+    "question": "Some of the players I've played with before retiring include Kaka, Claudio Pizarro, Jaap Stam & Nicholas Anelka.\nI won the Ballon d'Or in front of the likes of Ronaldinho and Henry and I'm the top goalscorer for my country",
+    "acceptableAnswers": ["Andriy Shevchenko", "Shevchenko"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 56,
+    "questionId": 56,
+    "question": "I'm a goalkeeper, but I've managed to score, assist and win a penalty in the Premier League.\nI've made 5 assists, more than any other keeper.",
+    "acceptableAnswers": ["Paul Robinson", "Robinson"],
+    "clues": {
+	    "GK": true,
+        "DEF": false,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 57,
+    "questionId": 57,
+    "question": "I've played for 15 different clubs during my senior career which I retired from in 2017.\nThey included Chelsea, Tottenham, Monaco & Barcelona.\nI've won the Premier League, La Liga & Champions League and have scored over 100 goals in my career.\nI'm also the current top goalscorer for my country (at 2018), a country which has qualified for the 2018 FIFA World Cup",
+    "acceptableAnswers": ["Eiður Guðjohnsen", "Gudjohnsen", "Eidur Gudjohnsen", "Eiður Smári", "Eidur Smari"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 58,
+    "questionId": 58,
+    "question": "During my playing career (now retired), I have been managed by the likes of Souness, Mourinho, Ranieri & Allardyce.\nIn 2002 I made the UEFA Team of the Year which featured the likes of Ronaldo(9), Henry & Zidane",
+    "acceptableAnswers": ["Damien Duff", "Duff"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 59,
+    "questionId": 59,
+    "question": "I'm a French player who was part of the invincibles Arsenal team which famously won the Premier League without being beaten.\nI did not get on the scoresheet during that season.\nFollowing my time at Arsenal, I moved to Spain to play in La Liga",
+    "acceptableAnswers": ["Pascal Cygan", "Cygan"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 60,
+    "questionId": 60,
+    "question": "I have managed to win 2 Premier League medals by only playing a total of 12 matches in total for two different teams.\nThe two teams were Arsenal and Man City",
+    "acceptableAnswers": ["Richard Wright", "Wright"],
+    "clues": {
+	    "GK": true,
+        "DEF": false,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 61,
+    "questionId": 61,
+    "question": "I'm a Brazilian international who has won a Premier League medal.\nSome players I've played with include Bosingwa, Zaha, & Negredo and I've been managed by Harry Redknapp",
+    "acceptableAnswers": ["Fábio da Silva", "Fábio", "Fabio da Silva", "Fabio"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 62,
+    "questionId": 62,
+    "question": "I've scored hat-tricks against the same club in both matches of a Premier League season.\nI have a Champions League runners up medal with Monaco and a Copa del Rey winners medal with Real Madrid.\nI've played in the same team as Zaha & Toure",
+    "acceptableAnswers": ["Emmanuel Adebayor", "Adebayor"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 63,
+    "questionId": 63,
+    "question": "I've scored, assisted and scored an own goal all in the same Premier League game.\nI retired in 2015 and spent the majority of my career at a North England club making over 350 appearances and scoring over 70 goals.\nWe endured 9 consecutive seasons in the Premier League before being relegated and we haven't made it back since (as 2018)",
+    "acceptableAnswers": ["Kevin Davies", "Davies"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 64,
+    "questionId": 64,
+    "question": "I've won a Fifa Club World Cup beating Chelsea in the final.\nI've been managed by the likes of Pochettino & Valverde. Scolari has managed me for both club and country and I've won the Chinese domestic treble having also made the team of the year",
+    "acceptableAnswers": ["Paulinho"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 65,
+    "questionId": 65,
+    "question": "I'm in the top 100 all-time Premier League goalscorers as of 2018.\nI've played on the same team as Robert Huth, Alex Song, Paolo Di Canio & Zola.\nI've been managed by Claudio Ranieri",
+    "acceptableAnswers": ["Carlton Cole", "Cole"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 66,
+    "questionId": 66,
+    "question": "I hold the record for playing the highest number of Premier League games to be substituted off in all of them.\nThe team I was playing for was Liverpool",
+    "acceptableAnswers": ["Nuri Şahin", "Sahin", "Nuri Sahin", "Sahin"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 67,
+    "questionId": 67,
+    "question": "I've represented my country (Brazil) internationally.\nI was signed in a January transfer window and scored a Premier League hat-trick before the end of the same season. The season before I was the top goalscorer in The Eredivisie",
+    "acceptableAnswers": ["Afonso Alves", "Alves"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 68,
+    "questionId": 68,
+    "question": "I retired from playing at the end of the 2016-17 season.\nI was part of the team which won Chelsea's first Premier League trophy in 50 years.\nI was awarded the PFA young player of the year for the previous year.\nPlayers I have played alongside include Robben, Owen, Bellamy & Sidwell",
+    "acceptableAnswers": ["Scott Parker", "Parker"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 69,
+    "questionId": 69,
+    "question": "I'm a midfielder who has won the FA Cup.\nI've been at the same club at the same time as the likes of Ronaldhino, Vito Mannone, Eto'o, Defoe & Victor Moses.\nI've also scored a Premier League hat-trick",
+    "acceptableAnswers": ["Jordi Gómez", "Gómez", "Jordi Gomez", "Gomez"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 70,
+    "questionId": 70,
+    "question": "I'm a capped England international and have played on the same team as Freedman, Snodgrass, Mile Jedinak, Christopher Samba and Robert Huth.\nI've won the Premier League and have played matches in both the Championship and Premier League. I'm still playing as of season 2017-2018",
+    "acceptableAnswers": ["John Terry", "Terry"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 71,
+    "questionId": 71,
+    "question": "I've scored in the Premier League, Championship, League One, League Two, Europa League and Champions League.\nI'm uncapped internationally for my country (England)",
+    "acceptableAnswers": ["Gary Hooper", "Hooper"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 72,
+    "questionId": 72,
+    "question": "I've played with Dunne, Figo, Mido & Woodgate at club level./nI've never won the Premier League but have 2 Serie A titles to my name",
+    "acceptableAnswers": ["Olivier Dacourt", "Dacourt"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 73,
+    "questionId": 73,
+    "question": "I've played with Sturridge, Walker, Pirès & Vieira but have not played for Liverpool, Arsenal or Spurs.\nI've played for Man City but have never won the Premier League.\nI'm still a Premier League player (as of 2017-18 season)",
+    "acceptableAnswers": ["Stephen Ireland", "Ireland"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 74,
+    "questionId": 74,
+    "question": "I won the English League Cup during my time in the Premier League.\nPlayers I have played with include Joe Cole, Reyes, Doni & Forlán and I have a FIFA World Cup runners up medal to my name",
+    "acceptableAnswers": ["Maxi Rodríguez", "Rodríguez", "Maxi Rodriguez", "Rodriguez"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 75,
+    "questionId": 75,
+    "question": "Some of the teams I've played for include Leeds United, Crystal Palace, Birmingham City & Chelsea.\nI've played with Drogba, Sebastian Larsson & Cameron Jerome to name a few.",
+    "acceptableAnswers": ["Mikael Forssell", "Forssell"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 76,
+    "questionId": 76,
+    "question": "My teammates have included the likes of Ozil, Mustafi, Giroud & Gervinho.\nI've won the FA cup having been named Man of the Match in the final.",
+    "acceptableAnswers": ["Antonio Rüdiger", "Rüdiger", "Antonio Rudiger", "Rudiger"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": false,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 77,
+    "questionId": 77,
+    "question": "I've scored over 50 Premier League goals with at least 15 of them being headers.\nSome of my teammates have included Lukaku, Matić, & Augero",
+    "acceptableAnswers": ["Fernando Torres", "Torres"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 78,
+    "questionId": 78,
+    "question": "I've won the Premier League on more than one occasion.\nI've had André Villas-Boas & Rafael Benítez as managers and have played with the likes of Maicon & Pedro ",
+    "acceptableAnswers": ["Oscar"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": false,
+        "RET": false,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 79,
+    "questionId": 79,
+    "question": "Some of the Premier League teams I've played for include Crystal Palace, Leicester City, Everton & Wolves.\nOver the course of my career I've scored over 100 goals",
+    "acceptableAnswers": ["Marcus Bent", "Bent"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": false,
+        "FWD": true,
+        "RET": true,
+	    "ENG": true
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 80,
+    "questionId": 80,
+    "question": "I've had 5 seasons in the Premier League managing to score 2 league goals.\nI've played with Owen & Davor Suker to name a couple.\n11 out of the 15 international games I played in ended in a draw.",
+    "acceptableAnswers": ["Igor Bišćan", "Bišćan", "Igor Biscan", "Biscan"],
+    "clues": {
+	    "GK": false,
+        "DEF": true,
+        "MID": true,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 81,
+    "questionId": 81,
+    "question": "I've made over 375 Premier League appearances but never managed to win the Premier League.\nDuring my career I've played with the likes of Sylvinho, Schmeichel and Crouch",
+    "acceptableAnswers": ["Shay Given", "Given"],
+    "clues": {
+	    "GK": true,
+        "DEF": false,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 82,
+    "questionId": 82,
+    "question": "My greatest sporting achievement is winning the Premier League, a season in which I made 10 appearances but did not find the net.\nI've played with Huth, Cole and Sheringham",
+    "acceptableAnswers": ["Jérémie Aliadière", "Aliadière", "Jeremie Aliadiere", "Aliadiere"],
+    "clues": {
+	    "GK": false,
+        "DEF": false,
+        "MID": true,
+        "FWD": true,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 83,
+    "questionId": 83,
+    "question": "I've made over 375 Premier League appearances but never managed to win the Premier League.\nDuring my career I've played with the likes of Sylvinho, Schmeichel and Crouch",
+    "acceptableAnswers": ["André Bikey", "Andre Bikey", "Bikey"],
+    "clues": {
+	    "GK": true,
+        "DEF": false,
+        "MID": false,
+        "FWD": false,
+        "RET": true,
+	    "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 84,
+    "questionId": 1,
+    "question": "I've made over 375 Premier League appearances but never managed to win the Premier League.\nDuring my career I've played with the likes of Sylvinho, Schmeichel and Crouch",
+    "acceptableAnswers": ["André Bikey", "Andre Bikey", "Bikey"],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 85,
+    "questionId": 85,
+    "question": "I've made over 375 Premier League appearances but never managed to win the Premier League.\nDuring my career I've played with the likes of Sylvinho, Schmeichel and Crouch",
+    "acceptableAnswers": ["André Bikey", "Andre Bikey", "Bikey"],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 86,
+    "questionId": 1,
+    "question": "I'm the leading World Cup goalscorer of all-time",
+    "acceptableAnswers": ["Miroslav Klose", "Klose"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 87,
+    "questionId": 1,
+    "question": "I'm the leading Champions League goalscorer of all-time",
+    "acceptableAnswers": ["Cristiano Ronaldo", "Ronaldo"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "CL"
+  }
+]

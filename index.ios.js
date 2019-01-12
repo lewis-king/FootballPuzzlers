@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
 import {AppRegistry} from 'react-native';
-import RouteNavigator from "./src/components/navigator";
+import App from "./src/components/App";
 
-AppRegistry.registerComponent('FootballTrivia', () => RouteNavigator);
+AppRegistry.registerComponent('FootballTrivia', () => App);

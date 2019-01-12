@@ -9,6 +9,7 @@ const QuestionDAO = {
 
     persistQuestionsToDB: function(questions) {
         console.log("About to save questions to DB");
+        console.log("Realm path is: " + realm.path);
         const currQs = realm.objects("Question");
         questions.forEach(((question, i) => {
             realm.write(() => {
@@ -18,7 +19,7 @@ const QuestionDAO = {
                 //!!!!STORE THIS AS BOOLEAN NOT STRING, BOOLEAN.VALUEOF
                 console.log("GK, DEF, MID, FWD, RET, ENG is " + GK + DEF + MID + FWD + RET + ENG);
                 console.log("index is: ", i);
-                console.log("Current Questions is: " +currQs);
+                //console.log("Current Questions is: " +currQs);
                 const isAnswered = (currQs[i] !== undefined && currQs[i].answered !== undefined
                                                             && currQs[i].answered) || false;
                 const selectedClues = {
@@ -35,11 +36,13 @@ const QuestionDAO = {
                 realm.create('Question',
                     {
                         id: question.id,
+                        questionId: question.questionId,
                         question: question.question,
                         acceptableAnswers: question.acceptableAnswers.toString(),
                         clues: {GK, DEF, MID, FWD, RET, ENG},
                         answered: isAnswered,
-                        selectedClues
+                        selectedClues,
+                        category: question.category
                     }, true)
             });
         }));
@@ -85,7 +88,7 @@ const QuestionDAO = {
     },
 
     retrieveAllQuestions: function () {
-        let questions = realm.objects('Question');
+        const questions = realm.objects('Question');
         console.log("Returning total questions from the DB: " + questions.length);
         return questions;
     },

@@ -8,11 +8,13 @@ Question.schema = {
     primaryKey: 'id',
     properties: {
         id: 'int',
+        questionId: 'int',
         question: 'string',
         acceptableAnswers: 'string',
         answered: 'bool',
         clues: 'Clues',
-        selectedClues: 'SelectedClues'
+        selectedClues: 'SelectedClues',
+        category: 'string'
     }
 };
 
@@ -44,7 +46,7 @@ SelectedClues.schema = {
 
 export default new Realm({
     schema: [Question, Clues, SelectedClues],
-    schemaVersion: 1,
+    schemaVersion: 2,
     migration: (oldRealm, newRealm) => {
         // only apply this change if upgrading to schemaVersion 1
         if (oldRealm.schemaVersion < 1) {
@@ -53,6 +55,13 @@ export default new Realm({
             for (let i = 0; i < oldObjects.length; i++) {
                 newObjects[i].id = oldObjects[i].id;
                 newObjects[i].answered = oldObjects[i].answered;
+            }
+        }
+        if (oldRealm.schemaVersion == 1) {
+            const oldObjects = oldRealm.objects('Question');
+            const newObjects = newRealm.objects('Question');
+            for (let i = 0; i < oldObjects.length; i++) {
+                newObjects[i].selectedClues = oldObjects[i].selectedClues;
             }
         }
     }

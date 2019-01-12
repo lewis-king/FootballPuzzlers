@@ -1,6 +1,7 @@
 import React, {Component} from 'React';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Header from './header';
+import {Fonts} from '../utils/fonts';
 
 export default class Completed extends Component {
 
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
     congrats: {
         textAlign: 'center',
         alignItems: 'center',
-        fontFamily: 'cabin',
+        fontFamily: Fonts.Cabin,
         fontSize: 20,
         fontWeight: 'bold',
         color: '#3d3d3d'
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
     },
     paragraphText: {
-        fontFamily: 'cabin',
+        fontFamily: Fonts.Cabin,
         fontSize: 19,
         margin: 5
     },
