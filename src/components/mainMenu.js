@@ -51,12 +51,12 @@ export default class MainMenu extends Component {
       const clQs = this.state.questions.filter(question => question.category == 'CL');
         return (
             <View style={mainBackground}>
-                <Header text={'Football - Who am I?'}/>
+                <Header text={"Welcome!"}/>
                 <ScrollView contentContainerStyle={group}>
                     <View style={group}>
-                      <CategoryCard title={'General'} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} />
-                      <CategoryCard title={'World Cup'} category={'WC'} questions={wcQs} navigation={this.props.navigation} />
-                      <CategoryCard title={'Champions League'} category={'CL'} questions={clQs} navigation={this.props.navigation} />
+                      <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} />
+                      <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} />
+                      <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} navigation={this.props.navigation} />
                     </View>
                 </ScrollView>
             </View>
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
         paddingBottom: 10,
         fontWeight: 'bold',
         fontSize: 22,
-        fontFamily: Fonts.Cabin
+        fontFamily: Fonts.Main
     },
     progressTxt: {
         alignSelf: 'center',
@@ -152,6 +152,6 @@ const styles = StyleSheet.create({
         paddingBottom: 10,
         fontWeight: 'bold',
         fontSize: 20,
-        fontFamily: Fonts.Cabin
+        fontFamily: Fonts.Main
     }
 });

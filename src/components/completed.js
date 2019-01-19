@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     congrats: {
         textAlign: 'center',
         alignItems: 'center',
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontSize: 20,
         fontWeight: 'bold',
         color: '#3d3d3d'
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
     },
     paragraphText: {
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontSize: 19,
         margin: 5
     },
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
         color: '#fffdfe',
         paddingTop: 10,
         paddingBottom: 10,
-        fontFamily: 'cabin',
+        fontFamily: Fonts.Main,
         fontWeight: 'bold',
         fontSize: 20
     },

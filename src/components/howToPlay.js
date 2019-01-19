@@ -46,19 +46,19 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         alignItems: 'center',
         margin: 3,
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontSize: 30,
         fontWeight: 'bold',
         color: '#ffffff'
     },
     sectionHeaderStyle: {
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontSize: 20,
         fontWeight: 'bold',
         margin: 3
     },
     welcomeParaStyle: {
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontSize: 16,
         margin: 3
     }

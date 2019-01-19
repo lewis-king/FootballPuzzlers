@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactNative, {
     Alert,
     Animated,
+    Dimensions,
     FlatList,
     Image,
     //Modal,
@@ -347,16 +348,21 @@ export default class QuestionContainer extends Component {
         const revealLetterCopy = 'Reveal a Letter';
         const cluesCopy = 'View 2 Clues';
         const AnimatedButton = Animated.createAnimatedComponent(TouchableOpacity);
+        const deviceWidth = Dimensions.get("window").width;
+        const deviceHeight = Platform.OS === "ios"
+          ? Dimensions.get("window").height
+          : require("react-native-extra-dimensions-android").get("REAL_WINDOW_HEIGHT");
         return (
             <View style={container}>
                     <View style={content}>
                         <View style={header}>
                             <View>
-                            <Header text={"Question " + this.state.question.id}/>
+                            <Header text={"Question " + this.state.question.questionId}/>
                             </View>
                         </View>
                         <View>
-                          <Modal isVisible={this.state.modalVisible} animationIn="slideInUp">
+                          <Modal isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
+                                 deviceHeight={deviceHeight} animationIn="slideInUp">
                             <View style={cluesOverlay}>
                               <TouchableHighlight onPress={this.hideCluesOverlay}>
                                 <Text style={closeCluesOverlay}>X</Text>
@@ -478,7 +484,7 @@ const styles = StyleSheet.create({
         margin: 5
     },
     cluesHeaderTxt: {
-      fontFamily: Fonts.Cabin,
+      fontFamily: Fonts.Main,
       fontWeight: 'bold',
       fontSize: 20
     },
@@ -525,7 +531,7 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         alignItems: 'center',
         justifyContent: 'center',
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontSize: 18,
         fontWeight: 'bold',
         color: 'black'
@@ -576,7 +582,7 @@ const styles = StyleSheet.create({
     qId: {
         alignSelf: 'stretch',
         textAlign: 'right',
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontSize: 20,
         fontWeight: 'bold',
         color: '#575757'
@@ -601,7 +607,7 @@ const styles = StyleSheet.create({
     revealBtnTxt: {
         alignSelf: 'center',
         color: '#FFFFFF',
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontWeight: 'bold',
         fontSize: 18,
         textAlign: 'center'

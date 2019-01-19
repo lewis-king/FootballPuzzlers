@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {Image, StyleSheet, Text, TouchableHighlight, TouchableOpacity, View, ScrollView} from 'react-native';
 import Header from "./header";
 import {Fonts} from "../utils/fonts";
-import {setCurrentQuestion} from '../actions/question';
-import connect from "react-redux/es/connect/connect";
+import CategoryMeta from './categoryMeta';
+import QuestionsIntegrityDisclaimer from './questionsIntegrityDisclaimer';
 
 export default class QuestionSelector extends Component {
 
@@ -13,10 +13,15 @@ export default class QuestionSelector extends Component {
 
   render() {
     const {category, questions} = this.props.navigation.state.params;
-    const {answeredSelectableQuestion, mainBackground, selectableQuestion, selectableQuestionsContainer, selectableQuestionContent, selectableQuestionText} = styles;
+    const {answeredSelectableQuestion, headerSection, headerText, mainBackground, mainContentContainer, selectableQuestion, selectableQuestionsContainer, selectableQuestionContent, selectableQuestionText} = styles;
     return (
     <View style={mainBackground}>
-      <Header text={category}/>
+      <View style={headerSection}>
+        <Text style={headerText}>{category}</Text>
+      </View>
+      <View style={mainContentContainer}>
+        <CategoryMeta questions={questions} answeredQuestions={questions.filter(q => q.answered).length} transparent={true}/>
+      </View>
       <ScrollView contentContainerStyle={selectableQuestionsContainer}>
         <View style={selectableQuestionsContainer}>
           {questions.map((question, index) => (
@@ -30,6 +35,7 @@ export default class QuestionSelector extends Component {
           ))}
         </View>
       </ScrollView>
+      <QuestionsIntegrityDisclaimer/>
     </View>)
   }
 
@@ -41,6 +47,22 @@ const styles = StyleSheet.create({
   mainBackground: {
     flex: 1,
     backgroundColor: '#0E1B2F'
+  },
+  mainContentContainer: {
+    alignItems: 'center',
+    flexDirection: 'row',
+  },
+  headerSection: {
+    backgroundColor: 'rgba(120, 88, 250, 1)'
+  },
+  headerText: {
+    color: 'white',
+    textAlign: 'center',
+    fontFamily: Fonts.Main,
+    fontWeight: 'bold',
+    fontSize: 16,
+    paddingTop: 10,
+    paddingBottom: 10
   },
   selectableQuestionsContainer: {
     alignItems: 'center',
@@ -58,14 +80,14 @@ const styles = StyleSheet.create({
   },
   selectableQuestionText: {
     color: '#ffffff',
-    fontFamily: Fonts.Cabin,
+    fontFamily: Fonts.Main,
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center'
   },
   selectableQuestion: {
-    backgroundColor: 'rgba(255, 0, 88, 0.1)',
-    borderColor: 'rgba(255, 0, 88, 1)',
+    backgroundColor: 'rgba(120, 88, 250, 0.1)',
+    borderColor: 'rgba(120, 88, 250, 1)',
     borderWidth: 2,
     borderRadius: 10,
     height: 70,
@@ -73,6 +95,6 @@ const styles = StyleSheet.create({
     margin: 10
   },
   answeredSelectableQuestion: {
-    backgroundColor: 'rgba(255, 0, 88, 1)',
+    backgroundColor: 'rgba(120, 88, 250, 1)',
   }
 });

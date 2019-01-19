@@ -60,7 +60,7 @@ export default class SubmitAnswer extends Component {
             }
         } else {
             this.setState({
-                targetColor: 'rgba(255, 0, 88, 1)'
+                targetColor: 'rgba(225, 49, 49, 1)'
             });
             this.animateSubmitBtn("Incorrect, try again", () => {
                 console.log("Incorrect answer, animated fail scenario");
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         paddingTop: 10,
         paddingBottom: 10,
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontWeight: 'bold',
         fontSize: 20
     },

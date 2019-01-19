@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     questionStyle: {
         color: 'white',
         margin: 10,
-        fontFamily: Fonts.Cabin,
+        fontFamily: Fonts.Main,
         fontWeight: 'bold',
         fontSize: 18,
         textAlign: 'center',

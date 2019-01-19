@@ -1,5 +1,7 @@
 import React from 'React';
 import {Image, StyleSheet, Text, TouchableHighlight, View} from "react-native";
+import {Fonts} from '../utils/fonts';
+import CategoryMeta from './categoryMeta';
 
 const images = {
   ENG1: {
@@ -14,7 +16,7 @@ const images = {
 };
 
 const categories = {
-  ENG1: "General",
+  ENG1: "The Starter Pack",
   WC: "World Cup",
   CL: "Champions League"
 };
@@ -34,19 +36,7 @@ const CategoryCard = ({title, category, questions, navigation}) => {
       </View>
       <TouchableHighlight onPress={() =>
         navigation.navigate('QuestionSelector', {category: categories[category], questions})}>
-        <View style={categoryMetaContainer}>
-          <View style={categoryMeta}>
-            <Text style={categoryMetaHeading}>Questions</Text>
-            <Text style={categoryMetaSubHeading}>{questions.length}</Text>
-          </View>
-          <View style={categoryMeta}>
-            <Text style={categoryMetaHeading}>Progress</Text>
-            <Text style={categoryMetaSubHeading}>{answeredQuestions}/{questions.length}</Text>
-          </View>
-          <View style={categoryMeta}>
-            <Text style={categoryMetaSubHeading}>{Math.round((answeredQuestions / questions.length) * 100)}%</Text>
-          </View>
-        </View>
+        <CategoryMeta questions={questions} answeredQuestions={answeredQuestions} transparent={false}/>
       </TouchableHighlight>
     </View>
   )
@@ -55,28 +45,8 @@ const CategoryCard = ({title, category, questions, navigation}) => {
 const styles = StyleSheet.create({
   categoryMetaHeading: {
     color: '#FFFFFF',
+    fontFamily: Fonts.Main,
     fontSize: 16
-  },
-  categoryMetaSubHeading: {
-    color: '#FFFFFF',
-    fontSize: 28,
-    fontWeight: 'bold'
-  },
-  categoryMetaContainer: {
-    alignItems: 'center',
-    flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    backgroundColor: '#6C4AD0',
-    borderRadius: 10,
-    paddingLeft: 20,
-    paddingRight: 20,
-    height: 70,
-    marginTop: 5,
-    marginBottom: 10
-  },
-  categoryMeta: {
-    flexDirection: 'column',
   },
   categoryTitle: {
     marginTop: 15,
