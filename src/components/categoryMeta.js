@@ -1,22 +1,40 @@
 import {Text, StyleSheet, View} from "react-native";
 import React from "react";
 import {Fonts} from "../utils/fonts";
+import Icon from 'react-native-vector-icons/Ionicons';
+
+const renderMeta = (questions, answeredQuestions, transparent) => {
+  const {categoryMeta, categoryMetaContainer, categoryMetaHeading, categoryMetaSubHeading} = styles;
+  if (questions.filter(q => q.answered).length == 0) {
+    return (
+      <View style={[categoryMetaContainer, {backgroundColor: 'rgba(14, 221, 153, 100)', justifyContent: 'center'}]}>
+        <View style={[categoryMeta, {alignItems: 'center'}]}>
+          <Icon name="ios-checkmark" size={40} color="#FFFFFF" />
+          <Text style={[categoryMetaSubHeading, {fontSize:18}]}>Complete</Text>
+        </View>
+      </View>
+    )
+  } else {
+    return (
+      <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: '#6C4AD0'}]}>
+        <View style={categoryMeta}>
+          <Text style={categoryMetaHeading}>Questions</Text>
+          <Text style={categoryMetaSubHeading}>{questions.length}</Text>
+        </View>
+        <View style={categoryMeta}>
+          <Text style={categoryMetaHeading}>Progress</Text>
+          <Text style={categoryMetaSubHeading}>{answeredQuestions}/{questions.length}</Text>
+        </View>
+        <View style={categoryMeta}>
+          <Text style={categoryMetaSubHeading}>{Math.round((answeredQuestions / questions.length) * 100)}%</Text>
+        </View>
+      </View>
+    )
+  }
+};
 
 const CategoryMeta = ({questions, answeredQuestions, transparent}) => {
-  const {categoryMeta, categoryMetaContainer, categoryMetaHeading, categoryMetaSubHeading} = styles;
-  return <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: '#6C4AD0'}]}>
-    <View style={categoryMeta}>
-      <Text style={categoryMetaHeading}>Questions</Text>
-      <Text style={categoryMetaSubHeading}>{questions.length}</Text>
-    </View>
-    <View style={categoryMeta}>
-      <Text style={categoryMetaHeading}>Progress</Text>
-      <Text style={categoryMetaSubHeading}>{answeredQuestions}/{questions.length}</Text>
-    </View>
-    <View style={categoryMeta}>
-      <Text style={categoryMetaSubHeading}>{Math.round((answeredQuestions / questions.length) * 100)}%</Text>
-    </View>
-  </View>
+  return (renderMeta(questions, answeredQuestions, transparent))
 };
 
 export default CategoryMeta;

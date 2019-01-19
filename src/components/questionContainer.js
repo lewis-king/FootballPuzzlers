@@ -340,8 +340,8 @@ export default class QuestionContainer extends Component {
 
     render() {
         console.log("I'm rendering");
-        const {adBanner, cluesBtn, cluesBtnContent, clueElements, cluesHeaderTxt, cluesList, cluesOverlay, closeCluesOverlay, cluesTitle, cluesTxt, cluesQuestionContext, container, content, gradient, header,
-            headerQId, shareImg, cluesRow, shareView, qId, revealBtn, revealBtnTxt, clueRevealBtn} = styles;
+        const {adBanner, cluesBtn, cluesBtnContent, clueElements, cluesHeaderTxt, cluesList, cluesOverlay, closeCluesOverlay, cluesTitle, cluesTxt, cluesQuestionContext, container, content, gradient,
+            headerText, shareImg, cluesRow, shareView, qId, revealBtn, revealBtnTxt, clueRevealBtn} = styles;
         if (this.state.questions.length === 0) {
             return null;
         }
@@ -355,11 +355,7 @@ export default class QuestionContainer extends Component {
         return (
             <View style={container}>
                     <View style={content}>
-                        <View style={header}>
-                            <View>
-                            <Header text={"Question " + this.state.question.questionId}/>
-                            </View>
-                        </View>
+                      <Text style={headerText}>{"Question " + this.state.question.questionId}</Text>
                         <View>
                           <Modal isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
                                  deviceHeight={deviceHeight} animationIn="slideInUp">
@@ -552,20 +548,14 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         backgroundColor: '#0E1B2F'
     },
-    header: {
-        alignContent: 'space-between',
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'flex-end'
-    },
-    headerQId: {
-        justifyContent: 'flex-end',
-        alignItems: 'stretch',
-        alignSelf: 'flex-end',
-        marginTop: -5,
-        position: 'absolute',
-        right: 5,
-        top: 5,
+    headerText: {
+        color: 'white',
+        textAlign: 'center',
+        fontFamily: Fonts.Main,
+        fontWeight: 'bold',
+        fontSize: 16,
+        paddingTop: 10,
+        paddingBottom: 10
     },
     gradient: {
         flex: 1,

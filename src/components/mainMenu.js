@@ -51,8 +51,9 @@ export default class MainMenu extends Component {
       const clQs = this.state.questions.filter(question => question.category == 'CL');
         return (
             <View style={mainBackground}>
-                <Header text={"Welcome!"}/>
-                <ScrollView contentContainerStyle={group}>
+              <Header text={"Welcome!"}/>
+              <Text>Test your football knowledge - whoami?</Text>
+              <ScrollView contentContainerStyle={group}>
                     <View style={group}>
                       <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} />
                       <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} />

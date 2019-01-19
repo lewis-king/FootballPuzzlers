@@ -2,6 +2,7 @@ import React from 'React';
 import {Image, StyleSheet, Text, TouchableHighlight, View} from "react-native";
 import {Fonts} from '../utils/fonts';
 import CategoryMeta from './categoryMeta';
+import Icon from "react-native-vector-icons/Ionicons";
 
 const images = {
   ENG1: {
@@ -28,6 +29,7 @@ const CategoryCard = ({title, category, questions, navigation}) => {
   const answeredQuestions = questions.filter(q => q.answered).length;
   return (
     <View>
+      {/*<Icon name="ios-lock" size={45} color="#FFFFFF" />*/}
       <View style={categoryTitle}>
         <Text style={categoryMetaHeading}>{title}</Text>
       </View>
