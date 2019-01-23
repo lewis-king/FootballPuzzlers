@@ -4,8 +4,6 @@ import ReactNative, {
     Animated,
     Dimensions,
     FlatList,
-    Image,
-    //Modal,
     Share,
     StyleSheet,
     Text,
@@ -17,7 +15,6 @@ import ReactNative, {
     ScrollView
 } from 'react-native';
 import Modal from "react-native-modal";
-import Header from './header';
 import Question from './question';
 import SubmitAnswer from './submit-answer';
 import {
@@ -34,6 +31,7 @@ import {Constants} from '../utils/constants';
 import KeyboardSpacer from 'react-native-keyboard-spacer';
 import Overlay from 'react-native-modal-overlay';
 import {connect} from 'react-redux';
+import Theme from '../services/theme';
 
 //real Android AdUnitID banner ca-app-pub-5964830289406172/2390323530
 //real Android AdUnitID interstitial ca-app-pub-5964830289406172/1517036977
@@ -57,7 +55,7 @@ export default class QuestionContainer extends Component {
 
     constructor(props) {
         super(props);
-        const {question, category, isHistoric} = props.navigation.state.params;
+        const {question, category, isHistoric, refreshProgress} = props.navigation.state.params;
         const rand = this.randNum();
         this.state = {
             question,
@@ -69,7 +67,8 @@ export default class QuestionContainer extends Component {
             revealBtnBackColour: 'rgba(34, 92, 105, 1)',
             modalVisible: false,
             clues: Constants.clues,
-            rand
+            rand,
+            refreshProgress
         };
         this.nextQuestion = this.nextQuestion.bind(this);
         this.updateState = this.updateState.bind(this);
@@ -204,7 +203,7 @@ export default class QuestionContainer extends Component {
             console.log("I want to navigate...");
             if (this.state.isHistoric) {
                 console.log("Back to mainmenu");
-                this.props.navigation.navigate('MainMenu');
+              this.props.navigation.goBack(null);
             } else {
                 console.log("to completed");
                 this.props.navigation.navigate('Completed', {title: Constants.congratsTitle,
@@ -214,7 +213,8 @@ export default class QuestionContainer extends Component {
             if (!this.state.isHistoric) {
                 this.showInterstitial();
             }
-            this.props.navigation.navigate('QuestionSelector', {category: category, questions: this.state.questions});
+            this.state.refreshProgress();
+            this.props.navigation.goBack();
         }
     };
 
@@ -355,7 +355,7 @@ export default class QuestionContainer extends Component {
         return (
             <View style={container}>
                     <View style={content}>
-                      <Text style={headerText}>{"Question " + this.state.question.questionId}</Text>
+                      <Text style={[headerText, {color: Theme[this.state.category]}]}>{"Question " + this.state.question.questionId}</Text>
                         <View>
                           <Modal isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
                                  deviceHeight={deviceHeight} animationIn="slideInUp">
@@ -440,7 +440,7 @@ export default class QuestionContainer extends Component {
                                 onAdFailedToLoad={(error) => console.log(error)}
                             />
                         </View>
-                        <SubmitAnswer question={this.state.question} action={this.nextQuestion}
+                        <SubmitAnswer question={this.state.question} category={this.state.category} action={this.nextQuestion}
                                       submitBtnTxt={this.state.isHistoric ? 'Back' : 'Submit'}
                                       isHistoric={this.state.isHistoric} givenAnswer={this.state.givenAnswer}/>
                     </View>

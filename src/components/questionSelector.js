@@ -4,28 +4,39 @@ import Header from "./header";
 import {Fonts} from "../utils/fonts";
 import CategoryMeta from './categoryMeta';
 import QuestionsIntegrityDisclaimer from './questionsIntegrityDisclaimer';
+import Theme from '../services/theme';
+import Categories from '../services/category';
 
 export default class QuestionSelector extends Component {
 
-  setQuestion = (question) => {
-      this.props.navigation.navigate('Questions', {question, isHistoric: question.answered})
+  constructor(props) {
+    super(props);
+    const {category, questions, refreshProgress} = this.props.navigation.state.params;
+    this.state = {
+      category,
+      questions,
+      refreshProgress
+    }
+  }
+
+  setQuestion = (question, refreshProgress) => {
+      this.props.navigation.navigate('Questions', {category: this.state.category, question, isHistoric: question.answered, refreshProgress})
   };
 
   render() {
-    const {category, questions} = this.props.navigation.state.params;
     const {answeredSelectableQuestion, headerSection, headerText, mainBackground, mainContentContainer, selectableQuestion, selectableQuestionsContainer, selectableQuestionContent, selectableQuestionText} = styles;
     return (
     <View style={mainBackground}>
-      <View style={headerSection}>
-        <Text style={headerText}>{category}</Text>
+      <View style={[headerSection, {backgroundColor: Theme[this.state.category]}]}>
+        <Text style={headerText}>{Categories[this.state.category]}</Text>
       </View>
       <View style={mainContentContainer}>
-        <CategoryMeta questions={questions} answeredQuestions={questions.filter(q => q.answered).length} transparent={true}/>
+        <CategoryMeta questions={this.state.questions} answeredQuestions={this.state.questions.filter(q => q.answered).length} transparent={true}/>
       </View>
       <ScrollView contentContainerStyle={selectableQuestionsContainer}>
         <View style={selectableQuestionsContainer}>
-          {questions.map((question, index) => (
-            <TouchableHighlight onPress={() => this.setQuestion(question)} style={[selectableQuestion, question.answered ? answeredSelectableQuestion : selectableQuestion]} key={index}>
+          {this.state.questions.map((question, index) => (
+            <TouchableHighlight onPress={() => this.setQuestion(question, this.state.refreshProgress)} style={[selectableQuestion, question.answered ? answeredSelectableQuestion : selectableQuestion]} key={index}>
               <View style={selectableQuestionContent}>
                 <Text style={selectableQuestionText}>
                   {++index}

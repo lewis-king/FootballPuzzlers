@@ -2,21 +2,22 @@ import {Text, StyleSheet, View} from "react-native";
 import React from "react";
 import {Fonts} from "../utils/fonts";
 import Icon from 'react-native-vector-icons/Ionicons';
+import Theme from '../services/theme';
 
-const renderMeta = (questions, answeredQuestions, transparent) => {
+const renderMeta = (category, questions, answeredQuestions, transparent) => {
   const {categoryMeta, categoryMetaContainer, categoryMetaHeading, categoryMetaSubHeading} = styles;
   if (questions.filter(q => q.answered).length == 0) {
     return (
       <View style={[categoryMetaContainer, {backgroundColor: 'rgba(14, 221, 153, 100)', justifyContent: 'center'}]}>
-        <View style={[categoryMeta, {alignItems: 'center'}]}>
-          <Icon name="ios-checkmark" size={40} color="#FFFFFF" />
+        <View style={[categoryMeta, {alignItems: 'center', marginTop: 0, marginBottom: 0}]}>
+          <Icon name="ios-checkbox-outline" size={40} color="#FFFFFF" />
           <Text style={[categoryMetaSubHeading, {fontSize:18}]}>Complete</Text>
         </View>
       </View>
     )
   } else {
     return (
-      <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: '#6C4AD0'}]}>
+      <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: Theme[category]}]}>
         <View style={categoryMeta}>
           <Text style={categoryMetaHeading}>Questions</Text>
           <Text style={categoryMetaSubHeading}>{questions.length}</Text>
@@ -33,8 +34,8 @@ const renderMeta = (questions, answeredQuestions, transparent) => {
   }
 };
 
-const CategoryMeta = ({questions, answeredQuestions, transparent}) => {
-  return (renderMeta(questions, answeredQuestions, transparent))
+const CategoryMeta = ({category, questions, answeredQuestions, transparent}) => {
+  return (renderMeta(category, questions, answeredQuestions, transparent))
 };
 
 export default CategoryMeta;

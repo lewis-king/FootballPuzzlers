@@ -7,7 +7,7 @@ const Header = (props) => {
     const headerTxt = props.text;
     const {headerStyle, header} = styles;
     return <View style={header}>
-                <LinearTextGradient style={headerStyle} colors={['blue', 'red']}
+                <LinearTextGradient style={headerStyle} colors={['rgba(108, 74, 248, 1)', 'rgba(255, 0, 88, 1)']}
                                locations={[0, 1]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0}}>
                     {headerTxt}
                 </LinearTextGradient>
@@ -16,18 +16,18 @@ const Header = (props) => {
 
 const styles = StyleSheet.create({
   headerStyle: {
-        textAlign: 'center',
-        alignItems: 'center',
-        margin: 3,
-        fontFamily: Fonts.Main,
-        fontSize: 30,
-        fontWeight: 'bold',
+    textAlign: 'left',
+    alignItems: 'flex-start',
+    fontFamily: Fonts.Main,
+    fontSize: 30,
+    fontWeight: 'bold',
+    marginLeft: 20,
   },
   header: {
     alignContent: 'space-between',
     flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'flex-end'
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start'
   },
 });
 

@@ -4,11 +4,13 @@ import VerifyAnswer from '../services/verify-answer';
 import QuestionsDAO from '../dao/questions-dao';
 import * as Animatable from 'react-native-animatable';
 import {Fonts} from '../utils/fonts';
+import Theme from '../services/theme';
 
 export default class SubmitAnswer extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            category: props.category,
             givenAnswer: props.givenAnswer,
             question: props.question,
             action: props.action,
@@ -16,7 +18,7 @@ export default class SubmitAnswer extends Component {
             isHistoric: props.isHistoric,
             submitBtnBackColor: new Animated.Value(0),
             isChecking: false,
-            targetColor: 'rgba(255, 0, 88, 1)',
+            targetColor: Theme[props.category],
             submitBtnAnimation: ""
         }
     }
@@ -33,7 +35,7 @@ export default class SubmitAnswer extends Component {
     nextQuestion() {
         console.log("Question answered correctly, moving onto next...");
         QuestionsDAO.updateQuestion(this.state.question.id);
-        const submitTxt = this.state.isHistoric ? "Next" : "Submit";
+        const submitTxt = this.state.isHistoric ? "Back" : "Submit";
         this.setState({
             givenAnswer: '',
             submitBtnTxt: submitTxt
@@ -105,7 +107,7 @@ export default class SubmitAnswer extends Component {
         const AnimatedButton = Animated.createAnimatedComponent(TouchableOpacity);
         const submitBtnBackColor = this.state.submitBtnBackColor.interpolate({
             inputRange: [0, 1],
-            outputRange: ['rgba(255, 0, 88, 1)', this.state.targetColor]
+            outputRange: [Theme[this.state.category], this.state.targetColor]
         });
         return (
         <View>
@@ -114,7 +116,9 @@ export default class SubmitAnswer extends Component {
                        placeholderTextColor={'gray'}
                        onChangeText={(givenAnswer) => this.setState({givenAnswer})}
                        value={this.state.isHistoric ? this.state.question.acceptableAnswers.split(",")["0"] : this.state.givenAnswer}
-                       editable={!this.state.isHistoric}>
+                       editable={!this.state.isHistoric}
+                       underlineColorAndroid={'gray'}
+                       selectionColor={'white'}>
             </TextInput>
             <AnimatedButton onPress={this.onSubmit} style={[submitBtn, {backgroundColor: submitBtnBackColor}]}
             disabled={this.state.isChecking}>
@@ -130,7 +134,6 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch',
         borderRadius: 5,
         borderWidth: 1,
-        borderColor: '#FF0058',
         paddingTop: 10,
         paddingBottom: 10
     },

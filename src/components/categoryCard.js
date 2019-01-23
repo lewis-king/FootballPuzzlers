@@ -3,6 +3,7 @@ import {Image, StyleSheet, Text, TouchableHighlight, View} from "react-native";
 import {Fonts} from '../utils/fonts';
 import CategoryMeta from './categoryMeta';
 import Icon from "react-native-vector-icons/Ionicons";
+import Categories from '../services/category';
 
 const images = {
   ENG1: {
@@ -16,13 +17,7 @@ const images = {
   }
 };
 
-const categories = {
-  ENG1: "The Starter Pack",
-  WC: "World Cup",
-  CL: "Champions League"
-};
-
-const CategoryCard = ({title, category, questions, navigation}) => {
+const CategoryCard = ({title, category, questions, navigation, refreshProgress}) => {
   const {categoryMetaHeading, categoryMetaSubHeading, categoryMetaContainer, categoryMeta, categoryTitle, image} = styles;
   console.log('imageSrc is: ' +images[category].uri);
   const imageSrc = images[category].uri;
@@ -37,8 +32,8 @@ const CategoryCard = ({title, category, questions, navigation}) => {
         <Image borderRadius={5} style={image} source={imageSrc}/>
       </View>
       <TouchableHighlight onPress={() =>
-        navigation.navigate('QuestionSelector', {category: categories[category], questions})}>
-        <CategoryMeta questions={questions} answeredQuestions={answeredQuestions} transparent={false}/>
+        navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
+        <CategoryMeta category={category} questions={questions} answeredQuestions={answeredQuestions} transparent={false}/>
       </TouchableHighlight>
     </View>
   )

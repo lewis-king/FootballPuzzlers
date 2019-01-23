@@ -23,23 +23,20 @@ export default class MainMenu extends Component {
 
     componentDidMount() {
       console.log("In component will mount!");
+      this.retrieveAllQuestions();
+    }
+
+    retrieveAllQuestions = () => {
       const questions = QuestionsDAO.retrieveAllQuestions();
       console.log('about to set questions to state: ' +questions);
       this.setState({
         questions
       });
       console.log('questions stored in state: ' + this.state.questions);
-    }
-
-    /*componentWillReceiveProps(newProps) {
-        const userProgress = QuestionsDAO.retrieveUserProgress();
-        this.setState({
-            userProgress
-        })
-    }*/
+    };
 
     render() {
-        const {bannerImage, btnStyle, card, categoryMetaHeading, categoryMetaSubHeading, categoryImage, categoryMetaContainer, categoryMeta, categoryTitle, container, group, content, image, mainBackground, meta, submitTxt, progressTxt} = styles;
+        const {group,mainBackground, titleInfo} = styles;
         //console.log('all questions are: ' +this.state.questions);
         //console.log('category questions ENG1 are: ' + this.state.questions.filtered('category == ENG1'));
       if (!this.state.questions.length > 0) {
@@ -52,13 +49,14 @@ export default class MainMenu extends Component {
         return (
             <View style={mainBackground}>
               <Header text={"Welcome!"}/>
-              <Text>Test your football knowledge - whoami?</Text>
+              <Text style={titleInfo}>Test your football knowledge - whoami?</Text>
               <ScrollView contentContainerStyle={group}>
                     <View style={group}>
-                      <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} />
-                      <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} />
-                      <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} navigation={this.props.navigation} />
+                      <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
+                      <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
+                      <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
                     </View>
+                    <View style={{height: 20}}/>
                 </ScrollView>
             </View>
 
@@ -86,73 +84,20 @@ export default class MainMenu extends Component {
 }
 
 const styles = StyleSheet.create({
-    bannerImage: {
-        flex: 1,
-        flexDirection: 'row',
-        backgroundColor: 'grey',
-        alignSelf: 'stretch',
-        marginBottom: 16,
-        justifyContent: 'center',
-        alignItems: 'stretch',
-    },
-    card: {
-        backgroundColor: '#6C4AD0'
-    },
-    categoryTitle: {
-      marginBottom: 5
-    },
-    container: {
-        flex: 1,
-    },
-    content: {
-        alignItems: 'center',
-        flex: 1,
-        justifyContent: 'center',
-        flexDirection: 'column',
-        backgroundColor: 'rgba(255, 255, 255, 0.55)'
-    },
     group: {
       flexDirection: 'column',
       marginRight: 10,
       marginLeft: 10,
-      marginTop: 20
-    },
-    btnStyle: {
-        alignSelf: 'stretch',
-        backgroundColor: '#225c69',
-        borderRadius: 5,
-        borderWidth: 1,
-        borderColor: '#2f8492',
-        paddingTop: 10,
-        paddingBottom: 10
-    },
-    image: {
-        height: 170,
-        width: 370
+      marginTop: 10
     },
     mainBackground: {
         flex: 1,
         backgroundColor: '#0E1B2F'
     },
-    meta: {
-        flexDirection: 'row'
-    },
-    submitTxt: {
-        alignSelf: 'center',
-        color: '#FFFFFF',
-        paddingTop: 10,
-        paddingBottom: 10,
-        fontWeight: 'bold',
-        fontSize: 22,
-        fontFamily: Fonts.Main
-    },
-    progressTxt: {
-        alignSelf: 'center',
-        color: '#2a2222',
-        paddingTop: 10,
-        paddingBottom: 10,
-        fontWeight: 'bold',
-        fontSize: 20,
-        fontFamily: Fonts.Main
+    titleInfo: {
+      marginLeft: 20,
+      fontFamily: Fonts.Main,
+      fontSize: 14,
+      color: 'white'
     }
 });
