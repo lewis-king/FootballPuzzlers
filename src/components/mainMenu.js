@@ -10,6 +10,9 @@ import {BACKGROUND_IMAGE} from "../resources/images/index";
 import CategoryCard from "./categoryCard";
 import {setQuestions} from "../actions/question";
 import { connect } from 'react-redux';
+import * as RNIap from 'react-native-iap';
+import {itemSkus} from '../services/in-app-purchase';
+import QuestionsIntegrityDisclaimer from "./questionsIntegrityDisclaimer";
 
 export default class MainMenu extends Component {
 
@@ -21,8 +24,14 @@ export default class MainMenu extends Component {
       }
     }
 
-    componentDidMount() {
+    async componentDidMount() {
       console.log("In component will mount!");
+      try {
+        const products = await RNIap.getProducts(itemSkus);
+        this.setState({products});
+      } catch(err) {
+        console.warn("Unable to fetch IAP products, probably because this is a dev environment");
+      }
       this.retrieveAllQuestions();
     }
 
@@ -32,13 +41,10 @@ export default class MainMenu extends Component {
       this.setState({
         questions
       });
-      console.log('questions stored in state: ' + this.state.questions);
     };
 
     render() {
-        const {group,mainBackground, titleInfo} = styles;
-        //console.log('all questions are: ' +this.state.questions);
-        //console.log('category questions ENG1 are: ' + this.state.questions.filtered('category == ENG1'));
+      const {group,mainBackground, titleInfo} = styles;
       if (!this.state.questions.length > 0) {
           return null;
       }
@@ -48,37 +54,18 @@ export default class MainMenu extends Component {
       const clQs = this.state.questions.filter(question => question.category == 'CL');
         return (
             <View style={mainBackground}>
-              <Header text={"Welcome!"}/>
+              <Header text={"Welcome"}/>
               <Text style={titleInfo}>Test your football knowledge - whoami?</Text>
               <ScrollView contentContainerStyle={group}>
-                    <View style={group}>
-                      <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
-                      <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
-                      <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
-                    </View>
-                    <View style={{height: 20}}/>
+                  <View style={group}>
+                    <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
+                    <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products == null ? null : this.state.products.find((product.productId == 'com.footballwhoami.championsleague'))}/>
+                    <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products == null ? null : this.state.products.find((product.productId == 'com.footballwhoami.worldcup'))}/>
+                  </View>
+                <QuestionsIntegrityDisclaimer/>
+                <View style={{height: 20}}/>
                 </ScrollView>
             </View>
-
-
-                        /*
-                        <TouchableOpacity onPress={() =>
-                            this.props.navigation.navigate('Questions',
-                                {isHistoric: false, refreshProgress: this.refreshProgress})} style={btnStyle}>
-                            <Text style={submitTxt}>{this.state.userProgress === 0 ? "Start" : "Continue"}</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity onPress={() =>
-                            this.props.navigation.navigate('Questions',
-                                {isHistoric: true, refreshProgress: this.refreshProgress})} style={btnStyle}>
-                            <Text style={submitTxt}>Question History</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity onPress={() =>
-                            this.props.navigation.navigate('HowToPlay')} style={btnStyle}>
-                            <Text style={submitTxt}>How to play</Text>
-                        </TouchableOpacity>
-                        <Text style={progressTxt}>
-                            Progress: {this.state.userProgress}%
-                        </Text>*/
         )
     }
 }

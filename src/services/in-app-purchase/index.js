@@ -1,12 +1,9 @@
-import * as RNIap from 'react-native-iap';
+export const itemSkus = [
+   'com.footballwhoami.worldCup',
+   'com.footballwhoami.championsLeague'
+ ];
 
-const itemSkus = Platform.select({
-  ios: [
-    'com.footballwhoami.worldCup',
-    'com.footballwhoami.championsLeague'
-  ],
-  android: [
-    'com.footballwhoami.worldCup',
-    'com.footballwhoami.championsLeague'
-  ]
-});
+export const categoryToItemSku = {
+   WC: 'com.footballwhoami.worldCup',
+   CL: 'com.footballwhoami.championsLeague'
+ };

@@ -18,7 +18,7 @@ export default class SubmitAnswer extends Component {
             isHistoric: props.isHistoric,
             submitBtnBackColor: new Animated.Value(0),
             isChecking: false,
-            targetColor: Theme[props.category],
+            targetColor: Theme[props.category].main,
             submitBtnAnimation: ""
         }
     }
@@ -107,7 +107,7 @@ export default class SubmitAnswer extends Component {
         const AnimatedButton = Animated.createAnimatedComponent(TouchableOpacity);
         const submitBtnBackColor = this.state.submitBtnBackColor.interpolate({
             inputRange: [0, 1],
-            outputRange: [Theme[this.state.category], this.state.targetColor]
+            outputRange: [Theme[this.state.category].main, this.state.targetColor]
         });
         return (
         <View>

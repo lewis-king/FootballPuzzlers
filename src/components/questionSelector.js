@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Image, StyleSheet, Text, TouchableHighlight, TouchableOpacity, View, ScrollView} from 'react-native';
-import Header from "./header";
 import {Fonts} from "../utils/fonts";
 import CategoryMeta from './categoryMeta';
 import QuestionsIntegrityDisclaimer from './questionsIntegrityDisclaimer';
 import Theme from '../services/theme';
 import Categories from '../services/category';
+import QuestionsDAO from "../dao/questions-dao";
 
 export default class QuestionSelector extends Component {
 
@@ -19,15 +19,25 @@ export default class QuestionSelector extends Component {
     }
   }
 
+  retrieveAllQuestions = () => {
+    let questions = QuestionsDAO.retrieveAllQuestions();
+    questions = this.state.questions.filter(question => question.category == this.state.category);
+    console.log('about to set questions to state: ' +questions);
+    this.setState({
+      questions
+    });
+    console.log('questions stored in state: ' + this.state.questions);
+  };
+
   setQuestion = (question, refreshProgress) => {
-      this.props.navigation.navigate('Questions', {category: this.state.category, question, isHistoric: question.answered, refreshProgress})
+      this.props.navigation.navigate('Questions', {category: this.state.category, question, isHistoric: question.answered, refreshProgress, refreshQuestionSelectorProgress: this.retrieveAllQuestions})
   };
 
   render() {
     const {answeredSelectableQuestion, headerSection, headerText, mainBackground, mainContentContainer, selectableQuestion, selectableQuestionsContainer, selectableQuestionContent, selectableQuestionText} = styles;
     return (
     <View style={mainBackground}>
-      <View style={[headerSection, {backgroundColor: Theme[this.state.category]}]}>
+      <View style={[headerSection, {backgroundColor: Theme[this.state.category].main}]}>
         <Text style={headerText}>{Categories[this.state.category]}</Text>
       </View>
       <View style={mainContentContainer}>
@@ -36,7 +46,8 @@ export default class QuestionSelector extends Component {
       <ScrollView contentContainerStyle={selectableQuestionsContainer}>
         <View style={selectableQuestionsContainer}>
           {this.state.questions.map((question, index) => (
-            <TouchableHighlight onPress={() => this.setQuestion(question, this.state.refreshProgress)} style={[selectableQuestion, question.answered ? answeredSelectableQuestion : selectableQuestion]} key={index}>
+            <TouchableHighlight disabled={question.questionId == 1 || ((!question.answered && this.state.questions[index - 1].answered == true) || question.answered) ? false : true}
+                                onPress={() => this.setQuestion(question, this.state.refreshProgress)} style={[selectableQuestion, {borderColor: Theme[this.state.category].main}, question.answered ? answeredSelectableQuestion : selectableQuestion, question.answered ? {backgroundColor: Theme[this.state.category].main} : {backgroundColor: Theme[this.state.category].transparent}]} key={index}>
               <View style={selectableQuestionContent}>
                 <Text style={selectableQuestionText}>
                   {++index}
@@ -98,7 +109,6 @@ const styles = StyleSheet.create({
   },
   selectableQuestion: {
     backgroundColor: 'rgba(120, 88, 250, 0.1)',
-    borderColor: 'rgba(120, 88, 250, 1)',
     borderWidth: 2,
     borderRadius: 10,
     height: 70,

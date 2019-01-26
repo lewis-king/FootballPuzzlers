@@ -6,9 +6,9 @@ import Theme from '../services/theme';
 
 const renderMeta = (category, questions, answeredQuestions, transparent) => {
   const {categoryMeta, categoryMetaContainer, categoryMetaHeading, categoryMetaSubHeading} = styles;
-  if (questions.filter(q => q.answered).length == 0) {
+  if (questions.filter(q => !q.answered).length == 0) {
     return (
-      <View style={[categoryMetaContainer, {backgroundColor: 'rgba(14, 221, 153, 100)', justifyContent: 'center'}]}>
+      <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(14, 221, 153, 0)'} : {backgroundColor: 'rgba(14, 221, 153, 100)'}, {justifyContent: 'center'}]}>
         <View style={[categoryMeta, {alignItems: 'center', marginTop: 0, marginBottom: 0}]}>
           <Icon name="ios-checkbox-outline" size={40} color="#FFFFFF" />
           <Text style={[categoryMetaSubHeading, {fontSize:18}]}>Complete</Text>
@@ -17,7 +17,7 @@ const renderMeta = (category, questions, answeredQuestions, transparent) => {
     )
   } else {
     return (
-      <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: Theme[category]}]}>
+      <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: Theme[category].main}]}>
         <View style={categoryMeta}>
           <Text style={categoryMetaHeading}>Questions</Text>
           <Text style={categoryMetaSubHeading}>{questions.length}</Text>

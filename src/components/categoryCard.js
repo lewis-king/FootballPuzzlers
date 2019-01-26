@@ -1,9 +1,12 @@
 import React from 'React';
-import {Image, StyleSheet, Text, TouchableHighlight, View} from "react-native";
+import {Image, ImageBackground, StyleSheet, Text, TouchableHighlight, View} from "react-native";
 import {Fonts} from '../utils/fonts';
 import CategoryMeta from './categoryMeta';
-import Icon from "react-native-vector-icons/Ionicons";
+import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import Categories from '../services/category';
+import UnlockText from "./unlockText";
+import QuestionsDAO from "../dao/questions-dao";
+import UnlockImg from "./unlockImg";
 
 const images = {
   ENG1: {
@@ -17,7 +20,7 @@ const images = {
   }
 };
 
-const CategoryCard = ({title, category, questions, navigation, refreshProgress}) => {
+const CategoryCard = ({title, category, questions, navigation, refreshProgress, product}) => {
   const {categoryMetaHeading, categoryMetaSubHeading, categoryMetaContainer, categoryMeta, categoryTitle, image} = styles;
   console.log('imageSrc is: ' +images[category].uri);
   const imageSrc = images[category].uri;
@@ -26,10 +29,17 @@ const CategoryCard = ({title, category, questions, navigation, refreshProgress})
     <View>
       {/*<Icon name="ios-lock" size={45} color="#FFFFFF" />*/}
       <View style={categoryTitle}>
-        <Text style={categoryMetaHeading}>{title}</Text>
+        <View style={{alignItems: 'flex-start'}}>
+          <Text style={categoryMetaHeading}>{title}</Text>
+        </View>
+        <View style={{justifyContent: 'flex-end'}}>
+          <UnlockText category={category} product={product}/>
+        </View>
       </View>
       <View>
-        <Image borderRadius={5} style={image} source={imageSrc}/>
+        <ImageBackground borderRadius={5} style={image} source={imageSrc}>
+          <UnlockImg category={category} product={product}/>
+        </ImageBackground>
       </View>
       <TouchableHighlight onPress={() =>
         navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
@@ -45,7 +55,16 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.Main,
     fontSize: 16
   },
+  categoryMetaSubHeading: {
+    color: '#FFFFFF',
+    fontSize: 28,
+    fontWeight: 'bold',
+    fontFamily: Fonts.Main
+  },
   categoryTitle: {
+    flexDirection: 'row',
+    flex: 1,
+    justifyContent: 'space-between',
     marginTop: 15,
     marginBottom: 5
   },

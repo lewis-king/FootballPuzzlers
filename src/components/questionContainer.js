@@ -55,12 +55,12 @@ export default class QuestionContainer extends Component {
 
     constructor(props) {
         super(props);
-        const {question, category, isHistoric, refreshProgress} = props.navigation.state.params;
+        const {question, category, isHistoric, refreshProgress, refreshQuestionSelectorProgress} = props.navigation.state.params;
         const rand = this.randNum();
         this.state = {
             question,
+            selectedClues: question.selectedClues,
             category,
-            questions: [],
             isHistoric,
             givenAnswer: '',
             revealLetterBtnDisabled: false,
@@ -68,7 +68,8 @@ export default class QuestionContainer extends Component {
             modalVisible: false,
             clues: Constants.clues,
             rand,
-            refreshProgress
+            refreshProgress,
+            refreshQuestionSelectorProgress
         };
         this.nextQuestion = this.nextQuestion.bind(this);
         this.updateState = this.updateState.bind(this);
@@ -143,9 +144,7 @@ export default class QuestionContainer extends Component {
         AdMobInterstitial.requestAd();
         AdMobRewarded.requestAd();
         if (this.state.isHistoric) {
-            QuestionsDAO.retrieveAllAnsweredQuestions(this.updateState)
         } else {
-            QuestionsDAO.retrieveAllUnansweredQuestions(this.updateState);
         }
     }
 
@@ -158,64 +157,39 @@ export default class QuestionContainer extends Component {
         return Math.floor(Math.random() * (9 - 0 + 1)) + 0;
     }
 
-    updateState(questionsFromDB) {
-        const questions = questionsFromDB;
+    updateState(question) {
         let clueCount = 0;
         let selectedClues = {};
-        if (questions.length !== 0) {
-            selectedClues = questionsFromDB[0].selectedClues;
-            clueCount = this.calculateClueCount(questionsFromDB[0].selectedClues);
+        if (question.length !== 0) {
+            selectedClues = question.selectedClues;
+            clueCount = this.calculateClueCount(question.selectedClues);
         }
         this.setState({
-            questions,
             selectedClues,
             clueCount
         }, this.goToCompleted);
     }
 
     goToCompleted() {
-        if (this.state.questions.length === 0) {
-            if (this.state.isHistoric) {
-                this.props.navigation.navigate('Completed', {title: "",
-                    paragraph: Constants.nothingToSeeHere});
-            } else {
-                this.props.navigation.navigate('Completed', {title: Constants.congratsTitle,
-                    paragraph: Constants.congratsParagraph});
-            }
-        }
+      this.props.navigation.goBack(null);
     }
 
     showInterstitial() {
         //Let's show the interstitial every 3 questions
-        if (this.state.question.id % 3 === 0) {
+        if (this.state.question.questionId % 3 === 0) {
             AdMobInterstitial.showAd().catch(error => console.log(error));
             AdMobInterstitial.requestAd().catch(error => console.log(error));
         }
     }
 
     nextQuestion = () => {
-        console.log("question id is: " +this.state.question.id);
-        console.log("questions length is: " +this.state.questions.length);
-        //TODO: Really need to simplify the if condition below!!
-        if (((this.state.isHistoric && this.state.question.id === this.state.questions.length)
-                || (!this.state.isHistoric && this.state.question.id === Constants.questionsTotal))
-                || this.state.questions.length === 0) {
-            console.log("I want to navigate...");
-            if (this.state.isHistoric) {
-                console.log("Back to mainmenu");
-              this.props.navigation.goBack(null);
-            } else {
-                console.log("to completed");
-                this.props.navigation.navigate('Completed', {title: Constants.congratsTitle,
-                    paragraph: Constants.congratsParagraph});
-            }
-        } else {
-            if (!this.state.isHistoric) {
-                this.showInterstitial();
-            }
-            this.state.refreshProgress();
-            this.props.navigation.goBack();
-        }
+      if (!this.state.isHistoric) {
+        this.showInterstitial();
+      }
+      this.props.navigation.goBack(null);
+      this.state.refreshQuestionSelectorProgress();
+      this.state.refreshProgress();
+      this.props.navigation.goBack();
     };
 
     calculateClueCount = (selectedClues) => {
@@ -334,7 +308,7 @@ export default class QuestionContainer extends Component {
 
     determineClueRevealBackgroundCol = (clueRevealState) => {
         const result = (clueRevealState === undefined || clueRevealState === '')
-            ? 'rgba(52, 52, 52, 0.0)' : clueRevealState == 'True' ? '#137F16' : '#922C30';
+            ? 'white' : clueRevealState == 'True' ? 'rgba(35, 237, 113, 1)' : 'rgba(225, 49, 49, 1)';
         return result;
     };
 
@@ -342,7 +316,7 @@ export default class QuestionContainer extends Component {
         console.log("I'm rendering");
         const {adBanner, cluesBtn, cluesBtnContent, clueElements, cluesHeaderTxt, cluesList, cluesOverlay, closeCluesOverlay, cluesTitle, cluesTxt, cluesQuestionContext, container, content, gradient,
             headerText, shareImg, cluesRow, shareView, qId, revealBtn, revealBtnTxt, clueRevealBtn} = styles;
-        if (this.state.questions.length === 0) {
+        if (this.state.question == null) {
             return null;
         }
         const revealLetterCopy = 'Reveal a Letter';
@@ -355,11 +329,11 @@ export default class QuestionContainer extends Component {
         return (
             <View style={container}>
                     <View style={content}>
-                      <Text style={[headerText, {color: Theme[this.state.category]}]}>{"Question " + this.state.question.questionId}</Text>
+                      <Text style={[headerText, {color: Theme[this.state.category].main}]}>{"Question " + this.state.question.questionId}</Text>
                         <View>
                           <Modal isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
                                  deviceHeight={deviceHeight} animationIn="slideInUp">
-                            <View style={cluesOverlay}>
+                            <View style={[cluesOverlay, {backgroundColor: Theme[this.state.category].main}]}>
                               <TouchableHighlight onPress={this.hideCluesOverlay}>
                                 <Text style={closeCluesOverlay}>X</Text>
                               </TouchableHighlight>
@@ -367,66 +341,38 @@ export default class QuestionContainer extends Component {
                                 Two of the clues below are linked to the player. Tap below to reveal.
                               </Text>
                               <Text style={cluesQuestionContext}>{this.state.question.question}</Text>
-                              <View style={cluesList}>
-                              <FlatList data={this.state.clues} extraData={this.state}
-                              renderItem={({item}) =>
-                                <AnimatedButton style={cluesBtn} onPress={() => this.chooseClue(item.key)}>
-                                  <View style={[cluesBtnContent, {backgroundColor:
-                                      this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])}]}>
-                                    <Text style={cluesTxt}>{item.desc}</Text>
-                                  </View>
-                                </AnimatedButton>
-                              }>
-                              </FlatList>
+                              <View style={{justifyContent: 'space-between'}}>
+                                <ScrollView style={cluesList}>
+                                  <FlatList data={this.state.clues} extraData={this.state}
+                                            renderItem={({item}) =>
+                                              <AnimatedButton style={[cluesBtn, {
+                                                backgroundColor:
+                                                  this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])
+                                              }]}
+                                                              onPress={() => this.chooseClue(item.key)}
+                                                              disabled={this.state.clueCount >= 2 || this.state.isHistoric}>
+                                                <View style={[cluesBtnContent]}>
+                                                  <Text style={cluesTxt}>{item.desc}</Text>
+                                                </View>
+                                              </AnimatedButton>
+                                            }>
+                                  </FlatList>
+                                </ScrollView>
                               </View>
                             </View>
                           </Modal>
-                            {/*<Overlay visible={this.state.modalVisible} closeOnTouchOutside animationType="bounceInDown"
-                                     containerStyle={{backgroundColor: 'rgba(95, 125, 132, 0.78)'}}
-                                     childrenWrapperStyle={{backgroundColor: '#eee'}} onClose={this.hideCluesOverlay} >
-                                <Text style={cluesHeaderTxt}>Choose a Clue or Two</Text>
-                                <View style={{borderBottomWidth: 1, width: 100, paddingTop: 10}}></View>
-                                <FlatList
-                                    style={cluesList}
-                                    data={this.state.clues}
-                                    extraData={this.state}
-                                    renderItem={({item}) =>
-                                        <View>
-                                            <View style={clueElements}>
-                                                <AnimatedButton
-                                                    visible={!this.state.isHistoric}
-                                                    disabled={this.state.clueCount >= 2 || this.state.isHistoric}
-                                                    onPress={() => this.chooseClue(item.key)}
-                                                    style={[cluesBtn, {backgroundColor: this.state.revealBtnBackColour}]}>
-                                                    <Text style={cluesTxt}>{item.desc}</Text>
-                                                </AnimatedButton>
-                                                <AnimatedButton
-                                                    visible={!this.state.isHistoric}
-                                                    disabled={true}
-                                                    style={[clueRevealBtn, {backgroundColor:
-                                                        this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])}]}>
-                                                    <Text style={cluesTxt}>{this.state.selectedClues[item.key] !== undefined || this.state.selectedClues[item.key] !== ''
-                                                        ? this.state.selectedClues[item.key].toString() : "?"}
-                                                    </Text>
-                                                </AnimatedButton>
-                                            </View>
-                                        </View>
-                                    }
-                                />
-                                <Text>{this.state.clueCount >= 2 ? "Clue limit reached for this question" : ""}</Text>
-                            </Overlay>*/}
                             <ScrollView>
                                 <Question question={this.state.question}/>
                             </ScrollView>
                             <View style={shareView}>
                                 <View style={cluesRow}>
                                     <AnimatedButton onPress={this.showCluesOverlay}
-                                                    style={[revealBtn]}
+                                                    style={[revealBtn, {backgroundColor: Theme[this.state.category].main}]}
                                                     disabled={false}>
                                         <Text style={revealBtnTxt}>{cluesCopy}</Text>
                                     </AnimatedButton>
                                     <AnimatedButton onPress={this.showRevealLetterAlert}
-                                                    style={[revealBtn]}
+                                                    style={[revealBtn, {backgroundColor: Theme[this.state.category].main}]}
                                                     disabled={this.state.revealLetterBtnDisabled}>
                                         <Text style={revealBtnTxt}>{revealLetterCopy}</Text>
                                     </AnimatedButton>
@@ -465,6 +411,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         flex: 1,
         backgroundColor: 'white',
+        borderColor: 'rgba(0, 0, 0, 0)',
         borderRadius: 5,
         borderWidth: 1,
         marginRight: 20,
@@ -486,7 +433,6 @@ const styles = StyleSheet.create({
     },
     cluesList: {
       flexDirection: 'column',
-      justifyContent: 'space-between'
     },
     clueRevealBtn: {
         width: 50,
@@ -581,7 +527,6 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(108, 74, 248, 1)',
         borderRadius: 5,
         borderWidth: 1,
-        borderColor: 'rgba(108, 74, 248, 1)',
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',

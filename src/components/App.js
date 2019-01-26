@@ -27,7 +27,8 @@ export const RootNavigator = StackNavigator({
       screenProps: {
         question: ':question',
         category: ':category',
-        refreshProgress: ':refreshProgress'
+        refreshProgress: ':refreshProgress',
+        refreshQuestionSelectorProgress: ':refreshQuestionSelectorProgress'
       }
     },
     Questions: {
