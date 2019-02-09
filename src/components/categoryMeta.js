@@ -1,22 +1,29 @@
-import {Text, StyleSheet, View} from "react-native";
+import {Text, StyleSheet, View, TouchableHighlight} from "react-native";
 import React from "react";
 import {Fonts} from "../utils/fonts";
 import Icon from 'react-native-vector-icons/Ionicons';
 import Theme from '../services/theme';
+import * as Animatable from "react-native-animatable";
 
-const renderMeta = (category, questions, answeredQuestions, transparent) => {
+const renderMeta = (category, questions, answeredQuestions, transparent, navigation, refreshProgress) => {
   const {categoryMeta, categoryMetaContainer, categoryMetaHeading, categoryMetaSubHeading} = styles;
+  const AnimatableTouchableHighlight = Animatable.createAnimatableComponent(TouchableHighlight);
   if (questions.filter(q => !q.answered).length == 0) {
     return (
+      <AnimatableTouchableHighlight onPress={() =>
+        navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
       <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(14, 221, 153, 0)'} : {backgroundColor: 'rgba(14, 221, 153, 100)'}, {justifyContent: 'center'}]}>
         <View style={[categoryMeta, {alignItems: 'center', marginTop: 0, marginBottom: 0}]}>
           <Icon name="ios-checkbox-outline" size={40} color="#FFFFFF" />
           <Text style={[categoryMetaSubHeading, {fontSize:18}]}>Complete</Text>
         </View>
       </View>
+      </AnimatableTouchableHighlight>
     )
   } else {
     return (
+      <AnimatableTouchableHighlight onPress={() =>
+        navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
       <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: Theme[category].main}]}>
         <View style={categoryMeta}>
           <Text style={categoryMetaHeading}>Questions</Text>
@@ -30,12 +37,13 @@ const renderMeta = (category, questions, answeredQuestions, transparent) => {
           <Text style={categoryMetaSubHeading}>{Math.round((answeredQuestions / questions.length) * 100)}%</Text>
         </View>
       </View>
+      </AnimatableTouchableHighlight>
     )
   }
 };
 
-const CategoryMeta = ({category, questions, answeredQuestions, transparent}) => {
-  return (renderMeta(category, questions, answeredQuestions, transparent))
+const CategoryMeta = ({category, questions, answeredQuestions, transparent, navigation, refreshProgress}) => {
+  return (renderMeta(category, questions, answeredQuestions, transparent, navigation, refreshProgress))
 };
 
 export default CategoryMeta;

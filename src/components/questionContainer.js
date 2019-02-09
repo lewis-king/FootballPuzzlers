@@ -25,13 +25,14 @@ import {
 import {Fonts} from '../utils/fonts';
 import {SHARE_IMAGE} from '../resources/images';
 import QuestionsDAO from '../dao/questions-dao';
-import LinearGradient from 'react-native-linear-gradient';
 import {Colours} from '../utils/colours';
 import {Constants} from '../utils/constants';
 import KeyboardSpacer from 'react-native-keyboard-spacer';
 import Overlay from 'react-native-modal-overlay';
 import {connect} from 'react-redux';
 import Theme from '../services/theme';
+import * as Animatable from "react-native-animatable";
+import Categories from "../services/category";
 
 //real Android AdUnitID banner ca-app-pub-5964830289406172/2390323530
 //real Android AdUnitID interstitial ca-app-pub-5964830289406172/1517036977
@@ -53,7 +54,26 @@ AdMobRewarded.setAdUnitID(rewardedId);
 
 export default class QuestionContainer extends Component {
 
-    constructor(props) {
+  static navigationOptions = ({navigation}) => {
+    const {category, question} = navigation.state.params;
+    const title = 'Question ' + question.questionId;
+    const backgroundColor = '#0E1B2F';
+    const headerTintColor = Theme[category].main;
+    return {
+      title,
+      headerStyle: {
+        backgroundColor,
+        borderBottomWidth: 0
+      },
+      headerTitleStyle: {
+        fontFamily: Fonts.Main,
+        fontWeight: 'bold'
+      },
+      headerTintColor: headerTintColor
+    }
+  };
+
+  constructor(props) {
         super(props);
         const {question, category, isHistoric, refreshProgress, refreshQuestionSelectorProgress} = props.navigation.state.params;
         const rand = this.randNum();
@@ -69,7 +89,8 @@ export default class QuestionContainer extends Component {
             clues: Constants.clues,
             rand,
             refreshProgress,
-            refreshQuestionSelectorProgress
+            refreshQuestionSelectorProgress,
+            clueBtnPressAnimation: ''
         };
         this.nextQuestion = this.nextQuestion.bind(this);
         this.updateState = this.updateState.bind(this);
@@ -233,7 +254,7 @@ export default class QuestionContainer extends Component {
         }, () => {
             Alert.alert(
                 'Reveal Letter',
-                'If you watch the following advert, the first letter of the player\'s last name will be revealed (requires internet)',
+                'If you watch the following advert, the first letter of the player\'s last name will be revealed (requires data)',
                 [
                     {text: 'No thanks', onPress: () => {
                         console.log('Cancel Pressed');
@@ -287,23 +308,28 @@ export default class QuestionContainer extends Component {
     chooseClue = (clueId) => {
         //ux of button checking...
         console.log("clueId selected is: " + clueId);
-        //check if clue is yes or no...
-        const clueAnswer = this.state.question.clues[clueId] ? "True" : "False";
-        console.log("clue answer is: " + clueAnswer);
-
-        this.setState(prevState => ({
+        if (this.calculateClueCount(this.state.selectedClues) < 2) {
+          //check if clue is yes or no...
+          const clueAnswer = this.state.question.clues[clueId] ? "True" : "False";
+          console.log("clue answer is: " + clueAnswer);
+          this.setState(prevState => ({
             selectedClues: {
-                ...prevState.selectedClues,
-                [clueId]: clueAnswer
+              ...prevState.selectedClues,
+              [clueId]: clueAnswer
             },
-        }), () => {
+          }), () => {
             const newClueCount = this.calculateClueCount(this.state.selectedClues);
             this.setState({
-                clueCount: newClueCount
+              clueCount: newClueCount
             });
             QuestionsDAO.updateSelectedClues(this.state.question.id, this.state.selectedClues);
-        });
-        console.log("selected clues: " + this.state.selectedClues[clueId]);
+          });
+          console.log("selected clues: " + this.state.selectedClues[clueId]);
+        } else {
+          this.setState({
+            clueBtnPressAnimation: 'shake'
+          })
+        }
     };
 
     determineClueRevealBackgroundCol = (clueRevealState) => {
@@ -319,6 +345,7 @@ export default class QuestionContainer extends Component {
         if (this.state.question == null) {
             return null;
         }
+        const AnimatableTouchableHighlight = Animatable.createAnimatableComponent(TouchableHighlight);
         const revealLetterCopy = 'Reveal a Letter';
         const cluesCopy = 'View 2 Clues';
         const AnimatedButton = Animated.createAnimatedComponent(TouchableOpacity);
@@ -326,41 +353,46 @@ export default class QuestionContainer extends Component {
         const deviceHeight = Platform.OS === "ios"
           ? Dimensions.get("window").height
           : require("react-native-extra-dimensions-android").get("REAL_WINDOW_HEIGHT");
+
+        const questionId = (Platform.OS === 'ios') ? <Text style={headerText}/> : (<Text style={[headerText, {color: Theme[this.state.category].main}]}>{"Question " + this.state.question.questionId}</Text>);
+
         return (
-            <View style={container}>
+          <View style={container}>
+            <Modal isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
+                   deviceHeight={deviceHeight} animationIn="slideInUp">
+              <View style={[cluesOverlay, {backgroundColor: Theme[this.state.category].main}]}>
+                <TouchableHighlight onPress={this.hideCluesOverlay}>
+                  <Text style={closeCluesOverlay}>X</Text>
+                </TouchableHighlight>
+                <Text style={cluesTitle}>
+                  Two of the clues below are linked to the player. Tap below to reveal.
+                </Text>
+                <Text style={cluesQuestionContext}>{this.state.question.question}</Text>
+                <View style={{justifyContent: 'space-between'}}>
+                  <ScrollView style={cluesList}>
+                    <FlatList data={this.state.clues} extraData={this.state}
+                              renderItem={({item}) =>
+                                <AnimatableTouchableHighlight
+                                  animation={this.state.clueBtnPressAnimation}
+                                  style={[cluesBtn, {
+                                    backgroundColor:
+                                      this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])
+                                  }]}
+                                  onPress={() => this.chooseClue(item.key)}
+                                  disabled={this.state.isHistoric}>
+                                  <View style={[cluesBtnContent]}>
+                                    <Text style={cluesTxt}>{item.desc}</Text>
+                                  </View>
+                                </AnimatableTouchableHighlight>
+                              }>
+                    </FlatList>
+                  </ScrollView>
+                </View>
+              </View>
+            </Modal>
                     <View style={content}>
-                      <Text style={[headerText, {color: Theme[this.state.category].main}]}>{"Question " + this.state.question.questionId}</Text>
-                        <View>
-                          <Modal isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
-                                 deviceHeight={deviceHeight} animationIn="slideInUp">
-                            <View style={[cluesOverlay, {backgroundColor: Theme[this.state.category].main}]}>
-                              <TouchableHighlight onPress={this.hideCluesOverlay}>
-                                <Text style={closeCluesOverlay}>X</Text>
-                              </TouchableHighlight>
-                              <Text style={cluesTitle}>
-                                Two of the clues below are linked to the player. Tap below to reveal.
-                              </Text>
-                              <Text style={cluesQuestionContext}>{this.state.question.question}</Text>
-                              <View style={{justifyContent: 'space-between'}}>
-                                <ScrollView style={cluesList}>
-                                  <FlatList data={this.state.clues} extraData={this.state}
-                                            renderItem={({item}) =>
-                                              <AnimatedButton style={[cluesBtn, {
-                                                backgroundColor:
-                                                  this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])
-                                              }]}
-                                                              onPress={() => this.chooseClue(item.key)}
-                                                              disabled={this.state.clueCount >= 2 || this.state.isHistoric}>
-                                                <View style={[cluesBtnContent]}>
-                                                  <Text style={cluesTxt}>{item.desc}</Text>
-                                                </View>
-                                              </AnimatedButton>
-                                            }>
-                                  </FlatList>
-                                </ScrollView>
-                              </View>
-                            </View>
-                          </Modal>
+                      {questionId}
+                      <View>
                             <ScrollView>
                                 <Question question={this.state.question}/>
                             </ScrollView>

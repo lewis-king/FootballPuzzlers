@@ -7,3 +7,7 @@ export const categoryToItemSku = {
    WC: 'com.footballwhoami.worldCup',
    CL: 'com.footballwhoami.championsLeague'
  };
+
+export const purchaseProduct = (product) => {
+
+};

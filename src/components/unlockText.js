@@ -1,16 +1,31 @@
 import React from 'react';
-import {Text, StyleSheet, View} from 'react-native';
+import {Alert, Text, TouchableHighlight, StyleSheet, View} from 'react-native';
 import {Fonts} from "../utils/fonts";
-import {categoryToItemSku} from '../services/in-app-purchase';
+import {categoryToItemSku, purchaseProduct} from '../services/in-app-purchase';
 
 const UnlockText = ({category, product}) => {
   const {unlockText, unlockContainer} = styles;
   if (category === "ENG1" || (product != null && product == categoryToItemSku[category])) {
     return null;
   } else {
-    return <View style={unlockContainer}>
-      <Text style={unlockText}>Unlock £1.39</Text>
-    </View>;
+    return (
+      <TouchableHighlight onPress={() => {
+        Alert.alert(
+          'Unlock ' + {product}.product.title,
+          'There are two ways of unlocking questions in whoami? You must complete all questions of the section above, or pay a fee (requires data)',
+          [
+            {text: 'No thanks', onPress: () => {}, style: 'cancel'},
+            {text: 'Let\'s do it!', onPress: () => purchaseProduct(product)},
+          ],
+          { cancelable: false }
+        )
+      }}>
+      <View style={unlockContainer}>
+
+        <Text style={unlockText}>Unlock £1.39</Text>
+      </View>
+      </TouchableHighlight>
+  );
   }
 };
 

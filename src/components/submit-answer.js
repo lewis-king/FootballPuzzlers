@@ -150,7 +150,8 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         height: 45,
         fontSize: 20,
-        fontFamily: 'Cabin-BoldItalic',
+        fontFamily: Fonts.Main,
+        fontWeight: 'bold',
         textAlign: 'center',
     }
 });

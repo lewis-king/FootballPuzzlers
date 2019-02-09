@@ -1,13 +1,33 @@
 import React, {Component} from 'react';
-import {Image, StyleSheet, Text, TouchableHighlight, TouchableOpacity, View, ScrollView} from 'react-native';
+import {Image, StyleSheet, Text, TouchableHighlight, TouchableOpacity, View, ScrollView, Platform} from 'react-native';
 import {Fonts} from "../utils/fonts";
 import CategoryMeta from './categoryMeta';
 import QuestionsIntegrityDisclaimer from './questionsIntegrityDisclaimer';
 import Theme from '../services/theme';
 import Categories from '../services/category';
 import QuestionsDAO from "../dao/questions-dao";
+import * as Animatable from "react-native-animatable";
 
 export default class QuestionSelector extends Component {
+
+  static navigationOptions = ({navigation}) => {
+    const {category} = navigation.state.params;
+    // This is a hack to stop the back button on the question screen from showing anything other than 'back'.
+    const title = '      ' + Categories[category] + '      ';
+    const backgroundColor = Theme[category].main;
+    return {
+      title,
+      headerStyle: {
+        backgroundColor,
+        borderBottomWidth: 0
+      },
+      headerTitleStyle: {
+        fontFamily: Fonts.Main,
+        fontWeight: 'bold'
+      },
+      headerTintColor: 'white'
+    }
+  };
 
   constructor(props) {
     super(props);
@@ -15,7 +35,8 @@ export default class QuestionSelector extends Component {
     this.state = {
       category,
       questions,
-      refreshProgress
+      refreshProgress,
+      selectableQuestionAnimation: ''
     }
   }
 
@@ -33,31 +54,46 @@ export default class QuestionSelector extends Component {
       this.props.navigation.navigate('Questions', {category: this.state.category, question, isHistoric: question.answered, refreshProgress, refreshQuestionSelectorProgress: this.retrieveAllQuestions})
   };
 
+  onQuestionSelect = (question, index) => {
+    if (!(question.questionId == 1 || ((!question.answered && this.state.questions[index - 1].answered === true)) || question.answered)) {
+      this.setState({
+        selectableQuestionAnimation: 'shake'
+      })
+    } else {
+      this.setQuestion(question, this.state.refreshProgress)
+    }
+  };
+
   render() {
     const {answeredSelectableQuestion, headerSection, headerText, mainBackground, mainContentContainer, selectableQuestion, selectableQuestionsContainer, selectableQuestionContent, selectableQuestionText} = styles;
+    const AnimatableTouchableHighlight = Animatable.createAnimatableComponent(TouchableHighlight);
+
+    const header = (Platform.OS === 'ios') ? null : (<View style={[headerSection, {backgroundColor: Theme[this.state.category].main}]}>
+      <Text style={headerText}>{Categories[this.state.category]}</Text>
+    </View>);
+
     return (
     <View style={mainBackground}>
-      <View style={[headerSection, {backgroundColor: Theme[this.state.category].main}]}>
-        <Text style={headerText}>{Categories[this.state.category]}</Text>
-      </View>
+      {header}
       <View style={mainContentContainer}>
         <CategoryMeta questions={this.state.questions} answeredQuestions={this.state.questions.filter(q => q.answered).length} transparent={true}/>
       </View>
       <ScrollView contentContainerStyle={selectableQuestionsContainer}>
         <View style={selectableQuestionsContainer}>
           {this.state.questions.map((question, index) => (
-            <TouchableHighlight disabled={question.questionId == 1 || ((!question.answered && this.state.questions[index - 1].answered == true) || question.answered) ? false : true}
-                                onPress={() => this.setQuestion(question, this.state.refreshProgress)} style={[selectableQuestion, {borderColor: Theme[this.state.category].main}, question.answered ? answeredSelectableQuestion : selectableQuestion, question.answered ? {backgroundColor: Theme[this.state.category].main} : {backgroundColor: Theme[this.state.category].transparent}]} key={index}>
+            <AnimatableTouchableHighlight animation={this.state.selectableQuestionAnimation}
+                                          onPress={() => this.onQuestionSelect(question, index)}
+                                          style={[selectableQuestion, {borderColor: Theme[this.state.category].main}, question.answered ? answeredSelectableQuestion : selectableQuestion, question.answered ? {backgroundColor: Theme[this.state.category].main} : {backgroundColor: Theme[this.state.category].transparent}]}
+                                          key={index}>
               <View style={selectableQuestionContent}>
                 <Text style={selectableQuestionText}>
-                  {++index}
+                  {index + 1}
                 </Text>
               </View>
-            </TouchableHighlight>
+            </AnimatableTouchableHighlight>
           ))}
         </View>
       </ScrollView>
-      <QuestionsIntegrityDisclaimer/>
     </View>)
   }
 

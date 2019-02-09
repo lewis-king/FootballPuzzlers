@@ -16,6 +16,13 @@ import QuestionsIntegrityDisclaimer from "./questionsIntegrityDisclaimer";
 
 export default class MainMenu extends Component {
 
+    static navigationOptions = {
+      headerStyle: {
+        backgroundColor: '#0E1B2F',
+        borderBottomWidth: 0
+      }
+    };
+
     constructor(props) {
       super(props);
       QuestionsDAO.preLoadQuestions(baseQuestions);
@@ -26,11 +33,32 @@ export default class MainMenu extends Component {
 
     async componentDidMount() {
       console.log("In component will mount!");
+      let products;
       try {
-        const products = await RNIap.getProducts(itemSkus);
+        //products = await RNIap.getProducts(itemSkus);
+        console.log("Successfully retrieved user's products");
+        products = [
+          {
+            title: 'Champions League',
+            productId: 'com.footballwhoami.championsleague'
+          },
+          {
+            title: 'World Cup',
+            productId: 'com.footballwhoami.worldcup'
+          }];
         this.setState({products});
       } catch(err) {
         console.warn("Unable to fetch IAP products, probably because this is a dev environment");
+        products = [
+            {
+              title: 'Champions League',
+              productId: 'com.footballwhoami.championsleague'
+            },
+            {
+              title: 'World Cup',
+              productId: 'com.footballwhoami.worldcup'
+            }];
+        this.setState({products});
       }
       this.retrieveAllQuestions();
     }
@@ -59,8 +87,8 @@ export default class MainMenu extends Component {
               <ScrollView contentContainerStyle={group}>
                   <View style={group}>
                     <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
-                    <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products == null ? null : this.state.products.find((product.productId == 'com.footballwhoami.championsleague'))}/>
-                    <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products == null ? null : this.state.products.find((product.productId == 'com.footballwhoami.worldcup'))}/>
+                    <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.worldcup')}/>
+                    <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.championsleague')}/>
                   </View>
                 <QuestionsIntegrityDisclaimer/>
                 <View style={{height: 20}}/>

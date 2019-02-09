@@ -7,6 +7,7 @@ import Categories from '../services/category';
 import UnlockText from "./unlockText";
 import QuestionsDAO from "../dao/questions-dao";
 import UnlockImg from "./unlockImg";
+import * as Animatable from "react-native-animatable";
 
 const images = {
   ENG1: {
@@ -41,10 +42,7 @@ const CategoryCard = ({title, category, questions, navigation, refreshProgress, 
           <UnlockImg category={category} product={product}/>
         </ImageBackground>
       </View>
-      <TouchableHighlight onPress={() =>
-        navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
-        <CategoryMeta category={category} questions={questions} answeredQuestions={answeredQuestions} transparent={false}/>
-      </TouchableHighlight>
+        <CategoryMeta category={category} questions={questions} answeredQuestions={answeredQuestions} transparent={false} navigation={navigation} refreshProgress={refreshProgress}/>
     </View>
   )
 };
