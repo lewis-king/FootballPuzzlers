@@ -217,9 +217,9 @@ export default class QuestionContainer extends Component {
         let clueCount = 0;
         Object.keys(selectedClues).map(function(keyName, keyIndex){
             let selected = selectedClues[keyName];
-            if (selected !== "") {
+          if (selected !== "" && keyName != 'question') {
                 clueCount++
-            }
+          }
         });
         return clueCount;
     };

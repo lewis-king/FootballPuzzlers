@@ -1,6 +1,4 @@
 import Realm from 'realm';
-import QuestionsDAO from '../../questions-dao/index';
-import baseQuestions from '../../../../config/baseQuestions.json';
 
 class Question extends Realm.Object {}
 Question.schema = {
@@ -27,7 +25,8 @@ Clues.schema = {
         MID: 'bool',
         FWD: 'bool',
         RET: 'bool',
-        ENG: 'bool'
+        ENG: 'bool',
+        question: {type: 'linkingObjects', objectType: 'Question', property: 'clues'}
     }
 };
 
@@ -40,13 +39,14 @@ SelectedClues.schema = {
         MID: 'string',
         FWD: 'string',
         RET: 'string',
-        ENG: 'string'
+        ENG: 'string',
+        question: {type: 'linkingObjects', objectType: 'Question', property: 'selectedClues'}
     }
 };
 
 export default new Realm({
     schema: [Question, Clues, SelectedClues],
-    schemaVersion: 2,
+    schemaVersion: 4,
     migration: (oldRealm, newRealm) => {
         // only apply this change if upgrading to schemaVersion 1
         if (oldRealm.schemaVersion < 1) {
@@ -57,11 +57,12 @@ export default new Realm({
                 newObjects[i].answered = oldObjects[i].answered;
             }
         }
-        if (oldRealm.schemaVersion == 1) {
+        if (oldRealm.schemaVersion == 1 || oldRealm.schemaVersion == 2 || oldRealm.schemaVersion == 3) {
             const oldObjects = oldRealm.objects('Question');
             const newObjects = newRealm.objects('Question');
             for (let i = 0; i < oldObjects.length; i++) {
-                newObjects[i].selectedClues = oldObjects[i].selectedClues;
+                newObjects[i].id = oldObjects[i].id;
+                newObjects[i].answered = oldObjects[i].answered;
             }
         }
     }

@@ -68,9 +68,9 @@ export default class QuestionSelector extends Component {
     const {answeredSelectableQuestion, headerSection, headerText, mainBackground, mainContentContainer, selectableQuestion, selectableQuestionsContainer, selectableQuestionContent, selectableQuestionText} = styles;
     const AnimatableTouchableHighlight = Animatable.createAnimatableComponent(TouchableHighlight);
 
-    const header = (Platform.OS === 'ios') ? null : (<View style={[headerSection, {backgroundColor: Theme[this.state.category].main}]}>
+    const header = (Platform.OS === 'ios') ? null : <View style={[headerSection, {backgroundColor: Theme[this.state.category].main}]}>
       <Text style={headerText}>{Categories[this.state.category]}</Text>
-    </View>);
+    </View>;
 
     return (
     <View style={mainBackground}>

@@ -1277,7 +1277,7 @@
   {
     "id": 86,
     "questionId": 1,
-    "question": "I'm the leading World Cup goalscorer of all-time",
+    "question": "I'm the leading World Cup goalscorer of all time",
     "acceptableAnswers": ["Miroslav Klose", "Klose"],
     "clues": {
       "GK": false,
@@ -1291,6 +1291,186 @@
   },
   {
     "id": 87,
+    "questionId": 2,
+    "question": "I'm the oldest goalscorer in a World Cup",
+    "acceptableAnswers": ["Roger Milla", "Milla"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 88,
+    "questionId": 3,
+    "question": "I've scored the most goals in a single World Cup match, which also led me to a Golden Boot in that tournament",
+    "acceptableAnswers": ["Oleg Salenko", "Salenko"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 89,
+    "questionId": 4,
+    "question": "I have a well-known Nike football boot made because of me.\nSome say I'm the true greatest for my namesake",
+    "acceptableAnswers": ["Ronaldo"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 90,
+    "questionId": 5,
+    "question": "I scored a legitimate goal which was incorrectly ruled out even though the ball crossed the line during World Cup 2010",
+    "acceptableAnswers": ["Frank Lampard", "Lampard"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": true,
+      "ENG": true
+    },
+    "category": "WC"
+  },
+  {
+    "id": 91,
+    "questionId": 6,
+    "question": "Some of my accolades include winning the Premier League and FA Cup.\nUnfortuantely I'm well known for a penalty miss that assisted in my country being knocked out of a World Cup",
+    "acceptableAnswers": ["Paul Ince", "Ince"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": true,
+      "ENG": true
+    },
+    "category": "WC"
+  },
+  {
+    "id": 92,
+    "questionId": 7,
+    "question": "I'm the joint record holder for the most number of clean sheets in World Cup history.\nI won the World Cup in my inaugural appearence and was a runner-up 8 years later having played in the final of both",
+    "acceptableAnswers": ["Fabien Barthez", "Barthez"],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 93,
+    "questionId": 8,
+    "question": "I have the achievement for making the highest number of caps for my country.\nThis is coupled with the record of making the most appearances for club and country of all time",
+    "acceptableAnswers": ["Peter Shilton", "Shilton"],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": true,
+      "ENG": true
+    },
+    "category": "WC"
+  },
+  {
+    "id": 94,
+    "questionId": 9,
+    "question": "I'm arguably the greatest player of all time.\nA big influence of this is due to me having won the most World Cups of any player",
+    "acceptableAnswers": ["Pelé", "Pele"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 95,
+    "questionId": 10,
+    "question": "I've participated in 4 World Cups and I'm my country's leading goalscorer.\nI'm known for my goalscoring ability, yet I only managed 3 goals during my World Cup appearences",
+    "acceptableAnswers": ["Samuel Eto'o", "Eto'o", "Eto", "Samuel Eto"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 96,
+    "questionId": 11,
+    "question": "I've lifted the World Cup on one occasion.\nI'm currently my country's leading goalscorer which includes 9 goals in the World Cup",
+    "acceptableAnswers": ["David Villa", "Villa"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 97,
+    "questionId": 12,
+    "question": "I'm a German footballer and have the record for playing the highest number of World Cup matches of all time.",
+    "acceptableAnswers": ["Lothar Matthäus", "Lothar Matthaus", "Matthäus", "Matthaus"],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": true,
+      "FWD": false,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 98,
+    "questionId": 13,
+    "question": "I've been to 3 World Cups.\nMy most notable moment was a wonder goal I scored during the 2006 World Cup",
+    "acceptableAnswers": ["Joe Cole", "Cole"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": true,
+      "ENG": true
+    },
+    "category": "WC"
+  },
+  {
+    "id": 99,
     "questionId": 1,
     "question": "I'm the leading Champions League goalscorer of all-time",
     "acceptableAnswers": ["Cristiano Ronaldo", "Ronaldo"],

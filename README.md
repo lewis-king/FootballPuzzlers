@@ -7,10 +7,15 @@ The questions are predominantly based around the Premier League with the majorit
 **Built using React-Native backed by a Realm DB and utilising Fastlane for continuous deployment.**
 
 
-**Run**
+**Run Android**
 First start an emulator or connect a device!
 
 `react-native run-android`
+
+**Run iOS**
+First Open XCode
+
+`react-native run-ios`
 
 **Android logs**
 

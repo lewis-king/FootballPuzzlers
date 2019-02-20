@@ -22,8 +22,7 @@ const images = {
 };
 
 const CategoryCard = ({title, category, questions, navigation, refreshProgress, product}) => {
-  const {categoryMetaHeading, categoryMetaSubHeading, categoryMetaContainer, categoryMeta, categoryTitle, image} = styles;
-  console.log('imageSrc is: ' +images[category].uri);
+  const {categoryMetaHeading, categoryTitle, image} = styles;
   const imageSrc = images[category].uri;
   const answeredQuestions = questions.filter(q => q.answered).length;
   return (

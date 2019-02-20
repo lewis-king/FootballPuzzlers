@@ -7,10 +7,9 @@ import * as Animatable from "react-native-animatable";
 
 const renderMeta = (category, questions, answeredQuestions, transparent, navigation, refreshProgress) => {
   const {categoryMeta, categoryMetaContainer, categoryMetaHeading, categoryMetaSubHeading} = styles;
-  const AnimatableTouchableHighlight = Animatable.createAnimatableComponent(TouchableHighlight);
-  if (questions.filter(q => !q.answered).length == 0) {
+  if (questions.filter(q => !q.answered).length === 0) {
     return (
-      <AnimatableTouchableHighlight onPress={() =>
+      <TouchableHighlight onPress={() =>
         navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
       <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(14, 221, 153, 0)'} : {backgroundColor: 'rgba(14, 221, 153, 100)'}, {justifyContent: 'center'}]}>
         <View style={[categoryMeta, {alignItems: 'center', marginTop: 0, marginBottom: 0}]}>
@@ -18,11 +17,11 @@ const renderMeta = (category, questions, answeredQuestions, transparent, navigat
           <Text style={[categoryMetaSubHeading, {fontSize:18}]}>Complete</Text>
         </View>
       </View>
-      </AnimatableTouchableHighlight>
+      </TouchableHighlight>
     )
   } else {
     return (
-      <AnimatableTouchableHighlight onPress={() =>
+      <TouchableHighlight onPress={() =>
         navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
       <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: Theme[category].main}]}>
         <View style={categoryMeta}>
@@ -37,7 +36,7 @@ const renderMeta = (category, questions, answeredQuestions, transparent, navigat
           <Text style={categoryMetaSubHeading}>{Math.round((answeredQuestions / questions.length) * 100)}%</Text>
         </View>
       </View>
-      </AnimatableTouchableHighlight>
+      </TouchableHighlight>
     )
   }
 };

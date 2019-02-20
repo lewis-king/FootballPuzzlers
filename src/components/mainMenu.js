@@ -72,7 +72,7 @@ export default class MainMenu extends Component {
     };
 
     render() {
-      const {group,mainBackground, titleInfo} = styles;
+      const {group, mainBackground, titleInfo} = styles;
       if (!this.state.questions.length > 0) {
           return null;
       }

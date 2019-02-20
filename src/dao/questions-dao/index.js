@@ -23,6 +23,7 @@ const QuestionDAO = {
                 const isAnswered = (currQs[i] !== undefined && currQs[i].answered !== undefined
                                                             && currQs[i].answered) || false;
                 const selectedClues = {
+                        id: question.id,
                         GK: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.GK !== '') ? currQs[i].selectedClues.GK : '',
                         DEF: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.DEF !== '') ? currQs[i].selectedClues.DEF : '',
                         MID: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.MID !== '') ? currQs[i].selectedClues.MID : '',
@@ -39,7 +40,7 @@ const QuestionDAO = {
                         questionId: question.questionId,
                         question: question.question,
                         acceptableAnswers: question.acceptableAnswers.toString(),
-                        clues: {GK, DEF, MID, FWD, RET, ENG},
+                        clues: {id: question.id, GK, DEF, MID, FWD, RET, ENG},
                         answered: isAnswered,
                         selectedClues,
                         category: question.category
@@ -47,6 +48,21 @@ const QuestionDAO = {
             });
         }));
         console.log("Finished saving questions to the DB");
+
+        //TODO: This is absolutely horrible, I've got an open issue on how I can migrate my schemas whilst adding primary keys
+        //to nested objects. The issue is I get a 'duplicated key' error after the migration has finished. The below is a workaround until I fix it.
+        //Clean up duplicated Clues and Selected Clues
+        realm.write(() => {
+          const allQuestions = realm.objects("Question");
+          const allClues = realm.objects("Clues");
+          const allSelectedClues = realm.objects("SelectedClues");
+          if (allClues.length > allQuestions.length) {
+            const cluesToDelete = allClues.slice(0, (allClues.length) - allQuestions.length);
+            const selectedCluesToDelete = allSelectedClues.slice(0, (allSelectedClues.length) - allQuestions.length);
+            realm.delete(cluesToDelete);
+            realm.delete(selectedCluesToDelete);
+          }
+        });
     },
 
     updateQuestion: function (id) {
