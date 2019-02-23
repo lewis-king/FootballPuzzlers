@@ -6,6 +6,10 @@ The questions are predominantly based around the Premier League with the majorit
 
 **Built using React-Native backed by a Realm DB and utilising Fastlane for continuous deployment.**
 
+**Play Store:** https://play.google.com/store/apps/details?id=com.footballtrivia
+
+**App Store:**
+https://itunes.apple.com/gb/app/football-who-am-i/id1338147291
 
 **Run Android**
 First start an emulator or connect a device!

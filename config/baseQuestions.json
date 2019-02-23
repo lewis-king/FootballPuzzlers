@@ -1350,6 +1350,21 @@
     "category": "WC"
   },
   {
+    "id": 111,
+    "questionId": 26,
+    "question": "I'm the second youngest player to score in a World Cup after Pelé.\nThe same World Cup I went on to lift the trophy",
+    "acceptableAnswers": ["Kylian Mbappé", "Mbappé", "Kylian Mbappe", "Mbappe"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
     "id": 91,
     "questionId": 6,
     "question": "Some of my accolades include winning the Premier League and FA Cup.\nUnfortuantely I'm well known for a penalty miss that assisted in my country being knocked out of a World Cup",
@@ -1466,6 +1481,201 @@
       "FWD": false,
       "RET": true,
       "ENG": true
+    },
+    "category": "WC"
+  },
+  {
+    "id": 99,
+    "questionId": 14,
+    "question": "I've won the Euros during my international career but have never managed to win the World Cup.\nMy brother is also a well known footballer and although he has never won an international trophy, he is deemed the better player of us two",
+    "acceptableAnswers": ["Brian Laudrup", "Laudrup"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 100,
+    "questionId": 15,
+    "question": "After a successful footballing career which included winning a World Cup after scoring a penalty in the final, my career is now in politics",
+    "acceptableAnswers": ["Romário", "Romario"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 101,
+    "questionId": 16,
+    "question": "Although I've won 8 top division domestic league titles and a Champions League, winning the World Cup may just be my greatest achievement",
+    "acceptableAnswers": ["Philipp Lahm", "Lahm"],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 102,
+    "questionId": 17,
+    "question": "I've scored the winning goal in a World Cup final.\n I've also ben named in the Team of the Tournament in a Euros, a tournament in which I was man of the match in 3 of the games",
+    "acceptableAnswers": ["Andrés Iniesta", "Iniesta"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 103,
+    "questionId": 18,
+    "question": "I've won the Golden Boot but have never won the World Cup nor have I won the league at club level",
+    "acceptableAnswers": ["Harry Kane", "Kane"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "WC"
+  },
+  {
+    "id": 104,
+    "questionId": 19,
+    "question": "A goal I've scored in a World Cup is still mentioned today.\nThe team it was against included Nelson Vivas",
+    "acceptableAnswers": ["Michael Owen", "Owen"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": true,
+      "ENG": true
+    },
+    "category": "WC"
+  },
+  {
+    "id": 105,
+    "questionId": 20,
+    "question": "I've scored the first goal in a World Cup, of which was my home nations World Cup.\nI've played in the Turkish top division and have also played for a team which has a similar name to a famous band",
+    "acceptableAnswers": ["Siphiwe Tshabalala", "Tshabalala"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 106,
+    "questionId": 21,
+    "question": "I've played in the Premier League, Bundesliga and Serie A.\nMy most memorable moment in a World Cup is scoring a hat-trick",
+    "acceptableAnswers": ["Xherdan Shaqiri", "Shaqiri"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 107,
+    "questionId": 22,
+    "question": "Some of the names I've been managed by include Pellegrini and Sarri.\nI've scored a hat-trick in a World Cup and have played in Serie A, Premier League and La Liga during my club career",
+    "acceptableAnswers": ["Gonzalo Higuaín", "Higuaín", "Gonzalo Higuain", "Higuain"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 108,
+    "questionId": 23,
+    "question": "I've captained a side which went unbeaten in a World Cup.\nPlayers I've played with during my career include Gareth Bale & Louis Saha",
+    "acceptableAnswers": ["Ryan Nelsen", "Nelsen"],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 109,
+    "questionId": 24,
+    "question": "",
+    "acceptableAnswers": ["", ""],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 110,
+    "questionId": 25,
+    "question": "I'm the only player to have appeared in 3 consecutive World Cup finals",
+    "acceptableAnswers": ["Cafu"],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 120,
+    "questionId": 35,
+    "question": "",
+    "acceptableAnswers": ["Steve Hodge", "Hodge"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
     },
     "category": "WC"
   },

@@ -46,7 +46,7 @@ SelectedClues.schema = {
 
 export default new Realm({
     schema: [Question, Clues, SelectedClues],
-    schemaVersion: 4,
+    schemaVersion: 5,
     migration: (oldRealm, newRealm) => {
         // only apply this change if upgrading to schemaVersion 1
         if (oldRealm.schemaVersion < 1) {
@@ -57,12 +57,23 @@ export default new Realm({
                 newObjects[i].answered = oldObjects[i].answered;
             }
         }
-        if (oldRealm.schemaVersion == 1 || oldRealm.schemaVersion == 2 || oldRealm.schemaVersion == 3) {
+        if (oldRealm.schemaVersion == 1 || oldRealm.schemaVersion == 2 || oldRealm.schemaVersion == 3 || oldRealm.schemaVersion == 4) {
             const oldObjects = oldRealm.objects('Question');
             const newObjects = newRealm.objects('Question');
             for (let i = 0; i < oldObjects.length; i++) {
                 newObjects[i].id = oldObjects[i].id;
                 newObjects[i].answered = oldObjects[i].answered;
+                newObjects[i].selectedClues = oldObjects[i].selectedClues;
+            }
+            const oldSCObjects = oldRealm.objects('SelectedClues');
+            const newSCObjects = newRealm.objects('SelectedClues');
+            for (let i = 0; i < oldSCObjects.length; i++) {
+                newSCObjects[i].GK = oldSCObjects[i].GK;
+                newSCObjects[i].DEF = oldSCObjects[i].DEF;
+                newSCObjects[i].MID = oldSCObjects[i].MID;
+                newSCObjects[i].FWD = oldSCObjects[i].FWD;
+                newSCObjects[i].RET = oldSCObjects[i].RET;
+                newSCObjects[i].ENG = oldSCObjects[i].ENG;
             }
         }
     }
