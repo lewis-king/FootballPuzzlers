@@ -44,9 +44,19 @@ SelectedClues.schema = {
     }
 };
 
+class Product extends Realm.Object {}
+Product.schema = {
+  name: 'Product',
+  primaryKey: 'productId',
+  properties: {
+      productId: 'string',
+      purchased: 'bool'
+  }
+};
+
 export default new Realm({
     schema: [Question, Clues, SelectedClues],
-    schemaVersion: 5,
+    schemaVersion: 7,
     migration: (oldRealm, newRealm) => {
         // only apply this change if upgrading to schemaVersion 1
         if (oldRealm.schemaVersion < 1) {
@@ -57,7 +67,7 @@ export default new Realm({
                 newObjects[i].answered = oldObjects[i].answered;
             }
         }
-        if (oldRealm.schemaVersion == 1 || oldRealm.schemaVersion == 2 || oldRealm.schemaVersion == 3 || oldRealm.schemaVersion == 4) {
+        if (oldRealm.schemaVersion > 0 || oldRealm.schemaVersion <= 6) {
             const oldObjects = oldRealm.objects('Question');
             const newObjects = newRealm.objects('Question');
             for (let i = 0; i < oldObjects.length; i++) {

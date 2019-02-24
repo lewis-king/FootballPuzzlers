@@ -1,28 +1,24 @@
 import React from 'react';
 import {Alert, Text, TouchableHighlight, StyleSheet, View} from 'react-native';
 import {Fonts} from "../utils/fonts";
-import {categoryToItemSku, purchaseProduct} from '../services/in-app-purchase';
+import {categoryToItemSku, purchaseProduct, endConnection} from '../services/in-app-purchase';
+import {unlockAlert} from '../services/in-app-purchase/alert';
+import ProductsDAO from '../dao/products-dao';
 
-const UnlockText = ({category, product}) => {
+const UnlockText = ({category, product, productUnlocked, refresh}) => {
   const {unlockText, unlockContainer} = styles;
-  if (category === "ENG1" || (product != null && product == categoryToItemSku[category])) {
+  if (productUnlocked) {
     return null;
   } else {
+    const amount = product.localizedPrice || product.price;
+    const currencyCode = product.currency;
     return (
       <TouchableHighlight onPress={() => {
-        Alert.alert(
-          'Unlock ' + {product}.product.title,
-          'There are two ways of unlocking questions in whoami? You must complete all questions in the section above, or pay a fee (requires data)',
-          [
-            {text: 'No thanks', onPress: () => {}, style: 'cancel'},
-            {text: 'Let\'s do it!', onPress: () => purchaseProduct(product)},
-          ],
-          { cancelable: false }
-        )
+        unlockAlert(product, refresh);
       }}>
       <View style={unlockContainer}>
 
-        <Text style={unlockText}>Unlock £1.39</Text>
+        <Text style={unlockText}>Unlock {amount} {currencyCode}</Text>
       </View>
       </TouchableHighlight>
   );

@@ -1,6 +1,6 @@
 import React, {Component} from 'React';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import Header from './header';
+import Heading from './heading';
 import {Fonts} from '../utils/fonts';
 
 export default class Completed extends Component {
@@ -18,7 +18,7 @@ export default class Completed extends Component {
         const {congrats, container, paragraphText, btnStyle, submitTxt} = styles;
         return (
             <View style={container}>
-                <Header text={'Football - Who am I?'}/>
+                <Heading text={'Football - Who am I?'}/>
                 <Text style={congrats}>{this.state.title}</Text>
                 <Text style={paragraphText}>
                     {this.state.paragraph}

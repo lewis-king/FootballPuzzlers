@@ -207,7 +207,6 @@ export default class QuestionContainer extends Component {
       if (!this.state.isHistoric) {
         this.showInterstitial();
       }
-      this.props.navigation.goBack(null);
       this.state.refreshQuestionSelectorProgress();
       this.state.refreshProgress();
       this.props.navigation.goBack();

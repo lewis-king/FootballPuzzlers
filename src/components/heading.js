@@ -3,11 +3,14 @@ import {StyleSheet, View} from 'react-native';
 import { LinearTextGradient } from 'react-native-text-gradient';
 import {Fonts} from '../utils/fonts';
 
-const Header = (props) => {
-    const headerTxt = props.text;
+const Heading = ({text, size, alignment}) => {
+    const headerTxt = text;
+    const fontSize = size || 30;
+    const flexAlignment = alignment || "flex-start";
+    const margin = alignment === "center" ? 0 : 20;
     const {headerStyle, header} = styles;
-    return <View style={header}>
-                <LinearTextGradient style={headerStyle} colors={['rgba(108, 74, 248, 1)', 'rgba(255, 0, 88, 1)']}
+    return <View style={[header, {justifyContent: flexAlignment, alignItems: flexAlignment}]}>
+                <LinearTextGradient style={[headerStyle, {fontSize, marginLeft: margin}]} colors={['rgba(108, 74, 248, 1)', 'rgba(255, 0, 88, 1)']}
                                locations={[0, 1]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0}}>
                     {headerTxt}
                 </LinearTextGradient>
@@ -17,18 +20,14 @@ const Header = (props) => {
 const styles = StyleSheet.create({
   headerStyle: {
     textAlign: 'left',
-    alignItems: 'flex-start',
     fontFamily: Fonts.Main,
-    fontSize: 30,
     fontWeight: 'bold',
     marginLeft: 20,
   },
   header: {
     alignContent: 'space-between',
     flexDirection: 'row',
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start'
   },
 });
 
-export default Header;
+export default Heading;

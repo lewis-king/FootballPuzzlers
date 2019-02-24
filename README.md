@@ -43,3 +43,6 @@ In android dir:
 
 In ios/fastlane dir:
 `fastlane ios beta`
+
+**Dev Tools**
+`react-devtools`

@@ -36,7 +36,8 @@ export default class QuestionSelector extends Component {
       category,
       questions,
       refreshProgress,
-      selectableQuestionAnimation: ''
+      selectableQuestionAnimation: '',
+      navigation: this.props.navigation
     }
   }
 
@@ -75,10 +76,9 @@ export default class QuestionSelector extends Component {
     return (
     <View style={mainBackground}>
       {header}
-      <View style={mainContentContainer}>
-        <CategoryMeta questions={this.state.questions} answeredQuestions={this.state.questions.filter(q => q.answered).length} transparent={true}/>
-      </View>
       <ScrollView contentContainerStyle={selectableQuestionsContainer}>
+        <View>
+          <CategoryMeta category={this.state.category} questions={this.state.questions} answeredQuestions={this.state.questions.filter(q => q.answered).length} transparent={true} navigation={this.state.navigation} refreshProgress={this.state.refreshProgress}/>
         <View style={selectableQuestionsContainer}>
           {this.state.questions.map((question, index) => (
             <AnimatableTouchableHighlight animation={this.state.selectableQuestionAnimation}
@@ -93,6 +93,7 @@ export default class QuestionSelector extends Component {
             </AnimatableTouchableHighlight>
           ))}
         </View>
+        </View>
       </ScrollView>
     </View>)
   }
@@ -104,11 +105,11 @@ const styles = StyleSheet.create({
 
   mainBackground: {
     flex: 1,
-    backgroundColor: '#0E1B2F'
+    backgroundColor: '#0E1B2F',
   },
   mainContentContainer: {
-    alignItems: 'center',
-    flexDirection: 'row',
+    marginTop: 10,
+    flexDirection: 'column',
   },
   headerSection: {
     backgroundColor: 'rgba(120, 88, 250, 1)'

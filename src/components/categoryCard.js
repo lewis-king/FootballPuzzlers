@@ -1,13 +1,10 @@
 import React from 'React';
-import {Image, ImageBackground, StyleSheet, Text, TouchableHighlight, View} from "react-native";
+import {ImageBackground, StyleSheet, Text, TouchableHighlight, View} from "react-native";
 import {Fonts} from '../utils/fonts';
 import CategoryMeta from './categoryMeta';
-import Icon from "react-native-vector-icons/MaterialCommunityIcons";
-import Categories from '../services/category';
 import UnlockText from "./unlockText";
-import QuestionsDAO from "../dao/questions-dao";
 import UnlockImg from "./unlockImg";
-import * as Animatable from "react-native-animatable";
+import {unlockAlert} from '../services/in-app-purchase/alert';
 
 const images = {
   ENG1: {
@@ -25,23 +22,31 @@ const CategoryCard = ({title, category, questions, navigation, refreshProgress, 
   const {categoryMetaHeading, categoryTitle, image} = styles;
   const imageSrc = images[category].uri;
   const answeredQuestions = questions.filter(q => q.answered).length;
+  const productUnlocked = category === "ENG1" || product == null;
   return (
     <View>
-      {/*<Icon name="ios-lock" size={45} color="#FFFFFF" />*/}
       <View style={categoryTitle}>
         <View style={{alignItems: 'flex-start'}}>
           <Text style={categoryMetaHeading}>{title}</Text>
         </View>
         <View style={{justifyContent: 'flex-end'}}>
-          <UnlockText category={category} product={product}/>
+          <UnlockText category={category} product={product} productUnlocked={productUnlocked} refresh={refreshProgress}/>
         </View>
       </View>
+      <TouchableHighlight onPress={() =>{
+        if (productUnlocked) {
+          navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})
+        } else {
+          unlockAlert(product, refreshProgress)
+        }
+      }}>
       <View>
         <ImageBackground borderRadius={5} style={image} source={imageSrc}>
-          <UnlockImg category={category} product={product}/>
+          <UnlockImg category={category} product={product} productUnlocked={productUnlocked}/>
         </ImageBackground>
       </View>
-        <CategoryMeta category={category} questions={questions} answeredQuestions={answeredQuestions} transparent={false} navigation={navigation} refreshProgress={refreshProgress}/>
+      </TouchableHighlight>
+        <CategoryMeta category={category} questions={questions} answeredQuestions={answeredQuestions} transparent={false} navigation={navigation} refreshProgress={refreshProgress} productUnlocked={productUnlocked} product={product}/>
     </View>
   )
 };

@@ -978,7 +978,7 @@
     "id": 66,
     "questionId": 66,
     "question": "I hold the record for playing the highest number of Premier League games to be substituted off in all of them.\nThe team I was playing for was Liverpool",
-    "acceptableAnswers": ["Nuri Şahin", "Sahin", "Nuri Sahin", "Sahin"],
+    "acceptableAnswers": ["Nuri Sahin", "Sahin", "Nuri Şahin", "Sahin"],
     "clues": {
 	    "GK": false,
         "DEF": false,
@@ -1665,22 +1665,52 @@
     "category": "WC"
   },
   {
-    "id": 120,
-    "questionId": 35,
-    "question": "",
-    "acceptableAnswers": ["Steve Hodge", "Hodge"],
+    "id": 111,
+    "questionId": 26,
+    "question": "I played every minute of every match as I captained my national team to a World Cup trophy.\nWe managed to concede only 2 goals throughout the entire tournament.\nIt was these performances which played a part in me securing the Ballon d'Or that same year",
+    "acceptableAnswers": ["Fabio Cannavaro", "Cannavaro"],
     "clues": {
       "GK": false,
-      "DEF": false,
-      "MID": true,
-      "FWD": true,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
       "RET": true,
       "ENG": false
     },
     "category": "WC"
   },
   {
-    "id": 99,
+    "id": 112,
+    "questionId": 27,
+    "question": "I've scored more than 8 World Cup goals.\n5 of which came in a single World Cup.\nAn interesting fact is that I've scored the milestone 2,000th goal for my country",
+    "acceptableAnswers": ["Thomas Müller", "Müller", "Thomas Muller", "Muller"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 113,
+    "questionId": 28,
+    "question": "",
+    "acceptableAnswers": ["", ""],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 112,
     "questionId": 1,
     "question": "I'm the leading Champions League goalscorer of all-time",
     "acceptableAnswers": ["Cristiano Ronaldo", "Ronaldo"],

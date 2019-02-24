@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Animated, StyleSheet, Text, TouchableOpacity, TextInput, View} from 'react-native';
+import {Animated, ScrollView, StyleSheet, Text, TouchableOpacity, TextInput, View} from 'react-native';
 import VerifyAnswer from '../services/verify-answer';
 import QuestionsDAO from '../dao/questions-dao';
 import * as Animatable from 'react-native-animatable';
@@ -111,11 +111,11 @@ export default class SubmitAnswer extends Component {
         });
         return (
         <View>
-            <TextInput style={textInput}
+            <TextInput style={[textInput, this.state.isHistoric ? {fontSize: 24, color: 'rgba(35, 237, 113, 1)'} : {}]}
                        placeholder={"Your answer..."}
                        placeholderTextColor={'gray'}
                        onChangeText={(givenAnswer) => this.setState({givenAnswer})}
-                       value={this.state.isHistoric ? this.state.question.acceptableAnswers.split(",")["0"] : this.state.givenAnswer}
+                       value={this.state.isHistoric ? "I am " + this.state.question.acceptableAnswers.split(",")["0"] : this.state.givenAnswer}
                        editable={!this.state.isHistoric}
                        underlineColorAndroid={'gray'}
                        selectionColor={'white'}>
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     },
     textInput: {
         color: '#FFFFFF',
-        height: 45,
+        height: 50,
         fontSize: 20,
         fontFamily: Fonts.Main,
         fontWeight: 'bold',

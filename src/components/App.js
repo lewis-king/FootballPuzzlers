@@ -28,7 +28,6 @@ export const RootNavigator = StackNavigator({
         question: ':question',
         category: ':category',
         refreshProgress: ':refreshProgress',
-        refreshQuestionSelectorProgress: ':refreshQuestionSelectorProgress'
       }
     },
     Questions: {
@@ -37,7 +36,8 @@ export const RootNavigator = StackNavigator({
         question: ':question',
         category: ':category',
         isHistoric: ':isHistoric',
-        refreshProgress: ':refreshProgress'
+        refreshProgress: ':refreshProgress',
+        refreshQuestionSelectorProgress: ':refreshQuestionSelectorProgress'
       },
     },
     Completed: {screen: Completed},

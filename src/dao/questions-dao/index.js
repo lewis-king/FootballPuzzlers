@@ -1,4 +1,3 @@
-import Realm from 'realm';
 import baseQuestions from '../../../config/baseQuestions.json';
 import realm from '../realm/schema/realm';
 

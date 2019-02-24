@@ -4,9 +4,9 @@ import {Fonts} from "../utils/fonts";
 import {categoryToItemSku} from '../services/in-app-purchase';
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
-const UnlockImg = ({category, product}) => {
+const UnlockImg = ({category, product, productUnlocked}) => {
   const {categoryMetaSubHeading} = styles;
-  if (category === "ENG1" || (product != null && product == categoryToItemSku[category])) {
+  if (productUnlocked) {
     return null;
   } else {
     return <View style={{position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center'}}>

@@ -3,13 +3,13 @@ import React from "react";
 import {Fonts} from "../utils/fonts";
 import Icon from 'react-native-vector-icons/Ionicons';
 import Theme from '../services/theme';
-import * as Animatable from "react-native-animatable";
+import {unlockAlert} from '../services/in-app-purchase/alert';
 
-const renderMeta = (category, questions, answeredQuestions, transparent, navigation, refreshProgress) => {
+const renderMeta = (category, questions, answeredQuestions, transparent, navigation, refreshProgress, productUnlocked, product) => {
   const {categoryMeta, categoryMetaContainer, categoryMetaHeading, categoryMetaSubHeading} = styles;
   if (questions.filter(q => !q.answered).length === 0) {
     return (
-      <TouchableHighlight onPress={() =>
+      <TouchableHighlight disabled={transparent || !productUnlocked} onPress={() =>
         navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
       <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(14, 221, 153, 0)'} : {backgroundColor: 'rgba(14, 221, 153, 100)'}, {justifyContent: 'center'}]}>
         <View style={[categoryMeta, {alignItems: 'center', marginTop: 0, marginBottom: 0}]}>
@@ -21,8 +21,13 @@ const renderMeta = (category, questions, answeredQuestions, transparent, navigat
     )
   } else {
     return (
-      <TouchableHighlight onPress={() =>
-        navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
+      <TouchableHighlight disabled={transparent} onPress={() => {
+        if (productUnlocked) {
+          navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})
+        } else {
+          unlockAlert(product, refreshProgress)
+        }
+      }}>
       <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(255, 255, 255, 0)'} : {backgroundColor: Theme[category].main}]}>
         <View style={categoryMeta}>
           <Text style={categoryMetaHeading}>Questions</Text>
@@ -41,8 +46,8 @@ const renderMeta = (category, questions, answeredQuestions, transparent, navigat
   }
 };
 
-const CategoryMeta = ({category, questions, answeredQuestions, transparent, navigation, refreshProgress}) => {
-  return (renderMeta(category, questions, answeredQuestions, transparent, navigation, refreshProgress))
+const CategoryMeta = ({category, questions, answeredQuestions, transparent, navigation, refreshProgress, productUnlocked, product}) => {
+  return (renderMeta(category, questions, answeredQuestions, transparent, navigation, refreshProgress, productUnlocked, product))
 };
 
 export default CategoryMeta;
