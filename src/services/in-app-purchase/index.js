@@ -70,6 +70,10 @@ export const purchaseProduct = async (productId) => {
   return purchase;
 };
 
+export const finishTransaction = () => {
+  RNIap.finishTransaction();
+};
+
 export const endConnection = () => {
   RNIap.endConnection();
 };

@@ -1,10 +1,11 @@
 import React from 'React';
 import {Linking, ScrollView, StyleSheet, Text, View} from "react-native";
 import {Fonts} from "../utils/fonts";
+import Constants from '../utils/constants';
 
 const HowToPlay = () => {
     const {container, heading, sectionHeaderStyle, welcomeParaStyle} = styles;
-    const welcomePara = "Welcome to 'Football - Who am I?'\n" +
+    const welcomePara = "Welcome to Football - whoami?\n" +
         "A football (soccer) trivia guess who style app, in which you will be given certain facts about a player and must guess who is being described.\n" +
         "The questions are intended to be difficult, so do not be too put off if you find yourself stuck. The game works best with a group of friends so that you can solve the questions together.\n" +
         "If you do find yourself stuck on a question, there are a couple of mechanisms to give you a helping hand. These include a selection of clues, revealing a letter of the answer and an option to share the question to your favourite social media platform.\n";
@@ -18,7 +19,7 @@ const HowToPlay = () => {
         "So for this clue to be deemed true, the player in question must have been born in England.";
     return (
         <View style={container}>
-        <Text style={heading}>How to play...</Text>
+        <Text style={heading}>How to play?</Text>
         <ScrollView>
             <Text style={welcomeParaStyle}>{welcomePara}</Text>
             <Text style={sectionHeaderStyle}>{answeringTheQ}</Text>
@@ -31,7 +32,7 @@ const HowToPlay = () => {
             </Text>
             <Text style={sectionHeaderStyle}>Clues - Nationality</Text>
             <Text style={welcomeParaStyle}>{nationalityPosPara}</Text>
-            <Text style={sectionHeaderStyle}>Questions valid at date: 03/2018</Text>
+            <Text style={sectionHeaderStyle}>Questions valid at date: {Constants.questionsIntegrityDate}</Text>
         </ScrollView>
         </View>
     )
@@ -39,8 +40,9 @@ const HowToPlay = () => {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'rgba(95, 125, 132, 0.30)',
-        flex: 1
+        flex: 1,
+        margin: 5,
+        marginBottom: 10
     },
     heading: {
         textAlign: 'center',
@@ -49,18 +51,20 @@ const styles = StyleSheet.create({
         fontFamily: Fonts.Main,
         fontSize: 30,
         fontWeight: 'bold',
-        color: '#ffffff'
+        color: '#FFFFFF'
     },
     sectionHeaderStyle: {
         fontFamily: Fonts.Main,
         fontSize: 20,
         fontWeight: 'bold',
-        margin: 3
+        margin: 3,
+        color: 'white'
     },
     welcomeParaStyle: {
         fontFamily: Fonts.Main,
         fontSize: 16,
-        margin: 3
+        margin: 3,
+        color: 'white'
     }
 });
 

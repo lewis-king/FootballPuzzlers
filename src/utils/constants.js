@@ -1,4 +1,4 @@
-export const Constants = {
+export default {
     title: "Football - Who am I?",
     clues: [{
                 key: "GK",
@@ -31,5 +31,5 @@ export const Constants = {
     "\nI'd also love to hear your feedback and suggestions, so please review." +
     "\nI hope you enjoyed 'Football - Who am I?'",
     nothingToSeeHere: "Nothing to see here yet...",
-    questionsIntegrityDate: "02/2019"
+    questionsIntegrityDate: "03/2019"
 };

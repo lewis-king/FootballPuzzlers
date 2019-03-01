@@ -1,9 +1,7 @@
 import React from 'react';
-import {Alert, Text, TouchableHighlight, StyleSheet, View} from 'react-native';
+import {Text, TouchableHighlight, StyleSheet, View} from 'react-native';
 import {Fonts} from "../utils/fonts";
-import {categoryToItemSku, purchaseProduct, endConnection} from '../services/in-app-purchase';
 import {unlockAlert} from '../services/in-app-purchase/alert';
-import ProductsDAO from '../dao/products-dao';
 
 const UnlockText = ({category, product, productUnlocked, refresh}) => {
   const {unlockText, unlockContainer} = styles;

@@ -1,18 +1,17 @@
 import React, {Component} from 'react';
-import {Image, StyleSheet, Text, TouchableHighlight, TouchableOpacity, View, ScrollView} from 'react-native';
-import {Card, CardTitle, CardContent, CardAction, CardButton, CardImage} from 'react-native-cards';
-import {StackNavigator} from 'react-navigation';
+import {StyleSheet, Text, TouchableOpacity, View, ScrollView, TouchableHighlight, FlatList} from 'react-native';
 import Heading from './heading';
 import QuestionsDAO from '../dao/questions-dao';
 import baseQuestions from '../../config/baseQuestions.json';
 import {Fonts} from '../utils/fonts';
-import {BACKGROUND_IMAGE} from "../resources/images/index";
 import CategoryCard from "./categoryCard";
-import {setQuestions} from "../actions/question";
-import { connect } from 'react-redux';
 import {getProducts} from '../services/in-app-purchase';
 import QuestionsIntegrityDisclaimer from "./questionsIntegrityDisclaimer";
 import emailHandler from '../services/email';
+import Theme from "../services/theme";
+import Modal from "react-native-modal";
+import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+import HowToPlay from "./howToPlay";
 
 export default class MainMenu extends Component {
 
@@ -28,12 +27,13 @@ export default class MainMenu extends Component {
       QuestionsDAO.preLoadQuestions(baseQuestions);
       this.state = {
           questions: [],
+          helpModalVisible: false
       }
     }
 
-    componentDidMount() {
+    async componentDidMount() {
       console.log("In component will mount!");
-      this.retrieveAllQuestions();
+      await this.retrieveAllQuestions();
     }
 
     retrieveAllQuestions = async () => {
@@ -52,7 +52,7 @@ export default class MainMenu extends Component {
     };
 
     render() {
-      const {group, mainBackground, titleInfo} = styles;
+      const {closeOverlay, helpOverlay, group, mainBackground, titleInfo} = styles;
       if (!this.state.questions.length > 0) {
           return null;
       }
@@ -62,7 +62,24 @@ export default class MainMenu extends Component {
       const clQs = this.state.questions.filter(question => question.category == 'CL');
         return (
             <View style={mainBackground}>
+              <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
               <Heading text={"Welcome"}/>
+                <View style={{marginRight: 15}}>
+                  <TouchableOpacity onPress={() => this.setState({helpModalVisible: true})}>
+                    <Icon name="help-box" size={34} color="#FFFFFF" />
+                  </TouchableOpacity>
+                </View>
+                <Modal style={{margin: 0, marginTop: 20}} isVisible={this.state.helpModalVisible} animationIn="slideInDown">
+                  <View style={helpOverlay}>
+                    <View style={closeOverlay}>
+                      <TouchableHighlight onPress={() => this.setState({helpModalVisible: false})}>
+                        <Icon name="close" size={36} color="#FFFFFF" />
+                      </TouchableHighlight>
+                    </View>
+                    <HowToPlay/>
+                  </View>
+                </Modal>
+              </View>
               <Text style={titleInfo}>Test your football knowledge - whoami?</Text>
               <ScrollView contentContainerStyle={group}>
                   <View style={group}>
@@ -82,6 +99,21 @@ export default class MainMenu extends Component {
 }
 
 const styles = StyleSheet.create({
+    closeOverlay: {
+      alignSelf: 'flex-end',
+      color: 'white',
+      fontSize: 32,
+      marginRight: 30,
+      marginTop: 10
+    },
+    helpOverlay: {
+      marginTop: 20,
+      borderTopLeftRadius: 55,
+      borderTopRightRadius: 55,
+      flexDirection: 'column',
+      flex: 1,
+      backgroundColor: '#0E1B2F'
+    },
     group: {
       flexDirection: 'column',
       marginRight: 10,

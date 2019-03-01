@@ -22,7 +22,6 @@ const QuestionDAO = {
                 const isAnswered = (currQs[i] !== undefined && currQs[i].answered !== undefined
                                                             && currQs[i].answered) || false;
                 const selectedClues = {
-                        id: question.id,
                         GK: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.GK !== '') ? currQs[i].selectedClues.GK : '',
                         DEF: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.DEF !== '') ? currQs[i].selectedClues.DEF : '',
                         MID: (currQs[i] !== undefined && currQs[i].selectedClues !== null && currQs[i].selectedClues.MID !== '') ? currQs[i].selectedClues.MID : '',
@@ -55,7 +54,11 @@ const QuestionDAO = {
           const allQuestions = realm.objects("Question");
           const allClues = realm.objects("Clues");
           const allSelectedClues = realm.objects("SelectedClues");
+          console.log("DAO Questions size: " +allQuestions.length);
+          console.log("DAO Clues size: " +allClues.length);
+          console.log("DAO SelectedClues size: " +allSelectedClues.length);
           if (allClues.length > allQuestions.length) {
+            console.log("deleting stuff ere");
             const cluesToDelete = allClues.slice(0, (allClues.length) - allQuestions.length);
             const selectedCluesToDelete = allSelectedClues.slice(0, (allSelectedClues.length) - allQuestions.length);
             realm.delete(cluesToDelete);

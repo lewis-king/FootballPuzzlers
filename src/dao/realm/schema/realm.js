@@ -73,8 +73,22 @@ export default new Realm({
             for (let i = 0; i < oldObjects.length; i++) {
                 newObjects[i].id = oldObjects[i].id;
                 newObjects[i].answered = oldObjects[i].answered;
+                newObjects[i].clues = oldObjects[i].clues;
                 newObjects[i].selectedClues = oldObjects[i].selectedClues;
             }
+          const oldCluesObjects = oldRealm.objects('Clues');
+          const newCluesObjects = newRealm.objects('Clues');
+          for (let i = 0; i < newCluesObjects.length; i++) {
+            oldCluesObjects[i].GK = newCluesObjects[i].GK;
+            oldCluesObjects[i].DEF = newCluesObjects[i].DEF;
+            oldCluesObjects[i].MID = newCluesObjects[i].MID;
+            oldCluesObjects[i].FWD = newCluesObjects[i].FWD;
+            oldCluesObjects[i].RET = newCluesObjects[i].RET;
+            oldCluesObjects[i].ENG = newCluesObjects[i].ENG;
+            if (oldCluesObjects.question) {
+              oldCluesObjects[i].question = newCluesObjects[i].question;
+            }
+          }
             const oldSCObjects = oldRealm.objects('SelectedClues');
             const newSCObjects = newRealm.objects('SelectedClues');
             for (let i = 0; i < oldSCObjects.length; i++) {
@@ -84,6 +98,9 @@ export default new Realm({
                 newSCObjects[i].FWD = oldSCObjects[i].FWD;
                 newSCObjects[i].RET = oldSCObjects[i].RET;
                 newSCObjects[i].ENG = oldSCObjects[i].ENG;
+                if (oldSCObjects.question) {
+                    newSCObjects[i].question = oldSCObjects[i].question;
+                }
             }
         }
     }

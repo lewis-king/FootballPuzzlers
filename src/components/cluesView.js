@@ -1,4 +1,4 @@
-import {Constants} from "../utils/constants";
+import Constants from "../utils/constants";
 
 //TODO: Need to refactor the clues section into this separate component
 const CluesView = (props) => {

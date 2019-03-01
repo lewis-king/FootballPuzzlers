@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ReactNative, {
+import {
     Alert,
     Animated,
     Dimensions,
@@ -10,7 +10,6 @@ import ReactNative, {
     TouchableHighlight,
     TouchableOpacity,
     View,
-    KeyboardAvoidingView,
     Platform,
     ScrollView
 } from 'react-native';
@@ -23,16 +22,12 @@ import {
     AdMobRewarded
 } from 'react-native-admob';
 import {Fonts} from '../utils/fonts';
-import {SHARE_IMAGE} from '../resources/images';
 import QuestionsDAO from '../dao/questions-dao';
-import {Colours} from '../utils/colours';
-import {Constants} from '../utils/constants';
+import Constants from '../utils/constants';
 import KeyboardSpacer from 'react-native-keyboard-spacer';
-import Overlay from 'react-native-modal-overlay';
-import {connect} from 'react-redux';
 import Theme from '../services/theme';
 import * as Animatable from "react-native-animatable";
-import Categories from "../services/category";
+import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
 //real Android AdUnitID banner ca-app-pub-5964830289406172/2390323530
 //real Android AdUnitID interstitial ca-app-pub-5964830289406172/1517036977
@@ -357,12 +352,14 @@ export default class QuestionContainer extends Component {
 
         return (
           <View style={container}>
-            <Modal isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
+            <Modal style={{margin: 0, marginTop: deviceHeight * 0.1}} isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
                    deviceHeight={deviceHeight} animationIn="slideInUp">
               <View style={[cluesOverlay, {backgroundColor: Theme[this.state.category].main}]}>
-                <TouchableHighlight onPress={this.hideCluesOverlay}>
-                  <Text style={closeCluesOverlay}>X</Text>
-                </TouchableHighlight>
+                  <View style={closeCluesOverlay}>
+                    <TouchableHighlight onPress={this.hideCluesOverlay} underlayColor={Theme[this.state.category].main}>
+                      <Icon name="close" size={36} color="#FFFFFF" />
+                    </TouchableHighlight>
+                  </View>
                 <Text style={cluesTitle}>
                   Two of the clues below are linked to the player. Tap below to reveal.
                 </Text>
@@ -421,8 +418,7 @@ export default class QuestionContainer extends Component {
                                       submitBtnTxt={this.state.isHistoric ? 'Back' : 'Submit'}
                                       isHistoric={this.state.isHistoric} givenAnswer={this.state.givenAnswer}/>
                     </View>
-                {/*//TODO: Add conditional logic as KeyboardSpacer is only needed for iOS.*/}
-                <KeyboardSpacer/>
+            {Platform.OS === 'ios' ? <KeyboardSpacer/> : null}
             </View>
         );
     }
@@ -486,7 +482,6 @@ const styles = StyleSheet.create({
     closeCluesOverlay: {
       alignSelf: 'flex-end',
       color: 'white',
-      fontSize: 32,
       marginRight: 30,
       marginTop: 10
     },

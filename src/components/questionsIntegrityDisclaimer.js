@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, StyleSheet, View} from 'react-native';
-import {Constants} from "../utils/constants";
+import Constants from "../utils/constants";
 import {Fonts} from "../utils/fonts";
 
 const QuestionsIntegrityDisclaimer = () => {

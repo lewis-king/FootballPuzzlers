@@ -1,5 +1,5 @@
 import React from 'React';
-import {ImageBackground, StyleSheet, Text, TouchableHighlight, View} from "react-native";
+import {Dimensions, ImageBackground, StyleSheet, Text, TouchableHighlight, View} from "react-native";
 import {Fonts} from '../utils/fonts';
 import CategoryMeta from './categoryMeta';
 import UnlockText from "./unlockText";
@@ -71,8 +71,10 @@ const styles = StyleSheet.create({
     marginBottom: 5
   },
   image: {
-    height: 170,
-    width: 370
+    flex: 1,
+    alignSelf: 'center',
+    height: Dimensions.get('window').height * 0.2,
+    width: Dimensions.get('window').width * 0.90
   }
 });
 

@@ -1,11 +1,11 @@
 import {Alert} from "react-native";
-import {endConnection, purchaseProduct} from "./index";
+import {endConnection, finishTransaction, purchaseProduct} from "./index";
 import ProductsDAO from "../../dao/products-dao";
 
 export const unlockAlert = (product, refresh) => {
   Alert.alert(
     'Unlock ' + {product}.product.title,
-    'There are two ways of unlocking questions in whoami? You must complete all questions in the section above, or pay a fee (requires data)',
+    'There are two ways of unlocking questions in whoami? You must complete all questions in the current active category, or pay a fee (requires data)',
     [
       {
         text: 'No thanks', onPress: () => {
@@ -17,6 +17,7 @@ export const unlockAlert = (product, refresh) => {
             const purchase = purchaseProduct(product);
             ProductsDAO.persistProduct(product.productId, true);
             refresh();
+            finishTransaction();
             endConnection();
           } catch (err) {
             console.warn(err);
