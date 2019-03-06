@@ -36,10 +36,16 @@ export default class QuestionSelector extends Component {
       category,
       questions,
       refreshProgress,
-      selectableQuestionAnimation: '',
+      selectableQuestionAnimation: this.flushSelectableQuestionAnimation(questions),
       navigation: this.props.navigation
     }
   }
+
+  flushSelectableQuestionAnimation = (questions) => {
+    const selectableQuestionAnimation = [];
+    questions.forEach((question) => selectableQuestionAnimation.push(''));
+    return selectableQuestionAnimation;
+  };
 
   retrieveAllQuestions = () => {
     let questions = QuestionsDAO.retrieveAllQuestions();
@@ -57,8 +63,12 @@ export default class QuestionSelector extends Component {
 
   onQuestionSelect = (question, index) => {
     if (!(question.questionId == 1 || ((!question.answered && this.state.questions[index - 1].answered === true)) || question.answered)) {
+      const currentUnansweredQuestion = this.state.questions.findIndex(question => !question.answered);
+      const newSelectableQuestionAnimation = this.flushSelectableQuestionAnimation(this.state.questions);
+      newSelectableQuestionAnimation[index] = 'shake';
+      newSelectableQuestionAnimation[currentUnansweredQuestion] = 'pulse';
       this.setState({
-        selectableQuestionAnimation: 'shake'
+        selectableQuestionAnimation: newSelectableQuestionAnimation
       })
     } else {
       this.setQuestion(question, this.state.refreshProgress)
@@ -81,7 +91,7 @@ export default class QuestionSelector extends Component {
           <CategoryMeta category={this.state.category} questions={this.state.questions} answeredQuestions={this.state.questions.filter(q => q.answered).length} transparent={true} navigation={this.state.navigation} refreshProgress={this.state.refreshProgress}/>
         <View style={selectableQuestionsContainer}>
           {this.state.questions.map((question, index) => (
-            <AnimatableTouchableHighlight animation={this.state.selectableQuestionAnimation}
+            <AnimatableTouchableHighlight animation={this.state.selectableQuestionAnimation[index]}
                                           onPress={() => this.onQuestionSelect(question, index)}
                                           style={[selectableQuestion, {borderColor: Theme[this.state.category].main}, question.answered ? answeredSelectableQuestion : selectableQuestion, question.answered ? {backgroundColor: Theme[this.state.category].main} : {backgroundColor: Theme[this.state.category].transparent}]}
                                           key={index}>

@@ -29,11 +29,6 @@ First Open XCode
 
 `rm -rf node_modules && npm install && react-native link`
 
-**Generate App Icon**
-
-Install GraphicsMagick and ImageMagick, then:
-`yo rn-toolbox:assets --icon ./src/resources/images/Football_Who_Am_I.png`
-
 **Generate Android Artefact**
 
 In android dir:

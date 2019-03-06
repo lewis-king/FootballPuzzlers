@@ -1246,7 +1246,7 @@
   },
   {
     "id": 84,
-    "questionId": 1,
+    "questionId": 84,
     "question": "I've made over 375 Premier League appearances but never managed to win the Premier League.\nDuring my career I've played with the likes of Sylvinho, Schmeichel and Crouch",
     "acceptableAnswers": ["André Bikey", "Andre Bikey", "Bikey"],
     "clues": {
@@ -1276,6 +1276,66 @@
   },
   {
     "id": 86,
+    "questionId": 86,
+    "question": "I'm in the top 30 all-time Premier League goalscorers.\nI've played in the same team as Shane Long, Alexis Sánchez & Raul Meireles",
+    "acceptableAnswers": ["Romelu Lukaku", "Lukaku"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 87,
+    "questionId": 87,
+    "question": "I've won both the Championship and Premier League.\nI've played with the likes of Asamoah Gyan, Christian Benteke & Mamadou Sakho",
+    "acceptableAnswers": ["Jeffrey Schlupp", "Schlupp"],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 88,
+    "questionId": 88,
+    "question": "I've played with Rooney, Evra and Ben Arfa.\nSome of the clubs I've played for include Man United and Anzhi, but I've never won a domestic league title",
+    "acceptableAnswers": ["Gabriel Obertan", "Obertan"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 89,
+    "questionId": 89,
+    "question": "I've made over 300 appearances for my Premier League club.\nDuring this time I've won the Premier League, FA Cup and League Cup.\nI've won the Europa League but never the Champions League",
+    "acceptableAnswers": ["Antonio Valencia", "Valencia"],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "ENG1"
+  },
+  {
+    "id": 90,
     "questionId": 1,
     "question": "I'm the leading World Cup goalscorer of all time",
     "acceptableAnswers": ["Miroslav Klose", "Klose"],
@@ -1290,7 +1350,7 @@
     "category": "WC"
   },
   {
-    "id": 87,
+    "id": 91,
     "questionId": 2,
     "question": "I'm the oldest goalscorer in a World Cup",
     "acceptableAnswers": ["Roger Milla", "Milla"],
@@ -1305,7 +1365,7 @@
     "category": "WC"
   },
   {
-    "id": 88,
+    "id": 92,
     "questionId": 3,
     "question": "I've scored the most goals in a single World Cup match, which also led me to a Golden Boot in that tournament",
     "acceptableAnswers": ["Oleg Salenko", "Salenko"],
@@ -1320,7 +1380,7 @@
     "category": "WC"
   },
   {
-    "id": 89,
+    "id": 93,
     "questionId": 4,
     "question": "I have a well-known Nike football boot made because of me.\nSome say I'm the true greatest for my namesake",
     "acceptableAnswers": ["Ronaldo"],
@@ -1335,7 +1395,7 @@
     "category": "WC"
   },
   {
-    "id": 90,
+    "id": 94,
     "questionId": 5,
     "question": "I scored a legitimate goal which was incorrectly ruled out even though the ball crossed the line during World Cup 2010",
     "acceptableAnswers": ["Frank Lampard", "Lampard"],
@@ -1350,8 +1410,8 @@
     "category": "WC"
   },
   {
-    "id": 111,
-    "questionId": 26,
+    "id": 95,
+    "questionId": 6,
     "question": "I'm the second youngest player to score in a World Cup after Pelé.\nThe same World Cup I went on to lift the trophy",
     "acceptableAnswers": ["Kylian Mbappé", "Mbappé", "Kylian Mbappe", "Mbappe"],
     "clues": {
@@ -1365,8 +1425,23 @@
     "category": "WC"
   },
   {
-    "id": 91,
-    "questionId": 6,
+    "id": 96,
+    "questionId": 7,
+    "question": "During a World Cup winning campaign I played in every match and did not register a single shot on goal.\nWith that being said, I'm actually in the top 5 of all-time leading goalscorers for my country",
+    "acceptableAnswers": ["Olivier Giroud", "Giroud"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 97,
+    "questionId": 7,
     "question": "Some of my accolades include winning the Premier League and FA Cup.\nUnfortuantely I'm well known for a penalty miss that assisted in my country being knocked out of a World Cup",
     "acceptableAnswers": ["Paul Ince", "Ince"],
     "clues": {
@@ -1380,8 +1455,8 @@
     "category": "WC"
   },
   {
-    "id": 92,
-    "questionId": 7,
+    "id": 98,
+    "questionId": 8,
     "question": "I'm the joint record holder for the most number of clean sheets in World Cup history.\nI won the World Cup in my inaugural appearence and was a runner-up 8 years later having played in the final of both",
     "acceptableAnswers": ["Fabien Barthez", "Barthez"],
     "clues": {
@@ -1395,8 +1470,8 @@
     "category": "WC"
   },
   {
-    "id": 93,
-    "questionId": 8,
+    "id": 99,
+    "questionId": 9,
     "question": "I have the achievement for making the highest number of caps for my country.\nThis is coupled with the record of making the most appearances for club and country of all time",
     "acceptableAnswers": ["Peter Shilton", "Shilton"],
     "clues": {
@@ -1410,8 +1485,8 @@
     "category": "WC"
   },
   {
-    "id": 94,
-    "questionId": 9,
+    "id": 100,
+    "questionId": 10,
     "question": "I'm arguably the greatest player of all time.\nA big influence of this is due to me having won the most World Cups of any player",
     "acceptableAnswers": ["Pelé", "Pele"],
     "clues": {
@@ -1425,8 +1500,8 @@
     "category": "WC"
   },
   {
-    "id": 95,
-    "questionId": 10,
+    "id": 101,
+    "questionId": 11,
     "question": "I've participated in 4 World Cups and I'm my country's leading goalscorer.\nI'm known for my goalscoring ability, yet I only managed 3 goals during my World Cup appearences",
     "acceptableAnswers": ["Samuel Eto'o", "Eto'o", "Eto", "Samuel Eto"],
     "clues": {
@@ -1440,8 +1515,8 @@
     "category": "WC"
   },
   {
-    "id": 96,
-    "questionId": 11,
+    "id": 102,
+    "questionId": 12,
     "question": "I've lifted the World Cup on one occasion.\nI'm currently my country's leading goalscorer which includes 9 goals in the World Cup",
     "acceptableAnswers": ["David Villa", "Villa"],
     "clues": {
@@ -1455,8 +1530,8 @@
     "category": "WC"
   },
   {
-    "id": 97,
-    "questionId": 12,
+    "id": 103,
+    "questionId": 13,
     "question": "I'm a German footballer and have the record for playing the highest number of World Cup matches of all time.",
     "acceptableAnswers": ["Lothar Matthäus", "Lothar Matthaus", "Matthäus", "Matthaus"],
     "clues": {
@@ -1470,8 +1545,8 @@
     "category": "WC"
   },
   {
-    "id": 98,
-    "questionId": 13,
+    "id": 104,
+    "questionId": 14,
     "question": "I've been to 3 World Cups.\nMy most notable moment was a wonder goal I scored during the 2006 World Cup",
     "acceptableAnswers": ["Joe Cole", "Cole"],
     "clues": {
@@ -1485,8 +1560,8 @@
     "category": "WC"
   },
   {
-    "id": 99,
-    "questionId": 14,
+    "id": 105,
+    "questionId": 15,
     "question": "I've won the Euros during my international career but have never managed to win the World Cup.\nMy brother is also a well known footballer and although he has never won an international trophy, he is deemed the better player of us two",
     "acceptableAnswers": ["Brian Laudrup", "Laudrup"],
     "clues": {
@@ -1500,8 +1575,8 @@
     "category": "WC"
   },
   {
-    "id": 100,
-    "questionId": 15,
+    "id": 106,
+    "questionId": 16,
     "question": "After a successful footballing career which included winning a World Cup after scoring a penalty in the final, my career is now in politics",
     "acceptableAnswers": ["Romário", "Romario"],
     "clues": {
@@ -1515,8 +1590,8 @@
     "category": "WC"
   },
   {
-    "id": 101,
-    "questionId": 16,
+    "id": 107,
+    "questionId": 17,
     "question": "Although I've won 8 top division domestic league titles and a Champions League, winning the World Cup may just be my greatest achievement",
     "acceptableAnswers": ["Philipp Lahm", "Lahm"],
     "clues": {
@@ -1530,8 +1605,8 @@
     "category": "WC"
   },
   {
-    "id": 102,
-    "questionId": 17,
+    "id": 108,
+    "questionId": 18,
     "question": "I've scored the winning goal in a World Cup final.\n I've also ben named in the Team of the Tournament in a Euros, a tournament in which I was man of the match in 3 of the games",
     "acceptableAnswers": ["Andrés Iniesta", "Iniesta"],
     "clues": {
@@ -1545,8 +1620,8 @@
     "category": "WC"
   },
   {
-    "id": 103,
-    "questionId": 18,
+    "id": 109,
+    "questionId": 19,
     "question": "I've won the Golden Boot but have never won the World Cup nor have I won the league at club level",
     "acceptableAnswers": ["Harry Kane", "Kane"],
     "clues": {
@@ -1560,8 +1635,8 @@
     "category": "WC"
   },
   {
-    "id": 104,
-    "questionId": 19,
+    "id": 110,
+    "questionId": 20,
     "question": "A goal I've scored in a World Cup is still mentioned today.\nThe team it was against included Nelson Vivas",
     "acceptableAnswers": ["Michael Owen", "Owen"],
     "clues": {
@@ -1575,8 +1650,8 @@
     "category": "WC"
   },
   {
-    "id": 105,
-    "questionId": 20,
+    "id": 111,
+    "questionId": 21,
     "question": "I've scored the first goal in a World Cup, of which was my home nations World Cup.\nI've played in the Turkish top division and have also played for a team which has a similar name to a famous band",
     "acceptableAnswers": ["Siphiwe Tshabalala", "Tshabalala"],
     "clues": {
@@ -1590,8 +1665,8 @@
     "category": "WC"
   },
   {
-    "id": 106,
-    "questionId": 21,
+    "id": 112,
+    "questionId": 22,
     "question": "I've played in the Premier League, Bundesliga and Serie A.\nMy most memorable moment in a World Cup is scoring a hat-trick",
     "acceptableAnswers": ["Xherdan Shaqiri", "Shaqiri"],
     "clues": {
@@ -1605,8 +1680,8 @@
     "category": "WC"
   },
   {
-    "id": 107,
-    "questionId": 22,
+    "id": 113,
+    "questionId": 23,
     "question": "Some of the names I've been managed by include Pellegrini and Sarri.\nI've scored a hat-trick in a World Cup and have played in Serie A, Premier League and La Liga during my club career",
     "acceptableAnswers": ["Gonzalo Higuaín", "Higuaín", "Gonzalo Higuain", "Higuain"],
     "clues": {
@@ -1620,8 +1695,8 @@
     "category": "WC"
   },
   {
-    "id": 108,
-    "questionId": 23,
+    "id": 114,
+    "questionId": 24,
     "question": "I've captained a side which went unbeaten in a World Cup.\nPlayers I've played with during my career include Gareth Bale & Louis Saha",
     "acceptableAnswers": ["Ryan Nelsen", "Nelsen"],
     "clues": {
@@ -1635,22 +1710,7 @@
     "category": "WC"
   },
   {
-    "id": 109,
-    "questionId": 24,
-    "question": "",
-    "acceptableAnswers": ["", ""],
-    "clues": {
-      "GK": false,
-      "DEF": true,
-      "MID": false,
-      "FWD": false,
-      "RET": false,
-      "ENG": false
-    },
-    "category": "WC"
-  },
-  {
-    "id": 110,
+    "id": 115,
     "questionId": 25,
     "question": "I'm the only player to have appeared in 3 consecutive World Cup finals",
     "acceptableAnswers": ["Cafu"],
@@ -1665,7 +1725,7 @@
     "category": "WC"
   },
   {
-    "id": 111,
+    "id": 116,
     "questionId": 26,
     "question": "I played every minute of every match as I captained my national team to a World Cup trophy.\nWe managed to concede only 2 goals throughout the entire tournament.\nIt was these performances which played a part in me securing the Ballon d'Or that same year",
     "acceptableAnswers": ["Fabio Cannavaro", "Cannavaro"],
@@ -1680,7 +1740,7 @@
     "category": "WC"
   },
   {
-    "id": 112,
+    "id": 117,
     "questionId": 27,
     "question": "I've scored more than 8 World Cup goals.\n5 of which came in a single World Cup.\nAn interesting fact is that I've scored the milestone 2,000th goal for my country",
     "acceptableAnswers": ["Thomas Müller", "Müller", "Thomas Muller", "Muller"],
@@ -1695,14 +1755,44 @@
     "category": "WC"
   },
   {
-    "id": 113,
+    "id": 118,
     "questionId": 28,
-    "question": "",
-    "acceptableAnswers": ["", ""],
+    "question": "I'm the most capped player for my country.\nI'm a World Cup winner and am the only player in my position to have won the Golden Foot award",
+    "acceptableAnswers": ["Gianluigi Buffon", "Gigi Buffon", "Buffon"],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 119,
+    "questionId": 29,
+    "question": "I won the World Cup and then the European Championship two years later.\nI've played at the top level domestically for France, Italy and Spain.\nI've made over 140 caps for my country",
+    "acceptableAnswers": ["Lilian Thuram", "Thuram"],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 120,
+    "questionId": 30,
+    "question": "I've never won the World Cup, but I have come close having won a runners-up medal.\nTeams I've played for in the past include A.C Milan, Ajax and Real Madrid",
+    "acceptableAnswers": ["Klaas-Jan Huntelaar", "Huntelaar"],
     "clues": {
       "GK": false,
       "DEF": false,
-      "MID": true,
+      "MID": false,
       "FWD": true,
       "RET": false,
       "ENG": false
@@ -1710,7 +1800,37 @@
     "category": "WC"
   },
   {
-    "id": 112,
+    "id": 121,
+    "questionId": 31,
+    "question": "I've scored over 300 goals for club and country combined.\nI've won the World Cup and have continued in the game as a manager.\nMy entire career has been spent in just the one country",
+    "acceptableAnswers": ["Filippo Inzaghi", "Inzaghi"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": true,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 122,
+    "questionId": 32,
+    "question": "I'm in the top 30 all-time leading goalscorers in World Cup history with a goals per game of over 1 goal in every 2 games.\nI'm also my country's leading goalscorer.\nOther accolades include winning an English League Cup and the Champions League",
+    "acceptableAnswers": ["Luis Suárez", "Suárez"],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "WC"
+  },
+  {
+    "id": 123,
     "questionId": 1,
     "question": "I'm the leading Champions League goalscorer of all-time",
     "acceptableAnswers": ["Cristiano Ronaldo", "Ronaldo"],
