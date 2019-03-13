@@ -35,7 +35,7 @@ export const getProducts = async () => {
       const storedProducts = ProductsDAO.retrieveProducts();
       const storedProductIds = storedProducts.map((storedProduct) => storedProduct.productId);
       products.forEach((product) => {
-        if (!storedProductIds.includes(product.id)) {
+        if (!storedProductIds.includes(product.productId)) {
           lockedProducts.push(product);
         }
       });

@@ -370,6 +370,7 @@ export default class QuestionContainer extends Component {
                               renderItem={({item}) =>
                                 <AnimatableTouchableHighlight
                                   animation={this.state.clueBtnPressAnimation}
+                                  useNativeDriver={true}
                                   style={[cluesBtn, {
                                     backgroundColor:
                                       this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])

@@ -92,6 +92,7 @@ export default class QuestionSelector extends Component {
         <View style={selectableQuestionsContainer}>
           {this.state.questions.map((question, index) => (
             <AnimatableTouchableHighlight animation={this.state.selectableQuestionAnimation[index]}
+                                          useNativeDriver={true}
                                           onPress={() => this.onQuestionSelect(question, index)}
                                           style={[selectableQuestion, {borderColor: Theme[this.state.category].main}, question.answered ? answeredSelectableQuestion : selectableQuestion, question.answered ? {backgroundColor: Theme[this.state.category].main} : {backgroundColor: Theme[this.state.category].transparent}]}
                                           key={index}>

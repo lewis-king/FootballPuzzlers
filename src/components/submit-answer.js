@@ -122,7 +122,7 @@ export default class SubmitAnswer extends Component {
             </TextInput>
             <AnimatedButton onPress={this.onSubmit} style={[submitBtn, {backgroundColor: submitBtnBackColor}]}
             disabled={this.state.isChecking}>
-                <Animatable.Text animation={this.state.submitBtnAnimation} style={submitTxt}>{this.state.isChecking ? 'Checking...' : this.state.submitBtnTxt}</Animatable.Text>
+                <Animatable.Text animation={this.state.submitBtnAnimation} useNativeDriver={true} style={submitTxt}>{this.state.isChecking ? 'Checking...' : this.state.submitBtnTxt}</Animatable.Text>
             </AnimatedButton>
         </View>
         );

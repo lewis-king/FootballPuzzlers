@@ -14,15 +14,16 @@ export const unlockAlert = (product, refresh) => {
       {
         text: 'Let\'s do it!', onPress: () => {
           try {
-            const purchase = purchaseProduct(product);
-            ProductsDAO.persistProduct(product.productId, true);
-            refresh();
+            console.log('About to purchase product with product id: ' +{product}.product.productId);
+            const purchase = purchaseProduct(product.product.productId);
             finishTransaction();
-            endConnection();
+            ProductsDAO.persistProduct(product.product.productId, true);
           } catch (err) {
             console.warn(err);
             alert("Something went wrong during the purchase");
           }
+          refresh();
+          endConnection();
         }
       },
     ],
