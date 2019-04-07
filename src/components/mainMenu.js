@@ -61,9 +61,9 @@ export default class MainMenu extends Component {
           return null;
       }
       console.log('category questions are: ' +this.state.questions.filter(question => question.category == 'ENG1'));
-      const eng1Qs = this.state.questions.filter(question => question.category == 'ENG1');
-      const wcQs = this.state.questions.filter(question => question.category == 'WC');
-      const clQs = this.state.questions.filter(question => question.category == 'CL');
+      const eng1Qs = this.state.questions.filter(question => question.category == 'ENG1').sort((a, b) => a.questionId - b.questionId);
+      const wcQs = this.state.questions.filter(question => question.category == 'WC').sort((a, b) => a.questionId - b.questionId);
+      const clQs = this.state.questions.filter(question => question.category == 'CL').sort((a, b) => a.questionId - b.questionId);
         return (
             <View style={mainBackground}>
               <ScrollView contentContainerStyle={group}>
