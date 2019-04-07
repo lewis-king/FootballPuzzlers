@@ -1,7 +1,7 @@
 import {Text, StyleSheet, View, TouchableHighlight} from "react-native";
 import React from "react";
 import {Fonts} from "../utils/fonts";
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Theme from '../services/theme';
 import {unlockAlert} from '../services/in-app-purchase/alert';
 
@@ -12,8 +12,8 @@ const renderMeta = (category, questions, answeredQuestions, transparent, navigat
       <TouchableHighlight disabled={transparent || !productUnlocked} onPress={() =>
         navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
       <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(14, 221, 153, 0)'} : {backgroundColor: 'rgba(14, 221, 153, 100)'}, {justifyContent: 'center'}]}>
-        <View style={[categoryMeta, {alignItems: 'center', marginTop: 0, marginBottom: 0}]}>
-          <Icon name="ios-checkbox-outline" size={40} color="#FFFFFF" />
+        <View style={[categoryMeta, {alignItems: 'center', marginTop: 5, marginBottom: 5}]}>
+          <Icon name="check" size={40} color="#FFFFFF" />
           <Text style={[categoryMetaSubHeading, {fontSize:18}]}>Complete</Text>
         </View>
       </View>

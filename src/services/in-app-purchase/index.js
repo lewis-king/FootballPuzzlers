@@ -13,39 +13,26 @@ export const categoryToItemSku = {
 
 export const getProducts = async () => {
   let products;
-  let lockedProducts = null;
+  let lockedProducts = [];
   try {
     products = await RNIap.getProducts(itemSkus);
     if (products == null || products.length == 0) {
       console.warn("Not got products back as expected, initialising with stub");
       products = stubProducts;
-    } else {
-      /*try {
-        //Products returned, let's cross-check with what the user has purchased
-        const purchases  = await RNIap.getAvailablePurchases();
-        const purchasesProductIds = purchases.map((purchase) => purchase.productId);
-        products.forEach((product) => {
-          if (!purchasesProductIds.includes(product.productId)) {
-            lockedProducts.push(product);
-          }
-        });
-      } catch (err) {
-        console.warn("Unable to fetch available purchases, probably because this is a dev environment");
-      }*/
-      const storedProducts = ProductsDAO.retrieveProducts();
-      const storedProductIds = storedProducts.map((storedProduct) => storedProduct.productId);
-      products.forEach((product) => {
-        if (!storedProductIds.includes(product.productId)) {
-          lockedProducts.push(product);
-        }
-      });
-
-      return lockedProducts || products;
     }
+    const storedProducts = ProductsDAO.retrieveProducts();
+    const storedProductIds = storedProducts.map((storedProduct) => storedProduct.productId);
+    products.forEach((product) => {
+      if (!storedProductIds.includes(product.productId)) {
+        lockedProducts.push(product);
+      }
+    });
+    return lockedProducts || products;
     console.log("Successfully retrieved user's products");
   } catch (err) {
     console.warn("Unable to fetch IAP products, probably because this is a dev environment");
-    console.warn(err);
+    console.warn(err.code);
+    console.warn(err.message);
     products = stubProducts;
   }
   return products;

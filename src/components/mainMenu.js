@@ -41,10 +41,14 @@ export default class MainMenu extends Component {
       try {
         products = await getProducts();
       } catch(err) {
-        console.log(err);
+        console.warn(err.code);
+        console.warn(err.message);
       }
       const questions = QuestionsDAO.retrieveAllQuestions();
       console.log('about to set questions to state: ' +questions);
+      //set allowedToOpenNewSection boolean
+      //This will be derived based on if sections that have at least a question answered and all are answered return true
+      //This will then be used to drive whether the locked sections can be shown.
       this.setState({
         questions,
         products
@@ -62,6 +66,7 @@ export default class MainMenu extends Component {
       const clQs = this.state.questions.filter(question => question.category == 'CL');
         return (
             <View style={mainBackground}>
+              <ScrollView contentContainerStyle={group}>
               <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
               <Heading text={"Welcome"}/>
                 <View style={{marginRight: 15}}>
@@ -81,7 +86,6 @@ export default class MainMenu extends Component {
                 </Modal>
               </View>
               <Text style={titleInfo}>Test your football knowledge - whoami?</Text>
-              <ScrollView contentContainerStyle={group}>
                   <View style={group}>
                     <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
                     <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.worldcup')}/>
@@ -91,7 +95,7 @@ export default class MainMenu extends Component {
                 <TouchableOpacity onPress={emailHandler}>
                 <Heading text={"Notice something wrong?"} size={14} alignment={"center"}/>
                 </TouchableOpacity>
-                <View style={{height: 20}}/>
+                <View style={{height: 40}}/>
                 </ScrollView>
             </View>
         )

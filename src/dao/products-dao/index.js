@@ -2,11 +2,11 @@ import realm from '../realm/schema/realm';
 
 const ProductsDAO = {
 
-  persistProduct: function(product, purchased) {
+  persistProduct: function(productId, purchased) {
     realm.write(() => {
       realm.create('Product',
         {
-          productId: product.id,
+          productId,
           purchased
         })
     })

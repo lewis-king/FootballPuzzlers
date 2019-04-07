@@ -55,7 +55,7 @@ Product.schema = {
 };
 
 export default new Realm({
-    schema: [Question, Clues, SelectedClues],
+    schema: [Question, Clues, SelectedClues, Product],
     schemaVersion: 7,
     migration: (oldRealm, newRealm) => {
         // only apply this change if upgrading to schemaVersion 1

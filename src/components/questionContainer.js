@@ -204,7 +204,7 @@ export default class QuestionContainer extends Component {
       }
       this.state.refreshQuestionSelectorProgress();
       this.state.refreshProgress();
-      this.props.navigation.goBack();
+      this.props.navigation.goBack(null);
     };
 
     calculateClueCount = (selectedClues) => {
