@@ -55,6 +55,23 @@ export default class MainMenu extends Component {
       });
     };
 
+    determineAllProductsUnlockedOverride = (questions) => {
+      const allCategories = questions.map(question => question.category);
+      const distinctCategories = Array.from(new Set(allCategories));
+      const categoryStatus = [];
+      distinctCategories.forEach(category => {
+        const questionsInCategory = this.state.questions.filter(question => question.category == category);
+        const unansweredQuestionsInCategory = questionsInCategory.filter(question => !question.answered);
+        const completedCategory = unansweredQuestionsInCategory.size == 0;
+        const notYetStartedCategory = unansweredQuestionsInCategory.size == questionsInCategory.size;
+        const inProgressCategory = !notYetStartedCategory && !completedCategory;
+        const status = completedCategory ? "COMPLETED" : notYetStartedCategory ? "NOT_STARTED" : inProgressCategory ? "IN_PROGRESS" : null;
+        categoryStatus.push(status)
+      });
+      const categoriesInProgress = categoryStatus.filter(status => status == "IN_PROGRESS");
+      return categoriesInProgress.size == 0 && categoryStatus[0] != "NOT_STARTED";
+    };
+
     render() {
       const {closeOverlay, helpOverlay, group, mainBackground, titleInfo} = styles;
       if (!this.state.questions.length > 0) {
@@ -64,7 +81,8 @@ export default class MainMenu extends Component {
       const eng1Qs = this.state.questions.filter(question => question.category == 'ENG1').sort((a, b) => a.questionId - b.questionId);
       const wcQs = this.state.questions.filter(question => question.category == 'WC').sort((a, b) => a.questionId - b.questionId);
       const clQs = this.state.questions.filter(question => question.category == 'CL').sort((a, b) => a.questionId - b.questionId);
-        return (
+      const allProductsUnlockOverride = this.determineAllProductsUnlockedOverride(this.state.questions);
+      return (
             <View style={mainBackground}>
               <ScrollView contentContainerStyle={group}>
               <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
@@ -74,24 +92,24 @@ export default class MainMenu extends Component {
                     <Icon name="help-box" size={34} color="#FFFFFF" />
                   </TouchableOpacity>
                 </View>
-                <Modal style={{margin: 0, marginTop: 20}} isVisible={this.state.helpModalVisible} animationIn="slideInDown">
+                <Modal style={{margin: 0, marginTop: 20}} isVisible={this.state.helpModalVisible} animationIn="slideInUp">
                   <View style={helpOverlay}>
                     <View style={closeOverlay}>
                       <TouchableHighlight onPress={() => this.setState({helpModalVisible: false})}>
-                        <Icon name="close" size={36} color="#FFFFFF" />
+                        <Icon name="close" size={36} color="black" />
                       </TouchableHighlight>
                     </View>
                     <HowToPlay/>
                   </View>
                 </Modal>
               </View>
-              <Text style={titleInfo}>Test your football knowledge - whoami?</Text>
+              <Text style={titleInfo}>How well do you know your football?</Text>
                   <View style={group}>
-                    <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
-                    <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.worldcup')}/>
-                    <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.championsleague')}/>
+                    <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
+                    <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.worldcup')}/>
+                    <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.championsleague')}/>
                   </View>
-                <QuestionsIntegrityDisclaimer/>
+                <QuestionsIntegrityDisclaimer color={"white"}/>
                 <TouchableOpacity onPress={emailHandler}>
                 <Heading text={"Notice something wrong?"} size={14} alignment={"center"}/>
                 </TouchableOpacity>
@@ -116,7 +134,7 @@ const styles = StyleSheet.create({
       borderTopRightRadius: 55,
       flexDirection: 'column',
       flex: 1,
-      backgroundColor: '#0E1B2F'
+      backgroundColor: '#ffffff'
     },
     group: {
       flexDirection: 'column',

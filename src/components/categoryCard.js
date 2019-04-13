@@ -11,18 +11,18 @@ const images = {
     uri: require('../resources/images/football_nike.jpg')
   },
   WC: {
-    uri: require('../resources/images/football_world_cup.jpg')
+    uri: require('../resources/images/football_world_cup_2.jpg')
   },
   CL: {
     uri: require('../resources/images/football_champions_league.jpg')
   }
 };
 
-const CategoryCard = ({title, category, questions, navigation, refreshProgress, product}) => {
+const CategoryCard = ({title, category, questions, productUnlockOverride, navigation, refreshProgress, product}) => {
   const {categoryMetaHeading, categoryTitle, image} = styles;
   const imageSrc = images[category].uri;
   const answeredQuestions = questions.filter(q => q.answered).length;
-  const productUnlocked = category === "ENG1" || product == null;
+  const productUnlocked = category === "ENG1" || product == null || productUnlockOverride || answeredQuestions.size != 0;
   return (
     <View>
       <View style={categoryTitle}>

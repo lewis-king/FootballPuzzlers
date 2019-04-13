@@ -1,12 +1,15 @@
 import React from 'React';
-import {Linking, ScrollView, StyleSheet, Text, View} from "react-native";
+import {Image, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View} from "react-native";
 import {Fonts} from "../utils/fonts";
 import Constants from '../utils/constants';
+import QuestionsIntegrityDisclaimer from "./questionsIntegrityDisclaimer";
+import emailHandler from "../services/email";
+import Heading from "./heading";
 
 const HowToPlay = () => {
     const {container, heading, sectionHeaderStyle, welcomeParaStyle} = styles;
-    const welcomePara = "Welcome to Football - whoami?\n" +
-        "A football (soccer) trivia guess who style app, in which you will be given certain facts about a player and must guess who is being described.\n" +
+    const howToPlayHeader = "How to play?";
+    const welcomePara = "A football (soccer) trivia guess who style app, in which you will be given certain facts about a player and must guess who is being described.\n" +
         "The questions are intended to be difficult, so do not be too put off if you find yourself stuck. The game works best with a group of friends so that you can solve the questions together.\n" +
         "If you do find yourself stuck on a question, there are a couple of mechanisms to give you a helping hand. These include a selection of clues, revealing a letter of the answer and an option to share the question to your favourite social media platform.\n";
     const answeringTheQ = "Answering a question";
@@ -19,8 +22,9 @@ const HowToPlay = () => {
         "So for this clue to be deemed true, the player in question must have been born in England.";
     return (
         <View style={container}>
-        <Text style={heading}>How to play?</Text>
+        <Image style={heading} source={require('../resources/images/whoami2x.png')}></Image>
         <ScrollView>
+          <Text style={sectionHeaderStyle}>{howToPlayHeader}</Text>
             <Text style={welcomeParaStyle}>{welcomePara}</Text>
             <Text style={sectionHeaderStyle}>{answeringTheQ}</Text>
             <Text style={welcomeParaStyle}>{answeringTheQPara}</Text>
@@ -32,8 +36,12 @@ const HowToPlay = () => {
             </Text>
             <Text style={sectionHeaderStyle}>Clues - Nationality</Text>
             <Text style={welcomeParaStyle}>{nationalityPosPara}</Text>
-            <Text style={sectionHeaderStyle}>Questions valid at date: {Constants.questionsIntegrityDate}</Text>
         </ScrollView>
+          <QuestionsIntegrityDisclaimer color={"black"}/>
+          <TouchableOpacity onPress={emailHandler}>
+            <Heading text={"Notice something wrong?"} size={14} alignment={"center"}/>
+          </TouchableOpacity>
+          <View style={{height: 40}}/>
         </View>
     )
 };
@@ -45,26 +53,24 @@ const styles = StyleSheet.create({
         marginBottom: 10
     },
     heading: {
-        textAlign: 'center',
         alignItems: 'center',
-        margin: 3,
-        fontFamily: Fonts.Main,
-        fontSize: 30,
-        fontWeight: 'bold',
-        color: '#FFFFFF'
+        alignSelf: 'center',
+        aspectRatio: 1.65,
+        marginTop: 0,
+        resizeMode: 'contain'
     },
     sectionHeaderStyle: {
         fontFamily: Fonts.Main,
         fontSize: 20,
         fontWeight: 'bold',
-        margin: 3,
-        color: 'white'
+        margin: 1,
+        color: 'black'
     },
     welcomeParaStyle: {
         fontFamily: Fonts.Main,
         fontSize: 16,
-        margin: 3,
-        color: 'white'
+        margin: 1,
+        color: 'black'
     }
 });
 

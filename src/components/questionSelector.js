@@ -62,7 +62,7 @@ export default class QuestionSelector extends Component {
   };
 
   onQuestionSelect = (question, index) => {
-    if (index != 0 && !(question.questionId == 1 || ((!question.answered && this.state.questions[index - 1].answered === true)) || question.answered)) {
+    if (index != 0 && !((!question.answered && this.state.questions[index - 1].answered === true) || question.answered)) {
       const currentUnansweredQuestion = this.state.questions.findIndex(question => !question.answered);
       const newSelectableQuestionAnimation = this.flushSelectableQuestionAnimation(this.state.questions);
       newSelectableQuestionAnimation[index] = 'shake';
