@@ -474,7 +474,7 @@
         "DEF": true,
         "MID": false,
         "FWD": false,
-        "RET": false,
+        "RET": true,
 	    "ENG": false
     },
     "category": "ENG1"
@@ -504,7 +504,7 @@
         "DEF": false,
         "MID": false,
         "FWD": true,
-        "RET": false,
+        "RET": true,
 	    "ENG": false
     },
     "category": "ENG1"
@@ -969,7 +969,7 @@
         "DEF": false,
         "MID": false,
         "FWD": true,
-        "RET": false,
+        "RET": true,
 	    "ENG": true
     },
     "category": "ENG1"
@@ -1044,7 +1044,7 @@
         "DEF": true,
         "MID": false,
         "FWD": false,
-        "RET": false,
+        "RET": true,
 	    "ENG": true
     },
     "category": "ENG1"
@@ -1119,7 +1119,7 @@
         "DEF": false,
         "MID": false,
         "FWD": true,
-        "RET": false,
+        "RET": true,
 	    "ENG": false
     },
     "category": "ENG1"
@@ -1719,7 +1719,7 @@
       "DEF": true,
       "MID": false,
       "FWD": false,
-      "RET": false,
+      "RET": true,
       "ENG": false
     },
     "category": "WC"
