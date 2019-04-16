@@ -62,8 +62,8 @@ export default class MainMenu extends Component {
       distinctCategories.forEach(category => {
         const questionsInCategory = this.state.questions.filter(question => question.category == category);
         const unansweredQuestionsInCategory = questionsInCategory.filter(question => !question.answered);
-        const completedCategory = unansweredQuestionsInCategory.size == 0;
-        const notYetStartedCategory = unansweredQuestionsInCategory.size == questionsInCategory.size;
+        const completedCategory = unansweredQuestionsInCategory.length == 0;
+        const notYetStartedCategory = unansweredQuestionsInCategory.length == questionsInCategory.length;
         const inProgressCategory = !notYetStartedCategory && !completedCategory;
         const status = completedCategory ? "COMPLETED" : notYetStartedCategory ? "NOT_STARTED" : inProgressCategory ? "IN_PROGRESS" : null;
         categoryStatus.push(status)
@@ -95,7 +95,7 @@ export default class MainMenu extends Component {
                 <Modal style={{margin: 0, marginTop: 20}} isVisible={this.state.helpModalVisible} animationIn="slideInUp">
                   <View style={helpOverlay}>
                     <View style={closeOverlay}>
-                      <TouchableHighlight onPress={() => this.setState({helpModalVisible: false})}>
+                      <TouchableHighlight onPress={() => this.setState({helpModalVisible: false})} underlayColor={'white'}>
                         <Icon name="close" size={36} color="black" />
                       </TouchableHighlight>
                     </View>

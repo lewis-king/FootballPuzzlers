@@ -36,12 +36,12 @@ const HowToPlay = () => {
             </Text>
             <Text style={sectionHeaderStyle}>Clues - Nationality</Text>
             <Text style={welcomeParaStyle}>{nationalityPosPara}</Text>
-        </ScrollView>
           <QuestionsIntegrityDisclaimer color={"black"}/>
           <TouchableOpacity onPress={emailHandler}>
             <Heading text={"Notice something wrong?"} size={14} alignment={"center"}/>
           </TouchableOpacity>
-          <View style={{height: 40}}/>
+          <View style={{height: 20}}/>
+        </ScrollView>
         </View>
     )
 };

@@ -71,6 +71,9 @@ export default class QuestionSelector extends Component {
         selectableQuestionAnimation: newSelectableQuestionAnimation
       })
     } else {
+      this.setState({
+        selectableQuestionAnimation: this.flushSelectableQuestionAnimation(this.state.questions)
+      });
       this.setQuestion(question, this.state.refreshProgress)
     }
   };

@@ -36,13 +36,13 @@ import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 //real iOS AdUnitID interstitial ca-app-pub-5964830289406172/6822239473
 //real iOS AdUnitID reward ca-app-pub-5964830289406172/1062440473
 //test banner ca-app-pub-3940256099942544/2934735716
-//test const interstitialId = "ca-app-pub-3940256099942544/4411468910";
-//test const rewardedId = "ca-app-pub-3940256099942544/5224354917";
-//banner test const bannerId = "ca-app-pub-3940256099942544/2934735716";
+const interstitialId = "ca-app-pub-3940256099942544/4411468910";
+const rewardedId = "ca-app-pub-3940256099942544/5224354917";
+const bannerId = "ca-app-pub-3940256099942544/2934735716";
 
-const interstitialId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/6822239473' : 'ca-app-pub-5964830289406172/1517036977';
-const bannerId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/9312671442' : 'ca-app-pub-5964830289406172/2390323530';
-const rewardedId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/1062440473' : 'ca-app-pub-5964830289406172/2139718423';
+//const interstitialId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/6822239473' : 'ca-app-pub-5964830289406172/1517036977';
+//const bannerId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/9312671442' : 'ca-app-pub-5964830289406172/2390323530';
+//const rewardedId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/1062440473' : 'ca-app-pub-5964830289406172/2139718423';
 
 AdMobInterstitial.setAdUnitID(interstitialId);
 AdMobRewarded.setAdUnitID(rewardedId);
@@ -376,6 +376,7 @@ export default class QuestionContainer extends Component {
                                       this.determineClueRevealBackgroundCol(this.state.selectedClues[item.key])
                                   }]}
                                   onPress={() => this.chooseClue(item.key)}
+                                  underlayColor={'rgba(255, 255, 255, 0.5)'}
                                   disabled={this.state.isHistoric}>
                                   <View style={[cluesBtnContent]}>
                                     <Text style={cluesTxt}>{item.desc}</Text>

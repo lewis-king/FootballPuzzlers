@@ -242,7 +242,7 @@
   {
     "id": 17,
     "questionId": 17,
-    "question": "I played for Alex Ferguson, won the Premier League and the Champions League. My team mates included Arteta, Mignolet, Shearer, Klosse, Bale, Rodwell, Adebayor, Duff, Cahill, Drenthe. Who am I?",
+    "question": "I played for Alex Ferguson, won the Premier League and the Champions League. My teammates included Arteta, Mignolet, Shearer, Klose, Bale, Rodwell, Adebayor, Duff, Cahill, Drenthe. Who am I?",
     "acceptableAnswers": ["Louis Saha", "Saha"],
     "clues": {
 	    "GK": false,
@@ -369,7 +369,7 @@
         "DEF": false,
         "MID": false,
         "FWD": true,
-        "RET": false,
+        "RET": true,
 	    "ENG": false
     },
     "category": "ENG1"
@@ -459,7 +459,7 @@
         "DEF": true,
         "MID": false,
         "FWD": false,
-        "RET": false,
+        "RET": true,
 	    "ENG": true
     },
     "category": "ENG1"

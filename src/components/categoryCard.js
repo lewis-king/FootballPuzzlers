@@ -22,7 +22,7 @@ const CategoryCard = ({title, category, questions, productUnlockOverride, naviga
   const {categoryMetaHeading, categoryTitle, image} = styles;
   const imageSrc = images[category].uri;
   const answeredQuestions = questions.filter(q => q.answered).length;
-  const productUnlocked = category === "ENG1" || product == null || productUnlockOverride || answeredQuestions.size != 0;
+  const productUnlocked = category === "ENG1" || product == undefined || !product.locked || productUnlockOverride || answeredQuestions > 0;
   return (
     <View>
       <View style={categoryTitle}>
@@ -41,7 +41,7 @@ const CategoryCard = ({title, category, questions, productUnlockOverride, naviga
         }
       }}>
       <View>
-        <ImageBackground borderRadius={5} style={image} source={imageSrc}>
+        <ImageBackground borderRadius={5} style={image} source={imageSrc} resizeMethod={'resize'}>
           <UnlockImg category={category} product={product} productUnlocked={productUnlocked}/>
         </ImageBackground>
       </View>
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   image: {
     flex: 1,
     alignSelf: 'center',
-    height: Dimensions.get('window').height * 0.2,
+    height: Dimensions.get('window').height * 0.225,
     width: Dimensions.get('window').width * 0.90
   }
 });
