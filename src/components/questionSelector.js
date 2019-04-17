@@ -1,5 +1,15 @@
 import React, {Component} from 'react';
-import {Image, StyleSheet, Text, TouchableHighlight, TouchableOpacity, View, ScrollView, Platform} from 'react-native';
+import {
+  Image,
+  StyleSheet,
+  Text,
+  TouchableHighlight,
+  TouchableOpacity,
+  View,
+  ScrollView,
+  Platform,
+  Dimensions
+} from 'react-native';
 import {Fonts} from "../utils/fonts";
 import CategoryMeta from './categoryMeta';
 import QuestionsIntegrityDisclaimer from './questionsIntegrityDisclaimer';
@@ -162,8 +172,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(120, 88, 250, 0.1)',
     borderWidth: 2,
     borderRadius: 10,
-    height: 70,
-    width: 70,
+    height: Dimensions.get('window').width * 0.17,
+    width: Dimensions.get('window').width * 0.17,
     margin: 10
   },
   answeredSelectableQuestion: {

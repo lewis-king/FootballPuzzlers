@@ -41,7 +41,7 @@ const CategoryCard = ({title, category, questions, productUnlockOverride, naviga
         }
       }}>
       <View>
-        <ImageBackground borderRadius={5} style={image} source={imageSrc} resizeMethod={'resize'}>
+        <ImageBackground borderRadius={5} style={image} source={imageSrc}>
           <UnlockImg category={category} product={product} productUnlocked={productUnlocked}/>
         </ImageBackground>
       </View>

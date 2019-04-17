@@ -17,11 +17,13 @@ export const unlockAlert = (product, refresh) => {
             console.log('About to purchase product with product id: ' +{product}.product.productId);
             const productId = {product}.product.productId;
             const purchase = purchaseProduct(productId);
+            if (purchase.transactionReceipt != undefined) {
+              ProductsDAO.persistProduct(productId, true);
+            }
             finishTransaction();
-            ProductsDAO.persistProduct(productId, true);
           } catch (err) {
             console.warn(err.message);
-            alert("Something went wrong during the purchase");
+            alert("Something went wrong during the purchase! Please try again..");
           }
           refresh();
           endConnection();

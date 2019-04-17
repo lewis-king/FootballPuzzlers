@@ -14,6 +14,9 @@ export const categoryToItemSku = {
 export const getProducts = async () => {
   let products;
   let lockedProductIds = [];
+  const productsWithLocked = [];
+  const storedProducts = ProductsDAO.retrieveProducts();
+  const storedProductIds = storedProducts.map((storedProduct) => storedProduct.productId);
   try {
     products = await RNIap.getProducts(itemSkus);
     console.log("Number of products retrieved from server: " +products.length);
@@ -21,35 +24,36 @@ export const getProducts = async () => {
       console.warn("Not got products back as expected, initialising with stub");
       products = stubProducts;
     }
-    const storedProducts = ProductsDAO.retrieveProducts();
     console.log("Number of products retrieved from DB: " +storedProducts.length);
-    const storedProductIds = storedProducts.map((storedProduct) => storedProduct.productId);
     products.forEach((product) => {
       if (!storedProductIds.includes(product.productId)) {
         lockedProductIds.push(product.productId);
       }
     });
     console.log("Number of locked products: " +lockedProductIds);
-    const productsWithLocked = [];
-    products.forEach((product) => {
-        product.locked = true;
-      if (!lockedProductIds.includes(product.productId)) {
-        product.locked = false;
-      }
-      productsWithLocked.push(product);
-    });
-    products.forEach(product => {
-      console.log("is product locked? " + product.locked)
-    });
-    console.log("Products with locked: " +productsWithLocked);
-    products = productsWithLocked;
-    return products;
   } catch (err) {
     console.warn("Unable to fetch IAP products, probably because this is a dev environment");
     console.warn(err.code);
     console.warn(err.message);
+    stubProducts.forEach((product) => {
+      if (!storedProductIds.includes(product.productId)) {
+        lockedProductIds.push(product.productId);
+      }
+    });
     products = stubProducts;
   }
+  products.forEach((product) => {
+    product.locked = true;
+    if (!lockedProductIds.includes(product.productId)) {
+      product.locked = false;
+    }
+    productsWithLocked.push(product);
+  });
+  products.forEach(product => {
+    console.log("is product locked? " + product.locked)
+  });
+  console.log("Products with locked: " +productsWithLocked);
+  products = productsWithLocked;
   return products;
 };
 
@@ -58,12 +62,14 @@ const stubProducts = [
     title: 'Champions League',
     productId: 'com.footballwhoami.championsleague',
     price: "0.99",
+    localizedPrice: "0.99",
     currency: "GBP"
   },
   {
     title: 'World Cup',
     productId: 'com.footballwhoami.worldcup',
     price: "0.99",
+    localizedPrice: "0.99",
     currency: "GBP"
   }];
 

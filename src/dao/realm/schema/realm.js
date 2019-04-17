@@ -78,15 +78,15 @@ export default new Realm({
             }
           const oldCluesObjects = oldRealm.objects('Clues');
           const newCluesObjects = newRealm.objects('Clues');
-          for (let i = 0; i < newCluesObjects.length; i++) {
-            oldCluesObjects[i].GK = newCluesObjects[i].GK;
-            oldCluesObjects[i].DEF = newCluesObjects[i].DEF;
-            oldCluesObjects[i].MID = newCluesObjects[i].MID;
-            oldCluesObjects[i].FWD = newCluesObjects[i].FWD;
-            oldCluesObjects[i].RET = newCluesObjects[i].RET;
-            oldCluesObjects[i].ENG = newCluesObjects[i].ENG;
+          for (let i = 0; i < oldCluesObjects.length; i++) {
+            newCluesObjects[i].GK = oldCluesObjects[i].GK;
+            newCluesObjects[i].DEF = oldCluesObjects[i].DEF;
+            newCluesObjects[i].MID = oldCluesObjects[i].MID;
+            newCluesObjects[i].FWD = oldCluesObjects[i].FWD;
+            newCluesObjects[i].RET = oldCluesObjects[i].RET;
+            newCluesObjects[i].ENG = oldCluesObjects[i].ENG;
             if (oldCluesObjects.question) {
-              oldCluesObjects[i].question = newCluesObjects[i].question;
+              newCluesObjects[i].question = oldCluesObjects[i].question;
             }
           }
             const oldSCObjects = oldRealm.objects('SelectedClues');

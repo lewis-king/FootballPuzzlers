@@ -36,13 +36,13 @@ import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 //real iOS AdUnitID interstitial ca-app-pub-5964830289406172/6822239473
 //real iOS AdUnitID reward ca-app-pub-5964830289406172/1062440473
 //test banner ca-app-pub-3940256099942544/2934735716
-const interstitialId = "ca-app-pub-3940256099942544/4411468910";
-const rewardedId = "ca-app-pub-3940256099942544/5224354917";
-const bannerId = "ca-app-pub-3940256099942544/2934735716";
+//test const interstitialId = "ca-app-pub-3940256099942544/4411468910";
+//test const rewardedId = "ca-app-pub-3940256099942544/5224354917";
+//test const bannerId = "ca-app-pub-3940256099942544/2934735716";
 
-//const interstitialId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/6822239473' : 'ca-app-pub-5964830289406172/1517036977';
-//const bannerId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/9312671442' : 'ca-app-pub-5964830289406172/2390323530';
-//const rewardedId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/1062440473' : 'ca-app-pub-5964830289406172/2139718423';
+const interstitialId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/6822239473' : 'ca-app-pub-5964830289406172/1517036977';
+const bannerId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/9312671442' : 'ca-app-pub-5964830289406172/2390323530';
+const rewardedId = Platform.OS === 'ios' ? 'ca-app-pub-5964830289406172/1062440473' : 'ca-app-pub-5964830289406172/2139718423';
 
 AdMobInterstitial.setAdUnitID(interstitialId);
 AdMobRewarded.setAdUnitID(rewardedId);
@@ -364,7 +364,7 @@ export default class QuestionContainer extends Component {
                   Two of the clues below are linked to the player. Tap below to reveal.
                 </Text>
                 <Text style={cluesQuestionContext}>{this.state.question.question}</Text>
-                <View style={{justifyContent: 'space-between'}}>
+                <View style={{flex:1, justifyContent: 'space-between'}}>
                   <ScrollView style={cluesList}>
                     <FlatList data={this.state.clues} extraData={this.state}
                               renderItem={({item}) =>
@@ -461,6 +461,7 @@ const styles = StyleSheet.create({
       fontSize: 20
     },
     cluesList: {
+      flex: 1,
       flexDirection: 'column',
     },
     clueRevealBtn: {

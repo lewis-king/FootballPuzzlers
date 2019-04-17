@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, TouchableOpacity, View, ScrollView, TouchableHighlight, FlatList} from 'react-native';
+import {StyleSheet, Text, TouchableOpacity, View, ScrollView, StatusBar, TouchableHighlight, FlatList} from 'react-native';
 import Heading from './heading';
 import QuestionsDAO from '../dao/questions-dao';
 import baseQuestions from '../../config/baseQuestions.json';
@@ -84,6 +84,7 @@ export default class MainMenu extends Component {
       const allProductsUnlockOverride = this.determineAllProductsUnlockedOverride(this.state.questions);
       return (
             <View style={mainBackground}>
+              <StatusBar backgroundColor="blue" barStyle="light-content" />
               <ScrollView contentContainerStyle={group}>
               <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
               <Heading text={"Welcome"}/>
