@@ -1235,11 +1235,11 @@
     "question": "I've made over 375 Premier League appearances but never managed to win the Premier League.\nDuring my career I've played with the likes of Sylvinho, Schmeichel and Crouch",
     "acceptableAnswers": ["André Bikey", "Andre Bikey", "Bikey"],
     "clues": {
-	    "GK": true,
-        "DEF": false,
-        "MID": false,
+	    "GK": false,
+        "DEF": true,
+        "MID": true,
         "FWD": false,
-        "RET": true,
+        "RET": false,
 	    "ENG": false
     },
     "category": "ENG1"
@@ -1247,11 +1247,11 @@
   {
     "id": 84,
     "questionId": 84,
-    "question": "I've made over 375 Premier League appearances but never managed to win the Premier League.\nDuring my career I've played with the likes of Sylvinho, Schmeichel and Crouch",
-    "acceptableAnswers": ["André Bikey", "Andre Bikey", "Bikey"],
+    "question": "I've won the Premier League, FA Cup, League Cup & Champions League.\nMy final season in the Premier League ended in relegation.\nI have a higher penalty conversion percentage than Wayne Rooney",
+    "acceptableAnswers": ["Denis Irwin", "Irwin"],
     "clues": {
-      "GK": true,
-      "DEF": false,
+      "GK": false,
+      "DEF": true,
       "MID": false,
       "FWD": false,
       "RET": true,
@@ -1262,13 +1262,13 @@
   {
     "id": 85,
     "questionId": 85,
-    "question": "I've made over 375 Premier League appearances but never managed to win the Premier League.\nDuring my career I've played with the likes of Sylvinho, Schmeichel and Crouch",
-    "acceptableAnswers": ["André Bikey", "Andre Bikey", "Bikey"],
+    "question": "I'm a Champions League and League Cup runner-up.\nClubs I've played for in the Premier League include Aston Villa, West Ham & Stoke City",
+    "acceptableAnswers": ["John Carew", "Carew"],
     "clues": {
-      "GK": true,
+      "GK": false,
       "DEF": false,
       "MID": false,
-      "FWD": false,
+      "FWD": true,
       "RET": true,
       "ENG": false
     },

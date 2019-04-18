@@ -84,7 +84,7 @@ export default class MainMenu extends Component {
       const allProductsUnlockOverride = this.determineAllProductsUnlockedOverride(this.state.questions);
       return (
             <View style={mainBackground}>
-              <StatusBar backgroundColor="blue" barStyle="light-content" />
+              <StatusBar backgroundColor="#0E1B2F" barStyle="light-content" />
               <ScrollView contentContainerStyle={group}>
               <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
               <Heading text={"Welcome"}/>

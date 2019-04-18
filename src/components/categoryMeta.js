@@ -12,9 +12,13 @@ const renderMeta = (category, questions, answeredQuestions, transparent, navigat
       <TouchableHighlight disabled={transparent || !productUnlocked} onPress={() =>
         navigation.navigate('QuestionSelector', {category: category, questions, refreshProgress})}>
       <View style={[categoryMetaContainer, transparent ? {backgroundColor: 'rgba(14, 221, 153, 0)'} : {backgroundColor: 'rgba(14, 221, 153, 100)'}, {justifyContent: 'center'}]}>
-        <View style={[categoryMeta, {alignItems: 'center', marginTop: 5, marginBottom: 5}]}>
+        <View style={[categoryMeta, {alignItems: 'center', marginTop: 5, marginBottom: 15}]}>
+          <View style={{marginBottom: -5}}>
           <Icon name="check" size={40} color="#FFFFFF" />
+          </View>
+          <View>
           <Text style={[categoryMetaSubHeading, {fontSize:18}]}>Complete</Text>
+          </View>
         </View>
       </View>
       </TouchableHighlight>

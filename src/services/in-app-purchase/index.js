@@ -13,20 +13,24 @@ export const categoryToItemSku = {
 
 export const getProducts = async () => {
   let products;
+  let purchases;
+  let purchaseIds = [];
   let lockedProductIds = [];
   const productsWithLocked = [];
   const storedProducts = ProductsDAO.retrieveProducts();
   const storedProductIds = storedProducts.map((storedProduct) => storedProduct.productId);
   try {
     products = await RNIap.getProducts(itemSkus);
+    purchases = await RNIap.getAvailablePurchases();
     console.log("Number of products retrieved from server: " +products.length);
     if (products == null || products.length == 0) {
       console.warn("Not got products back as expected, initialising with stub");
       products = stubProducts;
     }
     console.log("Number of products retrieved from DB: " +storedProducts.length);
+    purchaseIds = purchases.map(purchase => purchase.productId);
     products.forEach((product) => {
-      if (!storedProductIds.includes(product.productId)) {
+      if (!storedProductIds.includes(product.productId) && !purchaseIds.includes(product.productId)) {
         lockedProductIds.push(product.productId);
       }
     });
@@ -48,9 +52,6 @@ export const getProducts = async () => {
       product.locked = false;
     }
     productsWithLocked.push(product);
-  });
-  products.forEach(product => {
-    console.log("is product locked? " + product.locked)
   });
   console.log("Products with locked: " +productsWithLocked);
   products = productsWithLocked;

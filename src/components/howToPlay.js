@@ -11,7 +11,7 @@ const HowToPlay = () => {
     const howToPlayHeader = "How to play?";
     const welcomePara = "A football (soccer) trivia guess who style app, in which you will be given certain facts about a player and must guess who is being described.\n" +
         "The questions are intended to be difficult, so do not be too put off if you find yourself stuck. The game works best with a group of friends so that you can solve the questions together.\n" +
-        "If you do find yourself stuck on a question, there are a couple of mechanisms to give you a helping hand. These include a selection of clues, revealing a letter of the answer and an option to share the question to your favourite social media platform.\n";
+        "If you do find yourself stuck on a question, there are a couple of mechanisms to give you a helping hand. These include a selection of clues and revealing a letter of the answer.\n";
     const answeringTheQ = "Answering a question";
     const answeringTheQPara = "All questions require you to enter the name of the player being described.\n" +
         "You are only required to enter the player's last name, although entering the full name will also be accepted. You MUST spell it correctly.\n";

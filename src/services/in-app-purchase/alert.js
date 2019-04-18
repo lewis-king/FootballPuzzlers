@@ -3,6 +3,7 @@ import {endConnection, finishTransaction, purchaseProduct} from "./index";
 import ProductsDAO from "../../dao/products-dao";
 
 export const unlockAlert = (product, refresh) => {
+  const productId = {product}.product.productId;
   Alert.alert(
     'Unlock ' + {product}.product.title,
     'There are two ways of unlocking questions in whoami? You must complete all questions in the active category, or pay a fee (requires data)',
@@ -14,8 +15,7 @@ export const unlockAlert = (product, refresh) => {
       {
         text: 'Let\'s do it!', onPress: () => {
           try {
-            console.log('About to purchase product with product id: ' +{product}.product.productId);
-            const productId = {product}.product.productId;
+            console.log('About to purchase product with product id: ' + productId);
             const purchase = purchaseProduct(productId);
             if (purchase.transactionReceipt != undefined) {
               ProductsDAO.persistProduct(productId, true);

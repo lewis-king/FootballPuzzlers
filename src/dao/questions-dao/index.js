@@ -59,8 +59,8 @@ const QuestionDAO = {
           console.log("DAO SelectedClues size: " +allSelectedClues.length);
           if (allClues.length > allQuestions.length) {
             console.log("deleting stuff ere");
-            const cluesToDelete = allClues.slice(0, (allClues.length) - allQuestions.length);
-            const selectedCluesToDelete = allSelectedClues.slice(0, (allSelectedClues.length) - allQuestions.length);
+            const cluesToDelete = allClues.slice(0, (allClues.length) - (allQuestions.length + 1));
+            const selectedCluesToDelete = allSelectedClues.slice(0, (allSelectedClues.length) - (allQuestions.length + 1));
             realm.delete(cluesToDelete);
             realm.delete(selectedCluesToDelete);
           }
