@@ -1,10 +1,11 @@
 import React from 'React';
-import {Dimensions, ImageBackground, StyleSheet, Text, TouchableHighlight, View} from "react-native";
+import {Dimensions, ImageBackground, Platform, StyleSheet, Text, TouchableHighlight, View} from "react-native";
 import {Fonts} from '../utils/fonts';
 import CategoryMeta from './categoryMeta';
 import UnlockText from "./unlockText";
 import UnlockImg from "./unlockImg";
 import {unlockAlert} from '../services/in-app-purchase/alert';
+import KeyboardSpacer from "react-native-keyboard-spacer";
 
 const images = {
   ENG1: {
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
   image: {
     flex: 1,
     alignSelf: 'center',
-    height: Dimensions.get('window').height * 0.225,
+    height: Platform.OS === 'ios' ? Dimensions.get('window').height * 0.21 : Dimensions.get('window').height * 0.23,
     width: Dimensions.get('window').width * 0.90
   }
 });

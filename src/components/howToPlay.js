@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     heading: {
         alignItems: 'center',
         alignSelf: 'center',
-        aspectRatio: 1.65,
+        aspectRatio: 1.75,
         marginTop: 0,
         resizeMode: 'contain'
     },

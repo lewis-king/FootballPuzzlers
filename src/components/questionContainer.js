@@ -346,12 +346,13 @@ export default class QuestionContainer extends Component {
         const deviceHeight = Platform.OS === "ios"
           ? Dimensions.get("window").height
           : require("react-native-extra-dimensions-android").get("REAL_WINDOW_HEIGHT");
+        const modelHeight = Platform.OS === "ios" ? deviceHeight * 0.1 : deviceHeight * 0.05;
 
         const questionId = (Platform.OS === 'ios') ? <Text style={headerText}/> : (<Text style={[headerText, {color: Theme[this.state.category].main}]}>{"Question " + this.state.question.questionId}</Text>);
 
         return (
           <View style={container}>
-            <Modal style={{margin: 0, marginTop: deviceHeight * 0.1}} isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
+            <Modal style={{margin: 0, marginTop: modelHeight}} isVisible={this.state.modalVisible} deviceWidth={deviceWidth}
                    deviceHeight={deviceHeight} animationIn="slideInUp">
               <View style={[cluesOverlay, {backgroundColor: Theme[this.state.category].main}]}>
                   <View style={closeCluesOverlay}>
