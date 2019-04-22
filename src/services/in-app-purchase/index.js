@@ -13,7 +13,7 @@ export const categoryToItemSku = {
 
 export const getProducts = async () => {
   let products;
-  let purchases;
+  let purchases = [];
   let purchaseIds = [];
   let lockedProductIds = [];
   const productsWithLocked = [];

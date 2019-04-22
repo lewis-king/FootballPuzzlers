@@ -17,15 +17,15 @@ export const unlockAlert = (product, refresh) => {
           try {
             console.log('About to purchase product with product id: ' + productId);
             const purchase = purchaseProduct(productId);
-            if (purchase.transactionReceipt != undefined) {
+            if (purchase.transactionReceipt !== undefined) {
               ProductsDAO.persistProduct(productId, true);
+              refresh();
             }
             finishTransaction();
           } catch (err) {
             console.warn(err.message);
             alert("Something went wrong during the purchase! Please try again..");
           }
-          refresh();
           endConnection();
         }
       },
