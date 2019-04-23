@@ -33,26 +33,32 @@ export default class MainMenu extends Component {
 
     async componentDidMount() {
       console.log("In component will mount!");
-      await this.retrieveAllQuestions();
+      await this.retrieveAllQuestions(true);
     }
 
-    retrieveAllQuestions = async () => {
+    retrieveAllQuestions = async (refreshProducts) => {
       let products;
-      try {
-        products = await getProducts();
-      } catch(err) {
-        console.warn(err.code);
-        console.warn(err.message);
+      if (refreshProducts) {
+        try {
+          products = await getProducts();
+        } catch (err) {
+          console.warn(err.code);
+          console.warn(err.message);
+        }
       }
       const questions = QuestionsDAO.retrieveAllQuestions();
       console.log('about to set questions to state: ' +questions);
       //set allowedToOpenNewSection boolean
       //This will be derived based on if sections that have at least a question answered and all are answered return true
       //This will then be used to drive whether the locked sections can be shown.
-      this.setState({
-        questions,
-        products
-      });
+      if (products !== undefined) {
+        this.setState({
+          questions,
+          products
+        });
+      } else {
+        this.setState(questions)
+      }
     };
 
     determineAllProductsUnlockedOverride = (questions) => {
@@ -62,14 +68,14 @@ export default class MainMenu extends Component {
       distinctCategories.forEach(category => {
         const questionsInCategory = this.state.questions.filter(question => question.category == category);
         const unansweredQuestionsInCategory = questionsInCategory.filter(question => !question.answered);
-        const completedCategory = unansweredQuestionsInCategory.length == 0;
+        const completedCategory = unansweredQuestionsInCategory.length === 0;
         const notYetStartedCategory = unansweredQuestionsInCategory.length == questionsInCategory.length;
         const inProgressCategory = !notYetStartedCategory && !completedCategory;
         const status = completedCategory ? "COMPLETED" : notYetStartedCategory ? "NOT_STARTED" : inProgressCategory ? "IN_PROGRESS" : null;
         categoryStatus.push(status)
       });
-      const categoriesInProgress = categoryStatus.filter(status => status == "IN_PROGRESS");
-      return categoriesInProgress.size == 0 && categoryStatus[0] != "NOT_STARTED";
+      const categoriesInProgress = categoryStatus.filter(status => status === "IN_PROGRESS");
+      return categoriesInProgress.length === 0 && categoryStatus[0] !== "NOT_STARTED";
     };
 
     render() {
@@ -82,6 +88,7 @@ export default class MainMenu extends Component {
       const wcQs = this.state.questions.filter(question => question.category == 'WC').sort((a, b) => a.questionId - b.questionId);
       const clQs = this.state.questions.filter(question => question.category == 'CL').sort((a, b) => a.questionId - b.questionId);
       const allProductsUnlockOverride = this.determineAllProductsUnlockedOverride(this.state.questions);
+      console.log("AllProductsUnlock is: " +allProductsUnlockOverride);
       return (
             <View style={mainBackground}>
               <StatusBar backgroundColor="#0E1B2F" barStyle="light-content" />

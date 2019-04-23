@@ -203,7 +203,7 @@ export default class QuestionContainer extends Component {
         this.showInterstitial();
       }
       this.state.refreshQuestionSelectorProgress();
-      this.state.refreshProgress();
+      this.state.refreshProgress(false);
       this.props.navigation.goBack(null);
     };
 
