@@ -19,7 +19,7 @@ export const unlockAlert = (product, refresh) => {
             const purchase = purchaseProduct(productId);
             if (purchase.transactionReceipt !== undefined) {
               ProductsDAO.persistProduct(productId, true);
-              refresh(false);
+              refresh(true);
             }
             finishTransaction();
           } catch (err) {
