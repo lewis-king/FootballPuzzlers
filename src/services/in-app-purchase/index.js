@@ -2,8 +2,8 @@ import * as RNIap from 'react-native-iap';
 import ProductsDAO from '../../dao/products-dao';
 
 export const itemSkus = [
-   'com.footballwhoami.worldcup',
-   'com.footballwhoami.championsleague'
+   'com.footballwhoami.worldcup_1',
+   'com.footballwhoami.championsleague_1'
  ];
 
 export const categoryToItemSku = {
@@ -23,6 +23,7 @@ export const getProducts = async () => {
     products = await RNIap.getProducts(itemSkus);
     purchases = await RNIap.getAvailablePurchases();
     console.log("Number of products retrieved from server: " +products.length);
+    console.log("Number of available purchases retrieved from server: " +purchases.length);
     if (products == null || products.length == 0) {
       console.warn("Not got products back as expected, initialising with stub");
       products = stubProducts;
@@ -34,7 +35,7 @@ export const getProducts = async () => {
         lockedProductIds.push(product.productId);
       }
     });
-    console.log("Number of locked products: " +lockedProductIds);
+    console.log("Number of locked products: " +lockedProductIds.length);
   } catch (err) {
     console.warn("Unable to fetch IAP products, probably because this is a dev environment");
     console.warn(err.code);
@@ -61,14 +62,14 @@ export const getProducts = async () => {
 const stubProducts = [
   {
     title: 'Champions League',
-    productId: 'com.footballwhoami.championsleague',
+    productId: 'com.footballwhoami.championsleague_1',
     price: "0.99",
     localizedPrice: "0.99",
     currency: "GBP"
   },
   {
     title: 'World Cup',
-    productId: 'com.footballwhoami.worldcup',
+    productId: 'com.footballwhoami.worldcup_1',
     price: "0.99",
     localizedPrice: "0.99",
     currency: "GBP"

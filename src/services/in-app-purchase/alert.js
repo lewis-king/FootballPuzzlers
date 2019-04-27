@@ -13,11 +13,12 @@ export const unlockAlert = (product, refresh) => {
         }, style: 'cancel'
       },
       {
-        text: 'Let\'s do it!', onPress: () => {
+        text: 'Let\'s do it!', onPress: async () => {
           try {
             console.log('About to purchase product with product id: ' + productId);
-            const purchase = purchaseProduct(productId);
+            const purchase = await purchaseProduct(productId);
             if (purchase.transactionReceipt !== undefined) {
+              console.log("I've got a transactionReceipt so I'm treating as successful purchase");
               ProductsDAO.persistProduct(productId, true);
               refresh(true);
             }

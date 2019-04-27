@@ -114,8 +114,8 @@ export default class MainMenu extends Component {
               <Text style={titleInfo}>How well do you know your football?</Text>
                   <View style={group}>
                     <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
-                    <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.worldcup')}/>
-                    <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.championsleague')}/>
+                    <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.worldcup_1')}/>
+                    <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.championsleague_1')}/>
                   </View>
                 <QuestionsIntegrityDisclaimer color={"white"}/>
                 <TouchableOpacity onPress={emailHandler}>
