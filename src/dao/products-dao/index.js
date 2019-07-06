@@ -8,7 +8,7 @@ const ProductsDAO = {
         {
           productId,
           purchased
-        })
+        }, true)
     })
   },
   retrieveProducts: function () {

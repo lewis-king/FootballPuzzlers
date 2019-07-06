@@ -70,25 +70,44 @@ export default class QuestionContainer extends Component {
 
   constructor(props) {
         super(props);
-        const {question, category, isHistoric, refreshProgress, refreshQuestionSelectorProgress} = props.navigation.state.params;
-        const rand = this.randNum();
+        const {questions, question, category, isHistoric, refreshProgress, refreshQuestionSelectorProgress} = props.navigation.state.params;
         this.state = {
-            question,
-            selectedClues: question.selectedClues,
-            category,
-            isHistoric,
-            givenAnswer: '',
-            revealLetterBtnDisabled: false,
-            revealBtnBackColour: 'rgba(34, 92, 105, 1)',
-            modalVisible: false,
-            clues: Constants.clues,
-            rand,
-            refreshProgress,
-            refreshQuestionSelectorProgress,
-            clueBtnPressAnimation: ''
+          questions,
+          question,
+          selectedClues: question.selectedClues,
+          category,
+          isHistoric,
+          givenAnswer: '',
+          revealLetterBtnDisabled: false,
+          revealBtnBackColour: 'rgba(34, 92, 105, 1)',
+          modalVisible: false,
+          clues: Constants.clues,
+          refreshProgress,
+          refreshQuestionSelectorProgress,
+          clueBtnPressAnimation: ''
         };
+        this.initializeQuestionState(questions, question, category, isHistoric, refreshProgress, refreshQuestionSelectorProgress);
         this.nextQuestion = this.nextQuestion.bind(this);
         this.updateState = this.updateState.bind(this);
+    }
+
+    initializeQuestionState = (questions, question, category, isHistoric, refreshProgress, refreshQuestionSelectorProgress) => {
+      this.setState({
+        questions,
+        question,
+        selectedClues: question.selectedClues,
+        category,
+        isHistoric,
+        givenAnswer: '',
+        revealLetterBtnDisabled: false,
+        revealBtnBackColour: 'rgba(34, 92, 105, 1)',
+        modalVisible: false,
+        clues: Constants.clues,
+        refreshProgress,
+        refreshQuestionSelectorProgress,
+        clueBtnPressAnimation: ''
+      });
+      this.props.navigation.setParams({ question: question })
     }
 
     componentDidMount() {
@@ -169,10 +188,6 @@ export default class QuestionContainer extends Component {
         AdMobRewarded.removeAllListeners();
     }
 
-    randNum(from, to) {
-        return Math.floor(Math.random() * (9 - 0 + 1)) + 0;
-    }
-
     updateState(question) {
         let clueCount = 0;
         let selectedClues = {};
@@ -204,7 +219,11 @@ export default class QuestionContainer extends Component {
       }
       this.state.refreshQuestionSelectorProgress();
       this.state.refreshProgress(false);
-      this.props.navigation.goBack(null);
+      //this.props.navigation.goBack(null);
+      //RE-RENDER WILL TRIGGER AND NEED TO SET ALL THE STATE AGAIN!!! ATM Just setting question.
+      //Or what will navigating to questions (this screen do) would be cleaner but might add another question to stack
+      let question = this.state.questions[this.state.question.questionId]
+      this.initializeQuestionState(this.state.questions, question, this.state.category, this.state.isHistoric, this.state.refreshProgress, this.state.refreshQuestionSelectorProgress)
     };
 
     calculateClueCount = (selectedClues) => {

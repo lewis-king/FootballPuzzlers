@@ -33,6 +33,9 @@ export const getProducts = async () => {
     products.forEach((product) => {
       if (!storedProductIds.includes(product.productId) && !purchaseIds.includes(product.productId)) {
         lockedProductIds.push(product.productId);
+      } else {
+        // make sure we've persisted the fact that this product is unlocked
+        ProductsDAO.persistProduct(product.productId, true);
       }
     });
     console.log("Number of locked products: " +lockedProductIds.length);
@@ -65,14 +68,16 @@ const stubProducts = [
     productId: 'com.footballwhoami.championsleague_1',
     price: "0.99",
     localizedPrice: "0.99",
-    currency: "GBP"
+    currency: "GBP",
+    stub: true
   },
   {
-    title: 'World Cup',
+    title: 'WC',
     productId: 'com.footballwhoami.worldcup_1',
     price: "0.99",
     localizedPrice: "0.99",
-    currency: "GBP"
+    currency: "GBP",
+    stub: true
   }];
 
 export const purchaseProduct = async (productId) => {

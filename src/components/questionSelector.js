@@ -68,7 +68,7 @@ export default class QuestionSelector extends Component {
   };
 
   setQuestion = (question, refreshProgress) => {
-      this.props.navigation.navigate('Questions', {category: this.state.category, question, isHistoric: question.answered, refreshProgress, refreshQuestionSelectorProgress: this.retrieveAllQuestions})
+      this.props.navigation.navigate('Questions', {category: this.state.category, questions: this.state.questions, question, isHistoric: question.answered, refreshProgress, refreshQuestionSelectorProgress: this.retrieveAllQuestions})
   };
 
   onQuestionSelect = (question, index) => {

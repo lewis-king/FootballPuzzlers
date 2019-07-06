@@ -114,12 +114,22 @@ export default class MainMenu extends Component {
               <Text style={titleInfo}>How well do you know your football?</Text>
                   <View style={group}>
                     <CategoryCard title={"The Starter Pack"} category={'ENG1'} questions={eng1Qs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} />
-                    <CategoryCard title={"World Cup"} category={'WC'} questions={wcQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.worldcup_1')}/>
+                    <CategoryCard title={"WC"} category={'WC'} questions={wcQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.worldcup_1')}/>
                     <CategoryCard title={"Champions League"} category={'CL'} questions={clQs} productUnlockOverride={allProductsUnlockOverride} navigation={this.props.navigation} refreshProgress={this.retrieveAllQuestions} product={this.state.products.find((product) => product.productId === 'com.footballwhoami.championsleague_1')}/>
                   </View>
                 <QuestionsIntegrityDisclaimer color={"white"}/>
                 <TouchableOpacity onPress={emailHandler}>
                 <Heading text={"Notice something wrong?"} size={14} alignment={"center"}/>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={async () => {
+                    await this.retrieveAllQuestions(true);
+                    if (this.state.products[0].stub) {
+                      alert("Could not restore purchases (this requires data)");
+                    } else {
+                      alert("Successfully restored your previous purchases");
+                    }
+                }}>
+                  <Heading text={"Restore purchases"} size={14} alignment={"center"}/>
                 </TouchableOpacity>
                 <View style={{height: 40}}/>
                 </ScrollView>
@@ -155,7 +165,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#0E1B2F'
     },
     titleInfo: {
-      marginLeft: 20,
+      marginLeft: 10,
       fontFamily: Fonts.Main,
       fontSize: 14,
       color: 'white'

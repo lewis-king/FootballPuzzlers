@@ -31,5 +31,5 @@ export default {
     "\nI'd also love to hear your feedback and suggestions, so please review." +
     "\nI hope you enjoyed 'Football - Who am I?'",
     nothingToSeeHere: "Nothing to see here yet...",
-    questionsIntegrityDate: "04/2019"
+    questionsIntegrityDate: "06/2019"
 };

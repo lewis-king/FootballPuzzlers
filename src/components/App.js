@@ -33,6 +33,7 @@ export const RootNavigator = StackNavigator({
     Questions: {
       screen: QuestionContainer,
       screenProps: {
+        questions: ':questions',
         question: ':question',
         category: ':category',
         isHistoric: ':isHistoric',

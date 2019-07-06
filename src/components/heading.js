@@ -7,7 +7,7 @@ const Heading = ({text, size, alignment}) => {
     const headerTxt = text;
     const fontSize = size || 30;
     const flexAlignment = alignment || "flex-start";
-    const margin = alignment === "center" ? 0 : 20;
+    const margin = alignment === "center" ? 0 : 10;
     const {headerStyle, header} = styles;
     return <View style={[header, {justifyContent: flexAlignment, alignItems: flexAlignment}]}>
                 <LinearTextGradient style={[headerStyle, {fontSize, marginLeft: margin}]} colors={['rgba(108, 74, 248, 1)', 'rgba(255, 0, 88, 1)']}
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     textAlign: 'left',
     fontFamily: Fonts.Main,
     fontWeight: 'bold',
-    marginLeft: 20,
+    marginLeft: 10,
   },
   header: {
     alignContent: 'space-between',

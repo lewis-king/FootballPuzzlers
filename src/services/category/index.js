@@ -1,6 +1,6 @@
 const Categories = {
   ENG1: "The Starter Pack",
-  WC: "World Cup",
+  WC: "WC",
   CL: "Champions League"
 };
 
