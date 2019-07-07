@@ -84,9 +84,9 @@ export default class QuestionContainer extends Component {
           clues: Constants.clues,
           refreshProgress,
           refreshQuestionSelectorProgress,
-          clueBtnPressAnimation: ''
+          clueBtnPressAnimation: '',
+          revealedLetters: 0
         };
-        this.initializeQuestionState(questions, question, category, isHistoric, refreshProgress, refreshQuestionSelectorProgress);
         this.nextQuestion = this.nextQuestion.bind(this);
         this.updateState = this.updateState.bind(this);
     }
@@ -105,7 +105,8 @@ export default class QuestionContainer extends Component {
         clues: Constants.clues,
         refreshProgress,
         refreshQuestionSelectorProgress,
-        clueBtnPressAnimation: ''
+        clueBtnPressAnimation: '',
+        revealedLetters: 0
       });
       this.props.navigation.setParams({ question: question })
     }
@@ -219,11 +220,12 @@ export default class QuestionContainer extends Component {
       }
       this.state.refreshQuestionSelectorProgress();
       this.state.refreshProgress(false);
-      //this.props.navigation.goBack(null);
-      //RE-RENDER WILL TRIGGER AND NEED TO SET ALL THE STATE AGAIN!!! ATM Just setting question.
-      //Or what will navigating to questions (this screen do) would be cleaner but might add another question to stack
-      let question = this.state.questions[this.state.question.questionId]
-      this.initializeQuestionState(this.state.questions, question, this.state.category, this.state.isHistoric, this.state.refreshProgress, this.state.refreshQuestionSelectorProgress)
+      if (this.state.question.questionId === this.state.questions.length) {
+        this.props.navigation.goBack(null);
+      } else {
+        let question = this.state.questions[this.state.question.questionId]
+        this.initializeQuestionState(this.state.questions, question, this.state.category, this.state.isHistoric, this.state.refreshProgress, this.state.refreshQuestionSelectorProgress)
+      }
     };
 
     calculateClueCount = (selectedClues) => {
@@ -267,12 +269,12 @@ export default class QuestionContainer extends Component {
         }, () => {
             Alert.alert(
                 'Reveal Letter',
-                'If you watch the following advert, the first letter of the player\'s last name will be revealed (requires data)',
+                'By watching the following advert you will reveal the first letter of the player\'s last name, you can repeat this for up to three letters (requires data)',
                 [
                     {text: 'No thanks', onPress: () => {
                         console.log('Cancel Pressed');
                         this.resetRevealLetterBtn()}, style: 'cancel'},
-                    {text: 'Let\'s do it!', onPress: () => this.showRewardedAd()},
+                    {text: 'Reveal', onPress: () => this.showRewardedAd()},
                 ],
                 { cancelable: false }
             )
@@ -295,14 +297,22 @@ export default class QuestionContainer extends Component {
         const hasOnlyOneName = firstName === lastName; //This is broken if the guy has the same first and last name.. Neville Neville :)
 
         const lastNameFirstChar = lastName.charAt(0);
+        const lastNameSecondChar = lastName.charAt(1);
+        const lastNameThirdChar = lastName.charAt(2);
+        const firstAndSecondChar = lastNameFirstChar + lastNameSecondChar;
+        const firstSecondAndThirdChar = firstAndSecondChar + lastNameThirdChar;
         console.log("first name: " +firstName);
         console.log("last name: " +lastName);
         console.log("first char last name: " +lastNameFirstChar);
 
+        let lettersToReveal = this.state.revealedLetters === 0 ? lastNameFirstChar
+          : this.state.revealedLetters == 1 ? firstAndSecondChar : firstSecondAndThirdChar;
+
         this.setState({
             revealLetterBtnDisabled: false,
             revealBtnBackColour: 'rgba(34, 92, 105, 1)',
-            givenAnswer: lastNameFirstChar
+            givenAnswer: lettersToReveal,
+            revealedLetters: ++this.state.revealedLetters
         })
     };
 

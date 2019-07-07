@@ -168,7 +168,7 @@
     "id": 12,
     "questionId": 12,
     "question": "I've scored the most own-goals in a Premier League season.\nI've played on the same team as Pogrebnyak, Keane, Pennant & Glen Johnson",
-    "acceptableAnswers": ["Martin Škrtel", "Škrtel", "Martin Skrtel", "Skrtel"],
+    "acceptableAnswers": ["Martin Skrtel", "Škrtel", "Martin Škrtel", "Skrtel"],
     "clues": {
 	    "GK": false,
         "DEF": true,
