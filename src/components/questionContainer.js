@@ -269,7 +269,7 @@ export default class QuestionContainer extends Component {
         }, () => {
             Alert.alert(
                 'Reveal Letter',
-                'By watching the following advert you will reveal the first letter of the player\'s last name, you can repeat this for up to three letters (requires data)',
+                'By watching the following advert you will reveal the first letter of the player\'s last name. You can repeat this for up to three letters (requires data)',
                 [
                     {text: 'No thanks', onPress: () => {
                         console.log('Cancel Pressed');
