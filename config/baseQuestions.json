@@ -2979,7 +2979,7 @@
       "DEF": false,
       "MID": false,
       "FWD": true,
-      "RET": false,
+      "RET": true,
       "ENG": true
     },
     "category": "CL"
