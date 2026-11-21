@@ -1,0 +1,97 @@
+{
+ "answer": "Kyle Walker",
+ "acceptableAnswers": [
+  "Kyle Walker",
+  "Walker"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I once volunteered to go in goal for the last 10 minutes of a Champions League match after my club's substitute keeper was sent off.\nIncredibly, I didn't concede and saved a free-kick.\nI've played with the likes of Haaland, De Bruyne & Pulisic.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 1,
+  "why": "This reads exactly like one of Lewis's originals: a high-tension hook (volunteering for goal), a specific payoff (saving the free-kick), and a narrowing clue list that mixes famous names from different clubs/eras. It is memorable, true to the voice, and perfectly fits the 'twist or tension' rule.",
+  "fix": ""
+ },
+ "claims": [
+  {
+   "text": "Kyle Walker volunteered to go in goal for the last 10 minutes of a Champions League match after his club's substitute keeper was sent off.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 6 November, in a UEFA Champions League away match against Atalanta, Walker volunteered to go in goal for the last 10 minutes after substitute goalkeeper Claudio Bravo was sent off",
+    "On 6 November, in a UEFA Champions League away match against Atalanta, Walker volunteered to go in goal for the last 10 minutes after substitute goalkeeper Claudio Bravo was sent off"
+   ]
+  },
+  {
+   "text": "Kyle Walker did not concede during those last 10 minutes.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he did not concede and saved a free-kick as the match ended 1–1",
+    "he did not concede and saved a free-kick as the match ended 1–1."
+   ]
+  },
+  {
+   "text": "Kyle Walker saved a free-kick during that Champions League match.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he did not concede and saved a free-kick as the match ended 1–1",
+    "On 6 November, in a UEFA Champions League away match against Atalanta, Walker volunteered to go in goal for the last 10 minutes after substitute goalkeeper Claudio Bravo was sent off; he did not concede and saved a free-kick as the match ended 1–1."
+   ]
+  },
+  {
+   "text": "Kyle Walker has played with Erling Haaland.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 90 matches alongside Erling Haaland for Manchester City (2022 to 2025)",
+    "[Squad data > Manchester City] Played in 90 matches alongside Erling Haaland for Manchester City (2022 to 2025)"
+   ]
+  },
+  {
+   "text": "Kyle Walker has played with Kevin De Bruyne.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 215 matches alongside Kevin De Bruyne for Manchester City (2017 to 2025)",
+    "[Squad data > Manchester City] Played in 215 matches alongside Kevin De Bruyne for Manchester City (2017 to 2025)"
+   ]
+  },
+  {
+   "text": "Kyle Walker has played with Christian Pulisic.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AC Milan] Played in 16 matches alongside Christian Pulisic for AC Milan (2025)",
+    "[Squad data > AC Milan] Played in 16 matches alongside Christian Pulisic for AC Milan (2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kyle_Walker",
+  "revid": 1384718074
+ },
+ "alternatives": [
+  {
+   "question": "I've won six Premier League titles and completed a continental treble in 2023.\nFollowing my time at Manchester City, I spent a short spell in Italy before joining Burnley.\nI've played with the likes of Bale, Rodri & João Félix.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "In 2012 I was named PFA Young Player of the Year, beating out the likes of Sergio Agüero and Gareth Bale.\nYet it would be several years before I won my first piece of silverware as a professional.\nI've been managed by Pochettino, Guardiola & Scott Parker.",
+   "problems": [
+    "claim is wrong: \"Kyle Walker won his first piece of silverware as a professional several years after 2012.\""
+   ],
+   "style": 4
+  }
+ ]
+}

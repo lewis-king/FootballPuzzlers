@@ -1,0 +1,108 @@
+{
+ "answer": "Trent Alexander-Arnold",
+ "acceptableAnswers": [
+  "Trent Alexander-Arnold",
+  "Alexander-Arnold"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won six major trophies for an English club, doing so at the age of 23.\nIncredibly, I was once eligible to play for the United States before making my England debut.\nI've played with the likes of Mané, Vinicius Junior & Mac Allister",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The question is factually accurate and follows the house style well: first-person voice, connected sentences, a surprising hook (US eligibility), and a narrowing clue list. It reads naturally and avoids dull procedural details. The main weakness is that the opening line ('won six major trophies...')",
+  "fix": "Consider swapping the generic trophy count for a more specific or memorable achievement to increase intrigue, e.g., focusing on the Champions League win or a specific record-breaking moment at age 23."
+ },
+ "claims": [
+  {
+   "text": "Trent Alexander-Arnold has won six major trophies for an English club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Alexander-Arnold became the youngest-ever player to win six major trophies",
+    "In May 2022, following Liverpool's victory over Chelsea in the 2022 FA Cup Final, Alexander-Arnold became the youngest-ever player to win six major trophies, namely the FIFA Club World Cup, UEFA Champions League, UEFA Super Cup, Premier League, FA Cup and League Cup, for an English club, doing so at the age of 23 years and 219 days."
+   ]
+  },
+  {
+   "text": "Trent Alexander-Arnold was 23 years old when he won his sixth major trophy for an English club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Alexander-Arnold became the youngest-ever player to win six major trophies, namely the FIFA Club World Cup, UEFA Champions League, UEFA Super Cup, Premier League, FA Cup and League Cup, for an English club, doing so at the age of 23 years and 219 days.",
+    "In May 2022, following Liverpool's victory over Chelsea in the 2022 FA Cup Final, Alexander-Arnold became the youngest-ever player to win six major trophies, namely the FIFA Club World Cup, UEFA Champions League, UEFA Super Cup, Premier League, FA Cup and League Cup, for an English club, doing so at the age of 23 years and 219 days."
+   ]
+  },
+  {
+   "text": "Trent Alexander-Arnold was once eligible to play for the United States national team.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Alexander-Arnold was thus eligible to play for the United States prior to making his England debut.",
+    "Alexander-Arnold was thus eligible to play for the United States prior to making his England debut."
+   ]
+  },
+  {
+   "text": "Trent Alexander-Arnold made his England debut after being eligible to play for the United States.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Alexander-Arnold was thus eligible to play for the United States prior to making his England debut.",
+    "Alexander-Arnold was thus eligible to play for the United States prior to making his England debut."
+   ]
+  },
+  {
+   "text": "Trent Alexander-Arnold has played with Sadio Mané.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 197 matches alongside Sadio Mané for Liverpool FC (2016 to 2022)",
+    "[Squad data > Liverpool FC] Played in 197 matches alongside Sadio Mané for Liverpool FC (2016 to 2022)"
+   ]
+  },
+  {
+   "text": "Trent Alexander-Arnold has played with Vinicius Junior.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 34 matches alongside Vinicius Junior for Real Madrid (2025 to 2026)",
+    "[Squad data > Real Madrid] Played in 34 matches alongside Vinicius Junior for Real Madrid (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Trent Alexander-Arnold has played with Alexis Mac Allister.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 66 matches alongside Alexis Mac Allister for Liverpool FC (2023 to 2025)",
+    "[Squad data > Liverpool FC] Played in 66 matches alongside Alexis Mac Allister for Liverpool FC (2023 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Trent_Alexander-Arnold",
+  "revid": 1385338351
+ },
+ "alternatives": [
+  {
+   "question": "I've become the defender with the most assists in Premier League history.\nIn 2025, after helping my first club win a second league title, I moved to Spain.\nI've played with the likes of Salah, Mbappé & Alaba.",
+   "problems": [
+    "wording will date: The claim of holding the all-time Premier League assist record is a mutable statistic that could be surpassed by another player in future seasons.; The claim to be the defender with the most assists is a current record that could be surpassed."
+   ],
+   "style": 4
+  },
+  {
+   "question": "I'm the youngest player to start in consecutive Champions League finals.\nFollowing my time in England, I joined Real Madrid and shifted the name on the back of my shirt to just 'Trent'.\nI've been managed by Klopp, Alonso & Mourinho",
+   "problems": [
+    "gives away the answer (\"trent\")",
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

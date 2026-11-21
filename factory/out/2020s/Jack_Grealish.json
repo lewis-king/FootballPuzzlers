@@ -1,0 +1,125 @@
+{
+ "answer": "Jack Grealish",
+ "acceptableAnswers": [
+  "Jack Grealish",
+  "Grealish"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "Although I was capped by the Republic of Ireland up to under-21 level, I eventually decided to represent England.\nIt was a decision that led me to a World Cup and European Championship, as well as two different loan spells at Everton.\nI've been managed by the likes of Dean Smith, Pep Guardiola & David Moyes.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The draft reads naturally and follows the house style well with connected sentences and a clear narrative arc (Ireland to England). The facts are accurate and the managers listed serve as good narrowing clues. It loses one point because the hook is slightly passive; stating 'led me to a World Cup' (",
+  "fix": "The opening sentence about being capped by Ireland up to U21 level is a bit dry compared to the punchier hooks in the originals (e.g., 'fastest hat-trick', 'invincibles'). It would be stronger if it highlighted the specific tension of the switch or a memorable moment from that era, rather than just "
+ },
+ "claims": [
+  {
+   "text": "Jack Grealish was capped by the Republic of Ireland up to under-21 level.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was capped by the Republic of Ireland up to under-21 level before confirming his decision to play for England in April 2016.",
+    "He was capped by the Republic of Ireland up to under-21 level before confirming his decision to play for England in April 2016."
+   ]
+  },
+  {
+   "text": "Jack Grealish decided to represent England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 28 September 2015, Grealish confirmed that he had decided to represent England at international level.",
+    "On 28 September 2015, Grealish confirmed that he had decided to represent England at international level."
+   ]
+  },
+  {
+   "text": "Jack Grealish participated in a World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He represented the senior side at UEFA Euro 2020 and the 2022 FIFA World Cup.",
+    "He represented the senior side at UEFA Euro 2020 and the 2022 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Jack Grealish participated in a European Championship.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He represented the senior side at UEFA Euro 2020 and the 2022 FIFA World Cup.",
+    "He represented the senior side at UEFA Euro 2020 and the 2022 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Jack Grealish had two different loan spells at Everton.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Grealish was loaned to Everton in 2025, and again in 2026.",
+    "After falling out of favour at City, Grealish was loaned to Everton in 2025, and again in 2026."
+   ]
+  },
+  {
+   "text": "Dean Smith managed Jack Grealish.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Was managed by Dean Smith at Aston Villa in 62 matches (2019 to 2021)",
+    "[Squad data > Aston Villa] Was managed by Dean Smith at Aston Villa in 62 matches (2019 to 2021)"
+   ]
+  },
+  {
+   "text": "Pep Guardiola managed Jack Grealish.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 152 matches (2021 to 2025)",
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 152 matches (2021 to 2025)"
+   ]
+  },
+  {
+   "text": "David Moyes managed Jack Grealish.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Was managed by David Moyes at Everton FC in 22 matches (2025 to 2026)",
+    "[Squad data > Everton FC] Was managed by David Moyes at Everton FC in 22 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jack_Grealish",
+  "revid": 1385384895
+ },
+ "alternatives": [
+  {
+   "question": "Although I was capped by the Republic of Ireland up to under-21 level, I eventually decided to represent England.\nI've since played in both a European Championship and a World Cup.\nThroughout my career I've been managed by the likes of Dean Smith, Pep Guardiola & David Moyes.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In a single Premier League campaign I set a new record for the most fouls won by a player.\nFollowing my time at Aston Villa, I moved to Manchester City where I was managed by Pep Guardiola.\nI've also spent time on loan at Everton.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In 2021 I became the most expensive British player in history.\nWithin two seasons I'd won a Premier League title and completed a continental treble.\nI've played with the likes of Haaland, De Bruyne & Dewsbury-Hall.",
+   "problems": [
+    "claim is wrong: \"Jack Grealish has played with Ben Dewsbury-Hall.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2021 I became the most expensive British player ever.\nWithin two seasons I'd won a league title and a continental treble.\nI've played with the likes of De Bruyne, Foden & Haaland.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

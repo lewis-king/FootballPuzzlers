@@ -1,0 +1,118 @@
+{
+ "answer": "Matt Turner",
+ "acceptableAnswers": [
+  "Matt Turner",
+  "Turner"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I didn't even start playing football until I was 14, originally taking it up just to stay in shape for basketball and baseball.\nDespite this late start, I became the first goalkeeper in New England Revolution history to be named MLS Goalkeeper of the Year.\nI've been managed by Mikel Arteta & Nuno Espírito Santo.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 4,
+  "why": "The hook (late start for basketball/baseball) is charming and fits the 'delightful oddity' rule, but the rest of the question fails on multiple fronts. First, it reads like a list of disconnected facts rather than a connected story ('Despite this... I became... I've been managed by...'). Second, the",
+  "fix": "Rewrite to connect the sentences and make the managers a narrowing clue rather than just a fact. For example: 'I didn't start playing football until I was 14, originally taking it up just to stay in shape for basketball. Yet that late start led me to become the first goalkeeper in New England Revs' "
+ },
+ "claims": [
+  {
+   "text": "Matt Turner did not start playing football until he was 14.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Turner did not play soccer until he was 14 years old",
+    "Turner did not play soccer until he was 14 years old"
+   ]
+  },
+  {
+   "text": "Matt Turner originally took up football to stay in shape for basketball and baseball.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "initially taking up the sport to stay in shape for his primary sports of basketball and baseball",
+    "Turner did not play soccer until he was 14 years old, initially taking up the sport to stay in shape for his primary sports of basketball and baseball."
+   ]
+  },
+  {
+   "text": "Matt Turner is the first goalkeeper in New England Revolution history to be named MLS Goalkeeper of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was the first keeper in Revolution history to earn the honor.",
+    "He was the first keeper in Revolution history to earn the honor."
+   ]
+  },
+  {
+   "text": "Mikel Arteta has managed Matt Turner.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 7 matches (2022 to 2023)",
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 7 matches (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Nuno Espírito Santo has managed Matt Turner.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Nottingham Forest] Was managed by Nuno Espírito Santo at Nottingham Forest in 8 matches (2023 to 2024)",
+    "[Squad data > Nottingham Forest] Was managed by Nuno Espírito Santo at Nottingham Forest in 8 matches (2023 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Matt_Turner_(soccer)",
+  "revid": 1386343281
+ },
+ "alternatives": [
+  {
+   "question": "I didn't even start playing football until I was 14, originally taking it up just to stay in shape for basketball and baseball.\nYet I went on to become the first goalkeeper in New England Revolution history to be named MLS Goalkeeper of the Year.\nI've since played under Mikel Arteta & Nuno Espírito Santo.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In 2013, I was featured as the number one worst play of the day on ESPN for scoring an own goal.\nYet I've since won the FA Cup in 2025.\nI've played with Ødegaard, Elanga & Thomas Partey.",
+   "problems": [],
+   "style": 1
+  },
+  {
+   "question": "At the 2022 World Cup I played every minute of my country's campaign and kept two clean sheets.\nThis made me the first American goalkeeper to do so in a single tournament since 1930.\nI've shared a pitch with the likes of Saka, Gibbs-White & Guéhi.",
+   "problems": [
+    "claim is wrong: \"Matt Turner was the first American goalkeeper to play every minute of a single World Cup tournament and keep two clean sheets since 1930.\"",
+    "claim is wrong: \"Matt Turner has shared a pitch with Harry Gibbs-White.\"",
+    "claim is wrong: \"Matt Turner has shared a pitch with Maxence Guéhi.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "My career has seen some unusual lows, including once being featured as the worst play of the day on ESPN for scoring an own goal.\nYet I've since won the FA Cup in 2025 and have made several caps for my national team.\nI've played with Ødegaard, Elanga & Thomas Partey.",
+   "problems": [
+    "claim not stated in the evidence: \"Matt Turner has made several caps for his national team.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I didn't even start playing football until I was 14, having originally taken up the sport just to stay in shape for basketball and baseball.\nIncredibly, I later became the first goalkeeper in New England Revolution history to be named MLS Goalkeeper of the Year.\nI've played with the likes of Saka, Gibbs-White & Guéhi.",
+   "problems": [
+    "claim is wrong: \"Matt Turner has played with Bukayo Saka, Harry Gibbs-White, and Maxence Guéhi.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "At the 2022 World Cup I played every single minute for my country, becoming the first US keeper since 1930 to keep multiple clean sheets in one tournament.\nFollowing this, I moved to England where I had a spell at Arsenal before joining Nottingham Forest.\nI've been managed by Mikel Arteta & Nuno Espírito Santo.",
+   "problems": [
+    "claim is wrong: \"Following the 2022 World Cup, Matt Turner moved to England.\"",
+    "claim not stated in the evidence: \"Matt Turner had a spell at Arsenal after moving to England following the 2022 World Cup.\""
+   ],
+   "style": 2
+  }
+ ]
+}

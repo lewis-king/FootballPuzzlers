@@ -1,0 +1,100 @@
+{
+ "answer": "Tomáš Souček",
+ "acceptableAnswers": [
+  "Tomáš Souček",
+  "Souček"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "My move to the Premier League in 2020 netted my hometown club £1.5 million, which covered their running costs for the next ten years.\nIncredibly, I finished my first full season as my new club's joint-top scorer.\nI've been managed by David Moyes & Julen Lopetegui.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is excellent and fits the 'delightful oddity' rule perfectly (the transfer fee covering running costs). The narrative flow is good ('Incredibly...'). However, it loses a point because the final clue list (Moyes & Lopetegui) feels slightly generic for a West Ham player compared to the more '",
+  "fix": "The hook is excellent and fits the 'delightful oddity' rule perfectly (the transfer fee covering running costs). The narrative flow is good ('Incredibly...'). However, it loses a point because the final clue list (Moyes & Lopetegui) feels slightly generic for a West Ham player compared to the more '"
+ },
+ "claims": [
+  {
+   "text": "Tomáš Souček moved to the Premier League in 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 29 January 2020, Souček joined Premier League side West Ham United on an initial loan deal until the end of the 2019–20 season",
+    "On 29 January 2020, Souček joined Premier League side West Ham United on an initial loan deal until the end of the 2019–20 season, with an option to make the transfer permanent in the summer."
+   ]
+  },
+  {
+   "text": "Tomáš Souček's move to the Premier League in 2020 netted his hometown club £1.5 million.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Slovan Havlíčkův Brod subsequently netted £1.5 million following Souček's transfer to West Ham United in 2020",
+    "Slovan Havlíčkův Brod subsequently netted £1.5 million following Souček's transfer to West Ham United in 2020, covering their running costs for the next ten years."
+   ]
+  },
+  {
+   "text": "The £1.5 million from Tomáš Souček's move covered his hometown club's running costs for the next ten years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Slovan Havlíčkův Brod subsequently netted £1.5 million following Souček's transfer to West Ham United in 2020, covering their running costs for the next ten years.",
+    "Slovan Havlíčkův Brod subsequently netted £1.5 million following Souček's transfer to West Ham United in 2020, covering their running costs for the next ten years."
+   ]
+  },
+  {
+   "text": "Tomáš Souček finished his first full season as his new club's joint-top scorer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He finished the 2020–21 season as West Ham's joint-top scorer, along with Michail Antonio, both having scored ten goals.",
+    "He finished the 2020–21 season as West Ham's joint-top scorer, along with Michail Antonio, both having scored ten goals."
+   ]
+  },
+  {
+   "text": "David Moyes managed Tomáš Souček.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 196 matches (2020 to 2024)",
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 196 matches (2020 to 2024)"
+   ]
+  },
+  {
+   "text": "Julen Lopetegui managed Tomáš Souček.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by Julen Lopetegui at West Ham United in 19 matches (2024 to 2025)",
+    "[Squad data > West Ham United] Was managed by Julen Lopetegui at West Ham United in 19 matches (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Tomáš_Souček",
+  "revid": 1385400347
+ },
+ "alternatives": [
+  {
+   "question": "I was confirmed as the new captain of the Czech Republic following Euro 2020.\nUnfortunately I was later stripped of that captaincy after being accused of ignoring my fans.\nI've played with Schick, Anderson & Ferguson.",
+   "problems": [
+    "claim is wrong: \"Tomáš Souček has played with Patrik Schick, Erik Andersen and Ryan Ferguson.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In February 2026 I scored my 39th Premier League goal, surpassing Patrik Berger as the highest scoring Czech in the league's history.\nI've also had the honour of winning a European trophy in my home city of Prague.\nI've played with the likes of Rice, Paquetá & Bowen.",
+   "problems": [
+    "team-mates all from one club (West Ham United); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Tomáš Souček won a European trophy in his home city of Prague.\""
+   ],
+   "style": 0
+  }
+ ]
+}

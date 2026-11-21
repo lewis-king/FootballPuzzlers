@@ -1,0 +1,106 @@
+# The 2020s pack: candidate answers, one per line (exact English Wikipedia title where a name is ambiguous).
+# More than the pack needs on purpose: the factory drops any player it can't write a true, unique,
+# good question for, and the best 60 or so go to Lewis for review. Grouped roughly by how hard they are.
+
+# Household names
+Erling Haaland
+Kylian Mbappé
+Jude Bellingham
+Harry Kane
+Mohamed Salah
+Bukayo Saka
+Cole Palmer
+Phil Foden
+Kevin De Bruyne
+Rodri
+Declan Rice
+Bruno Fernandes
+Marcus Rashford
+Son Heung-min
+Virgil van Dijk
+Trent Alexander-Arnold
+Lionel Messi
+Cristiano Ronaldo
+Vinícius Júnior
+Karim Benzema
+Robert Lewandowski
+Luka Modrić
+Lamine Yamal
+Martin Ødegaard
+Jack Grealish
+
+# Keen fans will get these
+Alexander Isak
+Ollie Watkins
+Emiliano Martínez
+Jarrod Bowen
+Eberechi Eze
+Michael Olise
+Moisés Caicedo
+Enzo Fernández
+Alexis Mac Allister
+Julián Alvarez
+Kai Havertz
+Mason Mount
+Jorginho
+Édouard Mendy
+Bruno Guimarães
+Anthony Gordon
+Kieran Trippier
+Jadon Sancho
+Scott McTominay
+Fikayo Tomori
+Tammy Abraham
+Kaoru Mitoma
+Ivan Toney
+James Maddison
+Youri Tielemans
+Kalvin Phillips
+Ben White
+William Saliba
+Gabriel Martinelli
+Dominik Szoboszlai
+Luis Díaz
+Darwin Núñez
+Rúben Dias
+John Stones
+Kyle Walker
+Riyad Mahrez
+Lisandro Martínez
+Casemiro
+Rasmus Højlund
+Jordan Pickford
+Aaron Ramsdale
+Victor Osimhen
+Khvicha Kvaratskhelia
+Florian Wirtz
+
+# Harder: cult heroes and surprises
+Wout Weghorst
+Dominic Calvert-Lewin
+Jamie Vardy
+Kelechi Iheanacho
+Callum Wilson
+Morgan Gibbs-White
+Tomáš Souček
+Michail Antonio
+Pedro Neto
+Joachim Andersen
+Dwight McNeil
+Raúl Jiménez
+Dan Burn
+Jean-Philippe Mateta
+Dean Henderson
+Bryan Mbeumo
+Yoane Wissa
+Hwang Hee-chan
+Adama Traoré
+Danny Ings
+Emiliano Buendía
+Leandro Trossard
+Pierre-Emerick Aubameyang
+Matt Turner
+Christian Nørgaard
+Teemu Pukki
+Patson Daka
+Antoine Semenyo

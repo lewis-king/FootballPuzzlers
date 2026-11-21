@@ -1,0 +1,89 @@
+{
+ "answer": "Jean-Philippe Mateta",
+ "acceptableAnswers": [
+  "Jean-Philippe Mateta",
+  "Mateta"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "During an FA Cup match, I was hospitalised after a collision with a goalkeeper that required 25 stitches.\nUnfortunately, some opposing supporters were heard chanting for me to die while I was being treated on the pitch.\nI've been managed by Patrick Vieira & Oliver Glasner.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (the horrific injury incident), which fits the 'twist or tension' requirement well. However, it loses a point because the final clue ('managed by Patrick Vieira & Oliver Glasner') is slightly weak; while accurate, these managers are not as distinctive or narrowing as",
+  "fix": "Consider swapping one manager for a more specific teammate from his time at Crystal Palace (e.g., 'I've played with Eze and Mateta' - wait, that's the answer. Maybe 'I've shared a dressing room with Eze and Ayew'). Or, to make it tighter, focus on the contrast between the horror of the injury and a "
+ },
+ "claims": [
+  {
+   "text": "Jean-Philippe Mateta was hospitalised after a collision with a goalkeeper during an FA Cup match.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mateta was hospitalised after being kicked in the side of the head by Millwall goalkeeper Liam Roberts"
+   ]
+  },
+  {
+   "text": "The injury Jean-Philippe Mateta sustained in the FA Cup match required 25 stitches.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "The injury sustained during the game, resulted with him requiring 25 stitches for a laceration behind his ear and a concussion observation.",
+    "The injury sustained during the game, resulted with him requiring 25 stitches for a laceration behind his ear and a concussion observation."
+   ]
+  },
+  {
+   "text": "Opposing supporters were heard chanting for Jean-Philippe Mateta to die while he was being treated on the pitch.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "While Mateta was being treated on the pitch for a number of minutes and administered oxygen, some Millwall supporters chanted \"let him die\".",
+    "While Mateta was being treated on the pitch for a number of minutes and administered oxygen, some Millwall supporters chanted \"let him die\"."
+   ]
+  },
+  {
+   "text": "Jean-Philippe Mateta has been managed by Patrick Vieira.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 50 matches (2021 to 2023)",
+    "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 50 matches (2021 to 2023)"
+   ]
+  },
+  {
+   "text": "Jean-Philippe Mateta has been managed by Oliver Glasner.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 94 matches (2024 to 2026)",
+    "[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 94 matches (2024 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jean-Philippe_Mateta",
+  "revid": 1386346414
+ },
+ "alternatives": [
+  {
+   "question": "I was selected as one of the three overage players for my country's Olympic squad in Paris 2024.\nIncredibly, I finished as the third-highest scorer of the tournament and won a silver medal.\nMy career has seen me move from Mainz 05 to Crystal Palace.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I scored the only goal in a European final to secure my club's first ever continental trophy.\nBefore this, I had also won the FA Cup and Community Shield in 2025.\nI've played alongside the likes of Zaha, Eze & Guéhi.",
+   "problems": [
+    "claim not stated in the evidence: \"The FA Cup and Community Shield wins occurred before Jean-Philippe Mateta scored the only goal in a European final to secure his club's first ever continental trophy.\"",
+    "claim is wrong: \"Jean-Philippe Mateta has played alongside Maxence Guéhi.\""
+   ],
+   "style": 4
+  }
+ ]
+}

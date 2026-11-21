@@ -1,0 +1,102 @@
+{
+ "answer": "Hwang Hee-chan",
+ "acceptableAnswers": [
+  "Hwang Hee-chan",
+  "Hee-chan Hwang",
+  "Hee-chan"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I started my career by topping the scoring charts in the AFC U-16 Championship, even netting a hat-trick against North Korea.\nYears later, I made history at my Premier League club by becoming the first player in fifty years to score six goals in the first ten games of a top-flight season.\nI've played with Diego Costa & Matheus Cunha",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (first player in 50 years to score six goals in the first ten games), which fits the style guide's preference for notable records. The structure follows the 'hook -> development -> narrowing clue' pattern well. However, it loses a point because the opening sentence (",
+  "fix": "The opening sentence about topping the AFC U-16 scoring charts is a bit dry and procedural compared to the punchy hooks in the originals; it lacks the immediate 'twist' or emotional resonance of examples like Mané's fastest hat-trick. The transition 'Years later' is functional but slightly generic."
+ },
+ "claims": [
+  {
+   "text": "Hwang Hee-chan topped the scoring charts in the AFC U-16 Championship.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In the 2012 AFC U-16 Championship, South Korea was eliminated in the quarter-finals, but Hwang became the top scorer of the tournament with five goals including a hat-trick against North Korea.",
+    "Hwang became the top scorer of the tournament with five goals including a hat-trick against North Korea."
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan scored a hat-trick against North Korea in the AFC U-16 Championship.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In the 2012 AFC U-16 Championship, South Korea was eliminated in the quarter-finals, but Hwang became the top scorer of the tournament with five goals including a hat-trick against North Korea.",
+    "In the 2012 AFC U-16 Championship, South Korea was eliminated in the quarter-finals, but Hwang became the top scorer of the tournament with five goals including a hat-trick against North Korea."
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan became the first player in fifty years to score six goals in the first ten games of a top-flight season at his Premier League club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "meaning he became the first Wolves player since Derek Dougan, fifty years previously, to score six goals in the first ten games of a top-flight season",
+    "meaning he became the first Wolves player since Derek Dougan, fifty years previously, to score six goals in the first ten games of a top-flight season."
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan played with Diego Costa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 15 matches alongside Diego Costa for Wolverhampton Wanderers (2022 to 2023)",
+    "[Squad data > Wolverhampton Wanderers] Played in 15 matches alongside Diego Costa for Wolverhampton Wanderers (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan played with Matheus Cunha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 59 matches alongside Matheus Cunha for Wolverhampton Wanderers (2023 to 2025)",
+    "[Squad data > Wolverhampton Wanderers] Played in 59 matches alongside Matheus Cunha for Wolverhampton Wanderers (2023 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Hwang_Hee-chan",
+  "revid": 1386598073
+ },
+ "alternatives": [
+  {
+   "question": "I'm known for a stoppage-time winner at the 2022 World Cup that secured my country's place in the Round of 16.\nFollowing this, I managed to score the decisive goal against Manchester City to give the reigning champions their first loss of the next season.\nI've been managed by Julian Nagelsmann & Gary O'Neil",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "In the 2012 AFC U-16 Championship I finished as the top scorer, including a hat-trick against North Korea.\nYears later in the Premier League I became the first player for my club in fifty years to score six goals in the first ten games of a top-flight season.\nI've been managed by Julian Nagelsmann & Gary O'Neil",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I scored a stoppage time winner against Portugal at the 2022 World Cup to help my country advance to the Round of 16.\nIn the Premier League, I've scored the decisive goal that gave the 2022-23 champions their first loss of the 2023-24 season.\nI've played with the likes of Diego Costa, Rúben Neves & Son",
+   "problems": [
+    "claim not stated in the evidence: \"Hwang Hee-chan has played with Diego Costa, Rúben Neves & Son.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "Winning the 2018 Asian Games was a huge moment for me, as it guaranteed my teammates and I an exemption from mandatory military service.\nFollowing my time in Austria, I had a spell in the Bundesliga where I failed to score a single league goal in my first season.\nI've played with Nkunku, Upamecano & Szoboszlai",
+   "problems": [
+    "team-mates all from one club (RB Leipzig); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

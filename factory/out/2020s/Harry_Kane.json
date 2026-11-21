@@ -1,0 +1,102 @@
+{
+ "answer": "Harry Kane",
+ "acceptableAnswers": [
+  "Harry Kane",
+  "Kane"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won three Premier League Golden Boots, yet I didn't win my first major trophy until 2025.\nFollowing that success, I became the first Englishman to win the Ballon d'Or since Michael Owen.\nI've been managed by Pochettino, Mourinho & Kompany.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The hook is strong and memorable (three Golden Boots vs no major trophy), which fits the style guide perfectly. However, it loses a point for factual inaccuracy regarding the managers: Harry Kane was not managed by Vincent Kompany at Tottenham Hotspur (Kompany joined as manager in late 2025, after a",
+  "fix": "Replace 'Kompany' with a manager from his earlier career to ensure accuracy and better clue distribution, such as 'Pochettino, Mourinho & Postecoglou' or simply stick to the two most famous ones if space is tight. Also, consider adding a slight narrative connector like 'It wasn't until 2025 that I'."
+ },
+ "claims": [
+  {
+   "text": "Harry Kane has won three Premier League Golden Boots.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Honours > Individual] Premier League Golden Boot: 2015–16, 2016–17, 2020–21",
+    "[Honours > Individual] Premier League Golden Boot: 2015–16, 2016–17, 2020–21"
+   ]
+  },
+  {
+   "text": "Harry Kane did not win his first major trophy until 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 4 May 2025, Kane won his first major honour, the 2024–25 Bundesliga title"
+   ]
+  },
+  {
+   "text": "Following the success in 2025, Harry Kane became the first Englishman to win the Ballon d'Or since Michael Owen.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first Englishman to win the award since Michael Owen in 2001",
+    "On 26 October 2026, Kane received the Ballon d'Or at the London Palladium, becoming the first Englishman to win the award since Michael Owen in 2001"
+   ]
+  },
+  {
+   "text": "Harry Kane has been managed by Pochettino.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Tottenham Hotspur] Was managed by Mauricio Pochettino at Tottenham Hotspur in 233 matches (2014 to 2019)",
+    "[Squad data > Tottenham Hotspur] Was managed by Mauricio Pochettino at Tottenham Hotspur in 233 matches (2014 to 2019)"
+   ]
+  },
+  {
+   "text": "Harry Kane has been managed by Mourinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Tottenham Hotspur] Was managed by José Mourinho at Tottenham Hotspur in 59 matches (2019 to 2021)",
+    "Was managed by José Mourinho at Tottenham Hotspur in 59 matches (2019 to 2021)"
+   ]
+  },
+  {
+   "text": "Harry Kane has been managed by Kompany.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayern Munich] Was managed by Vincent Kompany at Bayern Munich in 101 matches (2024 to 2026)",
+    "Was managed by Vincent Kompany at Bayern Munich in 101 matches (2024 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Harry_Kane",
+  "revid": 1386106752
+ },
+ "alternatives": [
+  {
+   "question": "I was released by the Arsenal academy as a child for being a bit chubby and not very athletic.\nIncredibly, I've gone on to become England's all-time leading goalscorer.\nI've played with the likes of Bale, Eriksen & Musiala.",
+   "problems": [
+    "wording will date: The claim to be England's all-time leading goalscorer is a current record that could change if another player scores more goals in the future.; The claim of being England's all-time leading goalscorer could change if another player surpasses his record."
+   ],
+   "style": 5
+  },
+  {
+   "question": "I'm the first player to score a hat-trick in the Champions League, Europa League and Europa Conference League.\nDespite this record, I spent several years of my early career on loan at clubs like Millwall and Leicester City.\nI've played alongside the likes of Dele Alli, Kimmich & Luis Díaz.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim is wrong: \"Harry Kane is the first player to score a hat-trick in the Champions League.\"",
+    "claim not stated in the evidence: \"Harry Kane is the first player to score a hat-trick in the Europa League.\"",
+    "claim is wrong: \"Harry Kane spent several years of his early career on loan at Millwall.\"",
+    "claim is wrong: \"Harry Kane spent several years of his early career on loan at Leicester City.\""
+   ],
+   "style": 0
+  }
+ ]
+}

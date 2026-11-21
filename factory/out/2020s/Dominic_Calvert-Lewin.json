@@ -1,0 +1,124 @@
+{
+ "answer": "Dominic Calvert-Lewin",
+ "acceptableAnswers": [
+  "Dominic Calvert-Lewin",
+  "Calvert-Lewin"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I had the honour of scoring the winning goal in a World Cup final, albeit at under-20 level.\nAfter establishing myself as a key striker at Everton, I made the difficult decision to leave in 2025 to join Leeds United.\nI've played with the likes of Wayne Rooney, James Rodríguez & Noah Okafor.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook (U-20 World Cup winner) is strong and memorable, fitting the 'twist' requirement well. The narrative flow is good ('After establishing...'). However, it loses a point for two reasons: 1) It relies on a very recent transfer (2025 to Leeds) which feels slightly procedural compared to the more",
+  "fix": "Replace the specific 2025 transfer detail with a broader career arc or a different memorable moment (e.g., his injury struggles or specific goals for England/Everton) to make it feel less like a news update and more like a timeless story. Also, ensure 'Noah Okafor' is the intended clue; if he was a "
+ },
+ "claims": [
+  {
+   "text": "Dominic Calvert-Lewin scored the winning goal in a World Cup final at under-20 level.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Calvert-Lewin was part of the England under-20 team that won the 2017 FIFA U-20 World Cup, scoring the winning goal in the final.",
+    "Calvert-Lewin was part of the England under-20 team that won the 2017 FIFA U-20 World Cup, scoring the winning goal in the final."
+   ]
+  },
+  {
+   "text": "Dominic Calvert-Lewin established himself as a key striker at Everton.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He finished the 2020–21 season as Everton's top goalscorer with 21 goals in 39 matches in all competitions and was named Everton's Player of the Year at the club's end of season awards evening."
+   ]
+  },
+  {
+   "text": "Dominic Calvert-Lewin left Everton in 2025 to join Leeds United.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He played 273 games and scored 71 goals for Everton before joining Leeds United in 2025.",
+    "He played 273 games and scored 71 goals for Everton before joining Leeds United in 2025."
+   ]
+  },
+  {
+   "text": "Dominic Calvert-Lewin played with Wayne Rooney.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Played in 35 matches alongside Wayne Rooney for Everton FC (2017 to 2018)",
+    "[Squad data > Everton FC] Played in 35 matches alongside Wayne Rooney for Everton FC (2017 to 2018)"
+   ]
+  },
+  {
+   "text": "Dominic Calvert-Lewin played with James Rodríguez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Played in 19 matches alongside James Rodríguez for Everton FC (2020 to 2021)",
+    "[Squad data > Everton FC] Played in 19 matches alongside James Rodríguez for Everton FC (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Dominic Calvert-Lewin played with Noah Okafor.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leeds United] Played in 30 matches alongside Noah Okafor for Leeds United (2025 to 2026)",
+    "[Squad data > Leeds United] Played in 30 matches alongside Noah Okafor for Leeds United (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Dominic_Calvert-Lewin",
+  "revid": 1385901950
+ },
+ "alternatives": [
+  {
+   "question": "I once became the first Everton player to score two hat-tricks in a single month since Dixie Dean in 1931.\nIt was a prolific start to the season, though my time at the club eventually ended with a move to Leeds United in 2025.\nI've been managed by Carlo Ancelotti & Sean Dyche.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I've won a World Cup final with my country, though it was at under-20 level.\nFollowing my time at Everton, I joined Leeds United in 2025.\nI've played with the likes of James Rodríguez, Wayne Rooney & Noah Okafor.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In 2022 I scored the winning goal that secured my club's safety from relegation in the Premier League.\nAlthough I spent nearly a decade at Everton, it was only in 2025 that I moved to Leeds United.\nI've played with Noah Okafor & Daniel James.",
+   "problems": [
+    "claim not stated in the evidence: \"Dominic Calvert-Lewin spent nearly a decade at Everton.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2022 I scored the winning goal that secured my club's safety from relegation in the Premier League.\nIncredibly, I later became the first Leeds United player to be named Player of the Month since Rio Ferdinand.\nI've been managed by Carlo Ancelotti & Daniel Farke.",
+   "problems": [
+    "claim is wrong: \"Dominic Calvert-Lewin was named Leeds United Player of the Month.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "Despite my career as a striker, I actually started out playing as a box-to-box midfielder in the youth ranks.\nI later made my name in the Premier League, once being named Player of the Month for both Everton and Leeds United.\nI've been managed by Carlo Ancelotti & Sean Dyche.",
+   "problems": [
+    "claim is wrong: \"Dominic Calvert-Lewin was named Player of the Month for Everton.\"",
+    "claim not stated in the evidence: \"Dominic Calvert-Lewin was named Player of the Month for Leeds United.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I'm one of only three England players to have scored a goal in a World Cup final.\nFollowing this success, I spent nine years at Everton where I once became the first player since Dixie Dean to score two hat-tricks in a single month.\nI've played with the likes of James Rodríguez, Dele Alli & Richarlison.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim is wrong: \"Following his success in the World Cup final, Dominic Calvert-Lewin spent nine years at Everton.\""
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "answer": "Kevin De Bruyne",
+ "acceptableAnswers": [
+  "Kevin De Bruyne",
+  "Bruyne"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In 2026 I became the first Belgian player to score in three different World Cups.\nI've also had the honour of captaining my country following the retirement of Eden Hazard.\nI've played with Torres, Foden & McTominay",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are correct and the structure follows the house style (hook, development, narrowing clue). However, it misses a key stylistic element: the 'twist' or tension. The original examples often use contrast ('Yet I've only scored...', 'I did not get on the scoresheet...'). This draft is just a bi",
+  "fix": "Add a twist or tension to make it more engaging. For example, mention that despite being a key player for Belgium, he has never won a major trophy with them, or contrast his individual brilliance with team results. Also, consider if 'McTominay' is the best third name; while correct (both at Man Utd?"
+ },
+ "claims": [
+  {
+   "text": "Kevin De Bruyne became the first Belgian player to score in three different World Cups in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In addition, he became the first Belgian player to score in three World tournaments.",
+    "he became the first Belgian player to score in three World tournaments."
+   ]
+  },
+  {
+   "text": "Kevin De Bruyne captained Belgium following the retirement of Eden Hazard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 21 March 2023, De Bruyne was announced as Belgium's new captain, following the international retirement of Eden Hazard.",
+    "On 21 March 2023, De Bruyne was announced as Belgium's new captain, following the international retirement of Eden Hazard."
+   ]
+  },
+  {
+   "text": "Kevin De Bruyne played with Torres, Foden & McTominay.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
+  "revid": 1386705601
+ },
+ "alternatives": [
+  {
+   "question": "I joined Chelsea in 2012 but was used sparingly before finding my form in the Bundesliga.\nIt was these performances which led to a club-record move to Manchester City in 2015.\nI've been managed by Mourinho, Guardiola & Conte",
+   "problems": [
+    "claim not stated in the evidence: \"Kevin De Bruyne was used sparingly at Chelsea before finding his form in the Bundesliga.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2020 I equalled the then-record for the most assists in a Premier League season.\nFollowing that campaign, I've won the PFA Players' Player of the Year award twice.\nI've played with the likes of Haaland, Rodri & Sterling",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name",
+    "claim is wrong: \"Following the 2020 campaign, Kevin De Bruyne has won the PFA Players' Player of the Year award twice.\""
+   ],
+   "style": 0
+  }
+ ]
+}

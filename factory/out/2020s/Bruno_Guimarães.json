@@ -1,0 +1,75 @@
+{
+ "answer": "Bruno Guimarães",
+ "acceptableAnswers": [
+  "Bruno Guimarães",
+  "Guimarães"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In 2025 I became the first captain of my club in 70 years to lift a domestic trophy, after leading the team to victory in the Carabao Cup.\nFollowing this success I moved to Arsenal for a fee of around £75 million.\nI've played with the likes of Tonali, Isak & Paquetá.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (first captain in 70 years to win a domestic trophy), which fits the style guide perfectly. The narrative flow is good, linking the achievement directly to the subsequent transfer. However, it loses one point because the final clue list (Tonali, Isak & Paquetá) is a ",
+  "fix": "Replace the generic teammate list with a more intriguing or contrasting set of names that spans different clubs or eras if possible, or add a small 'feeling' phrase to the opening sentence to make it sound less like a news report and more like a personal story."
+ },
+ "claims": [
+  {
+   "text": "Bruno Guimarães became the first captain of his club in 70 years to lift a domestic trophy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Guimarães became the first Newcastle United captain to lift a domestic trophy in 70 years",
+    "On 16 March 2025, Guimarães became the first Newcastle United captain to lift a domestic trophy in 70 years, or any trophy in 56 years, after leading the team to victory in the Carabao Cup final against Liverpool."
+   ]
+  },
+  {
+   "text": "Bruno Guimarães led his team to victory in the Carabao Cup in 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 16 March 2025, Guimarães became the first Newcastle United captain to lift a domestic trophy in 70 years, or any trophy in 56 years, after leading the team to victory in the Carabao Cup final against Liverpool.",
+    "On 16 March 2025, Guimarães became the first Newcastle United captain to lift a domestic trophy in 70 years, or any trophy in 56 years, after leading the team to victory in the Carabao Cup final against Liverpool."
+   ]
+  },
+  {
+   "text": "Bruno Guimarães moved to Arsenal for a fee of around £75 million following his success in the Carabao Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 8 August 2026, Guimarães signed a four-year contract with Arsenal for a reported transfer fee of around £75 million."
+   ]
+  },
+  {
+   "text": "Bruno Guimarães has played with Tonali, Isak & Paquetá.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Bruno_Guimarães",
+  "revid": 1386597242
+ },
+ "alternatives": [
+  {
+   "question": "At the 2026 World Cup I provided four assists in a single tournament, becoming only the fourth player in the 21st century to do so.\nUnfortunately my campaign ended on a low as I missed a penalty in our Round of 16 defeat to Norway.\nI've been managed by Eddie Howe & Rudi Garcia.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "During the 2023-24 Premier League season I ran more kilometres than any other player, covering a total of 423 km.\nI was also eligible to represent Spain before eventually making my senior debut for Brazil in 2020.\nI've played with Cherki, Alisson & Vinicius Junior.",
+   "problems": [],
+   "style": 2
+  }
+ ]
+}

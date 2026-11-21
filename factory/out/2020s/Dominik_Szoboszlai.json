@@ -1,0 +1,115 @@
+{
+ "answer": "Dominik Szoboszlai",
+ "acceptableAnswers": [
+  "Dominik Szoboszlai",
+  "Szoboszlai"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I became the most expensive Hungarian footballer of all time when I moved to Germany in 2021.\nIn 2025, I became the first player from my country to win the Premier League.\nI've played with the likes of Nkunku, Gvardiol & Salah.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The facts are strong and memorable (record transfer fee, first Hungarian PL winner), but the structure is a bit list-like ('I became... In 2025 I became...'). It lacks the conversational flow or 'twist' of the best originals. The teammate clue is excellent for narrowing it down.",
+  "fix": "Connect the sentences to show progression rather than just listing achievements. For example: 'After becoming the most expensive Hungarian footballer when I moved to Germany in 2021, my career took a turn when I joined Liverpool. In 2025, I became the first player from my country to win the Premier,"
+ },
+ "claims": [
+  {
+   "text": "Dominik Szoboszlai moved to Germany in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "in January 2021, Szoboszlai moved to Germany at RB Leipzig",
+    "in January 2021, Szoboszlai moved to Germany at RB Leipzig"
+   ]
+  },
+  {
+   "text": "When Dominik Szoboszlai moved to Germany in 2021, he became the most expensive Hungarian footballer of all time.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In January 2021, Szoboszlai moved to Germany at RB Leipzig, a club associated with Red Bull Salzburg, for a reported fee of €20 million, making him the most expensive Hungarian footballer of all time.",
+    "in January 2021, Szoboszlai moved to Germany at RB Leipzig, a club associated with Red Bull Salzburg, for a reported fee of €20 million, making him the most expensive Hungarian footballer of all time."
+   ]
+  },
+  {
+   "text": "In 2025, Dominik Szoboszlai won the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 27 April, Szoboszlai became the first Hungarian footballer to win the Premier League, following Liverpool's 5–1 victory over Tottenham Hotspur at Anfield in which he provided two assists for MoHame",
+    "[Honours > Liverpool] Premier League: 2024–25"
+   ]
+  },
+  {
+   "text": "Dominik Szoboszlai is from Hungary.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "is a Hungarian professional footballer",
+    "Dominik Szoboszlai (Hungarian pronunciation: [ˈsoboslɒi ˈdominik] SO-bo-sloy; born 25 October 2000) is a Hungarian professional footballer who plays and serves as vice-captain for Premier League club Liverpool and captains the Hungary national team."
+   ]
+  },
+  {
+   "text": "In 2025, Dominik Szoboszlai became the first player from Hungary to win the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 27 April, Szoboszlai became the first Hungarian footballer to win the Premier League",
+    "On 27 April, Szoboszlai became the first Hungarian footballer to win the Premier League"
+   ]
+  },
+  {
+   "text": "Dominik Szoboszlai has played with Nkunku.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > RB Leipzig] Played in 78 matches alongside Christopher Nkunku for RB Leipzig (2021 to 2023)",
+    "[Squad data > RB Leipzig] Played in 78 matches alongside Christopher Nkunku for RB Leipzig (2021 to 2023)"
+   ]
+  },
+  {
+   "text": "Dominik Szoboszlai has played with Gvardiol.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > RB Leipzig] Played in 77 matches alongside Josko Gvardiol for RB Leipzig (2021 to 2023)",
+    "[Squad data > RB Leipzig] Played in 77 matches alongside Josko Gvardiol for RB Leipzig (2021 to 2023)"
+   ]
+  },
+  {
+   "text": "Dominik Szoboszlai has played with Salah.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 126 matches alongside Mohamed Salah for Liverpool FC (2023 to 2026)",
+    "[Squad data > Liverpool FC] Played in 126 matches alongside Mohamed Salah for Liverpool FC (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Dominik_Szoboszlai",
+  "revid": 1386312799
+ },
+ "alternatives": [
+  {
+   "question": "I once scored a last-minute goal in the play-offs to send my country to Euro 2020.\nAlthough I'm known as a midfielder, I've also been deployed at right-back for both club and country.\nI've played under managers like Klopp, Slot & Marco Rose.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I'm the youngest captain to ever feature in a European Championship.\nFollowing my time in Germany, I joined Liverpool for a fee that made me one of their most expensive signings of all time.\nI've played with Wirtz, Isak & Brobbey.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Dominik Szoboszlai joined Liverpool for a fee that made him one of their most expensive signings of all time.\"",
+    "wording will date: The claim \"youngest captain to ever feature\" is a superlative record that could be broken by a younger player in future tournaments.; The phrase 'one of their most expensive signings of all time' is a current ranking that could change with new transfers."
+   ],
+   "style": 0
+  }
+ ]
+}

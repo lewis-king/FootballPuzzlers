@@ -1,0 +1,42 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "credentialsSource": "local"
+      },
+      "ios": {
+        "credentialsSource": "remote"
+      }
+    },
+    "tester": {
+      "extends": "production",
+      "env": {
+        "EXPO_PUBLIC_SIMULATE_STORE": "1"
+      }
+    },
+    "play-apk": {
+      "extends": "production",
+      "android": {
+        "buildType": "apk",
+        "credentialsSource": "local"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "../../.config/store-keys/play-service-account.json",
+        "track": "internal",
+        "releaseStatus": "draft"
+      },
+      "ios": {
+        "ascAppId": "1338147291"
+      }
+    }
+  }
+}

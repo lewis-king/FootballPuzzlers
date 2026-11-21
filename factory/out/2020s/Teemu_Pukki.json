@@ -1,0 +1,100 @@
+{
+ "answer": "Teemu Pukki",
+ "acceptableAnswers": [
+  "Teemu Pukki",
+  "Pukki"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to December 2026 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I started my first Premier League season by scoring a hat-trick in August and winning Player of the Month.\nUnfortunately I was unable to prevent my club from being relegated that year.\nI've been managed by Daniel Farke, Dean Smith & Thomas Frank",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (hat-trick + Player of the Month in August), and the tension of being relegated despite that performance fits the style guide perfectly. The manager list works well to narrow it down without giving away the name immediately. It reads naturally and feels like a story.",
+  "fix": "Consider adding a slight emotional beat or consequence to the relegation sentence to match the 'feeling' in the best originals (e.g., 'It was a bitter pill, as I couldn't prevent...'), but it is already very close to a 5."
+ },
+ "claims": [
+  {
+   "text": "Teemu Pukki scored a hat-trick in August during his first Premier League season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Eight days later, he scored a hat-trick against Newcastle United in a 3–1 victory"
+   ]
+  },
+  {
+   "text": "Teemu Pukki won Player of the Month during his first Premier League season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "For the month of August he was named the Premier League Player of the Month"
+   ]
+  },
+  {
+   "text": "Teemu Pukki's club was relegated in the year he started his first Premier League season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 3 July 2019, Pukki signed a new three-year contract with the Premier League newcomers. ... Pukki scored eleven Premier League goals in total for Norwich but was unable to prevent the Canaries from being relegated to the Championship.",
+    "Pukki scored eleven Premier League goals in total for Norwich but was unable to prevent the Canaries from being relegated to the Championship."
+   ]
+  },
+  {
+   "text": "Daniel Farke has managed Teemu Pukki.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Norwich City] Was managed by Daniel Farke at Norwich City in 49 matches (2019 to 2021)",
+    "[Squad data > Norwich City] Was managed by Daniel Farke at Norwich City in 49 matches (2019 to 2021)"
+   ]
+  },
+  {
+   "text": "Dean Smith has managed Teemu Pukki.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Norwich City] Was managed by Dean Smith at Norwich City in 29 matches (2021 to 2022)",
+    "[Squad data > Norwich City] Was managed by Dean Smith at Norwich City in 29 matches (2021 to 2022)"
+   ]
+  },
+  {
+   "text": "Thomas Frank has managed Teemu Pukki.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bröndby IF] Was managed by Thomas Frank at Bröndby IF in 59 matches (2014 to 2016)",
+    "[Squad data > Bröndby IF] Was managed by Thomas Frank at Bröndby IF in 59 matches (2014 to 2016)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Teemu_Pukki",
+  "revid": 1386714674
+ },
+ "alternatives": [
+  {
+   "question": "I'm the all-time leading male goalscorer for my country.\nIn 2019 I scored ten goals in a qualifying campaign to help us reach our first ever major international tournament.\nI've played with the likes of van Dijk, Draxler & Matip",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim 'I'm the all-time leading male goalscorer for my country' is a present-tense superlative that could become false if another player surpasses his total in the future.; The claim to be the all-time leading goalscorer is a current record that could be broken."
+   ],
+   "style": 0
+  },
+  {
+   "question": "Early in my career I moved to Sevilla, yet I only played one La Liga game before returning home to Finland.\nIt was years later that I became a club legend at Norwich City, finishing as their fourth-best goalscorer of all time.\nI've played with the likes of Buendía, Godfrey & Billy Gilmour",
+   "problems": [
+    "team-mates all from one club (Norwich City); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Teemu Pukki returned to Finland after playing for Sevilla.\"",
+    "claim not stated in the evidence: \"Teemu Pukki became a club legend at Norwich City years after his time at Sevilla.\""
+   ],
+   "style": 0
+  }
+ ]
+}

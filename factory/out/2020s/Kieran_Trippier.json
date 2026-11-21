@@ -1,0 +1,104 @@
+{
+ "answer": "Kieran Trippier",
+ "acceptableAnswers": [
+  "Kieran Trippier",
+  "Trippier"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I scored a free kick in a World Cup semi-final, yet that remains the only senior international goal of my career.\nFollowing my time in Spain, I returned to England and helped my club win their first domestic trophy in 70 years.\nI've played with the likes of Kane, Griezmann & Isak.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (the semi-final free kick vs. zero other goals), which fits the style guide perfectly. The narrative flow is good ('Following my time in Spain...'). However, it loses a point because the final clue list includes Alexander Isak, who was at Newcastle for only one brief",
+  "fix": "Replace 'Isak' with a more significant teammate from his Newcastle or Tottenham era (e.g., 'Kane, Griezmann & Sissoko') to ensure every name does meaningful work in narrowing the answer without relying on a fleeting loan spell."
+ },
+ "claims": [
+  {
+   "text": "Kieran Trippier scored a free kick in a World Cup semi-final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his debut for the senior international team in June 2017 and played in the 2018 FIFA World Cup, where he scored directly from a free kick in the semi-final.",
+    "played in the 2018 FIFA World Cup, where he scored directly from a free kick in the semi-final."
+   ]
+  },
+  {
+   "text": "The free kick goal in the World Cup semi-final is the only senior international goal of Kieran Trippier's career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 11 July 2018, Trippier scored his first, and only, England goal, opening the scoring with a free kick in a 2–1 extra-time loss to Croatia in Moscow in the semi-final.",
+    "On 11 July 2018, Trippier scored his first, and only, England goal, opening the scoring with a free kick in a 2–1 extra-time loss to Croatia in Moscow in the semi-final."
+   ]
+  },
+  {
+   "text": "Kieran Trippier spent time playing in Spain before returning to England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He returned to England in 2022 with Newcastle United"
+   ]
+  },
+  {
+   "text": "After returning to England, Kieran Trippier helped his club win their first domestic trophy in 70 years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 16 March 2025, Trippier played the full 90 minutes in the 2025 EFL Cup final as Newcastle United won their first domestic trophy in 70 years, assisting the first goal from a corner.",
+    "On 16 March 2025, Trippier played the full 90 minutes in the 2025 EFL Cup final as Newcastle United won their first domestic trophy in 70 years, assisting the first goal from a corner."
+   ]
+  },
+  {
+   "text": "Kieran Trippier has played with Harry Kane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Tottenham Hotspur] Played in 85 matches alongside Harry Kane for Tottenham Hotspur (2015 to 2019)",
+    "[Squad data > Tottenham Hotspur] Played in 85 matches alongside Harry Kane for Tottenham Hotspur (2015 to 2019)"
+   ]
+  },
+  {
+   "text": "Kieran Trippier has played with Antoine Griezmann.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Atlético de Madrid] Played in 11 matches alongside Antoine Griezmann for Atlético de Madrid (2021)",
+    "[Squad data > Atlético de Madrid] Played in 11 matches alongside Antoine Griezmann for Atlético de Madrid (2021)"
+   ]
+  },
+  {
+   "text": "Kieran Trippier has played with Alexander Isak.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Played in 76 matches alongside Alexander Isak for Newcastle United (2022 to 2025)",
+    "[Squad data > Newcastle United] Played in 76 matches alongside Alexander Isak for Newcastle United (2022 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kieran_Trippier",
+  "revid": 1386705777
+ },
+ "alternatives": [
+  {
+   "question": "I was once handed a 10-week worldwide football ban for breaching betting rules.\nDespite this, I managed to win the La Liga title before returning to the Premier League in 2022.\nI've been managed by Pochettino, Simeone & Howe.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I started my career at Manchester City but failed to break into the first team.\nI eventually found my feet in the Championship, where I was named in the PFA Team of the Year for two consecutive seasons.\nI've played with the likes of Son, Suárez & Tonali.",
+   "problems": [
+    "claim not stated in the evidence: \"Kieran Trippier has played with Son, Suárez & Tonali.\""
+   ],
+   "style": 4
+  }
+ ]
+}

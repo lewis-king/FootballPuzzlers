@@ -1,0 +1,94 @@
+{
+ "answer": "Bruno Fernandes",
+ "acceptableAnswers": [
+  "Bruno Fernandes",
+  "Fernandes"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won the UEFA Nations League twice with my country.\nYet I was heavily criticised for my performances during Euro 2020, where I struggled to replicate my club form.\nI've played alongside the likes of Cristiano Ronaldo, Marcus Rashford & Vitinha.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The structure is strong and follows the house style well: it opens with a major achievement (Nations League x2), introduces tension/contrast (criticism at Euro 2020 despite club form), and closes with a narrowing list of teammates. The facts are correct and memorable to fans. It loses one point from",
+  "fix": "The phrase 'struggled to replicate my club form' is slightly generic/cliché for football writing; a more specific detail about the criticism (e.g., being benched, or a specific match performance) would add the 'delightful oddity' or sharper tension found in top-tier originals. Also, while Ronaldo is"
+ },
+ "claims": [
+  {
+   "text": "Bruno Fernandes has won the UEFA Nations League twice with his country.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "UEFA Nations League: 2018–19, 2024–25"
+   ]
+  },
+  {
+   "text": "Bruno Fernandes was heavily criticised for his performances during Euro 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Fernandes went on to be criticised for his performances during the tournament as he struggled to replicate his club form for Portugal.",
+    "Fernandes went on to be criticised for his performances during the tournament as he struggled to replicate his club form for Portugal."
+   ]
+  },
+  {
+   "text": "Bruno Fernandes struggled to replicate his club form during Euro 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Fernandes went on to be criticised for his performances during the tournament as he struggled to replicate his club form for Portugal.",
+    "Fernandes went on to be criticised for his performances during the tournament as he struggled to replicate his club form for Portugal."
+   ]
+  },
+  {
+   "text": "Bruno Fernandes has played alongside Cristiano Ronaldo.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 51 matches alongside Cristiano Ronaldo for Manchester United (2021 to 2022)",
+    "[Squad data > Manchester United] Played in 51 matches alongside Cristiano Ronaldo for Manchester United (2021 to 2022)"
+   ]
+  },
+  {
+   "text": "Bruno Fernandes has played alongside Marcus Rashford.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 207 matches alongside Marcus Rashford for Manchester United (2020 to 2024)",
+    "[Squad data > Manchester United] Played in 207 matches alongside Marcus Rashford for Manchester United (2020 to 2024)"
+   ]
+  },
+  {
+   "text": "Bruno Fernandes has played alongside Vitinha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Portugal] Played in 3 matches alongside Vitinha for Portugal (2026)",
+    "Played in 3 matches alongside Vitinha for Portugal (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Bruno_Fernandes",
+  "revid": 1386385987
+ },
+ "alternatives": [
+  {
+   "question": "In the 2025-26 season I broke the Premier League record for most assists in a single campaign by registering 21.\nThat same year I was named PFA Players' Player of the Year.\nI've played with the likes of Eriksen, Pogba & Raphinha.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I started my professional career at Novara before moving to Udinese and Sampdoria.\nFollowing my time in Italy I moved back to Portugal where I became the highest scoring midfielder in Europe in a single season.\nI've been managed by Jorge Jesus, Ole Gunnar Solskjær & Erik ten Hag.",
+   "problems": [],
+   "style": 3
+  }
+ ]
+}

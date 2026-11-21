@@ -1,0 +1,108 @@
+{
+ "answer": "Karim Benzema",
+ "acceptableAnswers": [
+  "Karim Benzema",
+  "Benzema"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I didn't play for my country for over five years after being implicated in a blackmailing scandal in 2015.\nAlthough I returned for Euro 2020, I eventually retired from international football in December 2022.\nI've been managed by the likes of Mourinho, Zidane & Ancelotti.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The question is factually accurate and follows the house style well with connected sentences ('Although...') and a narrowing clue at the end (managers). It reads naturally. However, it scores a 4 rather than a 5 because the hook (the blackmail scandal) is a bit dry/procedural compared to the 'deligh",
+  "fix": "The question is factually accurate and follows the house style well with connected sentences ('Although...') and a narrowing clue at the end (managers). It reads naturally. However, it scores a 4 rather than a 5 because the hook (the blackmail scandal) is a bit dry/procedural compared to the 'deligh"
+ },
+ "claims": [
+  {
+   "text": "Karim Benzema did not play for his country for over five years after being implicated in a blackmailing scandal in 2015.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he did not play for France for over five years after being implicated in a blackmailing scandal in 2015",
+    "he did not play for France for over five years after being implicated in a blackmailing scandal in 2015."
+   ]
+  },
+  {
+   "text": "Karim Benzema was implicated in a blackmailing scandal in 2015.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he did not play for France for over five years after being implicated in a blackmailing scandal in 2015.",
+    "he did not play for France for over five years after being implicated in a blackmailing scandal in 2015."
+   ]
+  },
+  {
+   "text": "Karim Benzema returned to his country's team for Euro 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He later returned to the squad for Euro 2020",
+    "He later returned to the squad for Euro 2020, where he won the Bronze Boot."
+   ]
+  },
+  {
+   "text": "Karim Benzema retired from international football in December 2022.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He announced his international retirement in December 2022 following the World Cup.",
+    "He announced his international retirement in December 2022 following the World Cup."
+   ]
+  },
+  {
+   "text": "Karim Benzema was managed by Mourinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 50 matches (2012 to 2013)",
+    "[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 50 matches (2012 to 2013)"
+   ]
+  },
+  {
+   "text": "Karim Benzema was managed by Zidane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 171 matches (2016 to 2020)",
+    "[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 171 matches (2016 to 2020)"
+   ]
+  },
+  {
+   "text": "Karim Benzema was managed by Ancelotti.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Was managed by Carlo Ancelotti at Real Madrid in 187 matches (2013 to 2023)",
+    "[Squad data > Real Madrid] Was managed by Carlo Ancelotti at Real Madrid in 187 matches (2013 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Karim_Benzema",
+  "revid": 1384804670
+ },
+ "alternatives": [
+  {
+   "question": "I became only the fifth French player to win the Ballon d'Or after a stellar 2021-22 season.\nIn that same year I also won my fifth Champions League title and finished as the competition's top scorer.\nI've played with the likes of Bale, Hazard & Hakimi.",
+   "problems": [
+    "team-mates all from one club (Real Madrid); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was part of a highly rated attacking trio dubbed the \"BBC\" who helped my club to four Champions League titles.\nFollowing the departure of one of my partners in 2018, I transitioned from a false 9 into a sole striker.\nI've played with the likes of Ronaldo, Valverde & Llorente.",
+   "problems": [
+    "team-mates all from one club (Real Madrid); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Karim Benzema has played with Fernando Llorente.\""
+   ],
+   "style": 0
+  }
+ ]
+}

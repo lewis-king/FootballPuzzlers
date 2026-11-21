@@ -1,0 +1,93 @@
+{
+ "answer": "Yoane Wissa",
+ "acceptableAnswers": [
+  "Yoane Wissa",
+  "Wissa"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "At the 2026 World Cup I scored my country's first ever goal in the tournament.\nIncredibly, I also netted a brace to secure our first ever win on the world stage.\nI've been managed by Thomas Frank & Eddie Howe.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 3,
+  "why": "The draft perfectly captures the house style: it opens with a high-stakes hook (first ever WC goal/win), uses the required conversational British English ('Incredibly', 'netted'), and connects the sentences logically. The final clue is excellent; Thomas Frank and Eddie Howe are distinct managers who",
+  "fix": "None needed."
+ },
+ "claims": [
+  {
+   "text": "Yoane Wissa scored his country's first ever goal at the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He scored DR Congo's first-ever FIFA World Cup goal",
+    "He scored DR Congo's first-ever FIFA World Cup goal in their 1–1 draw against Portugal in the opening group stage match on 17 June, earning the country its first point in the tournament."
+   ]
+  },
+  {
+   "text": "Yoane Wissa scored two goals in a match to secure his country's first ever win on the world stage.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 27 June, he scored a brace and earned Man of the Match award in a 3–1 victory over Uzbekistan, securing his nation's first-ever World Cup win and qualification for the knockout stage."
+   ]
+  },
+  {
+   "text": "Thomas Frank has managed Yoane Wissa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 143 matches (2021 to 2025)",
+    "[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 143 matches (2021 to 2025)"
+   ]
+  },
+  {
+   "text": "Eddie Howe has managed Yoane Wissa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Was managed by Eddie Howe at Newcastle United in 28 matches (2025 to 2026)",
+    "[Squad data > Newcastle United] Was managed by Eddie Howe at Newcastle United in 28 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Yoane_Wissa",
+  "revid": 1385506280
+ },
+ "alternatives": [
+  {
+   "question": "In January 2025 I became the record Premier League goalscorer for my club.\nShortly after that season ended I moved to Newcastle United, where I became the 1000th player to represent them in the league.\nI've been managed by Thomas Frank & Eddie Howe.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In January 2025 I became the record Premier League goalscorer for my club.\nFollowing this, I moved to Newcastle United where I made my Champions League debut later that year.\nI've played with the likes of Eriksen, Tonali & Ramsdale.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I scored my country's first-ever FIFA World Cup goal in a draw against Portugal.\nIn the same tournament I also netted a brace to secure our first ever win on the world stage.\nI've played with the likes of Eriksen, Tonali & Guimarães.",
+   "problems": [
+    "claim not stated in the evidence: \"Yoane Wissa scored Cameroon's first-ever FIFA World Cup goal in a draw against Portugal.\"",
+    "claim is wrong: \"In the same tournament, Yoane Wissa scored two goals to secure Cameroon's first ever win on the world stage.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I actually began my youth career as a goalkeeper at the age of seven.\nDespite this I've since made my name as a forward, including being named in an Africa Cup of Nations Team of the Tournament.\nMy teammates have included Mbeumo, Ramsey & Ramsdale.",
+   "problems": [
+    "claim not stated in the evidence: \"Yoane Wissa's teammates have included Mbeumo, Ramsey & Ramsdale.\""
+   ],
+   "style": 4
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "answer": "Casemiro",
+ "acceptableAnswers": [
+  "Casemiro"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "READY",
+ "question": "At the 2026 World Cup I equalled the record of 12 unbeaten appearances.\nIncredibly, this followed a two-year absence from my national team.\nI've played with the likes of Hazard, Ødegaard & Bruno Guimarães.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 3,
+  "why": "The draft reads exactly like one of Lewis's originals: it opens with a specific, high-stakes record (12 unbeaten appearances at the WC), introduces immediate tension via the 'two-year absence' twist, and closes with a narrowing list of teammates that spans different clubs and eras. The facts are ver",
+  "fix": "None needed."
+ },
+ "claims": [
+  {
+   "text": "Casemiro equalled the record of 12 unbeaten appearances at the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he equaled the World Cup record of 12 unbeaten appearances",
+    "he equaled the World Cup record of 12 unbeaten appearances"
+   ]
+  },
+  {
+   "text": "Casemiro had a two-year absence from his national team prior to the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "marking the midfielder's return to the national team after a two-year absence",
+    "marking the midfielder's return to the national team after a two-year absence"
+   ]
+  },
+  {
+   "text": "Casemiro has played with Hazard, Ødegaard & Bruno Guimarães.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Casemiro",
+  "revid": 1385361990
+ },
+ "alternatives": [
+  {
+   "question": "In my final season at Manchester United I tied the record for most headed goals in a single campaign.\nFollowing this, I moved to Major League Soccer to join Inter Miami.\nI've been managed by Zidane, ten Hag & Ancelotti.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "At the 2026 World Cup I equalled the record of 12 unbeaten appearances.\nIncredibly, this happened after I had been absent from my national team for two years.\nI've played with the likes of Hazard, Ødegaard & Bruno Guimarães.",
+   "problems": [
+    "claim not stated in the evidence: \"Casemiro was absent from his national team for two years before the 2026 World Cup appearance where he equalled the record.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I once told my agent to message a club that I would 'fix it' after they suffered a heavy defeat.\nAlthough I've had an illustrious career in Europe, I ended my time in England by moving to the MLS.\nI've been managed by Zidane, ten Hag & Amorim.",
+   "problems": [
+    "claim not stated in the evidence: \"Casemiro had an illustrious career in Europe.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I've won five Champions Leagues, yet I spent a period of my early career on loan at Porto.\nFollowing my time in Spain, I moved to England where I tied the record for most headed goals in a single season for my club.\nI've played with the likes of Ronaldo, Eriksen & Sancho.",
+   "problems": [
+    "team-mates all from one club (Manchester United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

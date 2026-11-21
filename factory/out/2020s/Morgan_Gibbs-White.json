@@ -1,0 +1,115 @@
+{
+ "answer": "Morgan Gibbs-White",
+ "acceptableAnswers": [
+  "Morgan Gibbs-White",
+  "Gibbs-White"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I once scored a goal against the very club I would later join for a record transfer fee, though I unfortunately missed a penalty in that same game.\nDespite this, I've since helped my current side reach a European semi-final and netted my first career hat-trick in 2026.\nI've played with Diogo Jota, Giovanni Reyna & Douglas Luiz",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (scoring against the club you later join for a record fee), which fits the style guide's preference for narrative tension. However, it loses a point because 'netted my first career hat-trick in 2026' feels like a minor stat rather than a defining moment or charmingly",
+  "fix": "Replace the specific 2026 hat-trick detail with a more resonant achievement (e.g., winning a major trophy, a key final performance, or a significant record) to maintain the high-level narrative arc. Ensure the 'record transfer fee' is phrased carefully if it refers to a club-record rather than a UK/"
+ },
+ "claims": [
+  {
+   "text": "Morgan Gibbs-White scored a goal against the club he later joined for a record transfer fee.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 17 May 2022, Gibbs-White scored a goal in a 2–1 away win over Nottingham Forest in the Football League play-offs semi-final second leg"
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White missed a penalty in the same game where he scored against the club he later joined for a record transfer fee.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 17 May 2022, Gibbs-White scored a goal in a 2–1 away win over Nottingham Forest in the Football League play-offs semi-final second leg; however, he missed a crucial penalty which granted the opponents a 3–2 victory in the penalty shoot-out and qualification to the final."
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White helped his current side reach a European semi-final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 16 April 2026, Gibbs-White scored the only goal in a 1–0 victory over Porto in the Europa League quarter-final second leg, sealing his club's place in the semi-finals by winning 2–1 on aggregate.",
+    "On 16 April 2026, Gibbs-White scored the only goal in a 1–0 victory over Porto in the Europa League quarter-final second leg, sealing his club's place in the semi-finals by winning 2–1 on aggregate."
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White netted his first career hat-trick in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Three days later, he netted his first career hat-trick in a 4–1 win over Burnley.",
+    "Three days later, he netted his first career hat-trick in a 4–1 win over Burnley."
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White played with Diogo Jota.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 32 matches alongside Diogo Jota for Wolverhampton Wanderers (2018 to 2020)",
+    "[Squad data > Wolverhampton Wanderers] Played in 32 matches alongside Diogo Jota for Wolverhampton Wanderers (2018 to 2020)"
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White played with Giovanni Reyna.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Nottingham Forest] Played in 10 matches alongside Giovanni Reyna for Nottingham Forest (2024)",
+    "[Squad data > Nottingham Forest] Played in 10 matches alongside Giovanni Reyna for Nottingham Forest (2024)"
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White played with Douglas Luiz.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Nottingham Forest] Played in 14 matches alongside Douglas Luiz for Nottingham Forest (2025 to 2026)",
+    "[Squad data > Nottingham Forest] Played in 14 matches alongside Douglas Luiz for Nottingham Forest (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Morgan_Gibbs-White",
+  "revid": 1383526249
+ },
+ "alternatives": [
+  {
+   "question": "I've had the honour of playing under Nuno Espírito Santo at two different clubs.\nIn 2026 I netted my first career hat-trick and helped my side reach a European semi-final.\nI've played with Raul Jimenez, Giovanni Reyna & Elanga",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I've had the honour of playing under Nuno Espírito Santo at two different clubs.\nIn 2026 I netted my first career hat-trick and helped my side reach a European semi-final, finishing the season as my club's top scorer.\nI've played with Raul Jimenez, Vitinha & Renan Lodi",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I scored in the final of a World Cup winning campaign for my country, but it was as an under-17.\nYears later I won the European Under-21 Championship, although I was sent off in the final.\nI've played with Jota, Douglas Luiz & Cutrone",
+   "problems": [
+    "claim not stated in the evidence: \"Morgan Gibbs-White was an under-17 player when he scored in that World Cup final.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2022 I joined a newly promoted Premier League side for a club record transfer fee.\nCuriously, I had actually scored against them in the play-off semi-finals just a few months prior.\nI've played with Brennan Johnson, Renan Lodi & Vitinha",
+   "problems": [
+    "claim not stated in the evidence: \"Morgan Gibbs-White scored against the newly promoted Premier League side in the play-off semi-finals.\""
+   ],
+   "style": 4
+  }
+ ]
+}

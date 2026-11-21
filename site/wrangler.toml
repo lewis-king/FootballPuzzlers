@@ -1,0 +1,14 @@
+# footballwhoami.com: the landing page plus privacy, terms and support, served as static assets.
+# Build with ./build.sh, then: npx wrangler@4 deploy
+name = "fwai-site"
+compatibility_date = "2026-11-01"
+workers_dev = false
+routes = [
+  { pattern = "footballwhoami.com", custom_domain = true },
+  { pattern = "www.footballwhoami.com", custom_domain = true },
+]
+
+[assets]
+directory = "./dist"
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"

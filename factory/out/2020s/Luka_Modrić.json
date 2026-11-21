@@ -1,0 +1,99 @@
+{
+ "answer": "Luka Modrić",
+ "acceptableAnswers": [
+  "Luka Modrić",
+  "Modrić"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "article",
+  "contract": ""
+ },
+ "status": "READY",
+ "question": "In 2018 I became the first player other than Lionel Messi or Cristiano Ronaldo to win the Ballon d'Or since 2007.\nThat same year I also won the World Cup Golden Ball after captaining my country to a second-place finish.\nI've played with the likes of Cristiano Ronaldo, Hazard & Pulisic.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are strong and the 'narrowing clue' at the end (Ronaldo, Hazard, Pulisic) works well to identify the club context. However, it reads slightly like a list of achievements rather than a story with tension or a twist. It lacks the conversational flow ('The following year...', 'Yet...') seenin",
+  "fix": "Add a connecting phrase and perhaps a slight contrast to make it feel more like a narrative. For example: 'In 2018 I broke the Messi-Ronaldo duopoly by winning the Ballon d'Or, capping off a year where I captained my country to World Cup glory despite finishing second. I've shared the pitch with the"
+ },
+ "claims": [
+  {
+   "text": "Luka Modrić became the first player other than Lionel Messi or Cristiano Ronaldo to win the Ballon d'Or since 2007 in 2018.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Throughout his career, Modrić has won numerous individual awards, culminating in the Ballon d'Or in 2018, making him the first player other than Lionel Messi or Cristiano Ronaldo to win the award since 2007.",
+    "Throughout his career, Modrić has won numerous individual awards, culminating in the Ballon d'Or in 2018, making him the first player other than Lionel Messi or Cristiano Ronaldo to win the award since 2007."
+   ]
+  },
+  {
+   "text": "In 2018, Luka Modrić won the World Cup Golden Ball.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "FIFA World Cup Golden Ball: 2018",
+    "FIFA World Cup Golden Ball: 2018"
+   ]
+  },
+  {
+   "text": "In 2018, Luka Modrić captained his country to a second-place finish in the World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Modrić led Croatia to a second and third-place finish at the 2018 and 2022 World Cup respectively",
+    "Modrić led Croatia to a second and third-place finish at the 2018 and 2022 World Cup respectively, securing two World Cup medals."
+   ]
+  },
+  {
+   "text": "Luka Modrić has played with Cristiano Ronaldo.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 223 matches alongside Cristiano Ronaldo for Real Madrid (2012 to 2018)",
+    "[Squad data > Real Madrid] Played in 223 matches alongside Cristiano Ronaldo for Real Madrid (2012 to 2018)"
+   ]
+  },
+  {
+   "text": "Luka Modrić has played with Hazard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 39 matches alongside Eden Hazard for Real Madrid (2019 to 2023)",
+    "[Squad data > Real Madrid] Played in 39 matches alongside Eden Hazard for Real Madrid (2019 to 2023)"
+   ]
+  },
+  {
+   "text": "Luka Modrić has played with Pulisic.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AC Milan] Played in 30 matches alongside Christian Pulisic for AC Milan (2025 to 2026)",
+    "[Squad data > AC Milan] Played in 30 matches alongside Christian Pulisic for AC Milan (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Luka_Modrić",
+  "revid": 1386040141
+ },
+ "alternatives": [
+  {
+   "question": "In 2025 I became the oldest player to score for Real Madrid in all competitions.\nFollowing my time in Spain, I moved to Italy where I set a new record as the oldest player to make a debut in Serie A.\nI've been managed by Mourinho, Zidane & Allegri.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I am the most decorated Croatian player in world football with 34 major trophies.\nYet I spent my early years as a refugee living in hotels and playing football in parking lots during a war.\nI've played with the likes of Mbappé, Bellingham & Nkunku.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim of being 'the most decorated Croatian player' is a present-tense superlative that could become false if another Croatian player wins more trophies in the future.; The claim to be the 'most decorated' and the specific trophy count (34) could change if he wins more or another player surpasses him."
+   ],
+   "style": 0
+  }
+ ]
+}

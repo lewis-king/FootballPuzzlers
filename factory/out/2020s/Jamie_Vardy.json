@@ -1,0 +1,127 @@
+{
+ "answer": "Jamie Vardy",
+ "acceptableAnswers": [
+  "Jamie Vardy",
+  "Vardy"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "READY",
+ "question": "Prior to my Premier League debut at 27, I had already played in five different levels of the English football league system.\nIncredibly, I later became the oldest player to win the Golden Boot when I did so for the 2019–20 season.\nI've been managed by Ranieri, Rodgers & van Nistelrooy",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook (five levels before debut) is charming and true to the style guide's preference for delightful oddities. However, it loses a point because 'oldest player to win the Golden Boot' is factually ambiguous without specifying 'Premier League' (he was not the oldest in EFL history), which could be",
+  "fix": "Change 'win the Golden Boot' to 'win the Premier League Golden Boot'. Also, consider swapping 'van Nistelrooy' for a manager from his Leicester peak (like Rodgers is already there) or keeping it if you want to highlight his later career, but ensure the list narrows effectively. The current list is a"
+ },
+ "claims": [
+  {
+   "text": "Jamie Vardy made his Premier League debut at age 27.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Prior to his Premier League debut at the age of 27, he had already played in levels eight, seven, six, five and two of the English football league system.",
+    "Prior to his Premier League debut at the age of 27, he had already played in levels eight, seven, six, five and two of the English football league system."
+   ]
+  },
+  {
+   "text": "Prior to his Premier League debut, Jamie Vardy had played in five different levels of the English football league system.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Prior to his Premier League debut at the age of 27, he had already played in levels eight, seven, six, five and two of the English football league system.",
+    "Prior to his Premier League debut at the age of 27, he had already played in levels eight, seven, six, five and two of the English football league system."
+   ]
+  },
+  {
+   "text": "Jamie Vardy is the oldest player to win the Golden Boot for the 2019–20 season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He won the Premier League Golden Boot for the 2019–20 season, becoming the oldest player to win the award.",
+    "He won the Premier League Golden Boot for the 2019–20 season, becoming the oldest player to win the award."
+   ]
+  },
+  {
+   "text": "Jamie Vardy was managed by Ranieri.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Was managed by Claudio Ranieri at Leicester City in 68 matches (2015 to 2017)",
+    "[Squad data > Leicester City] Was managed by Claudio Ranieri at Leicester City in 68 matches (2015 to 2017)"
+   ]
+  },
+  {
+   "text": "Jamie Vardy was managed by Rodgers.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 147 matches (2019 to 2023)",
+    "Was managed by Brendan Rodgers at Leicester City in 147 matches (2019 to 2023)"
+   ]
+  },
+  {
+   "text": "Jamie Vardy was managed by van Nistelrooy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Was managed by Ruud van Nistelrooy at Leicester City in 24 matches (2024 to 2025)",
+    "Was managed by Ruud van Nistelrooy at Leicester City in 24 matches (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jamie_Vardy",
+  "revid": 1386703429
+ },
+ "alternatives": [
+  {
+   "question": "In the 2015–16 season I broke a long-standing record by scoring in 11 consecutive Premier League matches.\nFollowing my time at Leicester, I spent a single season playing in Serie A.\nI've played with the likes of Kanté, Mahrez & Franco Vázquez",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "Prior to my Premier League debut at 27, I had already played in five different levels of the English football league system.\nIncredibly, I later became the oldest player to win the Golden Boot when I did so in 2020.\nI've been managed by Ranieri, Rodgers & van Nistelrooy",
+   "problems": [
+    "claim is wrong: \"Jamie Vardy won the Golden Boot in 2020.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "Prior to my Premier League debut at 27, I had already played in five different levels of the English football league system.\nIncredibly, I later became the oldest player to win the Golden Boot when I did so in 2020.\nI've been managed by Ranieri, Rodgers & van Nistelrooy",
+   "problems": [
+    "claim is wrong: \"Jamie Vardy won the Golden Boot in 2020.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once held the Premier League record for scoring in the most consecutive matches.\nYet I only won the Golden Boot once, a feat I achieved as the oldest player ever to do so.\nI've played with the likes of Kanté, Mahrez & Vázquez",
+   "problems": [
+    "claim is wrong: \"Javi Vázquez is a teammate of Jamie Vardy.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I've scored in 11 consecutive Premier League matches, breaking a long-standing record.\nIt was during this run that I helped an underdog side win the title and was named Player of the Season.\nI've played with the likes of Mahrez, Kanté & Maguire",
+   "problems": [
+    "team-mates all from one club (Leicester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first player to have played in every single round of the FA Cup, including the preliminary stages.\nFollowing a long career at one club, I spent a season playing in Serie A before returning to England to join Burnley in 2026.\nI've played with Ndidi, Tielemans & Franco Vázquez",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Jamie Vardy spent a season playing in Serie A following a long career at one club.\"",
+    "claim not stated in the evidence: \"Jamie Vardy returned to England to join Burnley in 2026 after spending a season in Serie A.\""
+   ],
+   "style": 0
+  }
+ ]
+}

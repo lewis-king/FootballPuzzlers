@@ -1,0 +1,120 @@
+{
+ "answer": "Erling Haaland",
+ "acceptableAnswers": [
+  "Erling Haaland",
+  "Haaland"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2034 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I once set a record for scoring nine goals in a single match at a U-20 World Cup.\nAlthough I'm now Norway's all-time top scorer, it took me until 2024 to overtake the long-standing record of Jørgen Juve.\nI've played with the likes of Bellingham, Palmer & De Bruyne.",
+ "problems": [
+  "wording will date: The phrase 'now Norway's all-time top scorer' is a present-tense status that could change if another player scores more goals in the future.; The claim that he is Norway's all-time top scorer could be surpassed by another player in the future."
+ ],
+ "style": {
+  "score": 5,
+  "difficulty": 1,
+  "why": "The draft perfectly captures the house style: it opens with a memorable hook (the U-20 record), uses connected sentences ('Although...'), and closes with a strong narrowing clue of famous teammates. The facts are accurate and engaging.",
+  "fix": "No changes needed."
+ },
+ "claims": [
+  {
+   "text": "Erling Haaland set a record for scoring nine goals in a single match at a U-20 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Haaland also set a new U-20 World Cup record for most goals scored by a single player in a match",
+    "Haaland represented Norway at the youth level, winning the Golden Boot at the 2019 FIFA U-20 World Cup, where he scored a record nine goals in a single match."
+   ]
+  },
+  {
+   "text": "Erling Haaland is Norway's all-time top scorer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his senior international debut for Norway in 2019, and has since scored over 60 goals, making him Norway's all-time top goalscorer.",
+    "He made his senior international debut for Norway in 2019, and has since scored over 60 goals, making him Norway's all-time top goalscorer."
+   ]
+  },
+  {
+   "text": "Erling Haaland overtook the long-standing record of Jørgen Juve in 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 10 October 2024, Haaland scored twice in a 3–0 Nations League win over Slovenia, reaching 34 international goals to become Norway's all-time top scorer at the age of just 24, and overtaking Juve's record that had stood since 1937.",
+    "On 10 October 2024, Haaland scored twice in a 3–0 Nations League win over Slovenia, reaching 34 international goals to become Norway's all-time top scorer at the age of just 24, and overtaking Juve's record that had stood since 1937."
+   ]
+  },
+  {
+   "text": "Jørgen Juve held a long-standing record that Erling Haaland overtook.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 10 October 2024, Haaland scored twice in a 3–0 Nations League win over Slovenia, reaching 34 international goals to become Norway's all-time top scorer at the age of just 24, and overtaking Juve's record that had stood since 1937.",
+    "On 10 October 2024, Haaland scored twice in a 3–0 Nations League win over Slovenia, reaching 34 international goals to become Norway's all-time top scorer at the age of just 24, and overtaking Juve's record that had stood since 1937."
+   ]
+  },
+  {
+   "text": "Erling Haaland has played with Bellingham, Palmer & De Bruyne.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Erling_Haaland",
+  "revid": 1386365109
+ },
+ "alternatives": [
+  {
+   "question": "I was born in Leeds and grew up supporting Leeds United, yet I've made my name as the all-time top scorer for Norway.\nIn 2026 I helped my country reach their first ever World Cup quarter-final.\nI've been managed by the likes of Solskjær, Rose & Guardiola.",
+   "problems": [
+    "claim is wrong: \"Erling Haaland has been managed by Thomas Rose.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was born in Leeds and grew up supporting Leeds United, yet I've made my name as the all-time top scorer for Norway.\nIn 2026 I helped my country reach their first ever World Cup quarter-final.\nI've been managed by the likes of Solskjær, Rose & Guardiola.",
+   "problems": [
+    "claim is wrong: \"Erling Haaland has been managed by Thomas Rose.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I've become my country's all-time top goalscorer at the age of just 24.\nFollowing a record-breaking run in the 2026 World Cup, I was named in the Dream XI after helping us reach the quarter-finals.\nI've been managed by the likes of Solskjær, Rose & Guardiola.",
+   "problems": [
+    "claim is wrong: \"Erling Haaland had a record-breaking run in the 2026 World Cup.\"",
+    "wording will date: The phrase 'all-time top goalscorer' is a present-tense record that could be broken by another player in the future.; The claim to be the all-time top goalscorer is a current record that could be surpassed."
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once scored nine goals in a single match during a U-20 World Cup.\nAlthough my team was eliminated in the group stage, I still managed to win the Golden Boot.\nMy career has seen me move from Salzburg to Dortmund and then to Manchester City.",
+   "problems": [
+    "banned wording (still)"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once scored nine goals in a single match during a U-20 World Cup.\nDespite my team being eliminated in the group stage, I still won the Golden Boot.\nI've played with the likes of Bellingham, Palmer & Foden.",
+   "problems": [
+    "banned wording (still)"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the only player to win both the Premier League Player of the Season and Young Player of the Season awards in the same season.\nIncredibly, I also set the record for most goals scored in a single Premier League campaign during that debut year.\nI've played with the likes of Bellingham, Cole Palmer & De Bruyne.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim 'I'm the only player to win both...' is a present-tense uniqueness assertion that would become false if another player achieved this feat in a future season.; The claim 'I'm the only player' is a present-tense record that could be broken by a future player."
+   ],
+   "style": 0
+  }
+ ]
+}

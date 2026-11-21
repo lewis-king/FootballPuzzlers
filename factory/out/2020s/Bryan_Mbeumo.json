@@ -1,0 +1,96 @@
+{
+ "answer": "Bryan Mbeumo",
+ "acceptableAnswers": [
+  "Bryan Mbeumo",
+  "Mbeumo"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "In the 2021-22 Premier League season I tied with Raphinha for the record of most woodwork hits in a single campaign.\nFollowing my time at Brentford, I moved to Manchester United in 2025.\nI've played with the likes of Eriksen, Casemiro & Bruno Fernandes.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The hook (tied record for woodwork hits) is a minor stat that lacks charm or memorability, failing the 'delightful oddity' test and reading like a procedural note. The structure is flat: it lists facts rather than telling a story with tension or a twist. While the teammate clue (Eriksen, Casemiro & ",
+  "fix": "Replace the dull woodwork stat with a memorable moment from his Brentford era (e.g., a specific crucial goal or a notable performance against a big team) to create a hook. Connect the sentences more fluidly: 'I was a key part of Brentford's surprise run, scoring in vital matches before moving to Old"
+ },
+ "claims": [
+  {
+   "text": "Bryan Mbeumo tied with Raphinha for the record of most woodwork hits in a single campaign during the 2021-22 Premier League season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he tied with Raphinha for the record of most woodwork hits during a Premier League season, with seven",
+    "he tied with Raphinha for the record of most woodwork hits during a Premier League season, with seven."
+   ]
+  },
+  {
+   "text": "Bryan Mbeumo moved to Manchester United in 2025 following his time at Brentford.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After making 242 appearances for Brentford over six seasons, Mbeumo joined Manchester United in July 2025.",
+    "Mbeumo joined Manchester United in July 2025"
+   ]
+  },
+  {
+   "text": "Bryan Mbeumo has played with Christian Eriksen, Casemiro, and Bruno Fernandes.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Bryan_Mbeumo",
+  "revid": 1386092801
+ },
+ "alternatives": [
+  {
+   "question": "I was a member of the Brentford squad that gained promotion to the Premier League in 2021.\nFollowing my time there, I moved to Manchester United in 2025.\nI've played with the likes of Eriksen, Casemiro & Bruno Fernandes.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I'm a French-born player who chose to represent Cameroon, making my senior debut for them in 2022.\nFollowing my time at Brentford, I joined Manchester United in July 2025.\nI've played with the likes of Eriksen, Casemiro & Bruno Fernandes.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "Although I was capped by France at youth level, I decided to represent Cameroon as a senior.\nIn 2025 I became the highest xG overperformer in the Premier League after scoring 20 league goals.\nI've been managed by Thomas Frank & Rúben Amorim.",
+   "problems": [
+    "claim not stated in the evidence: \"Bryan Mbeumo scored 20 league goals in 2025.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I scored the first ever hat-trick by a substitute in Brentford's history during an FA Cup tie.\nIn 2025 I moved to Manchester United, where I scored my first league goal against Burnley.\nI've played with the likes of Mason Mount, De Ligt & Matheus Cunha.",
+   "problems": [
+    "team-mates all from one club (Manchester United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "Before joining United in 2025, I spent six seasons at Brentford where I was managed by Thomas Frank.\nIncredibly, during one Premier League season I tied the record for most hits of the woodwork.\nI've played with the likes of Mount, de Ligt & Ugarte.",
+   "problems": [
+    "team-mates all from one club (Manchester United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2024-25 I recorded the highest xG overperformance in the Premier League, scoring 20 league goals.\nIt was this form that led to my move to Manchester United the following summer.\nI've played with the likes of Mount, de Ligt & Matheus Cunha.",
+   "problems": [
+    "team-mates all from one club (Manchester United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

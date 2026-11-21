@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Questions auditor</title>
+<style>
+:root{--bg:#0e1b2f;--deep:#070e1a;--card:#16263f;--raised:#1e3354;--stroke:#2b4268;--text:#f4f6ff;--text2:#aebbd3;--muted:#7d8dab;--purple:#7b3fe4;--magenta:#d6249f;--yes:#2ee58a;--no:#ff5a63;--gold:#ffc53d;--cyan:#5ee6d0}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--deep);color:var(--text2);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input,textarea,select{font:inherit}
+a{color:var(--cyan)}
+header{position:sticky;top:0;z-index:5;background:#070e1af2;backdrop-filter:blur(8px);border-bottom:1px solid var(--stroke)}
+.bar{max-width:1100px;margin:0 auto;padding:14px 20px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 16px}
+h1{font-size:17px;margin:0;color:var(--text);font-weight:800;letter-spacing:-.01em}
+select{background:var(--card);color:var(--text);border:1px solid var(--stroke);border-radius:10px;padding:7px 10px}
+.progress{flex:1;min-width:180px;display:flex;align-items:center;gap:10px;font-size:13px}
+.track{flex:1;height:6px;border-radius:3px;background:var(--stroke);overflow:hidden}
+.track i{display:block;height:100%;background:linear-gradient(90deg,var(--purple),var(--magenta));transition:width .3s}
+.filters{max-width:1100px;margin:0 auto;padding:0 20px 12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pill{border:1px solid var(--stroke);background:transparent;color:var(--text2);border-radius:999px;padding:5px 12px;font-size:13px;cursor:pointer}
+.pill.on{background:var(--raised);color:var(--text);border-color:var(--text2)}
+.pill b{font-weight:600;color:var(--muted);margin-left:4px}
+.search{margin-left:auto;background:var(--card);border:1px solid var(--stroke);color:var(--text);border-radius:10px;padding:6px 10px;width:200px}
+main{max-width:1100px;margin:0 auto;padding:20px}
+.card{background:var(--card);border:1px solid var(--stroke);border-radius:20px;padding:24px}
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:18px}
+.qid{font-weight:800;color:var(--text);font-size:20px}
+.player{font-weight:700;color:var(--text);font-size:20px}
+.tag{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:4px 9px;border-radius:999px;border:1px solid var(--stroke)}
+.v-REWORD{color:var(--gold);border-color:#ffc53d66}.v-FIX-FLAGS{color:var(--cyan);border-color:#5ee6d066}.v-REPLACE{color:var(--magenta);border-color:#d6249f66}.v-KEEP{color:var(--yes);border-color:#2ee58a66}.v-NEW{color:var(--purple);border-color:#7b3fe466}
+.state{margin-left:auto;font-size:13px;font-weight:700}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.col h3{margin:0 0 8px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.qtext{background:var(--deep);border:1px solid var(--stroke);border-radius:14px;padding:16px;color:var(--text);font-size:17px;line-height:1.5;white-space:pre-wrap;min-height:80px}
+del{background:#ff5a6330;color:#ffb3b7;text-decoration:line-through;border-radius:3px}
+ins{background:#2ee58a2b;color:#b5f7d6;text-decoration:none;border-radius:3px}
+.flags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.flag{font-size:12px;font-weight:600;padding:4px 9px;border-radius:999px;border:1px solid var(--stroke);color:var(--muted)}
+.flag.t{color:var(--text);border-color:var(--text2)}
+.flag.chg{border-color:var(--gold);color:var(--gold)}
+.answers{margin-top:8px;font-size:13px;color:var(--muted)}
+.answers.chg{color:var(--gold)}
+.why{margin-top:20px;padding:16px;border-radius:14px;background:#1e335466}
+.why p{margin:0 0 8px}.why p:last-child{margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;font-size:13px;color:var(--muted)}
+.sources{margin-top:12px;font-size:13px;display:grid;gap:4px}
+.sources a{word-break:break-all}
+.note{color:var(--gold)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;align-items:center}
+.btn{border:0;border-radius:12px;padding:11px 18px;font-weight:700;cursor:pointer;color:#fff}
+.btn kbd{opacity:.65;font:600 11px ui-monospace,monospace;margin-left:6px;border:1px solid #ffffff55;border-radius:5px;padding:0 4px}
+.approve{background:linear-gradient(90deg,#1aa865,#2ee58a);color:#062b18}
+.edit{background:var(--raised);border:1px solid var(--stroke)}
+.reject{background:#ff5a6326;border:1px solid #ff5a6399;color:#ffb3b7}
+.ghost{background:transparent;color:var(--text2);border:1px solid var(--stroke)}
+.nav{margin-left:auto;display:flex;gap:8px}
+.editor{margin-top:18px;padding:16px;border-radius:14px;border:1px solid var(--purple);background:#7b3fe414;display:none}
+.editor.on{display:block}
+.editor label{display:block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:10px 0 6px}
+.editor textarea,.editor input[type=text]{width:100%;background:var(--deep);color:var(--text);border:1px solid var(--stroke);border-radius:10px;padding:10px}
+.editor textarea{min-height:110px;font-size:16px;line-height:1.5}
+.toggles{display:flex;flex-wrap:wrap;gap:6px}
+.toggles button{border-radius:999px;padding:5px 12px;border:1px solid var(--stroke);background:transparent;color:var(--muted);cursor:pointer;font-size:13px;font-weight:600}
+.toggles button.t{background:#2ee58a22;border-color:var(--yes);color:var(--yes)}
+.dots{display:flex;flex-wrap:wrap;gap:4px;margin-top:18px}
+.dots button{width:14px;height:14px;border-radius:4px;border:0;padding:0;cursor:pointer;background:var(--stroke)}
+.dots button.approved{background:var(--yes)}.dots button.edited{background:var(--purple)}.dots button.rejected{background:var(--no)}
+.dots button.cur{outline:2px solid var(--text);outline-offset:1px}
+.empty{text-align:center;padding:60px 20px;color:var(--muted)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--raised);border:1px solid var(--stroke);color:var(--text);padding:10px 16px;border-radius:12px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+@media (max-width:760px){.cols{grid-template-columns:1fr}.search{width:100%;margin-left:0}.nav{margin-left:0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <h1>Questions auditor</h1>
+    <select id="pick" aria-label="Review"></select>
+    <div class="progress"><div class="track"><i id="prog" style="width:0"></i></div><span id="progText"></span></div>
+  </div>
+  <div class="filters" id="filters"></div>
+</header>
+<main id="main"><div class="empty">Loading…</div></main>
+<div class="toast" id="toast"></div>
+
+<script>
+const FLAGS = ['GK', 'DEF', 'MID', 'FWD', 'RET', 'ENG'];
+const LABEL = { GK: 'Goalkeeper', DEF: 'Defender', MID: 'Midfielder', FWD: 'Forward', RET: 'Retired', ENG: 'English' };
+const FILTERS = [['todo', 'To decide'], ['approved', 'Approved'], ['edited', 'Edited'], ['rejected', 'Rejected'], ['keep', 'Unchanged'], ['all', 'All']];
+let review = null, decisions = {}, name = '', filter = 'todo', query = '', cur = 0, editing = false;
+
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const toast = (t) => { const el = $('#toast'); el.textContent = t; el.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('on'), 1400); };
+const isKeep = (it) => it.verdict === 'KEEP';
+const status = (it) => decisions[it.key]?.status;
+
+function list() {
+  const q = query.toLowerCase();
+  return review.items.filter((it) => {
+    if (q && !(`${it.key} ${it.player} ${it.current?.question ?? ''} ${it.proposed.question}`.toLowerCase().includes(q))) return false;
+    const s = status(it);
+    if (filter === 'todo') return !s && !isKeep(it);
+    if (filter === 'keep') return isKeep(it);
+    if (filter === 'all') return true;
+    return s === filter;
+  });
+}
+
+// Word diff (LCS on words), so a reworded question shows exactly what changed.
+function diff(a, b) {
+  const A = a.split(/(\s+)/), B = b.split(/(\s+)/);
+  const m = A.length, n = B.length, L = Array.from({ length: m + 1 }, () => new Int16Array(n + 1));
+  for (let i = m - 1; i >= 0; i--) for (let j = n - 1; j >= 0; j--) L[i][j] = A[i] === B[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  let i = 0, j = 0, left = '', right = '';
+  while (i < m && j < n) {
+    if (A[i] === B[j]) { left += esc(A[i]); right += esc(B[j]); i++; j++; }
+    else if (L[i + 1][j] >= L[i][j + 1]) left += `<del>${esc(A[i++])}</del>`;
+    else right += `<ins>${esc(B[j++])}</ins>`;
+  }
+  while (i < m) left += `<del>${esc(A[i++])}</del>`;
+  while (j < n) right += `<ins>${esc(B[j++])}</ins>`;
+  return [left, right];
+}
+
+function flagsHtml(clues, other) {
+  return `<div class="flags">${FLAGS.map((f) => `<span class="flag ${clues[f] ? 't' : ''} ${other && other[f] !== clues[f] ? 'chg' : ''}">${LABEL[f]} · ${clues[f] ? 'yes' : 'no'}</span>`).join('')}</div>`;
+}
+
+function render() {
+  const items = list();
+  const all = review.items, needs = all.filter((it) => !isKeep(it)), done = needs.filter(status).length;
+  $('#prog').style.width = `${needs.length ? (done / needs.length) * 100 : 0}%`;
+  $('#progText').textContent = `${done} of ${needs.length} decided`;
+  const count = (f) => all.filter((it) => (f === 'todo' ? !status(it) && !isKeep(it) : f === 'keep' ? isKeep(it) : f === 'all' ? true : status(it) === f)).length;
+  $('#filters').innerHTML = FILTERS.map(([k, l]) => `<button class="pill ${filter === k ? 'on' : ''}" data-f="${k}">${l}<b>${count(k)}</b></button>`).join('') +
+    `<input class="search" id="q" placeholder="Search player or text" value="${esc(query)}">`;
+  $('#filters').querySelectorAll('.pill').forEach((b) => (b.onclick = () => { filter = b.dataset.f; cur = 0; editing = false; render(); }));
+  const qi = $('#q'); qi.oninput = () => { query = qi.value; cur = 0; render(); qi.focus(); qi.setSelectionRange(query.length, query.length); };
+
+  if (!items.length) {
+    $('#main').innerHTML = `<div class="empty">${filter === 'todo' ? 'Nothing left to decide. Run <code>python3 tools/question-auditor/apply.py ' + esc(name) + '</code> to write the approved changes.' : 'Nothing here.'}</div>`;
+    return;
+  }
+  cur = Math.max(0, Math.min(cur, items.length - 1));
+  const it = items[cur], d = decisions[it.key], isNew = it.kind === 'new';
+  const p = d && d.status === 'edited' ? { question: d.question, answers: d.answers, clues: d.clues } : it.proposed;
+  const now = it.current ?? { question: '', answers: [], clues: {} };
+  const [l, r] = isNew ? ['', esc(p.question)] : diff(now.question, p.question);
+  const answersChanged = !isNew && JSON.stringify(now.answers) !== JSON.stringify(p.answers);
+  const stateTxt = d ? { approved: '✓ Approved', edited: '✎ Edited', rejected: '✕ Rejected' }[d.status] : isKeep(it) ? 'No change proposed' : '';
+  const stateCol = d ? { approved: 'var(--yes)', edited: 'var(--purple)', rejected: 'var(--no)' }[d.status] : 'var(--muted)';
+
+  $('#main').innerHTML = `
+  <div class="card">
+    <div class="top">
+      <span class="qid">${esc(it.key)}</span><span class="player">${esc(it.player)}</span>
+      <span class="tag v-${isNew ? 'NEW' : esc(it.verdict)}">${isNew ? 'New' : esc(it.verdict.replace('-', ' '))}</span>
+      <span class="tag">${esc(it.pack)}</span>
+      <span class="state" style="color:${stateCol}">${stateTxt}</span>
+    </div>
+    <div class="cols">
+      ${isNew ? '' : `<div class="col"><h3>Now</h3><div class="qtext">${l}</div>${flagsHtml(now.clues, p.clues)}<div class="answers">Answers: ${esc(now.answers.join(', '))}</div></div>`}
+      <div class="col" ${isNew ? 'style="grid-column:1/-1"' : ''}><h3>${d?.status === 'edited' ? 'Your edit' : isNew ? 'Question' : 'Proposed'}</h3><div class="qtext">${r}</div>${flagsHtml(p.clues, isNew ? null : now.clues)}<div class="answers ${answersChanged ? 'chg' : ''}">Answers: ${esc(p.answers.join(', '))}</div></div>
+    </div>
+    <div class="why">
+      ${it.issues ? `<p>${esc(it.issues)}</p>` : ''}
+      ${(it.notes || []).map((n) => `<p class="note">${esc(n)}</p>`).join('')}
+      ${d?.note ? `<p class="note">Your note: ${esc(d.note)}</p>` : ''}
+      <div class="meta">${it.shelf ? `<span>Shelf life: ${esc(it.shelf)}</span>` : ''}${it.confidence ? `<span>Confidence: ${esc(it.confidence)}</span>` : ''}</div>
+      ${it.sources?.length ? `<div class="sources">${it.sources.map((s) => /^https?:/.test(s) ? `<a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a>` : `<span>${esc(s)}</span>`).join('')}</div>` : ''}
+    </div>
+    <div class="editor ${editing ? 'on' : ''}" id="editor">
+      <label for="eq">Question</label><textarea id="eq">${esc(p.question)}</textarea>
+      <label for="ea">Accepted answers, comma separated</label><input type="text" id="ea" value="${esc(p.answers.join(', '))}">
+      <label>Clues</label><div class="toggles" id="et">${FLAGS.map((f) => `<button type="button" data-f="${f}" class="${p.clues[f] ? 't' : ''}">${LABEL[f]}</button>`).join('')}</div>
+      <label for="en">Note (optional)</label><input type="text" id="en" value="${esc(d?.note ?? '')}">
+      <div class="actions"><button class="btn approve" id="saveEdit">Save edit <kbd>⌘↵</kbd></button><button class="btn ghost" id="cancelEdit">Cancel <kbd>Esc</kbd></button></div>
+    </div>
+    <div class="actions" ${editing ? 'style="display:none"' : ''}>
+      ${isKeep(it) && !d ? '' : `<button class="btn approve" id="approve">Approve <kbd>A</kbd></button>`}
+      <button class="btn edit" id="edit">Edit <kbd>E</kbd></button>
+      ${isKeep(it) && !d ? '' : `<button class="btn reject" id="reject">Reject <kbd>R</kbd></button>`}
+      ${d ? `<button class="btn ghost" id="undo">Undo <kbd>U</kbd></button>` : ''}
+      <div class="nav"><button class="btn ghost" id="prev">← Prev</button><button class="btn ghost" id="next">Next →</button></div>
+    </div>
+    <div class="dots">${items.map((x, i) => `<button title="${esc(x.key)} ${esc(x.player)}" class="${status(x) ?? ''} ${i === cur ? 'cur' : ''}" data-i="${i}"></button>`).join('')}</div>
+  </div>`;
+
+  const on = (id, fn) => { const el = document.getElementById(id); if (el) el.onclick = fn; };
+  on('approve', () => decide('approved'));
+  on('reject', () => { const note = prompt('Why reject? (optional)') ?? ''; decide('rejected', { note }); });
+  on('edit', () => { editing = true; render(); $('#eq').focus(); });
+  on('undo', () => decide('undo'));
+  on('prev', () => { cur--; editing = false; render(); });
+  on('next', () => { cur++; editing = false; render(); });
+  on('cancelEdit', () => { editing = false; render(); });
+  on('saveEdit', saveEdit);
+  document.querySelectorAll('#et button').forEach((b) => (b.onclick = () => b.classList.toggle('t')));
+  document.querySelectorAll('.dots button').forEach((b) => (b.onclick = () => { cur = +b.dataset.i; editing = false; render(); }));
+}
+
+function saveEdit() {
+  const clues = {}; document.querySelectorAll('#et button').forEach((b) => (clues[b.dataset.f] = b.classList.contains('t')));
+  decide('edited', {
+    question: $('#eq').value.trim(),
+    answers: $('#ea').value.split(',').map((s) => s.trim()).filter(Boolean),
+    clues, note: $('#en').value.trim(),
+  });
+}
+
+async function decide(s, extra = {}) {
+  const it = list()[cur];
+  const res = await fetch(`/api/decision/${name}`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ key: it.key, status: s, ...extra }) });
+  if (!res.ok) return toast('Could not save. Is the auditor still running?');
+  if (s === 'undo') delete decisions[it.key]; else decisions[it.key] = { status: s, ...extra };
+  editing = false;
+  toast({ approved: 'Approved', edited: 'Edit saved', rejected: 'Rejected', undo: 'Undone' }[s]);
+  if (filter === 'all' || filter === 'keep' || s === 'undo') { if (s !== 'undo') cur++; }
+  render();
+}
+
+document.addEventListener('keydown', (e) => {
+  if (editing) {
+    if (e.key === 'Escape') { editing = false; render(); }
+    if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) saveEdit();
+    return;
+  }
+  if (e.target.matches('input,textarea')) return;
+  const k = e.key.toLowerCase();
+  if (k === 'a') document.getElementById('approve')?.click();
+  else if (k === 'r') document.getElementById('reject')?.click();
+  else if (k === 'e') document.getElementById('edit')?.click();
+  else if (k === 'u') document.getElementById('undo')?.click();
+  else if (e.key === 'ArrowRight' || k === 'j') { cur++; render(); }
+  else if (e.key === 'ArrowLeft' || k === 'k') { cur--; render(); }
+});
+
+async function open(n) {
+  name = n;
+  const r = await (await fetch(`/api/review/${n}`)).json();
+  review = r.review; decisions = r.decisions; cur = 0;
+  history.replaceState(null, '', `#${n}`);
+  render();
+}
+
+(async () => {
+  const reviews = await (await fetch('/api/reviews')).json();
+  if (!reviews.length) { $('#main').innerHTML = '<div class="empty">No reviews yet.</div>'; return; }
+  $('#pick').innerHTML = reviews.map((r) => `<option value="${esc(r.name)}">${esc(r.title)}</option>`).join('');
+  const want = location.hash.slice(1);
+  const start = reviews.find((r) => r.name === want)?.name ?? reviews[reviews.length - 1].name;
+  $('#pick').value = start;
+  $('#pick').onchange = () => open($('#pick').value);
+  open(start);
+})();
+</script>
+</body>
+</html>

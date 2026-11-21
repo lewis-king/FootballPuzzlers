@@ -1,0 +1,126 @@
+{
+ "answer": "Édouard Mendy",
+ "acceptableAnswers": [
+  "Édouard Mendy",
+  "Mendy"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "At the age of 22 I registered for unemployment and began looking for jobs outside of football.\nFortunately I found my way back into the game, eventually moving to England where I won the Champions League.\nI've played with Camavinga, Raphinha & Lukaku",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook (registering for unemployment at 22) is a genuine, memorable story beat that fits the 'twist/tension' requirement well. The narrative flow is good ('Fortunately I found my way back...'). However, it loses a point because the final clue list (Camavinga, Raphinha & Lukaku) is slightly weak; a",
+  "fix": "Consider swapping one of the teammates for a manager or a more distinctive teammate from his Chelsea days to make the narrowing clue sharper, e.g., 'I've played with Kepa, Azpilicueta & Havertz' or mentioning Thomas Tuchel. Also, ensure the unemployment detail is phrased as a specific moment rathera"
+ },
+ "claims": [
+  {
+   "text": "Édouard Mendy registered for unemployment at the age of 22.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the age of 22, Mendy registered for unemployment and began to look for jobs outside of football.",
+    "At the age of 22, Mendy registered for unemployment and began to look for jobs outside of football."
+   ]
+  },
+  {
+   "text": "Édouard Mendy began looking for jobs outside of football at the age of 22.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the age of 22, Mendy registered for unemployment and began to look for jobs outside of football.",
+    "At the age of 22, Mendy registered for unemployment and began to look for jobs outside of football."
+   ]
+  },
+  {
+   "text": "Édouard Mendy moved to England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "English club Chelsea signed Mendy on a five-year contract in September 2020",
+    "English club Chelsea signed Mendy on a five-year contract in September 2020, for a fee reported to be £22 million."
+   ]
+  },
+  {
+   "text": "Édouard Mendy won the Champions League while in England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mendy also equalled the record for the most clean sheets in a UEFA Champions League season with nine, and kept another clean sheet in the final to help Chelsea win their second title.",
+    "Mendy also equalled the record for the most clean sheets in a UEFA Champions League season with nine, and kept another clean sheet in the final to help Chelsea win their second title."
+   ]
+  },
+  {
+   "text": "Édouard Mendy has played with Camavinga.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Stade Rennais FC] Played in 25 matches alongside Eduardo Camavinga for Stade Rennais FC (2019 to 2020)",
+    "[Squad data > Stade Rennais FC] Played in 25 matches alongside Eduardo Camavinga for Stade Rennais FC (2019 to 2020)"
+   ]
+  },
+  {
+   "text": "Édouard Mendy has played with Raphinha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Stade Rennais FC] Played in 25 matches alongside Raphinha for Stade Rennais FC (2019 to 2020)",
+    "[Squad data > Stade Rennais FC] Played in 25 matches alongside Raphinha for Stade Rennais FC (2019 to 2020)"
+   ]
+  },
+  {
+   "text": "Édouard Mendy has played with Lukaku.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 31 matches alongside Romelu Lukaku for Chelsea FC (2021 to 2022)",
+    "[Squad data > Chelsea FC] Played in 31 matches alongside Romelu Lukaku for Chelsea FC (2021 to 2022)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Édouard_Mendy",
+  "revid": 1385200161
+ },
+ "alternatives": [
+  {
+   "question": "In 2014 I was released by my club and almost quit football entirely, even registering for unemployment.\nFortunately I found a way back into the game, eventually moving to England where I won the Champions League.\nI've played with Camavinga & Raphinha",
+   "problems": [
+    "claim not stated in the evidence: \"Édouard Mendy registered for unemployment after being released in 2014.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was named the best goalkeeper of the 2021 Africa Cup of Nations, a tournament we won for the first time in our history.\nSince then I've moved to Saudi Arabia where I've had the honour of captaining my club to two continental titles.\nI've been managed by Thomas Tuchel & Frank Lampard",
+   "problems": [
+    "claim is wrong: \"Édouard Mendy moved to Saudi Arabia after winning the 2021 Africa Cup of Nations.\"",
+    "claim is wrong: \"Édouard Mendy captained his club in Saudi Arabia to two continental titles.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2021 I became the first African goalkeeper in football's history to be named both UEFA Goalkeeper of the Year and The Best FIFA Goalkeeper.\nFollowing my time in England, I moved to Saudi Arabia where I have captained my club to two continental titles.\nI've played with Sterling, Kanté & Mané",
+   "problems": [
+    "claim not stated in the evidence: \"Édouard Mendy is the first African goalkeeper to be named UEFA Goalkeeper of the Year.\"",
+    "claim not stated in the evidence: \"Édouard Mendy played in England before moving to Saudi Arabia.\"",
+    "claim not stated in the evidence: \"Édouard Mendy's club won two continental titles while he was captain.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2021 I became the first African goalkeeper in football's history to be named both UEFA & FIFA Goalkeeper of the Year.\nI achieved this during a season in which I equalled the record for most clean sheets in a Champions League campaign.\nI've played with the likes of Kanté, Havertz & Lukaku",
+   "problems": [
+    "team-mates all from one club (Chelsea FC); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Édouard Mendy was the first African goalkeeper to be named UEFA Goalkeeper of the Year.\"",
+    "claim not stated in the evidence: \"Édouard Mendy was the first African goalkeeper to be named FIFA Goalkeeper of the Year.\""
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "answer": "Phil Foden",
+ "acceptableAnswers": [
+  "Phil Foden",
+  "Foden"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I scored twice in the final of the 2017 FIFA U-17 World Cup to help England win the competition.\nFollowing this, I became the youngest English goalscorer to score in the knockout stages of the Champions League.\nI've been managed by Pep Guardiola & played alongside Haaland & De Bruyne.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are correct and the structure follows the house style (hook, development, narrowing clue). However, it lacks the 'twist' or tension found in the best originals. The transition from U-17 World Cup to Champions League is a bit abrupt and reads slightly like a list of achievements rather than",
+  "fix": "Add a connecting phrase that bridges the gap between youth success and first-team stardom, perhaps highlighting the contrast between his early fame and his later struggles or specific role under Guardiola. For example: 'I scored twice in the 2017 U-17 World Cup final to help England win the title. I"
+ },
+ "claims": [
+  {
+   "text": "Phil Foden scored twice in the final of the 2017 FIFA U-17 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Foden gained widespread press attention after scoring twice in the final of the 2017 FIFA U-17 World Cup",
+    "Foden gained widespread press attention after scoring twice in the final of the 2017 FIFA U-17 World Cup"
+   ]
+  },
+  {
+   "text": "Phil Foden helped England win the 2017 FIFA U-17 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In October of the same year, Foden gained widespread press attention after scoring twice in the final of the 2017 FIFA U-17 World Cup, also against Spain, as England won the competition.",
+    "In October of the same year, Foden gained widespread press attention after scoring twice in the final of the 2017 FIFA U-17 World Cup, also against Spain, as England won the competition."
+   ]
+  },
+  {
+   "text": "Following his performance in the 2017 FIFA U-17 World Cup, Phil Foden became the youngest English goalscorer to score in the knockout stages of the Champions League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "His goal also saw him become Man City's youngest-ever goalscorer in the Champions League and the youngest English goalscorer to score in the knockout stages of the competition, aged 18 years and 288 days.",
+    "the youngest English goalscorer to score in the knockout stages of the competition"
+   ]
+  },
+  {
+   "text": "Phil Foden has been managed by Pep Guardiola.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 347 matches (2017 to 2026)",
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 347 matches (2017 to 2026)"
+   ]
+  },
+  {
+   "text": "Phil Foden has played alongside Erling Haaland.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 162 matches alongside Erling Haaland for Manchester City (2022 to 2026)",
+    "Played in 162 matches alongside Erling Haaland for Manchester City (2022 to 2026)"
+   ]
+  },
+  {
+   "text": "Phil Foden has played alongside Kevin De Bruyne.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 196 matches alongside Kevin De Bruyne for Manchester City (2017 to 2025)",
+    "[Squad data > Manchester City] Played in 196 matches alongside Kevin De Bruyne for Manchester City (2017 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Phil_Foden",
+  "revid": 1385437221
+ },
+ "alternatives": [
+  {
+   "question": "I became the youngest player to receive a Premier League winner's medal in 2018.\nIn 2017, I also won the Golden Ball award at the FIFA U-17 World Cup.\nI've played alongside the likes of Sterling, Grealish & Rodri.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2024 I was named the Premier League Player of the Season after scoring 19 league goals.\nBy May of that same year, I had become the youngest player to claim six league titles.\nI've played with Haaland, Palmer & Sané.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was the first English player to score in a Club World Cup final since Wayne Rooney in 2008.\nFollowing this, I reached the milestone of 100 goals for my club in June 2025.\nI've been managed by Pep Guardiola & have played with De Bruyne & Bernardo Silva.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I became the youngest player to receive a Premier League winner's medal in 2018.\nFollowing my breakthrough, I went on to be named the league's Player of the Season in 2024.\nI've played with the likes of Haaland, Cole Palmer & Julian Alvarez.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2017 I won the Golden Ball at the FIFA U-17 World Cup.\nYet it took me until 2024 to be named as the PFA Players' Player of the Year.\nI've played alongside Sterling, De Bruyne & Rayan Cherki.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2018 I became the youngest player ever to receive a Premier League winner's medal.\nBy May 2024 I had already claimed six league titles, making me the youngest player to do so.\nI've played with the likes of Sané, Palmer & Alvarez.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

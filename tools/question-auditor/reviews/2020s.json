@@ -1,0 +1,2274 @@
+{
+ "name": "2020s",
+ "title": "New pack: The 2020s",
+ "items": [
+  {
+   "key": "N1",
+   "kind": "new",
+   "index": 0,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Jude Bellingham",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are correct and the structure follows the 'hook/contrast/clue' format well. However, it misses a key stylistic beat: the player is telling their story, but this reads like a list of records ('I became... Yet I'm known for becoming...').",
+   "notes": [
+    "Starts by position: Midfielder 99%, Forward 1%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "✓ Jude Bellingham became the youngest Englishman to start a Champions League match in 2020. — “he became the youngest Englishman to start a UEFA Champions League match”",
+    "✓ Jude Bellingham is the first person born in the 21st century to score at a World Cup. — “This made him the first person born in the 21st century to score in a World Cup”",
+    "✓ Jude Bellingham has played with Sancho, Vinícius Júnior & Alexander-Arnold"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jude_Bellingham"
+   ],
+   "proposed": {
+    "question": "I became the youngest Englishman to start a Champions League match in 2020.\nYet I'm perhaps better known for becoming the first person born in the 21st century to score at a World Cup.\nI've played with Sancho, Vinícius Júnior & Alexander-Arnold",
+    "answers": [
+     "Jude Bellingham",
+     "Bellingham"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N2",
+   "kind": "new",
+   "index": 1,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Rodri",
+   "verdict": "NEW",
+   "issues": "Style 5/5. The draft reads exactly like one of Lewis's originals: it opens with a major hook (Ballon d'Or), connects the sentences logically ('Following this achievement'), and closes with a narrowing list of teammates that spans different clubs and eras.",
+   "notes": [
+    "Starts by position: Midfielder 99%, Defender 1%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Rodri won the Ballon d'Or in 2024. — “Rodri won the 2024 Ballon d'Or”",
+    "✓ Rodri is a defensive midfielder. — “Rodrigo Hernández Cascante (born 22 June 1996), known as Rodrigo or simply Rodri, is a Spanish professional footballer who plays as a defensive midfielder for La Liga club Barcelona and captains the Spain national team.”",
+    "✓ No defensive midfielder won the Ballon d'Or between 1990 and 2024 (exclusive of 1990). — “becoming the first defensive midfielder since Lothar Matthäus in 1990 to receive the award”",
+    "✓ Rodri captained his country to a World Cup title in 2026. — “At the 2026 World Cup, he won the Golden Ball as Spain claimed their second title (the last one being in 2010).”",
+    "✓ The World Cup title Rodri won was achieved after he won the Ballon d'Or in 2024. — “Following Spain's victory at the 2026 FIFA World Cup, where he was awarded the Golden Ball as the tournament's best player, he became only the seventh player in history, and the first based in the Premier League, to win the World Cup, the UEFA European Championship, the UEFA Champions League, and the Ballon d'Or.”",
+    "✓ Rodri won the Golden Ball at the 2026 World Cup. — “At the 2026 World Cup, he won the Golden Ball as Spain claimed their second title (the last one being in 2010).”",
+    "✓ Rodri has played with Antoine Griezmann. — “[Squad data > Atlético de Madrid] Played in 44 matches alongside Antoine Griezmann for Atlético de Madrid (2018 to 2019)”",
+    "✓ Rodri has played with Kevin De Bruyne. — “[Squad data > Manchester City] Played in 180 matches alongside Kevin De Bruyne for Manchester City (2019 to 2025)”",
+    "✓ Rodri has played with Lamine Yamal. — “[Squad data > Spain] Played in 3 matches alongside Lamine Yamal for Spain (2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rodri"
+   ],
+   "proposed": {
+    "question": "In 2024 I won the Ballon d'Or, becoming the first defensive midfielder to do so since 1990.\nFollowing this achievement, I captained my country to a World Cup title in 2026 where I also won the Golden Ball.\nI've played with the likes of Griezmann, De Bruyne & Lamine Yamal.",
+    "answers": [
+     "Rodri"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N3",
+   "kind": "new",
+   "index": 2,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Kylian Mbappé",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are strong and memorable (Golden Boot record, WC Final hat-trick), but the structure is a bit list-like. It lacks the conversational flow or 'twist' found in the best originals (e.g., it doesn't connect the two achievements with a narrative bridge like 'Yet...' or 'Following...').",
+   "notes": [
+    "Now Midfielder and Forward: 27% of starts on the wing, over the new 25% line (changed after you approved this card, 21 Nov).",
+    "Starts by position: Forward 73%, Midfielder 27%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "✓ Kylian Mbappé has won the World Cup Golden Boot twice. — “He was awarded the Golden Boot as the top scorer at the World Cup for the second consecutive time, becoming the first player to win the award twice”",
+    "✓ No player had previously achieved winning the World Cup Golden Boot twice before Kylian Mbappé did so. — “Mbappé also became the first player to win multiple World Cup Golden Boots.”",
+    "✓ Kylian Mbappé scored a hat-trick in the 2022 World Cup final. — “At the 2022 FIFA World Cup, Mbappé led France to a second consecutive final, in which he scored a hat-trick as France finished as runners-up.”",
+    "✓ Kylian Mbappé is only the second player in history to score a hat-trick in a World Cup final. — “During the World Cup final on 18 December 2022, Mbappé became the second player in history to score a hat-trick in a World Cup final.”",
+    "✓ Kylian Mbappé has played with Neymar. — “[Squad data > Paris Saint-Germain] Played in 128 matches alongside Neymar for Paris Saint-Germain (2017 to 2023)”",
+    "✓ Kylian Mbappé has played with Bellingham. — “[Squad data > Real Madrid] Played in 84 matches alongside Jude Bellingham for Real Madrid (2024 to 2026)”",
+    "✓ Kylian Mbappé has played with Bernardo Silva. — “[Squad data > AS Monaco] Played in 46 matches alongside Bernardo Silva for AS Monaco (2015 to 2017)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kylian_Mbappé"
+   ],
+   "proposed": {
+    "question": "I've won the World Cup Golden Boot twice, a feat that had never been achieved before.\nIn 2022 I also became only the second player in history to score a hat-trick in a World Cup final.\nI've played with the likes of Neymar, Bellingham & Bernardo Silva",
+    "answers": [
+     "Kylian Mbappé",
+     "Mbappé"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N4",
+   "kind": "new",
+   "index": 3,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Harry Kane",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (three Golden Boots vs no major trophy), which fits the style guide perfectly.",
+   "notes": [
+    "Starts by position: Forward 100%, Midfielder 0%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Harry Kane has won three Premier League Golden Boots. — “[Honours > Individual] Premier League Golden Boot: 2015–16, 2016–17, 2020–21”",
+    "✓ Harry Kane did not win his first major trophy until 2025. — “On 4 May 2025, Kane won his first major honour, the 2024–25 Bundesliga title”",
+    "✓ Following the success in 2025, Harry Kane became the first Englishman to win the Ballon d'Or since Michael Owen. — “becoming the first Englishman to win the award since Michael Owen in 2001”",
+    "✓ Harry Kane has been managed by Pochettino. — “[Squad data > Tottenham Hotspur] Was managed by Mauricio Pochettino at Tottenham Hotspur in 233 matches (2014 to 2019)”",
+    "✓ Harry Kane has been managed by Mourinho. — “[Squad data > Tottenham Hotspur] Was managed by José Mourinho at Tottenham Hotspur in 59 matches (2019 to 2021)”",
+    "✓ Harry Kane has been managed by Kompany. — “[Squad data > Bayern Munich] Was managed by Vincent Kompany at Bayern Munich in 101 matches (2024 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Harry_Kane"
+   ],
+   "proposed": {
+    "question": "I've won three Premier League Golden Boots, yet I didn't win my first major trophy until 2025.\nFollowing that success, I became the first Englishman to win the Ballon d'Or since Michael Owen.\nI've been managed by Pochettino, Mourinho & Kompany.",
+    "answers": [
+     "Harry Kane",
+     "Kane"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N5",
+   "kind": "new",
+   "index": 4,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Lamine Yamal",
+   "verdict": "NEW",
+   "issues": "Style 5/5. The hook is a delightful and memorable anecdote (Messi bathing him) that creates immediate intrigue.",
+   "notes": [
+    "Starts by position: Midfielder 100%",
+    "Retired: no (contract runs to June 2031 (Transfermarkt))",
+    "✓ Lamine Yamal was featured as a baby in a UNICEF charity photo shoot. — “As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona”",
+    "✓ In the UNICEF charity photo shoot, Lamine Yamal was bathed by Lionel Messi. — “As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona, during which he was bathed by a 20-year-old Lionel Messi.”",
+    "✓ Lamine Yamal faced Lionel Messi in the final of the 2026 World Cup. — “Two years later, the photos received additional attention in the media as Yamal and Messi prepared to face each other in the 2026 FIFA World Cup final.”",
+    "✓ Lamine Yamal has played with João Félix. — “[Squad data > FC Barcelona] Played in 41 matches alongside João Félix for FC Barcelona (2023 to 2024)”",
+    "✓ Lamine Yamal has played with Laporte. — “[Squad data > Spain] Played in 3 matches alongside Aymeric Laporte for Spain (2026)”",
+    "✓ Lamine Yamal has played with Oyarzabal. — “[Squad data > Spain] Played in 3 matches alongside Mikel Oyarzabal for Spain (2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lamine_Yamal"
+   ],
+   "proposed": {
+    "question": "As a baby I was once featured in a UNICEF charity photo shoot where I was bathed by Lionel Messi.\nIncredibly, we ended up facing each other in the final of the 2026 World Cup.\nI've played with João Félix, Laporte & Oyarzabal.",
+    "answers": [
+     "Lamine Yamal",
+     "Yamal"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N6",
+   "kind": "new",
+   "index": 5,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Cole Palmer",
+   "verdict": "NEW",
+   "issues": "Style 5/5. This reads exactly like one of Lewis's originals: it opens with a compelling human hook (the near-release due to physique), connects the sentences logically ('Yet...'), and closes with a narrowing list of teammates that spans different clubs/eras (Chelsea vs Man City).",
+   "notes": [
+    "Starts by position: Midfielder 94%, Forward 6%",
+    "Retired: no (contract runs to June 2033 (Transfermarkt))",
+    "✓ Cole Palmer was almost released from his academy at age 16 because coaches thought his physique was too slight. — “academy coaches wanted to release him at 16”",
+    "✓ Cole Palmer scored England's equaliser in the final of Euro 2024. — “He represented his country at UEFA Euro 2024, scoring the equalising goal in the final.”",
+    "✓ Cole Palmer has played with Phil Foden, Rodri, and Moisés Caicedo."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cole_Palmer"
+   ],
+   "proposed": {
+    "question": "I was almost released from the academy at 16 because coaches thought my physique was too slight.\nYet I went on to score England's equaliser in the final of Euro 2024.\nI've played with Foden, Rodri & Moisés Caicedo",
+    "answers": [
+     "Cole Palmer",
+     "Palmer"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N7",
+   "kind": "new",
+   "index": 6,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Mohamed Salah",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question is factually accurate and follows the structure well, but it lacks the narrative 'twist' or tension that defines a 5-score entry. The first sentence is a standard record claim rather than a surprising contradiction (like Kroos's brace).",
+   "notes": [
+    "Starts by position: Midfielder 88%, Forward 12%",
+    "Retired: no (no mention of retiring in the article)",
+    "✓ Mohamed Salah once held the record for most goals in a 38-game Premier League season. — “In his first season, he set the record for most Premier League goals scored (32) in a 38-game season and helped Liverpool to the 2018 Champions League final.”",
+    "✓ In 2026, Mohamed Salah captained his country to their first ever match victories at a World Cup. — “He captained Egypt at the 2026 World Cup, leading the team to its first-ever match victories in the competition”",
+    "✓ Mohamed Salah has been managed by José Mourinho. — “[Squad data > Chelsea FC] Was managed by José Mourinho at Chelsea FC in 17 matches (2014 to 2015)”",
+    "✓ Mohamed Salah has been managed by Luciano Spalletti. — “[Squad data > Associazione Sportiva Roma] Was managed by Luciano Spalletti at Associazione Sportiva Roma in 62 matches (2016 to 2017)”",
+    "✓ Mohamed Salah has been managed by Arne Slot. — “[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 88 matches (2024 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mohamed_Salah"
+   ],
+   "proposed": {
+    "question": "I once held the record for most goals in a 38-game Premier League season.\nIn 2026 I captained my country to their first ever match victories at a World Cup.\nI've been managed by José Mourinho, Luciano Spalletti & Arne Slot.",
+    "answers": [
+     "Mohamed Salah",
+     "Salah"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N8",
+   "kind": "new",
+   "index": 7,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Bukayo Saka",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (the penalty miss in a major final), and the tone fits the house style well with 'Incredibly' adding the required feeling.",
+   "notes": [
+    "Starts by position: Midfielder 94%, Defender 6%",
+    "Retired: no (contract runs to June 2030 (Transfermarkt))",
+    "✓ Bukayo Saka had a penalty saved in a major tournament final. — “Saka's effort was saved by goalkeeper Gianluigi Donnarumma and, as a result, Italy won the shoot-out and the tournament.”",
+    "✓ As a result of the saved penalty, Bukayo Saka's country finished as runners-up in that major tournament final. — “Saka's effort was saved by goalkeeper Gianluigi Donnarumma and, as a result, Italy won the shoot-out and the tournament.”",
+    "✓ Bukayo Saka was named England Men's Player of the Year. — “On 23 September 2022, Saka was named England Men's Player of the Year for the 2021–22 season ahead of Declan Rice and Harry Kane, becoming the first Arsenal player to win the honour.”",
+    "✓ Bukayo Saka is the first player from his club to be named England Men's Player of the Year. — “becoming the first Arsenal player to win the honour”",
+    "✓ Bukayo Saka has played with Sterling, Rice & Rashford."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bukayo_Saka"
+   ],
+   "proposed": {
+    "question": "I'm well known for having my penalty saved in a major tournament final, which resulted in my country finishing as runners-up.\nIncredibly, I later became the first player from my club to be named England Men's Player of the Year.\nI've played with the likes of Sterling, Rice & Rashford.",
+    "answers": [
+     "Bukayo Saka",
+     "Saka"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N9",
+   "kind": "new",
+   "index": 8,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Lionel Messi",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook (retiring then returning to win the WC) is strong and memorable, fitting the style guide's preference for tension.",
+   "notes": [
+    "Starts by position: Midfielder 51%, Forward 49%",
+    "Retired: no (contract runs to December 2028 (Transfermarkt))",
+    "✓ Lionel Messi retired from international football. — “Messi retired from international football for a second time in October 2026.”",
+    "✓ Lionel Messi returned to international football soon after retiring. — “He subsequently announced his retirement from international football, but returned soon after.”",
+    "✓ The return of Lionel Messi to international football led to his victory at the 2022 World Cup. — “He then led Argentina to victory at the 2021 Copa América, the 2022 World Cup, and the 2024 Copa América.”",
+    "✓ Lionel Messi won the 2022 World Cup. — “At the 2022 FIFA World Cup, Messi led Argentina to their first World Cup victory in 36 years, scoring twice in the final to defeat France.”",
+    "✓ Luis Enrique managed Lionel Messi during his career. — “[Squad data > FC Barcelona] Was managed by Luis Enrique at FC Barcelona in 158 matches (2014 to 2017)”",
+    "✓ Galtier managed Lionel Messi during his career. — “[Squad data > Paris Saint-Germain] Was managed by Christophe Galtier at Paris Saint-Germain in 40 matches (2022 to 2023)”",
+    "✓ Koeman managed Lionel Messi during his career. — “[Squad data > FC Barcelona] Was managed by Ronald Koeman at FC Barcelona in 47 matches (2020 to 2021)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lionel_Messi"
+   ],
+   "proposed": {
+    "question": "I once retired from international football, but returned soon after.\nIt was this return that eventually led me to victory at the 2022 World Cup.\nThroughout my career I've been managed by Luis Enrique, Galtier & Koeman.",
+    "answers": [
+     "Lionel Messi",
+     "Messi"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N10",
+   "kind": "new",
+   "index": 9,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Vinícius Júnior",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong (youngest to score in two CL finals) and the manager/teammate clues are excellent for narrowing it down without giving it away.",
+   "notes": [
+    "Now Midfielder and Forward: 27% of starts up front, over the new 25% line.",
+    "Starts by position: Midfielder 73%, Forward 27%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Vinícius Júnior is the youngest player to score in two Champions League finals. — “Aged 23 years and 325 days, he became the youngest player to score in two Champions League finals, beating Lionel Messi's record by thirteen days.”",
+    "✓ Vinícius Júnior beat Lionel Messi's record for being the youngest player to score in two Champions League finals. — “Aged 23 years and 325 days, he became the youngest player to score in two Champions League finals, beating Lionel Messi's record by thirteen days.”",
+    "✓ In 2026, Vinícius Júnior became the second highest Brazilian goalscorer in the history of the Champions League. — “reaching his 31st goal in the competition to become the second-highest Brazilian scorer, overtaking Kaká and trailing only Neymar”",
+    "✓ Vinícius Júnior has been managed by Zidane. — “[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 41 matches (2019 to 2020)”",
+    "✓ Vinícius Júnior has been managed by Ancelotti. — “[Squad data > Real Madrid] Was managed by Carlo Ancelotti at Real Madrid in 197 matches (2021 to 2025)”",
+    "✓ Vinícius Júnior played with Alisson. — “[Squad data > Brazil] Played in 3 matches alongside Alisson for Brazil (2026)”",
+    "✓ Vinícius Júnior played with Guimarães. — “[Squad data > Brazil] Played in 3 matches alongside Bruno Guimarães for Brazil (2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Vinícius_Júnior"
+   ],
+   "proposed": {
+    "question": "I've become the youngest player to score in two Champions League finals, beating Lionel Messi's record.\nIn 2026 I also became the second highest Brazilian goalscorer in the history of that competition.\nI've been managed by Zidane & Ancelotti, and played with Alisson & Guimarães.",
+    "answers": [
+     "Vinícius Júnior",
+     "Júnior"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N11",
+   "kind": "new",
+   "index": 10,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Marcus Rashford",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook (scoring on three major debuts in days) is memorable and the manager list works well as a narrowing clue. However, it reads slightly like a list of achievements rather than a connected story with tension or twist, which keeps it from a perfect 5.",
+   "notes": [
+    "Starts by position: Midfielder 64%, Forward 36%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Marcus Rashford scored on his first-team debut. — “marked his first-team debut with two goals”",
+    "✓ Marcus Rashford scored on his European debut. — “Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016”",
+    "✓ Marcus Rashford scored on his Premier League debut. — “Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016 and his Premier League debut against Arsenal three days later.”",
+    "✓ Marcus Rashford's first-team, European, and Premier League debuts all occurred within the space of a few days. — “Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016 and his Premier League debut against Arsenal three days later.”",
+    "✓ Marcus Rashford has been recognised by the government for his work as a philanthropist. — “In October, Rashford was appointed MBE in the 2020 Birthday Honours”",
+    "✓ Marcus Rashford played under manager José Mourinho. — “[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 116 matches (2016 to 2018)”",
+    "✓ Marcus Rashford played under manager Ole Gunnar Solskjær. — “[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 128 matches (2018 to 2021)”",
+    "✓ Marcus Rashford played under manager Erik ten Hag. — “After enjoying a successful pre-season under new manager Erik ten Hag”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marcus_Rashford"
+   ],
+   "proposed": {
+    "question": "I managed to score on my first-team, European & Premier League debuts all within the space of a few days.\nIncredibly, I've also been recognised by the government for my work as a philanthropist.\nI've played under managers like Mourinho, Solskjær & ten Hag",
+    "answers": [
+     "Marcus Rashford",
+     "Rashford"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": true,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N12",
+   "kind": "new",
+   "index": 11,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Bruno Fernandes",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The structure is strong and follows the house style well: it opens with a major achievement (Nations League x2), introduces tension/contrast (criticism at Euro 2020 despite club form), and closes with a narrowing list of teammates. The facts are correct and memorable to fans.",
+   "notes": [
+    "Starts by position: Midfielder 92%, Forward 8%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Bruno Fernandes has won the UEFA Nations League twice with his country. — “UEFA Nations League: 2018–19, 2024–25”",
+    "✓ Bruno Fernandes was heavily criticised for his performances during Euro 2020. — “Fernandes went on to be criticised for his performances during the tournament as he struggled to replicate his club form for Portugal.”",
+    "✓ Bruno Fernandes struggled to replicate his club form during Euro 2020. — “Fernandes went on to be criticised for his performances during the tournament as he struggled to replicate his club form for Portugal.”",
+    "✓ Bruno Fernandes has played alongside Cristiano Ronaldo. — “[Squad data > Manchester United] Played in 51 matches alongside Cristiano Ronaldo for Manchester United (2021 to 2022)”",
+    "✓ Bruno Fernandes has played alongside Marcus Rashford. — “[Squad data > Manchester United] Played in 207 matches alongside Marcus Rashford for Manchester United (2020 to 2024)”",
+    "✓ Bruno Fernandes has played alongside Vitinha. — “[Squad data > Portugal] Played in 3 matches alongside Vitinha for Portugal (2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bruno_Fernandes"
+   ],
+   "proposed": {
+    "question": "I've won the UEFA Nations League twice with my country.\nYet I was heavily criticised for my performances during Euro 2020, where I struggled to replicate my club form.\nI've played alongside the likes of Cristiano Ronaldo, Marcus Rashford & Vitinha.",
+    "answers": [
+     "Bruno Fernandes",
+     "Fernandes"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N13",
+   "kind": "new",
+   "index": 12,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Mason Mount",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question is factually accurate and follows the correct structure (hook, twist, narrowing clue). However, it lacks the 'story' element that defines a 5.",
+   "notes": [
+    "Starts by position: Midfielder 100%, Forward 0%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Mason Mount won the Champions League. — “He established himself as an integral player for Chelsea in the following years, and won the UEFA Champions League, the UEFA Super Cup, and the FIFA Club World Cup in 2021.”",
+    "✓ Mason Mount was named his club's Player of the Season for two consecutive years. — “Mount was named Chelsea's player of the season for a second consecutive season on 22 May”",
+    "✓ Mason Mount left that same club in 2023 to join Manchester United. — “Mount left Chelsea in July 2023, and was signed by Manchester United”",
+    "✓ Mason Mount played with Kanté, Lukaku & Eriksen."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mason_Mount"
+   ],
+   "proposed": {
+    "question": "I've won the Champions League & was named my club's Player of the Season for two consecutive years.\nYet I left that same club in 2023 to join Manchester United.\nI've played with the likes of Kanté, Lukaku & Eriksen.",
+    "answers": [
+     "Mason Mount",
+     "Mount"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N14",
+   "kind": "new",
+   "index": 13,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Declan Rice",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are strong and the structure follows the house style (hook, context, narrowing clue). However, it reads slightly like a list of achievements rather than a story with tension or a twist.",
+   "notes": [
+    "Starts by position: Midfielder 95%, Defender 5%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Declan Rice joined Arsenal for a club record fee of £100 million. — “Rice was signed by Arsenal in July 2023 for a club record fee of £100 million”",
+    "✓ Declan Rice helped Arsenal win their first league title in 22 years. — “After making 245 appearances for West Ham, Rice was signed by Arsenal in July 2023 for a club record fee of £100 million, making him the joint-most-expensive English player in history and going on to help them win their first Premier League title in 22 years.”",
+    "✓ Before joining Arsenal, Declan Rice captained West Ham to their first major European trophy since 1965. — “On 8 June 2023, Rice was named as the Europa Conference League's player of the season by UEFA as Rice captained West Ham to their first major European trophy since 1965 after a 2–1 win against Fiorentina in the final a day prior.”",
+    "✓ Declan Rice has been managed by David Moyes. — “[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 165 matches (2017 to 2023)”",
+    "✓ Declan Rice has been managed by Mikel Arteta. — “[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 154 matches (2023 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Declan_Rice"
+   ],
+   "proposed": {
+    "question": "I joined Arsenal for a club record fee of £100 million, helping them win their first league title in 22 years.\nBefore that move, I had the honour of captaining West Ham to their first major European trophy since 1965.\nI've been managed by David Moyes & Mikel Arteta.",
+    "answers": [
+     "Declan Rice",
+     "Rice"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N15",
+   "kind": "new",
+   "index": 14,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Phil Foden",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are correct and the structure follows the house style (hook, development, narrowing clue). However, it lacks the 'twist' or tension found in the best originals.",
+   "notes": [
+    "Starts by position: Midfielder 89%, Forward 11%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Phil Foden scored twice in the final of the 2017 FIFA U-17 World Cup. — “Foden gained widespread press attention after scoring twice in the final of the 2017 FIFA U-17 World Cup”",
+    "✓ Phil Foden helped England win the 2017 FIFA U-17 World Cup. — “In October of the same year, Foden gained widespread press attention after scoring twice in the final of the 2017 FIFA U-17 World Cup, also against Spain, as England won the competition.”",
+    "✓ Following his performance in the 2017 FIFA U-17 World Cup, Phil Foden became the youngest English goalscorer to score in the knockout stages of the Champions League. — “His goal also saw him become Man City's youngest-ever goalscorer in the Champions League and the youngest English goalscorer to score in the knockout stages of the competition, aged 18 years and 288 days.”",
+    "✓ Phil Foden has been managed by Pep Guardiola. — “[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 347 matches (2017 to 2026)”",
+    "✓ Phil Foden has played alongside Erling Haaland. — “[Squad data > Manchester City] Played in 162 matches alongside Erling Haaland for Manchester City (2022 to 2026)”",
+    "✓ Phil Foden has played alongside Kevin De Bruyne. — “[Squad data > Manchester City] Played in 196 matches alongside Kevin De Bruyne for Manchester City (2017 to 2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Phil_Foden"
+   ],
+   "proposed": {
+    "question": "I scored twice in the final of the 2017 FIFA U-17 World Cup to help England win the competition.\nFollowing this, I became the youngest English goalscorer to score in the knockout stages of the Champions League.\nI've been managed by Pep Guardiola & played alongside Haaland & De Bruyne.",
+    "answers": [
+     "Phil Foden",
+     "Foden"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N16",
+   "kind": "new",
+   "index": 15,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Kevin De Bruyne",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are correct and the structure follows the house style (hook, development, narrowing clue). However, it misses a key stylistic element: the 'twist' or tension. The original examples often use contrast ('Yet I've only scored...', 'I did not get on the scoresheet...').",
+   "notes": [
+    "Starts by position: Midfielder 96%, Forward 4%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Kevin De Bruyne became the first Belgian player to score in three different World Cups in 2026. — “In addition, he became the first Belgian player to score in three World tournaments.”",
+    "✓ Kevin De Bruyne captained Belgium following the retirement of Eden Hazard. — “On 21 March 2023, De Bruyne was announced as Belgium's new captain, following the international retirement of Eden Hazard.”",
+    "✓ Kevin De Bruyne played with Torres, Foden & McTominay."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kevin_De_Bruyne"
+   ],
+   "proposed": {
+    "question": "In 2026 I became the first Belgian player to score in three different World Cups.\nI've also had the honour of captaining my country following the retirement of Eden Hazard.\nI've played with Torres, Foden & McTominay",
+    "answers": [
+     "Kevin De Bruyne",
+     "Bruyne"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N17",
+   "kind": "new",
+   "index": 16,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Son Heung-min",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook (Puskas) and the twist (first major trophy in 2025) are strong and memorable.",
+   "notes": [
+    "Starts by position: Midfielder 69%, Forward 31%",
+    "Retired: no (contract runs to December 2027 (Transfermarkt))",
+    "✓ Son Heung-min scored a solo goal in the Premier League that earned him the FIFA Puskás Award. — “In 2019–20, Son scored a solo effort in the league that earned him the FIFA Puskás Award.”",
+    "✓ Son Heung-min won his first major club trophy in 2025. — “In 2025, he led Spurs to the UEFA Europa League title, his first major honour”",
+    "✓ In 2025, Son Heung-min led his team to UEFA Europa League glory. — “In 2025, he led Spurs to the UEFA Europa League title, his first major honour, ending a 17-year trophy drought for Spurs in the process.”",
+    "✓ Son Heung-min has played with Harry Kane. — “[Squad data > Tottenham Hotspur] Played in 304 matches alongside Harry Kane for Tottenham Hotspur (2015 to 2023)”",
+    "✓ Son Heung-min has played with Gareth Bale. — “[Squad data > Tottenham Hotspur] Played in 28 matches alongside Gareth Bale for Tottenham Hotspur (2020 to 2021)”",
+    "✓ Son Heung-min has played with Hakan Çalhanoğlu. — “[Squad data > Bayer 04 Leverkusen] Played in 43 matches alongside Hakan Çalhanoğlu for Bayer 04 Leverkusen (2014 to 2015)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Son_Heung-min"
+   ],
+   "proposed": {
+    "question": "I once scored a solo goal in the Premier League that earned me the FIFA Puskás Award.\nIt wasn't until 2025 that I won my first major club trophy, when I led my team to UEFA Europa League glory.\nI've played with the likes of Kane, Bale & Çalhanoğlu.",
+    "answers": [
+     "Son Heung-min",
+     "Heung-min Son",
+     "Heung-min"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N18",
+   "kind": "new",
+   "index": 17,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Karim Benzema",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question is factually accurate and follows the house style well with connected sentences ('Although...') and a narrowing clue at the end (managers). It reads naturally.",
+   "notes": [
+    "Starts by position: Forward 100%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Karim Benzema did not play for his country for over five years after being implicated in a blackmailing scandal in 2015. — “he did not play for France for over five years after being implicated in a blackmailing scandal in 2015”",
+    "✓ Karim Benzema was implicated in a blackmailing scandal in 2015. — “he did not play for France for over five years after being implicated in a blackmailing scandal in 2015.”",
+    "✓ Karim Benzema returned to his country's team for Euro 2020. — “He later returned to the squad for Euro 2020”",
+    "✓ Karim Benzema retired from international football in December 2022. — “He announced his international retirement in December 2022 following the World Cup.”",
+    "✓ Karim Benzema was managed by Mourinho. — “[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 50 matches (2012 to 2013)”",
+    "✓ Karim Benzema was managed by Zidane. — “[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 171 matches (2016 to 2020)”",
+    "✓ Karim Benzema was managed by Ancelotti. — “[Squad data > Real Madrid] Was managed by Carlo Ancelotti at Real Madrid in 187 matches (2013 to 2023)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Karim_Benzema"
+   ],
+   "proposed": {
+    "question": "I didn't play for my country for over five years after being implicated in a blackmailing scandal in 2015.\nAlthough I returned for Euro 2020, I eventually retired from international football in December 2022.\nI've been managed by the likes of Mourinho, Zidane & Ancelotti.",
+    "answers": [
+     "Karim Benzema",
+     "Benzema"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N19",
+   "kind": "new",
+   "index": 18,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Ollie Watkins",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is excellent and memorable (the heaviest defeat in 57 years), which fits the style guide perfectly. The structure follows the 'hook -> development -> clue' format well.",
+   "notes": [
+    "Starts by position: Forward 97%, Midfielder 3%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Ollie Watkins scored a perfect hat-trick against the reigning champions. — “On 4 October 2020, Watkins scored his first Premier League goals, scoring through a left footed strike, a right footed strike and a header for a perfect hat-trick in a 7–2 home victory over champions.”",
+    "✓ The match in which Ollie Watkins scored a perfect hat-trick was the heaviest defeat for the opposing team in 57 years. — “It was Liverpool's heaviest defeat in 57 years”",
+    "✓ Ollie Watkins played for Brentford before joining Aston Villa. — “On 18 July 2017, Watkins joined Championship club Brentford on a four-year contract, with an option for a further year, for an undisclosed fee, reported to be £1.8 million.”",
+    "✓ Ollie Watkins joined Aston Villa for a then club-record fee. — “for a then club-record fee”",
+    "✓ Dean Smith managed Ollie Watkins. — “Was managed by Dean Smith at Aston Villa in 46 matches (2020 to 2021)”",
+    "✓ Steven Gerrard managed Ollie Watkins. — “[Squad data > Aston Villa] Was managed by Steven Gerrard at Aston Villa in 38 matches (2021 to 2022)”",
+    "✓ Unai Emery managed Ollie Watkins. — “[Squad data > Aston Villa] Was managed by Unai Emery at Aston Villa in 176 matches (2022 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ollie_Watkins"
+   ],
+   "proposed": {
+    "question": "I once scored a perfect hat-trick against the reigning champions in a game that was their heaviest defeat in 57 years.\nFollowing my time at Brentford, I joined Aston Villa for a then club-record fee.\nI've been managed by Dean Smith, Steven Gerrard & Unai Emery.",
+    "answers": [
+     "Ollie Watkins",
+     "Watkins"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N20",
+   "kind": "new",
+   "index": 19,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Trent Alexander-Arnold",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question is factually accurate and follows the house style well: first-person voice, connected sentences, a surprising hook (US eligibility), and a narrowing clue list. It reads naturally and avoids dull procedural details. The main weakness is that the opening line ('won six major trophies...')",
+   "notes": [
+    "Starts by position: Defender 98%, Midfielder 2%",
+    "Retired: no (contract runs to June 2031 (Transfermarkt))",
+    "✓ Trent Alexander-Arnold has won six major trophies for an English club. — “Alexander-Arnold became the youngest-ever player to win six major trophies”",
+    "✓ Trent Alexander-Arnold was 23 years old when he won his sixth major trophy for an English club. — “Alexander-Arnold became the youngest-ever player to win six major trophies, namely the FIFA Club World Cup, UEFA Champions League, UEFA Super Cup, Premier League, FA Cup and League Cup, for an English club, doing so at the age of 23 years and 219 days.”",
+    "✓ Trent Alexander-Arnold was once eligible to play for the United States national team. — “Alexander-Arnold was thus eligible to play for the United States prior to making his England debut.”",
+    "✓ Trent Alexander-Arnold made his England debut after being eligible to play for the United States. — “Alexander-Arnold was thus eligible to play for the United States prior to making his England debut.”",
+    "✓ Trent Alexander-Arnold has played with Sadio Mané. — “[Squad data > Liverpool FC] Played in 197 matches alongside Sadio Mané for Liverpool FC (2016 to 2022)”",
+    "✓ Trent Alexander-Arnold has played with Vinicius Junior. — “[Squad data > Real Madrid] Played in 34 matches alongside Vinicius Junior for Real Madrid (2025 to 2026)”",
+    "✓ Trent Alexander-Arnold has played with Alexis Mac Allister. — “[Squad data > Liverpool FC] Played in 66 matches alongside Alexis Mac Allister for Liverpool FC (2023 to 2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Trent_Alexander-Arnold"
+   ],
+   "proposed": {
+    "question": "I've won six major trophies for an English club, doing so at the age of 23.\nIncredibly, I was once eligible to play for the United States before making my England debut.\nI've played with the likes of Mané, Vinicius Junior & Mac Allister",
+    "answers": [
+     "Trent Alexander-Arnold",
+     "Alexander-Arnold"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N21",
+   "kind": "new",
+   "index": 20,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Kyle Walker",
+   "verdict": "NEW",
+   "issues": "Style 5/5. This reads exactly like one of Lewis's originals: a high-tension hook (volunteering for goal), a specific payoff (saving the free-kick), and a narrowing clue list that mixes famous names from different clubs/eras. It is memorable, true to the voice, and perfectly fits the 'twist or tension' rule.",
+   "notes": [
+    "Starts by position: Defender 94%, Midfielder 6%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Kyle Walker volunteered to go in goal for the last 10 minutes of a Champions League match after his club's substitute keeper was sent off. — “On 6 November, in a UEFA Champions League away match against Atalanta, Walker volunteered to go in goal for the last 10 minutes after substitute goalkeeper Claudio Bravo was sent off”",
+    "✓ Kyle Walker did not concede during those last 10 minutes. — “he did not concede and saved a free-kick as the match ended 1–1”",
+    "✓ Kyle Walker saved a free-kick during that Champions League match. — “he did not concede and saved a free-kick as the match ended 1–1”",
+    "✓ Kyle Walker has played with Erling Haaland. — “[Squad data > Manchester City] Played in 90 matches alongside Erling Haaland for Manchester City (2022 to 2025)”",
+    "✓ Kyle Walker has played with Kevin De Bruyne. — “[Squad data > Manchester City] Played in 215 matches alongside Kevin De Bruyne for Manchester City (2017 to 2025)”",
+    "✓ Kyle Walker has played with Christian Pulisic. — “[Squad data > AC Milan] Played in 16 matches alongside Christian Pulisic for AC Milan (2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kyle_Walker"
+   ],
+   "proposed": {
+    "question": "I once volunteered to go in goal for the last 10 minutes of a Champions League match after my club's substitute keeper was sent off.\nIncredibly, I didn't concede and saved a free-kick.\nI've played with the likes of Haaland, De Bruyne & Pulisic.",
+    "answers": [
+     "Kyle Walker",
+     "Walker"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N22",
+   "kind": "new",
+   "index": 21,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Jorginho",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook (the penalty hop) is charming and memorable, fitting the 'delightful oddity' criteria perfectly. The manager list (Sarri, Tuchel, Arteta) effectively narrows it down to a Chelsea player from that specific era.",
+   "notes": [
+    "Starts by position: Midfielder 100%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Jorginho is known for a trademark hop when taking penalties. — “who often performs trademark hop when taking spot kicks”",
+    "✓ Jorginho has been managed by Sarri. — “[Squad data > SSC Napoli] Was managed by Maurizio Sarri at SSC Napoli in 108 matches (2015 to 2018)”",
+    "✓ Jorginho has been managed by Tuchel. — “[Squad data > Chelsea FC] Was managed by Thomas Tuchel at Chelsea FC in 75 matches (2021 to 2022)”",
+    "✓ Jorginho has been managed by Arteta. — “[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 74 matches (2023 to 2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jorginho_(footballer,_born_December_1991)"
+   ],
+   "proposed": {
+    "question": "Despite my passing game, I'm perhaps best known for my trademark hop when taking penalties.\nI've been managed by Sarri, Tuchel & Arteta.",
+    "answers": [
+     "Jorginho"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N23",
+   "kind": "new",
+   "index": 22,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Robert Lewandowski",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (the missed Ballon d'Or due to COVID), but the middle sentence feels like a list of stats rather than a story.",
+   "notes": [
+    "Starts by position: Forward 100%, Midfielder 0%",
+    "Retired: no (article)",
+    "✓ Robert Lewandowski was widely expected to win the 2020 Ballon d'Or. — “Lewandowski was widely expected to win the 2020 Ballon d'Or”",
+    "✓ The 2020 Ballon d'Or award was not given out due to COVID-19. — “Lewandowski was widely expected to win the 2020 Ballon d'Or, but it was not awarded due to the impact of COVID-19.”",
+    "✓ Robert Lewandowski won the European treble in the same season as the 2020 Ballon d'Or cycle (2019–2020). — “In Munich, he won the Bundesliga title in all of his eight seasons at the club and was integral in their Champions League win in 2019–20 as part of a treble.”",
+    "✓ Robert Lewandowski was the sole top scorer in all three competitions of that European treble. — “However, Lewandowski was the first to do so as the sole top scorer in all three competitions.”",
+    "✓ Robert Lewandowski has played with Philippe Coutinho. — “[Squad data > Bayern Munich] Played in 34 matches alongside Philippe Coutinho for Bayern Munich (2019 to 2020)”",
+    "✓ Robert Lewandowski has played with Marcus Rashford. — “[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)”",
+    "✓ Robert Lewandowski has played with Gavi. — “[Squad data > FC Barcelona] Played in 101 matches alongside Gavi for FC Barcelona (2022 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Robert_Lewandowski"
+   ],
+   "proposed": {
+    "question": "I was widely expected to win the 2020 Ballon d'Or, but the award wasn't given out due to COVID-19.\nIn spite of this, I managed to win the European treble that same season as the sole top scorer in all three competitions.\nI've played with the likes of Coutinho, Rashford & Gavi.",
+    "answers": [
+     "Robert Lewandowski",
+     "Lewandowski"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N24",
+   "kind": "new",
+   "index": 23,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Virgil van Dijk",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are strong and the structure follows the house style (hook, consequence, narrowing clue). However, it misses a key stylistic element: 'a little feeling' or conversational flow. The first sentence is slightly clunky ('became the only defender... although I only finished runner-up').",
+   "notes": [
+    "Starts by position: Defender 100%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Virgil van Dijk won the UEFA Men's Player of the Year Award in 2019. — “In August 2019, Van Dijk won the UEFA Men's Player of the Year Award.”",
+    "✓ In 2019, Virgil van Dijk was the only defender to win the UEFA Men's Player of the Year Award. — “He is the only defender to win the UEFA Men's Player of the Year Award”",
+    "✓ Virgil van Dijk finished runner-up for the Ballon d'Or in 2019. — “Ballon D'or: runner-up: 2019”",
+    "✓ Following his 2019 award period, Virgil van Dijk helped end his club's 30-year league title drought. — “Van Dijk later won the FIFA Club World Cup and UEFA Super Cup, and helped end the club's 30-year league title drought by winning the 2019–20 Premier League.”",
+    "✓ Virgil van Dijk has been managed by Klopp. — “[Squad data > Liverpool FC] Was managed by Jürgen Klopp at Liverpool FC in 265 matches (2018 to 2024)”",
+    "✓ Virgil van Dijk has been managed by Slot. — “[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 101 matches (2024 to 2026)”",
+    "✓ Virgil van Dijk has been managed by Koeman. — “[Squad data > Southampton FC] Was managed by Ronald Koeman at Southampton FC in 35 matches (2015 to 2016)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Virgil_van_Dijk"
+   ],
+   "proposed": {
+    "question": "In 2019 I became the only defender to win the UEFA Men's Player of the Year Award, although I only finished runner-up for the Ballon d'Or.\nFollowing this period I helped end my club's 30-year league title drought.\nI've been managed by Klopp, Slot & Koeman.",
+    "answers": [
+     "Virgil van Dijk",
+     "Dijk"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N25",
+   "kind": "new",
+   "index": 24,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Bruno Guimarães",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (first captain in 70 years to win a domestic trophy), which fits the style guide perfectly. The narrative flow is good, linking the achievement directly to the subsequent transfer.",
+   "notes": [
+    "Starts by position: Midfielder 100%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Bruno Guimarães became the first captain of his club in 70 years to lift a domestic trophy. — “Guimarães became the first Newcastle United captain to lift a domestic trophy in 70 years”",
+    "✓ Bruno Guimarães led his team to victory in the Carabao Cup in 2025. — “On 16 March 2025, Guimarães became the first Newcastle United captain to lift a domestic trophy in 70 years, or any trophy in 56 years, after leading the team to victory in the Carabao Cup final against Liverpool.”",
+    "✓ Bruno Guimarães moved to Arsenal for a fee of around £75 million following his success in the Carabao Cup. — “On 8 August 2026, Guimarães signed a four-year contract with Arsenal for a reported transfer fee of around £75 million.”",
+    "✓ Bruno Guimarães has played with Tonali, Isak & Paquetá."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bruno_Guimarães"
+   ],
+   "proposed": {
+    "question": "In 2025 I became the first captain of my club in 70 years to lift a domestic trophy, after leading the team to victory in the Carabao Cup.\nFollowing this success I moved to Arsenal for a fee of around £75 million.\nI've played with the likes of Tonali, Isak & Paquetá.",
+    "answers": [
+     "Bruno Guimarães",
+     "Guimarães"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N26",
+   "kind": "new",
+   "index": 25,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Moisés Caicedo",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question reads naturally in first person and follows the house style well: it opens with a personal detail (youngest of ten siblings), adds a surprising anecdote (failed Barcelona trial in Guayaquil), then pivots to a major achievement (captaining national team + winning UEFA Conference League)",
+   "notes": [
+    "Starts by position: Midfielder 95%, Defender 5%",
+    "Retired: no (contract runs to June 2033 (Transfermarkt))",
+    "✓ Moisés Caicedo is the youngest of ten siblings. — “Born in Santo Domingo, Ecuador, the youngest of 10 siblings”",
+    "✓ Moisés Caicedo had a trial at Barcelona in Guayaquil that ended unsuccessfully. — “A later trial with Barcelona in Guayaquil would also prove unsuccessful.”",
+    "✓ Moisés Caicedo has captained his national team. — “captains the Ecuador national team”",
+    "✓ Moisés Caicedo won the UEFA Conference League. — “In August 2023, he joined Chelsea for a reported fee of £100 million, winning the UEFA Conference League in 2024–25.”",
+    "✓ Moisés Caicedo played with Trossard, Mitoma & Cole Palmer."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Moisés_Caicedo"
+   ],
+   "proposed": {
+    "question": "I grew up as the youngest of ten siblings and once had a trial at Barcelona in Guayaquil that ended unsuccessfully.\nYears later, I'd be captaining my national team and winning the UEFA Conference League.\nI've played with Trossard, Mitoma & Cole Palmer.",
+    "answers": [
+     "Moisés Caicedo",
+     "Caicedo"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N27",
+   "kind": "new",
+   "index": 26,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Riyad Mahrez",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are correct and the structure follows the house style (hook, development, narrowing clue). However, it lacks the 'twist' or tension found in the best originals. The transition from PFA award to treble is a simple chronological progression rather than a surprising contrast.",
+   "notes": [
+    "Starts by position: Midfielder 99%, Forward 1%",
+    "Retired: no (article)",
+    "✓ Riyad Mahrez was the first African player to win the PFA Players' Player of the Year award. — “He was the first African to earn the accolade.”",
+    "✓ Following his win of the PFA Players' Player of the Year award, Riyad Mahrez won a domestic treble with a different English club. — “becoming the first African player to complete an English domestic treble, as he earlier won the 2018–19 EFL Cup and the 2018–19 Premier League.”",
+    "✓ Riyad Mahrez has played with N'Golo Kanté. — “[Squad data > Leicester City] Played in 36 matches alongside N'Golo Kanté for Leicester City (2015 to 2016)”",
+    "✓ Riyad Mahrez has played with Kevin De Bruyne. — “[Squad data > Manchester City] Played in 153 matches alongside Kevin De Bruyne for Manchester City (2018 to 2023)”",
+    "✓ Riyad Mahrez has played with Ismael Bennacer. — “[Squad data > Algeria] Played in 3 matches alongside Ismaël Bennacer for Algeria (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Riyad_Mahrez"
+   ],
+   "proposed": {
+    "question": "I was the first African player to win the PFA Players' Player of the Year award.\nFollowing that success, I went on to win a domestic treble with a different English club.\nI've played with the likes of Kanté, De Bruyne & Bennacer.",
+    "answers": [
+     "Riyad Mahrez",
+     "Mahrez"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N28",
+   "kind": "new",
+   "index": 27,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Rúben Dias",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are strong and memorable (FWA award, first continental treble), but the opening sentence is clunky and reads like a stat rather than a story. The phrase 'first defender... since Steve Nicol' is a bit dry for a hook. It lacks the conversational flow or tension of the best originals.",
+   "notes": [
+    "Starts by position: Defender 100%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "✓ Rúben Dias won the FWA Footballer of the Year award in 2021. — “He was also named FWA Footballer of the Year, Manchester City Player of the Year, Premier League Player of the Season and the UEFA Champions League Defender of the Season in 2021.”",
+    "✓ Rúben Dias was a defender when he won the FWA Footballer of the Year award in 2021. — “Dias won the FWA Footballer of the Year for the 2020–21 season, who described him as a \"comfortable winner\" ahead of Harry Kane and Kevin De Bruyne, and becoming the first defender to win the award since Steve Nicol in the 1988–89 season.”",
+    "✓ Steve Nicol won the FWA Footballer of the Year award in the late eighties. — “becoming the first defender to win the award since Steve Nicol in the 1988–89 season”",
+    "✓ No defender won the FWA Footballer of the Year award between Steve Nicol's win in the late eighties and Rúben Dias' win in 2021. — “becoming the first defender to win the award since Steve Nicol in the 1988–89 season”",
+    "✓ Rúben Dias played a crucial role in his club securing their first ever continental treble in the season following 2021. — “In 2022–23, he played a crucial role in defence as City secured a first-ever continental treble”",
+    "✓ Rúben Dias' club had never secured a continental treble before the season following 2021. — “In 2022–23, he played a crucial role in defence as City secured a first-ever continental treble, their most successful season to date.”",
+    "✓ Rúben Dias has played with Darwin Núñez. — “[Squad data > SL Benfica] Played in 3 matches alongside Darwin Núñez for SL Benfica (2020)”",
+    "✓ Rúben Dias has played with João Félix. — “[Squad data > Portugal] Played in 2 matches alongside João Félix for Portugal (2026)”",
+    "✓ Rúben Dias has played with Bernardo Silva. — “[Squad data > Manchester City] Played in 220 matches alongside Bernardo Silva for Manchester City (2020 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rúben_Dias"
+   ],
+   "proposed": {
+    "question": "In 2021 I became the first defender to win the FWA Footballer of the Year award since Steve Nicol in the late eighties.\nI also played a crucial role in my club securing their first ever continental treble the following season.\nI've played with Darwin Núñez, João Félix & Bernardo Silva.",
+    "answers": [
+     "Rúben Dias",
+     "Dias"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N29",
+   "kind": "new",
+   "index": 28,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "John Stones",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question is factually accurate and follows the house style well with connected sentences ('Although...') and a narrowing clue at the end (managers).",
+   "notes": [
+    "Starts by position: Defender 94%, Midfielder 6%",
+    "Retired: no (no mention of retiring in the article)",
+    "✓ John Stones was part of a historic continental treble in 2023. — “With the club, he won six Premier League titles, three FA Cups, five EFL Cups, and the UEFA Champions League as part of a historic continental treble in the 2022–23 season.”",
+    "✓ In 2023, John Stones was described by the media as being in 'Franz Beckenbauer mode'. — “being described by Jamie Jackson of The Guardian as being in \"Franz Beckenbauer mode\".”",
+    "✓ John Stones has won six league titles. — “With the club, he won six Premier League titles”",
+    "✓ John Stones has only ever finished as a runner-up at the European Championships. — “[Honours > England] UEFA European Championship runner-up: 2020, 2024”",
+    "✓ John Stones has been managed by Pep Guardiola. — “[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 279 matches (2016 to 2026)”",
+    "✓ John Stones has been managed by Roberto Martínez. — “[Squad data > Everton FC] Was managed by Roberto Martínez at Everton FC in 86 matches (2013 to 2016)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/John_Stones"
+   ],
+   "proposed": {
+    "question": "In 2023 I was part of a historic continental treble and was described by the media as being in 'Franz Beckenbauer mode'.\nAlthough I've won six league titles, I've only ever finished as a runner-up at the European Championships.\nI've been managed by Pep Guardiola & Roberto Martínez.",
+    "answers": [
+     "John Stones",
+     "Stones"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N30",
+   "kind": "new",
+   "index": 29,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Dominik Szoboszlai",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are strong and memorable (record transfer fee, first Hungarian PL winner), but the structure is a bit list-like ('I became... In 2025 I became...'). It lacks the conversational flow or 'twist' of the best originals. The teammate clue is excellent for narrowing it down.",
+   "notes": [
+    "Starts by position: Midfielder 93%, Defender 5%, Forward 2%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Dominik Szoboszlai moved to Germany in 2021. — “in January 2021, Szoboszlai moved to Germany at RB Leipzig”",
+    "✓ When Dominik Szoboszlai moved to Germany in 2021, he became the most expensive Hungarian footballer of all time. — “In January 2021, Szoboszlai moved to Germany at RB Leipzig, a club associated with Red Bull Salzburg, for a reported fee of €20 million, making him the most expensive Hungarian footballer of all time.”",
+    "✓ In 2025, Dominik Szoboszlai won the Premier League. — “On 27 April, Szoboszlai became the first Hungarian footballer to win the Premier League, following Liverpool's 5–1 victory over Tottenham Hotspur at Anfield in which he provided two assists for MoHame”",
+    "✓ Dominik Szoboszlai is from Hungary. — “is a Hungarian professional footballer”",
+    "✓ In 2025, Dominik Szoboszlai became the first player from Hungary to win the Premier League. — “On 27 April, Szoboszlai became the first Hungarian footballer to win the Premier League”",
+    "✓ Dominik Szoboszlai has played with Nkunku. — “[Squad data > RB Leipzig] Played in 78 matches alongside Christopher Nkunku for RB Leipzig (2021 to 2023)”",
+    "✓ Dominik Szoboszlai has played with Gvardiol. — “[Squad data > RB Leipzig] Played in 77 matches alongside Josko Gvardiol for RB Leipzig (2021 to 2023)”",
+    "✓ Dominik Szoboszlai has played with Salah. — “[Squad data > Liverpool FC] Played in 126 matches alongside Mohamed Salah for Liverpool FC (2023 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dominik_Szoboszlai"
+   ],
+   "proposed": {
+    "question": "I became the most expensive Hungarian footballer of all time when I moved to Germany in 2021.\nIn 2025, I became the first player from my country to win the Premier League.\nI've played with the likes of Nkunku, Gvardiol & Salah.",
+    "answers": [
+     "Dominik Szoboszlai",
+     "Szoboszlai"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N31",
+   "kind": "new",
+   "index": 30,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Khvicha Kvaratskhelia",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question is factually strong and follows the correct structure (hook, development, narrowing clue). However, it reads slightly like a resume rather than a story; the transition 'Following a move to France' is functional but lacks the conversational flow or tension found in the best originals.",
+   "notes": [
+    "Starts by position: Midfielder 96%, Forward 4%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "✓ Khvicha Kvaratskhelia helped Napoli win their first league title since 1990 in his debut season for the club. — “Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022, and in his debut season, he helped the club win their first Serie A title since 1990”",
+    "✓ Khvicha Kvaratskhelia was named the Serie A MVP during his debut season for Napoli. — “Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022, and in his debut season, he helped the club win their first Serie A title  since 1990, being named Serie A's Most Valuable Player and the Champions League's Young Player of the Season.”",
+    "✓ Khvicha Kvaratskhelia moved to France in 2025. — “On 17 January 2025, Ligue 1 club Paris Saint-Germain announced the signing of Kvaratskhelia on a contract until June 2029.”",
+    "✓ Khvicha Kvaratskhelia scored in the Champions League final following his move to France in 2025. — “He immediately became a focal player, as the club won a continental treble in his first season there, scoring in the Champions League final.”",
+    "✓ Khvicha Kvaratskhelia helped secure a continental treble by scoring in the Champions League final. — “He immediately became a focal player, as the club won a continental treble in his first season there, scoring in the Champions League final.”",
+    "✓ Khvicha Kvaratskhelia has played with Osimhen, Hakimi & Donnarumma. — “[Squad data > SSC Napoli] Played in 63 matches alongside Victor Osimhen for SSC Napoli (2022 to 2024)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Khvicha_Kvaratskhelia"
+   ],
+   "proposed": {
+    "question": "In my debut season for Napoli I helped the club win their first league title since 1990, and was named the Serie A MVP.\nFollowing a move to France in 2025, I scored in the Champions League final to help secure a continental treble.\nI've played with the likes of Osimhen, Hakimi & Donnarumma.",
+    "answers": [
+     "Khvicha Kvaratskhelia",
+     "Kvaratskhelia"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N32",
+   "kind": "new",
+   "index": 31,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Victor Osimhen",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are strong and the teammate list (Gabriel, Kvaratskhelia, Icardi) is an excellent narrowing clue that spans his career stages. However, it reads slightly like a list of achievements rather than a connected story with tension or feeling.",
+   "notes": [
+    "Starts by position: Forward 99%, Midfielder 1%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "✓ Victor Osimhen won the Golden Boot at the 2015 U-17 World Cup. — “Osimhen won the Golden Boot award at the 2015 FIFA U-17 World Cup, which Nigeria won.”",
+    "✓ Victor Osimhen's country won the title of the 2015 U-17 World Cup. — “Osimhen was a member of the Nigeria under-17 team that won the 2015 FIFA U-17 World Cup in Chile.”",
+    "✓ Victor Osimhen broke the record for most goals scored in a single season by a foreign player in Turkey. — “With his two goals in the final, Osimhen reached 35 goals in 39 official matches, setting a new record for most goals scored in a single season by a foreign player in Turkey.”",
+    "✓ Victor Osimhen has played with Gabriel. — “[Squad data > LOSC Lille] Played in 28 matches alongside Gabriel for LOSC Lille (2019 to 2020)”",
+    "✓ Victor Osimhen has played with Kvaratskhelia. — “[Squad data > SSC Napoli] Played in 63 matches alongside Khvicha Kvaratskhelia for SSC Napoli (2022 to 2024)”",
+    "✓ Victor Osimhen has played with Mauro Icardi. — “[Squad data > Galatasaray] Played in 34 matches alongside Mauro Icardi for Galatasaray (2024 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Victor_Osimhen"
+   ],
+   "proposed": {
+    "question": "I started my international career by winning the Golden Boot at the 2015 U-17 World Cup, helping my country take the title.\nYears later, I broke the record for most goals scored in a single season by a foreign player in Turkey.\nI've played with Gabriel, Kvaratskhelia & Mauro Icardi.",
+    "answers": [
+     "Victor Osimhen",
+     "Osimhen"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N33",
+   "kind": "new",
+   "index": 32,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Emiliano Martínez",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (WC + 2 Copa Américas + Best GK), and the teammate list (Messi, Coutinho, Sancho) effectively narrows it down to a specific squad era.",
+   "notes": [
+    "Starts by position: Goalkeeper 100%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "✓ Emiliano Martínez won the World Cup. — “He went on to win the 2022 FIFA World Cup with Argentina”",
+    "✓ Emiliano Martínez won two Copa Américas. — “[Honours > Argentina] Copa América: 2021, 2024”",
+    "✓ Emiliano Martínez was named as the best goalkeeper for the World Cup he won. — “He went on to win the 2022 FIFA World Cup with Argentina, again being voted best goalkeeper of the tournament”",
+    "✓ Emiliano Martínez was named as the best goalkeeper for both Copa Américas tournaments he won. — “Martínez was also awarded the 2021 Copa América's Golden Glove award as the best keeper of the tournament for his performances.”",
+    "✓ In 2026, Emiliano Martínez was part of a run to another World Cup final. — “He started all eight matches for Argentina during the tournament, keeping two clean sheets on their run to the final.”",
+    "✓ Emiliano Martínez made more saves than any other keeper in the history of World Cup finals during his 2026 appearance. — “the most by a goalkeeper in a World Cup final”",
+    "✓ Emiliano Martínez played with Lionel Messi. — “[Squad data > Argentina] Played in 3 matches alongside Lionel Messi for Argentina (2026)”",
+    "✓ Emiliano Martínez played with Philippe Coutinho. — “[Squad data > Aston Villa] Played in 38 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)”",
+    "✓ Emiliano Martínez played with Jadon Sancho. — “[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Emiliano_Martínez"
+   ],
+   "proposed": {
+    "question": "I've won the World Cup and two Copa Américas, being named as the best goalkeeper for both tournaments.\nIn 2026 I was part of a run to another World Cup final where I made more saves than any other keeper in the history of those finals.\nI've played with the likes of Messi, Coutinho & Sancho.",
+    "answers": [
+     "Emiliano Martínez",
+     "Martínez"
+    ],
+    "clues": {
+     "GK": true,
+     "DEF": false,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N34",
+   "kind": "new",
+   "index": 33,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Luka Modrić",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are strong and the 'narrowing clue' at the end (Ronaldo, Hazard, Pulisic) works well to identify the club context. However, it reads slightly like a list of achievements rather than a story with tension or a twist.",
+   "notes": [
+    "Starts by position: Midfielder 100%, Forward 0%",
+    "Retired: no (article)",
+    "✓ Luka Modrić became the first player other than Lionel Messi or Cristiano Ronaldo to win the Ballon d'Or since 2007 in 2018. — “Throughout his career, Modrić has won numerous individual awards, culminating in the Ballon d'Or in 2018, making him the first player other than Lionel Messi or Cristiano Ronaldo to win the award since 2007.”",
+    "✓ In 2018, Luka Modrić won the World Cup Golden Ball. — “FIFA World Cup Golden Ball: 2018”",
+    "✓ In 2018, Luka Modrić captained his country to a second-place finish in the World Cup. — “Modrić led Croatia to a second and third-place finish at the 2018 and 2022 World Cup respectively”",
+    "✓ Luka Modrić has played with Cristiano Ronaldo. — “[Squad data > Real Madrid] Played in 223 matches alongside Cristiano Ronaldo for Real Madrid (2012 to 2018)”",
+    "✓ Luka Modrić has played with Hazard. — “[Squad data > Real Madrid] Played in 39 matches alongside Eden Hazard for Real Madrid (2019 to 2023)”",
+    "✓ Luka Modrić has played with Pulisic. — “[Squad data > AC Milan] Played in 30 matches alongside Christian Pulisic for AC Milan (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Luka_Modrić"
+   ],
+   "proposed": {
+    "question": "In 2018 I became the first player other than Lionel Messi or Cristiano Ronaldo to win the Ballon d'Or since 2007.\nThat same year I also won the World Cup Golden Ball after captaining my country to a second-place finish.\nI've played with the likes of Cristiano Ronaldo, Hazard & Pulisic.",
+    "answers": [
+     "Luka Modrić",
+     "Modrić"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N35",
+   "kind": "new",
+   "index": 34,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Kieran Trippier",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (the semi-final free kick vs. zero other goals), which fits the style guide perfectly. The narrative flow is good ('Following my time in Spain...').",
+   "notes": [
+    "Starts by position: Defender 86%, Midfielder 14%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Kieran Trippier scored a free kick in a World Cup semi-final. — “He made his debut for the senior international team in June 2017 and played in the 2018 FIFA World Cup, where he scored directly from a free kick in the semi-final.”",
+    "✓ The free kick goal in the World Cup semi-final is the only senior international goal of Kieran Trippier's career. — “On 11 July 2018, Trippier scored his first, and only, England goal, opening the scoring with a free kick in a 2–1 extra-time loss to Croatia in Moscow in the semi-final.”",
+    "✓ Kieran Trippier spent time playing in Spain before returning to England. — “He returned to England in 2022 with Newcastle United”",
+    "✓ After returning to England, Kieran Trippier helped his club win their first domestic trophy in 70 years. — “On 16 March 2025, Trippier played the full 90 minutes in the 2025 EFL Cup final as Newcastle United won their first domestic trophy in 70 years, assisting the first goal from a corner.”",
+    "✓ Kieran Trippier has played with Harry Kane. — “[Squad data > Tottenham Hotspur] Played in 85 matches alongside Harry Kane for Tottenham Hotspur (2015 to 2019)”",
+    "✓ Kieran Trippier has played with Antoine Griezmann. — “[Squad data > Atlético de Madrid] Played in 11 matches alongside Antoine Griezmann for Atlético de Madrid (2021)”",
+    "✓ Kieran Trippier has played with Alexander Isak. — “[Squad data > Newcastle United] Played in 76 matches alongside Alexander Isak for Newcastle United (2022 to 2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kieran_Trippier"
+   ],
+   "proposed": {
+    "question": "I scored a free kick in a World Cup semi-final, yet that remains the only senior international goal of my career.\nFollowing my time in Spain, I returned to England and helped my club win their first domestic trophy in 70 years.\nI've played with the likes of Kane, Griezmann & Isak.",
+    "answers": [
+     "Kieran Trippier",
+     "Trippier"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N36",
+   "kind": "new",
+   "index": 35,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Scott McTominay",
+   "verdict": "NEW",
+   "issues": "Style 5/5. The hook is exceptional: a goal on a £20 bank note is a unique, memorable fact that fans immediately recognize as the McTominay moment against Poland.",
+   "notes": [
+    "English = yes because he was born in Lancaster, though he plays for Scotland. That follows the born-in-England rule and may surprise players.",
+    "Starts by position: Midfielder 98%, Forward 2%, Defender 1%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Scott McTominay had a goal commemorated on a £20 bank note. — “That overhead kick has now been commemorated on a Scottish £20 bank note”",
+    "✓ Scott McTominay helped his country qualify for their first World Cup since 1998. — “The game finished 4–2 to Scotland, marking their first World Cup qualification since 1998.”",
+    "✓ Scott McTominay spent seven years at Manchester United. — “On 30 August 2024, McTominay ended a seven-year run with Manchester United and joined Serie A club Napoli.”",
+    "✓ Scott McTominay received a nomination for the Ballon d'Or while in Italy. — “In 2024, McTominay signed for Napoli in a £25.7 million transfer; he emerged as a focal player to the club winning the Serie A title in his debut season, being named the league's Most Valuable Player and receiving a nomination for the Ballon d'Or.”",
+    "✓ Scott McTominay played with Ronaldo, Pogba & Kvaratskhelia."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Scott_McTominay"
+   ],
+   "proposed": {
+    "question": "I've had a goal commemorated on a £20 bank note after helping my country qualify for their first World Cup since 1998.\nAlthough I spent seven years at Manchester United, it was in Italy that I received a nomination for the Ballon d'Or.\nI've played with the likes of Ronaldo, Pogba & Kvaratskhelia.",
+    "answers": [
+     "Scott McTominay",
+     "McTominay"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N37",
+   "kind": "new",
+   "index": 36,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Jordan Pickford",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question is factually accurate and follows the house style well: it uses first-person British English, connects sentences with 'Following my time at...', and ends with a narrowing clue list of teammates.",
+   "notes": [
+    "Starts by position: Goalkeeper 100%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "✓ Jordan Pickford set an all-time England record for the most consecutive scoreless minutes by a goalkeeper in 2021. — “On 7 July 2021, Pickford set an all-time England record for most consecutive scoreless minutes posted by a goalkeeper.”",
+    "✓ Jordan Pickford moved from Sunderland to Everton in 2017. — “He signed for Everton for a fee of £30 million in June 2017.”",
+    "✓ The transfer fee for Jordan Pickford's move to Everton was £30 million. — “He signed for Everton for a fee of £30 million in June 2017.”",
+    "✓ Jordan Pickford has played with James Rodríguez. — “[Squad data > Everton FC] Played in 19 matches alongside James Rodríguez for Everton FC (2020 to 2021)”",
+    "✓ Jordan Pickford has played with Dele Alli. — “[Squad data > Everton FC] Played in 12 matches alongside Dele Alli for Everton FC (2022)”",
+    "✓ Jordan Pickford has played with Jack Grealish. — “[Squad data > Everton FC] Played in 20 matches alongside Jack Grealish for Everton FC (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jordan_Pickford"
+   ],
+   "proposed": {
+    "question": "In 2021 I set an all-time England record for the most consecutive scoreless minutes by a goalkeeper.\nFollowing my time at Sunderland, I moved to Everton for a fee of £30 million in 2017.\nI've played with the likes of James Rodríguez, Dele Alli & Grealish.",
+    "answers": [
+     "Jordan Pickford",
+     "Pickford"
+    ],
+    "clues": {
+     "GK": true,
+     "DEF": false,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N38",
+   "kind": "new",
+   "index": 37,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Ivan Toney",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The facts are correct and the narrative flow is good (debut -> Euro assist), but it lacks a strong 'twist' or surprising hook that characterizes the best originals. It reads slightly like a list of career milestones rather than a story with tension.",
+   "notes": [
+    "Starts by position: Forward 99%, Midfielder 1%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Ivan Toney made his England debut in 2023. — “Toney received his first call-up for the England national team in 2022 before making his debut in 2023.”",
+    "✓ Ivan Toney came on as a substitute for Harry Kane during his England debut. — “He made his debut on 26 March in a 2–0 victory against Ukraine at Wembley Stadium, coming on as an 81st-minute substitute for Harry Kane.”",
+    "✓ During the European Championship in the summer following 2023, Ivan Toney came off the bench to provide the winning assist for Harry Kane. — “He made his tournament debut in the round of 16 against Slovakia, coming on as a substitute in stoppage time. In the first minute of extra time, he assisted captain Harry Kane's winning goal with a header across goal.”",
+    "✓ Ivan Toney has been managed by Thomas Frank. — “[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 85 matches (2021 to 2024)”",
+    "✓ Ivan Toney has been managed by Thomas Tuchel. — “On 22 May 2025, new manager Thomas Tuchel recalled Toney to the national team with Tuchel stating that he gave Phil Foden a rest.”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ivan_Toney"
+   ],
+   "proposed": {
+    "question": "I made my England debut in 2023 as a substitute for Harry Kane.\nDuring the following summer's European Championship, I came off the bench to provide the winning assist for that same striker.\nI've been managed by Thomas Frank & Thomas Tuchel.",
+    "answers": [
+     "Ivan Toney",
+     "Toney"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N39",
+   "kind": "new",
+   "index": 38,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Casemiro",
+   "verdict": "NEW",
+   "issues": "Style 5/5. The draft reads exactly like one of Lewis's originals: it opens with a specific, high-stakes record (12 unbeaten appearances at the WC), introduces immediate tension via the 'two-year absence' twist, and closes with a narrowing list of teammates that spans different clubs and eras.",
+   "notes": [
+    "Starts by position: Midfielder 98%, Defender 2%",
+    "Retired: no (no mention of retiring in the article)",
+    "✓ Casemiro equalled the record of 12 unbeaten appearances at the 2026 World Cup. — “he equaled the World Cup record of 12 unbeaten appearances”",
+    "✓ Casemiro had a two-year absence from his national team prior to the 2026 World Cup. — “marking the midfielder's return to the national team after a two-year absence”",
+    "✓ Casemiro has played with Hazard, Ødegaard & Bruno Guimarães."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Casemiro"
+   ],
+   "proposed": {
+    "question": "At the 2026 World Cup I equalled the record of 12 unbeaten appearances.\nIncredibly, this followed a two-year absence from my national team.\nI've played with the likes of Hazard, Ødegaard & Bruno Guimarães.",
+    "answers": [
+     "Casemiro"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N40",
+   "kind": "new",
+   "index": 39,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Tammy Abraham",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The draft is strong and reads like an original: it has a clear hook (winning every UEFA club competition), a surprising contrast ('Incredibly...'), and a narrowing clue with well-chosen names from different clubs.",
+   "notes": [
+    "Starts by position: Forward 99%, Midfielder 1%",
+    "Retired: no (contract runs to June 2030 (Transfermarkt))",
+    "✓ Tammy Abraham won the Europa League in 2026. — “After loan spells with fellow Italian side AC Milan and Turkish club Beşiktaş, he rejoined Aston Villa permanently in 2026, winning the UEFA Europa League with the club.”",
+    "✓ By winning the Europa League in 2026, Tammy Abraham became only the second player ever to win every UEFA club competition. — “becoming only the second player after Emerson Palmieri to win every UEFA club competition.”",
+    "✓ Tammy Abraham scored more than 10 goals in a Serie A season. — “he scored 17 goals in his debut Serie A season”",
+    "✓ Tammy Abraham was the first Englishman to score more than 10 goals in a Serie A season in thirty years. — “becoming the first English player in thirty years to score more than 10 goals in a Serie A season”",
+    "✓ Tammy Abraham played with Havertz, Dybala & João Félix."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tammy_Abraham"
+   ],
+   "proposed": {
+    "question": "By winning the Europa League in 2026 I became only the second player ever to win every UEFA club competition.\nIncredibly, I also became the first Englishman in thirty years to score more than 10 goals in a Serie A season.\nI've played with the likes of Havertz, Dybala & João Félix.",
+    "answers": [
+     "Tammy Abraham",
+     "Abraham"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N41",
+   "kind": "new",
+   "index": 40,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Kalvin Phillips",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (the West Ham incident), which fits the style guide's preference for moments fans actually talk about. The structure follows the 'hook -> development -> narrowing clue' pattern well.",
+   "notes": [
+    "Starts by position: Midfielder 95%, Defender 5%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Kalvin Phillips won a continental treble in his debut season for Manchester City. — “Phillips signed for Manchester City in 2022 and was part of the squad that won a continental treble of the Premier League, FA Cup, and UEFA Champions League in his debut season.”",
+    "✓ Kalvin Phillips had a loan spell at West Ham United. — “On 26 January 2024, Phillips joined Premier League club West Ham United on loan for the remainder of the 2023–24 season.”",
+    "✓ During his loan spell at West Ham, Kalvin Phillips was berated by supporters. — “After the game he was berated outside the ground by West Ham supporters, some of whom described him as \"useless\".”",
+    "✓ In response to being berated by supporters at West Ham, Kalvin Phillips showed them his middle finger. — “After the game he was berated outside the ground by West Ham supporters... His response was to show the fans his middle finger.”",
+    "✓ Kalvin Phillips has played with Raphinha. — “[Squad data > Leeds United] Played in 43 matches alongside Raphinha for Leeds United (2020 to 2022)”",
+    "✓ Kalvin Phillips has played with Rodri. — “[Squad data > Manchester City] Played in 22 matches alongside Rodri for Manchester City (2022 to 2023)”",
+    "✓ Kalvin Phillips has played with Cole Palmer. — “[Squad data > Manchester City] Played in 11 matches alongside Cole Palmer for Manchester City (2022 to 2023)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kalvin_Phillips"
+   ],
+   "proposed": {
+    "question": "I've won a continental treble in my debut season for Manchester City.\nUnfortunately, I'm well known for a loan spell at West Ham where I was berated by supporters and responded by showing them my middle finger.\nI've played with the likes of Raphinha, Rodri & Cole Palmer.",
+    "answers": [
+     "Kalvin Phillips",
+     "Phillips"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N42",
+   "kind": "new",
+   "index": 41,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Darwin Núñez",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The draft is factually accurate and follows the structure well, but it lacks the 'twist' or tension that defines a 5-score question. The hook (winning awards in Portugal) is true but somewhat dry compared to the original's best examples which often contain a contradiction or surprising detail.",
+   "notes": [
+    "Starts by position: Forward 85%, Midfielder 15%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Darwin Núñez was named Player of the Year in the Primeira Liga during his second season in Portugal. — “In his second season, he won the Bola de Prata for top scorer in the Primeira Liga with 26 goals in 28 games, being named in the Primeira Liga Team of the Year and Primeira Liga Player of the Year.”",
+    "✓ Darwin Núñez was the top scorer in the Primeira Liga during his second season in Portugal. — “In his second season, he won the Bola de Prata for top scorer in the Primeira Liga with 26 goals in 28 games”",
+    "✓ Darwin Núñez transferred to Liverpool for a record fee. — “making him Liverpool's record transfer”",
+    "✓ Darwin Núñez won the league title with Liverpool. — “In a season marked by limited playing time, Núñez regardless won his first Premier League title with Liverpool, becoming the second Uruguayan to achieve this feat following Diego Forlán.”",
+    "✓ Darwin Núñez has played with Rúben Dias. — “[Squad data > SL Benfica] Played in 3 matches alongside Rúben Dias for SL Benfica (2020)”",
+    "✓ Darwin Núñez has played with Gonçalo Ramos. — “[Squad data > SL Benfica] Played in 37 matches alongside Gonçalo Ramos for SL Benfica (2020 to 2022)”",
+    "✓ Darwin Núñez has played with Luis Díaz. — “[Squad data > Liverpool FC] Played in 101 matches alongside Luis Díaz for Liverpool FC (2022 to 2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Darwin_Núñez"
+   ],
+   "proposed": {
+    "question": "In my second season in Portugal I was named both Player of the Year and top scorer in the Primeira Liga.\nIt was these performances which earned me a record transfer to Liverpool, where I later won the league title.\nI've played with Rúben Dias, Gonçalo Ramos & Luis Díaz.",
+    "answers": [
+     "Darwin Núñez",
+     "Núñez"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N43",
+   "kind": "new",
+   "index": 42,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Rasmus Højlund",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The draft captures the voice well with a clear twist (youngest record vs. first international hat-trick) and uses a strong narrowing clue at the end.",
+   "notes": [
+    "Starts by position: Forward 100%",
+    "Retired: no (contract runs to June 2030 (Transfermarkt))",
+    "✓ Rasmus Højlund became the youngest player to score twice in an away Champions League match for Manchester United. — “He became the youngest player to score twice in an away Champions League match for Manchester United.”",
+    "✓ Rasmus Højlund scored a hat-trick on his first start for Denmark. — “he made his first international start, scoring a hat-trick”",
+    "✓ The hat-trick Rasmus Højlund scored on his first start for Denmark was his first international goals. — “On 23 March 2023, he made his first international start, scoring a hat-trick in a 3–1 victory against Finland during the UEFA Euro 2024 qualifying, his first goals for his country.”",
+    "✓ Rasmus Højlund has played with Christian Eriksen. — “[Squad data > Manchester United] Played in 53 matches alongside Christian Eriksen for Manchester United (2023 to 2025)”",
+    "✓ Rasmus Højlund has played with Kevin De Bruyne. — “[Squad data > SSC Napoli] Played in 15 matches alongside Kevin De Bruyne for SSC Napoli (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rasmus_Højlund"
+   ],
+   "proposed": {
+    "question": "I became the youngest player to score twice in an away Champions League match for Manchester United.\nYet it was my first international goals that were most impressive, as I netted a hat-trick on my first start for Denmark.\nI've played with the likes of Eriksen & De Bruyne.",
+    "answers": [
+     "Rasmus Højlund",
+     "Højlund"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N44",
+   "kind": "new",
+   "index": 43,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Antoine Semenyo",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook (rejected by Palace at 15) is memorable and fits the 'twist' requirement well. The narrative flow is good ('Since then...').",
+   "notes": [
+    "Starts by position: Midfielder 94%, Forward 6%",
+    "Retired: no (contract runs to June 2031 (Transfermarkt))",
+    "✓ Antoine Semenyo was rejected by Crystal Palace after an eight-week trial at the age of 15. — “At the age of 15, he was rejected by Crystal Palace after an eight-week trial.”",
+    "✓ Antoine Semenyo almost gave up on professional football before joining a youth academy program in South Gloucestershire. — “He initially decided to give up on becoming a professional footballer before Dave Hockaday convinced him to join his youth academy program at South Gloucestershire and Stroud College.”",
+    "✓ Antoine Semenyo has made caps for Ghana. — “Born in England, he plays for the Ghana national team.”",
+    "✓ Antoine Semenyo has played under Pep Guardiola. — “[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 26 matches (2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Antoine_Semenyo"
+   ],
+   "proposed": {
+    "question": "At the age of 15 I was rejected by Crystal Palace after an eight-week trial.\nI almost gave up on professional football before joining a youth academy program in South Gloucestershire.\nSince then I've made caps for Ghana & played under Pep Guardiola.",
+    "answers": [
+     "Antoine Semenyo",
+     "Semenyo"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N45",
+   "kind": "new",
+   "index": 44,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Wout Weghorst",
+   "verdict": "NEW",
+   "issues": "Style 5/5. This reads exactly like one of Lewis's originals: it opens with a memorable, slightly awkward moment (the shirt refusal), pays off the tension by revealing he actually scored twice in that game, and closes with a narrowing list of teammates from different clubs.",
+   "notes": [
+    "Starts by position: Forward 99%, Midfielder 1%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Wout Weghorst was involved in a post-match confrontation with Lionel Messi after Messi refused to swap shirts with him at the 2022 World Cup. — “After the match, Weghorst was engaged in a confrontation with Lionel Messi after the Argentina captain refused to swap shirts with him.”",
+    "✓ Wout Weghorst scored two goals in the match against Argentina at the 2022 World Cup that sent his country into a penalty shootout. — “He represented the Netherlands at UEFA Euro 2020, the 2022 FIFA World Cup (where he notably scored two goals in his side's quarter-final match against Argentina), UEFA Euro 2024, and the 2026 FIFA World Cup.”",
+    "✓ Wout Weghorst has played with Dele Alli, Casemiro, and Bruno Fernandes."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wout_Weghorst"
+   ],
+   "proposed": {
+    "question": "I'm well known for a post-match confrontation with Lionel Messi after he refused to swap shirts with me at the 2022 World Cup.\nIncredibly, I had scored two goals in that same match to send my country into the penalty shootout.\nI've played with Dele Alli, Casemiro & Bruno Fernandes.",
+    "answers": [
+     "Wout Weghorst",
+     "Weghorst"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N46",
+   "kind": "new",
+   "index": 45,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Morgan Gibbs-White",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (scoring against the club you later join for a record fee), which fits the style guide's preference for narrative tension.",
+   "notes": [
+    "Starts by position: Midfielder 93%, Forward 7%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Morgan Gibbs-White scored a goal against the club he later joined for a record transfer fee. — “On 17 May 2022, Gibbs-White scored a goal in a 2–1 away win over Nottingham Forest in the Football League play-offs semi-final second leg”",
+    "✓ Morgan Gibbs-White missed a penalty in the same game where he scored against the club he later joined for a record transfer fee. — “On 17 May 2022, Gibbs-White scored a goal in a 2–1 away win over Nottingham Forest in the Football League play-offs semi-final second leg; however, he missed a crucial penalty which granted the opponents a 3–2 victory in the penalty shoot-out and qualification to the final.”",
+    "✓ Morgan Gibbs-White helped his current side reach a European semi-final. — “On 16 April 2026, Gibbs-White scored the only goal in a 1–0 victory over Porto in the Europa League quarter-final second leg, sealing his club's place in the semi-finals by winning 2–1 on aggregate.”",
+    "✓ Morgan Gibbs-White netted his first career hat-trick in 2026. — “Three days later, he netted his first career hat-trick in a 4–1 win over Burnley.”",
+    "✓ Morgan Gibbs-White played with Diogo Jota. — “[Squad data > Wolverhampton Wanderers] Played in 32 matches alongside Diogo Jota for Wolverhampton Wanderers (2018 to 2020)”",
+    "✓ Morgan Gibbs-White played with Giovanni Reyna. — “[Squad data > Nottingham Forest] Played in 10 matches alongside Giovanni Reyna for Nottingham Forest (2024)”",
+    "✓ Morgan Gibbs-White played with Douglas Luiz. — “[Squad data > Nottingham Forest] Played in 14 matches alongside Douglas Luiz for Nottingham Forest (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Morgan_Gibbs-White"
+   ],
+   "proposed": {
+    "question": "I once scored a goal against the very club I would later join for a record transfer fee, though I unfortunately missed a penalty in that same game.\nDespite this, I've since helped my current side reach a European semi-final and netted my first career hat-trick in 2026.\nI've played with Diogo Jota, Giovanni Reyna & Douglas Luiz",
+    "answers": [
+     "Morgan Gibbs-White",
+     "Gibbs-White"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N47",
+   "kind": "new",
+   "index": 46,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Pierre-Emerick Aubameyang",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (the 'nine minutes' fact), and the manager list effectively narrows the field.",
+   "notes": [
+    "Close call: 24% of starts on the wing, just under the 25% line, so Forward only.",
+    "Clue flags recomputed with the current rules: Midfielder no.",
+    "Starts by position: Forward 76%, Midfielder 24%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Pierre-Emerick Aubameyang's first league title came after playing just nine minutes for the club. — “meaning Aubameyang claimed the first league title in his career, despite playing just nine minutes for Barcelona before joining Chelsea in the summer of 2022.”",
+    "✓ Pierre-Emerick Aubameyang was born in France. — “Aubameyang was born in Laval, Mayenne, France.”",
+    "✓ Pierre-Emerick Aubameyang has made a total of 72 caps for Gabon. — “He made a total of 72 appearances for the Gabon national team and scored 30 goals.”",
+    "✓ Jürgen Klopp managed Pierre-Emerick Aubameyang. — “[Squad data > Borussia Dortmund] Was managed by Jürgen Klopp at Borussia Dortmund in 93 matches (2013 to 2015)”",
+    "✓ Mikel Arteta managed Pierre-Emerick Aubameyang. — “[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 75 matches (2019 to 2021)”",
+    "✓ Roberto De Zerbi managed Pierre-Emerick Aubameyang. — “[Squad data > Olympique Marseille] Was managed by Roberto De Zerbi at Olympique Marseille in 27 matches (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pierre-Emerick_Aubameyang"
+   ],
+   "proposed": {
+    "question": "The first league title of my career came after playing just nine minutes for the club.\nAlthough I was born in France, I've made a total of 72 caps for Gabon.\nI've been managed by the likes of Klopp, Arteta & De Zerbi",
+    "answers": [
+     "Pierre-Emerick Aubameyang",
+     "Aubameyang"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N48",
+   "kind": "new",
+   "index": 47,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Pedro Neto",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The draft is factually accurate and follows the house style well: it uses first-person British English, connects sentences with 'Following a spell...', and ends with a strong narrowing clue list.",
+   "notes": [
+    "Starts by position: Midfielder 84%, Forward 16%",
+    "Retired: no (contract runs to June 2031 (Transfermarkt))",
+    "✓ Pedro Neto is the youngest ever goalscorer in the Primeira Liga for his first professional club. — “becoming the club's youngest ever goal scorer in the competition”",
+    "✓ Pedro Neto had a spell playing in Italy. — “He started his career at Braga, who loaned him to Italian club Lazio in the summer of 2017.”",
+    "✓ After his spell in Italy, Pedro Neto moved to England. — “On 2 August 2019, Neto signed with Wolverhampton Wanderers.”",
+    "✓ Pedro Neto is the first teenager to score a league goal for Wolves. — “becoming the first teenager to achieve the feat for the club in the Premier League in the process.”",
+    "✓ Pedro Neto has played with Milinković-Savić. — “[Squad data > Società Sportiva Lazio S.p.A.] Played in 4 matches alongside Sergej Milinković-Savić for Società Sportiva Lazio S.p.A. (2019)”",
+    "✓ Pedro Neto has played with Cole Palmer. — “[Squad data > Chelsea FC] Played in 70 matches alongside Cole Palmer for Chelsea FC (2024 to 2026)”",
+    "✓ Pedro Neto has played with João Félix. — “[Squad data > Chelsea FC] Played in 11 matches alongside João Félix for Chelsea FC (2024 to 2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pedro_Neto"
+   ],
+   "proposed": {
+    "question": "I once became the youngest ever goalscorer in the Primeira Liga for my first professional club.\nFollowing a spell in Italy, I moved to England where I eventually became the first teenager to score a league goal for Wolves.\nI've played with Milinković-Savić, Cole Palmer & João Félix.",
+    "answers": [
+     "Pedro Neto",
+     "Neto"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N49",
+   "kind": "new",
+   "index": 48,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Ben White",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook (Newport vs Spurs at Wembley) is specific and memorable for UK fans, and the teammate list effectively narrows it down to Arsenal.",
+   "notes": [
+    "Starts by position: Defender 96%, Midfielder 4%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Ben White was on loan at Newport County. — “He spent time with Newport County, Peterborough United, and Leeds United on successive loans between 2016 and 2019.”",
+    "✓ While on loan at Newport County, Ben White was praised for his performance against Harry Kane in a match that forced a replay at Wembley. — “On 27 January 2018, White started the match as Newport drew 1–1 to force a replay at Tottenham's temporary home ground Wembley Stadium, with White praised for his performance against Harry Kane.”",
+    "✓ Ben White missed out on the 2026 World Cup due to a knee injury. — “On 10 May 2026, White sustained a knee injury during a 1–0 away victory over West Ham United, which forced him to miss the remainder of the season, including Premier League title-deciding matches and the UEFA Champions League final, and he was subsequently ruled out of the 2026 FIFA World Cup.”",
+    "✓ Ben White has played with Trossard, Sánchez & Saka."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ben_White_(footballer)"
+   ],
+   "proposed": {
+    "question": "While on loan at Newport County I was praised for my performance against Harry Kane in a match that forced a replay at Wembley.\nUnfortunately I later missed out on the 2026 World Cup due to a knee injury.\nI've played with Trossard, Sánchez & Saka.",
+    "answers": [
+     "Ben White",
+     "White"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N50",
+   "kind": "new",
+   "index": 49,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Fikayo Tomori",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (first Englishman to score for Milan since Beckham), which fits the style guide perfectly. The narrative flow is good ('Following that success...').",
+   "notes": [
+    "Starts by position: Defender 100%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Fikayo Tomori was the first Englishman to score for AC Milan since David Beckham. — “Tomori became the first Englishman to score for Milan since David Beckham in 2009”",
+    "✓ Fikayo Tomori ended his first full season in Italy as a Serie A champion in 2022. — “Tomori ended his first full season in Italy as a Serie A champion”",
+    "✓ Fikayo Tomori was managed by Frank Lampard. — “[Squad data > Chelsea FC] Was managed by Frank Lampard at Chelsea FC in 24 matches (2019 to 2021)”",
+    "✓ Fikayo Tomori was managed by Stefano Pioli. — “[Squad data > AC Milan] Was managed by Stefano Pioli at AC Milan in 142 matches (2021 to 2024)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fikayo_Tomori"
+   ],
+   "proposed": {
+    "question": "I became the first Englishman to score for AC Milan since David Beckham.\nFollowing that success, I ended my first full season in Italy as a Serie A champion in 2022.\nI've been managed by Frank Lampard & Stefano Pioli.",
+    "answers": [
+     "Fikayo Tomori",
+     "Tomori"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N51",
+   "kind": "new",
+   "index": 50,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Kelechi Iheanacho",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (first VAR goal), and the penalty detail adds a nice layer of irony. However, it reads slightly like a list of achievements rather than a connected story, lacking the narrative flow ('The following year...', 'Yet...') seen in the best originals.",
+   "notes": [
+    "Starts by position: Forward 97%, Midfielder 3%",
+    "Retired: no (no mention of retiring in the article)",
+    "✓ Kelechi Iheanacho was the first player in English football to be awarded a goal due to VAR. — “Iheanacho became the first player in English football to be awarded a goal due to video assistant referee”",
+    "✓ Kelechi Iheanacho scored the winning penalty against his former club to secure the Community Shield. — “Iheanacho was substituted on during the 79th minute and scored the winning goal, an 89th-minute penalty against his former club.”",
+    "✓ Kelechi Iheanacho played with Sterling, Maguire & Oxlade-Chamberlain."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kelechi_Iheanacho"
+   ],
+   "proposed": {
+    "question": "I became the first player in English football to be awarded a goal due to VAR.\nIncredibly, I also scored the winning penalty against my former club to secure the Community Shield.\nI've played with the likes of Sterling, Maguire & Oxlade-Chamberlain",
+    "answers": [
+     "Kelechi Iheanacho",
+     "Iheanacho"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N52",
+   "kind": "new",
+   "index": 51,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Youri Tielemans",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The structure is strong and follows the house style well: it opens with a specific record (youngest Belgian in CL), provides a contrasting development (becoming captain), and closes with a narrowing list of teammates. The facts are accurate and the tone is conversational.",
+   "notes": [
+    "Starts by position: Midfielder 99%, Forward 1%, Defender 0%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Youri Tielemans became the youngest Belgian to ever play in the Champions League. — “He is the youngest Belgian to play in the UEFA Champions League, making his debut in the competition at the age of 16 years and 148 days.”",
+    "✓ Youri Tielemans made his Champions League debut at age 16. — “making his debut in the competition at the age of 16 years and 148 days”",
+    "✓ Youri Tielemans was appointed as the permanent national team captain for Belgium in 2025. — “On 3 September 2025, Tielemans was appointed as the permanent captain of the Belgian national team by manager Rudi Garcia.”",
+    "✓ Youri Tielemans played with Fabinho. — “[Squad data > AS Monaco] Played in 29 matches alongside Fabinho for AS Monaco (2017 to 2018)”",
+    "✓ Youri Tielemans played with James Maddison. — “[Squad data > Leicester City] Played in 144 matches alongside James Maddison for Leicester City (2019 to 2023)”",
+    "✓ Youri Tielemans played with Romelu Lukaku. — “[Squad data > Belgium] Played in 3 matches alongside Romelu Lukaku for Belgium (2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Youri_Tielemans"
+   ],
+   "proposed": {
+    "question": "I became the youngest Belgian to ever play in the Champions League when I made my debut at just 16.\nYet I've since grown into a leader for my country, having been appointed as the permanent national team captain in 2025.\nI've played with the likes of Fabinho, James Maddison & Romelu Lukaku.",
+    "answers": [
+     "Youri Tielemans",
+     "Tielemans"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N53",
+   "kind": "new",
+   "index": 52,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Yoane Wissa",
+   "verdict": "NEW",
+   "issues": "Style 5/5. The draft perfectly captures the house style: it opens with a high-stakes hook (first ever WC goal/win), uses the required conversational British English ('Incredibly', 'netted'), and connects the sentences logically.",
+   "notes": [
+    "Starts by position: Forward 64%, Midfielder 36%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "✓ Yoane Wissa scored his country's first ever goal at the 2026 World Cup. — “He scored DR Congo's first-ever FIFA World Cup goal”",
+    "✓ Yoane Wissa scored two goals in a match to secure his country's first ever win on the world stage. — “On 27 June, he scored a brace and earned Man of the Match award in a 3–1 victory over Uzbekistan, securing his nation's first-ever World Cup win and qualification for the knockout stage.”",
+    "✓ Thomas Frank has managed Yoane Wissa. — “[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 143 matches (2021 to 2025)”",
+    "✓ Eddie Howe has managed Yoane Wissa. — “Was managed by Eddie Howe at Newcastle United in 28 matches (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Yoane_Wissa"
+   ],
+   "proposed": {
+    "question": "At the 2026 World Cup I scored my country's first ever goal in the tournament.\nIncredibly, I also netted a brace to secure our first ever win on the world stage.\nI've been managed by Thomas Frank & Eddie Howe.",
+    "answers": [
+     "Yoane Wissa",
+     "Wissa"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N54",
+   "kind": "new",
+   "index": 53,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Jamie Vardy",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook (five levels before debut) is charming and true to the style guide's preference for delightful oddities.",
+   "notes": [
+    "Starts by position: Forward 97%, Midfielder 3%",
+    "Retired: no (no mention of retiring in the article)",
+    "✓ Jamie Vardy made his Premier League debut at age 27. — “Prior to his Premier League debut at the age of 27, he had already played in levels eight, seven, six, five and two of the English football league system.”",
+    "✓ Prior to his Premier League debut, Jamie Vardy had played in five different levels of the English football league system. — “Prior to his Premier League debut at the age of 27, he had already played in levels eight, seven, six, five and two of the English football league system.”",
+    "✓ Jamie Vardy is the oldest player to win the Golden Boot for the 2019–20 season. — “He won the Premier League Golden Boot for the 2019–20 season, becoming the oldest player to win the award.”",
+    "✓ Jamie Vardy was managed by Ranieri. — “[Squad data > Leicester City] Was managed by Claudio Ranieri at Leicester City in 68 matches (2015 to 2017)”",
+    "✓ Jamie Vardy was managed by Rodgers. — “[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 147 matches (2019 to 2023)”",
+    "✓ Jamie Vardy was managed by van Nistelrooy. — “[Squad data > Leicester City] Was managed by Ruud van Nistelrooy at Leicester City in 24 matches (2024 to 2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jamie_Vardy"
+   ],
+   "proposed": {
+    "question": "Prior to my Premier League debut at 27, I had already played in five different levels of the English football league system.\nIncredibly, I later became the oldest player to win the Golden Boot when I did so for the 2019–20 season.\nI've been managed by Ranieri, Rodgers & van Nistelrooy",
+    "answers": [
+     "Jamie Vardy",
+     "Vardy"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N55",
+   "kind": "new",
+   "index": 54,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Tomáš Souček",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is excellent and fits the 'delightful oddity' rule perfectly (the transfer fee covering running costs). The narrative flow is good ('Incredibly...').",
+   "notes": [
+    "Starts by position: Midfielder 100%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Tomáš Souček moved to the Premier League in 2020. — “On 29 January 2020, Souček joined Premier League side West Ham United on an initial loan deal until the end of the 2019–20 season”",
+    "✓ Tomáš Souček's move to the Premier League in 2020 netted his hometown club £1.5 million. — “Slovan Havlíčkův Brod subsequently netted £1.5 million following Souček's transfer to West Ham United in 2020”",
+    "✓ The £1.5 million from Tomáš Souček's move covered his hometown club's running costs for the next ten years. — “Slovan Havlíčkův Brod subsequently netted £1.5 million following Souček's transfer to West Ham United in 2020, covering their running costs for the next ten years.”",
+    "✓ Tomáš Souček finished his first full season as his new club's joint-top scorer. — “He finished the 2020–21 season as West Ham's joint-top scorer, along with Michail Antonio, both having scored ten goals.”",
+    "✓ David Moyes managed Tomáš Souček. — “[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 196 matches (2020 to 2024)”",
+    "✓ Julen Lopetegui managed Tomáš Souček. — “[Squad data > West Ham United] Was managed by Julen Lopetegui at West Ham United in 19 matches (2024 to 2025)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tomáš_Souček"
+   ],
+   "proposed": {
+    "question": "My move to the Premier League in 2020 netted my hometown club £1.5 million, which covered their running costs for the next ten years.\nIncredibly, I finished my first full season as my new club's joint-top scorer.\nI've been managed by David Moyes & Julen Lopetegui.",
+    "answers": [
+     "Tomáš Souček",
+     "Souček"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N56",
+   "kind": "new",
+   "index": 55,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Dominic Calvert-Lewin",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook (U-20 World Cup winner) is strong and memorable, fitting the 'twist' requirement well. The narrative flow is good ('After establishing...').",
+   "notes": [
+    "Starts by position: Forward 95%, Midfielder 5%",
+    "Retired: no (contract runs to June 2028 (Transfermarkt))",
+    "✓ Dominic Calvert-Lewin scored the winning goal in a World Cup final at under-20 level. — “Calvert-Lewin was part of the England under-20 team that won the 2017 FIFA U-20 World Cup, scoring the winning goal in the final.”",
+    "✓ Dominic Calvert-Lewin established himself as a key striker at Everton. — “He finished the 2020–21 season as Everton's top goalscorer with 21 goals in 39 matches in all competitions and was named Everton's Player of the Year at the club's end of season awards evening.”",
+    "✓ Dominic Calvert-Lewin left Everton in 2025 to join Leeds United. — “He played 273 games and scored 71 goals for Everton before joining Leeds United in 2025.”",
+    "✓ Dominic Calvert-Lewin played with Wayne Rooney. — “[Squad data > Everton FC] Played in 35 matches alongside Wayne Rooney for Everton FC (2017 to 2018)”",
+    "✓ Dominic Calvert-Lewin played with James Rodríguez. — “[Squad data > Everton FC] Played in 19 matches alongside James Rodríguez for Everton FC (2020 to 2021)”",
+    "✓ Dominic Calvert-Lewin played with Noah Okafor. — “[Squad data > Leeds United] Played in 30 matches alongside Noah Okafor for Leeds United (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dominic_Calvert-Lewin"
+   ],
+   "proposed": {
+    "question": "I had the honour of scoring the winning goal in a World Cup final, albeit at under-20 level.\nAfter establishing myself as a key striker at Everton, I made the difficult decision to leave in 2025 to join Leeds United.\nI've played with the likes of Wayne Rooney, James Rodríguez & Noah Okafor.",
+    "answers": [
+     "Dominic Calvert-Lewin",
+     "Calvert-Lewin"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": true
+    }
+   }
+  },
+  {
+   "key": "N57",
+   "kind": "new",
+   "index": 56,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Emiliano Buendía",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The structure is solid: it opens with a strong hook (record signing/sale), connects to a recent major achievement (Europa League win/MoM), and closes with a narrowing list of teammates. The facts are accurate for Emiliano Buendía (Villarreal record sale to Brighton; 2026 Europa League winner).",
+   "notes": [
+    "Starts by position: Midfielder 94%, Forward 4%, Defender 2%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Emiliano Buendía was once the record signing for his club. — “was confirmed to be both Aston Villa's record signing”",
+    "✓ The move that made Emiliano Buendía a record signing also represented a record sale for the team he left. — “was confirmed to be both Aston Villa's record signing and Norwich City's record sale”",
+    "✓ Emiliano Buendía won the Europa League in 2026. — “In 2026, he won the Europa League, being named man of the match in the final.”",
+    "✓ Emiliano Buendía was named man of the match in the 2026 Europa League final. — “In 2026, he won the Europa League, being named man of the match in the final.”",
+    "✓ Emiliano Buendía has played with Philippe Coutinho. — “[Squad data > Aston Villa] Played in 39 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)”",
+    "✓ Emiliano Buendía has played with Granit Xhaka. — “[Squad data > Bayer 04 Leverkusen] Played in 13 matches alongside Granit Xhaka for Bayer 04 Leverkusen (2025)”",
+    "✓ Emiliano Buendía has played with Jadon Sancho. — “[Squad data > Aston Villa] Played in 37 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Emiliano_Buendía"
+   ],
+   "proposed": {
+    "question": "I was once the record signing for my club, a move that also represented a record sale for the team I left.\nIn 2026, I won the Europa League and was named man of the match in the final.\nI've played with the likes of Coutinho, Xhaka & Sancho",
+    "answers": [
+     "Emiliano Buendía",
+     "Buendía"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": true,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N58",
+   "kind": "new",
+   "index": 57,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Jean-Philippe Mateta",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (the horrific injury incident), which fits the 'twist or tension' requirement well.",
+   "notes": [
+    "Starts by position: Forward 100%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Jean-Philippe Mateta was hospitalised after a collision with a goalkeeper during an FA Cup match. — “Mateta was hospitalised after being kicked in the side of the head by Millwall goalkeeper Liam Roberts”",
+    "✓ The injury Jean-Philippe Mateta sustained in the FA Cup match required 25 stitches. — “The injury sustained during the game, resulted with him requiring 25 stitches for a laceration behind his ear and a concussion observation.”",
+    "✓ Opposing supporters were heard chanting for Jean-Philippe Mateta to die while he was being treated on the pitch. — “While Mateta was being treated on the pitch for a number of minutes and administered oxygen, some Millwall supporters chanted \"let him die\".”",
+    "✓ Jean-Philippe Mateta has been managed by Patrick Vieira. — “[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 50 matches (2021 to 2023)”",
+    "✓ Jean-Philippe Mateta has been managed by Oliver Glasner. — “[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 94 matches (2024 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jean-Philippe_Mateta"
+   ],
+   "proposed": {
+    "question": "During an FA Cup match, I was hospitalised after a collision with a goalkeeper that required 25 stitches.\nUnfortunately, some opposing supporters were heard chanting for me to die while I was being treated on the pitch.\nI've been managed by Patrick Vieira & Oliver Glasner.",
+    "answers": [
+     "Jean-Philippe Mateta",
+     "Mateta"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": false,
+     "MID": false,
+     "FWD": true,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N59",
+   "kind": "new",
+   "index": 58,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Joachim Andersen",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The hook is strong and memorable (the Nunez headbutt), which fits the style guide's preference for surprising moments over dull stats. The sentence structure connects well ('Incredibly...').",
+   "notes": [
+    "Starts by position: Defender 100%",
+    "Retired: no (contract runs to June 2029 (Transfermarkt))",
+    "names a clue (\"I'm a defender\"); keep it only if it is the twist, otherwise let the guesser earn it",
+    "✓ Joachim Andersen is a defender. — “Joachim Christian Andersen (Danish pronunciation: [ˈɑnɐsn̩]; born 31 May 1996) is a Danish professional footballer who plays as a centre-back for Premier League club Fulham and the Denmark national team.”",
+    "✓ Joachim Andersen finished a Premier League season as the player with the most clearances. — “He finished the 2023–24 season as the player with most clearances in the Premier League in 229 occasions.”",
+    "✓ Darwin Núñez headbutted Joachim Andersen on Darwin Núñez's home debut for Liverpool. — “Andersen was headbutted by Darwin Núñez, for which the Uruguayan was sent off on his home debut for Liverpool”",
+    "✓ Joachim Andersen has played under manager Patrick Vieira. — “[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 61 matches (2021 to 2023)”",
+    "✓ Joachim Andersen has played under manager Marco Silva. — “[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 68 matches (2024 to 2026)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joachim_Andersen_(footballer)"
+   ],
+   "proposed": {
+    "question": "I'm a defender who once finished a Premier League season as the player with the most clearances.\nIncredibly, I've also been headbutted by Darwin Núñez on his home debut for Liverpool.\nI've played under managers such as Patrick Vieira & Marco Silva.",
+    "answers": [
+     "Joachim Andersen",
+     "Andersen"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  },
+  {
+   "key": "N60",
+   "kind": "new",
+   "index": 59,
+   "pack": "The 2020s",
+   "category": "2020s",
+   "player": "Lisandro Martínez",
+   "verdict": "NEW",
+   "issues": "Style 4/5. The question is strong because it uses a genuine twist: contrasting the 'Butcher' nickname with high passing stats is memorable and surprising, fitting the style guide's preference for tension.",
+   "notes": [
+    "Starts by position: Defender 89%, Midfielder 11%",
+    "Retired: no (contract runs to June 2027 (Transfermarkt))",
+    "✓ Lisandro Martínez is known for an aggressive style of play. — “Nicknamed \"The Butcher\", he is known for his aggressive style of play, physical duels, and accurate long passes from the back.”",
+    "✓ Lisandro Martínez has been nicknamed \"The Butcher\". — “Nicknamed \"The Butcher\", he is known for his aggressive style of play, physical duels, and accurate long passes from the back.”",
+    "✓ In the 2021–22 Eredivisie season, Lisandro Martínez averaged more passes per 90 minutes than any other player. — “In the 2021–22 Eredivisie season, he averaged more passes per 90 minutes than any other player.”",
+    "✓ Lisandro Martínez has played with Gravenberch. — “[Squad data > Ajax Amsterdam] Played in 84 matches alongside Ryan Gravenberch for Ajax Amsterdam (2019 to 2022)”",
+    "✓ Lisandro Martínez has played with Eriksen. — “[Squad data > Manchester United] Played in 52 matches alongside Christian Eriksen for Manchester United (2022 to 2025)”",
+    "✓ Lisandro Martínez has played with Varane. — “[Squad data > Manchester United] Played in 35 matches alongside Raphaël Varane for Manchester United (2022 to 2024)”"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lisandro_Martínez"
+   ],
+   "proposed": {
+    "question": "I'm known for my aggressive style of play and have been nicknamed \"The Butcher\".\nDespite this, in the 2021–22 Eredivisie season I averaged more passes per 90 minutes than any other player.\nI've played with the likes of Gravenberch, Eriksen & Varane.",
+    "answers": [
+     "Lisandro Martínez",
+     "Martínez"
+    ],
+    "clues": {
+     "GK": false,
+     "DEF": true,
+     "MID": false,
+     "FWD": false,
+     "RET": false,
+     "ENG": false
+    }
+   }
+  }
+ ]
+}

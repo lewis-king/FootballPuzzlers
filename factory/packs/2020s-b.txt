@@ -1,0 +1,107 @@
+# The 2020s pack, second pass (21 Nov 2026), after Lewis's review of Q1-15. Every question redrafted:
+# tricky and thought-provoking from question 1 (STYLE.md), every named person adding something (no lists
+# that all meet at one club, managers included), and a climb to genuinely hard questions at the end.
+# '@N' is the difficulty target, 1-5. Merged with the first pass by merge_pass.py, then assemble.py
+# picks and orders the 60.
+
+# The first pass's 60, in its order, each aimed a little harder than it came out
+Jude Bellingham @2
+Rodri @2
+Kylian Mbappé @2
+Harry Kane @2
+Lamine Yamal @2
+Cole Palmer @3
+Mohamed Salah @3
+Bukayo Saka @3
+Lionel Messi @3
+Vinícius Júnior @3
+Marcus Rashford @3
+Bruno Fernandes @3
+Mason Mount @3
+Declan Rice @3
+Phil Foden @3
+Kevin De Bruyne @3
+Son Heung-min @3
+Karim Benzema @3
+Ollie Watkins @3
+Trent Alexander-Arnold @3
+Kyle Walker @4
+Jorginho @4
+Robert Lewandowski @4
+Virgil van Dijk @4
+Bruno Guimarães @4
+Moisés Caicedo @4
+Riyad Mahrez @4
+Rúben Dias @4
+John Stones @4
+Dominik Szoboszlai @4
+Khvicha Kvaratskhelia @4
+Victor Osimhen @4
+Emiliano Martínez @4
+Luka Modrić @4
+Kieran Trippier @4
+Scott McTominay @4
+Jordan Pickford @4
+Ivan Toney @4
+Casemiro @4
+Tammy Abraham @4
+Kalvin Phillips @4
+Darwin Núñez @4
+Rasmus Højlund @4
+Antoine Semenyo @4
+Wout Weghorst @4
+Morgan Gibbs-White @4
+Pierre-Emerick Aubameyang @4
+Pedro Neto @4
+Ben White @5
+Fikayo Tomori @5
+Kelechi Iheanacho @5
+Youri Tielemans @5
+Yoane Wissa @5
+Jamie Vardy @5
+Tomáš Souček @5
+Dominic Calvert-Lewin @5
+Emiliano Buendía @5
+Jean-Philippe Mateta @5
+Joachim Andersen @5
+Lisandro Martínez @5
+
+# Passed over last time; redrafted as late, hard questions
+Callum Wilson @5
+Raúl Jiménez @5
+Dan Burn @5
+Hwang Hee-chan @5
+Leandro Trossard @5
+Christian Nørgaard @5
+Teemu Pukki @5
+Michail Antonio @5
+
+# New: cult heroes and surprises from the 2020s
+Jesse Lingard @4
+Ademola Lookman @4
+Granit Xhaka @4
+Dele Alli @4
+Jordan Henderson @4
+Jarrod Bowen @4
+Eberechi Eze @4
+Wilfried Zaha @4
+Ross Barkley @4
+James Ward-Prowse @4
+Danny Welbeck @4
+Kieran Tierney @4
+Conor Coady @5
+Neal Maupay @5
+Che Adams @5
+Lewis Dunk @5
+Pascal Groß @5
+Allan Saint-Maximin @5
+Matheus Cunha @5
+Serhou Guirassy @5
+Victor Boniface @5
+Ezri Konsa @5
+Rayan Aït-Nouri @5
+Joelinton @5
+Sandro Tonali @5
+Odsonne Édouard @5
+Sam Johnstone @5
+Tyrick Mitchell @5

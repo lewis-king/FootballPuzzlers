@@ -1,0 +1,111 @@
+{
+ "answer": "Kai Havertz",
+ "acceptableAnswers": [
+  "Kai Havertz",
+  "Havertz"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've scored the winning goals in both a Champions League final and a Club World Cup final.\nIn 2026, I became the first German ever to score in two different Champions League finals.\nI've played with the likes of Lukaku, Saka & Declan Rice",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (winning goals in both CL and CWC finals), and the narrowing clue works well. However, it reads slightly like a list of achievements rather than a connected story with tension or twist, which keeps it from being a perfect 5.",
+  "fix": "Add a connecting phrase to link the sentences more naturally, e.g., 'I've scored the winning goals in both a Champions League and a Club World Cup final. In 2026, I became the first German ever to score in two different Champions League finals. I've played with the likes of Lukaku, Saka & Declanrice"
+ },
+ "claims": [
+  {
+   "text": "Kai Havertz scored the winning goal in a Champions League final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "With Chelsea, Havertz won the 2020–21 UEFA Champions League, 2021 UEFA Super Cup, and the 2021 FIFA Club World Cup, scoring the winning goals in the Champions League and Club World Cup finals.",
+    "scoring the winning goals in the Champions League and Club World Cup finals."
+   ]
+  },
+  {
+   "text": "Kai Havertz scored the winning goal in a Club World Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "scoring the winning goals in the Champions League and Club World Cup finals."
+   ]
+  },
+  {
+   "text": "In 2026, Kai Havertz became the first German ever to score in two different Champions League finals.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first German ever to score in two Champions League finals",
+    "On 30 May 2026, Havertz scored in the Champions League final against PSG, becoming the first German ever to score in two Champions League finals as well as the third player in football history after Cristiano Ronaldo and Mario Manděukić to score in two Champions League finals for two different clubs."
+   ]
+  },
+  {
+   "text": "Kai Havertz played with Romelu Lukaku.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 30 matches alongside Romelu Lukaku for Chelsea FC (2021 to 2022)",
+    "[Squad data > Chelsea FC] Played in 30 matches alongside Romelu Lukaku for Chelsea FC (2021 to 2022)"
+   ]
+  },
+  {
+   "text": "Kai Havertz played with Bukayo Saka.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Played in 80 matches alongside Bukayo Saka for Arsenal FC (2023 to 2026)",
+    "[Squad data > Arsenal FC] Played in 80 matches alongside Bukayo Saka for Arsenal FC (2023 to 2026)"
+   ]
+  },
+  {
+   "text": "Kai Havertz played with Declan Rice.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Played in 98 matches alongside Declan Rice for Arsenal FC (2023 to 2026)",
+    "[Squad data > Arsenal FC] Played in 98 matches alongside Declan Rice for Arsenal FC (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kai_Havertz",
+  "revid": 1386090884
+ },
+ "alternatives": [
+  {
+   "question": "I was once the youngest player in Bundesliga history to reach 50 league appearances.\nAlthough I'm known for my time in London, I actually started my career at Bayer Leverkusen.\nI've been managed by Thomas Tuchel & Mikel Arteta",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I've scored the winning goals in both a Champions League final and a Club World Cup final.\nBy November 2026, I had also become the highest scoring German in Premier League history.\nI've played with the likes of Lukaku, Saka & Declan Rice",
+   "problems": [
+    "wording will date: The claim to be the 'highest scoring German in Premier League history' is a mutable record that could change if another player scores more goals.; The claim to be the highest scoring German in PL history is a current record that could be broken."
+   ],
+   "style": 4
+  },
+  {
+   "question": "I'm the first German ever to score in two different Champions League finals, having done so for two different clubs.\nIncredibly, I also once had to miss a European match because it clashed with my school exams.\nI've been managed by Thomas Tuchel & Mikel Arteta",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I hold the record for being the youngest player to reach both 50 and 100 league appearances in the German top flight.\nFollowing my time in Germany, I moved to London where I've now won a Premier League title.\nI've played with the likes of Wirtz, João Félix & Raheem Sterling",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The phrase 'I hold the record' asserts a current all-time ranking that could be invalidated by future performances.; The phrase 'I hold the record' is in the present tense and could be superseded by a younger player."
+   ],
+   "style": 0
+  }
+ ]
+}

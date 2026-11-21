@@ -1,0 +1,76 @@
+{
+ "answer": "Martin Ødegaard",
+ "acceptableAnswers": [
+  "Martin Ødegaard",
+  "Ødegaard"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I became the youngest player in the history of Real Madrid when I made my debut as a substitute for Cristiano Ronaldo.\nFollowing several loan spells, I eventually signed permanently for Arsenal where I was later named captain.\nI've played with the likes of Hazard, Isak & Rice",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The draft is factually accurate and follows the house style well: it uses first-person British English, connects sentences logically ('Following several loan spells...'), and ends with a narrowing clue list of teammates. It avoids dull procedural details and focuses on memorable career milestones (y",
+  "fix": "Replace 'I became' with 'I was' to match Lewis's consistent past-tense voice for historical facts (e.g., 'I was the youngest player...'). Ensure the teammate list is verified against squad data: Ødegaard played with Hazard at Real Madrid, but Isak and Rice are Arsenal teammates; this mix works well."
+ },
+ "claims": [
+  {
+   "text": "Martin Ødegaard became the youngest player in the history of Real Madrid when he made his debut as a substitute for Cristiano Ronaldo.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He became the youngest debutant in the history of the club at 16 years and 157 days old.",
+    "He became the youngest debutant in the history of the club at 16 years and 157 days old."
+   ]
+  },
+  {
+   "text": "Martin Ødegaard signed permanently for Arsenal following several loan spells.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Following a six-month loan with Arsenal in the second half of the 2020–21 season, he signed for them on a permanent deal in August 2021",
+    "Following a six-month loan with Arsenal in the second half of the 2020–21 season, he signed for them on a permanent deal in August 2021"
+   ]
+  },
+  {
+   "text": "Martin Ødegaard was named captain of Arsenal.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Martin Ødegaard (Norwegian pronunciation: [ˈmɑ̀ʈːɪn ˈø̀ːdəˌɡoːɾ]; born 17 December 1998) is a Norwegian professional footballer who plays as a midfielder for and captains both Premier League club Arsenal and the Norway national team.",
+    "Following the departures of previous club captain Pierre-Emerick Aubameyang and interim captain Alexandre Lacazette, Arteta named Ødegaard as the new captain for Arsenal ahead of the 2022–23 season."
+   ]
+  },
+  {
+   "text": "Martin Ødegaard has played with Eden Hazard, Alexander Isak and Declan Rice.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Martin_Ødegaard",
+  "revid": 1386708693
+ },
+ "alternatives": [
+  {
+   "question": "At age 15, I set the record for being the youngest goalscorer in the Tippeligaen.\nIncredibly, I also became the youngest player ever to feature in a European Championship qualifier.\nI've played with the likes of Varane, Sterling & Saka",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I've had the honour of captaining both my national team and my club.\nIt was as the latter that I lifted the Premier League trophy in 2026.\nMy career has seen me managed by Zidane, Arteta & Alguacil",
+   "problems": [],
+   "style": 3
+  }
+ ]
+}

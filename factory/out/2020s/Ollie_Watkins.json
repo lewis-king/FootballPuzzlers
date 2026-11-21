@@ -1,0 +1,133 @@
+{
+ "answer": "Ollie Watkins",
+ "acceptableAnswers": [
+  "Ollie Watkins",
+  "Watkins"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I once scored a perfect hat-trick against the reigning champions in a game that was their heaviest defeat in 57 years.\nFollowing my time at Brentford, I joined Aston Villa for a then club-record fee.\nI've been managed by Dean Smith, Steven Gerrard & Unai Emery.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is excellent and memorable (the heaviest defeat in 57 years), which fits the style guide perfectly. The structure follows the 'hook -> development -> clue' format well. However, it loses a point because the final clue list (Smith, Gerrard & Emery) is slightly generic for an Aston Villa fan;",
+  "fix": "Consider swapping one of the managers for a teammate to add more intrigue or specificity, e.g., 'I've played with McGinn, Luiz & Watkins' (wait, can't name self). Maybe 'I've shared a dressing room with the likes of Luiz, McGinn & Tielemans'. Or keep the managers but ensure they are distinct enough."
+ },
+ "claims": [
+  {
+   "text": "Ollie Watkins scored a perfect hat-trick against the reigning champions.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 4 October 2020, Watkins scored his first Premier League goals, scoring through a left footed strike, a right footed strike and a header for a perfect hat-trick in a 7–2 home victory over champions.",
+    "On 4 October 2020, Watkins scored his first Premier League goals, scoring through a left footed strike, a right footed strike and a header for a perfect hat-trick in a 7–2 home victory over champions Liverpool."
+   ]
+  },
+  {
+   "text": "The match in which Ollie Watkins scored a perfect hat-trick was the heaviest defeat for the opposing team in 57 years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "It was Liverpool's heaviest defeat in 57 years",
+    "It was Liverpool's heaviest defeat in 57 years"
+   ]
+  },
+  {
+   "text": "Ollie Watkins played for Brentford before joining Aston Villa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 18 July 2017, Watkins joined Championship club Brentford on a four-year contract, with an option for a further year, for an undisclosed fee, reported to be £1.8 million."
+   ]
+  },
+  {
+   "text": "Ollie Watkins joined Aston Villa for a then club-record fee.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "for a then club-record fee",
+    "On 9 September 2020, Watkins joined Premier League club Aston Villa on a five-year contract, for a then club-record fee of £28 million, which could rise to £33 million."
+   ]
+  },
+  {
+   "text": "Dean Smith managed Ollie Watkins.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Was managed by Dean Smith at Aston Villa in 46 matches (2020 to 2021)",
+    "[Squad data > Aston Villa] Was managed by Dean Smith at Aston Villa in 46 matches (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Steven Gerrard managed Ollie Watkins.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Was managed by Steven Gerrard at Aston Villa in 38 matches (2021 to 2022)",
+    "[Squad data > Aston Villa] Was managed by Steven Gerrard at Aston Villa in 38 matches (2021 to 2022)"
+   ]
+  },
+  {
+   "text": "Unai Emery managed Ollie Watkins.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Was managed by Unai Emery at Aston Villa in 176 matches (2022 to 2026)",
+    "[Squad data > Aston Villa] Was managed by Unai Emery at Aston Villa in 176 matches (2022 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ollie_Watkins",
+  "revid": 1383062722
+ },
+ "alternatives": [
+  {
+   "question": "I've won the Premier League Playmaker of the Season award despite playing as a forward.\nFollowing my time at Brentford, I moved to Aston Villa for a then club-record fee.\nI've been managed by Dean Smith, Steven Gerrard & Unai Emery.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In May 2025 I became Aston Villa's all-time top Premier League scorer.\nYet a year later, I refused to play in the opening game of the season to force a move to Al-Hilal.\nI've been managed by Dean Smith, Steven Gerrard & Unai Emery.",
+   "problems": [
+    "claim not stated in the evidence: \"In the year following May 2025, Ollie Watkins refused to play in the opening game of the season.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once scored a perfect hat-trick against the reigning champions, a result that was Liverpool's heaviest defeat in 57 years.\nIn May 2025 I became my club's all-time top Premier League scorer.\nI've played with the likes of Grealish, Coutinho & Sancho.",
+   "problems": [
+    "team-mates all from one club (Aston Villa); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I won the Premier League Playmaker of the Season award in 2024, despite playing as a forward.\nFollowing my time at Brentford, I moved to Aston Villa for a then club-record fee.\nI've played with the likes of Grealish, Coutinho & Sancho.",
+   "problems": [
+    "team-mates all from one club (Aston Villa); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I won the Premier League Playmaker of the Season award for the 2023–24 season, despite being a forward.\nBy May 2025 I had also become my club's all-time top Premier League goalscorer.\nI've played with the likes of Grealish, Coutinho & Sancho.",
+   "problems": [
+    "team-mates all from one club (Aston Villa); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm an English forward who recently moved to the Saudi Pro League after a long spell in the West Midlands.\nDuring my time there I scored my 100th goal for the club and became their all-time top European scorer.\nI've played alongside Rashford, Asensio & Tielemans.",
+   "problems": [
+    "team-mates all from one club (Aston Villa); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Ollie Watkins recently moved to the Saudi Pro League after a long spell in the West Midlands.\""
+   ],
+   "style": 0
+  }
+ ]
+}

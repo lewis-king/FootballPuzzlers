@@ -1,0 +1,118 @@
+{
+ "answer": "Rodri",
+ "acceptableAnswers": [
+  "Rodri"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In 2024 I won the Ballon d'Or, becoming the first defensive midfielder to do so since 1990.\nFollowing this achievement, I captained my country to a World Cup title in 2026 where I also won the Golden Ball.\nI've played with the likes of Griezmann, De Bruyne & Lamine Yamal.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 1,
+  "why": "The draft reads exactly like one of Lewis's originals: it opens with a major hook (Ballon d'Or), connects the sentences logically ('Following this achievement'), and closes with a narrowing list of teammates that spans different clubs and eras. The facts are accurate for the timeline provided (Nov 2",
+  "fix": "None needed."
+ },
+ "claims": [
+  {
+   "text": "Rodri won the Ballon d'Or in 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Rodri won the 2024 Ballon d'Or",
+    "Rodri won the 2024 Ballon d'Or"
+   ]
+  },
+  {
+   "text": "Rodri is a defensive midfielder.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Rodrigo Hernández Cascante (born 22 June 1996), known as Rodrigo or simply Rodri, is a Spanish professional footballer who plays as a defensive midfielder for La Liga club Barcelona and captains the Spain national team.",
+    "plays as a defensive midfielder for La Liga club Barcelona"
+   ]
+  },
+  {
+   "text": "No defensive midfielder won the Ballon d'Or between 1990 and 2024 (exclusive of 1990).",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first defensive midfielder since Lothar Matthäus in 1990 to receive the award",
+    "Rodri won the 2024 Ballon d'Or, becoming the first defensive midfielder since Lothar Matthäus in 1990 to receive the award"
+   ]
+  },
+  {
+   "text": "Rodri captained his country to a World Cup title in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the 2026 World Cup, he won the Golden Ball as Spain claimed their second title (the last one being in 2010)."
+   ]
+  },
+  {
+   "text": "The World Cup title Rodri won was achieved after he won the Ballon d'Or in 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Following Spain's victory at the 2026 FIFA World Cup, where he was awarded the Golden Ball as the tournament's best player, he became only the seventh player in history, and the first based in the Premier League, to win the World Cup, the UEFA European Championship, the UEFA Champions League, and the Ballon d'Or."
+   ]
+  },
+  {
+   "text": "Rodri won the Golden Ball at the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the 2026 World Cup, he won the Golden Ball as Spain claimed their second title (the last one being in 2010).",
+    "At the 2026 World Cup, he won the Golden Ball as Spain claimed their second title (the last one being in 2010)."
+   ]
+  },
+  {
+   "text": "Rodri has played with Antoine Griezmann.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Atlético de Madrid] Played in 44 matches alongside Antoine Griezmann for Atlético de Madrid (2018 to 2019)",
+    "[Squad data > Atlético de Madrid] Played in 44 matches alongside Antoine Griezmann for Atlético de Madrid (2018 to 2019)"
+   ]
+  },
+  {
+   "text": "Rodri has played with Kevin De Bruyne.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 180 matches alongside Kevin De Bruyne for Manchester City (2019 to 2025)",
+    "[Squad data > Manchester City] Played in 180 matches alongside Kevin De Bruyne for Manchester City (2019 to 2025)"
+   ]
+  },
+  {
+   "text": "Rodri has played with Lamine Yamal.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Spain] Played in 3 matches alongside Lamine Yamal for Spain (2026)",
+    "[Squad data > Spain] Played in 3 matches alongside Lamine Yamal for Spain (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Rodri",
+  "revid": 1384849339
+ },
+ "alternatives": [
+  {
+   "question": "I was released from Atlético Madrid's youth setup as a teenager due to a lack of physical strength.\nYet I later returned to the club as a senior before moving to England for a then-record fee for a Spanish player.\nI've played alongside Haaland, Foden & Pau Cubarsí.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I scored the only goal in the 2023 Champions League final to secure my club's first title in the competition.\nIncredibly, I've since won a World Cup, a European Championship and the Ballon d'Or.\nThroughout my career I've been managed by Simeone & Guardiola.",
+   "problems": [
+    "claim not stated in the evidence: \"Rodri has won the Ballon d'Or since scoring the only goal in the 2023 Champions League final.\""
+   ],
+   "style": 5
+  }
+ ]
+}

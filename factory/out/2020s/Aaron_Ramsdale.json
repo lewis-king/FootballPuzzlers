@@ -1,0 +1,77 @@
+{
+ "answer": "Aaron Ramsdale",
+ "acceptableAnswers": [
+  "Aaron Ramsdale",
+  "Ramsdale"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I became the most expensive goalkeeper in Arsenal's history when I signed for them in 2021.\nFollowing a run of form that saw me named in the PFA Team of the Year, I was relegated to the bench by Mikel Arteta.\nI've played with the likes of Saka, Ødegaard & Tonali.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The draft reads naturally and follows the house style well: it uses first-person British English, connects sentences with 'Following...', and ends with a narrowing list of teammates. The hook (most expensive GK) is specific and memorable enough for a fan quiz, though not quite as charming or twisty.",
+  "fix": "The main weakness is factual accuracy regarding the final clue: Riccardo Calafiori (Tonali) joined Arsenal in January 2025, whereas Ramsdale was already on loan at Nottingham Forest by then and had left Arsenal's first-team squad earlier. They did not play together for Arsenal. Replace 'Tonali' with"
+ },
+ "claims": [
+  {
+   "text": "Aaron Ramsdale became the most expensive goalkeeper in Arsenal's history when he signed for them in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2021, Ramsdale signed for Arsenal in a club record transfer worth up to £30 million, becoming their most expensive goalkeeper.",
+    "In 2021, Ramsdale signed for Arsenal in a club record transfer worth up to £30 million, becoming their most expensive goalkeeper."
+   ]
+  },
+  {
+   "text": "Aaron Ramsdale was named in the PFA Team of the Year following a run of form.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Ramsdale was named in the Premier League PFA Team of the Year at the end of the 2022–23 season.",
+    "Ramsdale was named in the Premier League PFA Team of the Year at the end of the 2022–23 season."
+   ]
+  },
+  {
+   "text": "Mikel Arteta relegated Aaron Ramsdale to the bench after he was named in the PFA Team of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In the beginning of the 2023–24 season, Arsenal's manager Mikel Arteta promoted new signing David Raya to the starting team, relegating Ramsdale to the bench."
+   ]
+  },
+  {
+   "text": "Aaron Ramsdale played with Bukayo Saka, Martin Ødegaard and Sandro Tonali.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Played in 84 matches alongside Bukayo Saka for Arsenal FC (2021 to 2024); Played in 85 matches alongside Martin Ødegaard for Arsenal FC (2021 to 2024); Played in 20 matches alongside Sandro Tonali for Newcastle United (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Aaron_Ramsdale",
+  "revid": 1381979019
+ },
+ "alternatives": [
+  {
+   "question": "During a loan spell at Chesterfield, I unfortunately scored an own goal on my debut.\nYet I've since represented England at the World Cup and two European Championships.\nI've been managed by Chris Wilder & Eddie Howe.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "In 2023 I was the subject of an incident where a fan tried to kick me in the back during a North London derby.\nIncredibly, it was during this period that I also won the London Football Awards Goalkeeper of the Year.\nI've played with Aubameyang, Havertz & Elanga.",
+   "problems": [],
+   "style": 4
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "answer": "Riyad Mahrez",
+ "acceptableAnswers": [
+  "Riyad Mahrez",
+  "Mahrez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "article",
+  "contract": ""
+ },
+ "status": "READY",
+ "question": "I was the first African player to win the PFA Players' Player of the Year award.\nFollowing that success, I went on to win a domestic treble with a different English club.\nI've played with the likes of Kanté, De Bruyne & Bennacer.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are correct and the structure follows the house style (hook, development, narrowing clue). However, it lacks the 'twist' or tension found in the best originals. The transition from PFA award to treble is a simple chronological progression rather than a surprising contrast. Additionally, 'B",
+  "fix": "Add a layer of surprise or specific detail to make it more engaging. For example: 'I was the first African player to win the PFA Players' Player of the Year award, yet I had only just arrived in England that season. The following year, after moving clubs, I helped secure a domestic treble. I've been"
+ },
+ "claims": [
+  {
+   "text": "Riyad Mahrez was the first African player to win the PFA Players' Player of the Year award.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was the first African to earn the accolade.",
+    "He was the first African to earn the accolade."
+   ]
+  },
+  {
+   "text": "Following his win of the PFA Players' Player of the Year award, Riyad Mahrez won a domestic treble with a different English club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first African player to complete an English domestic treble, as he earlier won the 2018–19 EFL Cup and the 2018–19 Premier League."
+   ]
+  },
+  {
+   "text": "Riyad Mahrez has played with N'Golo Kanté.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Played in 36 matches alongside N'Golo Kanté for Leicester City (2015 to 2016)",
+    "[Squad data > Leicester City] Played in 36 matches alongside N'Golo Kanté for Leicester City (2015 to 2016)"
+   ]
+  },
+  {
+   "text": "Riyad Mahrez has played with Kevin De Bruyne.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 153 matches alongside Kevin De Bruyne for Manchester City (2018 to 2023)",
+    "[Squad data > Manchester City] Played in 153 matches alongside Kevin De Bruyne for Manchester City (2018 to 2023)"
+   ]
+  },
+  {
+   "text": "Riyad Mahrez has played with Ismael Bennacer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Algeria] Played in 3 matches alongside Ismaël Bennacer for Algeria (2025 to 2026)",
+    "[Squad data > Algeria] Played in 3 matches alongside Ismaël Bennacer for Algeria (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Riyad_Mahrez",
+  "revid": 1385831819
+ },
+ "alternatives": [
+  {
+   "question": "I once had a trial at a Scottish club but left because I couldn't stand the cold weather.\nDespite this, I later moved to England and became the first Algerian to win a Premier League medal.\nI've been managed by Claudio Ranieri & Pep Guardiola.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "In 2023 I became one of the first players to have won both European and Asian club titles.\nBefore moving to Asia, I captained my country to their first Africa Cup of Nations title since 1990.\nI've played with the likes of Haaland, Sterling & Maguire.",
+   "problems": [
+    "claim not stated in the evidence: \"Riyad Mahrez became one of the first players to have won both European and Asian club titles in 2023.\""
+   ],
+   "style": 4
+  }
+ ]
+}

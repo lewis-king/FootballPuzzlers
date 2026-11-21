@@ -1,0 +1,104 @@
+{
+ "answer": "Florian Wirtz",
+ "acceptableAnswers": [
+  "Florian Wirtz",
+  "Wirtz"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've had the honour of becoming the youngest ever goalscorer for Germany in the history of the European Championships.\nIncredibly, I also scored a friendly goal against France just seven seconds after kick-off earlier that same year.\nI've played under managers such as Xabi Alonso & Arne Slot.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The question reads naturally and follows the house style well with connected sentences ('Incredibly...') and a narrowing clue at the end (managers). The facts are accurate and memorable for fans. It loses one point because the final clue is slightly weak; while Xabi Alonso and Arne Slot are distinct",
+  "fix": "Consider swapping one of the managers for a teammate to make the narrowing clue stronger, or adding a specific detail about his role at Bayer Leverkusen vs Bayern Munich to increase difficulty."
+ },
+ "claims": [
+  {
+   "text": "Florian Wirtz is the youngest ever goalscorer for Germany in the history of the European Championships.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He later became the youngest ever goalscorer for Germany in the history of the European Championships after he scored a goal against Scotland at UEFA Euro 2024.",
+    "He later became the youngest ever goalscorer for Germany in the history of the European Championships after he scored a goal against Scotland at UEFA Euro 2024."
+   ]
+  },
+  {
+   "text": "Florian Wirtz scored a goal against France in a friendly match seven seconds after kick-off.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he scored his first senior goal for Germany seven seconds into a friendly match against France",
+    "On 23 March 2024, he scored his first senior goal for Germany seven seconds into a friendly match against France, a 2–0 away victory, breaking Lukas Podolski's record, also becoming the second fastest goalscorer in international football history behind Austrian footballer Christoph Baumgartner, who scored a goal in just six seconds in another friendly match against Slovakia on the same day."
+   ]
+  },
+  {
+   "text": "The friendly goal against France occurred earlier in the same year as his European Championship goalscorer record.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 23 March 2024, he scored his first senior goal for Germany seven seconds into a friendly match against France, a 2–0 away victory"
+   ]
+  },
+  {
+   "text": "Florian Wirtz has played under manager Xabi Alonso.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayer 04 Leverkusen] Was managed by Xabi Alonso at Bayer 04 Leverkusen in 119 matches (2023 to 2025)",
+    "[Squad data > Bayer 04 Leverkusen] Was managed by Xabi Alonso at Bayer 04 Leverkusen in 119 matches (2023 to 2025)"
+   ]
+  },
+  {
+   "text": "Florian Wirtz has played under manager Arne Slot.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 49 matches (2025 to 2026)",
+    "[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 49 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Florian_Wirtz",
+  "revid": 1386682843
+ },
+ "alternatives": [
+  {
+   "question": "I once held the record for being the youngest goalscorer in Bundesliga history, though I was later surpassed.\nIn 2024 I helped my club to an unbeaten domestic double and was named player of the season.\nI've played with the likes of Salah, Isak & Musiala.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In 2025 I became the most expensive player in Bundesliga history when I moved to England for a club-record fee.\nPreviously, I'd secured my first league title by scoring a hat-trick on the final day of the season.\nI've played with Pavlovic, Kimmich & Van Dijk.",
+   "problems": [
+    "claim not stated in the evidence: \"Florian Wirtz became the most expensive player in Bundesliga history in 2025.\"",
+    "claim not stated in the evidence: \"Florian Wirtz secured his first league title by scoring a hat-trick on the final day of the season.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2024 I scored the fastest goal for my country in a friendly against France, taking just seven seconds.\nFollowing this, I became the youngest German player to score at a European Championship.\nI've been managed by Xabi Alonso & Arne Slot.",
+   "problems": [
+    "claim not stated in the evidence: \"Florian Wirtz scored the fastest goal for Germany in a friendly against France in 2024.\"",
+    "claim not stated in the evidence: \"Following his goal in the 2024 friendly against France, Florian Wirtz became the youngest German player to score at a European Championship.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I once held the record for being the youngest goalscorer in Bundesliga history, although I was surpassed less than a year later.\nYet my career reached new heights in 2024 when I helped my club to an unbeaten domestic double and was named player of the season.\nI've since moved to England where I've played with the likes of Salah, Isak & Van Dijk.",
+   "problems": [
+    "team-mates all from one club (Liverpool FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "answer": "Julián Alvarez",
+ "acceptableAnswers": [
+  "Julián Alvarez",
+  "Alvarez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I became the first ever player in football history to win the World Cup and a continental treble in the same season.\nIn 2023 I also scored the fastest goal in the history of the Club World Cup.\nI've played with the likes of Griezmann, De Bruyne & Cole Palmer.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (first to win WC + continental treble in same season), which fits the style guide's preference for high-impact moments over dull stats. The sentence structure connects well ('In 2023 I also...'). However, it loses a point because the final clue list (Griezmann, De Br",
+  "fix": "The question is strong but slightly flat in its delivery of the second fact and the final clue could be tighter to avoid feeling like a list. To push this to a 5: \n\n1. **Connect the sentences better:** Instead of 'In 2023 I also scored...', try linking it to the club context or the contrast with his"
+ },
+ "claims": [
+  {
+   "text": "Julián Alvarez is the first ever player in football history to win the World Cup and a continental treble in the same season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "With this, he also became the first ever player in football history to win the World Cup and a continental treble in the same season.",
+    "With this, he also became the first ever player in football history to win the World Cup and a continental treble in the same season."
+   ]
+  },
+  {
+   "text": "In 2023, Julián Alvarez scored the fastest goal in the history of the Club World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "with his first goal being the fastest in the competition's history at 40 seconds",
+    "with his first goal being the fastest in the competition's history at 40 seconds."
+   ]
+  },
+  {
+   "text": "Julián Alvarez has played with Antoine Griezmann.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Atlético de Madrid] Played in 100 matches alongside Antoine Griezmann for Atlético de Madrid (2024 to 2026)",
+    "[Squad data > Atlético de Madrid] Played in 100 matches alongside Antoine Griezmann for Atlético de Madrid (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Julián Alvarez has played with Kevin De Bruyne.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 60 matches alongside Kevin De Bruyne for Manchester City (2022 to 2024)",
+    "[Squad data > Manchester City] Played in 60 matches alongside Kevin De Bruyne for Manchester City (2022 to 2024)"
+   ]
+  },
+  {
+   "text": "Julián Alvarez has played with Cole Palmer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 24 matches alongside Cole Palmer for Manchester City (2022 to 2023)",
+    "[Squad data > Manchester City] Played in 24 matches alongside Cole Palmer for Manchester City (2022 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Julián_Alvarez",
+  "revid": 1386587223
+ },
+ "alternatives": [
+  {
+   "question": "In 2022 I became the youngest player since Pelé to score two goals in a World Cup semi-final.\nFollowing my time at Manchester City, I moved to Spain in a club-record departure deal.\nI've played with Haaland, Messi & Oblak.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "In 2025 I was at the centre of a Champions League controversy when a goal I scored in a penalty shoot-out was disallowed for double-touching the ball.\nDespite this, I finished my debut season as my club's top scorer.\nI've been managed by both Pep Guardiola & Diego Simeone.",
+   "problems": [],
+   "style": 2
+  }
+ ]
+}

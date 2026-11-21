@@ -1,0 +1,106 @@
+{
+ "answer": "Enzo Fernández",
+ "acceptableAnswers": [
+  "Enzo Fernández",
+  "Fernández"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2032 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "During my first World Cup I won the Young Player Award, but in the 2026 final I became the first player to be sent off since 2010.\nUnfortunately I'm also well known for a six-month driving ban involving a Porsche Cayenne.\nI've been managed by Maresca, Pochettino & Roger Schmidt",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question reads naturally and follows the house style well: it opens with a strong hook (Young Player Award vs. red card in the final), uses conversational British English ('Unfortunately I'm also well known for...'), and closes with a narrowing clue via managers from different clubs/eras (Maresa",
+  "fix": "Pochettino & Roger Schmidt). The facts are correct as of November 2026: Enzo Fernández won the Young Player Award at the 2022 World Cup; he was sent off in the 2026 final, becoming the first player to be dismissed since 2010 (assuming this is a verified historical fact within the game's timeline);he"
+ },
+ "claims": [
+  {
+   "text": "Enzo Fernández won the Young Player Award during his first World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He represented Argentina at the 2022 FIFA World Cup, playing an important role in helping his country win their third title, while also winning the tournament's Young Player Award.",
+    "He represented Argentina at the 2022 FIFA World Cup, playing an important role in helping his country win their third title, while also winning the tournament's Young Player Award."
+   ]
+  },
+  {
+   "text": "Enzo Fernández was sent off in the 2026 final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In the final against Spain, he was given a second yellow and a red card after he fouled the Spanish player Pau Cubarsí, becoming the first player to be sent off in a FIFA World Cup final since John Heitinga in 2010.",
+    "Fernández was a key player in Argentina's campaign to reach the 2026 FIFA World Cup final, where he received a red card."
+   ]
+  },
+  {
+   "text": "Enzo Fernández became the first player to be sent off since 2010 in a World Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first player to be sent off in a FIFA World Cup final since John Heitinga in 2010",
+    "becoming the first player to be sent off in a FIFA World Cup final since John Heitinga in 2010"
+   ]
+  },
+  {
+   "text": "Enzo Fernández received a six-month driving ban involving a Porsche Cayenne.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In September 2024, Fernández was disqualified from driving for six months, receiving a 12-point penalty and being fined £3,020, following two driving offences committed in Wales in November and December 2023 by the driver of a Porsche Cayenne of which Fernández was registered as the owner.",
+    "In September 2024, Fernández was disqualified from driving for six months, receiving a 12-point penalty and being fined £3,020, following two driving offences committed in Wales in November and December 2023 by the driver of a Porsche Cayenne of which Fernández was registered as the owner."
+   ]
+  },
+  {
+   "text": "Maresca managed Enzo Fernández.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Was managed by Enzo Maresca at Chelsea FC in 72 matches (2024 to 2025)",
+    "[Squad data > Chelsea FC] Was managed by Enzo Maresca at Chelsea FC in 72 matches (2024 to 2025)"
+   ]
+  },
+  {
+   "text": "Pochettino managed Enzo Fernández.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Was managed by Mauricio Pochettino at Chelsea FC in 40 matches (2023 to 2024)",
+    "[Squad data > Chelsea FC] Was managed by Mauricio Pochettino at Chelsea FC in 40 matches (2023 to 2024)"
+   ]
+  },
+  {
+   "text": "Roger Schmidt managed Enzo Fernández.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SL Benfica] Was managed by Roger Schmidt at SL Benfica in 26 matches (2022 to 2023)",
+    "[Squad data > SL Benfica] Was managed by Roger Schmidt at SL Benfica in 26 matches (2022 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Enzo_Fernández",
+  "revid": 1385561793
+ },
+ "alternatives": [
+  {
+   "question": "In 2026 I scored the 3000th goal in FIFA World Cup history.\nThat same year I joined Manchester City for a British-record equalling fee of £125 million.\nI've played with the likes of Draxler, Caicedo & Palmer",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I'm the first player in football history to be transferred for more than £100 million on two separate occasions.\nIn 2022 I won the World Cup Young Player Award after helping my country win the trophy.\nI've played with the likes of Sterling, Nkunku & Gonçalo Ramos",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim 'first player in football history' is a superlative that could be invalidated by future transfers.; The claim to be the 'first player' to reach this transfer milestone is a current record that could be superseded."
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "answer": "Jordan Pickford",
+ "acceptableAnswers": [
+  "Jordan Pickford",
+  "Pickford"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In 2021 I set an all-time England record for the most consecutive scoreless minutes by a goalkeeper.\nFollowing my time at Sunderland, I moved to Everton for a fee of £30 million in 2017.\nI've played with the likes of James Rodríguez, Dele Alli & Grealish.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The question is factually accurate and follows the house style well: it uses first-person British English, connects sentences with 'Following my time at...', and ends with a narrowing clue list of teammates. The hook (all-time England record for consecutive scoreless minutes) is specific and verifi­",
+  "fix": "Replace the dull transfer fee detail ('for a fee of £30 million') with something more engaging or simply remove it to tighten the flow, e.g., 'Following my time at Sunderland, I moved to Everton in 2017.' This keeps the focus on the career progression and the memorable record."
+ },
+ "claims": [
+  {
+   "text": "Jordan Pickford set an all-time England record for the most consecutive scoreless minutes by a goalkeeper in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 7 July 2021, Pickford set an all-time England record for most consecutive scoreless minutes posted by a goalkeeper.",
+    "On 7 July 2021, Pickford set an all-time England record for most consecutive scoreless minutes posted by a goalkeeper."
+   ]
+  },
+  {
+   "text": "Jordan Pickford moved from Sunderland to Everton in 2017.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He signed for Everton for a fee of £30 million in June 2017.",
+    "On 15 June 2017, Pickford signed for Premier League club Everton on a five-year contract."
+   ]
+  },
+  {
+   "text": "The transfer fee for Jordan Pickford's move to Everton was £30 million.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He signed for Everton for a fee of £30 million in June 2017."
+   ]
+  },
+  {
+   "text": "Jordan Pickford has played with James Rodríguez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Played in 19 matches alongside James Rodríguez for Everton FC (2020 to 2021)",
+    "[Squad data > Everton FC] Played in 19 matches alongside James Rodríguez for Everton FC (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Jordan Pickford has played with Dele Alli.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Played in 12 matches alongside Dele Alli for Everton FC (2022)",
+    "[Squad data > Everton FC] Played in 12 matches alongside Dele Alli for Everton FC (2022)"
+   ]
+  },
+  {
+   "text": "Jordan Pickford has played with Jack Grealish.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Played in 20 matches alongside Jack Grealish for Everton FC (2025 to 2026)",
+    "[Squad data > Everton FC] Played in 20 matches alongside Jack Grealish for Everton FC (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jordan_Pickford",
+  "revid": 1385336155
+ },
+ "alternatives": [
+  {
+   "question": "In that same tournament I set an all-time England record for most consecutive scoreless minutes.\nFollowing my time at Sunderland, I moved to Everton for a fee that made me the most expensive British goalkeeper of all time.\nI've played with the likes of James Rodríguez, Dele Alli & Grealish.",
+   "problems": [
+    "wording will date: The phrase 'most expensive British goalkeeper of all time' is a superlative record that could be invalidated by future transfers.; The claim to be the 'most expensive British goalkeeper of all time' is a current record that could be broken by a future transfer."
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2019 I became the first goalkeeper to both score and save a penalty in a competitive shoot-out for England.\nBy June 2024 I had equalled Peter Shilton's record for the most clean sheets for my country in major international tournaments.\nI've been managed by Carlo Ancelotti & David Moyes.",
+   "problems": [
+    "claim not stated in the evidence: \"By June 2024, Jordan Pickford had equalled Peter Shilton's record for the most clean sheets for England in major international tournaments.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "Although I've reached two European Championship finals, my best World Cup finish was third in 2026.\nBy the end of that tournament I had made 18 appearances, the most of any England player in WC history.\nI've been managed by Carlo Ancelotti & David Moyes.",
+   "problems": [
+    "claim is wrong: \"Jordan Pickford's best World Cup finish was third in 2026.\"",
+    "claim not stated in the evidence: \"Jordan Pickford made more appearances than any other England player in World Cup history by the end of the 2026 tournament.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "It remains the only time a keeper has scored from open play in a FIFA finals.\nSince moving to the Premier League, I've reached the milestone of 100 clean sheets for my club.\nI've played alongside the likes of Harry Kane, Bukayo Saka & Jude Bellingham.",
+   "problems": [
+    "team-mates all from one club (England); mix clubs or add a surprising name",
+    "claim is wrong: \"Jordan Pickford has scored from open play in a FIFA finals match.\"",
+    "claim not stated in the evidence: \"It remains the only time a keeper has scored from open play in a FIFA finals.\"",
+    "wording will date: The phrase 'It remains the only time' asserts a current all-time record that could be invalidated if another goalkeeper scores from open play in a future FIFA final.; The phrase 'It remains the only time' is a present-tense record that could be broken tomorrow."
+   ],
+   "style": 0
+  }
+ ]
+}

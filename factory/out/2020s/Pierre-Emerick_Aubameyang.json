@@ -1,0 +1,110 @@
+{
+ "answer": "Pierre-Emerick Aubameyang",
+ "acceptableAnswers": [
+  "Pierre-Emerick Aubameyang",
+  "Aubameyang"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "The first league title of my career came after playing just nine minutes for the club.\nAlthough I was born in France, I've made a total of 72 caps for Gabon.\nI've been managed by the likes of Klopp, Arteta & De Zerbi",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (the 'nine minutes' fact), and the manager list effectively narrows the field. However, it reads slightly like a list of facts rather than a connected story; linking the birthplace to the national team choice with a word like 'yet' or 'despite' would improve the flow",
+  "fix": "The first league title of my career came after playing just nine minutes for the club. Although I was born in France, I chose to represent Gabon, making 72 caps for them. I've been managed by the likes of Klopp, Arteta & De Zerbi"
+ },
+ "claims": [
+  {
+   "text": "Pierre-Emerick Aubameyang's first league title came after playing just nine minutes for the club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "meaning Aubameyang claimed the first league title in his career, despite playing just nine minutes for Barcelona before joining Chelsea in the summer of 2022.",
+    "On 14 May 2023, Barcelona beat Espanyol in a 4–2 win to secure the 2022–23 La Liga title, meaning Aubameyang claimed the first league title in his career, despite playing just nine minutes for Barcelona before joining Chelsea in the summer of 2022."
+   ]
+  },
+  {
+   "text": "Pierre-Emerick Aubameyang was born in France.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Aubameyang was born in Laval, Mayenne, France.",
+    "Born in France, he played for the Gabon national team."
+   ]
+  },
+  {
+   "text": "Pierre-Emerick Aubameyang has made a total of 72 caps for Gabon.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made a total of 72 appearances for the Gabon national team and scored 30 goals.",
+    "He made a total of 72 appearances for the Gabon national team"
+   ]
+  },
+  {
+   "text": "Jürgen Klopp managed Pierre-Emerick Aubameyang.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Borussia Dortmund] Was managed by Jürgen Klopp at Borussia Dortmund in 93 matches (2013 to 2015)",
+    "[Squad data > Borussia Dortmund] Was managed by Jürgen Klopp at Borussia Dortmund in 93 matches (2013 to 2015)"
+   ]
+  },
+  {
+   "text": "Mikel Arteta managed Pierre-Emerick Aubameyang.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 75 matches (2019 to 2021)",
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 75 matches (2019 to 2021)"
+   ]
+  },
+  {
+   "text": "Roberto De Zerbi managed Pierre-Emerick Aubameyang.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Olympique Marseille] Was managed by Roberto De Zerbi at Olympique Marseille in 27 matches (2025 to 2026)",
+    "[Squad data > Olympique Marseille] Was managed by Roberto De Zerbi at Olympique Marseille in 27 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Pierre-Emerick_Aubameyang",
+  "revid": 1386553621
+ },
+ "alternatives": [
+  {
+   "question": "I'm an African player who has scored over 250 goals across Europe's top five leagues.\nAlthough I was born in France, I've made a total of 72 caps for Gabon.\nI've been managed by the likes of Klopp, Arteta & De Zerbi",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I once held a Premier League record for the best minutes-per-goal ratio in history.\nIn 2020 I had the honour of becoming the first African to win the FA Cup as a captain.\nI've played with Lewandowski, Saka & João Félix",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "My greatest sporting achievement is winning a league title, despite playing only nine minutes for that club.\nBefore that I'd already been the top scorer in the Bundesliga.\nI've played with Pedri, Sterling & Isak",
+   "problems": [
+    "claim not stated in the evidence: \"Pierre-Emerick Aubameyang considers winning a league title to be his greatest sporting achievement.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I'm the all-time top scorer in the UEFA Europa League.\nIn 2020 I became the first African to win the FA Cup as a captain.\nI've played with the likes of Lewandowski, Saka & João Félix",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim 'I'm the all-time top scorer' is a present-tense record that could be invalidated if another player surpasses it.; The claim to be the all-time top scorer is in the present tense and could change if another player surpasses his record."
+   ],
+   "style": 0
+  }
+ ]
+}

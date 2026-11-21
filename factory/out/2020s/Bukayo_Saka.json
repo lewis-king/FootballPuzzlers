@@ -1,0 +1,84 @@
+{
+ "answer": "Bukayo Saka",
+ "acceptableAnswers": [
+  "Bukayo Saka",
+  "Saka"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I'm well known for having my penalty saved in a major tournament final, which resulted in my country finishing as runners-up.\nIncredibly, I later became the first player from my club to be named England Men's Player of the Year.\nI've played with the likes of Sterling, Rice & Rashford.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The hook is strong and memorable (the penalty miss in a major final), and the tone fits the house style well with 'Incredibly' adding the required feeling. However, it loses a point because the final clue list ('Sterling, Rice & Rashford') is entirely composed of current England teammates who are at",
+  "fix": "Replace the generic teammate list with a mix that includes a manager or a specific clubmate from a different era to narrow it down better, e.g., 'I've played under Southgate and alongside Saka's academy mates like Rice & Sterling' (though this is still weak). Better: 'I came through the academy at a"
+ },
+ "claims": [
+  {
+   "text": "Bukayo Saka had a penalty saved in a major tournament final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Saka's effort was saved by goalkeeper Gianluigi Donnarumma and, as a result, Italy won the shoot-out and the tournament.",
+    "Saka's effort was saved by goalkeeper Gianluigi Donnarumma and, as a result, Italy won the shoot-out and the tournament."
+   ]
+  },
+  {
+   "text": "As a result of the saved penalty, Bukayo Saka's country finished as runners-up in that major tournament final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Saka's effort was saved by goalkeeper Gianluigi Donnarumma and, as a result, Italy won the shoot-out and the tournament.",
+    "Saka's effort was saved by goalkeeper Gianluigi Donnarumma and, as a result, Italy won the shoot-out and the tournament."
+   ]
+  },
+  {
+   "text": "Bukayo Saka was named England Men's Player of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 23 September 2022, Saka was named England Men's Player of the Year for the 2021–22 season ahead of Declan Rice and Harry Kane, becoming the first Arsenal player to win the honour.",
+    "Saka was named England Men's Player of the Year for the 2021–22 season ahead of Declan Rice and Harry Kane, becoming the first Arsenal player to win the honour."
+   ]
+  },
+  {
+   "text": "Bukayo Saka is the first player from his club to be named England Men's Player of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first Arsenal player to win the honour",
+    "Saka was named England Men's Player of the Year for the 2021–22 season ahead of Declan Rice and Harry Kane, becoming the first Arsenal player to win the honour."
+   ]
+  },
+  {
+   "text": "Bukayo Saka has played with Sterling, Rice & Rashford.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Bukayo_Saka",
+  "revid": 1384507677
+ },
+ "alternatives": [
+  {
+   "question": "Although I'm now known as a right winger, I actually established myself in the first team playing at left-back.\nFollowing my rise to prominence, I became the first person since Thierry Henry to retain my club's Player of the Season award.\nI've played under both Emery & Arteta.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "At the 2026 World Cup I scored a hat-trick in the third place play-off to secure my country's position on the podium.\nIt was a landmark summer for me, as I also won my first Premier League title with my club.\nI've played with the likes of Bellingham, Kane & Havertz.",
+   "problems": [],
+   "style": 2
+  }
+ ]
+}

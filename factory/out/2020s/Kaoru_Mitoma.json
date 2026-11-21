@@ -1,0 +1,121 @@
+{
+ "answer": "Kaoru Mitoma",
+ "acceptableAnswers": [
+  "Kaoru Mitoma",
+  "Mitoma"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "At the 2022 World Cup I provided an assist for a winning goal that was originally ruled out before VAR intervened.\nIncredibly, I've since won several Premier League Goal of the Month awards.\nI've been managed by De Zerbi & Hürzeler.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The hook is a procedural VAR detail rather than a memorable moment or charming oddity (e.g., the thesis on dribbling), which violates the style guide's preference for delightful facts over dull stats. The phrasing 'originally ruled out before VAR intervened' is clunky and lacks the conversational, '",
+  "fix": "At the 2022 World Cup I provided an assist for a winning goal that was originally ruled out before VAR intervened.\nIncredibly, I've since won several Premier League Goal of the Month awards.\nI've been managed by De Zerbi & Hürzeler."
+ },
+ "claims": [
+  {
+   "text": "Kaoru Mitoma provided an assist for a winning goal at the 2022 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In the final group match against Spain on 1 December, he came on as a half-time substitute for Yuto Nagatomo and assisted Ao Tanaka's winning goal in the 51st minute.",
+    "assisted Ao Tanaka's winning goal in the 51st minute"
+   ]
+  },
+  {
+   "text": "The winning goal assisted by Kaoru Mitoma at the 2022 World Cup was originally ruled out before VAR intervened.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "The goal came with controversy, originally being ruled out for the ball going out of play. VAR took several minutes to rule a sliver of the curvature of the ball was hanging over the line and hence in play.",
+    "In the final group match against Spain on 1 December, he came on as a half-time substitute for Yuto Nagatomo and assisted Ao Tanaka's winning goal in the 51st minute. The goal came with controversy, originally being ruled out for the ball going out of play. VAR took several minutes to rule a sliver of the curvature of the ball was hanging over the line and hence in play."
+   ]
+  },
+  {
+   "text": "Kaoru Mitoma has won several Premier League Goal of the Month awards since the 2022 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Honours > Individual] Premier League Goal of the Month: August 2023, February 2025, April 2026",
+    "[Honours > Individual] Premier League Goal of the Month: August 2023, February 2025, April 2026"
+   ]
+  },
+  {
+   "text": "Kaoru Mitoma was managed by De Zerbi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Was managed by Roberto De Zerbi at Brighton & Hove Albion in 60 matches (2022 to 2024)",
+    "[Squad data > Brighton & Hove Albion] Was managed by Roberto De Zerbi at Brighton & Hove Albion in 60 matches (2022 to 2024)"
+   ]
+  },
+  {
+   "text": "Kaoru Mitoma was managed by Hürzeler.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Was managed by Fabian Hürzeler at Brighton & Hove Albion in 67 matches (2024 to 2026)",
+    "[Squad data > Brighton & Hove Albion] Was managed by Fabian Hürzeler at Brighton & Hove Albion in 67 matches (2024 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kaoru_Mitoma",
+  "revid": 1384916048
+ },
+ "alternatives": [
+  {
+   "question": "At the 2022 World Cup I provided an assist for a winning goal that was only ruled in by a millimetre.\nFollowing my time in Belgium, I moved to England where I've since won several Goal of the Month awards.\nI've been managed by De Zerbi & Hürzeler.",
+   "problems": [
+    "claim not stated in the evidence: \"The winning goal assisted by Kaoru Mitoma at the 2022 World Cup was only ruled in by a millimetre.\"",
+    "claim not stated in the evidence: \"Kaoru Mitoma played in Belgium before moving to England.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "At the 2022 World Cup I provided an assist for a winning goal that was only awarded after a bird's eye photo proved the ball was in play.\nFollowing my move to England, I broke the record for the most goals scored in a single top-flight season by a Japanese player.\nI've been managed by De Zerbi & Mazzù.",
+   "problems": [
+    "claim is wrong: \"The winning goal assisted by Kaoru Mitoma at the 2022 World Cup was only awarded after a bird's eye photo proved the ball was in play.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I once wrote my university thesis on the art of dribbling.\nIn 2023 I became the first Japanese player to win a Premier League monthly award.\nI've played with the likes of Trossard, Caicedo & Mac Allister.",
+   "problems": [
+    "team-mates all from one club (Brighton & Hove Albion); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I actually wrote my university thesis on dribbling.\nFollowing my move to England, I became the first Japanese player to win a Premier League Goal of the Month award.\nI've played with the likes of Caicedo, Mac Allister & Ansu Fati.",
+   "problems": [
+    "team-mates all from one club (Brighton & Hove Albion); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I actually wrote my university thesis on dribbling.\nIn 2023 I became the first Japanese player to win a Premier League Goal of the Month award.\nI've played with the likes of Mac Allister, Caicedo & Ansu Fati.",
+   "problems": [
+    "team-mates all from one club (Brighton & Hove Albion); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2023 I surpassed Shinji Kagawa and Shinji Okazaki for the most goals scored in a single English top-flight season by a Japanese player.\nAlthough I'm known as a winger, I finished as my club's joint top scorer in the 2024-25 season.\nI've played with Undav, Fati & Colwill.",
+   "problems": [
+    "team-mates all from one club (Brighton & Hove Albion); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"In 2023, Kaoru Mitoma surpassed Shinji Kagawa and Shinji Okazaki for the most goals scored in a single English top-flight season by a Japanese player.\""
+   ],
+   "style": 0
+  }
+ ]
+}

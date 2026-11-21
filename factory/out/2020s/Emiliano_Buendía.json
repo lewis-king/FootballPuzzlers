@@ -1,0 +1,119 @@
+{
+ "answer": "Emiliano Buendía",
+ "acceptableAnswers": [
+  "Emiliano Buendía",
+  "Buendía"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I was once the record signing for my club, a move that also represented a record sale for the team I left.\nIn 2026, I won the Europa League and was named man of the match in the final.\nI've played with the likes of Coutinho, Xhaka & Sancho",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The structure is solid: it opens with a strong hook (record signing/sale), connects to a recent major achievement (Europa League win/MoM), and closes with a narrowing list of teammates. The facts are accurate for Emiliano Buendía (Villarreal record sale to Brighton; 2026 Europa League winner). It is",
+  "fix": "The hook ('record signing/sale') is slightly generic compared to the best originals, which often feature a specific contradiction or surprising stat. To push this to a 5, consider emphasizing the contrast between his high-profile transfer and his role as a backup/rotation player at Brighton before/2"
+ },
+ "claims": [
+  {
+   "text": "Emiliano Buendía was once the record signing for his club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "was confirmed to be both Aston Villa's record signing",
+    "The transfer fee was believed to be worth around £33 million, rising to £38 million with potential bonuses, and was confirmed to be both Aston Villa's record signing and Norwich City's record sale."
+   ]
+  },
+  {
+   "text": "The move that made Emiliano Buendía a record signing also represented a record sale for the team he left.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "was confirmed to be both Aston Villa's record signing and Norwich City's record sale",
+    "The transfer fee was believed to be worth around £33 million, rising to £38 million with potential bonuses, and was confirmed to be both Aston Villa's record signing and Norwich City's record sale."
+   ]
+  },
+  {
+   "text": "Emiliano Buendía won the Europa League in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2026, he won the Europa League, being named man of the match in the final.",
+    "In 2026, he won the Europa League, being named man of the match in the final."
+   ]
+  },
+  {
+   "text": "Emiliano Buendía was named man of the match in the 2026 Europa League final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2026, he won the Europa League, being named man of the match in the final.",
+    "In 2026, he won the Europa League, being named man of the match in the final."
+   ]
+  },
+  {
+   "text": "Emiliano Buendía has played with Philippe Coutinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 39 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)",
+    "[Squad data > Aston Villa] Played in 39 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Emiliano Buendía has played with Granit Xhaka.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayer 04 Leverkusen] Played in 13 matches alongside Granit Xhaka for Bayer 04 Leverkusen (2025)",
+    "[Squad data > Bayer 04 Leverkusen] Played in 13 matches alongside Granit Xhaka for Bayer 04 Leverkusen (2025)"
+   ]
+  },
+  {
+   "text": "Emiliano Buendía has played with Jadon Sancho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 37 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)",
+    "[Squad data > Aston Villa] Played in 37 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Emiliano_Buendía",
+  "revid": 1385027669
+ },
+ "alternatives": [
+  {
+   "question": "In December 2019 I created more chances for my teammates in a single month than any other player since the stat began to be recorded.\nFollowing my time at Norwich, I became a record signing for my next club.\nI've played with the likes of Coutinho, Xhaka & Sancho",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I've experienced the frustration of being relegated from the Premier League, only to later be named the Championship's Player of the Season.\nFollowing this, I moved on to win a European trophy in 2026.\nI've been managed by Xabi Alonso, Steven Gerrard & Unai Emery",
+   "problems": [
+    "claim not stated in the evidence: \"Emiliano Buendía was named the Championship's Player of the Season after being relegated from the Premier League.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was named the EFL Championship Player of the Season in 2021.\nHowever, a significant knee injury later meant I missed an entire Premier League season.\nI've been managed by Steven Gerrard, Unai Emery & Xabi Alonso",
+   "problems": [
+    "claim is wrong: \"Emiliano Buendía suffered a significant knee injury after being named the EFL Championship Player of the Season in 2021.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2026 I won the Europa League and was named man of the match in the final.\nThis followed a difficult period in which I had fallen out of favour and missed a whole season through injury.\nI've played with Wirtz, Watkins & Sarabia",
+   "problems": [
+    "claim not stated in the evidence: \"Emiliano Buendía missed a whole season through injury prior to winning the 2026 Europa League.\""
+   ],
+   "style": 2
+  }
+ ]
+}

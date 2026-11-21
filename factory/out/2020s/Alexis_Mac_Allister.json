@@ -1,0 +1,134 @@
+{
+ "answer": "Alexis Mac Allister",
+ "acceptableAnswers": [
+  "Alexis Mac Allister",
+  "Allister"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won three senior international trophies in as many years, including a World Cup and a Copa América.\nFollowing my move to England, I helped my club win both the EFL Cup and the Premier League.\nI've played with the likes of Caicedo, Salah & Van Dijk.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are correct and the structure follows the house style (hook, development, narrowing clue). However, it lacks the 'twist' or tension found in the best originals. It reads slightly like a list of achievements rather than a story with a narrative arc. The difficulty is low because Mac Alliter",
+  "fix": "Add a specific moment or feeling to create tension. For example: 'I was a bit player at Brighton, but my move to England changed everything. I helped my club win the Premier League and EFL Cup in the same season, playing alongside Van Dijk & Salah.'"
+ },
+ "claims": [
+  {
+   "text": "Alexis Mac Allister won three senior international trophies in as many years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "earning Mac Allister his third senior international trophy in as many years",
+    "earning Mac Allister his third senior international trophy in as many years."
+   ]
+  },
+  {
+   "text": "One of the three senior international trophies Alexis Mac Allister won was a World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mac Allister was called up to represent Argentina at the 2024 Copa América. He played in all but one of their matches and recorded two assists as they went on to win the tournament, defeating Colombia 1–0 in the final and earning Mac Allister his third senior international trophy in as many years.",
+    "He made his senior international debut in 2019 and was part of the Argentina squads that won the 2022 Finalissima, 2022 FIFA World Cup, and 2024 Copa América."
+   ]
+  },
+  {
+   "text": "One of the three senior international trophies Alexis Mac Allister won was a Copa América.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He played in all but one of their matches and recorded two assists as they went on to win the tournament, defeating Colombia 1–0 in the final and earning Mac Allister his third senior international trophy in as many years."
+   ]
+  },
+  {
+   "text": "Alexis Mac Allister moved to England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 8 June 2023, Mac Allister signed for fellow Premier League club Liverpool on a five-year contract"
+   ]
+  },
+  {
+   "text": "After moving to England, Alexis Mac Allister helped his club win the EFL Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "before moving to Liverpool in June 2023, where he won the 2023–24 EFL Cup",
+    "moving to Liverpool in June 2023, where he won the 2023–24 EFL Cup"
+   ]
+  },
+  {
+   "text": "After moving to England, Alexis Mac Allister helped his club win the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 27 April 2025, Mac Allister scored Liverpool's second goal in a 5–1 win over Tottenham Hotspur that secured the club's second Premier League title and 20th overall English league title.",
+    "before moving to Liverpool in June 2023, where he won the 2023–24 EFL Cup and the 2024–25 Premier League."
+   ]
+  },
+  {
+   "text": "Alexis Mac Allister played with Moisés Caicedo.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Played in 47 matches alongside Moisés Caicedo for Brighton & Hove Albion (2022 to 2023)",
+    "[Squad data > Brighton & Hove Albion] Played in 47 matches alongside Moisés Caicedo for Brighton & Hove Albion (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Alexis Mac Allister played with Mohamed Salah.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 118 matches alongside Mohamed Salah for Liverpool FC (2023 to 2026)",
+    "[Squad data > Liverpool FC] Played in 118 matches alongside Mohamed Salah for Liverpool FC (2023 to 2026)"
+   ]
+  },
+  {
+   "text": "Alexis Mac Allister played with Virgil van Dijk.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 137 matches alongside Virgil van Dijk for Liverpool FC (2023 to 2026)",
+    "[Squad data > Liverpool FC] Played in 137 matches alongside Virgil van Dijk for Liverpool FC (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Alexis_Mac_Allister",
+  "revid": 1386432426
+ },
+ "alternatives": [
+  {
+   "question": "I once played in the same match as both of my brothers, a rare feat that happened during my time in Argentina.\nSince moving to the Premier League, I've won a league title and have been named in the PFA Team of the Year.\nI've played with Ben White, Wirtz & Isak.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I've won the World Cup, the Copa América and the Finalissima in three consecutive years.\nFollowing my move to England, I helped my club win both the EFL Cup and the Premier League.\nI've played with the likes of Caicedo, Salah & Van Dijk.",
+   "problems": [
+    "claim is wrong: \"Alexis Mac Allister won the World Cup, the Copa América, and the Finalissima in three consecutive years.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2022, I scored an own goal in my club's first ever win at Old Trafford.\nYet by the end of that season I was their top scorer and had won a World Cup with my country.\nI've been managed by Graham Potter, Jürgen Klopp & Arne Slot.",
+   "problems": [
+    "claim is wrong: \"By the end of the 2022 season, Alexis Mac Allister was his club's top scorer.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I have Irish and Scottish ancestry, but I've made my name playing for Argentina.\nIn 2023 I scored a long-range strike that was voted my club's Goal of the Season.\nI've played with Ben White, Marc Cucurella & Dominik Szoboszlai.",
+   "problems": [
+    "claim is wrong: \"Alexis Mac Allister made his name playing for Argentina.\"",
+    "claim is wrong: \"In 2023, Alexis Mac Allister scored a long-range strike that was voted his club's Goal of the Season.\""
+   ],
+   "style": 4
+  }
+ ]
+}

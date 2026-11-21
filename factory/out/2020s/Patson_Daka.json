@@ -1,0 +1,121 @@
+{
+ "answer": "Patson Daka",
+ "acceptableAnswers": [
+  "Patson Daka",
+  "Daka"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "NEEDS_WORK",
+ "question": "In a single Europa League match I scored four goals, the first time a Leicester player had done so since 1958.\nI also hold the record for being my club's all-time leading goalscorer in European competition.\nI was managed by Brendan Rodgers & Ruud van Nistelrooy.",
+ "problems": [
+  "wording will date: The phrase 'hold the record' asserts a current standing that could change if another player scores more European goals for Leicester in the future.; The claim to be the all-time leading European goalscorer for the club could change if another player surpasses his tally."
+ ],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The facts are correct and the managers provide a good narrowing clue, but the writing is flat and list-like rather than storytelling. It lacks the conversational flow, tension, or 'twist' found in the originals (e.g., it doesn't connect the four-goal performance to his status as a cult hero or the b",
+  "fix": "Rewrite to tell a story: start with the shock of scoring four goals for Leicester (a club known for struggling), mention the specific opponent if possible to add flavor, and then use the managers to narrow it down. Add some feeling about being a surprise star at a big club."
+ },
+ "claims": [
+  {
+   "text": "Patson Daka scored four goals in a single Europa League match.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He followed this up on 20 October by scoring all four goals in a 4–3 win over Spartak Moscow in the 2021–22 UEFA Europa League, becoming the first Leicester player to score 4 in a game since 1958.",
+    "He followed this up on 20 October by scoring all four goals in a 4–3 win over Spartak Moscow in the 2021–22 UEFA Europa League, becoming the first Leicester player to score 4 in a game since 1958."
+   ]
+  },
+  {
+   "text": "Patson Daka was the first Leicester player to score four goals in a single Europa League match since 1958.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He followed this up on 20 October by scoring all four goals in a 4–3 win over Spartak Moscow in the 2021–22 UEFA Europa League, becoming the first Leicester player to score 4 in a game since 1958."
+   ]
+  },
+  {
+   "text": "Patson Daka is his club's all-time leading goalscorer in European competition.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Daka became Leicester's all-time leading goalscorer in European competition",
+    "On 25 November 2021, Daka became Leicester's all-time leading goalscorer in European competition by scoring in a 3–1 Europa League victory over Legia Warsaw."
+   ]
+  },
+  {
+   "text": "Brendan Rodgers managed Patson Daka.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 55 matches (2021 to 2023)",
+    "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 55 matches (2021 to 2023)"
+   ]
+  },
+  {
+   "text": "Ruud van Nistelrooy managed Patson Daka.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Was managed by Ruud van Nistelrooy at Leicester City in 23 matches (2024 to 2025)",
+    "[Squad data > Leicester City] Was managed by Ruud van Nistelrooy at Leicester City in 23 matches (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Patson_Daka",
+  "revid": 1385254648
+ },
+ "alternatives": [
+  {
+   "question": "I became the first Zambian player to score in the group stage of a Champions League tournament.\nFollowing my time in Austria, I moved to the Premier League where I was managed by Brendan Rodgers & Ruud van Nistelrooy.\nI've also played with Fofana & Tielemans.",
+   "problems": [
+    "claim not stated in the evidence: \"Ruud van Nistelrooy managed Patson Daka while he was playing in the Premier League.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I became the first Zambian player to score in the group stage of a Champions League tournament.\nFollowing my time in Austria, I moved to the Premier League where I was managed by Brendan Rodgers & Ruud van Nistelrooy.\nI've played alongside Fofana & Tielemans.",
+   "problems": [
+    "claim not stated in the evidence: \"Ruud van Nistelrooy managed Patson Daka while he was playing in the Premier League.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I was named the Austrian Bundesliga player of the season after scoring 27 goals in 28 games.\nSince then I've won a Community Shield and an EFL Championship title.\nI've played with Fofana, Ndidi & Winks.",
+   "problems": [
+    "team-mates all from one club (Leicester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In a single Europa League match I scored four goals, the first time a Leicester player had done so since 1958.\nBy November 2021 I had also become my club's all-time leading goalscorer in European competition.\nI've played alongside the likes of Maddison, Ndidi & Lookman.",
+   "problems": [
+    "team-mates all from one club (Leicester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In a single Europa League match I scored four goals, the first time a Leicester player had done so since 1958.\nBy November 2021 I'd also become my club's all-time leading goalscorer in European competition.\nI've played with the likes of Maddison, Lookman & Ndidi.",
+   "problems": [
+    "team-mates all from one club (Leicester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I became the first Zambian player to score in the group stage of a Champions League campaign.\nFollowing my success in Austria, I moved to the Premier League for £23 million.\nI've played with the likes of Maddison, Tielemans & Lookman.",
+   "problems": [
+    "team-mates all from one club (Leicester City); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Patson Daka had success in Austria before moving to the Premier League.\""
+   ],
+   "style": 0
+  }
+ ]
+}

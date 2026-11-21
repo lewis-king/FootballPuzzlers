@@ -1,0 +1,83 @@
+{
+ "answer": "Kelechi Iheanacho",
+ "acceptableAnswers": [
+  "Kelechi Iheanacho",
+  "Iheanacho"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "READY",
+ "question": "I became the first player in English football to be awarded a goal due to VAR.\nIncredibly, I also scored the winning penalty against my former club to secure the Community Shield.\nI've played with the likes of Sterling, Maguire & Oxlade-Chamberlain",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (first VAR goal), and the penalty detail adds a nice layer of irony. However, it reads slightly like a list of achievements rather than a connected story, lacking the narrative flow ('The following year...', 'Yet...') seen in the best originals. The teammate clue is ",
+  "fix": "Connect the sentences to create a narrative arc. For example: 'I became the first player in English football to be awarded a goal due to VAR. Yet my most memorable moment came when I scored the winning penalty against my former club to secure the Community Shield. I've played with the likes of Magu,"
+ },
+ "claims": [
+  {
+   "text": "Kelechi Iheanacho was the first player in English football to be awarded a goal due to VAR.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Iheanacho became the first player in English football to be awarded a goal due to video assistant referee",
+    "Iheanacho became the first player in English football to be awarded a goal due to video assistant referee"
+   ]
+  },
+  {
+   "text": "Kelechi Iheanacho scored the winning penalty against his former club to secure the Community Shield.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Iheanacho was substituted on during the 79th minute and scored the winning goal, an 89th-minute penalty against his former club.",
+    "Iheanacho was substituted on during the 79th minute and scored the winning goal, an 89th-minute penalty against his former club."
+   ]
+  },
+  {
+   "text": "Kelechi Iheanacho played with Sterling, Maguire & Oxlade-Chamberlain.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kelechi_Iheanacho",
+  "revid": 1386705430
+ },
+ "alternatives": [
+  {
+   "question": "At the 2013 FIFA U-17 World Cup I won the Golden Ball and led my country to the title.\nFollowing my move to Leicester City, I went on to win the FA Cup & the EFL Championship.\nI've been managed by the likes of Pellegrini, Guardiola & Rodgers",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "My move to Leicester City in 2017 was the largest transfer amount for a Nigerian player at the time.\nSince then I've won the FA Cup, the Community Shield & the EFL Championship.\nI've been managed by the likes of Pellegrini, Guardiola & Rodgers.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In 2013 I won the Golden Ball as the best player at a FIFA U-17 World Cup.\nFollowing my time in England, I had a brief spell in Spain before moving to Scotland to play for Celtic.\nI've played with Agüero, Saúl Ñíguez & Oxlade-Chamberlain.",
+   "problems": [
+    "claim not stated in the evidence: \"Following his time in England, Kelechi Iheanacho had a brief spell in Spain before moving to Scotland to play for Celtic.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I was the first player in English football to be awarded a goal due to video assistant referee.\nIn 2021 I was instrumental in my club winning their first FA Cup, scoring four goals across the tournament.\nI've played with the likes of Maddison, Fofana & Maguire.",
+   "problems": [
+    "team-mates all from one club (Leicester City); mix clubs or add a surprising name",
+    "claim is wrong: \"Kelechi Iheanacho has played with James Maddison, N'Golo Kante (or Moussa Fofana), and Harry Maguire.\""
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "answer": "James Maddison",
+ "acceptableAnswers": [
+  "James Maddison",
+  "Maddison"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "Early in my career I spent a loan spell in Scotland, where I managed to score a last-minute winner against Rangers.\nIn 2021 I won the FA Cup with Leicester City, though I only appeared as a substitute in the final.\nI've been managed by Brendan Rodgers & Ange Postecoglou",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The facts are correct and the structure follows the house style (hook, development, narrowing clue). However, it lacks the 'twist' or tension found in the best originals. The FA Cup detail is a bit dry for a hook compared to something like 'fastest hat-trick'. It reads slightly more like a list of履历",
+  "fix": "Add a little feeling or contrast. For example: 'I was a substitute in the 2021 FA Cup final, yet it remains one of my proudest moments.' Or emphasize the loan spell as an unlikely start to a top-flight career."
+ },
+ "claims": [
+  {
+   "text": "James Maddison spent a loan spell in Scotland early in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He spent some of the 2016–17 season on loan at Scottish Premiership club Aberdeen.",
+    "He spent some of the 2016–17 season on loan at Scottish Premiership club Aberdeen."
+   ]
+  },
+  {
+   "text": "During that loan spell, James Maddison scored a last-minute winner against Rangers.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He followed this with a last-minute winner against Rangers on 25 September.",
+    "He followed this with a last-minute winner against Rangers on 25 September."
+   ]
+  },
+  {
+   "text": "James Maddison won the FA Cup with Leicester City in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Maddison joined Leicester City in 2018 and won the FA Cup and FA Community Shield with the club in 2021.",
+    "Maddison joined Leicester City in 2018 and won the FA Cup and FA Community Shield with the club in 2021."
+   ]
+  },
+  {
+   "text": "In the 2021 FA Cup final, James Maddison appeared only as a substitute.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 15 May, he appeared as a substitute in the 67th minute of the 2021 FA Cup Final, as Leicester beat Chelsea 1–0 at Wembley Stadium.",
+    "On 15 May, he appeared as a substitute in the 67th minute of the 2021 FA Cup Final, as Leicester beat Chelsea 1–0 at Wembley Stadium."
+   ]
+  },
+  {
+   "text": "James Maddison has been managed by Brendan Rodgers.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 149 matches (2019 to 2023)",
+    "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 149 matches (2019 to 2023)"
+   ]
+  },
+  {
+   "text": "James Maddison has been managed by Ange Postecoglou.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Tottenham Hotspur] Was managed by Ange Postecoglou at Tottenham Hotspur in 73 matches (2023 to 2025)",
+    "[Squad data > Tottenham Hotspur] Was managed by Ange Postecoglou at Tottenham Hotspur in 73 matches (2023 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/James_Maddison",
+  "revid": 1382668393
+ },
+ "alternatives": [
+  {
+   "question": "I was part of the England squad at the 2022 FIFA World Cup, yet I didn't make a single appearance during the tournament.\nFollowing my time at Leicester City, I moved to London where I was named Player of the Month in my first league month.\nI've played with the likes of Maguire, Son & Werner",
+   "problems": [
+    "claim not stated in the evidence: \"James Maddison has played with Harry Maguire, Son Heung-min, and Timo Werner.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once scored a long-range goal against Manchester City that was voted Premier League Goal of the Month.\nLater in my career I suffered a brutal ACL injury that sidelined me for most of the 2025-26 season.\nI've played with Ndidi, Bentancur & Tel",
+   "problems": [
+    "claim not stated in the evidence: \"James Maddison has played with Tel.\""
+   ],
+   "style": 3
+  }
+ ]
+}

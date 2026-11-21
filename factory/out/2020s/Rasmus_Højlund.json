@@ -1,0 +1,104 @@
+{
+ "answer": "Rasmus Højlund",
+ "acceptableAnswers": [
+  "Rasmus Højlund",
+  "Højlund"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I became the youngest player to score twice in an away Champions League match for Manchester United.\nYet it was my first international goals that were most impressive, as I netted a hat-trick on my first start for Denmark.\nI've played with the likes of Eriksen & De Bruyne.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The draft captures the voice well with a clear twist (youngest record vs. first international hat-trick) and uses a strong narrowing clue at the end. However, it misses the mark for a perfect 5 because the opening hook is slightly clunky ('score twice in an away Champions League match') compared to ",
+  "fix": "Tighten the opening sentence to be more conversational and less like a stat sheet. For example: 'I became Manchester United's youngest player to score twice in an away Champions League tie.' This flows better into the contrast with his international debut."
+ },
+ "claims": [
+  {
+   "text": "Rasmus Højlund became the youngest player to score twice in an away Champions League match for Manchester United.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He became the youngest player to score twice in an away Champions League match for Manchester United.",
+    "He became the youngest player to score twice in an away Champions League match for Manchester United."
+   ]
+  },
+  {
+   "text": "Rasmus Højlund scored a hat-trick on his first start for Denmark.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he made his first international start, scoring a hat-trick",
+    "On 23 March 2023, he made his first international start, scoring a hat-trick in a 3–1 victory against Finland during the UEFA Euro 2024 qualifying, his first goals for his country."
+   ]
+  },
+  {
+   "text": "The hat-trick Rasmus Højlund scored on his first start for Denmark was his first international goals.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 23 March 2023, he made his first international start, scoring a hat-trick in a 3–1 victory against Finland during the UEFA Euro 2024 qualifying, his first goals for his country.",
+    "On 23 March 2023, he made his first international start, scoring a hat-trick in a 3–1 victory against Finland during the UEFA Euro 2024 qualifying, his first goals for his country."
+   ]
+  },
+  {
+   "text": "Rasmus Højlund has played with Christian Eriksen.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 53 matches alongside Christian Eriksen for Manchester United (2023 to 2025)",
+    "[Squad data > Manchester United] Played in 53 matches alongside Christian Eriksen for Manchester United (2023 to 2025)"
+   ]
+  },
+  {
+   "text": "Rasmus Højlund has played with Kevin De Bruyne.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SSC Napoli] Played in 15 matches alongside Kevin De Bruyne for SSC Napoli (2025 to 2026)",
+    "[Squad data > SSC Napoli] Played in 15 matches alongside Kevin De Bruyne for SSC Napoli (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Rasmus_Højlund",
+  "revid": 1386422139
+ },
+ "alternatives": [
+  {
+   "question": "I became the youngest player to score twice in an away Champions League match for Manchester United.\nIncredibly, my first senior international goals came as a hat-trick against Finland.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In February 2024 I became the first Danish player in Premier League history to win Player of the Month.\nThat same season I won the FA Cup, though I only featured as a late substitute in the final.\nI've played with the likes of Eriksen, Casemiro & De Bruyne.",
+   "problems": [
+    "claim not stated in the evidence: \"Rasmus Højlund won the FA Cup in the same season as his February 2024 Player of the Month award.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once held the record for being the youngest player to score in six consecutive Premier League games.\nFollowing a difficult spell that saw me go 21 games without a goal, I moved from England to Italy on loan in 2025.\nI've played with Lukaku & McTominay.",
+   "problems": [
+    "claim not stated in the evidence: \"Rasmus Højlund went 21 games without a goal during a difficult spell.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In February 2024 I became the first Danish player in Premier League history to win the Player of the Month award.\nFollowing a difficult spell that saw me go 21 games without a goal, I eventually moved to Italy on loan.\nI've been managed by Erik ten Hag & Antonio Conte.",
+   "problems": [
+    "claim is wrong: \"Rasmus Højlund went 21 games without a goal during a difficult spell before moving to Italy on loan.\"",
+    "claim not stated in the evidence: \"Rasmus Højlund moved to Italy on loan following the period where he went 21 games without a goal.\""
+   ],
+   "style": 3
+  }
+ ]
+}

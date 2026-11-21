@@ -1,0 +1,112 @@
+{
+ "answer": "Michail Antonio",
+ "acceptableAnswers": [
+  "Michail Antonio",
+  "Antonio"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I became the first player in my club's history to score four goals in a single Premier League game.\nIn 2021 I also eclipsed the record for the most league goals scored for that same club.\nI've been managed by Bilic & Moyes.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The facts are correct and the managers provide a good narrowing clue, but the writing is flat and list-like rather than storytelling. It reads like three disconnected bullet points ('I became...', 'In 2021 I also...', 'I've been managed by...') without the conversational flow or tension found in the",
+  "fix": "Connect the sentences to create a narrative arc about his rise at West Ham. For example: 'I broke my club's all-time scoring record in 2021, becoming their first player to net four goals in a single Premier League match. I've had the honour of playing under both Slaven Bilic and David Moyes.'"
+ },
+ "claims": [
+  {
+   "text": "Michail Antonio was the first player in West Ham United's history to score four goals in a single Premier League game.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first player in West Ham's history to score four goals in a single Premier League game",
+    "On 11 July 2020, Antonio scored all four goals in a 4–0 win for West Ham over Norwich City, becoming the first player in West Ham's history to score four goals in a single Premier League game"
+   ]
+  },
+  {
+   "text": "In 2021, Michail Antonio eclipsed the record for the most league goals scored for West Ham United.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 23 August, he scored a brace in West Ham's 4–1 home win against Leicester City to eclipse Di Canio's record."
+   ]
+  },
+  {
+   "text": "Michail Antonio has been managed by Slaven Bilić.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by Slaven Bilic at West Ham United in 75 matches (2015 to 2017)",
+    "[Squad data > West Ham United] Was managed by Slaven Bilic at West Ham United in 75 matches (2015 to 2017)"
+   ]
+  },
+  {
+   "text": "Michail Antonio has been managed by David Moyes.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 172 matches (2017 to 2024)",
+    "Was managed by David Moyes at West Ham United in 172 matches (2017 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Michail_Antonio",
+  "revid": 1385586535
+ },
+ "alternatives": [
+  {
+   "question": "I'm a versatile player who has featured as a right back and winger before establishing himself as a main striker.\nFollowing a decade at one club, I moved to Qatar in 2026 after recovering from a serious car crash.\nI've played under managers like Moyes & Bilic",
+   "problems": [
+    "claim not stated in the evidence: \"Michail Antonio recovered from a serious car crash before moving to Qatar in 2026.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once held the record as the all-time top scorer in the Premier League era for my club.\nIn 2023 I won a European trophy, yet in December 2024 I was involved in a road traffic accident that kept me out of football for over a year.\nI've been managed by Bilic & Moyes.",
+   "problems": [
+    "claim is wrong: \"The road traffic accident in December 2024 kept Michail Antonio out of football for over a year.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I scored the first ever away goal at the new Tottenham Hotspur Stadium.\nAlthough I was called up for England twice, I eventually chose to represent Jamaica internationally.\nI've played alongside Bowen, Paquetá & Kudus",
+   "problems": [
+    "team-mates all from one club (West Ham United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm a versatile player who featured as a right back and winger before establishing myself as a main striker.\nFollowing a decade at one club, I signed for Al-Sailiya in Qatar in 2026.\nI've played with the likes of Rice, Lingard & Souček.",
+   "problems": [
+    "team-mates all from one club (West Ham United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first player in my club's history to score four goals in a single Premier League game.\nIn 2021 I also became their all-time record top scorer in the Premier League era.\nI've played with the likes of Lingard, Rice & Souček",
+   "problems": [
+    "team-mates all from one club (West Ham United); mix clubs or add a surprising name",
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first player in my club's history to score four goals in a single Premier League game.\nFollowing a decade at the same side, I moved to Qatar in 2026.\nI've played with the likes of Rice, Lingard & Souček.",
+   "problems": [
+    "team-mates all from one club (West Ham United); mix clubs or add a surprising name",
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

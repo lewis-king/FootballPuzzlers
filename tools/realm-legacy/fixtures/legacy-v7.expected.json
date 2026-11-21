@@ -1,0 +1,33 @@
+{
+  "answeredIds": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    13,
+    21,
+    34,
+    55,
+    89,
+    91,
+    100,
+    152,
+    201,
+    211
+  ],
+  "selectedClues": {
+    "4": {
+      "FWD": "True",
+      "ENG": "True"
+    },
+    "120": {
+      "GK": "False"
+    }
+  },
+  "purchased": [
+    "com.footballwhoami.worldcup_1"
+  ],
+  "questionCount": 211,
+  "clueRows": 212
+}

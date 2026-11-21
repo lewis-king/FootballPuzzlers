@@ -1,0 +1,119 @@
+{
+ "answer": "Christian Nørgaard",
+ "acceptableAnswers": [
+  "Christian Nørgaard",
+  "Nørgaard"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've represented Denmark at a World Cup and two European Championships, but I officially retired from international duty in 2026.\nIncredibly, my greatest team achievement is winning the Premier League, despite making only seven appearances during that season.\nI've played with the likes of Eriksen, Saka & Havertz.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The structure mirrors the originals well (hook -> twist -> narrowing clue), and the 'seven appearances' detail is a strong, memorable tension point similar to Aliadière's question. However, it loses a point for two reasons: first, the opening sentence ('represented Denmark at... but retired in 2026'",
+  "fix": "Tighten the opening to focus on the career arc rather than just listing tournaments. For example: 'I spent most of my career in Scandinavia before moving to England.' This sets up the surprise better. Second, ensure the teammate list is precise; while Eriksen and Saka/Havertz are good clues, verify "
+ },
+ "claims": [
+  {
+   "text": "Christian Nørgaard represented Denmark at a World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Nørgaard was named in Denmark's 2022 World Cup squad and made one substitute appearance prior to the team's group stage exit.",
+    "Nørgaard was named in Denmark's 2022 World Cup squad and made one substitute appearance prior to the team's group stage exit."
+   ]
+  },
+  {
+   "text": "Christian Nørgaard represented Denmark at two European Championships.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was part of the Denmark squads at Euro 2020, the 2022 World Cup and Euro 2024.",
+    "He concluded his career with 41 caps, having represented his country at the Euro 2020, World Cup 2022 and Euro 2024."
+   ]
+  },
+  {
+   "text": "Christian Nørgaard officially retired from international duty in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 12 May 2026, Nørgaard officially announced his retirement from international football",
+    "On 12 May 2026, Nørgaard officially announced his retirement from international football following Denmark's failure to qualify for the 2026 World Cup."
+   ]
+  },
+  {
+   "text": "Christian Nørgaard's greatest team achievement is winning the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Honours > Arsenal] Premier League: 2025–26"
+   ]
+  },
+  {
+   "text": "Christian Nørgaard made only seven appearances during the season he won the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Nørgaard made seven Premier League appearances for Arsenal, which was enough for him to earn a winner's medal, as the Gunners won their first league title in twenty-two years.",
+    "Nørgaard made seven Premier League appearances for Arsenal, which was enough for him to earn a winner's medal, as the Gunners won their first league title in twenty-two years."
+   ]
+  },
+  {
+   "text": "Christian Nørgaard played with Eriksen, Saka & Havertz.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Christian_Nørgaard",
+  "revid": 1385021027
+ },
+ "alternatives": [
+  {
+   "question": "I've represented Denmark at a World Cup and two European Championships.\nIn 2026 I officially announced my retirement from international football after we failed to qualify for the World Cup.\nI've been managed by Mikel Arteta & Stefano Pioli.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I've represented Denmark at a World Cup and two European Championships.\nIn May 2026 I officially announced my retirement from international football after we failed to qualify for the World Cup.\nI've been managed by Stefano Pioli & Mikel Arteta.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I spent six seasons at Brentford, where I eventually took over the captain's armband.\nFollowing my time there, I moved to Arsenal and won the Premier League before joining Everton in 2026.\nI've been managed by Thomas Frank, Mikel Arteta & Stefano Pioli.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "My greatest team achievement is winning the Premier League, despite only making seven appearances during that campaign.\nBefore this, I'd spent several years as a mainstay and captain for another London club.\nI've played with the likes of Eriksen, Saka & Gyökeres.",
+   "problems": [
+    "claim not stated in the evidence: \"Before winning the Premier League, Christian Nørgaard spent several years as a mainstay for another London club.\"",
+    "claim not stated in the evidence: \"Before winning the Premier League, Christian Nørgaard was captain of another London club.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2021 I was part of the squad that won promotion to the top flight for the second time in my club's history.\nFollowing this, I became the Premier League player with the most tackle attempts during the 2021-22 season.\nI've played with the likes of Eriksen & Mbeumo.",
+   "problems": [
+    "claim not stated in the evidence: \"Christian Nørgaard became a Premier League player following the 2021 promotion.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "Early in my career I signed for Hamburger SV but failed to make a single first team appearance.\nI later suffered a similar fate at Fiorentina, where I made just six appearances before leaving the club.\nSince then I've won the Premier League and played with Saka & Rice.",
+   "problems": [
+    "claim not stated in the evidence: \"Christian Nørgaard signed for Hamburger SV early in his career.\"",
+    "claim is wrong: \"Christian Nørgaard played for Fiorentina after his time at Hamburger SV.\""
+   ],
+   "style": 2
+  }
+ ]
+}

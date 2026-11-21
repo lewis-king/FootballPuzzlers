@@ -1,0 +1,119 @@
+{
+ "answer": "Rúben Dias",
+ "acceptableAnswers": [
+  "Rúben Dias",
+  "Dias"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In 2021 I became the first defender to win the FWA Footballer of the Year award since Steve Nicol in the late eighties.\nI also played a crucial role in my club securing their first ever continental treble the following season.\nI've played with Darwin Núñez, João Félix & Bernardo Silva.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are strong and memorable (FWA award, first continental treble), but the opening sentence is clunky and reads like a stat rather than a story. The phrase 'first defender... since Steve Nicol' is a bit dry for a hook. It lacks the conversational flow or tension of the best originals.",
+  "fix": "Soften the opening to focus on the achievement itself before adding the historical context, and ensure the transition to the treble feels like a narrative progression rather than a list. For example: 'I made history in 2021 by becoming the first defender since Steve Nicol to win the FWA Footballer. "
+ },
+ "claims": [
+  {
+   "text": "Rúben Dias won the FWA Footballer of the Year award in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was also named FWA Footballer of the Year, Manchester City Player of the Year, Premier League Player of the Season and the UEFA Champions League Defender of the Season in 2021.",
+    "He was also named FWA Footballer of the Year, Manchester City Player of the Year, Premier League Player of the Season and the UEFA Champions League Defender of the Season in 2021."
+   ]
+  },
+  {
+   "text": "Rúben Dias was a defender when he won the FWA Footballer of the Year award in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Dias won the FWA Footballer of the Year for the 2020–21 season, who described him as a \"comfortable winner\" ahead of Harry Kane and Kevin De Bruyne, and becoming the first defender to win the award since Steve Nicol in the 1988–89 season."
+   ]
+  },
+  {
+   "text": "Steve Nicol won the FWA Footballer of the Year award in the late eighties.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first defender to win the award since Steve Nicol in the 1988–89 season",
+    "becoming the first defender to win the award since Steve Nicol in the 1988–89 season."
+   ]
+  },
+  {
+   "text": "No defender won the FWA Footballer of the Year award between Steve Nicol's win in the late eighties and Rúben Dias' win in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first defender to win the award since Steve Nicol in the 1988–89 season",
+    "Dias won the FWA Footballer of the Year for the 2020–21 season, who described him as a \"comfortable winner\" ahead of Harry Kane and Kevin De Bruyne, and becoming the first defender to win the award since Steve Nicol in the 1988–89 season."
+   ]
+  },
+  {
+   "text": "Rúben Dias played a crucial role in his club securing their first ever continental treble in the season following 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2022–23, he played a crucial role in defence as City secured a first-ever continental treble"
+   ]
+  },
+  {
+   "text": "Rúben Dias' club had never secured a continental treble before the season following 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2022–23, he played a crucial role in defence as City secured a first-ever continental treble, their most successful season to date.",
+    "In 2022–23, he played a crucial role in defence as City secured a first-ever continental treble, their most successful season to date."
+   ]
+  },
+  {
+   "text": "Rúben Dias has played with Darwin Núñez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SL Benfica] Played in 3 matches alongside Darwin Núñez for SL Benfica (2020)",
+    "[Squad data > SL Benfica] Played in 3 matches alongside Darwin Núñez for SL Benfica (2020)"
+   ]
+  },
+  {
+   "text": "Rúben Dias has played with João Félix.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Portugal] Played in 2 matches alongside João Félix for Portugal (2026)",
+    "[Squad data > Portugal] Played in 2 matches alongside João Félix for Portugal (2026)"
+   ]
+  },
+  {
+   "text": "Rúben Dias has played with Bernardo Silva.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 220 matches alongside Bernardo Silva for Manchester City (2020 to 2026)",
+    "[Squad data > Manchester City] Played in 220 matches alongside Bernardo Silva for Manchester City (2020 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Rúben_Dias",
+  "revid": 1385716675
+ },
+ "alternatives": [
+  {
+   "question": "I've won the UEFA Nations League twice, once on home soil in 2019 where I was named man of the match in the final.\nSince moving to England, I've had the honour of captaining my club.\nI've been managed by Pep Guardiola & Rui Vitória.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I initially played as a striker, before switching to defence during a match because my team were losing by two goals.\nFollowing my time at Benfica, I moved to the Premier League and was named the FWA Footballer of the Year in 2021.\nI've played with the likes of Haaland, Rodri & Grealish.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "answer": "Lisandro Martínez",
+ "acceptableAnswers": [
+  "Lisandro Martínez",
+  "Martínez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I'm known for my aggressive style of play and have been nicknamed \"The Butcher\".\nDespite this, in the 2021–22 Eredivisie season I averaged more passes per 90 minutes than any other player.\nI've played with the likes of Gravenberch, Eriksen & Varane.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is strong because it uses a genuine twist: contrasting the 'Butcher' nickname with high passing stats is memorable and surprising, fitting the style guide's preference for tension. The final clue list (Gravenberch, Eriksen & Varane) effectively narrows the field to Manchester United's 2",
+  "fix": "Remove the explicit mention of the nickname \"The Butcher\" as it acts as a direct giveaway for many fans; instead, describe the aggressive style or specific incidents to maintain the challenge while keeping the contrast with his passing stats."
+ },
+ "claims": [
+  {
+   "text": "Lisandro Martínez is known for an aggressive style of play.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Nicknamed \"The Butcher\", he is known for his aggressive style of play, physical duels, and accurate long passes from the back.",
+    "he is known for his aggressive style of play"
+   ]
+  },
+  {
+   "text": "Lisandro Martínez has been nicknamed \"The Butcher\".",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Nicknamed \"The Butcher\", he is known for his aggressive style of play, physical duels, and accurate long passes from the back.",
+    "Nicknamed \"The Butcher\", he is known for his aggressive style of play, physical duels, and accurate long passes from the back."
+   ]
+  },
+  {
+   "text": "In the 2021–22 Eredivisie season, Lisandro Martínez averaged more passes per 90 minutes than any other player.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In the 2021–22 Eredivisie season, he averaged more passes per 90 minutes than any other player.",
+    "In the 2021–22 Eredivisie season, he averaged more passes per 90 minutes than any other player."
+   ]
+  },
+  {
+   "text": "Lisandro Martínez has played with Gravenberch.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Ajax Amsterdam] Played in 84 matches alongside Ryan Gravenberch for Ajax Amsterdam (2019 to 2022)",
+    "[Squad data > Ajax Amsterdam] Played in 84 matches alongside Ryan Gravenberch for Ajax Amsterdam (2019 to 2022)"
+   ]
+  },
+  {
+   "text": "Lisandro Martínez has played with Eriksen.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 52 matches alongside Christian Eriksen for Manchester United (2022 to 2025)",
+    "[Squad data > Manchester United] Played in 52 matches alongside Christian Eriksen for Manchester United (2022 to 2025)"
+   ]
+  },
+  {
+   "text": "Lisandro Martínez has played with Varane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 35 matches alongside Raphaël Varane for Manchester United (2022 to 2024)",
+    "[Squad data > Manchester United] Played in 35 matches alongside Raphaël Varane for Manchester United (2022 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Lisandro_Martínez",
+  "revid": 1386493542
+ },
+ "alternatives": [
+  {
+   "question": "I am known for my aggressive style of play and have been nicknamed \"The Butcher\".\nIncredibly, during the 2021–22 Eredivisie season I averaged more passes per 90 minutes than any other player.\nI've played with the likes of Gravenberch, Eriksen & Varane.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In January 2025 I became the first player for my club to score at Anfield since Jesse Lingard in 2018.\nFollowing this, I was part of a World Cup winning squad in 2022 and won two Copa Américas.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I've had the honour of winning two league titles in the Netherlands.\nIt was there I first played under Erik ten Hag, who later managed me again after my move to England.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In January 2025 I became the first Manchester United player to score at Anfield since Jesse Lingard in 2018.\nIt was a standout moment in a career that has seen me win a World Cup & two Copa Américas.\nI've played with the likes of Ronaldo, Mbeumo & Mount.",
+   "problems": [
+    "team-mates all from one club (Manchester United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

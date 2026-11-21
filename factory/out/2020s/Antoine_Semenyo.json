@@ -1,0 +1,84 @@
+{
+ "answer": "Antoine Semenyo",
+ "acceptableAnswers": [
+  "Antoine Semenyo",
+  "Semenyo"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "At the age of 15 I was rejected by Crystal Palace after an eight-week trial.\nI almost gave up on professional football before joining a youth academy program in South Gloucestershire.\nSince then I've made caps for Ghana & played under Pep Guardiola.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook (rejected by Palace at 15) is memorable and fits the 'twist' requirement well. The narrative flow is good ('Since then...'). However, it loses a point because the final clue list is weak: naming Pep Guardiola is a massive giveaway that points immediately to Manchester City, which combined '",
+  "fix": "Replace 'played under Pep Guardiola' with a more specific or surprising teammate/manager combination from his time at Bournemouth or Ghana (e.g., 'I've shared a dressing room with Solanke & Mbeumo') to make the narrowing clue less obvious and more in line with the style guide's advice on choosing cl"
+ },
+ "claims": [
+  {
+   "text": "Antoine Semenyo was rejected by Crystal Palace after an eight-week trial at the age of 15.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the age of 15, he was rejected by Crystal Palace after an eight-week trial.",
+    "At the age of 15, he was rejected by Crystal Palace after an eight-week trial."
+   ]
+  },
+  {
+   "text": "Antoine Semenyo almost gave up on professional football before joining a youth academy program in South Gloucestershire.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He initially decided to give up on becoming a professional footballer before Dave Hockaday convinced him to join his youth academy program at South Gloucestershire and Stroud College.",
+    "He initially decided to give up on becoming a professional footballer before Dave Hockaday convinced him to join his youth academy program at South Gloucestershire and Stroud College."
+   ]
+  },
+  {
+   "text": "Antoine Semenyo has made caps for Ghana.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Born in England, he plays for the Ghana national team.",
+    "Born in England, he plays for the Ghana national team."
+   ]
+  },
+  {
+   "text": "Antoine Semenyo has played under Pep Guardiola.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 26 matches (2026)",
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 26 matches (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Antoine_Semenyo",
+  "revid": 1385549555
+ },
+ "alternatives": [
+  {
+   "question": "I joined Manchester City for a reported £64 million fee in January 2026.\nIn my first half-season I won the EFL Cup and FA Cup, scoring the only goal in the latter final.\nI've played with the likes of Haaland, Rodri & Donnarumma.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once scored a goal against Manchester City that ended their eleven-month unbeaten run in the Premier League.\nFollowing my time at Bournemouth, I moved to City and won two trophies in 2026.\nI've played with the likes of Foden, Bernardo Silva & Cherki.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name",
+    "claim is wrong: \"Antoine Semenyo has played with Phil Foden, Bernardo Silva and Matty Cherki.\""
+   ],
+   "style": 0
+  }
+ ]
+}

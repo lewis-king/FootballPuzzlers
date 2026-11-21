@@ -1,0 +1,97 @@
+{
+ "answer": "Declan Rice",
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Declan_Rice",
+  "revid": 1386097486,
+  "revisionTime": "2026-11-16T22:37:02Z"
+ },
+ "draft": {
+  "question": "I once represented the Republic of Ireland at both youth and senior levels before switching my allegiance to England. Following this move, I captained my former club to a major European trophy & was named player of the season for that competition. I've since moved to Arsenal for a club record fee.",
+  "claims": [
+   {
+    "text": "I once represented the Republic of Ireland at both youth and senior levels before switching my allegiance to England",
+    "evidence": [
+     5,
+     6,
+     76,
+     77,
+     83
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "Eligible to play for England or the Republic of Ireland, Rice represented the latter internationally at both youth and senior levels prior to 2019.",
+     "He subsequently changed his national allegiance and made himself available for selection by England.",
+     "On 13 February 2019, Rice pledged his future to England.",
+     "On 5 March, his change of allegiance was confirmed by FIFA.",
+     "He was the first player to play for both countries since Jack Reynolds in the 1890s."
+    ]
+   },
+   {
+    "text": "Following this move, I captained my former club to a major European trophy & was named player of the season for that competition",
+    "evidence": [
+     3,
+     40
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "In 2022, he succeeded Mark Noble as club captain, and led the club to a UEFA Europa Conference League title the following year, as well as being named the competition's Player of the Season.",
+     "On 8 June 2023, Rice was named as the Europa Conference League's player of the season by UEFA as Rice captained West Ham to their first major European trophy since 1965 after a 2–1 win against Fiorentina in the final a day prior."
+    ]
+   },
+   {
+    "text": "I've since moved to Arsenal for a club record fee",
+    "evidence": [
+     4,
+     48,
+     49
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "After making 245 appearances for West Ham, Rice was signed by Arsenal in July 2023 for a club record fee of £100 million, making him the joint-most-expensive English player in history and going on to help them win their first Premier League title in 22 years.",
+     "On 15 July 2023, Rice signed for Premier League club Arsenal on a long-term contract.",
+     "It was reported that the transfer fee was a club-record initial £100m, potentially rising by £5m, in add-ons, making him the most expensive English player, equalling the previous record held by Jack Grealish."
+    ]
+   }
+  ],
+  "retired": false,
+  "retiredEvidence": []
+ },
+ "verification": {
+  "claims": [
+   {
+    "text": "I once represented the Republic of Ireland at both youth and senior levels before switching my allegiance to England",
+    "supported": true,
+    "quote": "[5] Eligible to play for England or the Republic of Ireland, Rice represented the latter internationally at both youth and senior levels prior to 2019. [6] He subsequently changed his national allegiance and made himself available for selection by England.",
+    "problem": ""
+   },
+   {
+    "text": "Following this move, I captained my former club to a major European trophy & was named player of the season for that competition",
+    "supported": true,
+    "quote": "[3] In 2022, he succeeded Mark Noble as club captain, and led the club to a UEFA Europa Conference League title the following year, as well as being named the competition's Player of the Season. [40] On 8 June 2023, Rice was named as the Europa Conference League's player of the season by UEFA as Rice captained West Ham to their first major European trophy since 1965 after a 2–1 win against Fiorentina in the final a day prior.",
+    "problem": ""
+   },
+   {
+    "text": "I've since moved to Arsenal for a club record fee",
+    "supported": true,
+    "quote": "[4] After making 245 appearances for West Ham, Rice was signed by Arsenal in July 2023 for a club record fee of £100 million... [49] It was reported that the transfer fee was a club-record initial £100m...",
+    "problem": ""
+   }
+  ],
+  "everyClaimInQuestion": true,
+  "givesAwayName": false,
+  "datedWording": false,
+  "otherPlayersWhoFit": [],
+  "storyScore": 4,
+  "storyNote": "The narrative flows logically from the identity crisis (Ireland vs England) to the redemption arc (captaining West Ham to a trophy and individual award) and finally to the career-defining move. It reads like a coherent personal journey rather than a disjointed list of stats.",
+  "verdict": "PASS",
+  "notes": "All claims are strictly supported by the evidence lines provided. The clues uniquely identify Declan Rice (specifically the combination of switching from Ireland to England, captaining West Ham to the Conference League title, and moving to Arsenal for a record fee). No other player fits this specific sequence of events."
+ },
+ "models": {
+  "writer": "gemma4:31b",
+  "checker": "qwen3.8:27b"
+ },
+ "seconds": {
+  "draft": 8,
+  "verify": 6
+ }
+}

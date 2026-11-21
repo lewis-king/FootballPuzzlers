@@ -1,0 +1,107 @@
+{
+ "answer": "Virgil van Dijk",
+ "acceptableAnswers": [
+  "Virgil van Dijk",
+  "Dijk"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In 2019 I became the only defender to win the UEFA Men's Player of the Year Award, although I only finished runner-up for the Ballon d'Or.\nFollowing this period I helped end my club's 30-year league title drought.\nI've been managed by Klopp, Slot & Koeman.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are strong and the structure follows the house style (hook, consequence, narrowing clue). However, it misses a key stylistic element: 'a little feeling' or conversational flow. The first sentence is slightly clunky ('became the only defender... although I only finished runner-up'). It also",
+  "fix": "Soften the opening to sound more like a player reflecting on their career rather than stating a record. For example: 'I was honoured to become the first defender to win UEFA Men's Player of the Year, even if I had to settle for second place in the Ballon d'Or race.' This adds the required emotional/"
+ },
+ "claims": [
+  {
+   "text": "Virgil van Dijk won the UEFA Men's Player of the Year Award in 2019.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In August 2019, Van Dijk won the UEFA Men's Player of the Year Award.",
+    "In August 2019, Van Dijk won the UEFA Men's Player of the Year Award."
+   ]
+  },
+  {
+   "text": "In 2019, Virgil van Dijk was the only defender to win the UEFA Men's Player of the Year Award.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He is the only defender to win the UEFA Men's Player of the Year Award",
+    "He is the only defender to win the UEFA Men's Player of the Year Award, and has finished runner-up for both the Ballon d'Or and Best FIFA Men's Player, all in 2019."
+   ]
+  },
+  {
+   "text": "Virgil van Dijk finished runner-up for the Ballon d'Or in 2019.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Ballon D'or: runner-up: 2019",
+    "[Honours > Individual] Ballon D'or: runner-up: 2019"
+   ]
+  },
+  {
+   "text": "Following his 2019 award period, Virgil van Dijk helped end his club's 30-year league title drought.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Van Dijk later won the FIFA Club World Cup and UEFA Super Cup, and helped end the club's 30-year league title drought by winning the 2019–20 Premier League.",
+    "helped end the club's 30-year league title drought by winning the 2019–20 Premier League"
+   ]
+  },
+  {
+   "text": "Virgil van Dijk has been managed by Klopp.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Was managed by Jürgen Klopp at Liverpool FC in 265 matches (2018 to 2024)",
+    "[Squad data > Liverpool FC] Was managed by Jürgen Klopp at Liverpool FC in 265 matches (2018 to 2024)"
+   ]
+  },
+  {
+   "text": "Virgil van Dijk has been managed by Slot.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 101 matches (2024 to 2026)",
+    "[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 101 matches (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Virgil van Dijk has been managed by Koeman.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Southampton FC] Was managed by Ronald Koeman at Southampton FC in 35 matches (2015 to 2016)",
+    "[Squad data > Southampton FC] Was managed by Ronald Koeman at Southampton FC in 35 matches (2015 to 2016)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
+  "revid": 1386752226
+ },
+ "alternatives": [
+  {
+   "question": "I won the Scottish Premiership with Celtic and was named in the PFA Scotland Team of the Year in both of my seasons there.\nSince moving to England I've captained my national team at a FIFA World Cup.\nI've played with the likes of Mané, De Jong & Memphis Depay.",
+   "problems": [
+    "claim not stated in the evidence: \"Virgil van Dijk moved to England after playing for Celtic.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "In January 2018 I joined Liverpool for a then-world-record fee for a defender.\nIn my first full season I was named PFA Players' Player of the Year and the Premier League Player of the Season.\nI've played with the likes of Salah, Firmino & Wirtz.",
+   "problems": [
+    "team-mates all from one club (Liverpool FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

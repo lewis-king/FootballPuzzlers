@@ -1,0 +1,116 @@
+{
+ "answer": "Tammy Abraham",
+ "acceptableAnswers": [
+  "Tammy Abraham",
+  "Abraham"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "By winning the Europa League in 2026 I became only the second player ever to win every UEFA club competition.\nIncredibly, I also became the first Englishman in thirty years to score more than 10 goals in a Serie A season.\nI've played with the likes of Havertz, Dybala & João Félix.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The draft is strong and reads like an original: it has a clear hook (winning every UEFA club competition), a surprising contrast ('Incredibly...'), and a narrowing clue with well-chosen names from different clubs. The main weakness is the second sentence; 'first Englishman in thirty years to score >",
+  "fix": "Tighten the second sentence to focus on the achievement rather than the statistical rarity, or ensure the timeframe is precise if it's a key part of the hook. For example: 'That same season, I became the first Englishman since 1996 to top the Serie A scoring charts.' This makes the fact more punchy."
+ },
+ "claims": [
+  {
+   "text": "Tammy Abraham won the Europa League in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After loan spells with fellow Italian side AC Milan and Turkish club Beşiktaş, he rejoined Aston Villa permanently in 2026, winning the UEFA Europa League with the club.",
+    "he rejoined Aston Villa permanently in 2026, winning the UEFA Europa League with the club."
+   ]
+  },
+  {
+   "text": "By winning the Europa League in 2026, Tammy Abraham became only the second player ever to win every UEFA club competition.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming only the second player after Emerson Palmieri to win every UEFA club competition.",
+    "Later that season, he won the UEFA Europa League with the club, becoming only the second player after Emerson Palmieri to win every UEFA club competition."
+   ]
+  },
+  {
+   "text": "Tammy Abraham scored more than 10 goals in a Serie A season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he scored 17 goals in his debut Serie A season",
+    "he scored 17 goals in his debut Serie A season"
+   ]
+  },
+  {
+   "text": "Tammy Abraham was the first Englishman to score more than 10 goals in a Serie A season in thirty years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first English player in thirty years to score more than 10 goals in a Serie A season",
+    "becoming the first English player in thirty years to score more than 10 goals in a Serie A season."
+   ]
+  },
+  {
+   "text": "Tammy Abraham played with Havertz, Dybala & João Félix.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Tammy_Abraham",
+  "revid": 1386388771
+ },
+ "alternatives": [
+  {
+   "question": "I'm only the second player ever to win every UEFA club competition.\nIncredibly, I also became the first Englishman in thirty years to score more than 10 goals in a Serie A season.\nI've played with the likes of Havertz, Dybala & João Félix.",
+   "problems": [
+    "wording will date: The claim 'only the second player ever' is a present-tense all-time ranking that could change if another player achieves this feat in the future.; The claim 'I'm only the second player ever' is a present-tense record that could be invalidated if another player achieves this feat."
+   ],
+   "style": 4
+  },
+  {
+   "question": "Although I helped them secure promotion that year, it was only in 2026 that I rejoined them permanently.\nSince then I've played alongside Jadon Sancho.\nI've also shared a pitch with N'Golo Kanté & Romelu Lukaku.",
+   "problems": [
+    "claim not stated in the evidence: \"Tammy Abraham helped his team secure promotion in the year before 2026.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "At Bristol City I became the first player ever to win the Player of the Season, Young Player of the Season and top goalscorer awards in one campaign.\nFollowing my time there, I spent a period on loan at Swansea before returning to Chelsea to lift the Champions League.\nI've been managed by Frank Lampard & José Mourinho.",
+   "problems": [
+    "claim not stated in the evidence: \"Tammy Abraham returned to Chelsea after his loan at Swansea.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "During a loan spell at Aston Villa in 2019 I became the first player in 40 years to score 25 goals in a single league campaign for the club.\nFollowing my time in Italy, I rejoined Villa permanently and won the Europa League.\nI've been managed by Lampard & Mourinho.",
+   "problems": [
+    "claim not stated in the evidence: \"Tammy Abraham had a period playing in Italy before rejoining Aston Villa.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In that same period I also won the inaugural UEFA Europa Conference League.\nFollowing my time in Italy, I had a short spell in Turkey before returning to Aston Villa.\nI've played with the likes of Dybala, João Félix & Sancho.",
+   "problems": [
+    "claim not stated in the evidence: \"Tammy Abraham had a short spell in Italy before having a short spell in Turkey.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "It was quite possibly my greatest team achievement, having already won the Champions League with a different club.\nIncredibly I also once held the record for most goals scored by a teenager in the Championship era.\nI've been managed by Frank Lampard & José Mourinho.",
+   "problems": [
+    "claim not stated in the evidence: \"Tammy Abraham won the Champions League with a club different from the one where he achieved his greatest team achievement.\""
+   ],
+   "style": 2
+  }
+ ]
+}

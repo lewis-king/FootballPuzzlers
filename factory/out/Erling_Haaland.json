@@ -1,0 +1,87 @@
+{
+ "answer": "Erling Haaland",
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Erling_Haaland",
+  "revid": 1386365109,
+  "revisionTime": "2026-11-18T03:57:04Z"
+ },
+ "draft": {
+  "question": "I'm the only player to win both the Premier League Young Player & Player of the Season awards in the same campaign. I've since become my country's all-time top goalscorer. I've played for the likes of Salzburg, Dortmund & Manchester City",
+  "claims": [
+   {
+    "text": "the only player to win both the Premier League Young Player & Player of the Season awards in the same campaign",
+    "evidence": [
+     8
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "He is the only player to win the awards for Premier League Young Player and Player of the Season in the same season."
+    ]
+   },
+   {
+    "text": "become my country's all-time top goalscorer",
+    "evidence": [
+     200
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "On 10 October 2024, Haaland scored twice in a 3–0 Nations League win over Slovenia, reaching 34 international goals to become Norway's all-time top scorer at the age of just 24, and overtaking Juve's record that had stood since 1937."
+    ]
+   },
+   {
+    "text": "played for the likes of Salzburg, Dortmund & Manchester City",
+    "evidence": [
+     2,
+     3,
+     4
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "Haaland began his senior career with Norwegian clubs Bryne and Molde before signing in 2019 for Red Bull Salzburg, where he won the Austrian Bundesliga and Austrian Cup.",
+     "His performances in the UEFA Champions League earned him a move in 2020 to Bundesliga club Borussia Dortmund, where he won the DFB-Pokal in 2021 and was named Bundesliga Player of the Season.",
+     "In 2022, Haaland joined Manchester City for a fee of €60 million (£51.2 million) and played a pivotal role in the club's treble-winning debut season, becoming only the second English club to achieve the feat."
+    ]
+   }
+  ],
+  "retired": false,
+  "retiredEvidence": []
+ },
+ "verification": {
+  "claims": [
+   {
+    "text": "the only player to win both the Premier League Young Player & Player of the Season awards in the same campaign",
+    "supported": true,
+    "quote": "[8] He is the only player to win the awards for Premier League Young Player and Player of the Season in the same season.",
+    "problem": ""
+   },
+   {
+    "text": "become my country's all-time top goalscorer",
+    "supported": true,
+    "quote": "[200] On 10 October 2024, Haaland scored twice in a 3–0 Nations League win over Slovenia, reaching 34 international goals to become Norway's all-time top scorer at the age of just 24, and overtaking Juve's record that had stood since 1937.",
+    "problem": ""
+   },
+   {
+    "text": "played for the likes of Salzburg, Dortmund & Manchester City",
+    "supported": true,
+    "quote": "[2] Haaland began his senior career with Norwegian clubs Bryne and Molde before signing in 2019 for Red Bull Salzburg... [3] ...move in 2020 to Bundesliga club Borussia Dortmund... [4] In 2022, Haaland joined Manchester City...",
+    "problem": ""
+   }
+  ],
+  "everyClaimInQuestion": true,
+  "givesAwayName": false,
+  "datedWording": false,
+  "otherPlayersWhoFit": [],
+  "storyScore": 3,
+  "storyNote": "The text is a list of three distinct facts (awards, national record, clubs) rather than a narrative. It lacks the 'short story' flow, tension, or twist required for a score of 4 or higher.",
+  "verdict": "FIX",
+  "notes": "All claims are factually supported by the evidence and uniquely identify Erling Haaland (no other player fits all three clues). However, the prompt requires a storyScore >= 4 for a PASS. The current text is a flat list of facts ('I'm the only... I've since become... I've played for...') which scores low on narrative quality. To pass, it should be rewritten to flow more naturally as a first-person anecdote or story."
+ },
+ "models": {
+  "writer": "gemma4:31b",
+  "checker": "qwen3.8:27b"
+ },
+ "seconds": {
+  "draft": 11,
+  "verify": 9
+ }
+}

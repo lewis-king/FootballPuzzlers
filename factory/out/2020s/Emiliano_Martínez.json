@@ -1,0 +1,123 @@
+{
+ "answer": "Emiliano Martínez",
+ "acceptableAnswers": [
+  "Emiliano Martínez",
+  "Martínez"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won the World Cup and two Copa Américas, being named as the best goalkeeper for both tournaments.\nIn 2026 I was part of a run to another World Cup final where I made more saves than any other keeper in the history of those finals.\nI've played with the likes of Messi, Coutinho & Sancho.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (WC + 2 Copa Américas + Best GK), and the teammate list (Messi, Coutinho, Sancho) effectively narrows it down to a specific squad era. However, the second sentence relies on a future event ('In 2026...') which feels slightly speculative or like a prediction rather a ",
+  "fix": "The question is good but loses points for relying on a future date (2026) as a primary clue, which can feel less grounded than past achievements. Also, 'best goalkeeper' is often subjective/award-based; specifying the award or just saying 'voted best' might be tighter. The difficulty is low because "
+ },
+ "claims": [
+  {
+   "text": "Emiliano Martínez won the World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He went on to win the 2022 FIFA World Cup with Argentina",
+    "He went on to win the 2022 FIFA World Cup with Argentina, again being voted best goalkeeper of the tournament, and the 2024 Copa América, where he was awarded the Golden Glove a third time."
+   ]
+  },
+  {
+   "text": "Emiliano Martínez won two Copa Américas.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Honours > Argentina] Copa América: 2021, 2024",
+    "[Honours > Argentina] Copa América: 2021, 2024"
+   ]
+  },
+  {
+   "text": "Emiliano Martínez was named as the best goalkeeper for the World Cup he won.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He went on to win the 2022 FIFA World Cup with Argentina, again being voted best goalkeeper of the tournament",
+    "He went on to win the 2022 FIFA World Cup with Argentina, again being voted best goalkeeper of the tournament"
+   ]
+  },
+  {
+   "text": "Emiliano Martínez was named as the best goalkeeper for both Copa Américas tournaments he won.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Martínez was also awarded the 2021 Copa América's Golden Glove award as the best keeper of the tournament for his performances.",
+    "Copa América Golden Glove: 2021, 2024"
+   ]
+  },
+  {
+   "text": "In 2026, Emiliano Martínez was part of a run to another World Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He started all eight matches for Argentina during the tournament, keeping two clean sheets on their run to the final.",
+    "He started all eight matches for Argentina during the tournament, keeping two clean sheets on their run to the final."
+   ]
+  },
+  {
+   "text": "Emiliano Martínez made more saves than any other keeper in the history of World Cup finals during his 2026 appearance.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "the most by a goalkeeper in a World Cup final",
+    "In the final against Spain, he saved 11 shots, the most by a goalkeeper in a World Cup final, as Argentina lost 1–0 after extra time."
+   ]
+  },
+  {
+   "text": "Emiliano Martínez played with Lionel Messi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Argentina] Played in 3 matches alongside Lionel Messi for Argentina (2026)",
+    "[Squad data > Argentina] Played in 3 matches alongside Lionel Messi for Argentina (2026)"
+   ]
+  },
+  {
+   "text": "Emiliano Martínez played with Philippe Coutinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 38 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)",
+    "[Squad data > Aston Villa] Played in 38 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Emiliano Martínez played with Jadon Sancho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)",
+    "[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Emiliano_Martínez",
+  "revid": 1386399985
+ },
+ "alternatives": [
+  {
+   "question": "I spent years as a backup at Arsenal and went on several loans before finally breaking through to help the club win the FA Cup.\nFollowing my move to Aston Villa, I became the first goalkeeper in their history to keep more than 33 clean sheets in my first 100 league games.\nI've been managed by Wenger, Gerrard & Emery.",
+   "problems": [
+    "wording will date: The claim of being the 'first goalkeeper in their history' to achieve a specific statistical milestone is an all-time ranking stated in the present tense that could theoretically be superseded by future performance.; The claim about being the first goalkeeper to keep more than 33 clean sheets in his first 100 league games is a present-tense record that could be broken."
+   ],
+   "style": 2
+  },
+  {
+   "question": "I'm widely regarded as a specialist in saving penalty kicks and have won the Yashin Trophy twice.\nUnfortunately, I also became the goalkeeper with the most own goals in Premier League history during the 2023-24 season.\nI've played alongside Aubameyang, Grealish & Rashford.",
+   "problems": [
+    "wording will date: The claim of having the 'most own goals in Premier League history' is a mutable all-time record that could be surpassed by another player.; The claim to be the goalkeeper with the most own goals in PL history is a current record that could be surpassed."
+   ],
+   "style": 2
+  }
+ ]
+}

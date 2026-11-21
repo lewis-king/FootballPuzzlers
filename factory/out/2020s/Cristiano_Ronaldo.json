@@ -1,0 +1,102 @@
+{
+ "answer": "Cristiano Ronaldo",
+ "acceptableAnswers": [
+  "Cristiano Ronaldo",
+  "Ronaldo"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In 2018 I moved to Italy for a fee that was the highest ever for a player over 30.\nFollowing this, I became the first footballer to score 50 goals in the Premier League, La Liga and Serie A.\nI've played with the likes of Isco, Pogba & Vitinha.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are strong and the 'first to score 50 in three leagues' is a great hook that feels like a genuine Lewis original. However, it loses a point because the final clue list (Isco, Pogba & Vitinha) is slightly awkward; Isco and Pogba were at different clubs when he was there, so they don't forma",
+  "fix": "Replace the teammate list with a more cohesive narrowing clue that spans his career stages better, or tighten the first sentence to be less procedural. For example: 'I moved to Italy in 2018 for a record fee for an over-30 player. Since then, I became the first footballer to score 50 goals in the PL"
+ },
+ "claims": [
+  {
+   "text": "Cristiano Ronaldo moved to Italy in 2018.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Ronaldo joined Juventus in 2018",
+    "Ronaldo joined Juventus in 2018 for €100 million, the transfer was the highest ever for a player over 30 years old and the highest paid by an Italian club."
+   ]
+  },
+  {
+   "text": "The fee for Cristiano Ronaldo's move to Italy in 2018 was the highest ever for a player over 30.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "the transfer was the highest ever for a player over 30 years old",
+    "the transfer was the highest ever for a player over 30 years old"
+   ]
+  },
+  {
+   "text": "Cristiano Ronaldo became the first footballer to score 50 goals in the Premier League, La Liga and Serie A following his move to Italy in 2018.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He became the first player in history to reach 50 goals in the Premier League, La Liga and Serie A",
+    "He became the first player in history to reach 50 goals in the Premier League, La Liga and Serie A"
+   ]
+  },
+  {
+   "text": "Cristiano Ronaldo has played with Isco.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 195 matches alongside Isco for Real Madrid (2013 to 2018)",
+    "[Squad data > Real Madrid] Played in 195 matches alongside Isco for Real Madrid (2013 to 2018)"
+   ]
+  },
+  {
+   "text": "Cristiano Ronaldo has played with Pogba.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 21 matches alongside Paul Pogba for Manchester United (2021 to 2022)",
+    "[Squad data > Manchester United] Played in 21 matches alongside Paul Pogba for Manchester United (2021 to 2022)"
+   ]
+  },
+  {
+   "text": "Cristiano Ronaldo has played with Vitinha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Portugal] Played in 3 matches alongside Vitinha for Portugal (2026)",
+    "[Squad data > Portugal] Played in 3 matches alongside Vitinha for Portugal (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+  "revid": 1386298221
+ },
+ "alternatives": [
+  {
+   "question": "I've made the most international appearances of any male footballer in history.\nUnfortunately I was once banned for three months by FIFA following an incident in a qualifier against Ireland.\nI've been managed by Zidane, Mourinho & Sarri.",
+   "problems": [
+    "claim not stated in the evidence: \"Cristiano Ronaldo was banned for three months by FIFA following an incident in a qualifier against Ireland.\"",
+    "wording will date: The claim of holding the all-time record for most international appearances is a present-tense superlative that could become false if another player surpasses it.; The claim to have the most international appearances is a current record that could be broken."
+   ],
+   "style": 2
+  },
+  {
+   "question": "I'm the only player to have finished as the top scorer in four different domestic leagues.\nFollowing my time in Europe, I led Al-Nassr to their first league title since 2019.\nI've played with the likes of Dybala, Gareth Bale & Casemiro.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Following his time in Europe, Cristiano Ronaldo led Al-Nassr to their first league title since 2019.\"",
+    "wording will date: The claim 'I'm the only player to have finished as the top scorer in four different domestic leagues' is a present-tense superlative that could become false if another active player achieves this feat.; The claim 'I'm the only player' is a present-tense record that could be broken."
+   ],
+   "style": 0
+  }
+ ]
+}

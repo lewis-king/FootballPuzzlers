@@ -1,0 +1,97 @@
+{
+ "answer": "Khvicha Kvaratskhelia",
+ "acceptableAnswers": [
+  "Khvicha Kvaratskhelia",
+  "Kvaratskhelia"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In my debut season for Napoli I helped the club win their first league title since 1990, and was named the Serie A MVP.\nFollowing a move to France in 2025, I scored in the Champions League final to help secure a continental treble.\nI've played with the likes of Osimhen, Hakimi & Donnarumma.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is factually strong and follows the correct structure (hook, development, narrowing clue). However, it reads slightly like a resume rather than a story; the transition 'Following a move to France' is functional but lacks the conversational flow or tension found in the best originals. It",
+  "fix": "Add a touch of feeling or contrast to make it feel more personal. For example: 'I arrived at Napoli and immediately helped them end their 33-year title drought, earning Serie A MVP. Yet my biggest moment came after moving to France, where I scored in the Champions League final to complete a treble.\\"
+ },
+ "claims": [
+  {
+   "text": "Khvicha Kvaratskhelia helped Napoli win their first league title since 1990 in his debut season for the club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022, and in his debut season, he helped the club win their first Serie A title since 1990",
+    "Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022, and in his debut season, he helped the club win their first Serie A title  since 1990, being named Serie A's Most Valuable Player and the Champions League's Young Player of the Season."
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia was named the Serie A MVP during his debut season for Napoli.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022, and in his debut season, he helped the club win their first Serie A title  since 1990, being named Serie A's Most Valuable Player and the Champions League's Young Player of the Season."
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia moved to France in 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 17 January 2025, Ligue 1 club Paris Saint-Germain announced the signing of Kvaratskhelia on a contract until June 2029.",
+    "On 17 January 2025, Kvaratskhelia moved to French club PSG for a reported transfer fee of €80 million (70 million + 10 million in attainable bonuses)."
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia scored in the Champions League final following his move to France in 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He immediately became a focal player, as the club won a continental treble in his first season there, scoring in the Champions League final.",
+    "on 31 May, Kvaratskhelia scored PSG's fourth goal in their 5–0 victory over Inter Milan in the Champions League final"
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia helped secure a continental treble by scoring in the Champions League final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He immediately became a focal player, as the club won a continental treble in his first season there, scoring in the Champions League final.",
+    "He immediately became a focal player, as the club won a continental treble in his first season there, scoring in the Champions League final."
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia has played with Osimhen, Hakimi & Donnarumma.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SSC Napoli] Played in 63 matches alongside Victor Osimhen for SSC Napoli (2022 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Khvicha_Kvaratskhelia",
+  "revid": 1385639210
+ },
+ "alternatives": [
+  {
+   "question": "I once held the record for the most Serie A Player of the Month awards, a feat I share with Paulo Dybala.\nFollowing my time in Italy, I moved to Paris and became the first Georgian player in the club's history.\nI've played with the likes of Lukaku, Dembélé & Fabian Ruiz.",
+   "problems": [
+    "claim not stated in the evidence: \"Khvicha Kvaratskhelia once held the record for the most Serie A Player of the Month awards.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I'm the first Georgian player to win Ligue 1 and score in a UEFA club competition final.\nSince moving to Paris, I've won two consecutive Champions League titles and was named the tournament's best player in 2026.\nI've been managed by Luciano Spalletti & Luis Enrique.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

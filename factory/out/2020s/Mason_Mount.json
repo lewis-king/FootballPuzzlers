@@ -1,0 +1,83 @@
+{
+ "answer": "Mason Mount",
+ "acceptableAnswers": [
+  "Mason Mount",
+  "Mount"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won the Champions League & was named my club's Player of the Season for two consecutive years.\nYet I left that same club in 2023 to join Manchester United.\nI've played with the likes of Kanté, Lukaku & Eriksen.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The question is factually accurate and follows the correct structure (hook, twist, narrowing clue). However, it lacks the 'story' element that defines a 5. The opening sentence lists two achievements without connecting them narratively or providing a memorable hook (like a specific match moment or a",
+  "fix": "The question is factually accurate and follows the correct structure (hook, twist, narrowing clue). However, it lacks the 'story' element that defines a 5. The opening sentence lists two achievements without connecting them narratively or providing a memorable hook (like a specific match moment or a"
+ },
+ "claims": [
+  {
+   "text": "Mason Mount won the Champions League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He established himself as an integral player for Chelsea in the following years, and won the UEFA Champions League, the UEFA Super Cup, and the FIFA Club World Cup in 2021.",
+    "won the UEFA Champions League, the UEFA Super Cup, and the FIFA Club World Cup in 2021."
+   ]
+  },
+  {
+   "text": "Mason Mount was named his club's Player of the Season for two consecutive years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mount was named Chelsea's player of the season for a second consecutive season on 22 May",
+    "Mount was named Chelsea's player of the season for a second consecutive season on 22 May, becoming the 12th player to win it more than once, and the first to win it twice in a row since Eden Hazard, who won it in 2014 and retained it in 2015."
+   ]
+  },
+  {
+   "text": "Mason Mount left that same club in 2023 to join Manchester United.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mount left Chelsea in July 2023, and was signed by Manchester United",
+    "Mount left Chelsea in July 2023, and was signed by Manchester United for an initial transfer fee of £55 million."
+   ]
+  },
+  {
+   "text": "Mason Mount played with Kanté, Lukaku & Eriksen.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Mason_Mount",
+  "revid": 1386021359
+ },
+ "alternatives": [
+  {
+   "question": "I'm the first member of my club's academy to make his first team debut and complete 50 appearances in a single season.\nFollowing this, I went on to provide the assist for the winning goal in a Champions League final.\nI've been managed by Frank Lampard, Thomas Tuchel & Erik ten Hag.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Following making his first team debut and completing 50 appearances in a single season, Mason Mount provided the assist for the winning goal in a Champions League final.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was named the Golden Player at the 2017 European Under-19 Championship after winning the tournament with England.\nSince then I've played for two of the biggest clubs in England, including a spell where I wore the number seven jersey.\nI've shared a pitch with Varane, Casemiro & De Ligt.",
+   "problems": [
+    "team-mates all from one club (Manchester United); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Since the 2017 European Under-19 Championship, Mason Mount has played for two of the biggest clubs in England.\"",
+    "claim not stated in the evidence: \"Mason Mount has shared a pitch with Varane, Casemiro & De Ligt.\""
+   ],
+   "style": 0
+  }
+ ]
+}

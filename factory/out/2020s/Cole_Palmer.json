@@ -1,0 +1,70 @@
+{
+ "answer": "Cole Palmer",
+ "acceptableAnswers": [
+  "Cole Palmer",
+  "Palmer"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2033 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I was almost released from the academy at 16 because coaches thought my physique was too slight.\nYet I went on to score England's equaliser in the final of Euro 2024.\nI've played with Foden, Rodri & Moisés Caicedo",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 1,
+  "why": "This reads exactly like one of Lewis's originals: it opens with a compelling human hook (the near-release due to physique), connects the sentences logically ('Yet...'), and closes with a narrowing list of teammates that spans different clubs/eras (Chelsea vs Man City). The facts are memorable and 't",
+  "fix": "The draft is excellent. It follows the house style perfectly: first-person, conversational, connected sentences, a strong hook (the near-release story), and a narrowing clue at the end using recognizable names from different clubs (Foden/Rodri for Man City, Caicedo for Chelsea). The difficulty is 1/"
+ },
+ "claims": [
+  {
+   "text": "Cole Palmer was almost released from his academy at age 16 because coaches thought his physique was too slight.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "academy coaches wanted to release him at 16",
+    "academy coaches wanted to release him at 16"
+   ]
+  },
+  {
+   "text": "Cole Palmer scored England's equaliser in the final of Euro 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He represented his country at UEFA Euro 2024, scoring the equalising goal in the final.",
+    "He represented his country at UEFA Euro 2024, scoring the equalising goal in the final."
+   ]
+  },
+  {
+   "text": "Cole Palmer has played with Phil Foden, Rodri, and Moisés Caicedo.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Cole_Palmer",
+  "revid": 1385092147
+ },
+ "alternatives": [
+  {
+   "question": "I once held the outright Premier League record for the most penalties scored without a single miss.\nAlthough I've won several individual awards, I was omitted from my country's final squad for the 2026 World Cup.\nI've played with the likes of Haaland, Sancho & João Félix",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I'm the first player in Premier League history to score four goals in a single half.\nIn 2025, I also helped my club win both the UEFA Conference League and the FIFA Club World Cup.\nI've been managed by Pep Guardiola & Enzo Maresca",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "answer": "Dwight McNeil",
+ "acceptableAnswers": [
+  "Dwight McNeil",
+  "McNeil"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I was released from the Manchester United academy at the age of 14.\nWithin a week I went on trial at Burnley, where I eventually broke into the first team.\nI've since been managed by Sean Dyche at two different clubs.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The facts are correct and the structure follows the guide (hook, development, clue), but it reads like a CV rather than a story. It lacks the 'twist' or tension found in the originals (e.g., Mané's fastest hat-trick vs. Bosingwa's relegation). The hook ('released at 14') is a common trope for young,",
+  "fix": "Add a specific memorable moment or contrast to create tension. For example: 'I was released by Manchester United at 14, but within weeks I was signing for Burnley. Despite being managed by Sean Dyche at two different clubs, my biggest breakthrough came when he left.' This adds narrative flow and a '"
+ },
+ "claims": [
+  {
+   "text": "Dwight McNeil was released from the Manchester United academy at the age of 14.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He stayed in the United academy until the age of 14 when he started struggling for game time and was subsequently released.",
+    "He stayed in the United academy until the age of 14 when he started struggling for game time and was subsequently released."
+   ]
+  },
+  {
+   "text": "Within a week of being released, Dwight McNeil went on trial at Burnley.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Within a week of his release, McNeil went on trial at Burnley's Academy.",
+    "Within a week of his release, McNeil went on trial at Burnley's Academy."
+   ]
+  },
+  {
+   "text": "Dwight McNeil eventually broke into the first team at Burnley.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 13 May 2018, he made his first-team debut in the final match of the 2017–18 season when he replaced Aaron Lennon as a late substitute in the 2–1 home defeat to AFC Bournemouth.",
+    "On 13 May 2018, he made his first-team debut in the final match of the 2017–18 season when he replaced Aaron Lennon as a late substitute in the 2–1 home defeat to AFC Bournemouth."
+   ]
+  },
+  {
+   "text": "Sean Dyche has managed Dwight McNeil at two different clubs.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Was managed by Sean Dyche at Burnley FC in 133 matches (2018 to 2022)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Dwight_McNeil",
+  "revid": 1383508873
+ },
+ "alternatives": [
+  {
+   "question": "I was released from the Manchester United academy at age 14.\nWithin a week I went on trial at Burnley, where I eventually broke into the first team.\nI've since been managed by Sean Dyche & David Moyes",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I was released by the academy of the club I supported as a child when I was just 14.\nWithin a week however I had gone on trial at Burnley, where I eventually broke into the first team.\nI've since played under Sean Dyche at two different clubs.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In 2022 I was named Everton Young Player of the Season.\nFollowing my time at Burnley, it was here that I scored a brace against Crystal Palace to secure my club's first win of the season in 2024.\nI've been managed by David Moyes & Frank Lampard.",
+   "problems": [
+    "claim is wrong: \"Dwight McNeil was named Everton Young Player of the Season in 2022.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2024 I scored a brace against Crystal Palace to secure my club's first win of the season.\nIncredibly, it was that same club I joined on a permanent deal two years later.\nI've played with the likes of Grealish, Pickford & Gordon",
+   "problems": [
+    "team-mates all from one club (Everton FC); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Dwight McNeil joined Crystal Palace on a permanent deal two years after scoring a brace against them in 2024.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "In September 2024 I scored a brace to secure my club's first win of the season.\nInterestingly, that match was against the very team I would join on a permanent deal two years later.\nI've played alongside the likes of Grealish, Gordon & Pickford.",
+   "problems": [
+    "team-mates all from one club (Everton FC); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Dwight McNeil joined the team he played against in the September 2024 match on a permanent deal two years later.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "In February 2026 I was set to join Crystal Palace on loan, but the deal collapsed because the paperwork wasn't finished.\nIncredibly, I still joined them permanently just six months later.\nI've played with the likes of Grealish, Gordon & Pickford.",
+   "problems": [
+    "banned wording (still)",
+    "team-mates all from one club (Everton FC); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Dwight McNeil was set to join Crystal Palace on loan in February 2026.\"",
+    "claim not stated in the evidence: \"Dwight McNeil joined Crystal Palace permanently six months after February 2026.\""
+   ],
+   "style": 0
+  }
+ ]
+}

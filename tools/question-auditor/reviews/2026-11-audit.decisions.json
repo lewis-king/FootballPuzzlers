@@ -1,0 +1,987 @@
+{
+ "Q4": {
+  "status": "approved",
+  "at": "2026-11-20T17:22:35",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q5": {
+  "status": "approved",
+  "at": "2026-11-20T17:22:46",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q6": {
+  "status": "edited",
+  "at": "2026-11-20T17:28:07",
+  "question": "I've made over 50 caps for my country and made more than 450 appearances in the Premier League.\nI won the Premier League for the first time after playing in the division for more than a decade.\nI was named my club's Player of the Season in my 19th Premier League campaign.",
+  "answers": [
+   "Gareth Barry",
+   "Barry"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q152": {
+  "status": "approved",
+  "at": "2026-11-20T17:34:11",
+  "note": "Position flags approved in chat (strict winger rule).",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q180": {
+  "status": "approved",
+  "at": "2026-11-20T17:34:11",
+  "note": "Position flags approved in chat (strict winger rule).",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q190": {
+  "status": "rejected",
+  "at": "2026-11-20T17:39:54",
+  "note": "Keep English = yes for Sterling (Lewis, 20 Nov 2026): played for England, and no fan would expect no."
+ },
+ "Q10": {
+  "status": "edited",
+  "at": "2026-11-20T17:39:07",
+  "question": "I've scored a hat-trick from set pieces in a single Premier League game.\nI've won the Premier League as many times as I've been named Premier League Player of the Month (which is more than 2).\nMy Premier League career spans over 10 years.",
+  "answers": [
+   "Wayne Rooney",
+   "Rooney"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q11": {
+  "status": "approved",
+  "at": "2026-11-20T17:50:50",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q12": {
+  "status": "approved",
+  "at": "2026-11-20T17:51:09",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q13": {
+  "status": "approved",
+  "at": "2026-11-20T17:51:26",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q14": {
+  "status": "approved",
+  "at": "2026-11-20T17:51:45",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q15": {
+  "status": "approved",
+  "at": "2026-11-20T17:52:07",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q16": {
+  "status": "approved",
+  "at": "2026-11-20T17:52:14",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q18": {
+  "status": "edited",
+  "at": "2026-11-20T17:53:36",
+  "question": "I've played in the Premier League, the Championship and Australia's A-League.\nI've played with Lescott at 3 different clubs and with Pienaar and Sinclair at 2 different clubs.\nI have a Premier League medal to my name.",
+  "answers": [
+   "Jack Rodwell",
+   "Rodwell"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q19": {
+  "status": "approved",
+  "at": "2026-11-20T17:53:45",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q20": {
+  "status": "approved",
+  "at": "2026-11-20T17:54:05",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q21": {
+  "status": "approved",
+  "at": "2026-11-20T17:54:07",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q22": {
+  "status": "edited",
+  "at": "2026-11-20T17:55:23",
+  "question": "I set a Premier League record of 20 assists in a season.\nI've never won the League Cup but I've won the FA Cup, Community Shield and League Title.\nAnother accolade to my name is the European Golden Shoe.",
+  "answers": [
+   "Thierry Henry",
+   "Henry"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q23": {
+  "status": "edited",
+  "at": "2026-11-20T17:55:46",
+  "question": "Some of the players I've played with include Phil Jones, Samuel Eto'o, Steven N'Zonzi & Míchel Salgado.\nMy accumulated transfer fee total for my career is in excess of £40 mil",
+  "answers": [
+   "Christopher Samba",
+   "Samba"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q24": {
+  "status": "approved",
+  "at": "2026-11-20T17:55:59",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q25": {
+  "status": "approved",
+  "at": "2026-11-20T17:56:07",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q26": {
+  "status": "approved",
+  "at": "2026-11-20T17:56:21",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q27": {
+  "status": "edited",
+  "at": "2026-11-20T17:56:39",
+  "question": "I share the record for the most missed Premier League penalties, with 11.",
+  "answers": [
+   "Alan Shearer",
+   "Shearer"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q29": {
+  "status": "approved",
+  "at": "2026-11-20T17:57:02",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q30": {
+  "status": "edited",
+  "at": "2026-11-20T17:57:52",
+  "question": "My senior club career spanned more than 500 games in which I scored more than 150 goals.\nTeams I have played for include Shanghai Shenhua, PSG, Chelsea, Juventus & Arsenal.\nI made 69 caps for my country and won the Euros.\nMy transfer fees added up to over £100 million.",
+  "answers": [
+   "Nicolas Anelka",
+   "Anelka"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q31": {
+  "status": "approved",
+  "at": "2026-11-20T17:58:04",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q33": {
+  "status": "approved",
+  "at": "2026-11-20T17:58:07",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q35": {
+  "status": "approved",
+  "at": "2026-11-20T17:58:11",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q40": {
+  "status": "approved",
+  "at": "2026-11-20T17:58:40",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q41": {
+  "status": "approved",
+  "at": "2026-11-20T17:58:48",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q42": {
+  "status": "approved",
+  "at": "2026-11-20T17:58:52",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q43": {
+  "status": "approved",
+  "at": "2026-11-20T17:59:02",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q44": {
+  "status": "approved",
+  "at": "2026-11-20T17:59:12",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q48": {
+  "status": "approved",
+  "at": "2026-11-20T17:59:25",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q49": {
+  "status": "approved",
+  "at": "2026-11-20T17:59:38",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q50": {
+  "status": "approved",
+  "at": "2026-11-20T17:59:43",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q52": {
+  "status": "approved",
+  "at": "2026-11-20T18:00:21",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q53": {
+  "status": "approved",
+  "at": "2026-11-20T18:00:33",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q54": {
+  "status": "rejected",
+  "at": "2026-11-20T18:01:02",
+  "note": "more fwd than mid"
+ },
+ "Q55": {
+  "status": "approved",
+  "at": "2026-11-20T18:01:14",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q56": {
+  "status": "approved",
+  "at": "2026-11-20T18:01:29",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q57": {
+  "status": "approved",
+  "at": "2026-11-20T18:01:39",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q60": {
+  "status": "edited",
+  "at": "2026-11-20T18:02:16",
+  "question": "I've won 2 Premier League winner's medals, with Arsenal and Man City, but played only 12 league games across the two title-winning seasons.",
+  "answers": [
+   "Richard Wright",
+   "Wright"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q61": {
+  "status": "approved",
+  "at": "2026-11-20T18:02:19",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q62": {
+  "status": "approved",
+  "at": "2026-11-20T18:02:20",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q63": {
+  "status": "approved",
+  "at": "2026-11-20T18:02:31",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q64": {
+  "status": "approved",
+  "at": "2026-11-20T18:02:33",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q65": {
+  "status": "edited",
+  "at": "2026-11-20T18:03:00",
+  "question": "I've scored over 50 Premier League goals.\nI've played on the same team as Robert Huth, Alex Song, Paolo Di Canio & Zola.\nI've been managed by Claudio Ranieri.",
+  "answers": [
+   "Carlton Cole",
+   "Cole"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q66": {
+  "status": "approved",
+  "at": "2026-11-20T18:03:14",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q68": {
+  "status": "approved",
+  "at": "2026-11-20T18:03:20",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q69": {
+  "status": "approved",
+  "at": "2026-11-20T18:03:25",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q70": {
+  "status": "approved",
+  "at": "2026-11-20T18:03:37",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q72": {
+  "status": "approved",
+  "at": "2026-11-20T18:05:58",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q73": {
+  "status": "approved",
+  "at": "2026-11-20T18:06:15",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q74": {
+  "status": "approved",
+  "at": "2026-11-20T18:06:17",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q77": {
+  "status": "approved",
+  "at": "2026-11-20T18:06:23",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q78": {
+  "status": "approved",
+  "at": "2026-11-20T18:06:26",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q82": {
+  "status": "approved",
+  "at": "2026-11-20T18:06:44",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q83": {
+  "status": "approved",
+  "at": "2026-11-20T18:06:47",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q85": {
+  "status": "approved",
+  "at": "2026-11-20T18:06:57",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q88": {
+  "status": "edited",
+  "at": "2026-11-20T18:28:32",
+  "question": "I've played with Rooney, Evra and Ben Arfa.\nSome of the clubs I've played for include Man United and Anzhi, but I've never won a domestic league title",
+  "answers": [
+   "Gabriel Obertan",
+   "Obertan"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "FWD removed: under 30% of starts (Lewis, 20 Nov 2026).",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q89": {
+  "status": "approved",
+  "at": "2026-11-20T18:07:04",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q90": {
+  "status": "approved",
+  "at": "2026-11-20T18:07:24",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q91": {
+  "status": "approved",
+  "at": "2026-11-20T18:07:37",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q94": {
+  "status": "approved",
+  "at": "2026-11-20T18:07:47",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q96": {
+  "status": "edited",
+  "at": "2026-11-20T18:28:32",
+  "question": "I'm the second youngest player to score in a WC final, after Pelé.\nWe went on to lift the trophy that day",
+  "answers": [
+   "Kylian Mbappé",
+   "Mbappé",
+   "Kylian Mbappe",
+   "Mbappe"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "note": "MID removed: under 30% of starts (Lewis, 20 Nov 2026).",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q97": {
+  "status": "approved",
+  "at": "2026-11-20T18:07:58",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q98": {
+  "status": "approved",
+  "at": "2026-11-20T18:08:03",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q99": {
+  "status": "approved",
+  "at": "2026-11-20T18:08:07",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q100": {
+  "status": "approved",
+  "at": "2026-11-20T18:08:14",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q102": {
+  "status": "approved",
+  "at": "2026-11-20T18:08:24",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q103": {
+  "status": "edited",
+  "at": "2026-11-20T18:28:32",
+  "question": "I've lifted the WC on one occasion.\nI'm currently my country's leading goalscorer which includes 9 goals in the WC",
+  "answers": [
+   "David Villa",
+   "Villa"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "MID removed: under 30% of starts (Lewis, 20 Nov 2026).",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q104": {
+  "status": "approved",
+  "at": "2026-11-20T18:08:35",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q106": {
+  "status": "approved",
+  "at": "2026-11-20T18:08:53",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q108": {
+  "status": "approved",
+  "at": "2026-11-20T18:08:57",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q109": {
+  "status": "edited",
+  "at": "2026-11-20T18:10:47",
+  "question": "I've scored the winning goal in a WC final.\nI was also named Player of the Tournament at a Euros, a tournament in which I was man of the match in 3 of the games.",
+  "answers": [
+   "Andrés Iniesta",
+   "Iniesta"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q110": {
+  "status": "approved",
+  "at": "2026-11-20T18:10:56",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q112": {
+  "status": "approved",
+  "at": "2026-11-20T18:11:05",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q114": {
+  "status": "approved",
+  "at": "2026-11-20T18:11:07",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q118": {
+  "status": "edited",
+  "at": "2026-11-20T18:11:51",
+  "question": "I've scored 10 WC goals, 5 at each of two tournaments.\nAt my first WC I won both the Golden Boot and the Best Young Player award. An interesting fact is that I've scored the milestone 2,000th goal for my country",
+  "answers": [
+   "Thomas Müller",
+   "Müller",
+   "Thomas Muller",
+   "Muller"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q119": {
+  "status": "edited",
+  "at": "2026-11-20T18:12:47",
+  "question": "I'm the most capped player for my country.\nI'm a WC winner and the first player in my position to win the Golden Foot award",
+  "answers": [
+   "Gianluigi Buffon",
+   "Gigi Buffon",
+   "Buffon"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q121": {
+  "status": "approved",
+  "at": "2026-11-20T18:12:49",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q123": {
+  "status": "approved",
+  "at": "2026-11-20T18:12:58",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q124": {
+  "status": "approved",
+  "at": "2026-11-20T18:13:00",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q125": {
+  "status": "approved",
+  "at": "2026-11-20T18:13:08",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q126": {
+  "status": "approved",
+  "at": "2026-11-20T18:13:18",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q127": {
+  "status": "approved",
+  "at": "2026-11-20T18:13:27",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q129": {
+  "status": "approved",
+  "at": "2026-11-20T18:13:31",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q130": {
+  "status": "approved",
+  "at": "2026-11-20T18:13:38",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q131": {
+  "status": "approved",
+  "at": "2026-11-20T18:13:40",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q134": {
+  "status": "approved",
+  "at": "2026-11-20T18:14:02",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q136": {
+  "status": "approved",
+  "at": "2026-11-20T18:14:13",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q137": {
+  "status": "edited",
+  "at": "2026-11-20T18:14:45",
+  "question": "At the 2018 WC I created 24 chances.",
+  "answers": [
+   "Kieran Trippier",
+   "Trippier"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": false,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q138": {
+  "status": "edited",
+  "at": "2026-11-20T18:16:02",
+  "question": "At a WC where we reached the quarter-finals only Neymar, Griezmann & Ronaldo had more shots on target than me, I started every match but didn't score, despite taking more shots without a goal than any other player at the tournament",
+  "answers": [
+   "Marcus Berg",
+   "Berg"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q139": {
+  "status": "approved",
+  "at": "2026-11-20T18:16:10",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q141": {
+  "status": "approved",
+  "at": "2026-11-20T18:16:11",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q143": {
+  "status": "approved",
+  "at": "2026-11-20T18:16:25",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q144": {
+  "status": "approved",
+  "at": "2026-11-20T18:16:34",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q146": {
+  "status": "approved",
+  "at": "2026-11-20T18:17:06",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q147": {
+  "status": "rejected",
+  "at": "2026-11-20T18:18:04",
+  "note": ""
+ },
+ "Q149": {
+  "status": "approved",
+  "at": "2026-11-20T18:18:13",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q151": {
+  "status": "approved",
+  "at": "2026-11-20T18:18:19",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q153": {
+  "status": "approved",
+  "at": "2026-11-20T18:18:23",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q154": {
+  "status": "edited",
+  "at": "2026-11-20T18:18:47",
+  "question": "I was 19 when I became the youngest to play in and win a Champions League final.\nI also played in a record 20 consecutive Champions League seasons.",
+  "answers": [
+   "Iker Casillas",
+   "Casillas"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q155": {
+  "status": "approved",
+  "at": "2026-11-20T18:19:10",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q156": {
+  "status": "approved",
+  "at": "2026-11-20T18:19:15",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q158": {
+  "status": "approved",
+  "at": "2026-11-20T18:19:31",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q159": {
+  "status": "approved",
+  "at": "2026-11-20T18:19:42",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q163": {
+  "status": "approved",
+  "at": "2026-11-20T18:19:58",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q164": {
+  "status": "approved",
+  "at": "2026-11-20T18:20:04",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q167": {
+  "status": "approved",
+  "at": "2026-11-20T18:20:10",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q168": {
+  "status": "approved",
+  "at": "2026-11-20T18:20:20",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q169": {
+  "status": "approved",
+  "at": "2026-11-20T18:20:25",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q170": {
+  "status": "approved",
+  "at": "2026-11-20T18:20:37",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q171": {
+  "status": "approved",
+  "at": "2026-11-20T18:21:03",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q172": {
+  "status": "approved",
+  "at": "2026-11-20T18:21:12",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q173": {
+  "status": "approved",
+  "at": "2026-11-20T18:21:26",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q175": {
+  "status": "approved",
+  "at": "2026-11-20T18:21:28",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q177": {
+  "status": "approved",
+  "at": "2026-11-20T18:21:29",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q178": {
+  "status": "rejected",
+  "at": "2026-11-20T18:21:40",
+  "note": ""
+ },
+ "Q179": {
+  "status": "approved",
+  "at": "2026-11-20T18:21:43",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q181": {
+  "status": "edited",
+  "at": "2026-11-20T18:22:08",
+  "question": "I held the record for the fastest hat-trick in Champions League history for over ten years.",
+  "answers": [
+   "Bafétimbi Gomis",
+   "Gomis",
+   "Bafetimbi Gomis"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q183": {
+  "status": "approved",
+  "at": "2026-11-20T18:22:27",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q185": {
+  "status": "approved",
+  "at": "2026-11-20T18:22:30",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q188": {
+  "status": "approved",
+  "at": "2026-11-20T18:22:34",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q189": {
+  "status": "approved",
+  "at": "2026-11-20T18:22:37",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q193": {
+  "status": "approved",
+  "at": "2026-11-20T18:22:42",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q197": {
+  "status": "rejected",
+  "at": "2026-11-20T18:23:17",
+  "note": ""
+ },
+ "Q198": {
+  "status": "approved",
+  "at": "2026-11-20T18:24:17",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q200": {
+  "status": "approved",
+  "at": "2026-11-20T18:24:20",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q201a": {
+  "status": "approved",
+  "at": "2026-11-20T18:24:28",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q201b": {
+  "status": "rejected",
+  "at": "2026-11-20T18:24:34",
+  "note": ""
+ },
+ "Q202": {
+  "status": "approved",
+  "at": "2026-11-20T18:24:58",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q203": {
+  "status": "rejected",
+  "at": "2026-11-20T18:25:40",
+  "note": ""
+ },
+ "Q205": {
+  "status": "edited",
+  "at": "2026-11-20T18:27:30",
+  "question": "I won the Champions League in consecutive seasons with two different clubs.\nI've scored more than 10 goals in the competition.",
+  "answers": [
+   "Gerard Piqué",
+   "Piqué",
+   "Gerard Pique",
+   "Pique"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q206": {
+  "status": "approved",
+  "at": "2026-11-20T18:27:37",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q208": {
+  "status": "approved",
+  "at": "2026-11-20T18:27:48",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q209": {
+  "status": "approved",
+  "at": "2026-11-20T18:27:50",
+  "applied": "2026-11-20T18:29:13"
+ },
+ "Q210": {
+  "status": "approved",
+  "at": "2026-11-20T18:28:02",
+  "applied": "2026-11-20T18:29:13"
+ }
+}

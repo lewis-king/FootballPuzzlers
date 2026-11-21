@@ -1,0 +1,97 @@
+{
+ "answer": "Fikayo Tomori",
+ "acceptableAnswers": [
+  "Fikayo Tomori",
+  "Tomori"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I became the first Englishman to score for AC Milan since David Beckham.\nFollowing that success, I ended my first full season in Italy as a Serie A champion in 2022.\nI've been managed by Frank Lampard & Stefano Pioli.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (first Englishman to score for Milan since Beckham), which fits the style guide perfectly. The narrative flow is good ('Following that success...'). However, it loses a point because the final clue list (Lampard & Pioli) is slightly weak; Lampard managed him at Milan",
+  "fix": "Consider swapping one of the managers for a teammate to add variety, or tightening the second sentence. For example: 'I became the first Englishman to score for AC Milan since David Beckham, helping us secure our first Serie A title in 15 years that season. I've played alongside Theo Hernandez and Z"
+ },
+ "claims": [
+  {
+   "text": "Fikayo Tomori was the first Englishman to score for AC Milan since David Beckham.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Tomori became the first Englishman to score for Milan since David Beckham in 2009",
+    "Tomori became the first Englishman to score for Milan since David Beckham in 2009"
+   ]
+  },
+  {
+   "text": "Fikayo Tomori ended his first full season in Italy as a Serie A champion in 2022.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Tomori ended his first full season in Italy as a Serie A champion",
+    "Tomori ended his first full season in Italy as a Serie A champion"
+   ]
+  },
+  {
+   "text": "Fikayo Tomori was managed by Frank Lampard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Was managed by Frank Lampard at Chelsea FC in 24 matches (2019 to 2021)",
+    "Was managed by Frank Lampard at Chelsea FC in 24 matches (2019 to 2021)"
+   ]
+  },
+  {
+   "text": "Fikayo Tomori was managed by Stefano Pioli.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AC Milan] Was managed by Stefano Pioli at AC Milan in 142 matches (2021 to 2024)",
+    "[Squad data > AC Milan] Was managed by Stefano Pioli at AC Milan in 142 matches (2021 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Fikayo_Tomori",
+  "revid": 1384906555
+ },
+ "alternatives": [
+  {
+   "question": "I was born in Canada and represented them at youth level, yet I've made my senior debut for England.\nIn 2017 I also helped the England U20s win a World Cup, despite scoring an own goal during the group stage.\nI've been managed by Frank Lampard & Stefano Pioli",
+   "problems": [
+    "claim is wrong: \"Fikayo Tomori scored an own goal during the group stage of the 2017 World Cup.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was part of a Chelsea youth side which recorded back to back triumphs in both the UEFA Youth League and FA Youth Cup.\nAlthough I spent several seasons on loan in the Championship, I eventually moved to Italy where I was named in the 2021-22 Serie A Team of the Year.\nI've played with N'Golo Kanté, Tammy Abraham & Morata",
+   "problems": [
+    "claim not stated in the evidence: \"Fikayo Tomori moved to Italy after spending several seasons on loan in the Championship.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was born in Canada and represented them at youth level, yet I've made my senior debut for England.\nIn 2017 I also helped the England U20s win a World Cup, despite scoring an own goal during the group stage against Guinea.\nI've played with the likes of Kanté, Pulisic & Morata.",
+   "problems": [
+    "claim not stated in the evidence: \"Fikayo Tomori scored an own goal during the group stage against Guinea in the 2017 World Cup.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I became the first Englishman to score for AC Milan since David Beckham back in 2009.\nFollowing that, I ended my first full season in Italy as a Serie A champion.\nI've played with the likes of Pulisic, Leão & João Félix",
+   "problems": [
+    "team-mates all from one club (AC Milan); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

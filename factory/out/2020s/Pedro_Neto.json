@@ -1,0 +1,102 @@
+{
+ "answer": "Pedro Neto",
+ "acceptableAnswers": [
+  "Pedro Neto",
+  "Neto"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I once became the youngest ever goalscorer in the Primeira Liga for my first professional club.\nFollowing a spell in Italy, I moved to England where I eventually became the first teenager to score a league goal for Wolves.\nI've played with Milinković-Savić, Cole Palmer & João Félix.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The draft is factually accurate and follows the house style well: it uses first-person British English, connects sentences with 'Following a spell...', and ends with a strong narrowing clue list. The hook (youngest goalscorer in Primeira Liga) is decent but slightly dry compared to the best examples",
+  "fix": "To push this to a 5, sharpen the opening hook to be more memorable or surprising. For example, emphasize the contrast between his early record and his later move to England, or highlight the specific age/record if it's particularly striking. Also, ensure 'Milinković-Savić' is clearly linked to the '"
+ },
+ "claims": [
+  {
+   "text": "Pedro Neto is the youngest ever goalscorer in the Primeira Liga for his first professional club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the club's youngest ever goal scorer in the competition"
+   ]
+  },
+  {
+   "text": "Pedro Neto had a spell playing in Italy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He started his career at Braga, who loaned him to Italian club Lazio in the summer of 2017.",
+    "He started his career at Braga, who loaned him to Italian club Lazio in the summer of 2017."
+   ]
+  },
+  {
+   "text": "After his spell in Italy, Pedro Neto moved to England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 2 August 2019, Neto signed with Wolverhampton Wanderers."
+   ]
+  },
+  {
+   "text": "Pedro Neto is the first teenager to score a league goal for Wolves.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first teenager to achieve the feat for the club in the Premier League in the process."
+   ]
+  },
+  {
+   "text": "Pedro Neto has played with Milinković-Savić.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Società Sportiva Lazio S.p.A.] Played in 4 matches alongside Sergej Milinković-Savić for Società Sportiva Lazio S.p.A. (2019)",
+    "[Squad data > Società Sportiva Lazio S.p.A.] Played in 4 matches alongside Sergej Milinković-Savić for Società Sportiva Lazio S.p.A. (2019)"
+   ]
+  },
+  {
+   "text": "Pedro Neto has played with Cole Palmer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 70 matches alongside Cole Palmer for Chelsea FC (2024 to 2026)",
+    "[Squad data > Chelsea FC] Played in 70 matches alongside Cole Palmer for Chelsea FC (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Pedro Neto has played with João Félix.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 11 matches alongside João Félix for Chelsea FC (2024 to 2025)",
+    "[Squad data > Chelsea FC] Played in 11 matches alongside João Félix for Chelsea FC (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Pedro_Neto",
+  "revid": 1386426612
+ },
+ "alternatives": [
+  {
+   "question": "In my first season at Chelsea, I won both the UEFA Conference League and the FIFA Club World Cup.\nI've also had the honour of winning the UEFA Nations League with my country in 2025.\nI've been managed by Nuno Espírito Santo & Enzo Maresca.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I was the first player born in the 2000s to represent my national team, scoring on my debut in 2020.\nUnfortunately I've been plagued by recurrent physical problems which ruled me out of the 2022 World Cup.\nI've played with the likes of Sancho, Caicedo & Cristiano Ronaldo.",
+   "problems": [
+    "claim is wrong: \"Pedro Neto was ruled out of the 2022 World Cup due to recurrent physical problems.\""
+   ],
+   "style": 4
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+  "expo": {
+    "name": "Football Who Am I",
+    "slug": "football-who-am-i",
+    "scheme": "footballwhoami",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0e1b2f",
+    "ios": {
+      "bundleIdentifier": "com.king.FootballTrivia",
+      "buildNumber": "31",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "appStoreUrl": "https://apps.apple.com/app/id1338147291"
+    },
+    "android": {
+      "package": "com.footballtrivia",
+      "versionCode": 3000003,
+      "adaptiveIcon": {
+        "backgroundColor": "#0E1624",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "softwareKeyboardLayoutMode": "resize",
+      "predictiveBackGestureEnabled": false,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.footballtrivia"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-image",
+      "expo-localization",
+      "expo-iap",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/android-icon-monochrome.png",
+          "color": "#7b3fe4"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "backgroundColor": "#0E1624"
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+          "delayAppMeasurementInit": true,
+          "userTrackingUsageDescription": "This lets us show you ads that are more relevant. Saying no still gives you ads, just less tailored ones."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraProguardRules": "# Room databases are created by reflection (WorkManager, pulled in by the Google Mobile Ads SDK).\n# Without this R8 strips WorkDatabase_Impl and the app crashes on launch.\n-keep class * extends androidx.room.RoomDatabase { <init>(); }\n-keep class androidx.work.impl.** { *; }\n"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "a457904a-5712-492e-8501-dfe6e924d107"
+      }
+    },
+    "owner": "lewis-king"
+  }
+}

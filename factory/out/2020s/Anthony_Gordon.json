@@ -1,0 +1,95 @@
+{
+ "answer": "Anthony Gordon",
+ "acceptableAnswers": [
+  "Anthony Gordon",
+  "Gordon"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've had the ignominy of being subbed off after coming on at half-time, reacting angrily to my manager in the process.\nDespite this, I later helped my club win their first major domestic trophy in 70 years.\nI've played with the likes of James Rodríguez, Bruno Guimarães & Tonali.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (the famous incident), and the narrowing clue works well by mixing a star with two current teammates to point toward Newcastle. It reads naturally in first person. However, it loses a point because the second sentence ('helped my club win their first major domestic奖杯",
+  "fix": "helped my club win their first major domestic trophy in 70 years') is slightly vague; 'major domestic trophy' could be interpreted as the League Cup or FA Cup, whereas the specific achievement (League Cup) is what defines that era. A tighter phrasing like 'winning the League Cup for the first time' "
+ },
+ "claims": [
+  {
+   "text": "Anthony Gordon was substituted off after coming on as a substitute at half-time.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 8 April, against Brentford, he came on at half-time, but had the ignominy of being subbed off.",
+    "On 8 April, against Brentford, he came on at half-time, but had the ignominy of being subbed off."
+   ]
+  },
+  {
+   "text": "Anthony Gordon reacted angrily to his manager during the incident where he was substituted off after coming on at half-time.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 8 April, against Brentford, he came on at half-time, but had the ignominy of being subbed off. He reacted angrily to manager Eddie Howe",
+    "He reacted angrily to manager Eddie Howe"
+   ]
+  },
+  {
+   "text": "Anthony Gordon helped his club win their first major domestic trophy in 70 years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "helping the team to become the first Newcastle United side to win a major domestic trophy in 70 years",
+    "Although Gordon could not play in the final due to suspension, he scored goals in both legs of the 2025 EFL Cup semi-final victory against Arsenal, helping the team to become the first Newcastle United side to win a major domestic trophy in 70 years."
+   ]
+  },
+  {
+   "text": "Anthony Gordon played with James Rodríguez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Played in 3 matches alongside James Rodríguez for Everton FC (2020 to 2021)",
+    "[Squad data > Everton FC] Played in 3 matches alongside James Rodríguez for Everton FC (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Anthony Gordon played with Bruno Guimarães.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Played in 127 matches alongside Bruno Guimarães for Newcastle United (2023 to 2026)",
+    "[Squad data > Newcastle United] Played in 127 matches alongside Bruno Guimarães for Newcastle United (2023 to 2026)"
+   ]
+  },
+  {
+   "text": "Anthony Gordon played with Tonali.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Played in 88 matches alongside Sandro Tonali for Newcastle United (2023 to 2026)",
+    "[Squad data > Newcastle United] Played in 88 matches alongside Sandro Tonali for Newcastle United (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Anthony_Gordon_(footballer)",
+  "revid": 1385901553
+ },
+ "alternatives": [
+  {
+   "question": "I was once released from Liverpool's Academy, but I later returned to face them as a professional.\nI eventually won the European Under-21 Championship and was named Player of the Tournament.\nThroughout my career I've played with Dele Alli, Richarlison & Isak.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "In 2026 I became only the second English player to score at least 10 goals in a single UEFA Champions League campaign.\nThat same year I made a move to Spain to play for Barcelona.\nI've been managed by Carlo Ancelotti, Rafael Benítez & Eddie Howe.",
+   "problems": [],
+   "style": 2
+  }
+ ]
+}

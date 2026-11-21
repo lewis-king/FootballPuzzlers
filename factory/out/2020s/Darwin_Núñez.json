@@ -1,0 +1,103 @@
+{
+ "answer": "Darwin Núñez",
+ "acceptableAnswers": [
+  "Darwin Núñez",
+  "Núñez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "In my second season in Portugal I was named both Player of the Year and top scorer in the Primeira Liga.\nIt was these performances which earned me a record transfer to Liverpool, where I later won the league title.\nI've played with Rúben Dias, Gonçalo Ramos & Luis Díaz.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The draft is factually accurate and follows the structure well, but it lacks the 'twist' or tension that defines a 5-score question. The hook (winning awards in Portugal) is true but somewhat dry compared to the original's best examples which often contain a contradiction or surprising detail. The '",
+  "fix": "To elevate this to a 5, add a layer of surprise or specific memorable context. For example, mention that he was initially signed on loan before becoming a permanent fixture, or highlight a specific controversial moment or record-breaking performance in his debut season that contrasts with the awards"
+ },
+ "claims": [
+  {
+   "text": "Darwin Núñez was named Player of the Year in the Primeira Liga during his second season in Portugal.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In his second season, he won the Bola de Prata for top scorer in the Primeira Liga with 26 goals in 28 games, being named in the Primeira Liga Team of the Year and Primeira Liga Player of the Year.",
+    "In his second season, he won the Bola de Prata for top scorer in the Primeira Liga with 26 goals in 28 games, being named in the Primeira Liga Team of the Year and Primeira Liga Player of the Year."
+   ]
+  },
+  {
+   "text": "Darwin Núñez was the top scorer in the Primeira Liga during his second season in Portugal.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In his second season, he won the Bola de Prata for top scorer in the Primeira Liga with 26 goals in 28 games",
+    "In his second season, he won the Bola de Prata for top scorer in the Primeira Liga with 26 goals in 28 games, being named in the Primeira Liga Team of the Year and Primeira Liga Player of the Year."
+   ]
+  },
+  {
+   "text": "Darwin Núñez transferred to Liverpool for a record fee.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "making him Liverpool's record transfer",
+    "making him Liverpool's record transfer."
+   ]
+  },
+  {
+   "text": "Darwin Núñez won the league title with Liverpool.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In a season marked by limited playing time, Núñez regardless won his first Premier League title with Liverpool, becoming the second Uruguayan to achieve this feat following Diego Forlán.",
+    "In a season marked by limited playing time, Núñez regardless won his first Premier League title with Liverpool, becoming the second Uruguayan to achieve this feat following Diego Forlán."
+   ]
+  },
+  {
+   "text": "Darwin Núñez has played with Rúben Dias.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SL Benfica] Played in 3 matches alongside Rúben Dias for SL Benfica (2020)",
+    "[Squad data > SL Benfica] Played in 3 matches alongside Rúben Dias for SL Benfica (2020)"
+   ]
+  },
+  {
+   "text": "Darwin Núñez has played with Gonçalo Ramos.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SL Benfica] Played in 37 matches alongside Gonçalo Ramos for SL Benfica (2020 to 2022)",
+    "[Squad data > SL Benfica] Played in 37 matches alongside Gonçalo Ramos for SL Benfica (2020 to 2022)"
+   ]
+  },
+  {
+   "text": "Darwin Núñez has played with Luis Díaz.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 101 matches alongside Luis Díaz for Liverpool FC (2022 to 2025)",
+    "[Squad data > Liverpool FC] Played in 101 matches alongside Luis Díaz for Liverpool FC (2022 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Darwin_Núñez",
+  "revid": 1386349750
+ },
+ "alternatives": [
+  {
+   "question": "I once scored two goals against Liverpool in the Champions League quarter-finals.\nShortly after, I joined the English side and eventually won the Premier League with them.\nThroughout my career I've been managed by Jorge Jesus & Jürgen Klopp.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I've won the Premier League, becoming only the second Uruguayan to do so.\nFollowing my time in England, I moved to Saudi Arabia where I've played for Al-Hilal & Al-Diriyah.\nI've shared the pitch with the likes of Salah, Van Dijk & Valverde.",
+   "problems": [],
+   "style": 2
+  }
+ ]
+}

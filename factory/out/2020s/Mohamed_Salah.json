@@ -1,0 +1,102 @@
+{
+ "answer": "Mohamed Salah",
+ "acceptableAnswers": [
+  "Mohamed Salah",
+  "Salah"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "READY",
+ "question": "I once held the record for most goals in a 38-game Premier League season.\nIn 2026 I captained my country to their first ever match victories at a World Cup.\nI've been managed by José Mourinho, Luciano Spalletti & Arne Slot.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The question is factually accurate and follows the structure well, but it lacks the narrative 'twist' or tension that defines a 5-score entry. The first sentence is a standard record claim rather than a surprising contradiction (like Kroos's brace). Additionally, listing three managers including the",
+  "fix": "Add a layer of personal feeling or a specific memorable moment to create tension. For example: 'I once held the record for most goals in a 38-game Premier League season, yet I often felt overshadowed by my teammates' brilliance. In 2026, that changed as I captained my country to their first ever win"
+ },
+ "claims": [
+  {
+   "text": "Mohamed Salah once held the record for most goals in a 38-game Premier League season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In his first season, he set the record for most Premier League goals scored (32) in a 38-game season and helped Liverpool to the 2018 Champions League final.",
+    "In his first season, he set the record for most Premier League goals scored (32) in a 38-game season"
+   ]
+  },
+  {
+   "text": "In 2026, Mohamed Salah captained his country to their first ever match victories at a World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He captained Egypt at the 2026 World Cup, leading the team to its first-ever match victories in the competition",
+    "He captained Egypt at the 2026 World Cup, leading the team to its first-ever match victories in the competition as well as its first appearance in the round of 16."
+   ]
+  },
+  {
+   "text": "Mohamed Salah has been managed by José Mourinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Was managed by José Mourinho at Chelsea FC in 17 matches (2014 to 2015)",
+    "[Squad data > Chelsea FC] Was managed by José Mourinho at Chelsea FC in 17 matches (2014 to 2015)"
+   ]
+  },
+  {
+   "text": "Mohamed Salah has been managed by Luciano Spalletti.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Associazione Sportiva Roma] Was managed by Luciano Spalletti at Associazione Sportiva Roma in 62 matches (2016 to 2017)",
+    "Was managed by Luciano Spalletti at Associazione Sportiva Roma in 62 matches (2016 to 2017)"
+   ]
+  },
+  {
+   "text": "Mohamed Salah has been managed by Arne Slot.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 88 matches (2024 to 2026)",
+    "[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 88 matches (2024 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+  "revid": 1386458608
+ },
+ "alternatives": [
+  {
+   "question": "In 2024-25 I became the first player in Premier League history to win the Golden Boot, Player of the Season and Playmaker awards in the same season.\nFollowing my time at Liverpool, I moved to Turkey to join Trabzonspor.\nI've been managed by José Mourinho, Luciano Spalletti & Arne Slot.",
+   "problems": [],
+   "style": 1
+  },
+  {
+   "question": "In the 2024-25 season I became the first player in Premier League history to win the Golden Boot, Player of the Season & Playmaker awards in the same season.\nFollowing my time at Liverpool, I moved to Turkey to join Trabzonspor.\nI've played with the likes of Courtois, Rüdiger & Wirtz.",
+   "problems": [],
+   "style": 1
+  },
+  {
+   "question": "I've scored the most goals in a 38-game Premier League season for any player, with 32.\nDespite my club success, I only reached the round of 16 with my national team at the 2026 World Cup.\nI've played with Pjanić, Rüdiger & Wirtz.",
+   "problems": [
+    "wording will date: The claim of holding the record for the most goals in a 38-game Premier League season is stated in the present tense and could be invalidated if another player scores more than 32 goals in a future 38-game season.; The claim to have scored the most goals in a 38-game season is a current record that could be broken."
+   ],
+   "style": 3
+  },
+  {
+   "question": "I'm the all-time top foreign goalscorer in the Premier League, though I started my career at left-back.\nIn 2017 I joined Liverpool for a club record fee and went on to win both the league and the Champions League.\nI've played with the likes of Mané, Hazard & Courtois.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim 'I'm the all-time top foreign goalscorer' is a present-tense ranking that could change if another player surpasses it.; The claim to be the all-time top foreign goalscorer is a current record that could change."
+   ],
+   "style": 0
+  }
+ ]
+}

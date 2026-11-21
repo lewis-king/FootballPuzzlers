@@ -1,0 +1,113 @@
+{
+ "answer": "Danny Ings",
+ "acceptableAnswers": [
+  "Danny Ings",
+  "Ings"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "NEEDS_WORK",
+ "question": "In 2020 I finished joint-second in the Premier League Golden Boot race, just one goal behind Jamie Vardy.\nFollowing my time at Southampton, I moved to Aston Villa.\nI've played with the likes of Coutinho, Rice & Paquetá.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The facts are correct and the structure follows the guide (hook, development, narrowing clue), but it reads like a list of stats rather than a story. The hook is a minor statistical detail ('joint-second in Golden Boot race') which lacks the charm or tension of the originals. It feels flat and util.",
+  "fix": "Make the hook more memorable or emotional. For example: 'I was just one goal behind Jamie Vardy for the Premier League Golden Boot, yet I never won it.' Then connect the move to Villa with a bit more narrative flow, perhaps mentioning the specific season or the feeling of that period. Ensure the 'C'"
+ },
+ "claims": [
+  {
+   "text": "Danny Ings finished joint-second in the Premier League Golden Boot race in 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He finished joint-second in the Premier League Golden Boot race with Arsenal striker Pierre-Emerick Aubameyang, one goal behind Jamie Vardy of Leicester City.",
+    "He finished joint-second in the Premier League Golden Boot race"
+   ]
+  },
+  {
+   "text": "In the 2020 Premier League Golden Boot race, Danny Ings was one goal behind Jamie Vardy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "one goal behind Jamie Vardy",
+    "He finished joint-second in the Premier League Golden Boot race with Arsenal striker Pierre-Emerick Aubameyang, one goal behind Jamie Vardy of Leicester City."
+   ]
+  },
+  {
+   "text": "Danny Ings moved to Aston Villa following his time at Southampton.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He moved to Aston Villa in 2021 and subsequently to West Ham United in January 2023.",
+    "He moved to Aston Villa in 2021"
+   ]
+  },
+  {
+   "text": "Danny Ings has played with Philippe Coutinho, Declan Rice and Lucas Paquetá.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 32 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Danny_Ings",
+  "revid": 1385513585
+ },
+ "alternatives": [
+  {
+   "question": "My move to Liverpool involved a record fee for a tribunal hearing.\nUnfortunately my first season at the club was ended after just two months due to injury.\nI've been managed by Klopp, Gerrard & Moyes.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "As a child I dreamed of playing for my local club Southampton, but they rejected me for being too small.\nIncredibly, I eventually returned to them as a professional and scored 22 league goals in a single campaign.\nI've been managed by the likes of Klopp, Gerrard & Moyes.",
+   "problems": [
+    "claim not stated in the evidence: \"Danny Ings returned to Southampton as a professional player.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "As a child I dreamed of playing for Southampton, but they rejected me for being too small.\nIncredibly, I eventually returned to the club as a professional and became only the third player in their history to score 20 league goals in a season.\nI've been managed by the likes of Klopp, Gerrard & Moyes.",
+   "problems": [
+    "claim not stated in the evidence: \"Danny Ings returned to Southampton as a professional player.\"",
+    "claim not stated in the evidence: \"Danny Ings is only the third player in Southampton's history to score 20 league goals in a season.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I once finished joint-second for the Premier League Golden Boot, falling just one goal short of Jamie Vardy.\nIt was a career high that saw me become only the third player in my club's history to score 20 league goals in a season.\nI've played with the likes of Salah, Coutinho & Paquetá.",
+   "problems": [
+    "claim not stated in the evidence: \"The season in which Danny Ings finished joint-second for the Premier League Golden Boot was a career high for him.\"",
+    "claim is wrong: \"In that same season, Danny Ings scored 20 league goals for his club.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once finished joint-second in the Premier League Golden Boot race, falling just one goal short of Jamie Vardy.\nFollowing this peak in my career, I moved to Aston Villa before joining West Ham.\nI've played with the likes of Salah, Coutinho & Paquetá.",
+   "problems": [
+    "claim not stated in the evidence: \"Danny Ings moved to Aston Villa after the season in which he finished joint-second in the Premier League Golden Boot race behind Jamie Vardy.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2014 I was named the Championship Player of the Year after scoring 22 league goals.\nSince then I've made a single senior appearance for England in which I scored an overhead kick.\nI've played with Salah, Mané & Firmino.",
+   "problems": [
+    "team-mates all from one club (Liverpool FC); mix clubs or add a surprising name",
+    "claim is wrong: \"Danny Ings scored 22 league goals in 2014.\"",
+    "claim is wrong: \"Since 2014, Danny Ings has made a single senior appearance for England.\"",
+    "claim is wrong: \"In his single senior appearance for England, Danny Ings scored an overhead kick.\""
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "answer": "Leandro Trossard",
+ "acceptableAnswers": [
+  "Leandro Trossard",
+  "Trossard"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I once became the first player in my club's history to score a Premier League hat-trick, which I did at Anfield.\nYet it was only after moving to North London that I won the league title.\nI've been managed by Graham Potter & Mikel Arteta.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (first hat-trick at Anfield), and the managers provide a clear narrowing clue. However, it reads slightly like a list of facts rather than a connected story with tension or feeling, lacking the conversational flow of the best originals.",
+  "fix": "Connect the sentences more fluidly to create a narrative arc. For example: 'I made history at Anfield by becoming my club's first Premier League hat-trick scorer. Yet it was only after moving to North London that I finally won the league title, having been managed by both Graham Potter and Mikel Art"
+ },
+ "claims": [
+  {
+   "text": "Leandro Trossard became the first player in his club's history to score a Premier League hat-trick.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Trossard became the first Brighton player to score a Premier League hat-trick",
+    "Trossard became the first Brighton player to score a Premier League hat-trick"
+   ]
+  },
+  {
+   "text": "Leandro Trossard scored this Premier League hat-trick at Anfield.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In their next match on 1 October, Trossard became the first Brighton player to score a Premier League hat-trick in the 3–3 away draw at Liverpool.",
+    "Trossard became the first Brighton player to score a Premier League hat-trick in the 3–3 away draw at Liverpool."
+   ]
+  },
+  {
+   "text": "Leandro Trossard won the league title after moving to North London.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "joined Arsenal in 2023 for a reported fee of £27 million (including add-ons), where he won the Premier League.",
+    "joined Arsenal in 2023 for a reported fee of £27 million (including add-ons), where he won the Premier League."
+   ]
+  },
+  {
+   "text": "Graham Potter managed Leandro Trossard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Was managed by Graham Potter at Brighton & Hove Albion in 108 matches (2019 to 2022)",
+    "[Squad data > Brighton & Hove Albion] Was managed by Graham Potter at Brighton & Hove Albion in 108 matches (2019 to 2022)"
+   ]
+  },
+  {
+   "text": "Mikel Arteta managed Leandro Trossard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 170 matches (2023 to 2026)",
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 170 matches (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Leandro_Trossard",
+  "revid": 1385912442
+ },
+ "alternatives": [
+  {
+   "question": "I became the first player in Premier League history to provide a hat-trick of assists in the first half of an away game.\nFollowing this, I scored a goal that proved decisive in my club's eventual Premier League title triumph.\nI've played with the likes of Mac Allister, Sterling & Zubimendi.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "Despite being at my first professional club for years, I didn't score a league goal for them until over four years after making my debut.\nSince then I've played in two World Cups and won the Premier League.\nI've shared a pitch with the likes of Ndidi, Caicedo & Courtois.",
+   "problems": [
+    "claim is wrong: \"Leandro Trossard was at his first professional club for years.\"",
+    "claim not stated in the evidence: \"Leandro Trossard has played in two World Cups.\"",
+    "claim not stated in the evidence: \"Leandro Trossard shared a pitch with Ndidi, Caicedo & Courtois.\""
+   ],
+   "style": 4
+  }
+ ]
+}

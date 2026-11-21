@@ -1,0 +1,108 @@
+{
+ "answer": "Kalvin Phillips",
+ "acceptableAnswers": [
+  "Kalvin Phillips",
+  "Phillips"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won a continental treble in my debut season for Manchester City.\nUnfortunately, I'm well known for a loan spell at West Ham where I was berated by supporters and responded by showing them my middle finger.\nI've played with the likes of Raphinha, Rodri & Cole Palmer.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (the West Ham incident), which fits the style guide's preference for moments fans actually talk about. The structure follows the 'hook -> development -> narrowing clue' pattern well. However, it loses a point because the final clue list ('Raphinha, Rodri & Cole') is ",
+  "fix": "The question is good but could be slightly tighter to feel more like Lewis's originals. Consider: 'I won a continental treble in my debut season for Manchester City. Unfortunately, I'm well known for a loan spell at West Ham where I was berated by supporters and responded by showing them my middle f"
+ },
+ "claims": [
+  {
+   "text": "Kalvin Phillips won a continental treble in his debut season for Manchester City.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Phillips signed for Manchester City in 2022 and was part of the squad that won a continental treble of the Premier League, FA Cup, and UEFA Champions League in his debut season.",
+    "Phillips signed for Manchester City in 2022 and was part of the squad that won a continental treble of the Premier League, FA Cup, and UEFA Champions League in his debut season."
+   ]
+  },
+  {
+   "text": "Kalvin Phillips had a loan spell at West Ham United.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 26 January 2024, Phillips joined Premier League club West Ham United on loan for the remainder of the 2023–24 season.",
+    "On 26 January 2024, Phillips joined Premier League club West Ham United on loan for the remainder of the 2023–24 season."
+   ]
+  },
+  {
+   "text": "During his loan spell at West Ham, Kalvin Phillips was berated by supporters.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After the game he was berated outside the ground by West Ham supporters, some of whom described him as \"useless\".",
+    "After the game he was berated outside the ground by West Ham supporters, some of whom described him as \"useless\"."
+   ]
+  },
+  {
+   "text": "In response to being berated by supporters at West Ham, Kalvin Phillips showed them his middle finger.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After the game he was berated outside the ground by West Ham supporters... His response was to show the fans his middle finger.",
+    "His response was to show the fans his middle finger."
+   ]
+  },
+  {
+   "text": "Kalvin Phillips has played with Raphinha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leeds United] Played in 43 matches alongside Raphinha for Leeds United (2020 to 2022)",
+    "[Squad data > Leeds United] Played in 43 matches alongside Raphinha for Leeds United (2020 to 2022)"
+   ]
+  },
+  {
+   "text": "Kalvin Phillips has played with Rodri.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 22 matches alongside Rodri for Manchester City (2022 to 2023)",
+    "[Squad data > Manchester City] Played in 22 matches alongside Rodri for Manchester City (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Kalvin Phillips has played with Cole Palmer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 11 matches alongside Cole Palmer for Manchester City (2022 to 2023)",
+    "[Squad data > Manchester City] Played in 11 matches alongside Cole Palmer for Manchester City (2022 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kalvin_Phillips",
+  "revid": 1386317468
+ },
+ "alternatives": [
+  {
+   "question": "I'm one of only four players in the 21st century to represent England before ever playing in a top-flight division.\nFollowing my time at Leeds, I moved to Manchester City where I won the Champions League.\nI've been managed by Marcelo Bielsa & David Moyes.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was named England's Men's Player of the Year for 2020–21.\nDespite this individual success, a later move to Manchester City was characterised by some as one of the most ruinous transfers ever made.\nI've played with Haaland, Rúben Dias & Laporte.",
+   "problems": [
+    "team-mates all from one club (Manchester City); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Kalvin Phillips made a move to Manchester City that was characterised by some as one of the most ruinous transfers ever made.\""
+   ],
+   "style": 0
+  }
+ ]
+}

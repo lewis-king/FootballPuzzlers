@@ -1,0 +1,84 @@
+{
+ "answer": "Dan Burn",
+ "acceptableAnswers": [
+  "Dan Burn",
+  "Burn"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I once scored an own goal for Preston North End, only to score my first senior goal a minute later.\nFollowing my time at Brighton, I joined my boyhood club where I scored in the 2025 EFL Cup final.\nI've played with the likes of Mac Allister, Isak & Gordon.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook (own goal followed immediately by a first senior goal) is memorable and charming, fitting the 'delightful oddity' criteria well. The structure follows the house style with connected sentences ('Following my time at...') and a narrowing clue list of teammates from different clubs/stages (Mac",
+  "fix": "Allister, Isak & Gordon). It reads naturally and avoids dull procedural details. It loses one point because the final sentence is slightly generic in its phrasing compared to the more evocative originals, but it remains strong."
+ },
+ "claims": [
+  {
+   "text": "Dan Burn once scored an own goal for Preston North End.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Burn scored an own goal for Preston in the 86th minute",
+    "Burn scored an own goal for Preston in the 86th minute"
+   ]
+  },
+  {
+   "text": "Dan Burn scored his first senior goal one minute after scoring an own goal for Preston North End.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Burn scored an own goal for Preston in the 86th minute but then went on to score his first senior goal a minute later.",
+    "Burn scored an own goal for Preston in the 86th minute but then went on to score his first senior goal a minute later."
+   ]
+  },
+  {
+   "text": "Dan Burn played for Brighton before joining his boyhood club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He established himself as a regular Premier League player with Brighton from the 2019–20 season before signing for boyhood club Newcastle United in January 2022",
+    "He established himself as a regular Premier League player with Brighton from the 2019–20 season before signing for boyhood club Newcastle United in January 2022"
+   ]
+  },
+  {
+   "text": "Dan Burn scored in the 2025 EFL Cup final while playing for his boyhood club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He established himself as a regular Premier League player with Brighton from the 2019–20 season before signing for boyhood club Newcastle United in January 2022, where he scored in the 2025 EFL Cup final",
+    "He established himself as a regular Premier League player with Brighton from the 2019–20 season before signing for boyhood club Newcastle United in January 2022, where he scored in the 2025 EFL Cup final as Newcastle won their first domestic trophy in 70 years."
+   ]
+  },
+  {
+   "text": "Dan Burn has played with Mac Allister, Isak & Gordon.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Dan_Burn",
+  "revid": 1386698319
+ },
+ "alternatives": [
+  {
+   "question": "At age 16 I had a part-time job at my local Asda supermarket while studying sports science.\nIncredibly, I went from those beginnings to captaining my club and making my England debut at the age of 32.\nI've been managed by René Meulensteen, Graham Potter & Eddie Howe.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "During the 2019-20 Premier League campaign I was the only player at my club to play every minute of the season.\nLater, in the 2026 World Cup, I tied a record for most clearances by a substitute during a round of 16 match against Mexico.\nI've played with Trossard, Cucurella & Guimarães.",
+   "problems": [],
+   "style": 2
+  }
+ ]
+}

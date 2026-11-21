@@ -1,0 +1,126 @@
+{
+ "answer": "Son Heung-min",
+ "acceptableAnswers": [
+  "Son Heung-min",
+  "Heung-min Son",
+  "Heung-min"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to December 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I once scored a solo goal in the Premier League that earned me the FIFA Puskás Award.\nIt wasn't until 2025 that I won my first major club trophy, when I led my team to UEFA Europa League glory.\nI've played with the likes of Kane, Bale & Çalhanoğlu.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The hook (Puskas) and the twist (first major trophy in 2025) are strong and memorable. However, it loses a point for listing three very famous teammates (Kane, Bale, Calhanoglu) which makes the answer too easy to guess without solving the narrative, and the phrasing 'led my team' is slightly less ev",
+  "fix": "Replace the list of famous teammates with a more specific or surprising connection, or tighten the sentence structure to feel more like a personal story rather than a resume. For example: 'I've shared a dressing room with Harry Kane & Gareth Bale, but it was only in 2025 that I finally lifted my big"
+ },
+ "claims": [
+  {
+   "text": "Son Heung-min scored a solo goal in the Premier League that earned him the FIFA Puskás Award.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2019–20, Son scored a solo effort in the league that earned him the FIFA Puskás Award.",
+    "In 2019–20, Son scored a solo effort in the league that earned him the FIFA Puskás Award."
+   ]
+  },
+  {
+   "text": "Son Heung-min won his first major club trophy in 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2025, he led Spurs to the UEFA Europa League title, his first major honour",
+    "In 2025, he led Spurs to the UEFA Europa League title, his first major honour, ending a 17-year trophy drought for Spurs in the process."
+   ]
+  },
+  {
+   "text": "In 2025, Son Heung-min led his team to UEFA Europa League glory.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2025, he led Spurs to the UEFA Europa League title, his first major honour, ending a 17-year trophy drought for Spurs in the process.",
+    "In 2025, he led Spurs to the UEFA Europa League title, his first major honour, ending a 17-year trophy drought for Spurs in the process."
+   ]
+  },
+  {
+   "text": "Son Heung-min has played with Harry Kane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Tottenham Hotspur] Played in 304 matches alongside Harry Kane for Tottenham Hotspur (2015 to 2023)",
+    "[Squad data > Tottenham Hotspur] Played in 304 matches alongside Harry Kane for Tottenham Hotspur (2015 to 2023)"
+   ]
+  },
+  {
+   "text": "Son Heung-min has played with Gareth Bale.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Tottenham Hotspur] Played in 28 matches alongside Gareth Bale for Tottenham Hotspur (2020 to 2021)",
+    "[Squad data > Tottenham Hotspur] Played in 28 matches alongside Gareth Bale for Tottenham Hotspur (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Son Heung-min has played with Hakan Çalhanoğlu.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayer 04 Leverkusen] Played in 43 matches alongside Hakan Çalhanoğlu for Bayer 04 Leverkusen (2014 to 2015)",
+    "[Squad data > Bayer 04 Leverkusen] Played in 43 matches alongside Hakan Çalhanoğlu for Bayer 04 Leverkusen (2014 to 2015)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Son_Heung-min",
+  "revid": 1386553696
+ },
+ "alternatives": [
+  {
+   "question": "I became the first Asian player to win the Premier League Golden Boot.\nFollowing my time in England, I moved to the United States to play for LAFC.\nI've been managed by Pochettino, Mourinho & Conte.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I once scored a solo goal in the Premier League that earned me the FIFA Puskás Award.\nFollowing my time in England, I moved to the United States to play for LAFC.\nI've been managed by Pochettino, Mourinho & Conte.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I was the first Asian player to win the Premier League Golden Boot.\nFollowing my long spell in England, I moved to the United States to join LAFC for a record fee.\nI've been managed by Pochettino, Mourinho & Conte.",
+   "problems": [
+    "claim not stated in the evidence: \"Son Heung-min had a long spell in England before moving to the United States.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once scored a solo goal in the Premier League that earned me the FIFA Puskás Award.\nDespite my individual success, it wasn't until 2025 that I won my first major trophy by leading my club to Europa League glory.\nI've played with the likes of Kane, Eriksen & Dele Alli.",
+   "problems": [
+    "team-mates all from one club (Tottenham Hotspur); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first Asian player to have won the Premier League Golden Boot.\nIn 2025 I ended a long trophy drought for my club by lifting the UEFA Europa League title.\nI've played with the likes of Kane, Eriksen & Dele Alli.",
+   "problems": [
+    "team-mates all from one club (Tottenham Hotspur); mix clubs or add a surprising name",
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the record goalscorer and appearance holder for my national team.\nIncredibly, I learned German by watching episodes of SpongeBob SquarePants to help me succeed in Europe.\nI've played with the likes of van der Vaart, Çalhanoğlu & Min-jae Kim.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim to be the 'record goalscorer and appearance holder' is a present-tense superlative that could become false if another player surpasses these totals.; The claim to be the record goalscorer and appearance holder is a current status that could change."
+   ],
+   "style": 0
+  }
+ ]
+}

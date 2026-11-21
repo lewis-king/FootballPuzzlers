@@ -1,0 +1,70 @@
+{
+ "answer": "Jude Bellingham",
+ "acceptableAnswers": [
+  "Jude Bellingham",
+  "Bellingham"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I became the youngest Englishman to start a Champions League match in 2020.\nYet I'm perhaps better known for becoming the first person born in the 21st century to score at a World Cup.\nI've played with Sancho, Vinícius Júnior & Alexander-Arnold",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The facts are correct and the structure follows the 'hook/contrast/clue' format well. However, it misses a key stylistic beat: the player is telling their story, but this reads like a list of records ('I became... Yet I'm known for becoming...'). It lacks the conversational flow or 'feeling' found 5",
+  "fix": "Connect the sentences more naturally and add a touch of narrative. For example: 'I made my Champions League debut as the youngest English starter in 2020, but it was on the world stage that I truly broke through. I became the first player born in the 21st century to score at a World Cup, playing for"
+ },
+ "claims": [
+  {
+   "text": "Jude Bellingham became the youngest Englishman to start a Champions League match in 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he became the youngest Englishman to start a UEFA Champions League match",
+    "When Bellingham faced Lazio in the group stage on 20 October, aged 17 years and 113 days, he became the youngest Englishman to start a UEFA Champions League match, breaking the record previously set by Phil Foden."
+   ]
+  },
+  {
+   "text": "Jude Bellingham is the first person born in the 21st century to score at a World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "This made him the first person born in the 21st century to score in a World Cup",
+    "This made him the first person born in the 21st century to score in a World Cup"
+   ]
+  },
+  {
+   "text": "Jude Bellingham has played with Sancho, Vinícius Júnior & Alexander-Arnold",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jude_Bellingham",
+  "revid": 1385901029
+ },
+ "alternatives": [
+  {
+   "question": "At the 2026 World Cup I scored seven goals, making me England's all-time highest goal-scorer in a single tournament.\nI was lucky to also be awarded the Bronze Boot for my performances.\nI've played with the likes of Haaland, Mbappé & Kane",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In my first season in Spain I was the top league scorer for my club and was voted La Liga Player of the Season.\nFollowing this, I've also had the honour of winning the Champions League with them.\nI've been managed by Carlo Ancelotti & Xabi Alonso",
+   "problems": [
+    "claim is wrong: \"Jude Bellingham won the Champions League with his club after being voted La Liga Player of the Season.\""
+   ],
+   "style": 4
+  }
+ ]
+}

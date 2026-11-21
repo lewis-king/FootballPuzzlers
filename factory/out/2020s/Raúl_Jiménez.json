@@ -1,0 +1,107 @@
+{
+ "answer": "Raúl Jiménez",
+ "acceptableAnswers": [
+  "Raúl Jiménez",
+  "Jiménez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I was a prolific striker in the Premier League until a serious head injury left me out of action for nine months.\nFollowing my recovery, I had to wear a head guard for the rest of my career.\nI've played with the likes of Ederson, Diogo Jota & Willian",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (the head injury and subsequent head guard), which fits the style guide's preference for dramatic, fan-remembered moments. The narrative flow ('Following my recovery...') works well. However, it loses a point because the final clue list (Ederson, Diogo Jota & Willian",
+  "fix": "The hook is strong and memorable (the head injury and subsequent head guard), which fits the style guide's preference for dramatic, fan-remembered moments. The narrative flow ('Following my recovery...') works well. However, it loses a point because the final clue list (Ederson, Diogo Jota & Willian"
+ },
+ "claims": [
+  {
+   "text": "Raúl Jiménez was a prolific striker in the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He joined Wolves on a permanent basis the following year and became an instrumental and prolific striker",
+    "He joined Wolves on a permanent basis the following year and became an instrumental and prolific striker"
+   ]
+  },
+  {
+   "text": "Raúl Jiménez suffered a serious head injury while playing in the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He joined Wolves on a permanent basis the following year and became an instrumental and prolific striker, though spent nine months out with a serious head injury between November 2020 and August 2021.",
+    "On 29 November, five minutes into Wolves' Premier League fixture against Arsenal at the Emirates Stadium, Jiménez was knocked unconscious after a clash of heads with David Luiz."
+   ]
+  },
+  {
+   "text": "The serious head injury left Raúl Jiménez out of action for nine months.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "spent nine months out with a serious head injury between November 2020 and August 2021",
+    "spent nine months out with a serious head injury between November 2020 and August 2021"
+   ]
+  },
+  {
+   "text": "Raúl Jiménez had to wear a head guard for the rest of his career following his recovery from the head injury.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "it was announced that he would have to wear a head guard for the rest of his career.",
+    "it was announced that he would have to wear a head guard for the rest of his career."
+   ]
+  },
+  {
+   "text": "Raúl Jiménez has played with Ederson.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SL Benfica] Played in 39 matches alongside Ederson for SL Benfica (2015 to 2017)",
+    "[Squad data > SL Benfica] Played in 39 matches alongside Ederson for SL Benfica (2015 to 2017)"
+   ]
+  },
+  {
+   "text": "Raúl Jiménez has played with Diogo Jota.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 83 matches alongside Diogo Jota for Wolverhampton Wanderers (2018 to 2020)",
+    "[Squad data > Wolverhampton Wanderers] Played in 83 matches alongside Diogo Jota for Wolverhampton Wanderers (2018 to 2020)"
+   ]
+  },
+  {
+   "text": "Raúl Jiménez has played with Willian.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Fulham FC] Played in 36 matches alongside Willian for Fulham FC (2023 to 2025)",
+    "[Squad data > Fulham FC] Played in 36 matches alongside Willian for Fulham FC (2023 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Raúl_Jiménez",
+  "revid": 1386711433
+ },
+ "alternatives": [
+  {
+   "question": "I once failed to show up for a medical at West Ham because I'd reportedly overslept.\nInstead, I joined Benfica, where I won two consecutive league titles.\nI've been managed by Nuno Espírito Santo & Marco Silva",
+   "problems": [
+    "claim is wrong: \"Raúl Jiménez joined Benfica after failing the West Ham medical.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2024 I became the third Mexican player to score 100 goals for a European club.\nI've also had the honour of winning an Olympic gold medal with my country.\nMy career has seen me play with Rúben Dias, Diego Costa & Emile Smith Rowe",
+   "problems": [
+    "claim not stated in the evidence: \"Raúl Jiménez became the third Mexican player to score 100 goals for a European club in 2024.\""
+   ],
+   "style": 3
+  }
+ ]
+}

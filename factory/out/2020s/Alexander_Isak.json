@@ -1,0 +1,105 @@
+{
+ "answer": "Alexander Isak",
+ "acceptableAnswers": [
+  "Alexander Isak",
+  "Isak"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I was the first foreign-born player in the Eredivisie to score 12 goals in my first 12 league games.\nFollowing this, I moved to La Liga where I won the Copa del Rey.\nI've played with Sancho, Zubimendi & Gyökeres",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The facts are correct and the teammate list is a good narrowing clue, but the opening hook is a dry statistical record rather than a memorable moment or charming oddity. It reads like a list of achievements (record -> transfer/award -> teammates) without the narrative flow or tension found in the 5s",
+  "fix": "Reframe the opening to focus on the speed or surprise of his arrival, perhaps contrasting his rapid Eredivisie success with his later move to Spain. For example: 'I arrived in the Eredivisie and immediately broke records for a foreigner, scoring 12 goals in my first 12 games. Yet it was after moving"
+ },
+ "claims": [
+  {
+   "text": "Alexander Isak was the first foreign-born player in the Eredivisie to score 12 goals in his first 12 league games.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Isak became the first foreign-born player in the Eredivisie to score 12 goals in his first 12 league games.",
+    "On 14 April, Isak became the first foreign-born player in the Eredivisie to score 12 goals in his first 12 league games."
+   ]
+  },
+  {
+   "text": "After scoring 12 goals in his first 12 Eredivisie league games, Alexander Isak moved to La Liga.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 14 April, Isak became the first foreign-born player in the Eredivisie to score 12 goals in his first 12 league games. ... On 12 June 2019, Isak signed a five-year deal with Real Sociedad, joining the La Liga club on 1 July"
+   ]
+  },
+  {
+   "text": "Alexander Isak won the Copa del Rey while playing in La Liga.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Honours > Real Sociedad] Copa del Rey: 2019–20",
+    "On 3 April 2021, Isak won his first silverware with the club when he started and played in 89 minutes of the 2020 Copa del Rey Final in a 1–0 win against Athletic Bilbao, helping Real Sociedad win the 2019–20 Copa del Rey."
+   ]
+  },
+  {
+   "text": "Alexander Isak has played with Sancho, Zubimendi & Gyökeres.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Alexander_Isak",
+  "revid": 1386313261
+ },
+ "alternatives": [
+  {
+   "question": "In 2025 I signed for Liverpool for a British-record fee.\nBefore that, I broke the record for most goals by a Swede in a Premier League season while playing for Newcastle.\nI've been managed by Eddie Howe & Arne Slot",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I once held the record for being the first foreign-born player in the Eredivisie to score 12 goals in my first 12 league games.\nLater in my career, I broke the British transfer fee record when I signed for Liverpool.\nI've been managed by Eddie Howe & Arne Slot",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In the Premier League I once equalled Zlatan Ibrahimovic's record for most goals by a Swede in a season.\nI then went on to break it that same month.\nI've been managed by Eddie Howe & Arne Slot",
+   "problems": [
+    "claim not stated in the evidence: \"Alexander Isak broke the record for most goals by a Swede in a Premier League season in the same month he equalled it.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I'm the youngest ever goalscorer for both my boyhood club and my national team.\nIn 2025 I broke the British transfer record to move to Liverpool.\nI've played with Ødegaard, Guimarães & Salah",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the youngest ever goalscorer for both my boyhood club and my national team.\nFollowing a spell in the Eredivisie, I moved to Spain where I won the Copa del Rey.\nI've played with Sancho, Ødegaard & Gyökeres",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim of being the 'youngest ever' is a superlative record that could theoretically be broken by a younger player in the future.; The claim of being the 'youngest ever goalscorer' is a present-tense record that could be broken by a newer player."
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the youngest goalscorer in the history of both my boyhood club and my national team.\nFollowing a spell in the Eredivisie, I moved to Spain where I won the Copa del Rey.\nI've played with Sancho, Ødegaard & Gyökeres",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim of being the 'youngest goalscorer in the history' is a superlative record that could theoretically be broken by a younger player scoring for those teams in the future.; The claim of being the youngest goalscorer is stated as a current fact and could be superseded by a younger player."
+   ],
+   "style": 0
+  }
+ ]
+}

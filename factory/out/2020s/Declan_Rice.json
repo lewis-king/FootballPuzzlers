@@ -1,0 +1,105 @@
+{
+ "answer": "Declan Rice",
+ "acceptableAnswers": [
+  "Declan Rice",
+  "Rice"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I joined Arsenal for a club record fee of £100 million, helping them win their first league title in 22 years.\nBefore that move, I had the honour of captaining West Ham to their first major European trophy since 1965.\nI've been managed by David Moyes & Mikel Arteta.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are strong and the structure follows the house style (hook, context, narrowing clue). However, it reads slightly like a list of achievements rather than a story with tension or a twist. The phrase 'Before that move' is functional but lacks the conversational flow of examples like 'Yet...'或",
+  "fix": "The facts are strong and the structure follows the house style (hook, context, narrowing clue). However, it reads slightly like a list of achievements rather than a story with tension or a twist. The phrase 'Before that move' is functional but lacks the conversational flow of examples like 'Yet...'或"
+ },
+ "claims": [
+  {
+   "text": "Declan Rice joined Arsenal for a club record fee of £100 million.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Rice was signed by Arsenal in July 2023 for a club record fee of £100 million",
+    "Rice was signed by Arsenal in July 2023 for a club record fee of £100 million"
+   ]
+  },
+  {
+   "text": "Declan Rice helped Arsenal win their first league title in 22 years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After making 245 appearances for West Ham, Rice was signed by Arsenal in July 2023 for a club record fee of £100 million, making him the joint-most-expensive English player in history and going on to help them win their first Premier League title in 22 years.",
+    "After making 245 appearances for West Ham, Rice was signed by Arsenal in July 2023 for a club record fee of £100 million, making him the joint-most-expensive English player in history and going on to help them win their first Premier League title in 22 years."
+   ]
+  },
+  {
+   "text": "Before joining Arsenal, Declan Rice captained West Ham to their first major European trophy since 1965.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 8 June 2023, Rice was named as the Europa Conference League's player of the season by UEFA as Rice captained West Ham to their first major European trophy since 1965 after a 2–1 win against Fiorentina in the final a day prior.",
+    "Rice captained West Ham to their first major European trophy since 1965 after a 2–1 win against Fiorentina in the final a day prior."
+   ]
+  },
+  {
+   "text": "Declan Rice has been managed by David Moyes.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 165 matches (2017 to 2023)",
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 165 matches (2017 to 2023)"
+   ]
+  },
+  {
+   "text": "Declan Rice has been managed by Mikel Arteta.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 154 matches (2023 to 2026)",
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 154 matches (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Declan_Rice",
+  "revid": 1386097486
+ },
+ "alternatives": [
+  {
+   "question": "I once represented the Republic of Ireland at both youth and senior levels.\nHowever, I later changed my allegiance to England, with whom I've finished as runner-up in two European Championships.\nI've been managed by David Moyes & Mikel Arteta.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I started my international career with the Republic of Ireland, but I eventually switched my allegiance to England.\nSince making that change, I've finished as a runner-up in two European Championships.\nI've played alongside the likes of Saka, Havertz & Sterling.",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I joined my current club for a record £100 million, equalling the most expensive English player in history.\nSince moving, I've helped them win their first league title in 22 years.\nI've played with the likes of Havertz, Martinelli & Zubimendi.",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Declan Rice's transfer fee equaled the most expensive English player in history at the time of the move.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm one of only three captains to lead West Ham to a major trophy, having won the Europa Conference League in 2023.\nIncredibly, I also became the first player ever to score two free kicks in a Champions League knockout match.\nI've played with Saka, Ødegaard & Saliba.",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name",
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

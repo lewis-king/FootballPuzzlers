@@ -1,0 +1,86 @@
+{
+ "answer": "Scott McTominay",
+ "acceptableAnswers": [
+  "Scott McTominay",
+  "McTominay"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've had a goal commemorated on a £20 bank note after helping my country qualify for their first World Cup since 1998.\nAlthough I spent seven years at Manchester United, it was in Italy that I received a nomination for the Ballon d'Or.\nI've played with the likes of Ronaldo, Pogba & Kvaratskhelia.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 2,
+  "why": "The hook is exceptional: a goal on a £20 bank note is a unique, memorable fact that fans immediately recognize as the McTominay moment against Poland. The structure follows the house style perfectly with connected sentences ('Although...'), a clear narrative arc from Scotland's qualification to his ",
+  "fix": "None needed."
+ },
+ "claims": [
+  {
+   "text": "Scott McTominay had a goal commemorated on a £20 bank note.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "That overhead kick has now been commemorated on a Scottish £20 bank note",
+    "That overhead kick has now been commemorated on a Scottish £20 bank note"
+   ]
+  },
+  {
+   "text": "Scott McTominay helped his country qualify for their first World Cup since 1998.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "The game finished 4–2 to Scotland, marking their first World Cup qualification since 1998.",
+    "The game finished 4–2 to Scotland, marking their first World Cup qualification since 1998."
+   ]
+  },
+  {
+   "text": "Scott McTominay spent seven years at Manchester United.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 30 August 2024, McTominay ended a seven-year run with Manchester United and joined Serie A club Napoli.",
+    "On 30 August 2024, McTominay ended a seven-year run with Manchester United and joined Serie A club Napoli."
+   ]
+  },
+  {
+   "text": "Scott McTominay received a nomination for the Ballon d'Or while in Italy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2024, McTominay signed for Napoli in a £25.7 million transfer; he emerged as a focal player to the club winning the Serie A title in his debut season, being named the league's Most Valuable Player and receiving a nomination for the Ballon d'Or.",
+    "In 2024, McTominay signed for Napoli in a £25.7 million transfer; he emerged as a focal player to the club winning the Serie A title in his debut season, being named the league's Most Valuable Player and receiving a nomination for the Ballon d'Or."
+   ]
+  },
+  {
+   "text": "Scott McTominay played with Ronaldo, Pogba & Kvaratskhelia.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Scott_McTominay",
+  "revid": 1386099042
+ },
+ "alternatives": [
+  {
+   "question": "I was born in England, yet I've made over 70 caps for Scotland.\nIn 2025 I became the first player from my country to be named Serie A Player of the Month.\nI've been managed by Mourinho, Solskjær & Conte.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I once scored twice in the first three minutes of a Premier League game, a feat that had never been achieved before.\nFollowing my time at Manchester United, I moved to Italy where I won the league and was named its MVP in my debut season.\nI've played with the likes of Lukaku, De Bruyne & Højlund.",
+   "problems": [
+    "team-mates all from one club (SSC Napoli); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

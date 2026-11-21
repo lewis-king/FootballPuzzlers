@@ -1,0 +1,94 @@
+{
+ "answer": "John Stones",
+ "acceptableAnswers": [
+  "John Stones",
+  "Stones"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "READY",
+ "question": "In 2023 I was part of a historic continental treble and was described by the media as being in 'Franz Beckenbauer mode'.\nAlthough I've won six league titles, I've only ever finished as a runner-up at the European Championships.\nI've been managed by Pep Guardiola & Roberto Martínez.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The question is factually accurate and follows the house style well with connected sentences ('Although...') and a narrowing clue at the end (managers). However, it loses points because the opening hook relies on a media quote ('Franz Beckenbauer mode') rather than a specific, memorable moment or a ",
+  "fix": ", which is slightly less engaging than the best originals. Additionally, while the 'runner-up' fact is true for Stones (2016, 2024), it feels like a minor stat compared to the dramatic tension of other examples. It reads very much like a well-written quiz question, but lacks that one spark of 'delir"
+ },
+ "claims": [
+  {
+   "text": "John Stones was part of a historic continental treble in 2023.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "With the club, he won six Premier League titles, three FA Cups, five EFL Cups, and the UEFA Champions League as part of a historic continental treble in the 2022–23 season.",
+    "the UEFA Champions League as part of a historic continental treble in the 2022–23 season."
+   ]
+  },
+  {
+   "text": "In 2023, John Stones was described by the media as being in 'Franz Beckenbauer mode'.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "being described by Jamie Jackson of The Guardian as being in \"Franz Beckenbauer mode\".",
+    "On 17 May, Stones was a standout performer as Manchester City beat Real Madrid 4–0 at the Etihad Stadium in the second leg of the 2022–23 UEFA Champions League semi-finals, being described by Jamie Jackson of The Guardian as being in \"Franz Beckenbauer mode\"."
+   ]
+  },
+  {
+   "text": "John Stones has won six league titles.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "With the club, he won six Premier League titles",
+    "With the club, he won six Premier League titles, three FA Cups, five EFL Cups, and the UEFA Champions League as part of a historic continental treble in the 2022–23 season."
+   ]
+  },
+  {
+   "text": "John Stones has only ever finished as a runner-up at the European Championships.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Honours > England] UEFA European Championship runner-up: 2020, 2024"
+   ]
+  },
+  {
+   "text": "John Stones has been managed by Pep Guardiola.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 279 matches (2016 to 2026)",
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 279 matches (2016 to 2026)"
+   ]
+  },
+  {
+   "text": "John Stones has been managed by Roberto Martínez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Was managed by Roberto Martínez at Everton FC in 86 matches (2013 to 2016)",
+    "[Squad data > Everton FC] Was managed by Roberto Martínez at Everton FC in 86 matches (2013 to 2016)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/John_Stones",
+  "revid": 1384958652
+ },
+ "alternatives": [
+  {
+   "question": "The transfer fee Barnsley received from my move to Manchester City was larger than any transfer fee they had ever seen.\nFollowing a decade with the Citizens, I joined Inter Milan in 2026.\nI've played with the likes of Lukaku, Eto'o & Rodri.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I became the first Manchester City player to score for England at a World Cup finals since Trevor Francis in 1982.\nIn 2024 I was given the honour of captaining my country for the first time.\nI've played with the likes of De Bruyne, Foden & Samuel Eto'o.",
+   "problems": [],
+   "style": 3
+  }
+ ]
+}

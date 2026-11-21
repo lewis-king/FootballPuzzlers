@@ -1,0 +1,86 @@
+{
+ "answer": "Moisés Caicedo",
+ "acceptableAnswers": [
+  "Moisés Caicedo",
+  "Caicedo"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2033 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I grew up as the youngest of ten siblings and once had a trial at Barcelona in Guayaquil that ended unsuccessfully.\nYears later, I'd be captaining my national team and winning the UEFA Conference League.\nI've played with Trossard, Mitoma & Cole Palmer.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question reads naturally in first person and follows the house style well: it opens with a personal detail (youngest of ten siblings), adds a surprising anecdote (failed Barcelona trial in Guayaquil), then pivots to a major achievement (captaining national team + winning UEFA Conference League) ",
+  "fix": "Tighten the opening slightly for punch and ensure the 'Guayaquil' detail is clearly tied to the failed trial to avoid ambiguity. Consider swapping one of the Chelsea teammates for a more distinctive or surprising name if possible, though Trossard/Mitoma/Palmer are strong clues."
+ },
+ "claims": [
+  {
+   "text": "Moisés Caicedo is the youngest of ten siblings.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Born in Santo Domingo, Ecuador, the youngest of 10 siblings",
+    "Born in Santo Domingo, Ecuador, the youngest of 10 siblings, Caicedo would play football on the scrubland pitches of his hometown, the Mujer Trabajadora neighbourhood, where goals were marked out by piles of stones."
+   ]
+  },
+  {
+   "text": "Moisés Caicedo had a trial at Barcelona in Guayaquil that ended unsuccessfully.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "A later trial with Barcelona in Guayaquil would also prove unsuccessful.",
+    "A later trial with Barcelona in Guayaquil would also prove unsuccessful."
+   ]
+  },
+  {
+   "text": "Moisés Caicedo has captained his national team.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "captains the Ecuador national team",
+    "captains the Ecuador national team"
+   ]
+  },
+  {
+   "text": "Moisés Caicedo won the UEFA Conference League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In August 2023, he joined Chelsea for a reported fee of £100 million, winning the UEFA Conference League in 2024–25.",
+    "winning the UEFA Conference League in 2024–25."
+   ]
+  },
+  {
+   "text": "Moisés Caicedo played with Trossard, Mitoma & Cole Palmer.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Moisés_Caicedo",
+  "revid": 1386402552
+ },
+ "alternatives": [
+  {
+   "question": "At the 2022 World Cup I scored a goal that would have seen my country through to the round of 16, only for us to concede three minutes later.\nDespite this, I've since been named Chelsea Player of the Season and won a FIFA Club World Cup.\nI've played under managers including De Zerbi, Pochettino & Maresca.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I joined Chelsea for a reported £100 million, a fee that could potentially rise to become a British transfer record.\nIncredibly, I've also scored a goal from 50 yards out in the Premier League.\nI've played with the likes of Mac Allister, Sterling & Enzo Fernández.",
+   "problems": [
+    "wording will date: The phrase 'could potentially rise to become a British transfer record' describes a contingent future state that is no longer accurate in 2026.; The phrase 'could potentially rise to become a British transfer record' is time-sensitive and depends on current market values/records."
+   ],
+   "style": 3
+  }
+ ]
+}

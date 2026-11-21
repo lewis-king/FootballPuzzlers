@@ -1,0 +1,107 @@
+{
+ "answer": "Youri Tielemans",
+ "acceptableAnswers": [
+  "Youri Tielemans",
+  "Tielemans"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I became the youngest Belgian to ever play in the Champions League when I made my debut at just 16.\nYet I've since grown into a leader for my country, having been appointed as the permanent national team captain in 2025.\nI've played with the likes of Fabinho, James Maddison & Romelu Lukaku.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The structure is strong and follows the house style well: it opens with a specific record (youngest Belgian in CL), provides a contrasting development (becoming captain), and closes with a narrowing list of teammates. The facts are accurate and the tone is conversational. It loses one point because,",
+  "fix": "The hook 'youngest Belgian to ever play in the Champions League' is slightly dry for a top-tier question; it's a stat rather than a memorable moment or charming oddity. Consider leading with the tension of his career path (e.g., leaving Leicester for a bigger stage) or focusing on the specific match"
+ },
+ "claims": [
+  {
+   "text": "Youri Tielemans became the youngest Belgian to ever play in the Champions League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He is the youngest Belgian to play in the UEFA Champions League, making his debut in the competition at the age of 16 years and 148 days.",
+    "He is the youngest Belgian to play in the UEFA Champions League, making his debut in the competition at the age of 16 years and 148 days."
+   ]
+  },
+  {
+   "text": "Youri Tielemans made his Champions League debut at age 16.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "making his debut in the competition at the age of 16 years and 148 days",
+    "He is the youngest Belgian to play in the UEFA Champions League, making his debut in the competition at the age of 16 years and 148 days."
+   ]
+  },
+  {
+   "text": "Youri Tielemans was appointed as the permanent national team captain for Belgium in 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 3 September 2025, Tielemans was appointed as the permanent captain of the Belgian national team by manager Rudi Garcia.",
+    "On 3 September 2025, Tielemans was appointed as the permanent captain of the Belgian national team by manager Rudi Garcia."
+   ]
+  },
+  {
+   "text": "Youri Tielemans played with Fabinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AS Monaco] Played in 29 matches alongside Fabinho for AS Monaco (2017 to 2018)",
+    "[Squad data > AS Monaco] Played in 29 matches alongside Fabinho for AS Monaco (2017 to 2018)"
+   ]
+  },
+  {
+   "text": "Youri Tielemans played with James Maddison.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Played in 144 matches alongside James Maddison for Leicester City (2019 to 2023)",
+    "[Squad data > Leicester City] Played in 144 matches alongside James Maddison for Leicester City (2019 to 2023)"
+   ]
+  },
+  {
+   "text": "Youri Tielemans played with Romelu Lukaku.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Belgium] Played in 3 matches alongside Romelu Lukaku for Belgium (2026)",
+    "[Squad data > Belgium] Played in 3 matches alongside Romelu Lukaku for Belgium (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Youri_Tielemans",
+  "revid": 1386386300
+ },
+ "alternatives": [
+  {
+   "question": "I'll always be remembered at Leicester for scoring the only goal in the 2021 FA Cup final.\nFollowing my time there, I moved to Aston Villa where I helped the club win their first ever Europa League title in 2026.\nI've played alongside Marcus Rashford & Kevin De Bruyne.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I was the youngest Belgian to ever play in the UEFA Champions League, making my debut at just 16.\nIncredibly, I've now gone on to captain my national team and scored twice in a single World Cup knockout match.\nI've been managed by Unai Emery & Brendan Rodgers.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In November 2024 I set a Premier League record for the most successful passes in a single match.\nFollowing this, I won the Europa League final in 2026 before moving to Manchester United that summer.\nI've played alongside Kevin De Bruyne, Romelu Lukaku & Jadon Sancho.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I scored the only goal in a major domestic cup final to secure my club's first ever trophy of that kind.\nFollowing my time there, I won the UEFA Europa League with another English side in 2026.\nI've played with the likes of Fabinho, James Maddison & Marcus Rashford.",
+   "problems": [
+    "claim not stated in the evidence: \"The English side Youri Tielemans won the UEFA Europa League with was different from the club he previously played for where he scored the cup final goal.\""
+   ],
+   "style": 4
+  }
+ ]
+}

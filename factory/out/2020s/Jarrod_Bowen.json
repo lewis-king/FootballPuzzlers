@@ -1,0 +1,130 @@
+{
+ "answer": "Jarrod Bowen",
+ "acceptableAnswers": [
+  "Jarrod Bowen",
+  "Bowen"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I scored the winning goal in a European final to give my club their first trophy in 43 years.\nFollowing that success, I broke a Premier League record for the most successive away games scoring.\nI've played with the likes of Robertson, Maguire & Rice.",
+ "problems": [
+  "claim not stated in the evidence: \"Following the European final success, Jarrod Bowen broke a Premier League record for the most successive away games scoring.\""
+ ],
+ "style": {
+  "score": 5,
+  "difficulty": 2,
+  "why": "The draft reads exactly like one of Lewis's originals: it opens with a high-stakes hook (winning a European final), connects the sentences logically ('Following that success'), and closes with a narrowing list of teammates from different clubs. The facts are memorable and accurate for Jarrod Bowen (",
+  "fix": "none"
+ },
+ "claims": [
+  {
+   "text": "Jarrod Bowen scored the winning goal in a European final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 7 June 2023, during the 2023 Europa Conference League final, Bowen scored the winning goal",
+    "On 7 June 2023, during the 2023 Europa Conference League final, Bowen scored the winning goal, in the 90th minute, against Fiorentina to give West Ham their first trophy in 43 years with a 2–1 victory"
+   ]
+  },
+  {
+   "text": "The European final win gave Jarrod Bowen's club their first trophy in 43 years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "to give West Ham their first trophy in 43 years",
+    "On 7 June 2023, during the 2023 Europa Conference League final, Bowen scored the winning goal, in the 90th minute, against Fiorentina to give West Ham their first trophy in 43 years with a 2–1 victory."
+   ]
+  },
+  {
+   "text": "Following the European final success, Jarrod Bowen broke a Premier League record for the most successive away games scoring.",
+   "final": "NOT_FOUND",
+   "quotes": [
+    "On 4 November, he scored again in an away game to break the record as West Ham lost 3–2 away to Brentford"
+   ]
+  },
+  {
+   "text": "Jarrod Bowen has played with Robertson.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Hull City] Played in 5 matches alongside Andrew Robertson for Hull City (2016 to 2017)",
+    "[Squad data > Hull City] Played in 5 matches alongside Andrew Robertson for Hull City (2016 to 2017)"
+   ]
+  },
+  {
+   "text": "Jarrod Bowen has played with Maguire.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Hull City] Played in 4 matches alongside Harry Maguire for Hull City (2016 to 2017)",
+    "[Squad data > Hull City] Played in 4 matches alongside Harry Maguire for Hull City (2016 to 2017)"
+   ]
+  },
+  {
+   "text": "Jarrod Bowen has played with Rice.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Played in 131 matches alongside Declan Rice for West Ham United (2020 to 2023)",
+    "[Squad data > West Ham United] Played in 131 matches alongside Declan Rice for West Ham United (2020 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jarrod_Bowen",
+  "revid": 1384448729
+ },
+ "alternatives": [
+  {
+   "question": "I scored the winning goal in a European final to give my club their first trophy in 43 years.\nIn 2023 I also achieved a feat only previously managed by Thierry Henry and Mohamed Salah by scoring in six successive away games.\nI've played with the likes of Robertson, Maguire & Rice.",
+   "problems": [
+    "claim not stated in the evidence: \"In 2023, Jarrod Bowen scored in six successive away games.\"",
+    "claim not stated in the evidence: \"Before Jarrod Bowen, only Thierry Henry and Mohamed Salah had managed to score in six successive away games.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I scored the winning goal in a European final to give my club their first trophy in 43 years.\nIn 2023 I also broke a Premier League record for the most successive away games scored in, a feat previously only achieved by Thierry Henry and Mohamed Salah.\nI've played with the likes of Robertson, Maguire & Rice.",
+   "problems": [
+    "claim not stated in the evidence: \"In 2023, Jarrod Bowen broke a Premier League record for the most successive away games scored in.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I became the first player at my club to score a Premier League hat-trick at our home stadium.\nFollowing this, I went on to break the all-time record for the most goal involvements in the club's history.\nI've been managed by David Moyes & Julen Lopetegui.",
+   "problems": [
+    "claim is wrong: \"Following scoring that Premier League hat-trick, Jarrod Bowen broke the all-time record for the most goal involvements in his club's history.\"",
+    "wording will date: The claim of holding the all-time record for most goal involvements is a mutable statistic that could be surpassed by another player in the future.; The claim to hold the all-time record for goal involvements could be surpassed while he is still active."
+   ],
+   "style": 3
+  },
+  {
+   "question": "In early 2026 I became my club's all-time record holder for goal involvements.\nUnfortunately, the same year ended with me captaining the side to relegation from the Premier League.\nI've been managed by David Moyes & Nuno Espírito Santo.",
+   "problems": [
+    "claim not stated in the evidence: \"Jarrod Bowen captained his side to relegation from the Premier League at the end of 2026.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "After failing trials at Aston Villa and Cardiff City, I began my professional career as a scholar at Hereford United.\nI later moved to the Premier League, where I once equalled Paolo Di Canio's record for the most league goals in a season for my club.\nI've played alongside Paquetá, Kudus & Souček.",
+   "problems": [
+    "team-mates all from one club (West Ham United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2023 I broke a Premier League record for the most successive away games scored in, a feat previously achieved only by Thierry Henry and Mohamed Salah.\nDespite my individual success, my club was relegated from the top flight in 2026.\nI've played with the likes of Ferguson, Paquetá & Kudus.",
+   "problems": [
+    "team-mates all from one club (West Ham United); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "answer": "Kylian Mbappé",
+ "acceptableAnswers": [
+  "Kylian Mbappé",
+  "Mbappé"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won the World Cup Golden Boot twice, a feat that had never been achieved before.\nIn 2022 I also became only the second player in history to score a hat-trick in a World Cup final.\nI've played with the likes of Neymar, Bellingham & Bernardo Silva",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The facts are strong and memorable (Golden Boot record, WC Final hat-trick), but the structure is a bit list-like. It lacks the conversational flow or 'twist' found in the best originals (e.g., it doesn't connect the two achievements with a narrative bridge like 'Yet...' or 'Following...'). The clue",
+  "fix": "Connect the sentences to create a narrative arc. For example: \"I've won the World Cup Golden Boot twice, a feat that had never been achieved before. Yet my proudest moment came in 2022 when I became only the second player in history to score a hat-trick in a World Cup final. I've played with the"
+ },
+ "claims": [
+  {
+   "text": "Kylian Mbappé has won the World Cup Golden Boot twice.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was awarded the Golden Boot as the top scorer at the World Cup for the second consecutive time, becoming the first player to win the award twice",
+    "[Honours > Individual] FIFA World Cup Golden Boot: 2022, 2026"
+   ]
+  },
+  {
+   "text": "No player had previously achieved winning the World Cup Golden Boot twice before Kylian Mbappé did so.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mbappé also became the first player to win multiple World Cup Golden Boots.",
+    "Mbappé also became the first player to win multiple World Cup Golden Boots."
+   ]
+  },
+  {
+   "text": "Kylian Mbappé scored a hat-trick in the 2022 World Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the 2022 FIFA World Cup, Mbappé led France to a second consecutive final, in which he scored a hat-trick as France finished as runners-up.",
+    "During the World Cup final on 18 December 2022, Mbappé became the second player in history to score a hat-trick in a World Cup final."
+   ]
+  },
+  {
+   "text": "Kylian Mbappé is only the second player in history to score a hat-trick in a World Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "During the World Cup final on 18 December 2022, Mbappé became the second player in history to score a hat-trick in a World Cup final.",
+    "During the World Cup final on 18 December 2022, Mbappé became the second player in history to score a hat-trick in a World Cup final."
+   ]
+  },
+  {
+   "text": "Kylian Mbappé has played with Neymar.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Paris Saint-Germain] Played in 128 matches alongside Neymar for Paris Saint-Germain (2017 to 2023)",
+    "[Squad data > Paris Saint-Germain] Played in 128 matches alongside Neymar for Paris Saint-Germain (2017 to 2023)"
+   ]
+  },
+  {
+   "text": "Kylian Mbappé has played with Bellingham.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 84 matches alongside Jude Bellingham for Real Madrid (2024 to 2026)",
+    "Played in 84 matches alongside Jude Bellingham for Real Madrid (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Kylian Mbappé has played with Bernardo Silva.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AS Monaco] Played in 46 matches alongside Bernardo Silva for AS Monaco (2015 to 2017)",
+    "[Squad data > AS Monaco] Played in 46 matches alongside Bernardo Silva for AS Monaco (2015 to 2017)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kylian_Mbappé",
+  "revid": 1385906751
+ },
+ "alternatives": [
+  {
+   "question": "After becoming the all-time leading scorer for Paris Saint-Germain, I joined Real Madrid on a free transfer in 2024.\nIn my debut season in Spain, I broke the record for most goals scored by a Madrid player in their first campaign.\nI've been managed by Leonardo Jardim, Thomas Tuchel & Carlo Ancelotti",
+   "problems": [
+    "wording will date: The phrase 'all-time leading scorer' is a present-tense superlative that could theoretically be overtaken by another player in the future.; The claim about breaking the record for most goals in a debut season is stated as a present fact and could be surpassed by another player."
+   ],
+   "style": 3
+  },
+  {
+   "question": "At age 19 I became only the second teenager after Pelé to score in a World Cup final and win the trophy.\nFollowing my time at Monaco, I moved to PSG for a fee that made me the most expensive teenager ever.\nI've played with Messi, Alexander-Arnold & Olise",
+   "problems": [
+    "wording will date: The phrase 'most expensive teenager ever' is a superlative record that could theoretically be broken by a future transfer.; The phrase 'most expensive teenager ever' is a current record that could be broken."
+   ],
+   "style": 2
+  }
+ ]
+}

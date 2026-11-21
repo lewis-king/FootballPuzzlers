@@ -1,0 +1,122 @@
+{
+ "answer": "Robert Lewandowski",
+ "acceptableAnswers": [
+  "Robert Lewandowski",
+  "Lewandowski"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "article",
+  "contract": ""
+ },
+ "status": "READY",
+ "question": "I was widely expected to win the 2020 Ballon d'Or, but the award wasn't given out due to COVID-19.\nIn spite of this, I managed to win the European treble that same season as the sole top scorer in all three competitions.\nI've played with the likes of Coutinho, Rashford & Gavi.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (the missed Ballon d'Or due to COVID), but the middle sentence feels like a list of stats rather than a story. The final clue is excellent: mixing Coutinho (Liverpool), Rashford (Man Utd), and Gavi (Barcelona) effectively narrows it down without giving it away, as he",
+  "fix": "Tighten the second sentence to feel more conversational. Instead of 'In spite of this, I managed to win...', try something like: 'Yet that season still saw me complete a European treble, finishing as the sole top scorer in all three competitions.'"
+ },
+ "claims": [
+  {
+   "text": "Robert Lewandowski was widely expected to win the 2020 Ballon d'Or.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Lewandowski was widely expected to win the 2020 Ballon d'Or",
+    "Lewandowski was widely expected to win the 2020 Ballon d'Or"
+   ]
+  },
+  {
+   "text": "The 2020 Ballon d'Or award was not given out due to COVID-19.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Lewandowski was widely expected to win the 2020 Ballon d'Or, but it was not awarded due to the impact of COVID-19.",
+    "it was not awarded due to the impact of COVID-19."
+   ]
+  },
+  {
+   "text": "Robert Lewandowski won the European treble in the same season as the 2020 Ballon d'Or cycle (2019–2020).",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In Munich, he won the Bundesliga title in all of his eight seasons at the club and was integral in their Champions League win in 2019–20 as part of a treble.",
+    "was integral in their Champions League win in 2019–20 as part of a treble."
+   ]
+  },
+  {
+   "text": "Robert Lewandowski was the sole top scorer in all three competitions of that European treble.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "However, Lewandowski was the first to do so as the sole top scorer in all three competitions.",
+    "Lewandowski was the first to do so as the sole top scorer in all three competitions."
+   ]
+  },
+  {
+   "text": "Robert Lewandowski has played with Philippe Coutinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayern Munich] Played in 34 matches alongside Philippe Coutinho for Bayern Munich (2019 to 2020)",
+    "[Squad data > Bayern Munich] Played in 34 matches alongside Philippe Coutinho for Bayern Munich (2019 to 2020)"
+   ]
+  },
+  {
+   "text": "Robert Lewandowski has played with Marcus Rashford.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)",
+    "[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Robert Lewandowski has played with Gavi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 101 matches alongside Gavi for FC Barcelona (2022 to 2026)",
+    "[Squad data > FC Barcelona] Played in 101 matches alongside Gavi for FC Barcelona (2022 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+  "revid": 1386384091
+ },
+ "alternatives": [
+  {
+   "question": "I was widely expected to win the 2020 Ballon d'Or, but it wasn't awarded due to the impact of COVID-19.\nIn spite of this, I managed to win the European treble that same season as the sole top scorer in all three competitions.\nMy career has seen me play under Hansi Flick at two different clubs.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In 2021 I broke a long-standing Bundesliga record of 40 goals in a single season, which had been held by Gerd Müller since the seventies.\nFollowing my time in Germany, I moved to Spain where I became the first player to score a Champions League hat-trick for three different clubs.\nI've been managed by Klopp, Guardiola & Xavi.",
+   "problems": [
+    "claim not stated in the evidence: \"Robert Lewandowski broke a long-standing Bundesliga record of 40 goals in a single season in 2021.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2010, a cloud of volcanic ash prevented me from completing a move to Blackburn Rovers.\nFollowing this, I spent over a decade in Germany and Spain, becoming one of only five players to score 100 goals with three different clubs.\nI've been managed by the likes of Klopp, Guardiola & Xavi.",
+   "problems": [
+    "claim not stated in the evidence: \"Robert Lewandowski spent over a decade in Germany and Spain following the failed move to Blackburn Rovers in 2010.\"",
+    "wording will date: The claim 'one of only five players' is a present-tense count that could change if another player reaches 100 goals with three clubs.; The phrase 'one of only five players' is a current ranking that could change if another player reaches the milestone."
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2015 I set a Bundesliga record by scoring five goals in under nine minutes as a substitute.\nAlthough I've won the league in Germany and Spain, I've never won the Champions League with my first two clubs.\nI've played alongside the likes of Coutinho, Kimmich & Rashford.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Robert Lewandowski has never won the Champions League with his first two clubs.\""
+   ],
+   "style": 0
+  }
+ ]
+}

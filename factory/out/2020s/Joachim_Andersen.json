@@ -1,0 +1,117 @@
+{
+ "answer": "Joachim Andersen",
+ "acceptableAnswers": [
+  "Joachim Andersen",
+  "Andersen"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I'm a defender who once finished a Premier League season as the player with the most clearances.\nIncredibly, I've also been headbutted by Darwin Núñez on his home debut for Liverpool.\nI've played under managers such as Patrick Vieira & Marco Silva.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and memorable (the Nunez headbutt), which fits the style guide's preference for surprising moments over dull stats. The sentence structure connects well ('Incredibly...'). However, it loses a point because the final clue list (Vieira & Silva) is slightly weak; Vieira managed him, ",
+  "fix": "Consider swapping one manager for a teammate to add variety, or ensuring the managers are from distinct clubs to better narrow the field. The current draft is good but could be sharper."
+ },
+ "claims": [
+  {
+   "text": "Joachim Andersen is a defender.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Joachim Christian Andersen (Danish pronunciation: [ˈɑnɐsn̩]; born 31 May 1996) is a Danish professional footballer who plays as a centre-back for Premier League club Fulham and the Denmark national team.",
+    "Andersen is considered a ball-playing defender with the ability to play on both right and left side of the central defence and even in defensive midfield."
+   ]
+  },
+  {
+   "text": "Joachim Andersen finished a Premier League season as the player with the most clearances.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He finished the 2023–24 season as the player with most clearances in the Premier League in 229 occasions.",
+    "He finished the 2023–24 season as the player with most clearances in the Premier League in 229 occasions."
+   ]
+  },
+  {
+   "text": "Darwin Núñez headbutted Joachim Andersen on Darwin Núñez's home debut for Liverpool.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Andersen was headbutted by Darwin Núñez, for which the Uruguayan was sent off on his home debut for Liverpool",
+    "Andersen was headbutted by Darwin Núñez, for which the Uruguayan was sent off on his home debut for Liverpool, a 1–1 draw with Palace on 15 August 2022."
+   ]
+  },
+  {
+   "text": "Joachim Andersen has played under manager Patrick Vieira.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 61 matches (2021 to 2023)",
+    "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 61 matches (2021 to 2023)"
+   ]
+  },
+  {
+   "text": "Joachim Andersen has played under manager Marco Silva.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 68 matches (2024 to 2026)",
+    "[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 68 matches (2024 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Joachim_Andersen_(footballer)",
+  "revid": 1386399514
+ },
+ "alternatives": [
+  {
+   "question": "In 2019 I became the record transfer for Lyon, as well as the most expensive Danish player in history.\nFollowing my time in France, I spent several years in London with two different clubs.\nI've played with the likes of Memphis Depay, Marc Guéhi & Willian",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I finished the 2023-24 season as the player with the most clearances in the Premier League.\nDuring that same period, I also scored a superb strike in a victory over Manchester United at Old Trafford.\nI've been managed by Patrick Vieira & Marco Silva",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I arrived at Lyon as their record signing, yet I spent several years after that bouncing between two different London clubs.\nIncredibly, I once finished a Premier League season with more clearances than any other player in the league.\nI've played with the likes of Memphis Depay, Marc Guéhi & Willian",
+   "problems": [
+    "claim is wrong: \"Joachim Andersen spent several years after arriving at Lyon bouncing between two different London clubs.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I've had the honour of representing my country at a World Cup and two European Championships, although I only scored my first international goal in 2025.\nFollowing my time in France and Italy, I spent three years at Crystal Palace where I was managed by Patrick Vieira.\nI've played with Ziyech, Bruno Guimarães & Raúl Jiménez",
+   "problems": [
+    "claim is wrong: \"Joachim Andersen played for a club in France before playing for a club in Italy.\"",
+    "claim is wrong: \"Joachim Andersen played for a club in Italy before spending three years at Crystal Palace.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I arrived at Lyon as their record signing, yet I spent much of my time there playing alongside Memphis Depay.\nFollowing my time in France, I had two different permanent spells with the same London club, split by a few years at Crystal Palace.\nI've played with the likes of Ziyech, Torreira & Willian.",
+   "problems": [
+    "claim is wrong: \"Following his time in France, Joachim Andersen had two different permanent spells with the same London club.\"",
+    "claim is wrong: \"Joachim Andersen's two permanent spells with the same London club were split by a few years at Crystal Palace.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2022 I was involved in an incident where I was headbutted by Darwin Núñez, leading to him being sent off on his Liverpool debut.\nI've since made over 50 caps for my country and represented them at the 2022 World Cup.\nI've played with Ziyech, Zapata & Bruno Guimarães",
+   "problems": [
+    "claim not stated in the evidence: \"Joachim Andersen has made over 50 caps for his country.\""
+   ],
+   "style": 3
+  }
+ ]
+}

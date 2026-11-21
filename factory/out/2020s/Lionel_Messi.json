@@ -1,0 +1,109 @@
+{
+ "answer": "Lionel Messi",
+ "acceptableAnswers": [
+  "Lionel Messi",
+  "Messi"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to December 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I once retired from international football, but returned soon after.\nIt was this return that eventually led me to victory at the 2022 World Cup.\nThroughout my career I've been managed by Luis Enrique, Galtier & Koeman.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The hook (retiring then returning to win the WC) is strong and memorable, fitting the style guide's preference for tension. However, it loses a point because the manager clue list includes Galtier & Koeman without context; while factually correct, these are less iconic than Enrique or Guardiola, and",
+  "fix": "Consider swapping one of the lesser-known managers for a more famous teammate from the 2022 squad (like De Paul or Di Maria) to make the narrowing clue sharper, or rephrase the manager list to highlight the contrast between his club and country managers."
+ },
+ "claims": [
+  {
+   "text": "Lionel Messi retired from international football.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Messi retired from international football for a second time in October 2026.",
+    "Messi retired from international football for a second time in October 2026."
+   ]
+  },
+  {
+   "text": "Lionel Messi returned to international football soon after retiring.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He subsequently announced his retirement from international football, but returned soon after.",
+    "He subsequently announced his retirement from international football, but returned soon after."
+   ]
+  },
+  {
+   "text": "The return of Lionel Messi to international football led to his victory at the 2022 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He then led Argentina to victory at the 2021 Copa América, the 2022 World Cup, and the 2024 Copa América."
+   ]
+  },
+  {
+   "text": "Lionel Messi won the 2022 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the 2022 FIFA World Cup, Messi led Argentina to their first World Cup victory in 36 years, scoring twice in the final to defeat France.",
+    "He then led Argentina to victory at the 2021 Copa América, the 2022 World Cup, and the 2024 Copa América."
+   ]
+  },
+  {
+   "text": "Luis Enrique managed Lionel Messi during his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Was managed by Luis Enrique at FC Barcelona in 158 matches (2014 to 2017)",
+    "[Squad data > FC Barcelona] Was managed by Luis Enrique at FC Barcelona in 158 matches (2014 to 2017)"
+   ]
+  },
+  {
+   "text": "Galtier managed Lionel Messi during his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Paris Saint-Germain] Was managed by Christophe Galtier at Paris Saint-Germain in 40 matches (2022 to 2023)",
+    "[Squad data > Paris Saint-Germain] Was managed by Christophe Galtier at Paris Saint-Germain in 40 matches (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Koeman managed Lionel Messi during his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Was managed by Ronald Koeman at FC Barcelona in 47 matches (2020 to 2021)",
+    "Was managed by Ronald Koeman at FC Barcelona in 47 matches (2020 to 2021)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Lionel_Messi",
+  "revid": 1386068285
+ },
+ "alternatives": [
+  {
+   "question": "I've won a record eight Ballons d'Or.\nFollowing my time in Spain and France, I moved to the US where I led my new club to their first league championship in 2025.\nI've played with the likes of Mbappé, Coutinho & Griezmann.",
+   "problems": [
+    "claim not stated in the evidence: \"Following his time in Spain and France, Lionel Messi moved to the US.\"",
+    "wording will date: The claim of holding a 'record eight' Ballons d'Or is a present-tense superlative that would become false if another player won their ninth award in the future.; The claim to a record eight Ballons d'Or is in the present tense and could be surpassed."
+   ],
+   "style": 1
+  },
+  {
+   "question": "I'm the all-time leading goalscorer for my country, yet I spent years unable to lead them to a trophy.\nIncredibly, I've now won every top tier trophy at both club and country level.\nI've played with Neymar at two different clubs & also shared a pitch with Ekitiké.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Lionel Messi spent years unable to lead his national team to a trophy.\"",
+    "wording will date: The claim of having won 'every top tier trophy' is a current status that could change if the player fails to win a future major tournament.; The claim of being the all-time leading goalscorer is a current record that could change."
+   ],
+   "style": 0
+  }
+ ]
+}

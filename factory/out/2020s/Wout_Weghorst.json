@@ -1,0 +1,71 @@
+{
+ "answer": "Wout Weghorst",
+ "acceptableAnswers": [
+  "Wout Weghorst",
+  "Weghorst"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I'm well known for a post-match confrontation with Lionel Messi after he refused to swap shirts with me at the 2022 World Cup.\nIncredibly, I had scored two goals in that same match to send my country into the penalty shootout.\nI've played with Dele Alli, Casemiro & Bruno Fernandes.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 2,
+  "why": "This reads exactly like one of Lewis's originals: it opens with a memorable, slightly awkward moment (the shirt refusal), pays off the tension by revealing he actually scored twice in that game, and closes with a narrowing list of teammates from different clubs. The facts are true, the tone is right",
+  "fix": "None needed."
+ },
+ "claims": [
+  {
+   "text": "Wout Weghorst was involved in a post-match confrontation with Lionel Messi after Messi refused to swap shirts with him at the 2022 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After the match, Weghorst was engaged in a confrontation with Lionel Messi after the Argentina captain refused to swap shirts with him.",
+    "After the match, Weghorst was engaged in a confrontation with Lionel Messi after the Argentina captain refused to swap shirts with him."
+   ]
+  },
+  {
+   "text": "Wout Weghorst scored two goals in the match against Argentina at the 2022 World Cup that sent his country into a penalty shootout.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He represented the Netherlands at UEFA Euro 2020, the 2022 FIFA World Cup (where he notably scored two goals in his side's quarter-final match against Argentina), UEFA Euro 2024, and the 2026 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Wout Weghorst has played with Dele Alli, Casemiro, and Bruno Fernandes.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Wout_Weghorst",
+  "revid": 1386488735
+ },
+ "alternatives": [
+  {
+   "question": "In the 2021-22 Premier League season I averaged more presses per 90 minutes than any other player.\nDespite this, I only managed two goals from 20 appearances before my club were relegated.\nI've been managed by Oliver Glasner & Erik ten Hag.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "The first trophy of my career was the EFL Cup, which I won during a short loan spell in 2023.\nFollowing this, I had further loans in Germany and Turkey before returning to the Netherlands.\nI've played with Jadon Sancho, Raphael Varane & Dele Alli.",
+   "problems": [
+    "claim not stated in the evidence: \"After winning the EFL Cup, Wout Weghorst had a loan spell in Germany.\"",
+    "claim is wrong: \"After his loan in Germany, Wout Weghorst had a loan spell in Turkey.\"",
+    "claim is wrong: \"After his loan in Turkey, Wout Weghorst returned to the Netherlands.\""
+   ],
+   "style": 4
+  }
+ ]
+}

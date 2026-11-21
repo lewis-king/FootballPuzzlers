@@ -1,0 +1,104 @@
+{
+ "answer": "Luis Díaz",
+ "acceptableAnswers": [
+  "Luis Díaz",
+  "Díaz"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've won the Golden Boot at a Copa América, though I only finished third with my country that tournament.\nFollowing my time in Portugal, I moved to England where I was named man of the match in an FA Cup final.\nI've played with the likes of Salah, Vitinha & Harry Kane.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question reads naturally and follows the house style well: it opens with a strong hook (Golden Boot despite finishing third), connects the sentences logically ('Following my time...'), and ends with a narrowing list of teammates. The facts are accurate and memorable for fans. It loses one point,",
+  "fix": "Tighten the middle sentence slightly to improve flow and ensure the 'man of the match' detail is framed as a specific moment rather than just a stat, e.g., '...where I was named man of the match in an FA Cup final.' (It's already good, but could be punchier). Alternatively, swap one teammate for a r"
+ },
+ "claims": [
+  {
+   "text": "Luis Díaz won the Golden Boot at a Copa América.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Copa América Golden Boot: 2021 (shared)",
+    "helping Colombia to a third-place finish at the Copa América in 2021, where he was also awarded the Golden Boot"
+   ]
+  },
+  {
+   "text": "Luis Díaz's country finished third in that Copa América tournament.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "helping Colombia to a third-place finish at the Copa América in 2021",
+    "helping Colombia to a third-place finish at the Copa América in 2021"
+   ]
+  },
+  {
+   "text": "Luis Díaz played for a club in Portugal before moving to England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Luis Díaz appeared for: FC Porto 2019 to 2022; Liverpool FC 2022 to 2025"
+   ]
+  },
+  {
+   "text": "Luis Díaz was named man of the match in an FA Cup final while playing in England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 14 May, he started in the 2022 FA Cup final against Chelsea, which Liverpool won 6–5 on penalties after a goalless draw, with Diaz being replaced by Roberto Firmino in the 98th minute, as he was named man of the match.",
+    "He won the EFL Cup and FA Cup in his first season, and was man of the match in the latter final."
+   ]
+  },
+  {
+   "text": "Luis Díaz has played with Mohamed Salah.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 128 matches alongside Mohamed Salah for Liverpool FC (2022 to 2025)",
+    "[Squad data > Liverpool FC] Played in 128 matches alongside Mohamed Salah for Liverpool FC (2022 to 2025)"
+   ]
+  },
+  {
+   "text": "Luis Díaz has played with Vitinha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Porto] Played in 29 matches alongside Vitinha for FC Porto (2020 to 2022)",
+    "[Squad data > FC Porto] Played in 29 matches alongside Vitinha for FC Porto (2020 to 2022)"
+   ]
+  },
+  {
+   "text": "Luis Díaz has played with Harry Kane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayern Munich] Played in 46 matches alongside Harry Kane for Bayern Munich (2025 to 2026)",
+    "[Squad data > Bayern Munich] Played in 46 matches alongside Harry Kane for Bayern Munich (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Luis_Díaz_(footballer,_born_1997)",
+  "revid": 1385977079
+ },
+ "alternatives": [
+  {
+   "question": "In 2026 I became the first Bayern player to record at least 13 goals and 13 assists in a single Bundesliga season since records began in 2004-05.\nBefore moving to Germany, I helped Liverpool win the league in 2025.\nI've played with James Rodríguez & Virgil van Dijk.",
+   "problems": [],
+   "style": 1
+  },
+  {
+   "question": "I once signed a pre-contract with Cardiff City, yet the move never materialised.\nIn 2025 I won the Premier League before moving to Germany to become only the third Colombian to represent Bayern Munich.\nI've been managed by Jürgen Klopp & Vincent Kompany.",
+   "problems": [
+    "claim not stated in the evidence: \"Luis Díaz won the Premier League in 2025.\""
+   ],
+   "style": 3
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "answer": "Jorginho",
+ "acceptableAnswers": [
+  "Jorginho"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "Despite my passing game, I'm perhaps best known for my trademark hop when taking penalties.\nI've been managed by Sarri, Tuchel & Arteta.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook (the penalty hop) is charming and memorable, fitting the 'delightful oddity' criteria perfectly. The manager list (Sarri, Tuchel, Arteta) effectively narrows it down to a Chelsea player from that specific era. It loses one point because it lacks the narrative flow or tension found in the 5/",
+  "fix": "Add a sentence connecting the managers or adding a bit of story/tension, e.g., 'I joined Chelsea under Sarri, but it was under Tuchel that I finally won the Champions League.' This creates the 'connected sentences' feel and adds a major achievement to balance the quirky hook."
+ },
+ "claims": [
+  {
+   "text": "Jorginho is known for a trademark hop when taking penalties.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "who often performs trademark hop when taking spot kicks",
+    "he is also an accurate penalty taker, who often performs trademark hop when taking spot kicks"
+   ]
+  },
+  {
+   "text": "Jorginho has been managed by Sarri.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SSC Napoli] Was managed by Maurizio Sarri at SSC Napoli in 108 matches (2015 to 2018)",
+    "[Squad data > SSC Napoli] Was managed by Maurizio Sarri at SSC Napoli in 108 matches (2015 to 2018)"
+   ]
+  },
+  {
+   "text": "Jorginho has been managed by Tuchel.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Was managed by Thomas Tuchel at Chelsea FC in 75 matches (2021 to 2022)",
+    "[Squad data > Chelsea FC] Was managed by Thomas Tuchel at Chelsea FC in 75 matches (2021 to 2022)"
+   ]
+  },
+  {
+   "text": "Jorginho has been managed by Arteta.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 74 matches (2023 to 2025)",
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 74 matches (2023 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jorginho_(footballer,_born_December_1991)",
+  "revid": 1386704854
+ },
+ "alternatives": [
+  {
+   "question": "I was part of the squad that won Euro 2020 and was named in the Team of the Tournament.\nFollowing my time at Chelsea, I moved to Arsenal & then Flamengo.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "That same year I was named UEFA Men's Player of the Year and finished 3rd in the Ballon d'Or voting.\nI've played with the likes of Hazard, Kanté & Saka.",
+   "problems": [],
+   "style": 2
+  }
+ ]
+}

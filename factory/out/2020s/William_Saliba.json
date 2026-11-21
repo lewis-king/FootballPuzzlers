@@ -1,0 +1,116 @@
+{
+ "answer": "William Saliba",
+ "acceptableAnswers": [
+  "William Saliba",
+  "Saliba"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I was once left out of my club's competitive squads for an entire season, meaning I could only play for the U23s.\nFollowing this I spent two years on loan in France, eventually winning Ligue 1 Young Player of the Year in 2022.\nI've played with Fofana, Milik & Guendouzi",
+ "problems": [
+  "claim is wrong: \"Following being left out of the competitive squads, William Saliba spent two years on loan in France.\"",
+  "claim not stated in the evidence: \"William Saliba won Ligue 1 Young Player of the Year in 2022.\""
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The draft is factually accurate and follows the structure well, but it misses the 'twist' or tension that defines a 5-score question. The hook (being benched for a season) is interesting, but the payoff (winning an award in France) feels like a standard career progression rather than a surprising or",
+  "fix": "To elevate this to a 5, emphasize the contrast between being discarded by a giant and becoming a star elsewhere, perhaps highlighting that he was considered surplus to requirements before becoming a key starter. Also, 'Ligue 1 Young Player of the Year' is a bit dry; focusing on his immediate impact/"
+ },
+ "claims": [
+  {
+   "text": "William Saliba was left out of his club's competitive squads for an entire season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he was then left out of the club's competitive squads for the 2020–21 season",
+    "he was then left out of the club's competitive squads for the 2020–21 season"
+   ]
+  },
+  {
+   "text": "During the season he was left out of the competitive squads, William Saliba could only play for the U23s.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "However, he was then left out of the club's competitive squads for the 2020–21 season, leaving him only able to play for Arsenal U23s, for whom he featured in EFL Trophy games away to Gillingham and AFC Wimbledon, receiving a red card in the latter fixture.",
+    "However, he was then left out of the club's competitive squads for the 2020–21 season, leaving him only able to play for Arsenal U23s"
+   ]
+  },
+  {
+   "text": "Following being left out of the competitive squads, William Saliba spent two years on loan in France.",
+   "final": "CONTRADICTED",
+   "quotes": []
+  },
+  {
+   "text": "William Saliba won Ligue 1 Young Player of the Year in 2022.",
+   "final": "NOT_FOUND",
+   "quotes": [
+    "UNFP Ligue 1 Young player of the year: 2021–22"
+   ]
+  },
+  {
+   "text": "William Saliba has played with Fofana, Milik & Guendouzi.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/William_Saliba",
+  "revid": 1384445533
+ },
+ "alternatives": [
+  {
+   "question": "I was once left out of my club's competitive squads for an entire season, meaning I could only play for the U23s.\nFollowing this I spent time on loan at Nice and Marseille, eventually being named Ligue 1 Young Player of the Year for the 2021-22 season.\nI've played with Fofana, Milik & Guendouzi",
+   "problems": [
+    "claim not stated in the evidence: \"After being left out of his club's competitive squads for an entire season, William Saliba spent time on loan at Nice.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I was once left out of my club's competitive squads for an entire season, leaving me only able to play for the U23s.\nFollowing this I spent time on loan at Nice and Marseille, eventually being named Ligue 1 Young Player of the Year in 2022.\nI've played with Fofana, Milik & Guendouzi",
+   "problems": [
+    "claim not stated in the evidence: \"After being left out of his club's competitive squads for an entire season, William Saliba spent time on loan at Nice.\"",
+    "claim not stated in the evidence: \"After being left out of his club's competitive squads for an entire season, William Saliba spent time on loan at Marseille.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In the 2023-24 season I became the first Arsenal outfield player in the Premier League era to play every single minute.\nYet a back injury the previous year had seen me miss the run-in as my club surrendered their lead at the top of the table.\nI've played with the likes of Rice, Havertz & Sterling",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm a defender who has been described by former peers as a 'Rolls Royce' of a footballer.\nIn 2026 I helped my side end a 22-year wait for the Premier League title.\nI've played with Saka, Ødegaard & Gabriel",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In the 2023-24 season I became the first Arsenal outfield player in the Premier League era to play every single minute.\nUnfortunately my run of games was interrupted by a back injury that saw my club surrender their lead at the top of the table.\nI've played with Sterling, Rice & Havertz",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm an Arsenal defender who once missed out on a Coupe de France final because my loan agreement ended two weeks before.\nIncredibly, I later became the first outfield player in the Premier League era to play every minute of a league season for my club.\nI've played with Sterling, Rice & Havertz",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

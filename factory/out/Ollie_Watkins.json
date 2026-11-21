@@ -1,0 +1,87 @@
+{
+ "answer": "Ollie Watkins",
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ollie_Watkins",
+  "revid": 1383062722,
+  "revisionTime": "2026-10-31T20:02:06Z"
+ },
+ "draft": {
+  "question": "I once scored a perfect hat-trick in my club's heaviest defeat in 57 years. Incredibly, I later became that same club's all-time top Premier League scorer. I've played for the likes of Brentford & Al-Hilal",
+  "claims": [
+   {
+    "text": "scored a perfect hat-trick in my club's heaviest defeat in 57 years",
+    "evidence": [
+     46,
+     47
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "On 4 October 2020, Watkins scored his first Premier League goals, scoring through a left footed strike, a right footed strike and a header for a perfect hat-trick in a 7–2 home victory over champions Liverpool.",
+     "It was Liverpool's heaviest defeat in 57 years and was the first time in Premier League history that a reigning champion had conceded 7 goals in a single match."
+    ]
+   },
+   {
+    "text": "became that same club's all-time top Premier League scorer",
+    "evidence": [
+     6
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "In May 2025, Watkins became Aston Villa's all-time top Premier League scorer, overtaking Gabriel Agbonlahor's record of 74 goals."
+    ]
+   },
+   {
+    "text": "played for the likes of Brentford & Al-Hilal",
+    "evidence": [
+     36,
+     70
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "On 18 July 2017, Watkins joined Championship club Brentford on a four-year contract, with an option for a further year, for an undisclosed fee, reported to be £1.8 million.",
+     "On 30 August 2026, Watkins joined Al-Hilal for an undisclosed fee, reported to be around £51 million."
+    ]
+   }
+  ],
+  "retired": false,
+  "retiredEvidence": []
+ },
+ "verification": {
+  "claims": [
+   {
+    "text": "scored a perfect hat-trick in my club's heaviest defeat in 57 years",
+    "supported": true,
+    "quote": "[46] On 4 October 2020, Watkins scored his first Premier League goals, scoring through a left footed strike, a right footed strike and a header for a perfect hat-trick in a 7–2 home victory over champions Liverpool. [47] It was Liverpool's heaviest defeat in 57 years...",
+    "problem": "none"
+   },
+   {
+    "text": "became that same club's all-time top Premier League scorer",
+    "supported": true,
+    "quote": "[6] In May 2025, Watkins became Aston Villa's all-time top Premier League scorer, overtaking Gabriel Agbonlahor's record of 74 goals.",
+    "problem": "none"
+   },
+   {
+    "text": "played for the likes of Brentford & Al-Hilal",
+    "supported": true,
+    "quote": "[36] On 18 July 2017, Watkins joined Championship club Brentford... [70] On 30 August 2026, Watkins joined Al-Hilal for an undisclosed fee...",
+    "problem": "none"
+   }
+  ],
+  "everyClaimInQuestion": true,
+  "givesAwayName": false,
+  "datedWording": false,
+  "otherPlayersWhoFit": [],
+  "storyScore": 5,
+  "storyNote": "The question is written in the first person ('I once scored...', 'I later became...'), creating a narrative arc. It connects two distinct achievements (the hat-trick and the record) with a temporal marker ('later') and adds context about his career path ('played for the likes of...'). This reads like a short story or personal anecdote rather than a flat list of facts.",
+  "verdict": "PASS",
+  "notes": "The claims are fully supported by the evidence. The question does not give away the name, uses no dated wording (like 'currently'), and fits only Ollie Watkins based on the specific combination of events (perfect hat-trick in Liverpool's 7-2 loss + Villa PL record scorer + Brentford/Al-Hilal). The story score is high because it uses first-person narrative voice."
+ },
+ "models": {
+  "writer": "gemma4:31b",
+  "checker": "qwen3.8:27b"
+ },
+ "seconds": {
+  "draft": 7,
+  "verify": 6
+ }
+}

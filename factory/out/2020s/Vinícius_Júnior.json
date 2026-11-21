@@ -1,0 +1,108 @@
+{
+ "answer": "Vinícius Júnior",
+ "acceptableAnswers": [
+  "Vinícius Júnior",
+  "Júnior"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I've become the youngest player to score in two Champions League finals, beating Lionel Messi's record.\nIn 2026 I also became the second highest Brazilian goalscorer in the history of that competition.\nI've been managed by Zidane & Ancelotti, and played with Alisson & Guimarães.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The hook is strong (youngest to score in two CL finals) and the manager/teammate clues are excellent for narrowing it down without giving it away. However, the second sentence ('In 2026 I also became...') feels like a dry stat dump rather than part of the player's story, breaking the conversational,",
+  "fix": "Merge the record into the narrative flow or replace the 'second highest goalscorer' stat with a more memorable moment (e.g., scoring in the final itself). Ensure the tense reflects that this is a past achievement relative to the current date."
+ },
+ "claims": [
+  {
+   "text": "Vinícius Júnior is the youngest player to score in two Champions League finals.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Aged 23 years and 325 days, he became the youngest player to score in two Champions League finals, beating Lionel Messi's record by thirteen days.",
+    "Aged 23 years and 325 days, he became the youngest player to score in two Champions League finals, beating Lionel Messi's record by thirteen days."
+   ]
+  },
+  {
+   "text": "Vinícius Júnior beat Lionel Messi's record for being the youngest player to score in two Champions League finals.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Aged 23 years and 325 days, he became the youngest player to score in two Champions League finals, beating Lionel Messi's record by thirteen days.",
+    "Aged 23 years and 325 days, he became the youngest player to score in two Champions League finals, beating Lionel Messi's record by thirteen days."
+   ]
+  },
+  {
+   "text": "In 2026, Vinícius Júnior became the second highest Brazilian goalscorer in the history of the Champions League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "reaching his 31st goal in the competition to become the second-highest Brazilian scorer, overtaking Kaká and trailing only Neymar",
+    "On 17 February 2026, Vinícius scored the only goal in a 1–0 away win over Benfica in the Champions League knockout phase play-offs, reaching his 31st goal in the competition to become the second-highest Brazilian scorer, overtaking Kaká and trailing only Neymar."
+   ]
+  },
+  {
+   "text": "Vinícius Júnior has been managed by Zidane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 41 matches (2019 to 2020)",
+    "Was managed by Zinédine Zidane at Real Madrid in 41 matches (2019 to 2020)"
+   ]
+  },
+  {
+   "text": "Vinícius Júnior has been managed by Ancelotti.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Was managed by Carlo Ancelotti at Real Madrid in 197 matches (2021 to 2025)",
+    "[Squad data > Real Madrid] Was managed by Carlo Ancelotti at Real Madrid in 197 matches (2021 to 2025)"
+   ]
+  },
+  {
+   "text": "Vinícius Júnior played with Alisson.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brazil] Played in 3 matches alongside Alisson for Brazil (2026)",
+    "[Squad data > Brazil] Played in 3 matches alongside Alisson for Brazil (2026)"
+   ]
+  },
+  {
+   "text": "Vinícius Júnior played with Guimarães.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brazil] Played in 3 matches alongside Bruno Guimarães for Brazil (2026)",
+    "[Squad data > Brazil] Played in 3 matches alongside Bruno Guimarães for Brazil (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Vinícius_Júnior",
+  "revid": 1386260744
+ },
+ "alternatives": [
+  {
+   "question": "I've scored the winning goal in one Champions League final and a second goal in another.\nIn 2024 I was named the tournament's Player of the Season and The Best FIFA Men's Player.\nI've played with the likes of Hazard, Bellingham & Mbappé.",
+   "problems": [
+    "team-mates all from one club (Real Madrid); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "My transfer from Brazil to Spain was a national record for a player under 18.\nAlthough I'm now one of the best in the world, my early years were marred by criticism over my lack of end product.\nI've played with the likes of Bale, Valverde & Alexander-Arnold.",
+   "problems": [
+    "team-mates all from one club (Real Madrid); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Vinícius Júnior is currently one of the best players in the world.\""
+   ],
+   "style": 0
+  }
+ ]
+}

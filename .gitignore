@@ -56,3 +56,6 @@ buck-out/
 *.jsbundle
 /ios/build/
 /android/app/src/
+
+# Cloudflare wrangler local cache (holds account details)
+.wrangler/

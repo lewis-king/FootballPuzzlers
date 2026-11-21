@@ -1,0 +1,4 @@
+# Factory: local caches, downloads and the Python venv (duckdb)
+.venv/
+cache/
+__pycache__/

@@ -1,0 +1,104 @@
+{
+ "answer": "Eberechi Eze",
+ "acceptableAnswers": [
+  "Eberechi Eze"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "Away from the pitch, I won an online amateur chess tournament called PogChamps 6 in 2025.\nOn the pitch, I've made my senior England debut and helped them to a third-placed finish at the 2026 World Cup.\nI've played with the likes of Guéhi, Ødegaard & Havertz.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The facts are correct and the teammate list (Guéhi, Ødegaard, Havertz) is a strong narrowing clue that spans his career stages. However, it reads like a list of three disconnected facts rather than a story with tension or flow. The opening hook (winning an online chess tournament) is charming but a ",
+  "fix": "Connect the sentences to create a narrative arc. For example: 'I might be known for winning PogChamps 6, but on the pitch I helped England finish third at the 2026 World Cup. It was a career highlight that followed my time playing alongside Ødegaard and Havertz.'"
+ },
+ "claims": [
+  {
+   "text": "Eberechi Eze won an online amateur chess tournament called PogChamps 6 in 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 3 May 2025, he won PogChamps 6, an online amateur chess tournament",
+    "On 3 May 2025, he won PogChamps 6, an online amateur chess tournament organized by Chess.com, defeating gymnast Stephen Nedoroscik and YouTuber Sapnap along the way and earning a prize of $20,000."
+   ]
+  },
+  {
+   "text": "Eberechi Eze made his senior England debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "A former England youth international, Eze made his senior debut in 2023",
+    "Eze made his senior debut in 2023"
+   ]
+  },
+  {
+   "text": "Eberechi Eze helped the England team to a third-placed finish at the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Eze made his senior debut in 2023, and later helped his country to a runner-up finish at UEFA Euro 2024, and a third-placed finish at the 2026 FIFA World Cup.",
+    "A former England youth international, Eze made his senior debut in 2023, and later helped his country to a runner-up finish at UEFA Euro 2024, and a third-placed finish at the 2026 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Eberechi Eze played with Guéhi, Ødegaard & Havertz.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Eberechi_Eze",
+  "revid": 1384305865
+ },
+ "alternatives": [
+  {
+   "question": "I might be known for winning the PogChamps 6 amateur chess tournament in 2025.\nOn the pitch, I've won a major trophy with Crystal Palace and helped England to a third-placed finish at the 2026 World Cup.\nI've played with the likes of Guéhi, Ødegaard & Havertz.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In 2025 I won an online amateur chess tournament called PogChamps 6.\nOn the pitch that same year, I scored the winner in an FA Cup final before moving to Arsenal for £67.5 million.\nI've been managed by Roy Hodgson, Oliver Glasner & Mikel Arteta.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I scored the winning goal in the 2025 FA Cup final to secure my club's first ever major trophy.\nFollowing this success, I moved to my boyhood club where I won the Premier League in my debut season.\nI've played with the likes of Olise, Guéhi & Havertz.",
+   "problems": [
+    "claim not stated in the evidence: \"Following the 2025 FA Cup final, Eberechi Eze moved to his boyhood club.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I scored the only goal in the 2025 FA Cup final to win my club's first ever major trophy.\nFollowing this, I moved to my boyhood club for £67.5 million and won the Premier League in my first season.\nI've played with the likes of Olise, Saka & Rice.",
+   "problems": [
+    "claim is wrong: \"Following the 2025 FA Cup final, Eberechi Eze moved to his boyhood club for £67.5 million.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I'm the first player in the Premier League era to score a hat-trick in a North London derby.\nIncredibly, I followed this up by scoring five goals in that fixture across a single season.\nI've been managed by Roy Hodgson, Oliver Glasner & Mikel Arteta.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first player in the Premier League era to score a hat-trick in a North London derby.\nFollowing this, I moved from Crystal Palace to my boyhood club where I won the league title in my first season.\nI've been managed by Roy Hodgson & Mikel Arteta.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim is wrong: \"After scoring that hat-trick, Eberechi Eze moved from Crystal Palace to his boyhood club.\""
+   ],
+   "style": 0
+  }
+ ]
+}

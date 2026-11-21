@@ -1,0 +1,111 @@
+{
+ "answer": "Victor Osimhen",
+ "acceptableAnswers": [
+  "Victor Osimhen",
+  "Osimhen"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I started my international career by winning the Golden Boot at the 2015 U-17 World Cup, helping my country take the title.\nYears later, I broke the record for most goals scored in a single season by a foreign player in Turkey.\nI've played with Gabriel, Kvaratskhelia & Mauro Icardi.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The facts are strong and the teammate list (Gabriel, Kvaratskhelia, Icardi) is an excellent narrowing clue that spans his career stages. However, it reads slightly like a list of achievements rather than a connected story with tension or feeling. It lacks the conversational flow ('The following year",
+  "fix": ") and narrative arc found in the top-tier originals (e.g., Mané or Kroos). It is correct and fair, but feels a bit flat compared to the best examples."
+ },
+ "claims": [
+  {
+   "text": "Victor Osimhen won the Golden Boot at the 2015 U-17 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Osimhen won the Golden Boot award at the 2015 FIFA U-17 World Cup, which Nigeria won.",
+    "Osimhen won the Golden Boot award at the 2015 FIFA U-17 World Cup, which Nigeria won."
+   ]
+  },
+  {
+   "text": "Victor Osimhen's country won the title of the 2015 U-17 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Osimhen was a member of the Nigeria under-17 team that won the 2015 FIFA U-17 World Cup in Chile.",
+    "Osimhen was a member of the Nigeria under-17 team that won the 2015 FIFA U-17 World Cup in Chile."
+   ]
+  },
+  {
+   "text": "Victor Osimhen broke the record for most goals scored in a single season by a foreign player in Turkey.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "With his two goals in the final, Osimhen reached 35 goals in 39 official matches, setting a new record for most goals scored in a single season by a foreign player in Turkey.",
+    "With his two goals in the final, Osimhen reached 35 goals in 39 official matches, setting a new record for most goals scored in a single season by a foreign player in Turkey."
+   ]
+  },
+  {
+   "text": "Victor Osimhen has played with Gabriel.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > LOSC Lille] Played in 28 matches alongside Gabriel for LOSC Lille (2019 to 2020)",
+    "[Squad data > LOSC Lille] Played in 28 matches alongside Gabriel for LOSC Lille (2019 to 2020)"
+   ]
+  },
+  {
+   "text": "Victor Osimhen has played with Kvaratskhelia.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SSC Napoli] Played in 63 matches alongside Khvicha Kvaratskhelia for SSC Napoli (2022 to 2024)",
+    "[Squad data > SSC Napoli] Played in 63 matches alongside Khvicha Kvaratskhelia for SSC Napoli (2022 to 2024)"
+   ]
+  },
+  {
+   "text": "Victor Osimhen has played with Mauro Icardi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Galatasaray] Played in 34 matches alongside Mauro Icardi for Galatasaray (2024 to 2026)",
+    "[Squad data > Galatasaray] Played in 34 matches alongside Mauro Icardi for Galatasaray (2024 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+  "revid": 1385535397
+ },
+ "alternatives": [
+  {
+   "question": "I won the Golden Boot at the 2015 FIFA U-17 World Cup.\nYears later, I set a new record for most goals scored in a single season by a foreign player in Turkey.\nI've been managed by Galtier, Gattuso & Buruk.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I once held the record for most sprints above 35 km/h in Ligue 1, even ahead of Kylian Mbappé.\nAlthough I'm known for my pace, I've also become the highest scoring African player in Serie A history.\nI've played with the likes of Insigne, Kim & Lookman.",
+   "problems": [
+    "claim not stated in the evidence: \"Victor Osimhen has played with Kim.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I'm the first African player to finish as the top scorer in a Serie A season.\nFollowing that achievement, I became the first Nigerian to make the top ten of the Ballon d'Or rankings.\nI've played with the likes of Kvaratskhelia, Gabriel & Morata.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first African player to finish as a Serie A top scorer, an achievement that helped my club win their first league title in 33 years.\nFollowing a dispute with the board, I moved on to Turkey where I became the most expensive signing in their history.\nI've been managed by Galtier, Gattuso & Buruk.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+# New-pack alerts: stores Expo push tokens and sends one notification per new pack.
+# Deploy: npx wrangler deploy (after `npx wrangler kv namespace create TOKENS` and pasting the id below)
+# Secret:  npx wrangler secret put SEND_SECRET
+name = "fwai-alerts"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+# Served on the app's own domain; the default workers.dev address (which shows the account name) is off.
+workers_dev = false
+routes = [{ pattern = "alerts.footballwhoami.com", custom_domain = true }]
+
+[[kv_namespaces]]
+binding = "TOKENS"
+id = "27984db0776a40579c2ee967794e5a9f"

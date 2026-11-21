@@ -1,0 +1,111 @@
+{
+ "answer": "Lamine Yamal",
+ "acceptableAnswers": [
+  "Lamine Yamal",
+  "Yamal"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "As a baby I was once featured in a UNICEF charity photo shoot where I was bathed by Lionel Messi.\nIncredibly, we ended up facing each other in the final of the 2026 World Cup.\nI've played with João Félix, Laporte & Oyarzabal.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 1,
+  "why": "The hook is a delightful and memorable anecdote (Messi bathing him) that creates immediate intrigue. The narrative arc is perfect: it sets up the 'baby' story, pays off with the dramatic 2026 World Cup final encounter, and closes with a solid narrowing clue using recognizable teammates from his club",
+  "fix": "None needed."
+ },
+ "claims": [
+  {
+   "text": "Lamine Yamal was featured as a baby in a UNICEF charity photo shoot.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona",
+    "As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona, during which he was bathed by a 20-year-old Lionel Messi."
+   ]
+  },
+  {
+   "text": "In the UNICEF charity photo shoot, Lamine Yamal was bathed by Lionel Messi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona, during which he was bathed by a 20-year-old Lionel Messi.",
+    "As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona, during which he was bathed by a 20-year-old Lionel Messi."
+   ]
+  },
+  {
+   "text": "Lamine Yamal faced Lionel Messi in the final of the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Two years later, the photos received additional attention in the media as Yamal and Messi prepared to face each other in the 2026 FIFA World Cup final.",
+    "Two years later, the photos received additional attention in the media as Yamal and Messi prepared to face each other in the 2026 FIFA World Cup final."
+   ]
+  },
+  {
+   "text": "Lamine Yamal has played with João Félix.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 41 matches alongside João Félix for FC Barcelona (2023 to 2024)",
+    "[Squad data > FC Barcelona] Played in 41 matches alongside João Félix for FC Barcelona (2023 to 2024)"
+   ]
+  },
+  {
+   "text": "Lamine Yamal has played with Laporte.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Spain] Played in 3 matches alongside Aymeric Laporte for Spain (2026)",
+    "[Squad data > Spain] Played in 3 matches alongside Aymeric Laporte for Spain (2026)"
+   ]
+  },
+  {
+   "text": "Lamine Yamal has played with Oyarzabal.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Spain] Played in 3 matches alongside Mikel Oyarzabal for Spain (2026)",
+    "[Squad data > Spain] Played in 3 matches alongside Mikel Oyarzabal for Spain (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Lamine_Yamal",
+  "revid": 1385903856
+ },
+ "alternatives": [
+  {
+   "question": "I've won both the European Championship and a World Cup before the age of 20.\nIn 2024 I also became the youngest player to score in the history of the Euros.\nI've played with the likes of Lewandowski, Rashford & Rodri.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I've won both the European Championship and a World Cup before the age of 20.\nIncredibly, I also became the youngest player in history to reach 50 goals in Europe's top five leagues.\nI've played with the likes of Lewandowski, Rashford & Rodri.",
+   "problems": [
+    "wording will date: The claim of being the 'youngest player in history' is a superlative record that could theoretically be broken by a younger player scoring their 50th goal before Yamal's age.; The claim about being the youngest player to reach 50 goals is a current record that could be broken by another player."
+   ],
+   "style": 4
+  },
+  {
+   "question": "As a baby I was featured in a charity photo shoot where I was bathed by Lionel Messi.\nYears later, we actually faced each other in the 2026 World Cup final.\nI've played alongside Pedri, Raphinha & João Félix.",
+   "problems": [
+    "team-mates all from one club (FC Barcelona); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I became the youngest player to be nominated for the Ballon d'Or at age 17.\nFollowing my time under Xavi, I helped Hansi Flick lead my club to a domestic treble in 2025.\nI've played with the likes of Laporte, Oyarzabal & Fabián Ruiz.",
+   "problems": [
+    "team-mates all from one club (Spain); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "answer": "Ben White",
+ "acceptableAnswers": [
+  "Ben White",
+  "White"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "While on loan at Newport County I was praised for my performance against Harry Kane in a match that forced a replay at Wembley.\nUnfortunately I later missed out on the 2026 World Cup due to a knee injury.\nI've played with Trossard, Sánchez & Saka.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook (Newport vs Spurs at Wembley) is specific and memorable for UK fans, and the teammate list effectively narrows it down to Arsenal. However, the second sentence feels like a procedural note rather than part of the player's story arc; it lacks the 'twist' or emotional tension found in the top",
+  "fix": "Replace the World Cup injury detail with a more narrative-driven fact about his career trajectory (e.g., moving from Brighton to Arsenal) or a specific memorable moment at Arsenal, and ensure the sentences flow as a connected story rather than a list of events."
+ },
+ "claims": [
+  {
+   "text": "Ben White was on loan at Newport County.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He spent time with Newport County, Peterborough United, and Leeds United on successive loans between 2016 and 2019.",
+    "On 1 August 2017, White signed for League Two club Newport County on loan until the end of the 2017–18 season in what was described by manager Michael Flynn as a \"big coup for the club.\""
+   ]
+  },
+  {
+   "text": "While on loan at Newport County, Ben White was praised for his performance against Harry Kane in a match that forced a replay at Wembley.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 27 January 2018, White started the match as Newport drew 1–1 to force a replay at Tottenham's temporary home ground Wembley Stadium, with White praised for his performance against Harry Kane.",
+    "On 27 January 2018, White started the match as Newport drew 1–1 to force a replay at Tottenham's temporary home ground Wembley Stadium, with White praised for his performance against Harry Kane."
+   ]
+  },
+  {
+   "text": "Ben White missed out on the 2026 World Cup due to a knee injury.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 10 May 2026, White sustained a knee injury during a 1–0 away victory over West Ham United, which forced him to miss the remainder of the season, including Premier League title-deciding matches and the UEFA Champions League final, and he was subsequently ruled out of the 2026 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Ben White has played with Trossard, Sánchez & Saka.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ben_White_(footballer)",
+  "revid": 1385899664
+ },
+ "alternatives": [
+  {
+   "question": "I've played in all four professional English leagues, winning the Championship with Leeds along the way.\nIn 2021 I became my next club's most expensive defender after a move worth up to £50 million.\nI've been managed by Graham Potter & Mikel Arteta.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I was selected for both Euro 2020 and the 2022 World Cup, yet I didn't play a single minute in either tournament.\nIn March 2026 I returned to the national set up after a self-imposed exile from the team.\nI've played with the likes of Mac Allister, Sterling & Rice.",
+   "problems": [
+    "claim not stated in the evidence: \"Ben White did not play a single minute in the 2022 World Cup.\""
+   ],
+   "style": 4
+  }
+ ]
+}

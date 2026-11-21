@@ -1,0 +1,129 @@
+{
+ "answer": "Adama Traoré",
+ "acceptableAnswers": [
+  "Adama Traoré",
+  "Traoré"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I've had a career that has seen me play for both Barcelona & West Ham.\nIncredibly, I've shared the pitch with players as different as Grealish, Aubameyang & Pedri.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The draft is flat and lacks the narrative tension or 'twist' required by the style guide. It reads like a list of facts rather than a story told in first person. The hook (playing for Barcelona and West Ham) is not particularly memorable or surprising on its own without context (e.g., his brief loan",
+  "fix": "Rewrite to include a specific, memorable moment or contradiction. For example: 'I spent most of my time at Barcelona's academy but only made one appearance for the first team before moving to West Ham. Incredibly, I've shared the pitch with players as different as Grealish, Aubameyang & Pedri.' This"
+ },
+ "claims": [
+  {
+   "text": "Adama Traoré played for Barcelona.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Adama Traoré appeared for: FC Barcelona 2013 to 2022",
+    "Adama Traoré appeared for: FC Barcelona 2013 to 2022"
+   ]
+  },
+  {
+   "text": "Adama Traoré played for West Ham.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "West Ham United 2026",
+    "West Ham United 2026"
+   ]
+  },
+  {
+   "text": "Adama Traoré shared the pitch with Jack Grealish.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 8 matches alongside Jack Grealish for Aston Villa (2015 to 2016)",
+    "[Squad data > Aston Villa] Played in 8 matches alongside Jack Grealish for Aston Villa (2015 to 2016)"
+   ]
+  },
+  {
+   "text": "Adama Traoré shared the pitch with Pierre-Emerick Aubameyang.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 17 matches alongside Pierre-Emerick Aubameyang for FC Barcelona (2022)",
+    "[Squad data > FC Barcelona] Played in 17 matches alongside Pierre-Emerick Aubameyang for FC Barcelona (2022)"
+   ]
+  },
+  {
+   "text": "Adama Traoré shared the pitch with Pedri.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 13 matches alongside Pedri for FC Barcelona (2022)",
+    "[Squad data > FC Barcelona] Played in 13 matches alongside Pedri for FC Barcelona (2022)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Adama_Traoré",
+  "revid": 1312912089
+ },
+ "alternatives": [
+  {
+   "question": "I spent several years on the books at Barcelona, yet I only made 21 appearances for the first team over that time.\nFollowing a long spell in the Midlands, I eventually moved to West Ham.\nIncredibly, my career has seen me play with players as different as Grealish, Aubameyang & Pedri.",
+   "problems": [
+    "claim not stated in the evidence: \"Adama Traoré made exactly 21 appearances for the Barcelona first team during his time there.\"",
+    "claim not stated in the evidence: \"Adama Traoré had a long spell playing in the Midlands region of England.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I spent nearly a decade on the books at FC Barcelona, yet I only ever made 21 appearances for the first team.\nFollowing my time in Spain, I moved to England where I became a well-known figure in the Premier League.\nI've shared the pitch with players as different as Grealish, Aubameyang & Pedri.",
+   "problems": [
+    "claim not stated in the evidence: \"Adama Traoré spent nearly a decade on the books at FC Barcelona.\"",
+    "claim not stated in the evidence: \"Adama Traoré made exactly 21 appearances for the FC Barcelona first team.\"",
+    "claim is wrong: \"Adama Traoré moved to England following his time in Spain.\"",
+    "claim not stated in the evidence: \"Adama Traoré became a well-known figure in the Premier League after moving to England.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I spent several years on the books of Barcelona, though I only made 21 appearances for them.\nFollowing my time in Spain, I became a well-known figure in the Premier League playing for the likes of Wolves & Fulham.",
+   "problems": [
+    "claim not stated in the evidence: \"Adama Traoré spent several years on the books of Barcelona.\"",
+    "claim not stated in the evidence: \"Adama Traoré made exactly 21 appearances for Barcelona.\"",
+    "claim not stated in the evidence: \"After his time in Spain, Adama Traoré played in the Premier League.\"",
+    "claim not stated in the evidence: \"Adama Traoré became a well-known figure in the Premier League.\"",
+    "claim not stated in the evidence: \"Adama Traoré played for Wolves in the Premier League.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I've had the honour of playing for FC Barcelona, although I only spent one season in the first team under Xavi.\nSince then my career has taken me to several English clubs, most recently moving to West Ham.\nI've played with the likes of Vitinha, Grealish & Busquets.",
+   "problems": [
+    "claim is wrong: \"Adama Traoré spent one season in the first team of FC Barcelona under Xavi.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I've been managed by Aitor Karanka and Nuno Espírito Santo during my time in England.\nMore recently, I've played under Marco Silva & Xavi.",
+   "problems": [
+    "claim is wrong: \"Adama Traoré played under Marco Silva more recently than his time with Aitor Karanka and Nuno Espírito Santo.\"",
+    "claim is wrong: \"Adama Traoré played under Xavi more recently than his time with Aitor Karanka and Nuno Espírito Santo.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I've had the honour of being managed by Xavi during a return to Barcelona.\nSince then, I've played under Marco Silva & Nuno Espírito Santo in the Premier League.\nI've also shared the pitch with the likes of Vitinha, Gavi & Busquets.",
+   "problems": [
+    "claim not stated in the evidence: \"Since being managed by Xavi at Barcelona, Adama Traoré has played under Marco Silva in the Premier League.\"",
+    "claim not stated in the evidence: \"Since being managed by Xavi at Barcelona, Adama Traoré has played under Nuno Espírito Santo in the Premier League.\""
+   ],
+   "style": 2
+  }
+ ]
+}

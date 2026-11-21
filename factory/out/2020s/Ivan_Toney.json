@@ -1,0 +1,93 @@
+{
+ "answer": "Ivan Toney",
+ "acceptableAnswers": [
+  "Ivan Toney",
+  "Toney"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I made my England debut in 2023 as a substitute for Harry Kane.\nDuring the following summer's European Championship, I came off the bench to provide the winning assist for that same striker.\nI've been managed by Thomas Frank & Thomas Tuchel.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The facts are correct and the narrative flow is good (debut -> Euro assist), but it lacks a strong 'twist' or surprising hook that characterizes the best originals. It reads slightly like a list of career milestones rather than a story with tension. The clue about managers is functional but not as '",
+  "fix": "Replace the manager clue with something more specific to his playing style or a memorable moment (e.g., his penalty record, or a specific controversial incident) to add flavor."
+ },
+ "claims": [
+  {
+   "text": "Ivan Toney made his England debut in 2023.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Toney received his first call-up for the England national team in 2022 before making his debut in 2023.",
+    "Toney received his first call-up for the England national team in 2022 before making his debut in 2023."
+   ]
+  },
+  {
+   "text": "Ivan Toney came on as a substitute for Harry Kane during his England debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his debut on 26 March in a 2–0 victory against Ukraine at Wembley Stadium, coming on as an 81st-minute substitute for Harry Kane.",
+    "He made his debut on 26 March in a 2–0 victory against Ukraine at Wembley Stadium, coming on as an 81st-minute substitute for Harry Kane."
+   ]
+  },
+  {
+   "text": "During the European Championship in the summer following 2023, Ivan Toney came off the bench to provide the winning assist for Harry Kane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his tournament debut in the round of 16 against Slovakia, coming on as a substitute in stoppage time. In the first minute of extra time, he assisted captain Harry Kane's winning goal with a header across goal.",
+    "In the first minute of extra time, he assisted captain Harry Kane's winning goal with a header across goal."
+   ]
+  },
+  {
+   "text": "Ivan Toney has been managed by Thomas Frank.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 85 matches (2021 to 2024)",
+    "[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 85 matches (2021 to 2024)"
+   ]
+  },
+  {
+   "text": "Ivan Toney has been managed by Thomas Tuchel.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 22 May 2025, new manager Thomas Tuchel recalled Toney to the national team with Tuchel stating that he gave Phil Foden a rest.",
+    "On 22 May 2025, new manager Thomas Tuchel recalled Toney to the national team with Tuchel stating that he gave Phil Foden a rest."
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ivan_Toney",
+  "revid": 1382692376
+ },
+ "alternatives": [
+  {
+   "question": "I set a new Championship record for the most goals scored in a single season.\nFollowing that success, I helped my club secure promotion to the Premier League.\nI've played with the likes of Eriksen, David Raya & Mbeumo.",
+   "problems": [
+    "team-mates all from one club (Brentford FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In May 2023 I was banned from football for eight months after being found guilty of numerous breaches of the FA's betting rules.\nSince then I have moved to the Saudi Pro League and made a couple of appearances for my national team.\nI've played with Reguilón, Wissa & Jensen.",
+   "problems": [
+    "team-mates all from one club (Brentford FC); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Since May 2023 Ivan Toney has moved to the Saudi Pro League.\"",
+    "claim is wrong: \"Ivan Toney made a couple of appearances for his national team since May 2023.\""
+   ],
+   "style": 0
+  }
+ ]
+}

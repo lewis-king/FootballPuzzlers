@@ -1,0 +1,83 @@
+{
+ "answer": "Bukayo Saka",
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Bukayo_Saka",
+  "revid": 1384507677,
+  "revisionTime": "2026-11-08T15:57:23Z"
+ },
+ "draft": {
+  "question": "I was the first player born in 2001 to play in a Premier League match [18]. I've won the Premier League and an FA Cup with my only professional club [1]. My teammates have included Pierre-Emerick Aubameyang and Martin Ødegaard [23, 67].",
+  "claims": [
+   {
+    "text": "I was the first player born in 2001 to play in a Premier League match",
+    "evidence": [
+     18
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "He became the first player born in 2001 to play in a Premier League match."
+    ]
+   },
+   {
+    "text": "I've won the Premier League and an FA Cup with my only professional club",
+    "evidence": [
+     1
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "Saka has spent the entirety of his first-team club career with Arsenal, where he has won the Premier League, an FA Cup and three FA Community Shields, progressively becoming one of Arsenal's most influential players."
+    ]
+   },
+   {
+    "text": "My teammates have included Pierre-Emerick Aubameyang and Martin Ødegaard",
+    "evidence": [
+     23,
+     67
+    ],
+    "shelfLife": "TIMELESS",
+    "evidenceText": [
+     "He then registered an assist for Pierre-Emerick Aubameyang, setting up Arsenal's equaliser in a 1–1 draw at Old Trafford against Manchester United.",
+     "On 15 January 2023, Saka provided the assist for Martin Ødegaard's goal against Tottenham Hotspur as Arsenal sealed their first away league win against their rivals since 2014."
+    ]
+   }
+  ],
+  "retired": false,
+  "retiredEvidence": []
+ },
+ "verification": {
+  "claims": [
+   {
+    "text": "I was the first player born in 2001 to play in a Premier League match",
+    "supported": true,
+    "quote": "[18] He became the first player born in 2001 to play in a Premier League match.",
+    "problem": "None"
+   },
+   {
+    "text": "I've won the Premier League and an FA Cup with my only professional club",
+    "supported": true,
+    "quote": "[1] Saka has spent the entirety of his first-team club career with Arsenal, where he has won the Premier League, an FA Cup and three FA Community Shields...",
+    "problem": "None"
+   },
+   {
+    "text": "My teammates have included Pierre-Emerick Aubameyang and Martin Ødegaard",
+    "supported": true,
+    "quote": "[23] He then registered an assist for Pierre-Emerick Aubameyang... [67] On 15 January 2023, Saka provided the assist for Martin Ødegaard's goal...",
+    "problem": "None"
+   }
+  ],
+  "everyClaimInQuestion": true,
+  "givesAwayName": false,
+  "datedWording": false,
+  "otherPlayersWhoFit": [],
+  "verdict": "PASS",
+  "notes": "All claims are directly supported by the evidence. The combination of being the first player born in 2001 to play in the Premier League, playing exclusively for Arsenal, and winning both the Premier League and FA Cup with that club uniquely identifies Bukayo Saka. No other player fits all these specific criteria simultaneously."
+ },
+ "models": {
+  "writer": "gemma4:31b",
+  "checker": "qwen3.8:27b"
+ },
+ "seconds": {
+  "draft": 28,
+  "total": 41
+ }
+}

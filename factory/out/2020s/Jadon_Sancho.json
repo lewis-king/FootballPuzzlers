@@ -1,0 +1,133 @@
+{
+ "answer": "Jadon Sancho",
+ "acceptableAnswers": [
+  "Jadon Sancho",
+  "Sancho"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I once held the record for being the highest scoring Englishman in the Bundesliga, although I was eventually surpassed by Harry Kane.\nMy early career saw me move from Manchester City to Germany before returning to England in 2021.\nI've played alongside Haaland, Bellingham & Pogba.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The facts are correct and the difficulty is appropriate for a casual fan, but the writing is flat and list-like rather than storytelling. It reads like three disconnected bullet points (record, career path, teammates) without any narrative flow, tension, or 'twist' that characterizes the best of the",
+  "fix": "Connect the sentences to create a narrative arc. For example: 'I broke the Bundesliga scoring record for an Englishman before Harry Kane eventually surpassed me. My time in Germany was brief, as I returned to England in 2021 after playing alongside Haaland and Bellingham.'"
+ },
+ "claims": [
+  {
+   "text": "Jadon Sancho once held the record for being the highest scoring Englishman in the Bundesliga.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 28 April, Sancho overtook Woodcock to become the highest-scoring Englishman in the Bundesliga",
+    "On 28 April, Sancho overtook Woodcock to become the highest-scoring Englishman in the Bundesliga, opening the scoring in a 4–1 defeat against RB Leipzig."
+   ]
+  },
+  {
+   "text": "Harry Kane eventually surpassed Jadon Sancho's record as the highest scoring Englishman in the Bundesliga.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "This record lasted just under five months, as he would be surpassed by Harry Kane.",
+    "This record lasted just under five months, as he would be surpassed by Harry Kane."
+   ]
+  },
+  {
+   "text": "Jadon Sancho moved from Manchester City to Germany during his early career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Previously a youth player with Watford and Manchester City, Sancho signed his first senior contract with Borussia Dortmund in 2017.",
+    "Sancho signed for German Bundesliga club Borussia Dortmund on 31 August 2017"
+   ]
+  },
+  {
+   "text": "Jadon Sancho returned to England in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Sancho returned to England to sign for Manchester United in 2021",
+    "Sancho returned to England to sign for Manchester United in 2021"
+   ]
+  },
+  {
+   "text": "Jadon Sancho played alongside Erling Haaland.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Borussia Dortmund] Played in 46 matches alongside Erling Haaland for Borussia Dortmund (2020 to 2021)",
+    "[Squad data > Borussia Dortmund] Played in 46 matches alongside Erling Haaland for Borussia Dortmund (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Jadon Sancho played alongside Jude Bellingham.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Borussia Dortmund] Played in 33 matches alongside Jude Bellingham for Borussia Dortmund (2020 to 2021)",
+    "[Squad data > Borussia Dortmund] Played in 33 matches alongside Jude Bellingham for Borussia Dortmund (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Jadon Sancho played alongside Paul Pogba.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 25 matches alongside Paul Pogba for Manchester United (2021 to 2022)",
+    "[Squad data > Manchester United] Played in 25 matches alongside Paul Pogba for Manchester United (2021 to 2022)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jadon_Sancho",
+  "revid": 1383547561
+ },
+ "alternatives": [
+  {
+   "question": "I once held the record for being the highest scoring Englishman in the Bundesliga, although I was eventually surpassed by Harry Kane.\nFollowing my time in Germany, I returned to England in 2021 and won an EFL Cup during my second season.\nI've played with the likes of Haaland, Bellingham & Pogba.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I was part of the England youth team that won the 2017 FIFA U-17 World Cup.\nLater, I experienced the heartbreak of missing a penalty in the final of a senior tournament.\nI've been managed by the likes of Lucien Favre, Erik ten Hag & Unai Emery.",
+   "problems": [
+    "claim not stated in the evidence: \"Jadon Sancho missed a penalty in the final of a senior tournament.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I've achieved the unique feat of playing in three different European finals in three consecutive seasons for three different clubs.\nIncredibly, this run included scoring in a Conference League final in 2025.\nThroughout my career I've been managed by Ten Hag, Emery & Maresca.",
+   "problems": [
+    "claim not stated in the evidence: \"The three European finals Jadon Sancho played in were for three different clubs.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I've achieved the unique feat of playing in three different European finals for three different clubs in consecutive seasons.\nIncredibly, I won two of those trophies with two separate English sides.\nI've played alongside the likes of Ronaldo, Nkunku & Bellingham.",
+   "problems": [
+    "claim not stated in the evidence: \"Jadon Sancho won two of those trophies with two separate English sides.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I once became the highest scoring Englishman in Bundesliga history, although this record lasted just under five months before Harry Kane surpassed me.\nFollowing my time in Germany, I moved back to England to play for Manchester United.\nI've been managed by the likes of Ten Hag & Unai Emery.",
+   "problems": [
+    "claim is wrong: \"Jadon Sancho became the highest scoring Englishman in Bundesliga history.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "In 2026 I became the first player ever to win three different European trophies with three different clubs in three consecutive seasons.\nFollowing my time at Manchester United, I spent loan spells in London and Birmingham.\nI've played with the likes of Ronaldo, Nkunku & Morgan Rogers.",
+   "problems": [
+    "claim not stated in the evidence: \"Jadon Sancho spent a loan spell at a club in Birmingham following his time at Manchester United.\""
+   ],
+   "style": 1
+  }
+ ]
+}

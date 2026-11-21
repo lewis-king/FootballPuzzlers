@@ -1,0 +1,119 @@
+{
+ "answer": "Gabriel Martinelli",
+ "acceptableAnswers": [
+  "Gabriel Martinelli",
+  "Martinelli"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "I once became the first teenager to reach double figures in a season for Arsenal since Nicolas Anelka.\nFollowing my time in London, I joined Al-Hilal for a fee of £60 million.\nI've been managed by Unai Emery & Mikel Arteta.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The facts are correct and the structure follows the guide (hook, development, clue), but it reads like a list of stats rather than a story. The hook is a minor record that lacks the charm or surprise of the best originals, and the final sentence is just two manager names without any narrative glue. ",
+  "fix": "Add some feeling or tension to connect the sentences. For example: 'I broke a long-standing Arsenal record as a teenager, but my time in London was cut short by injury. I eventually moved to Al-Hilal for a massive fee, having been managed by both Unai Emery and Mikel Arteta.'"
+ },
+ "claims": [
+  {
+   "text": "Gabriel Martinelli was the first teenager to reach double figures in a season for Arsenal since Nicolas Anelka.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "making him the first teenager to reach double figures in a season for Arsenal since Nicolas Anelka",
+    "On 21 January 2020, Martinelli scored in a 2–2 away draw at Chelsea, making him the first teenager to reach double figures in a season for Arsenal since Nicolas Anelka."
+   ]
+  },
+  {
+   "text": "Gabriel Martinelli joined Al-Hilal after his time at Arsenal (London).",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 3 September 2026, Martinelli joined Saudi Pro League club Al-Hilal in a transfer worth £60 million, becoming Arsenal's record sale"
+   ]
+  },
+  {
+   "text": "The transfer fee for Gabriel Martinelli's move to Al-Hilal was £60 million.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2026, Martinelli joined Al-Hilal for a fee of £60 million.",
+    "In 2026, Martinelli joined Al-Hilal for a fee of £60 million."
+   ]
+  },
+  {
+   "text": "Gabriel Martinelli has been managed by Unai Emery.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Unai Emery at Arsenal FC in 9 matches (2019)",
+    "[Squad data > Arsenal FC] Was managed by Unai Emery at Arsenal FC in 9 matches (2019)"
+   ]
+  },
+  {
+   "text": "Gabriel Martinelli has been managed by Mikel Arteta.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 247 matches (2020 to 2026)",
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 247 matches (2020 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Gabriel_Martinelli",
+  "revid": 1385397159
+ },
+ "alternatives": [
+  {
+   "question": "I've had the honour of winning an Olympic Gold medal for my country.\nFollowing this, I helped my club win the Premier League and scored a late winner against Real Madrid at the Bernabéu.\nI've been managed by Unai Emery & Mikel Arteta.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I started my career playing futsal for Corinthians before moving to the football field.\nIncredibly, I've since won an Olympic Gold medal and made over 250 appearances in the Premier League.\nI've been managed by Unai Emery & Mikel Arteta.",
+   "problems": [
+    "claim not stated in the evidence: \"Gabriel Martinelli moved from futsal to the football field after playing for Corinthians.\"",
+    "claim not stated in the evidence: \"Gabriel Martinelli has made over 250 appearances in the Premier League.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I became the first player to score four times in my first four starts for my club since Ian Wright.\nFollowing this start, I'd go on to equal Roberto Firmino's record for the most goals scored by a Brazilian in a single Premier League season.\nI've played with the likes of Rice, Havertz & Aubameyang.",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once became the first teenager to reach double figures in a season for Arsenal since Nicolas Anelka.\nIncredibly, I've since become my club's record sale after moving to Al-Hilal for £60 million.\nI've played with the likes of Aubameyang, Sterling & Rice.",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2026 I became my club's record sale after moving to Saudi Arabia for £60 million.\nBefore leaving, I'd won the Premier League and scored a late winner against Real Madrid at the Bernabéu.\nI've played with Saka, Ødegaard & Sterling.",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Gabriel Martinelli scored a late winner against Real Madrid at the Bernabéu before leaving his club.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I started my career playing futsal for Corinthians before moving to the football field.\nIncredibly, I've since won an Olympic Gold medal and became Arsenal's record sale when I moved to Saudi Arabia in 2026.\nI've played with the likes of Saka, Rice & Havertz.",
+   "problems": [
+    "team-mates all from one club (Arsenal FC); mix clubs or add a surprising name",
+    "claim not stated in the evidence: \"Gabriel Martinelli moved from futsal to the football field after playing for Corinthians.\""
+   ],
+   "style": 0
+  }
+ ]
+}

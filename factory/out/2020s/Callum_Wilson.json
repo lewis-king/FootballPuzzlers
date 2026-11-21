@@ -1,0 +1,97 @@
+{
+ "answer": "Callum Wilson",
+ "acceptableAnswers": [
+  "Callum Wilson",
+  "Wilson"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I made my senior England debut in 2018, scoring on my first appearance.\nIncredibly, I then went three years without another call-up before being named in the squad for the 2022 World Cup.\nI've played with the likes of Isak, Bowen & Solanke.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook (scoring on debut then a three-year gap) is memorable and creates good tension. The teammate list effectively narrows the field to Newcastle's recent squad. It loses one point because 'Isak' is a very strong giveaway for a Newcastle fan, making it slightly easier than intended for a keen UK",
+  "fix": "Consider swapping Isak for a less obvious teammate from his time at Bournemouth or Norwich to increase difficulty and fit the 'surprise name' style better."
+ },
+ "claims": [
+  {
+   "text": "Callum Wilson made his senior England debut in 2018.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Wilson made his senior debut for England in 2018.",
+    "Wilson made his senior debut for England in 2018."
+   ]
+  },
+  {
+   "text": "Callum Wilson scored on his first appearance for senior England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his debut on 15 November when starting against the United States at Wembley Stadium, and scored in the 77th minute of a 3–0 win with a near-post finish.",
+    "He made his debut on 15 November when starting against the United States at Wembley Stadium, and scored in the 77th minute of a 3–0 win with a near-post finish."
+   ]
+  },
+  {
+   "text": "Callum Wilson went three years without another call-up to the England squad after his 2018 debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After a three-year absence, he was named in England's 26-man squad for the 2022 FIFA World Cup.",
+    "After a three-year absence, he was named in England's 26-man squad for the 2022 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Callum Wilson was named in the squad for the 2022 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was also a part of the squad for the 2022 FIFA World Cup.",
+    "He was also a part of the squad for the 2022 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Callum Wilson has played with Alexander Isak, Jarrod Bowen and Dominic Solanke.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Callum_Wilson",
+  "revid": 1386697129
+ },
+ "alternatives": [
+  {
+   "question": "My first Premier League goals came in the form of a hat-trick against West Ham United.\nFollowing my time at Bournemouth, I spent five seasons at Newcastle where I finished as top scorer for the 2022–23 season.\nI've been managed by Eddie Howe at two different clubs.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "In 2018 I made my senior England debut and scored on my first appearance.\nI later assisted Grealish during a match at the 2022 World Cup.\nThroughout my career, I've been managed by Eddie Howe at two different clubs.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I was the top scorer for my club during their first ever Premier League promotion campaign.\nFollowing a five-year spell at Newcastle United, I joined West Ham as a free agent in 2025.\nI've played alongside players such as Solanke, Tonali & Axel Disasi.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I've scored a hat-trick on my Premier League debut.\nUnfortunately, I suffered two separate ACL ruptures in the following few seasons.\nI've since played with the likes of Isak, Bowen & Adama Traoré.",
+   "problems": [
+    "claim not stated in the evidence: \"Callum Wilson scored a hat-trick on his Premier League debut.\"",
+    "claim not stated in the evidence: \"Callum Wilson suffered two separate ACL ruptures in the few seasons following his Premier League debut.\""
+   ],
+   "style": 4
+  }
+ ]
+}

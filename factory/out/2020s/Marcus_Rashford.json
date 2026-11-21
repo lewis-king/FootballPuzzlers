@@ -1,0 +1,115 @@
+{
+ "answer": "Marcus Rashford",
+ "acceptableAnswers": [
+  "Marcus Rashford",
+  "Rashford"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "I managed to score on my first-team, European & Premier League debuts all within the space of a few days.\nIncredibly, I've also been recognised by the government for my work as a philanthropist.\nI've played under managers like Mourinho, Solskjær & ten Hag",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 1,
+  "why": "The hook (scoring on three major debuts in days) is memorable and the manager list works well as a narrowing clue. However, it reads slightly like a list of achievements rather than a connected story with tension or twist, which keeps it from a perfect 5.",
+  "fix": "Connect the sentences more fluidly to create a narrative arc. For example: 'I scored on my first-team, European & Premier League debuts all within days of each other. Yet despite that early success, I was later recognised by the government for my work as a philanthropist rather than just my football"
+ },
+ "claims": [
+  {
+   "text": "Marcus Rashford scored on his first-team debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "marked his first-team debut with two goals",
+    "Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016"
+   ]
+  },
+  {
+   "text": "Marcus Rashford scored on his European debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016",
+    "Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016"
+   ]
+  },
+  {
+   "text": "Marcus Rashford scored on his Premier League debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016 and his Premier League debut against Arsenal three days later.",
+    "Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016 and his Premier League debut against Arsenal three days later."
+   ]
+  },
+  {
+   "text": "Marcus Rashford's first-team, European, and Premier League debuts all occurred within the space of a few days.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016 and his Premier League debut against Arsenal three days later.",
+    "Eighteen-year-old Rashford scored two goals on both his first-team and European debut against Midtjylland in the UEFA Europa League in February 2016 and his Premier League debut against Arsenal three days later."
+   ]
+  },
+  {
+   "text": "Marcus Rashford has been recognised by the government for his work as a philanthropist.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In October, Rashford was appointed MBE in the 2020 Birthday Honours"
+   ]
+  },
+  {
+   "text": "Marcus Rashford played under manager José Mourinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 116 matches (2016 to 2018)",
+    "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 116 matches (2016 to 2018)"
+   ]
+  },
+  {
+   "text": "Marcus Rashford played under manager Ole Gunnar Solskjær.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 128 matches (2018 to 2021)",
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 128 matches (2018 to 2021)"
+   ]
+  },
+  {
+   "text": "Marcus Rashford played under manager Erik ten Hag.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After enjoying a successful pre-season under new manager Erik ten Hag",
+    "After enjoying a successful pre-season under new manager Erik ten Hag, who began the season by deploying Rashford both as a centre-forward and a left winger, he opened his account for the 2022–23 season by scoring in a 2–1 win against Liverpool, and then twice in a 3–1 win against Arsenal"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Marcus_Rashford",
+  "revid": 1385812188
+ },
+ "alternatives": [
+  {
+   "question": "At the 2022 World Cup I scored one of the quickest goals by a substitute in the tournament's history.\nYet my international career also includes the heartbreak of missing a penalty in a European Championship final.\nI've shared a pitch with Bellingham, Lamine Yamal & Asensio",
+   "problems": [
+    "claim is wrong: \"Marcus Rashford scored one of the quickest goals by a substitute in the history of the 2022 World Cup.\"",
+    "claim not stated in the evidence: \"Marcus Rashford has shared a pitch with Jude Bellingham, Lamine Yamal, and Marco Asensio.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I became the youngest English player to score in my first senior international match.\nFollowing a long spell at one club, I moved abroad and won La Liga in 2026.\nI've played with the likes of Lewandowski, Ronaldo & Pogba",
+   "problems": [
+    "claim not stated in the evidence: \"Marcus Rashford moved abroad after a long spell at one club.\""
+   ],
+   "style": 1
+  }
+ ]
+}

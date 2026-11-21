@@ -1,0 +1,112 @@
+{
+ "answer": "Michael Olise",
+ "acceptableAnswers": [
+  "Michael Olise",
+  "Olise"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "status": "READY",
+ "question": "At the 2026 World Cup I registered seven assists, surpassing Pelé's long-standing record for the most in a single tournament.\nFollowing my time at Crystal Palace, I moved to Germany where I have won two league titles.\nI've played with the likes of Harry Kane, Kimmich & Mbappé.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The hook is strong and memorable (breaking Pelé's assist record), which fits the style guide perfectly. However, it loses a point for two reasons: first, it uses 'At the 2026 World Cup' rather than tying it to a specific tournament name or context that feels more like a story; second, the clue list,",
+  "fix": "Tighten the opening to feel more conversational (e.g., 'I broke Pelé's long-standing record...'). Ensure the teammate clues are spread across different clubs/eras to narrow it down effectively without giving away the answer too early. Consider adding a slight twist or tension about his role vs. his "
+ },
+ "claims": [
+  {
+   "text": "Michael Olise registered seven assists at the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his debut for the senior French team in September 2024 and played at the 2026 FIFA World Cup where he registered a tournament-high seven assists — the most for any player in a single World Cup edition.",
+    "He made his debut for the senior French team in September 2024 and played at the 2026 FIFA World Cup where he registered a tournament-high seven assists — the most for any player in a single World Cup edition."
+   ]
+  },
+  {
+   "text": "Michael Olise surpassed Pelé's long-standing record for the most assists in a single tournament with his performance at the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "With a total of seven assists, Olise finished the tournament as the highest goal creator, and surpassed Pelé's record in 1970 for the most assists in a single World Cup since records began in 1966.",
+    "With a total of seven assists, Olise finished the tournament as the highest goal creator, and surpassed Pelé's record in 1970 for the most assists in a single World Cup since records began in 1966."
+   ]
+  },
+  {
+   "text": "Michael Olise played for Crystal Palace before moving to Germany.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 7 July 2024, Bundesliga club Bayern Munich announced the signing of Olise from Crystal Palace on a five-year contract"
+   ]
+  },
+  {
+   "text": "Michael Olise moved to Germany after his time at Crystal Palace.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was nominated for PFA Young Player of the Year in 2024 before moving to Bayern Munich.",
+    "On 7 July 2024, Bundesliga club Bayern Munich announced the signing of Olise from Crystal Palace on a five-year contract valid through to 30 June 2029, for a reported transfer fee of €60 million (£50.8 million) including add-ons."
+   ]
+  },
+  {
+   "text": "Michael Olise has won two league titles in Germany.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He has helped the club win two league titles and a DFB-Pokal.",
+    "He has helped the club win two league titles and a DFB-Pokal."
+   ]
+  },
+  {
+   "text": "Michael Olise played with Harry Kane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayern Munich] Played in 98 matches alongside Harry Kane for Bayern Munich (2024 to 2026)",
+    "[Squad data > Bayern Munich] Played in 98 matches alongside Harry Kane for Bayern Munich (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Michael Olise played with Kimmich.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayern Munich] Played in 100 matches alongside Joshua Kimmich for Bayern Munich (2024 to 2026)",
+    "[Squad data > Bayern Munich] Played in 100 matches alongside Joshua Kimmich for Bayern Munich (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Michael Olise played with Mbappé.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > France] Played in 3 matches alongside Kylian Mbappé for France (2026)",
+    "Played in 3 matches alongside Kylian Mbappé for France (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Michael_Olise",
+  "revid": 1386215426
+ },
+ "alternatives": [
+  {
+   "question": "Although I was born in London and approached by England, I chose to represent France, winning a silver medal at the 2024 Olympics.\nIn my debut Bundesliga season I was named Rookie of the Season and nominated for the Ballon d'Or.\nI've been managed by Patrick Vieira & Vincent Kompany.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I once became the youngest player to provide three assists from open play in a single Premier League match.\nSince moving to Bayern Munich I've’ achieved a domestic double and been named the league's Player of the Season.\nI've played with Musiala, Gnabry & Luis Díaz.",
+   "problems": [
+    "team-mates all from one club (Bayern Munich); mix clubs or add a surprising name"
+   ],
+   "style": 0
+  }
+ ]
+}

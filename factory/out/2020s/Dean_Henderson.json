@@ -1,0 +1,124 @@
+{
+ "answer": "Dean Henderson",
+ "acceptableAnswers": [
+  "Dean Henderson",
+  "Henderson"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "status": "NEEDS_WORK",
+ "question": "In 2025 I won both the FA Cup and Community Shield with my club.\nI've also had the honour of helping England finish third at the 2026 World Cup.\nThroughout my career I've been managed by Chris Wilder, Ole Gunnar Solskjær & Oliver Glasner.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The facts are correct and the managers provide a good narrowing clue, but the question reads like a list of achievements rather than a story. It lacks the conversational flow, tension, or 'twist' found in the originals (e.g., no contrast between his club success and international struggles, or his '",
+  "fix": "The draft is factually sound but stylistically flat. It presents three disconnected facts (FA Cup/Shield win, World Cup third place, list of managers) without connecting them into a narrative arc. The style guide explicitly warns against 'three disconnected facts in a row' and emphasizes that the 's"
+ },
+ "claims": [
+  {
+   "text": "Dean Henderson won the FA Cup in 2025 with his club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Henderson was signed permanently by Crystal Palace in 2023, where he won the FA Cup and Community Shield in 2025.",
+    "After a season on loan at Nottingham Forest, Henderson was signed permanently by Crystal Palace in 2023, where he won the FA Cup and Community Shield in 2025."
+   ]
+  },
+  {
+   "text": "Dean Henderson won the Community Shield in 2025 with his club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Henderson was signed permanently by Crystal Palace in 2023, where he won the FA Cup and Community Shield in 2025.",
+    "After a season on loan at Nottingham Forest, Henderson was signed permanently by Crystal Palace in 2023, where he won the FA Cup and Community Shield in 2025."
+   ]
+  },
+  {
+   "text": "Dean Henderson helped England finish third at the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 18 July 2026, Henderson started the third-place match against France as England achieved a 6–4 victory.",
+    "He was a member of the England under-20 squad that won the 2017 FIFA U-20 World Cup, and the senior team that were runners-up at UEFA Euro 2020 and UEFA Euro 2024 and finished third at the 2026 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Chris Wilder managed Dean Henderson during his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Sheffield United] Was managed by Chris Wilder at Sheffield United in 40 matches (2019 to 2020)",
+    "[Squad data > Sheffield United] Was managed by Chris Wilder at Sheffield United in 40 matches (2019 to 2020)"
+   ]
+  },
+  {
+   "text": "Ole Gunnar Solskjær managed Dean Henderson during his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 22 matches (2020 to 2021)",
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 22 matches (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Oliver Glasner managed Dean Henderson during his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 92 matches (2024 to 2026)",
+    "[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 92 matches (2024 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Dean_Henderson",
+  "revid": 1385152529
+ },
+ "alternatives": [
+  {
+   "question": "I once held two Guinness World Records, including the fastest time to dress as a goalkeeper.\nIn 2025 I won both the FA Cup and Community Shield with my club, before captaining them to European success the following year.\nI've played with the likes of Pogba, Brennan Johnson & Adam Wharton.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I spent years on loan across various divisions before finally making my Premier League debut in 2019.\nAlthough I later struggled for game time at Manchester United, I've since won a domestic cup and finished third at the 2026 World Cup with England.\nI've been managed by Chris Wilder, Ole Gunnar Solskjær & Oliver Glasner.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I once held two Guinness World Records, one for the fastest time to dress as a goalkeeper.\nIn 2025 I won both the FA Cup and Community Shield with my club, before captaining them to European glory the following year.\nI've played with the likes of Cavani, Brennan Johnson & Adam Wharton.",
+   "problems": [],
+   "style": 1
+  },
+  {
+   "question": "I started out as an outfield player before switching to my current role in goal.\nAlthough I spent several years at Manchester United, it was only after moving permanently to Crystal Palace that I won a European trophy.\nI've played with the likes of Pogba, Gibbs-White & Eberechi Eze.",
+   "problems": [
+    "claim is wrong: \"Dean Henderson spent several years at Manchester United.\"",
+    "claim is wrong: \"Dean Henderson has played with Conner Gibbs-White.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "After a frustrating period at Manchester United I famously refused to play under their new manager.\nFortunately my career took off after moving to London, where I won the FA Cup in 2025 and helped England finish third at the 2026 World Cup.\nI've been managed by Chris Wilder, Ole Gunnar Solskjær & Oliver Glasner.",
+   "problems": [
+    "claim not stated in the evidence: \"Dean Henderson had a frustrating period at Manchester United.\"",
+    "claim not stated in the evidence: \"Dean Henderson refused to play under the new manager of Manchester United.\"",
+    "claim is wrong: \"Dean Henderson moved to a club in London after his time at Manchester United.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once held two Guinness World Records, one for the fastest time to dress as a goalkeeper.\nFollowing my time at Manchester United, I moved to Crystal Palace where I eventually became club captain.\nI've played with the likes of Cavani, Brennan Johnson & Marc Guéhi.",
+   "problems": [
+    "claim not stated in the evidence: \"Dean Henderson moved to Crystal Palace following his time at Manchester United.\""
+   ],
+   "style": 2
+  }
+ ]
+}
