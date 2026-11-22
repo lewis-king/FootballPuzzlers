@@ -1,0 +1,109 @@
+{
+  "raw": "raw",
+  "pointWidth": 440,
+  "sizes": {
+    "ios": {
+      "width": 1320,
+      "height": 2868
+    },
+    "play": {
+      "width": 1080,
+      "height": 1920,
+      "max": 8
+    }
+  },
+  "fonts": {
+    "title": "fonts/Title.ttf",
+    "sub": "fonts/Sub.ttf",
+    "body": "fonts/Body.ttf"
+  },
+  "colors": {
+    "bg": "#0b1630",
+    "title_color": "#FFFFFF",
+    "sub_color": "#d9e4ff"
+  },
+  "backgrounds": [
+    "art/twenties.jpg",
+    "art/starter.jpg",
+    "art/worldcup.jpg",
+    "art/champions.jpg"
+  ],
+  "frames": [
+    {
+      "name": "01-question",
+      "raw": "question",
+      "title": "You won't find a harder football quiz",
+      "sub": "Every question is a player telling you their story",
+      "crops": [
+        [
+          0,
+          900
+        ]
+      ]
+    },
+    {
+      "name": "02-clues",
+      "raw": "clues",
+      "title": "Stuck? Use a clue",
+      "sub": "Two yes-or-no clues a question, so choose carefully",
+      "crops": [
+        [
+          0,
+          956
+        ]
+      ]
+    },
+    {
+      "name": "03-twenties",
+      "raw": "pack",
+      "title": "New: 116 players from the 2020s",
+      "sub": "From Lamine Yamal to Teemu Pukki",
+      "crops": [
+        [
+          0,
+          956
+        ]
+      ]
+    },
+    {
+      "name": "04-correct",
+      "raw": "correct",
+      "title": "Test your football knowledge",
+      "sub": "Get one right and keep your streak going",
+      "crops": [
+        [
+          0,
+          956
+        ]
+      ]
+    },
+    {
+      "name": "05-packs",
+      "raw": "home",
+      "title": "Hundreds of questions to answer",
+      "sub": "328 players across four packs",
+      "crops": [
+        [
+          0,
+          956
+        ]
+      ]
+    },
+    {
+      "name": "06-complete",
+      "raw": "complete",
+      "title": "Perfect to play with groups of friends",
+      "sub": "Finish a pack and share your result",
+      "crops": [
+        [
+          0,
+          956
+        ]
+      ]
+    }
+  ],
+  "featureGraphic": {
+    "html": "feature.html",
+    "out": "play/feature-graphic.png"
+  }
+}

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Turn an assembled factory pack into a review for the auditor (items of kind "new").
 
-    factory/.venv/bin/python tools/question-auditor/from_factory.py 2020s "The 2020s" 2020s
-    factory/.venv/bin/python tools/question-auditor/from_factory.py 2020s-final "The 2020s" 2020s --review 2020s
+    question-factory/.venv/bin/python tools/question-auditor/from_factory.py 2020s "The 2020s" 2020s
+    question-factory/.venv/bin/python tools/question-auditor/from_factory.py 2020s-final "The 2020s" 2020s --review 2020s
 
-Reads factory/out/<pack>-ordered.json (in play order) and writes reviews/<pack>.json. Clue flags are
-recomputed from the squad data with the current rules (25% of starts or more for a second position,
+Reads question-factory/out/<pack>-ordered.json (in play order) and writes reviews/<pack>.json. Clue flags are
+recomputed from the squad data with the current rules (33% of starts or more for a second position,
 wingers are midfielders, English means born in England); RET comes from the factory's retired check.
 Each card notes the fact-check quotes, the style score and any clue the question gives away.
 Needs the factory's virtualenv, since it reads the squad database.
@@ -18,7 +18,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 HERE = pathlib.Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT / 'factory'))
+sys.path.insert(0, str(ROOT / 'question-factory'))
 import pack as factory  # noqa: E402
 import squads  # noqa: E402
 
@@ -26,7 +26,28 @@ FLAGS = ['GK', 'DEF', 'MID', 'FWD', 'RET', 'ENG']
 NAMES = {'GK': 'Goalkeeper', 'DEF': 'Defender', 'MID': 'Midfielder', 'FWD': 'Forward', 'RET': 'Retired', 'ENG': 'English'}
 
 
-def item(n, q, pack_title, category):
+def spoilers(q, answers):
+    """Other answers from the pack named in this question, other than as a team-mate or manager (those are
+    clues on purpose). Naming one as a record anchor ("since Modric in 2018") gives away a fact from his own
+    question (Lewis, 21 Nov 2026)."""
+    pid = squads.find(q['answer'])
+    known = {squads.norm(m['name']) for m in (squads.teammates(pid) + squads.managers(pid))} if pid else set()
+    low = squads.norm(q['question'])
+    out = []
+    for a in dict.fromkeys(answers):
+        if a == q['answer'] or squads.norm(a) in known or not squads._mentioned(a, low):
+            continue
+        # "Roberto Martínez" isn't Emiliano Martínez: skip a bare surname that follows another capitalised first name.
+        words = a.split()
+        if len(words) > 1 and squads.norm(a) not in low:
+            before = re.findall(rf'(\w+)\s+{re.escape(words[-1])}', q['question'])
+            if before and all(w[0].isupper() and w != words[0] for w in before):
+                continue
+        out.append(a)
+    return out
+
+
+def item(n, q, pack_title, category, answers=()):
     clues, _ = factory.profile_clues(q['answer'])
     clues['RET'] = bool(q.get('retiredEvidence', {}).get('retired', q['clues'].get('RET')))
     clues = {f: bool(clues[f]) for f in FLAGS}
@@ -45,6 +66,9 @@ def item(n, q, pack_title, category):
         notes.append(f"Retired: {'yes' if ret.get('retired') else 'no'} ({ret.get('quote') or ret.get('how')})")
     notes += factory.clue_hints(q['question'])
     notes += [p for p in factory.lint(q['answer'], q['acceptableAnswers'], q['question']) if 'meets the player at' in p]
+    for other in spoilers(q, answers):
+        notes.append(f'Names {other}, also an answer in this pack. Fine if he is part of the story (a famous meeting); '
+                     'if he is only a record anchor ("since X", "breaking X\'s record"), use a year so his question isn\'t spoiled.')
     for c in q.get('claims', []):
         quote = next((x for x in c.get('quotes', []) if x), '')
         notes.append(f"{'✓' if c.get('final') == 'SUPPORTED' else '?'} {c['text']}" + (f' — “{quote}”' if quote else ''))
@@ -57,7 +81,9 @@ def item(n, q, pack_title, category):
     return {
         'key': f'N{n}', 'kind': 'new', 'index': n - 1, 'pack': pack_title, 'category': category,
         'player': q['answer'], 'verdict': 'NEW', 'issues': issues, 'notes': notes,
-        'sources': [q['source']['url']] if q.get('source', {}).get('url') else [],
+        # the article and the exact revision the fact-check read, so a later audit sees the same text
+        'sources': ([q['source']['url']] if q.get('source', {}).get('url') else [])
+                   + ([f"https://en.wikipedia.org/w/index.php?oldid={q['source']['revid']}"] if q.get('source', {}).get('revid') else []),
         'proposed': {'question': q['question'], 'answers': q['acceptableAnswers'], 'clues': clues},
     }
 
@@ -82,14 +108,15 @@ def carry_over(out, items):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('pack', help='factory output to read: factory/out/<pack>-ordered.json')
+    ap.add_argument('pack', help='factory output to read: question-factory/out/<pack>-ordered.json')
     ap.add_argument('title')
     ap.add_argument('category')
     ap.add_argument('--review', help='review name, if not the same as pack (e.g. a second pass merged into 2020s-final)')
     a = ap.parse_args()
     name = a.review or a.pack
-    qs = json.loads((ROOT / 'factory' / 'out' / f'{a.pack}-ordered.json').read_text())
-    items = [item(i + 1, q, a.title, a.category) for i, q in enumerate(qs)]
+    qs = json.loads((ROOT / 'question-factory' / 'out' / f'{a.pack}-ordered.json').read_text())
+    answers = [q['answer'] for q in qs]
+    items = [item(i + 1, q, a.title, a.category, answers) for i, q in enumerate(qs)]
     out = HERE / 'reviews' / f'{name}.json'
     kept, dropped = carry_over(out, items)
     out.write_text(json.dumps({'name': name, 'title': f'New pack: {a.title}', 'items': items}, indent=1, ensure_ascii=False) + '\n')

@@ -5,9 +5,10 @@ import Animated, { FadeInDown, ZoomIn } from 'react-native-reanimated';
 
 import { currentStreak, PACKS, questionById } from '../lib/game';
 import { useProgress } from '../state/progress';
-import { describeHelp, nextUnanswered, packStats, solvedWithoutHelp } from '../state/selectors';
+import { describeHelp, nextUnanswered, packStats } from '../state/selectors';
 import { Button } from '../ui/Button';
 import { Confetti } from '../ui/Confetti';
+import { maybeAskForRating } from '../services/rate';
 import { Icon } from '../ui/Icon';
 import { Screen } from '../ui/Screen';
 import { C, PACK_COLOUR, R, T } from '../ui/theme';
@@ -27,6 +28,7 @@ export default function Correct() {
   const pack = PACKS.find((p) => p.id === q.pack)!;
   const next = nextUnanswered(q, s.answered);
   const streak = currentStreak(s.streak);
+  const guesses = q ? s.guesses?.[q.id] ?? 0 : 0;
 
   return (
     <Screen glowTop={C.yes} style={{ justifyContent: 'space-between' }}>
@@ -43,11 +45,14 @@ export default function Correct() {
         <Animated.View entering={FadeInDown.delay(360)} style={styles.stats}>
           <Stat value={`${stats.solved}/${stats.total}`} label={pack.short} colour={PACK_COLOUR[q.pack]} />
           <Stat value={String(streak)} label={streak === 1 ? 'day in a row' : 'days in a row'} colour="#c9f25c" />
-          <Stat value={String(solvedWithoutHelp(s))} label="without help" colour={C.cyan} />
+          {guesses ? (
+            // How many guesses this one took, not how much help: clues and letters are there to be used.
+            <Stat value={String(guesses)} label={guesses === 1 ? 'guess' : 'guesses'} colour={C.cyan} />
+          ) : null}
         </Animated.View>
       </View>
       <View style={{ gap: 8, marginBottom: 8 }}>
-        {next ? <Button label="Next question" onPress={() => router.replace(`/question/${next.id}`)} /> : null}
+        {next ? <Button label="Next question" onPress={() => maybeAskForRating(() => router.replace(`/question/${next.id}`))} /> : null}
         <Button label="Back to the pack" variant="ghost" onPress={() => router.dismissTo(`/pack/${q.pack}`)} />
       </View>
     </Screen>

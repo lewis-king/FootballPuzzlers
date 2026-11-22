@@ -1,0 +1,121 @@
+{
+ "answer": "Declan Rice",
+ "acceptableAnswers": [
+  "Declan Rice",
+  "Rice"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "I've represented two different countries at the senior level, though I only made one appearance for the first.\nFollowing my change of heart, I played every minute of England's campaign at Euro 2024.\nI've been managed by David Moyes & Mikel Arteta.",
+ "problems": [
+  "claim is wrong: \"Declan Rice made exactly one appearance for the first of the two countries he represented at the senior level.\""
+ ],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The question is factually correct and follows the structure of a story (change of heart -> Euro 2024 -> managers), but it fails the 'tricky' test for a superstar. The first sentence ('represented two different countries... one appearance') immediately narrows the field to a very small number of high",
+  "fix": "Remove the nationality clue entirely, as it is the biggest giveaway and not needed if the other facts are strong enough. Replace the generic 'change of heart' with a more specific or intriguing detail about his time at West Ham or his early career that doesn't scream 'English player who switched'.\n\n"
+ },
+ "claims": [
+  {
+   "text": "Declan Rice has represented two different countries at the senior level.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was the first player to play for both countries since Jack Reynolds in the 1890s."
+   ]
+  },
+  {
+   "text": "Declan Rice made exactly one appearance for the first of the two countries he represented at the senior level.",
+   "final": "CONTRADICTED",
+   "quotes": []
+  },
+  {
+   "text": "Declan Rice played every minute of England's campaign at Euro 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was the only outfield player at the tournament to play every minute of every match as England reached the final, where they were beaten 2–1 by Spain.",
+    "He was the only outfield player at the tournament to play every minute of every match as England reached the final, where they were beaten 2–1 by Spain."
+   ]
+  },
+  {
+   "text": "Declan Rice was managed by David Moyes.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 165 matches (2017 to 2023)",
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 165 matches (2017 to 2023)"
+   ]
+  },
+  {
+   "text": "Declan Rice was managed by Mikel Arteta.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 154 matches (2023 to 2026)",
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 154 matches (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Declan_Rice",
+  "revid": 1386097486
+ },
+ "alternatives": [
+  {
+   "question": "I've represented two different countries at the senior level.\nFollowing my change of heart, I was the only outfield player to play every minute of England's campaign at Euro 2024.\nI've played with the likes of Havertz, Zubimendi & Sterling.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I represented the Republic of Ireland at both youth and senior levels before pledging my future to England.\nIn 2024 I was the only outfield player for my country to play every minute of the European Championship.\nI've played with the likes of Sterling, Zubimendi & Saka.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm one of only three captains to lead West Ham to a major trophy, having been named the Player of the Season for that competition.\nFollowing my move for a club record fee in 2023, I helped my new team win their first league title in 22 years.\nI've been managed by David Moyes & Mikel Arteta.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm one of only three captains in the history of my first professional club to lead them to a major trophy.\nYears later I joined a new club for a record fee and helped them win their first league title in 22 years.\nI've played with the likes of Sterling, Havertz & Zubimendi.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once became the first player ever to score two direct free kicks in a single Champions League knockout match.\nIncredibly, I've also been an international runner-up at two different European Championships.\nI've played with Saka, Martinelli & Mason Mount.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Declan Rice finished as runner-up at one European Championship.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm one of only three captains to lead my former club to a major trophy.\nYears later, I became the joint-most-expensive English player in history upon moving to North London.\nI've been managed by Manuel Pellegrini & Mikel Arteta.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim of being the 'joint-most-expensive English player in history' is a present-tense ranking that could change if another English player transfers for more.; The claim of being 'joint-most-expensive English player' is a current record that could be broken."
+   ],
+   "style": 0
+  }
+ ]
+}

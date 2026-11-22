@@ -1,0 +1,110 @@
+{
+ "answer": "John Stones",
+ "acceptableAnswers": [
+  "John Stones",
+  "Stones"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "My first professional club received a sell-on fee from my later move that was larger than any transfer fee they had ever received in their history.\nIn 2022-23 I found great success after being converted to a defensive midfielder.\nI've played with the likes of Samuel Eto'o, Cole Palmer & Rodri.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The first sentence is a strong, intriguing hook that avoids leading with obvious facts like his World Cup win or Man City title. The second sentence provides good context on his role change. However, the final clue list (Eto'o, Palmer & Rodri) points heavily to Manchester City for two of the three, ",
+  "fix": "Replace one of the City teammates with a player from his time at Everton or another club to spread the clues and make it less obvious that he is currently at Man City. For example: 'I've played with the likes of Samuel Eto'o, Gylfi Sigurdsson & Rodri.'"
+ },
+ "claims": [
+  {
+   "text": "John Stones' first professional club received a sell-on fee from his later move.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Through a 15% sell-on clause, Barnsley received £6.78 million from Stones' transfer to Manchester City",
+    "Through a 15% sell-on clause, Barnsley received £6.78 million from Stones' transfer to Manchester City, an amount larger than any transfer fee they had received in their history."
+   ]
+  },
+  {
+   "text": "The sell-on fee John Stones' first professional club received was larger than any transfer fee they had ever received in their history.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "an amount larger than any transfer fee they had received in their history",
+    "Through a 15% sell-on clause, Barnsley received £6.78 million from Stones' transfer to Manchester City, an amount larger than any transfer fee they had received in their history."
+   ]
+  },
+  {
+   "text": "In 2022-23, John Stones found great success after being converted to a defensive midfielder.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In the 2022–23 season, Stones was converted from a centre-back to a defensive midfielder and found great success in this new position.",
+    "In the 2022–23 season, Stones was converted from a centre-back to a defensive midfielder and found great success in this new position."
+   ]
+  },
+  {
+   "text": "John Stones has played with Samuel Eto'o.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Played in 6 matches alongside Samuel Eto'o for Everton FC (2014 to 2015)",
+    "[Squad data > Everton FC] Played in 6 matches alongside Samuel Eto'o for Everton FC (2014 to 2015)"
+   ]
+  },
+  {
+   "text": "John Stones has played with Cole Palmer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 17 matches alongside Cole Palmer for Manchester City (2020 to 2023)",
+    "[Squad data > Manchester City] Played in 17 matches alongside Cole Palmer for Manchester City (2020 to 2023)"
+   ]
+  },
+  {
+   "text": "John Stones has played with Rodri.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 130 matches alongside Rodri for Manchester City (2019 to 2026)",
+    "[Squad data > Manchester City] Played in 130 matches alongside Rodri for Manchester City (2019 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/John_Stones",
+  "revid": 1384958652
+ },
+ "alternatives": [
+  {
+   "question": "I've been nicknamed both the Barnsley Busquets and the Barnsley Beckenbauer.\nIt was as a standout performer in a hybrid role that I helped my club achieve a continental treble in 2023.\nI've played with Deulofeu, Haaland & Sané.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "During the 2022-23 season I was converted from a centre-back to a defensive midfielder.\nFollowing this successful spell I moved to Italy in 2026 to join Inter Milan.\nI've played with the likes of Deulofeu, Sane & Foden.",
+   "problems": [],
+   "style": 1
+  },
+  {
+   "question": "I scored my only goal for Barnsley in a League Cup tie against Rochdale.\nYears later I became the first player from my next club to score for England at a World Cup finals since 1982.\nI've played with the likes of Eto'o, Lukaku & Rodri.",
+   "problems": [
+    "claim not stated in the evidence: \"John Stones has played with Eto'o, Lukaku & Rodri.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "When I first moved to Manchester City in 2016, I was the second most expensive defender in history.\nIn 2023 I won the Champions League and was described as being in 'Beckenbauer mode' during the semi-finals.\nI've been managed by Guardiola & Martínez.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  }
+ ]
+}

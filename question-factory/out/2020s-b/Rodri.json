@@ -1,0 +1,113 @@
+{
+ "answer": "Rodri",
+ "acceptableAnswers": [
+  "Rodri"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 2,
+ "status": "NEEDS_WORK",
+ "question": "I scored the only goal in a Champions League final to secure my club's first title in the competition.\nFollowing this, I went on to be named Player of the Tournament at Euro 2024.\nI've been managed by Simeone & Guardiola.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 1,
+  "why": "The question is factually correct but reads like a list of three headline achievements rather than a story. It leads with the most famous moment in the player's career (the CL final winner), which violates the style guide's rule against leading with the obvious hook for superstars. Additionally, it’",
+  "fix": "Rewrite to focus on a less obvious aspect of his career or use a misdirection. For example: 'I was the only midfielder to win the Ballon d'Or in 2024, yet I had never won a major trophy before that summer. My path took me from Atletico Madrid's bench to becoming Pep Guardiola's first choice at the 2"
+ },
+ "claims": [
+  {
+   "text": "Rodri scored the only goal in a Champions League final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Rodri scored the only goal in the 2023 UEFA Champions League final against Inter Milan",
+    "Rodri scored the only goal in the 2023 UEFA Champions League final against Inter Milan, as City won their first Champions League title; he was awarded the UEFA Champions League Player of the Season."
+   ]
+  },
+  {
+   "text": "The goal Rodri scored secured his club's first title in the Champions League competition.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Rodri scored the only goal in the 2023 UEFA Champions League final against Inter Milan, as City won their first Champions League title; he was awarded the UEFA Champions League Player of the Season.",
+    "he scored the only goal in the Champions League final against Inter Milan, securing City's win for their first title in the competition"
+   ]
+  },
+  {
+   "text": "Rodri was named Player of the Tournament at Euro 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He won the UEFA Nations League in 2023, being named the best player of the finals tournament, and was an integral part in Spain's victory at Euro 2024, for which he was named Player of the Tournament.",
+    "UEFA European Championship Player of the Tournament: 2024"
+   ]
+  },
+  {
+   "text": "Rodri was managed by Simeone.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Atlético de Madrid] Was managed by Diego Simeone at Atlético de Madrid in 47 matches (2018 to 2019)",
+    "Was managed by Diego Simeone at Atlético de Madrid in 47 matches (2018 to 2019)"
+   ]
+  },
+  {
+   "text": "Rodri was managed by Guardiola.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 285 matches (2019 to 2026)",
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 285 matches (2019 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Rodri",
+  "revid": 1384849339
+ },
+ "alternatives": [
+  {
+   "question": "As a teenager I was released from my academy due to a lack of physical strength.\nYears later I won the World Cup Golden Ball in 2026 after captaining my country to the title.\nI've played with Haaland, Yamal & Oblak.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "At the 2022 World Cup I broke the record for the most passes completed in a single tournament.\nIncredibly, I then became only the seventh player in history to win the World Cup, European Championship, Champions League & Ballon d'Or.\nI've been managed by Simeone & Guardiola.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In 2022 I broke the record for the most passes completed in a single World Cup edition.\nFollowing this, I scored the only goal in a Champions League final to secure my club's first title in the competition.\nI've been managed by Simeone & Guardiola.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I was released from my youth academy in 2013 because I lacked physical strength.\nYears later, I became the first midfielder since 1990 to win the Ballon d'Or.\nI've played with Griezmann, Sterling & Foden.",
+   "problems": [
+    "claim is wrong: \"Rodri became the first midfielder since 1990 to win the Ballon d'Or.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I was released from my academy as a teenager for a lack of physical strength.\nYears later, I became the first midfielder to win the Ballon d'Or since 1990.\nI've played with Griezmann, De Bruyne & Lamine Yamal.",
+   "problems": [
+    "claim not stated in the evidence: \"Rodri became the first midfielder to win the Ballon d'Or since 1990.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I joined the Premier League for a then-record fee paid for a Spanish player.\nIn 2024 I became the first midfielder since 1990 to win the Ballon d'Or.\nI've played with Griezmann, Sterling & De Bruyne.",
+   "problems": [
+    "claim not stated in the evidence: \"In 2024, Rodri became the first midfielder since 1990 to win the Ballon d'Or.\""
+   ],
+   "style": 3
+  }
+ ]
+}

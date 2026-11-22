@@ -1,0 +1,132 @@
+{
+ "answer": "Vinícius Júnior",
+ "acceptableAnswers": [
+  "Vinícius Júnior",
+  "Júnior"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "My move to Europe was a national record for a player under 18.\nIn 2024 I was named The Best FIFA Men's Player and became the youngest ever to score in two Champions League finals.\nI've played with the likes of Hazard, Mbappé & Alisson.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The question is factually correct but reads like a list of stats rather than a story. It violates the style guide by stacking two major headline facts (FIFA Best and youngest in two CL finals) which nearly gives away the answer immediately to any casual fan. Additionally, it leads with a 'national'/",
+  "fix": "Rewrite to focus on one intriguing angle or a specific moment rather than listing accolades. For example, start with his early move from Brazil, mention the specific final he scored in (e.g., against Liverpool), and use the teammate list as the narrowing clue at the end. Avoid stating 'youngest ever"
+ },
+ "claims": [
+  {
+   "text": "Vinícius Júnior's move to Europe was a national record for a player under 18.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Vinícius was the subject of a transfer to La Liga club Real Madrid, for whom he signed in a £38 million deal, which was a national record for a player under 18.",
+    "A few weeks later, Vinícius was the subject of a transfer to La Liga club Real Madrid, for whom he signed in a £38 million deal, which was a national record for a player under 18."
+   ]
+  },
+  {
+   "text": "In 2024, Vinícius Júnior was named The Best FIFA Men's Player.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Vinícius was included in the FIFPRO World 11 in 2023 and 2024, and was named The Best FIFA Men's Player in 2024.",
+    "Vinícius was included in the FIFPRO World 11 in 2023 and 2024, and was named The Best FIFA Men's Player in 2024."
+   ]
+  },
+  {
+   "text": "Vinícius Júnior became the youngest ever to score in two Champions League finals.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Aged 23 years and 325 days, he became the youngest player to score in two Champions League finals, beating Lionel Messi's record by thirteen days.",
+    "Aged 23 years and 325 days, he became the youngest player to score in two Champions League finals, beating Lionel Messi's record by thirteen days."
+   ]
+  },
+  {
+   "text": "Vinícius Júnior has played with Eden Hazard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 41 matches alongside Eden Hazard for Real Madrid (2019 to 2023)",
+    "[Squad data > Real Madrid] Played in 41 matches alongside Eden Hazard for Real Madrid (2019 to 2023)"
+   ]
+  },
+  {
+   "text": "Vinícius Júnior has played with Kylian Mbappé.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 89 matches alongside Kylian Mbappé for Real Madrid (2024 to 2026)",
+    "[Squad data > Real Madrid] Played in 89 matches alongside Kylian Mbappé for Real Madrid (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Vinícius Júnior has played with Alisson.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brazil] Played in 3 matches alongside Alisson for Brazil (2026)",
+    "[Squad data > Brazil] Played in 3 matches alongside Alisson for Brazil (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Vinícius_Júnior",
+  "revid": 1386260744
+ },
+ "alternatives": [
+  {
+   "question": "My move to Europe was a national record for a player under 18.\nIn 2022 I scored the only goal in a Champions League final, an achievement I repeated two years later.\nI've played with Hazard, Mbappé & Alisson.",
+   "problems": [
+    "claim is wrong: \"Vinícius Júnior repeated his achievement of scoring the only goal in a Champions League final two years after 2022.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 5
+  },
+  {
+   "question": "In my first few seasons in Spain I was often criticised for a lack of end product.\nYet by 2024 I had been named The Best FIFA Men's Player and the Champions League Player of the Season.\nI've played with the likes of Bellingham, Alexander-Arnold & Bruno Guimarães.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "Early in my youth, my club documents described me as a left-back.\nI later became the first midfielder or forward to win The Best FIFA Men's Player award in 2024.\nI've played alongside the likes of Bellingham, Bruno Guimarães & Alexander-Arnold.",
+   "problems": [
+    "claim not stated in the evidence: \"Vinícius Júnior was the first midfielder or forward to win The Best FIFA Men's Player award in 2024.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "My move to Europe was a national record for a player under 18.\nIt took me a few seasons to find my feet, but I eventually scored the winning goal in the 2022 Champions League final.\nI've played with the likes of Hazard, Mbappé & Alisson.",
+   "problems": [
+    "claim not stated in the evidence: \"Vinícius Júnior has played with Eden Hazard, Kylian Mbappé, and Alisson Becker.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I spent my early years attending futsal classes before deciding I wanted to play football instead.\nFollowing this, I won the Champions League in two different seasons and finished runner-up for the 2024 Ballon d'Or.\nI've been managed by Zidane & Ancelotti.",
+   "problems": [
+    "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In my first few seasons in Spain, I was often criticised by the media for a lack of end product.\nHowever, I've since won the Champions League twice and was named The Best FIFA Men's Player in 2024.\nI've been managed by Zidane & Ancelotti.",
+   "problems": [
+    "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Vinícius Júnior played his first few seasons in Spain.\""
+   ],
+   "style": 0
+  }
+ ]
+}

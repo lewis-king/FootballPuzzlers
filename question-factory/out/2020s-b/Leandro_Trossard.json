@@ -1,0 +1,135 @@
+{
+ "answer": "Leandro Trossard",
+ "acceptableAnswers": [
+  "Leandro Trossard",
+  "Trossard"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I spent four consecutive seasons on loan before I finally scored my first league goal for my parent club.\nIn 2026, I won the Premier League and then moved to Turkey.\nI've played with the likes of Ndidi, Caicedo & Sterling.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The first sentence is a strong hook (four loans before scoring for parent club), but the second sentence ('In 2026, I won the Premier League and then moved to Turkey') is a flat list of headline facts that narrows the field too quickly. It also uses 'In 2026', which feels like a procedural timestamp",
+  "fix": "Remove the specific year and the move to Turkey (which is a dull detail for this context). Focus on the contrast between his loan struggles and his eventual success at Arsenal, perhaps mentioning a specific memorable moment or teammate from that period instead of just listing the league win."
+ },
+ "claims": [
+  {
+   "text": "Leandro Trossard spent four consecutive seasons on loan.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Trossard began his professional career in Belgium with Genk, scoring 39 goals, before embarking on four consecutive loans between 2012 and 2016.",
+    "Trossard began his professional career in Belgium with Genk, scoring 39 goals, before embarking on four consecutive loans between 2012 and 2016."
+   ]
+  },
+  {
+   "text": "After spending four consecutive seasons on loan, Leandro Trossard scored his first league goal for his parent club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "As a result, he didn't score his first league goal for Genk until over four years later, coming in a 4–1 away loss to K.V. Kortrijk on 25 September 2016.",
+    "As a result, he didn't score his first league goal for Genk until over four years later, coming in a 4–1 away loss to K.V. Kortrijk on 25 September 2016."
+   ]
+  },
+  {
+   "text": "In 2026, Leandro Trossard won the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 10 May 2026, Trossard scored the only goal in a crucial 1–0 away victory over West Ham United, a result that proved decisive in Arsenal's eventual Premier League title triumph.",
+    "[Honours > Arsenal] Premier League: 2025–26"
+   ]
+  },
+  {
+   "text": "After winning the Premier League in 2026, Leandro Trossard moved to Turkey.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 14 July 2026, Arsenal announced that they had reached an agreement with Turkish Super Lig side Beşiktaş for Trossard."
+   ]
+  },
+  {
+   "text": "Leandro Trossard has played with Ndidi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > KRC Genk] Played in 25 matches alongside Wilfred Ndidi for KRC Genk (2016)",
+    "[Squad data > KRC Genk] Played in 25 matches alongside Wilfred Ndidi for KRC Genk (2016)"
+   ]
+  },
+  {
+   "text": "Leandro Trossard has played with Caicedo.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Played in 21 matches alongside Moisés Caicedo for Brighton & Hove Albion (2022)",
+    "[Squad data > Brighton & Hove Albion] Played in 21 matches alongside Moisés Caicedo for Brighton & Hove Albion (2022)"
+   ]
+  },
+  {
+   "text": "Leandro Trossard has played with Sterling.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Played in 24 matches alongside Raheem Sterling for Arsenal FC (2024 to 2025)",
+    "[Squad data > Arsenal FC] Played in 24 matches alongside Raheem Sterling for Arsenal FC (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Leandro_Trossard",
+  "revid": 1385912442
+ },
+ "alternatives": [
+  {
+   "question": "I became the first player to score a Premier League hat-trick for my club after netting three goals in an away draw at Anfield.\nYears later, I scored the winning goal in a match that proved decisive in my next club's league title triumph.\nI've shared a pitch with Courtois, Mac Allister & Zubimendi.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "Early in my career I was once a substitute for Leon Bailey before scoring my first league goal for Genk.\nFollowing my move to England, I later provided the first hat-trick of assists in the first half of a Premier League game.\nI've played with Courtois, Lukaku & Caicedo.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I spent four consecutive seasons on loan before I finally scored my first league goal for my parent club.\nFollowing a move to the Premier League, I became the first player at my new club to score a hat-trick at Anfield.\nI've played with the likes of Ndidi, Mac Allister & Sterling.",
+   "problems": [
+    "claim not stated in the evidence: \"Leandro Trossard scored his first league goal for his parent club after spending four consecutive seasons on loan.\"",
+    "claim not stated in the evidence: \"Leandro Trossard became the first player at his new club to score a hat-trick at Anfield following a move to the Premier League.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I spent four consecutive seasons on loan before I finally scored my first league goal for my parent club.\nIt was only years later that I became the first player to score a Premier League hat-trick for my second English club.\nI've played with the likes of Ndidi, Mac Allister & Sterling.",
+   "problems": [
+    "claim is wrong: \"Leandro Trossard became the first player to score a Premier League hat-trick for his second English club years after scoring his first league goal for his parent club.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I'm the first player in Premier League history to provide a hat-trick of assists in the first half of an away game.\nFollowing this, I became a key part of a title-winning side before joining Beşiktaş.\nI've been managed by Graham Potter & Mikel Arteta.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first player in Premier League history to provide a hat-trick of assists in the first half of an away game.\nAlthough I won the league title in 2026, I spent the start of my career on four consecutive loans.\nI've played with Courtois, Lukaku & Caicedo.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

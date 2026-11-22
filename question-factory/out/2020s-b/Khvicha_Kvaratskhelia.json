@@ -1,0 +1,127 @@
+{
+ "answer": "Khvicha Kvaratskhelia",
+ "acceptableAnswers": [
+  "Khvicha Kvaratskhelia",
+  "Kvaratskhelia"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I spent a short spell at Dinamo Batumi before moving to Italy, where I became the first player in my club's history to score three goals in the opening two league matches.\nIn 2025 I moved to France for €70 million and won a continental treble in my debut season.\nI've played with Osimhen, Fabián Ruiz & Vitinha.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct but reads like a list of stats rather than a story. It leads with a minor record (fastest start) and an expensive transfer fee, which are dull hooks compared to the player's actual fame as a dribbler or his World Cup performances. The final clue list is strong (Osim",
+  "fix": "Reframe around his playing style or a specific memorable moment rather than transfer fees. For example: 'I am known for my left-footed flair and have won the Ballon d'Or. I moved to France in 2025, where I helped my team win the Champions League in my first season. I've played with Osimhen, Fabián &"
+ },
+ "claims": [
+  {
+   "text": "Khvicha Kvaratskhelia spent a short spell at Dinamo Batumi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022",
+    "Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022"
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia moved to Italy after his time at Dinamo Batumi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022",
+    "Following a short spell at Dinamo Batumi, Kvaratskhelia signed for Italian side Napoli in 2022"
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia was the first player in his club's history to score three goals in the opening two league matches while playing in Italy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first player in Napoli's history to score three goals in the two opening league matches",
+    "becoming the first player in Napoli's history to score three goals in the two opening league matches"
+   ]
+  },
+  {
+   "text": "In 2025, Khvicha Kvaratskhelia moved to France for €70 million.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He joined French side Paris Saint-Germain for €70 million in January 2025.",
+    "He joined French side Paris Saint-Germain for €70 million in January 2025."
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia won a continental treble in his debut season after moving to France in 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He immediately became a focal player, as the club won a continental treble in his first season there, scoring in the Champions League final.",
+    "the club won a continental treble in his first season there"
+   ]
+  },
+  {
+   "text": "Khvicha Kvaratskhelia has played with Osimhen, Fabián Ruiz & Vitinha.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Khvicha_Kvaratskhelia",
+  "revid": 1385639210
+ },
+ "alternatives": [
+  {
+   "question": "I left my first senior club as a result of a contract dispute, which led me to spend time in Russia.\nIn 2022 I moved to Italy and helped my new club win their first league title since 1990.\nI've played with the likes of Osimhen, Fabián Ruiz & Donnarumma.",
+   "problems": [
+    "claim is wrong: \"The contract dispute with his first senior club led Khvicha Kvaratskhelia to spend time in Russia.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I won two consecutive Russian Premier League Best Young Player awards.\nYet in 2022 I was able to unilaterally suspend my contract due to the invasion of Ukraine, allowing me to move to Italy.\nI've been managed by Slutskiy, Conte & Luis Enrique.",
+   "problems": [
+    "claim not stated in the evidence: \"Khvicha Kvaratskhelia moved to Italy in 2022 as a result of suspending his contract.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I helped my country qualify for their first ever major international tournament, scoring in our opening match at the finals.\nIn 2025 I moved to France, where I scored in a Champions League final during a continental treble-winning season.\nI've been managed by Luis Enrique & Luciano Spalletti.",
+   "problems": [
+    "claim is wrong: \"Khvicha Kvaratskhelia scored in the opening match of that finals tournament.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I won two consecutive Russian Premier League Best Young Player awards during a three-year spell in Russia.\nFollowing a short stint in Georgia, I helped my next club win their first league title since 1990.\nI've played with the likes of Osimhen, Fabián Ruiz & Donnarumma.",
+   "problems": [
+    "claim not stated in the evidence: \"Khvicha Kvaratskhelia had a short stint in Georgia after his time in Russia.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I left my first senior club in 2018 as a result of a contract dispute.\nDespite this, I was still scouted by Bayern Munich that spring and attended one of their Champions League quarter-finals.\nI've since played with the likes of Lukaku, Donnarumma & Dembélé.",
+   "problems": [
+    "banned wording (still)",
+    "claim not stated in the evidence: \"Khvicha Kvaratskhelia was scouted by Bayern Munich in the spring of 2018.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm one of a select few players to have won two different league titles in the same season.\nFollowing this unusual achievement, I moved to France where I scored in a Champions League final.\nI've played with Lukaku, Dembélé & been managed by Luis Enrique.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Following winning two different league titles in the same season, Khvicha Kvaratskhelia moved to France.\""
+   ],
+   "style": 0
+  }
+ ]
+}

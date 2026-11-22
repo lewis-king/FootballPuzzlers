@@ -22,17 +22,17 @@ function Bit({ i }: { i: number }) {
   const t = useSharedValue(0);
   const seed = (n: number) => ((Math.sin(i * 12.9898 + n * 78.233) * 43758.5453) % 1 + 1) % 1;
   const x = seed(1) * width;
-  const fall = height * (0.35 + seed(2) * 0.4);
+  // Every piece falls right past the bottom edge, so the burst clears instead of hanging mid-screen.
+  const fall = height + 80 + seed(2) * 120;
   const spin = (seed(3) - 0.5) * 720;
   // Worked out here, not in the animated style: that runs on the UI thread, where calling a plain JS
   // function such as seed() crashes the app on a phone (the web build doesn't show it).
   const drift = (seed(6) - 0.5) * 60;
   useEffect(() => {
-    t.set(withDelay(seed(4) * 300, withTiming(1, { duration: 1600 + seed(5) * 900, easing: Easing.out(Easing.quad) })));
+    t.set(withDelay(seed(4) * 400, withTiming(1, { duration: 2600 + seed(5) * 1400, easing: Easing.in(Easing.quad) })));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const style = useAnimatedStyle(() => ({
-    opacity: 1 - t.value * 0.6,
     transform: [{ translateY: -40 + t.value * fall }, { translateX: drift * t.value }, { rotate: `${spin * t.value}deg` }],
   }));
   return <Animated.View style={[{ position: 'absolute', left: x, top: 0, width: 10, height: 16, borderRadius: 3, backgroundColor: COLOURS[i % COLOURS.length] }, style]} />;

@@ -1,0 +1,100 @@
+{
+  "raw": "raw-ipad",
+  "pointWidth": 1032,
+  "sizes": {
+    "ipad": {
+      "width": 2064,
+      "height": 2752
+    }
+  },
+  "fonts": {
+    "title": "fonts/Title.ttf",
+    "sub": "fonts/Sub.ttf",
+    "body": "fonts/Body.ttf"
+  },
+  "colors": {
+    "bg": "#0b1630",
+    "title_color": "#FFFFFF",
+    "sub_color": "#d9e4ff"
+  },
+  "backgrounds": [
+    "art/twenties.jpg",
+    "art/starter.jpg",
+    "art/worldcup.jpg",
+    "art/champions.jpg"
+  ],
+  "frames": [
+    {
+      "name": "01-question",
+      "raw": "question",
+      "title": "You won't find a harder football quiz",
+      "sub": "Every question is a player telling you their story",
+      "crops": [
+        [
+          0,
+          1376
+        ]
+      ]
+    },
+    {
+      "name": "02-clues",
+      "raw": "clues",
+      "title": "Stuck? Use a clue",
+      "sub": "Two yes-or-no clues a question, so choose carefully",
+      "crops": [
+        [
+          0,
+          1376
+        ]
+      ]
+    },
+    {
+      "name": "03-twenties",
+      "raw": "pack",
+      "title": "New: 116 players from the 2020s",
+      "sub": "From Lamine Yamal to Teemu Pukki",
+      "crops": [
+        [
+          0,
+          1376
+        ]
+      ]
+    },
+    {
+      "name": "04-correct",
+      "raw": "correct",
+      "title": "Test your football knowledge",
+      "sub": "Get one right and keep your streak going",
+      "crops": [
+        [
+          0,
+          1376
+        ]
+      ]
+    },
+    {
+      "name": "05-packs",
+      "raw": "home",
+      "title": "Hundreds of questions to answer",
+      "sub": "328 players across four packs",
+      "crops": [
+        [
+          0,
+          1376
+        ]
+      ]
+    },
+    {
+      "name": "06-complete",
+      "raw": "complete",
+      "title": "Perfect to play with groups of friends",
+      "sub": "Finish a pack and share your result",
+      "crops": [
+        [
+          0,
+          1376
+        ]
+      ]
+    }
+  ]
+}

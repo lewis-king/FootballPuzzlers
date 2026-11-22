@@ -1,0 +1,130 @@
+{
+ "answer": "Hwang Hee-chan",
+ "acceptableAnswers": [
+  "Hwang Hee-chan",
+  "Hee-chan Hwang",
+  "Hee-chan"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I came off the bench to score a brace against Nice in the Europa League back in 2016.\nDespite early success in Europe, I failed to score a single goal in my first season in both the Austrian and German top flights.\nI've played with Szoboszlai, Upamecano & Matheus Cunha.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 4,
+  "why": "The question is factually correct but reads like a list of stats rather than a story. It lacks the conversational flow and 'twist' found in the originals (e.g., no tension or surprising connection between sentences). The first sentence is a very specific, obscure stat that doesn't hook the reader, 2",
+  "fix": "Reframe to highlight the contrast between his European success and domestic struggles, or focus on the surprising teammates. Example: 'I scored a brace in my debut season in Europe, yet failed to find the net all year in both Austria and Germany. I've since played alongside Szoboszlai, Upamecano & M"
+ },
+ "claims": [
+  {
+   "text": "Hwang Hee-chan came off the bench to score a brace against Nice in the Europa League in 2016.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 3 November 2016, Hwang came off the bench and scored a brace in a Europa League match for Salzburg against Ligue 1 side Nice",
+    "On 3 November 2016, Hwang came off the bench and scored a brace in a Europa League match for Salzburg against Ligue 1 side Nice, contributing to his team's first Europa win of the campaign."
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan failed to score a single goal in his first season in the Austrian top flight.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He failed to score in his first Austrian Bundesliga season.",
+    "He failed to score in his first Austrian Bundesliga season."
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan failed to score a single goal in his first season in the German top flight.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "However, he failed to score in his first German Bundesliga season.",
+    "he failed to score in his first German Bundesliga season."
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan has played with Szoboszlai.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > RB Leipzig] Played in 3 matches alongside Dominik Szoboszlai for RB Leipzig (2021)",
+    "Played in 3 matches alongside Dominik Szoboszlai for RB Leipzig (2021)"
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan has played with Upamecano.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > RB Leipzig] Played in 21 matches alongside Dayot Upamecano for RB Leipzig (2020 to 2021)",
+    "[Squad data > RB Leipzig] Played in 21 matches alongside Dayot Upamecano for RB Leipzig (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Hwang Hee-chan has played with Matheus Cunha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 59 matches alongside Matheus Cunha for Wolverhampton Wanderers (2023 to 2025)",
+    "[Squad data > Wolverhampton Wanderers] Played in 59 matches alongside Matheus Cunha for Wolverhampton Wanderers (2023 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Hwang_Hee-chan",
+  "revid": 1386598073
+ },
+ "alternatives": [
+  {
+   "question": "I once set a new goalscoring record in the Kanga Cup as a youth.\nYears later I scored the winning goal in an Asian Games final, which guaranteed me exemption from mandatory military service.\nI've played with the likes of Diego Costa, Konaté & Justin Kluivert.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "In a 2012 AFC U-16 Championship where my country were knocked out in the quarter-finals, I actually finished as the tournament's top scorer.\nI later scored a stoppage-time winner against Portugal in a World Cup to help us reach the Round of 16.\nI've been managed by Julian Nagelsmann & Gary O'Neil.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I came off the bench to score a brace against Nice in the Europa League back in 2016.\nYet I failed to find the net during my first league season in both Austria and Germany.\nI've played with the likes of Diego Costa, Upamecano & Szoboszlai.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once finished as the top scorer of the AFC U-16 Championship, including a hat-trick against North Korea.\nDespite this early promise, I failed to score a single league goal during my first season in both the Austrian and German top flights.\nI've played with Diego Costa, Upamecano & Szoboszlai.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I scored the winning goal in an Asian Games final which guaranteed me and my teammates exemption from mandatory military service.\nYears later I scored a stoppage-time winner against Portugal to help my country reach the World Cup Round of 16.\nI've been managed by Julian Nagelsmann & Gary O'Neil.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I scored the winning goal in an Asian Games final which guaranteed my exemption from mandatory military service.\nFollowing this I had a mixed World Cup experience, being substituted after just 20 minutes in one match and scoring a stoppage-time winner in another.\nI've played with Heung-min Son & been managed by Julian Nagelsmann.",
+   "problems": [
+    "claim not stated in the evidence: \"Hwang Hee-chan had a mixed World Cup experience following the Asian Games final.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  }
+ ]
+}

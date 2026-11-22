@@ -1,0 +1,111 @@
+{
+ "answer": "Granit Xhaka",
+ "acceptableAnswers": [
+  "Granit Xhaka",
+  "Xhaka"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "Before making my senior international debut, I was undecided whether to represent the country of my birth or Albania.\nIn 2023-24 I won a league title in Germany, and by November 2024 I had broken the record for most caps for my nation.\nI've been managed by Wenger, Alonso & Le Bris.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 3,
+  "why": "This reads exactly like one of Lewis's originals: it opens with a genuine tension (the nationality dilemma), connects the sentences logically, and closes with a list of managers that spans different clubs and eras to narrow the field. The facts are accurate and memorable for keen fans without being晦",
+  "fix": ""
+ },
+ "claims": [
+  {
+   "text": "Granit Xhaka was undecided whether to represent Switzerland or Albania before making his senior international debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Before making his international debut for Switzerland, Xhaka was still undecided whether to play for his birth country or Albania",
+    "Before making his international debut for Switzerland, Xhaka was still undecided whether to play for his birth country or Albania"
+   ]
+  },
+  {
+   "text": "Granit Xhaka won a league title in Germany during the 2023-24 season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2023, he returned to the Bundesliga with Bayer Leverkusen, helping the club to their first-ever league title in his debut season.",
+    "[Honours > Bayer Leverkusen] Bundesliga: 2023–24"
+   ]
+  },
+  {
+   "text": "By November 2024, Granit Xhaka had broken the record for most caps for his nation.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "A month later, he captained the Nati in a 1–1 draw in Israel to break the record with his 119th appearance."
+   ]
+  },
+  {
+   "text": "Granit Xhaka was managed by Arsène Wenger.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Arsène Wenger at Arsenal FC in 89 matches (2016 to 2018)",
+    "[Squad data > Arsenal FC] Was managed by Arsène Wenger at Arsenal FC in 89 matches (2016 to 2018)"
+   ]
+  },
+  {
+   "text": "Granit Xhaka was managed by Xabi Alonso.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayer 04 Leverkusen] Was managed by Xabi Alonso at Bayer 04 Leverkusen in 99 matches (2023 to 2025)",
+    "[Squad data > Bayer 04 Leverkusen] Was managed by Xabi Alonso at Bayer 04 Leverkusen in 99 matches (2023 to 2025)"
+   ]
+  },
+  {
+   "text": "Granit Xhaka was managed by Le Bris.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Sunderland AFC] Was managed by Régis Le Bris at Sunderland AFC in 36 matches (2025 to 2026)",
+    "[Squad data > Sunderland AFC] Was managed by Régis Le Bris at Sunderland AFC in 36 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Granit_Xhaka",
+  "revid": 1384594804
+ },
+ "alternatives": [
+  {
+   "question": "The first time I played in a European Championship, my opening match was against my own brother.\nI later became an Arsenal captain, though I once had to be offered counselling after a row with the club's supporters.\nI've played with Ter Stegen, Wirtz & Saka.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "Before making my senior international debut, I was undecided whether to represent the country of my birth or Albania.\nI eventually became my nation's record appearance holder and won a league title in Germany during the 2023-24 season.\nI've been managed by Wenger, Alonso & Le Bris.",
+   "problems": [
+    "wording will date: The claim of being the 'record appearance holder' is a current status that could change if another player surpasses it.; The claim to be the record appearance holder is a current status that could change."
+   ],
+   "style": 5
+  },
+  {
+   "question": "I was part of the Swiss team that won the FIFA U-17 World Cup in 2009.\nLater in my career I spent seven years in London, where I served as captain before being stripped of the armband following a row with my own supporters.\nI've played with the likes of Ter Stegen, Aubameyang & Wirtz.",
+   "problems": [
+    "claim not stated in the evidence: \"Granit Xhaka was stripped of the armband following a row with his own supporters.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "During my youth career I was part of a U-15 side that won the Swiss championship by winning every single game, a feat never achieved before.\nYears later I returned to Germany and secured an invincible double during my debut season with a new club.\nI've played alongside the likes of Grimaldo, Saka & Lacazette.",
+   "problems": [
+    "claim is wrong: \"Granit Xhaka returned to Germany years after his youth career in Switzerland.\""
+   ],
+   "style": 2
+  }
+ ]
+}

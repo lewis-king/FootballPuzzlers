@@ -1,0 +1,3085 @@
+[
+ {
+  "answer": "Erling Haaland",
+  "acceptableAnswers": [
+   "Erling Haaland",
+   "Haaland"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2034 (Transfermarkt)"
+  },
+  "target": null,
+  "status": "NEEDS_WORK",
+  "question": "I was born in Leeds and grew up supporting Leeds United.\nYet I once scored nine goals in a single match at an Under-20 World Cup, for a different country.\nI've played with Minamino, Bellingham & Ødegaard.",
+  "problems": [
+   "claim not stated in the evidence: \"The Under-20 World Cup match where Erling Haaland scored nine goals was for a different country than the one he grew up supporting (Leeds United's implied national context or his birthplace context, specifically distinct from England/UK).\""
+  ],
+  "style": {
+   "score": 5,
+   "difficulty": 3,
+   "why": "This reads exactly like one of Lewis's originals: it opens with a surprising biographical detail (born in Leeds but playing for Norway), uses the 'Yet' connector to introduce a jaw-dropping stat that fans actually remember, and closes with a list of teammates from different clubs/eras that narrows a",
+   "fix": "None needed. The question is tricky, true, and perfectly styled."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Erling Haaland was born in Leeds.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Erling Braut Haaland was born on 21 July 2000 in Leeds, West Yorkshire, England",
+     "Erling Braut Haaland was born on 21 July 2000 in Leeds, West Yorkshire, England, while his father Alf-Inge Haaland was playing football for Leeds United."
+    ]
+   },
+   {
+    "text": "Erling Haaland grew up supporting Leeds United.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "As a result, Haaland grew up as a supporter of Leeds.",
+     "As a result, Haaland grew up as a supporter of Leeds."
+    ]
+   },
+   {
+    "text": "Erling Haaland scored nine goals in a single match at an Under-20 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 30 May 2019, Haaland scored nine goals in the Norway under-20 team's 12–0 win against Honduras at the 2019 FIFA U-20 World Cup in Lublin, Poland.",
+     "Haaland represented Norway at the youth level, winning the Golden Boot at the 2019 FIFA U-20 World Cup, where he scored a record nine goals in a single match."
+    ]
+   },
+   {
+    "text": "The Under-20 World Cup match where Erling Haaland scored nine goals was for a different country than the one he grew up supporting (Leeds United's implied national context or his birthplace context, specifically distinct from England/UK).",
+    "final": "NOT_FOUND",
+    "quotes": []
+   },
+   {
+    "text": "Erling Haaland has played with Minamino.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Fußballclub Red Bull Salzburg] Played in 6 matches alongside Takumi Minamino for Fußballclub Red Bull Salzburg (2019)",
+     "[Squad data > Fußballclub Red Bull Salzburg] Played in 6 matches alongside Takumi Minamino for Fußballclub Red Bull Salzburg (2019)"
+    ]
+   },
+   {
+    "text": "Erling Haaland has played with Bellingham.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Borussia Dortmund] Played in 65 matches alongside Jude Bellingham for Borussia Dortmund (2020 to 2022)",
+     "[Squad data > Borussia Dortmund] Played in 65 matches alongside Jude Bellingham for Borussia Dortmund (2020 to 2022)"
+    ]
+   },
+   {
+    "text": "Erling Haaland has played with Ødegaard.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Norway] Played in 2 matches alongside Martin Ødegaard for Norway (2026)",
+     "[Squad data > Norway] Played in 2 matches alongside Martin Ødegaard for Norway (2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Erling_Haaland",
+   "revid": 1386365109
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Kylian Mbappé",
+  "acceptableAnswers": [
+   "Kylian Mbappé",
+   "Mbappé"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2029 (Transfermarkt)"
+  },
+  "target": 2,
+  "status": "NEEDS_WORK",
+  "question": "As a teenager I broke my first club's record for its youngest ever player.\nSoon after, I became only the second teenager in history to score in a World Cup final.\nI've played alongside Messi, Trent Alexander-Arnold & Michael Olise.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 1,
+   "why": "The first sentence is factually incorrect (Mbappé broke the record for youngest player in Ligue 1 history at Monaco, not his 'first club's' record in a way that implies a specific team record he held before leaving; more importantly, it leads with his teenage stardom). The second sentence stacks two",
+   "fix": "I was the first teenager to score in a World Cup final since Pelé. I've played alongside Messi, Trent Alexander-Arnold & Michael Olise."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Kylian Mbappé broke his first club's record for its youngest ever player as a teenager.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "The 16-year-old Mbappé became Monaco's youngest-ever first-team player, breaking the previous record set by Thierry Henry in 1994.",
+     "The 16-year-old Mbappé became Monaco's youngest-ever first-team player, breaking the previous record set by Thierry Henry in 1994."
+    ]
+   },
+   {
+    "text": "Kylian Mbappé became only the second teenager in history to score in a World Cup final.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He became the second teenager, after Pelé, to score in a World Cup final.",
+     "He became the second teenager, after Pelé, to score in a World Cup final."
+    ]
+   },
+   {
+    "text": "Kylian Mbappé has played alongside Lionel Messi.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Paris Saint-Germain] Played in 66 matches alongside Lionel Messi for Paris Saint-Germain (2021 to 2023)",
+     "Played in 66 matches alongside Lionel Messi for Paris Saint-Germain (2021 to 2023)"
+    ]
+   },
+   {
+    "text": "Kylian Mbappé has played alongside Trent Alexander-Arnold.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Real Madrid] Played in 25 matches alongside Trent Alexander-Arnold for Real Madrid (2025 to 2026)",
+     "[Squad data > Real Madrid] Played in 25 matches alongside Trent Alexander-Arnold for Real Madrid (2025 to 2026)"
+    ]
+   },
+   {
+    "text": "Kylian Mbappé has played alongside Michael Olise.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > France] Played in 3 matches alongside Michael Olise for France (2026)",
+     "[Squad data > France] Played in 3 matches alongside Michael Olise for France (2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Kylian_Mbappé",
+   "revid": 1385906751
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Mohamed Salah",
+  "acceptableAnswers": [
+   "Mohamed Salah",
+   "Salah"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "During my first professional season, I struggled so much in front of goal that I was sometimes in tears in the dressing room.\nYears later I became the first player to win the Premier League Golden Boot, Player of the Season and Playmaker award in the same campaign.\nI've played with Pjanić, Courtois & Wirtz.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 3,
+   "why": "The first sentence is a generic 'struggled early' trope that applies to almost every player and fails the 'memorable hook' test. The second sentence stacks three major awards (Golden Boot, Player of Season, Playmaker) which, combined with the context of the Premier League, immediately identifies the",
+   "fix": "Drop the generic emotional opening and the list of awards. Focus on a specific, surprising fact or a unique career trajectory. For example: 'I was released by my academy for being too small, yet I went on to score more goals in a single Premier League season than any other player in history. I've te"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Mohamed Salah struggled so much in front of goal during his first professional season that he was sometimes in tears in the dressing room.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Even though he was getting regular game time, Salah struggled to score. In the dressing room after matches, he would sometimes be in tears because of this"
+    ]
+   },
+   {
+    "text": "Mohamed Salah became the first player to win the Premier League Golden Boot, Player of the Season and Playmaker award in the same campaign.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Salah finished the season by winning the Premier League Player of the Season award, the Golden Boot for most goals scored and the Playmaker award for most assists, making him the first player in Prem",
+     "Salah finished the season by winning the Premier League Player of the Season award, the Golden Boot for most goals scored and the Playmaker award for most assists, making him the first player in Premier League history to win all three awards in the same season."
+    ]
+   },
+   {
+    "text": "Mohamed Salah has played with Pjanić.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Associazione Sportiva Roma] Played in 36 matches alongside Miralem Pjanić for Associazione Sportiva Roma (2015 to 2016)",
+     "[Squad data > Associazione Sportiva Roma] Played in 36 matches alongside Miralem Pjanić for Associazione Sportiva Roma (2015 to 2016)"
+    ]
+   },
+   {
+    "text": "Mohamed Salah has played with Courtois.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Chelsea FC] Played in 4 matches alongside Thibaut Courtois for Chelsea FC (2014 to 2015)",
+     "[Squad data > Chelsea FC] Played in 4 matches alongside Thibaut Courtois for Chelsea FC (2014 to 2015)"
+    ]
+   },
+   {
+    "text": "Mohamed Salah has played with Wirtz.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Liverpool FC] Played in 36 matches alongside Florian Wirtz for Liverpool FC (2025 to 2026)",
+     "[Squad data > Liverpool FC] Played in 36 matches alongside Florian Wirtz for Liverpool FC (2025 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+   "revid": 1386458608
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Bukayo Saka",
+  "acceptableAnswers": [
+   "Bukayo Saka",
+   "Saka"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2030 (Transfermarkt)"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "I was the first player born in 2001 to appear in a Premier League match.\nEarly on, I spent a long spell as a regular at left-back.\nI've played with Sterling, Bellingham & Havertz.",
+  "problems": [],
+  "style": {
+   "score": 3,
+   "difficulty": 2,
+   "why": "The first sentence is a procedural trivia fact that neither delights nor surprises, violating the rule against dull hooks. Additionally, listing three current Arsenal teammates (Sterling, Bellingham, Havertz) points directly to one club and gives away the answer without requiring any cross-refering,",
+   "fix": "Replace the birth-year stat with a memorable moment or tension (e.g., his role in the 2020 FA Cup final or a specific injury comeback). Change the teammate list to include players from different clubs or eras to create a genuine puzzle."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Bukayo Saka was the first player born in 2001 to appear in a Premier League match.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He became the first player born in 2001 to play in a Premier League match.",
+     "He became the first player born in 2001 to play in a Premier League match."
+    ]
+   },
+   {
+    "text": "Early in his career, Bukayo Saka spent a long spell as a regular at left-back.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Following injuries to Sead Kolašinac and Kieran Tierney, Saka began to establish himself as a regular in the Arsenal first team at left-back.",
+     "Following injuries to Sead Kolašinac and Kieran Tierney, Saka began to establish himself as a regular in the Arsenal first team at left-back."
+    ]
+   },
+   {
+    "text": "Bukayo Saka has played with Sterling.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Arsenal FC] Played in 11 matches alongside Raheem Sterling for Arsenal FC (2024 to 2025)",
+     "Played in 11 matches alongside Raheem Sterling for Arsenal FC (2024 to 2025)"
+    ]
+   },
+   {
+    "text": "Bukayo Saka has played with Bellingham.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > England] Played in 3 matches alongside Jude Bellingham for England (2026)",
+     "[Squad data > England] Played in 3 matches alongside Jude Bellingham for England (2026)"
+    ]
+   },
+   {
+    "text": "Bukayo Saka has played with Havertz.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Arsenal FC] Played in 80 matches alongside Kai Havertz for Arsenal FC (2023 to 2026)",
+     "[Squad data > Arsenal FC] Played in 80 matches alongside Kai Havertz for Arsenal FC (2023 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Bukayo_Saka",
+   "revid": 1384507677
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Phil Foden",
+  "acceptableAnswers": [
+   "Phil Foden",
+   "Foden"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "I won the Golden Ball after my country's successful Under-17 World Cup campaign in 2017.\nThe following year I became the youngest player ever to receive a Premier League winner's medal.\nI've played with Harry Kane & Bernardo Silva.",
+  "problems": [
+   "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+  ],
+  "style": {
+   "score": 0,
+   "why": "lint"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Phil Foden won the Golden Ball at the Under-17 World Cup in 2017.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Foden's breakthrough into professional football came in 2017 when he won the FIFA U-17 World Cup Golden Ball award following England's successful Under-17 World Cup campaign.",
+     "He won the FIFA U-17 World Cup Golden Ball award in 2017 where he also gained some widespread press attention and significant media coverage."
+    ]
+   },
+   {
+    "text": "Phil Foden's country had a successful campaign in the Under-17 World Cup in 2017.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Foden's breakthrough into professional football came in 2017 when he won the FIFA U-17 World Cup Golden Ball award following England's successful Under-17 World Cup campaign.",
+     "A product of Manchester City's youth academy, Foden's breakthrough into professional football came in 2017 when he won the FIFA U-17 World Cup Golden Ball award following England's successful Under-17 World Cup campaign."
+    ]
+   },
+   {
+    "text": "In 2018, Phil Foden became the youngest player ever to receive a Premier League winner's medal.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Foden has since made over 300 appearances for the club, winning 19 honours, including a continental treble in the 2022–23 season and becoming the youngest recipient of a Premier League winner's medal.",
+     "On 13 May, he became the youngest player to receive a Premier League winner's medal."
+    ]
+   },
+   {
+    "text": "Phil Foden has played with Harry Kane.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In the following game against Senegal, Foden assisted Harry Kane's goal in the third minute of added time in the first half."
+    ]
+   },
+   {
+    "text": "Phil Foden has played with Bernardo Silva.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester City] Played in 295 matches alongside Bernardo Silva for Manchester City (2017 to 2026)",
+     "[Squad data > Manchester City] Played in 295 matches alongside Bernardo Silva for Manchester City (2017 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Phil_Foden",
+   "revid": 1385437221
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Marcus Rashford",
+  "acceptableAnswers": [
+   "Marcus Rashford",
+   "Rashford"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "I started out as a goalkeeper, and my idol was Tim Howard.\nYears later I became the youngest Englishman to score on his senior international debut.\nI've played with Ronaldo, Lewandowski & Asensio.",
+  "problems": [
+   "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 2,
+   "difficulty": 1,
+   "why": "The first sentence is a massive misdirection that immediately gives away the answer to anyone who knows Rashford's famous childhood story; it fails the 'tricky from question one' rule. Additionally, listing Ronaldo, Lewandowski & Asensio points exclusively at Manchester United, violating the rule to",
+   "fix": "Remove the goalkeeper hook as it is too obvious and leads with his most famous biographical fact. Instead, focus on a specific match moment or a less known stat (e.g., his first goal for England vs Croatia, or a specific Champions League performance). For the names, mix in a teammate from a loan or "
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Marcus Rashford started out as a goalkeeper.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "starting out as a goalkeeper",
+     "Rashford began playing football for Fletcher Moss Rangers at the age of five, starting out as a goalkeeper"
+    ]
+   },
+   {
+    "text": "Tim Howard was Marcus Rashford's idol.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "cited former United goalkeeper Tim Howard as his goalkeeping idol",
+     "cited former United goalkeeper Tim Howard as his goalkeeping idol"
+    ]
+   },
+   {
+    "text": "Marcus Rashford became the youngest Englishman to score on his senior international debut.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Rashford scored on his England debut in May 2016, becoming the youngest English player to score in his first senior international match.",
+     "Rashford scored on his England debut in May 2016, becoming the youngest English player to score in his first senior international match."
+    ]
+   },
+   {
+    "text": "Marcus Rashford has played with Ronaldo.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester United] Played in 42 matches alongside Cristiano Ronaldo for Manchester United (2021 to 2022)",
+     "Played in 42 matches alongside Cristiano Ronaldo for Manchester United (2021 to 2022)"
+    ]
+   },
+   {
+    "text": "Marcus Rashford has played with Lewandowski.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > FC Barcelona] Played in 38 matches alongside Robert Lewandowski for FC Barcelona (2025 to 2026)",
+     "[Squad data > FC Barcelona] Played in 38 matches alongside Robert Lewandowski for FC Barcelona (2025 to 2026)"
+    ]
+   },
+   {
+    "text": "Marcus Rashford has played with Asensio.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Aston Villa] Played in 16 matches alongside Marco Asensio for Aston Villa (2025)",
+     "[Squad data > Aston Villa] Played in 16 matches alongside Marco Asensio for Aston Villa (2025)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Marcus_Rashford",
+   "revid": 1385812188
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Trent Alexander-Arnold",
+  "acceptableAnswers": [
+   "Trent Alexander-Arnold",
+   "Alexander-Arnold"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2031 (Transfermarkt)"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "Due to my grandmother's past relationship with a famous manager, I was once eligible to represent the United States.\nI later became the youngest player ever to win six major trophies for an English club.\nI've played alongside Coutinho, Bellingham & Valverde.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 3,
+   "why": "The first sentence is a factual error (Alexander-Arnold was not eligible for the US via his grandmother) and reads like a confusing trivia bit rather than a story. The second sentence uses an obscure stat ('youngest to win six major trophies') that doesn't resonate with fans. The final clue lists B-",
+   "fix": "Fix the eligibility fact (he is English, no US link). Use a memorable hook like his early debut or a specific famous moment (e.g., 'I made my debut as a teenager...'). Replace the obscure trophy stat with something more relatable or a twist. Ensure the teammate list includes names from different era"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Trent Alexander-Arnold's grandmother had a past relationship with a famous manager.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "His maternal grandmother, Doreen Carling, was once also in a relationship with former United manager, Alex Ferguson, before moving to New York City where she later married.",
+     "His maternal grandmother, Doreen Carling, was once also in a relationship with former United manager, Alex Ferguson, before moving to New York City where she later married."
+    ]
+   },
+   {
+    "text": "Due to his grandmother's past relationship, Trent Alexander-Arnold was once eligible to represent the United States.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "His maternal grandmother, Doreen Carling, was once also in a relationship with former United manager, Alex Ferguson, before moving to New York City where she later married. Alexander-Arnold was thus eligible to play for the United States prior to making his England debut.",
+     "Alexander-Arnold was thus eligible to play for the United States prior to making his England debut."
+    ]
+   },
+   {
+    "text": "Trent Alexander-Arnold is the youngest player ever to win six major trophies for an English club.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Alexander-Arnold became the youngest-ever player to win six major trophies, namely the FIFA Club World Cup, UEFA Champions League, UEFA Super Cup, Premier League, FA Cup and League Cup, for an English club",
+     "In May 2022, following Liverpool's victory over Chelsea in the 2022 FA Cup Final, Alexander-Arnold became the youngest-ever player to win six major trophies, namely the FIFA Club World Cup, UEFA Champions League, UEFA Super Cup, Premier League, FA Cup and League Cup, for an English club, doing so at the age of 23 years and 219 days."
+    ]
+   },
+   {
+    "text": "Trent Alexander-Arnold has played alongside Coutinho, Bellingham & Valverde.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Trent_Alexander-Arnold",
+   "revid": 1385338351
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Lionel Messi",
+  "acceptableAnswers": [
+   "Lionel Messi",
+   "Messi"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to December 2028 (Transfermarkt)"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "I once retired from international football after losing three consecutive finals.\nUpon my return I led my country to a World Cup title in 2022.\nI've been managed by Christophe Galtier & Gerardo Martino.",
+  "problems": [
+   "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 3,
+   "difficulty": 1,
+   "why": "The first sentence leads with the most famous narrative arc of Lionel Messi's career (losing three finals then winning the World Cup), which immediately gives away the answer to any casual fan. This violates the core rule against leading with a player's headline fact or stacking two major clues that",
+   "fix": "Remove the explicit mention of the 'three consecutive finals' and the 'World Cup title in 2022'. Instead, focus on a specific, less obvious moment from his career (e.g., a specific match stat, a lesser-known transfer detail, or a unique interaction with a manager) and use the managers as the primary"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Lionel Messi retired from international football after losing three consecutive finals.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Losing three finals in three consecutive years caused Messi to retire from international football",
+     "Losing three finals in three consecutive years caused Messi to retire from international football"
+    ]
+   },
+   {
+    "text": "Lionel Messi returned to international football after retiring.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Losing three finals in three consecutive years caused Messi to retire from international football, but a nationwide campaign in Argentina helped convince him to return to the national team",
+     "He subsequently announced his retirement from international football, but returned soon after."
+    ]
+   },
+   {
+    "text": "Lionel Messi led his country to a World Cup title in 2022.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "At the 2022 FIFA World Cup, Messi led Argentina to their first World Cup victory in 36 years, scoring twice in the final to defeat France.",
+     "He then led Argentina to victory at the 2021 Copa América, the 2022 World Cup, and the 2024 Copa América."
+    ]
+   },
+   {
+    "text": "Lionel Messi was managed by Christophe Galtier.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Paris Saint-Germain] Was managed by Christophe Galtier at Paris Saint-Germain in 40 matches (2022 to 2023)",
+     "Was managed by Christophe Galtier at Paris Saint-Germain in 40 matches (2022 to 2023)"
+    ]
+   },
+   {
+    "text": "Lionel Messi was managed by Gerardo Martino.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > FC Barcelona] Was managed by Gerardo Martino at FC Barcelona in 46 matches (2013 to 2014)",
+     "Was managed by Gerardo Martino at FC Barcelona in 46 matches (2013 to 2014)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Lionel_Messi",
+   "revid": 1386068285
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Karim Benzema",
+  "acceptableAnswers": [
+   "Karim Benzema",
+   "Benzema"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "Despite my success at club level, I was controversially left out of my country's squad for the 2010 World Cup.\nYears later I set a record as the oldest player to score a hat-trick in the Champions League era.\nI've been managed by Mourinho, Zidane & Didier Deschamps.",
+  "problems": [
+   "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+   "claim not stated in the evidence: \"Didier Deschamps managed Karim Benzema.\""
+  ],
+  "style": {
+   "score": 0,
+   "why": "lint"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Karim Benzema was left out of France's squad for the 2010 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Benzema was controversially left out of the squad for the 2010 FIFA World Cup",
+     "Benzema was controversially left out of the squad for the 2010 FIFA World Cup;"
+    ]
+   },
+   {
+    "text": "Karim Benzema set a record as the oldest player to score a hat-trick in the Champions League era.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "At the age of 34, Benzema became the oldest player to score a hat-trick in the Champions League era.",
+     "At the age of 34, Benzema became the oldest player to score a hat-trick in the Champions League era."
+    ]
+   },
+   {
+    "text": "José Mourinho managed Karim Benzema.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 50 matches (2012 to 2013)",
+     "[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 50 matches (2012 to 2013)"
+    ]
+   },
+   {
+    "text": "Zinedine Zidane managed Karim Benzema.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 171 matches (2016 to 2020)",
+     "Was managed by Zinédine Zidane at Real Madrid in 171 matches (2016 to 2020)"
+    ]
+   },
+   {
+    "text": "Didier Deschamps managed Karim Benzema.",
+    "final": "NOT_FOUND",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Karim_Benzema",
+   "revid": 1384804670
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Robert Lewandowski",
+  "acceptableAnswers": [
+   "Robert Lewandowski",
+   "Lewandowski"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "article",
+   "contract": ""
+  },
+  "target": 4,
+  "status": "READY",
+  "question": "Early in my career I was offered a move to Sporting Gijón, but they rejected me.\nYears later I became the first player to score Champions League hat-tricks for three different clubs.\nI've played with Coutinho, João Félix & Marcus Rashford.",
+  "problems": [],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The hook (Sporting Gijón rejecting him) is a genuine misdirect that works well for a superstar, and the closing clue list successfully spreads across his career stages. However, it loses points because the second sentence leads with 'Champions League hat-tricks,' which strongly implies he is a pure,",
+   "fix": "Replace the specific record in the middle sentence with a broader statement about his goal-scoring consistency or a different memorable moment (like his 9-minute hat-trick) to keep the position ambiguous until the end. Also, ensure the Sporting Gijón anecdote is verified as accurate for Lewandowski."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Robert Lewandowski was offered a move to Sporting Gijón early in his career.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In June 2008, Lech Poznań signed Lewandowski from Znicz for 1.5 million PLN. (398,670 Dollars, or 350,055 Euros) Earlier that month, Lewandowski's agent Cezary Kucharski offered him to his former team Sporting Gijón, which had been promoted to the La Liga, Spain's first division, after ten years in the Segunda División.",
+     "Earlier that month, Lewandowski's agent Cezary Kucharski offered him to his former team Sporting Gijón"
+    ]
+   },
+   {
+    "text": "Sporting Gijón rejected Robert Lewandowski's offer.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "However, Gijón rejected him.",
+     "However, Gijón rejected him."
+    ]
+   },
+   {
+    "text": "Robert Lewandowski is the first player to score Champions League hat-tricks for three different clubs.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "becoming the first player in history to score a Champions League hat-trick for three different clubs",
+     "becoming the first player in history to score a Champions League hat-trick for three different clubs."
+    ]
+   },
+   {
+    "text": "Robert Lewandowski has played with Coutinho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Bayern Munich] Played in 34 matches alongside Philippe Coutinho for Bayern Munich (2019 to 2020)",
+     "[Squad data > Bayern Munich] Played in 34 matches alongside Philippe Coutinho for Bayern Munich (2019 to 2020)"
+    ]
+   },
+   {
+    "text": "Robert Lewandowski has played with João Félix.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > FC Barcelona] Played in 40 matches alongside João Félix for FC Barcelona (2023 to 2024)",
+     "[Squad data > FC Barcelona] Played in 40 matches alongside João Félix for FC Barcelona (2023 to 2024)"
+    ]
+   },
+   {
+    "text": "Robert Lewandowski has played with Marcus Rashford.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)",
+     "[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+   "revid": 1386384091
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Luka Modrić",
+  "acceptableAnswers": [
+   "Luka Modrić",
+   "Modrić"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "article",
+   "contract": ""
+  },
+  "target": 4,
+  "status": "NEEDS_WORK",
+  "question": "I spent seven years of my childhood as a refugee, living in two different hotels.\nAt just 18, I was named Player of the Year in the Bosnian Premier League.\nI've been managed by Mourinho, Zidane & Allegri.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 3,
+   "why": "The first sentence is a strong hook, but the second sentence ('At just 18... Bosnian Premier League') immediately narrows the field to Luka Modric for any keen fan, killing the puzzle. It also stacks two headline facts (refugee story + early award) before providing any real clues. The final list of ",
+   "fix": "Remove the specific league name and age detail which gives it away too early. Focus on the refugee story as the main hook, then use the managers to narrow it down without stating his nationality or early career location explicitly. Example: 'I spent seven years of my childhood as a refugee, livingin"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Luka Modrić spent seven years of his childhood as a refugee.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Modrić became a refugee and lived with his family in the Hotel Kolovare for seven years",
+     "Modrić became a refugee and lived with his family in the Hotel Kolovare for seven years"
+    ]
+   },
+   {
+    "text": "During those seven years, Luka Modrić lived in two different hotels.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "lived with his family in the Hotel Kolovare for seven years; he later moved to the Hotel Iž",
+     "Modrić became a refugee and lived with his family in the Hotel Kolovare for seven years; he later moved to the Hotel Iž, both in Zadar."
+    ]
+   },
+   {
+    "text": "Luka Modrić was named Player of the Year in the Bosnian Premier League at age 18.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "During this period, he established his versatile style of play and became the Bosnian Premier League Player of the Year at only the age of 18.",
+     "became the Bosnian Premier League Player of the Year at only the age of 18."
+    ]
+   },
+   {
+    "text": "José Mourinho has managed Luka Modrić.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 53 matches (2012 to 2013)",
+     "[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 53 matches (2012 to 2013)"
+    ]
+   },
+   {
+    "text": "Zinedine Zidane has managed Luka Modrić.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 154 matches (2016 to 2020)",
+     "[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 154 matches (2016 to 2020)"
+    ]
+   },
+   {
+    "text": "Massimiliano Allegri has managed Luka Modrić.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > AC Milan] Was managed by Massimiliano Allegri at AC Milan in 37 matches (2025 to 2026)",
+     "Was managed by Massimiliano Allegri at AC Milan in 37 matches (2025 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Luka_Modrić",
+   "revid": 1386040141
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Ollie Watkins",
+  "acceptableAnswers": [
+   "Ollie Watkins",
+   "Watkins"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "I failed a trial with my boyhood club at the age of nine, yet in 2017 I won the EFL Young Player of the Year award.\nDespite being a striker, I was named the Premier League's Playmaker of the Season in 2024.\nI've played with Harry Kane, Tielemans & Elliot Anderson.",
+  "problems": [],
+  "style": {
+   "score": 3,
+   "difficulty": 3,
+   "why": "The draft is factually correct and has a nice narrative arc (failed trial -> award), but it violates the core style rule of 'one headline fact at most' by stacking two major awards (EFL Young Player and PL Playmaker). This makes the answer too easy to find for a casual fan, as only a few players fit",
+   "fix": "Remove one of the awards to maintain intrigue. For example: 'I failed a trial with my boyhood club at nine, yet in 2017 I won the EFL Young Player of the Year award. Despite being a striker, I was named the Premier League's Playmaker of the Season in 2024.' -> Change to: 'I failed a trial with my"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Ollie Watkins failed a trial with his boyhood club at the age of nine.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "having previously failed a trial with the club at the age of nine",
+     "Watkins joined Exeter City's academy at Under-11 level, having previously failed a trial with the club at the age of nine in 2003."
+    ]
+   },
+   {
+    "text": "Ollie Watkins won the EFL Young Player of the Year award in 2017.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Honours > Individual] EFL Young Player of the Year: April 2017",
+     "[Honours > Individual] EFL Young Player of the Year: April 2017"
+    ]
+   },
+   {
+    "text": "Ollie Watkins is a striker.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Oliver George Arthur Watkins (born 30 December 1995) is an English professional footballer who plays as a forward for Saudi Pro League club Al-Hilal and the England national team.",
+     "With Aston Villa's other two strikers Tammy Abraham and Brian Madjo injured, it left Villa without a striker in a match they lost 4–0."
+    ]
+   },
+   {
+    "text": "Ollie Watkins was named the Premier League's Playmaker of the Season in 2024.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In May 2024, he was named Premier League Playmaker of the Season for the 2023–24 season.",
+     "In May 2024, he was named Premier League Playmaker of the Season for the 2023–24 season."
+    ]
+   },
+   {
+    "text": "Ollie Watkins has played with Harry Kane.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > England] Played in 1 match alongside Harry Kane for England (2026)",
+     "Played in 1 match alongside Harry Kane for England (2026)"
+    ]
+   },
+   {
+    "text": "Ollie Watkins has played with Tielemans.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Aston Villa] Played in 122 matches alongside Youri Tielemans for Aston Villa (2023 to 2026)",
+     "[Squad data > Aston Villa] Played in 122 matches alongside Youri Tielemans for Aston Villa (2023 to 2026)"
+    ]
+   },
+   {
+    "text": "Ollie Watkins has played with Elliot Anderson.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > England] Played in 1 match alongside Elliot Anderson for England (2026)",
+     "[Squad data > England] Played in 1 match alongside Elliot Anderson for England (2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Ollie_Watkins",
+   "revid": 1383062722
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Emiliano Martínez",
+  "acceptableAnswers": [
+   "Emiliano Martínez",
+   "Martínez"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2029 (Transfermarkt)"
+  },
+  "target": 4,
+  "status": "NEEDS_WORK",
+  "question": "Due to a mistake made at the post office, my first and middle names were registered in the wrong order on my birth certificate.\nI once held the record for the most own goals scored by a goalkeeper in Premier League history.\nI've been managed by Wenger, Gerrard & Emery.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 3,
+   "why": "The first sentence is a dull procedural detail that neither delights nor surprises, violating the style guide's rule against boring obscure facts. Additionally, listing three managers who all managed him at Arsenal (Wenger, Gerrard, Emery) fails to spread clues across different clubs or stages of a ",
+   "fix": "Replace the birth certificate anecdote with a memorable moment from his career (e.g., his penalty saves in the 2022 World Cup final). Change the manager list to include names from different clubs or contexts to create a better puzzle, such as mentioning his time at Getafe or his national team setup."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Emiliano Martínez's first and middle names were registered in the wrong order on his birth certificate due to a mistake made at the post office.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "\"But when my mum went to do it in the post office, I don't know where she done it, she was waiting hours and hours in the queue and when they done it they put Damian Emiliano first.",
+     "But when my mum went to do it in the post office, I don't know where she done it, she was waiting hours and hours in the queue and when they done it they put Damian Emiliano first."
+    ]
+   },
+   {
+    "text": "Emiliano Martínez once held the record for the most own goals scored by a goalkeeper in Premier League history.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Martínez became the goalkeeper with the most own goals to his name (3) in Premier League history.",
+     "During the 2023–24 season, Martínez became the goalkeeper with the most own goals to his name (3) in Premier League history."
+    ]
+   },
+   {
+    "text": "Emiliano Martínez was managed by Arsène Wenger.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Arsenal FC] Was managed by Arsène Wenger at Arsenal FC in 8 matches (2014 to 2017)",
+     "[Squad data > Arsenal FC] Was managed by Arsène Wenger at Arsenal FC in 8 matches (2014 to 2017)"
+    ]
+   },
+   {
+    "text": "Emiliano Martínez was managed by Steven Gerrard.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Aston Villa] Was managed by Steven Gerrard at Aston Villa in 38 matches (2021 to 2022)",
+     "[Squad data > Aston Villa] Was managed by Steven Gerrard at Aston Villa in 38 matches (2021 to 2022)"
+    ]
+   },
+   {
+    "text": "Emiliano Martínez was managed by Unai Emery.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Aston Villa] Was managed by Unai Emery at Aston Villa in 157 matches (2022 to 2026)",
+     "[Squad data > Aston Villa] Was managed by Unai Emery at Aston Villa in 157 matches (2022 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Emiliano_Martínez",
+   "revid": 1386399985
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Scott McTominay",
+  "acceptableAnswers": [
+   "Scott McTominay",
+   "McTominay"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 4,
+  "status": "NEEDS_WORK",
+  "question": "I've played at centre-back for my national team, and one of my goals was later commemorated on a £20 bank note.\nYears later I won a league title in Italy and was named the league's MVP.\nI've been managed by Mourinho, Solskjær & Conte.",
+  "problems": [
+   "claim is wrong: \"Scott McTominay won a league title in Italy years after his goal was commemorated on the bank note.\""
+  ],
+  "style": {
+   "score": 5,
+   "difficulty": 3,
+   "why": "This is an excellent question that perfectly captures the house style. It opens with a strong misdirection (playing centre-back) to subvert expectations about a midfielder, followed by a highly memorable and specific hook (the £20 bank note). The narrative flows well from his early career quirk to a",
+   "fix": "major achievement in Italy, and it closes with a list of managers that spans different clubs and eras, providing the necessary narrowing clues without giving away the answer. It is tricky, thought-provoking, and reads exactly like one of Lewis's originals."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Scott McTominay has played at centre-back for his national team.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "For the international games played in September 2020, McTominay was used as a centre-back in a three-man defence by head coach Steve Clarke.",
+     "For the international games played in September 2020, McTominay was used as a centre-back in a three-man defence by head coach Steve Clarke."
+    ]
+   },
+   {
+    "text": "One of Scott McTominay's goals was later commemorated on a £20 bank note.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "That overhead kick has now been commemorated on a Scottish £20 bank note",
+     "That overhead kick has now been commemorated on a Scottish £20 bank note"
+    ]
+   },
+   {
+    "text": "Scott McTominay won a league title in Italy years after his goal was commemorated on the bank note.",
+    "final": "CONTRADICTED",
+    "quotes": []
+   },
+   {
+    "text": "Scott McTominay was named the MVP of the Italian league in which he won the title.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He also won the Serie A MVP award for the 2024–25 season",
+     "He also won the Serie A MVP award for the 2024–25 season, as well as being included in the Serie A Team of the Season, marking his first season for the club as a success."
+    ]
+   },
+   {
+    "text": "Scott McTominay has been managed by Mourinho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 28 matches (2017 to 2018)",
+     "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 28 matches (2017 to 2018)"
+    ]
+   },
+   {
+    "text": "Scott McTominay has been managed by Solskjær.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 112 matches (2019 to 2021)",
+     "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 112 matches (2019 to 2021)"
+    ]
+   },
+   {
+    "text": "Scott McTominay has been managed by Conte.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > SSC Napoli] Was managed by Antonio Conte at SSC Napoli in 80 matches (2024 to 2026)",
+     "Was managed by Antonio Conte at SSC Napoli in 80 matches (2024 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Scott_McTominay",
+   "revid": 1386099042
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Tammy Abraham",
+  "acceptableAnswers": [
+   "Tammy Abraham",
+   "Abraham"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2030 (Transfermarkt)"
+  },
+  "target": 4,
+  "status": "NEEDS_WORK",
+  "question": "I once played rock, paper, scissors with a team-mate on the pitch to decide who would take a penalty.\nI have since won every one of UEFA's club competitions.\nI've played alongside Dybala, João Félix & Kanté.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 4,
+   "why": "The first sentence is a dull procedural detail that no fan remembers or finds charming, which violates the style guide's rule against boring hooks. Additionally, the second sentence ('won every one of UEFA's club competitions') is an awkward and slightly inaccurate phrasing for winning the Champions",
+   "fix": "I once played rock, paper, scissors with a team-mate on the pitch to decide who would take a penalty.\nFollowing that moment, I went on to win the Champions League with my club.\nI've played alongside Dybala, João Félix & Kanté."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Tammy Abraham once played rock, paper, scissors with a team-mate on the pitch to decide who would take a penalty.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Later that year, while representing the U19 team in a friendly against Japan, Abraham and teammate Patrick Roberts played a game of rock paper scissors on the pitch to decide who would take a penalty.",
+     "Abraham and teammate Patrick Roberts played a game of rock paper scissors on the pitch to decide who would take a penalty."
+    ]
+   },
+   {
+    "text": "Tammy Abraham has won every one of UEFA's club competitions.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Later that season, he won the UEFA Europa League with the club, becoming only the second player after Emerson Palmieri to win every UEFA club competition.",
+     "Later that season, he won the UEFA Europa League with the club, becoming only the second player after Emerson Palmieri to win every UEFA club competition."
+    ]
+   },
+   {
+    "text": "Tammy Abraham played alongside Dybala, João Félix & Kanté.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Tammy_Abraham",
+   "revid": 1386388771
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Kaoru Mitoma",
+  "acceptableAnswers": [
+   "Kaoru Mitoma",
+   "Mitoma"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": null,
+  "status": "NEEDS_WORK",
+  "question": "At the 2022 World Cup I set up a winning goal that was first ruled out, until VAR stepped in.\nI've since won several Premier League Goal of the Month awards.\nI've been managed by Felice Mazzù & Roberto De Zerbi.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 3,
+   "why": "The first sentence directly contradicts the style guide's explicit instruction to avoid procedural details like 'a lengthy VAR review' in favor of memorable moments (e.g., 'the cross that was ruled in by a millimetre'). Additionally, listing two Brighton managers (Mazzù & De Zerbi) fails to provide ",
+   "fix": "Rewrite the first sentence to focus on the specific moment or the opponent (Spain) rather than the VAR process. Replace the manager list with teammates from different clubs or stages of his career to create a genuine puzzle, as per the 'names chosen to intrigue' rule."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Kaoru Mitoma set up a winning goal at the 2022 World Cup that was first ruled out until VAR stepped in.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In the final group match against Spain on 1 December, he came on as a half-time substitute for Yuto Nagatomo and assisted Ao Tanaka's winning goal in the 51st minute. ... The goal came with controversy, originally being ruled out for the ball going out of play. ... VAR took several minutes to rule a sliver of the curvature of the ball was hanging over the line and hence in play.",
+     "In the final group match against Spain on 1 December, he came on as a half-time substitute for Yuto Nagatomo and assisted Ao Tanaka's winning goal in the 51st minute. The goal came with controversy, originally being ruled out for the ball going out of play. VAR took several minutes to rule a sliver of the curvature of the ball was hanging over the line and hence in play."
+    ]
+   },
+   {
+    "text": "Kaoru Mitoma has won several Premier League Goal of the Month awards since the 2022 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Honours > Individual] Premier League Goal of the Month: August 2023, February 2025, April 2026",
+     "[Honours > Individual] Premier League Goal of the Month: August 2023, February 2025, April 2026"
+    ]
+   },
+   {
+    "text": "Kaoru Mitoma was managed by Felice Mazzù.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Union Saint-Gilloise] Was managed by Felice Mazzù at Union Saint-Gilloise in 21 matches (2021 to 2022)",
+     "[Squad data > Union Saint-Gilloise] Was managed by Felice Mazzù at Union Saint-Gilloise in 21 matches (2021 to 2022)"
+    ]
+   },
+   {
+    "text": "Kaoru Mitoma was managed by Roberto De Zerbi.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Brighton & Hove Albion] Was managed by Roberto De Zerbi at Brighton & Hove Albion in 60 matches (2022 to 2024)",
+     "[Squad data > Brighton & Hove Albion] Was managed by Roberto De Zerbi at Brighton & Hove Albion in 60 matches (2022 to 2024)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Kaoru_Mitoma",
+   "revid": 1384916048
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Ben White",
+  "acceptableAnswers": [
+   "Ben White",
+   "White"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I was once described as the best loan signing in Newport County's history.\nAfter leaving a World Cup for personal reasons in 2022, I stayed away from my national team for years, then scored on my return in 2026.\nI've played with Mac Allister, Sterling & Robert Sánchez.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 5,
+   "difficulty": 3,
+   "why": "This reads exactly like one of Lewis's originals: it opens with a charming, obscure hook (Newport County loan) that misdirects the casual fan, builds tension through the 2022 World Cup exit and subsequent absence, and closes with a perfectly chosen list of teammates from different clubs/eras. It is ",
+   "fix": ""
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Ben White was described as the best loan signing in Newport County's history.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "At the awards ceremony, manager Michael Flynn described White as \"the best loan signing the club has ever made.\"",
+     "manager Michael Flynn described White as \"the best loan signing the club has ever made.\""
+    ]
+   },
+   {
+    "text": "Ben White left a World Cup for personal reasons in 2022.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He left the tournament for \"personal reasons\" on 30 November, the day after the team's final Group B match.",
+     "He left the tournament for \"personal reasons\" on 30 November"
+    ]
+   },
+   {
+    "text": "Ben White stayed away from his national team for years after leaving the 2022 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In March 2026, White was called up by England for the first time since 2022"
+    ]
+   },
+   {
+    "text": "Ben White scored on his return to his national team in 2026.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In a 1–1 draw against Uruguay on 27 March, White was subbed on in the 68th minute, scored the opener in the 81st, and gave away the equalising penalty in stoppage time.",
+     "In a 1–1 draw against Uruguay on 27 March, White was subbed on in the 68th minute, scored the opener in the 81st, and gave away the equalising penalty in stoppage time."
+    ]
+   },
+   {
+    "text": "Ben White has played with Mac Allister, Sterling & Robert Sánchez.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Ben_White_(footballer)",
+   "revid": 1385899664
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Victor Osimhen",
+  "acceptableAnswers": [
+   "Victor Osimhen",
+   "Osimhen"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2029 (Transfermarkt)"
+  },
+  "target": 4,
+  "status": "READY",
+  "question": "A bout of malaria once left me unable to earn a move after trials with two Belgian clubs.\nYears later I became the first African to finish as Serie A's top scorer.\nI've been managed by Galtier, Gattuso & Okan Buruk.",
+  "problems": [],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The malaria hook is a charming and memorable anecdote that fits the style guide's preference for delightful oddities over dull stats. The managers list (Galtier, Gattuso, Buruk) effectively narrows the field without pointing to a single club, satisfying the clue requirement. It loses one point only ",
+   "fix": "Tighten the first sentence slightly to improve flow: 'A bout of malaria once derailed my move after trials with two Belgian clubs.' This removes the passive voice and makes the narrative punchier."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Victor Osimhen was unable to earn a move after trials with two Belgian clubs due to a bout of malaria.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Osimhen had summer trials with Belgian clubs Zulte Waregem and Club Brugge... However, a summer bout with malaria had affected his physical condition, and neither club decided to take him on loan.",
+     "Osimhen had summer trials with Belgian clubs Zulte Waregem and Club Brugge, who were the reigning champions. However, a summer bout with malaria had affected his physical condition, and neither club decided to take him on loan."
+    ]
+   },
+   {
+    "text": "Victor Osimhen became the first African to finish as Serie A's top scorer.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He finished the season as top scorer with 26 goals, to be the first African to achieve this feat.",
+     "He finished the season as top scorer with 26 goals, to be the first African to achieve this feat."
+    ]
+   },
+   {
+    "text": "Victor Osimhen has been managed by Galtier.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > LOSC Lille] Was managed by Christophe Galtier at LOSC Lille in 32 matches (2019 to 2020)",
+     "Was managed by Christophe Galtier at LOSC Lille in 32 matches (2019 to 2020)"
+    ]
+   },
+   {
+    "text": "Victor Osimhen has been managed by Gattuso.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > SSC Napoli] Was managed by Gennaro Gattuso at SSC Napoli in 29 matches (2020 to 2021)",
+     "Was managed by Gennaro Gattuso at SSC Napoli in 29 matches (2020 to 2021)"
+    ]
+   },
+   {
+    "text": "Victor Osimhen has been managed by Okan Buruk.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Galatasaray] Was managed by Okan Buruk at Galatasaray in 69 matches (2024 to 2026)",
+     "[Squad data > Galatasaray] Was managed by Okan Buruk at Galatasaray in 69 matches (2024 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+   "revid": 1385535397
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Jamie Vardy",
+  "acceptableAnswers": [
+   "Jamie Vardy",
+   "Vardy"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "Before turning professional, I combined non-League football with a job making medical splints.\nYears later I became the oldest player to win the Premier League Golden Boot.\nI've played with Kanté, Mahrez & Franco Vázquez.",
+  "problems": [
+   "too easy for its place in the pack: judged 2 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 3,
+   "difficulty": 2,
+   "why": "The first sentence is a perfect hook (making splints), but the second sentence immediately gives away the answer to any casual fan by citing his most famous record (oldest Golden Boot winner). This violates the rule against leading with or stacking headline facts that narrow the field to one obvious",
+   "fix": "Remove the 'oldest player' qualifier and just say you won the Golden Boot, or better yet, focus on the Leicester City title win as the main achievement since the teammates (Kante, Mahrez) already point strongly to that specific era. For example: 'Before turning professional, I combined non-League..."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Jamie Vardy combined non-League football with a job making medical splints before turning professional.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Before turning professional, Vardy combined playing non-League football with a job as a technician making medical splints.",
+     "Before turning professional, Vardy combined playing non-League football with a job as a technician making medical splints."
+    ]
+   },
+   {
+    "text": "Jamie Vardy became the oldest player to win the Premier League Golden Boot.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He won the Premier League Golden Boot for the 2019–20 season, becoming the oldest player to win the award.",
+     "He won the Premier League Golden Boot for the 2019–20 season, becoming the oldest player to win the award."
+    ]
+   },
+   {
+    "text": "Jamie Vardy played with Kanté, Mahrez & Franco Vázquez.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Jamie_Vardy",
+   "revid": 1386703429
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Kelechi Iheanacho",
+  "acceptableAnswers": [
+   "Kelechi Iheanacho",
+   "Iheanacho"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "While waiting for a work permit, I once trained with the Columbus Crew.\nAfter moving to England, I became the first player in English football to be awarded a goal by VAR.\nI've been managed by Pep Guardiola & Brendan Rodgers.",
+  "problems": [
+   "claim not stated in the evidence: \"Kelechi Iheanacho trained with the Columbus Crew while waiting for a work permit.\"",
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 2,
+   "difficulty": 3,
+   "why": "The hook is a dull procedural detail (waiting for a work permit) that neither delights nor surprises, and the second sentence leads with a minor VAR anecdote rather than a memorable moment. The question reads like a list of disconnected facts rather than a story, failing to meet the style guide's 't",
+   "fix": "Rewrite to focus on his time at Leicester or Manchester City as the main hook. For example: 'I joined Manchester City from Leicester in 2019, but I only made one appearance for them before moving on. I've been managed by Pep Guardiola & Brendan Rodgers.' This uses the famous managers as the primary,"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Kelechi Iheanacho trained with the Columbus Crew while waiting for a work permit.",
+    "final": "NOT_FOUND",
+    "quotes": []
+   },
+   {
+    "text": "Kelechi Iheanacho moved to England.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In December 2012, Iheanacho travelled to England to discuss a move to Manchester City.",
+     "In December 2012, Iheanacho travelled to England to discuss a move to Manchester City."
+    ]
+   },
+   {
+    "text": "Kelechi Iheanacho was the first player in English football to be awarded a goal by VAR.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Iheanacho became the first player in English football to be awarded a goal due to video assistant referee",
+     "On 16 January 2018, Iheanacho became the first player in English football to be awarded a goal due to video assistant referee"
+    ]
+   },
+   {
+    "text": "Pep Guardiola managed Kelechi Iheanacho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 27 matches (2016 to 2017)",
+     "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 27 matches (2016 to 2017)"
+    ]
+   },
+   {
+    "text": "Brendan Rodgers managed Kelechi Iheanacho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 123 matches (2019 to 2023)",
+     "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 123 matches (2019 to 2023)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Kelechi_Iheanacho",
+   "revid": 1386705430
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Michail Antonio",
+  "acceptableAnswers": [
+   "Michail Antonio",
+   "Antonio"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "On my 20th birthday I scored in a final at Wembley to win my first piece of silverware.\nYears later I scored my country's first ever goal at a Copa América.\nI've been managed by Alan Pardew & David Moyes.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The question is strong because it avoids the obvious 'West Ham striker' label and uses a specific, memorable moment (scoring on his birthday in a Wembley final) to hook the reader. The second sentence provides a surprising fact that distinguishes him from other West Ham forwards who played for their",
+   "fix": "The main weakness is the final clue: 'Alan Pardew & David Moyes' are both managers he had at West Ham (or very close to it, as Moyes was briefly linked/managed nearby in the league context, but actually Moyes managed him at West Ham? No, Moyes managed him at West Ham from 2019-2020. Pardew managed Q"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Michail Antonio scored in a final at Wembley on his 20th birthday.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He scored again in the 4–1 2010 Football League Trophy Final win over Carlisle United at Wembley Stadium on 28 March 2010, which was his 20th birthday",
+     "He scored again in the 4–1 2010 Football League Trophy Final win over Carlisle United at Wembley Stadium on 28 March 2010, which was his 20th birthday, bringing Antonio his first silverware."
+    ]
+   },
+   {
+    "text": "The win from the final Michail Antonio scored in on his 20th birthday was his first piece of silverware.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He scored again in the 4–1 2010 Football League Trophy Final win over Carlisle United at Wembley Stadium on 28 March 2010, which was his 20th birthday, bringing Antonio his first silverware.",
+     "He scored again in the 4–1 2010 Football League Trophy Final win over Carlisle United at Wembley Stadium on 28 March 2010, which was his 20th birthday, bringing Antonio his first silverware."
+    ]
+   },
+   {
+    "text": "Michail Antonio scored his country's first ever goal at a Copa América.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "he scored Jamaica's first ever goal in a Copa América tournament",
+     "he scored Jamaica's first ever goal in a Copa América tournament"
+    ]
+   },
+   {
+    "text": "Michail Antonio was managed by Alan Pardew.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Antonio's loan deal finished at the end of the 2009–10 season, but both manager Alan Pardew and Antonio himself expressed a desire for the winger to remain at Southampton.",
+     "Antonio's loan deal finished at the end of the 2009–10 season, but both manager Alan Pardew and Antonio himself expressed a desire for the winger to remain at Southampton."
+    ]
+   },
+   {
+    "text": "Michail Antonio was managed by David Moyes.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Was managed by David Moyes at West Ham United in 172 matches (2017 to 2024)",
+     "Was managed by David Moyes at West Ham United in 172 matches (2017 to 2024)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Michail_Antonio",
+   "revid": 1385586535
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Raúl Jiménez",
+  "acceptableAnswers": [
+   "Raúl Jiménez",
+   "Jiménez"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "In 2015 I famously failed to show up for a medical with West Ham after reports claimed I had overslept.\nInstead I signed for a club in Portugal, where I won two consecutive league titles.\nI've been managed by Nuno Espírito Santo & Marco Silva.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The hook is excellent and memorable (the West Ham medical saga), which fits the style guide perfectly. The narrative flow is good, connecting the failed move to the subsequent success in Portugal. However, it loses a point because the final clue ('managed by Nuno & Marco Silva') is weak; both are at",
+   "fix": "Replace the manager list with specific teammates from different clubs or stages of his career (e.g., 'I've played alongside Pedro Mendes and Michail Antonio' if accurate to squads, or better yet, reference a specific memorable moment like his goal against Liverpool or his time at Wolves/Leeds) to do"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Raúl Jiménez failed to show up for a medical with West Ham in 2015.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 9 August 2015 Jiménez, who was expected to complete a loan deal to Premier League side West Ham United, failed to show up to his medical",
+     "On 9 August 2015 Jiménez, who was expected to complete a loan deal to Premier League side West Ham United, failed to show up to his medical after reports claimed he had missed his flight to London after he had overslept."
+    ]
+   },
+   {
+    "text": "Reports claimed Raúl Jiménez overslept, causing him to miss the West Ham medical in 2015.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 9 August 2015 Jiménez, who was expected to complete a loan deal to Premier League side West Ham United, failed to show up to his medical after reports claimed he had missed his flight to London after he had overslept."
+    ]
+   },
+   {
+    "text": "Raúl Jiménez signed for a club in Portugal after failing to show up for the West Ham medical in 2015.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 13 August 2015, Jiménez joined Portuguese champions Benfica, signing a five-year deal."
+    ]
+   },
+   {
+    "text": "Raúl Jiménez won two consecutive league titles with his Portuguese club.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He amassed 120 appearances and scored 31 goals during his three years with the Portuguese side, winning two consecutive league titles, among other major honours.",
+     "winning two consecutive league titles, among other major honours."
+    ]
+   },
+   {
+    "text": "Nuno Espírito Santo managed Raúl Jiménez.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Wolverhampton Wanderers] Was managed by Nuno Espírito Santo at Wolverhampton Wanderers in 109 matches (2018 to 2020)",
+     "[Squad data > Wolverhampton Wanderers] Was managed by Nuno Espírito Santo at Wolverhampton Wanderers in 109 matches (2018 to 2020)"
+    ]
+   },
+   {
+    "text": "Marco Silva managed Raúl Jiménez.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 114 matches (2023 to 2026)",
+     "[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 114 matches (2023 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Raúl_Jiménez",
+   "revid": 1386711433
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Dan Burn",
+  "acceptableAnswers": [
+   "Dan Burn",
+   "Burn"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "Initially a goalkeeper, I was released by my boyhood club at age 11.\nYears later I returned to them and scored in a domestic cup final to help secure their first trophy since 1955.\nI've played with the likes of Mac Allister, Trossard & Guimarães.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The hook is strong and memorable (released at 11, returned to score in a cup final for first trophy since 1955), which fits the 'twist/tension' requirement well. The closing clue list (Mac Allister, Trossard & Guimarães) effectively narrows it down to Brighton without pointing at one obvious squad, ",
+   "fix": "Tighten the second sentence slightly for flow: \"Years later I returned and scored in a domestic cup final to secure their first trophy since 1955.\" (Remove 'to help' as it's implied by scoring in a final). Otherwise, excellent."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Dan Burn was initially a goalkeeper.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Initially a goalkeeper",
+     "Initially a goalkeeper"
+    ]
+   },
+   {
+    "text": "Dan Burn was released by his boyhood club at age 11.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Initially a goalkeeper, Burn was released by Newcastle United at age 11 and then played youth football for local teams New Hartley, Blyth Town and Blyth Spartans.",
+     "Burn was released by Newcastle United at age 11"
+    ]
+   },
+   {
+    "text": "Dan Burn returned to his boyhood club years after being released.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He established himself as a regular Premier League player with Brighton from the 2019–20 season before signing for boyhood club Newcastle United in January 2022",
+     "signing for boyhood club Newcastle United in January 2022"
+    ]
+   },
+   {
+    "text": "Dan Burn scored in a domestic cup final for his boyhood club.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "before signing for boyhood club Newcastle United in January 2022, where he scored in the 2025 EFL Cup final",
+     "He established himself as a regular Premier League player with Brighton from the 2019–20 season before signing for boyhood club Newcastle United in January 2022, where he scored in the 2025 EFL Cup final as Newcastle won their first domestic trophy in 70 years."
+    ]
+   },
+   {
+    "text": "The domestic cup final win helped secure the first trophy for Dan Burn's boyhood club since 1955.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "contributing to his club's first domestic trophy since 1955",
+     "On 16 March 2025, Burn scored the opening goal with a towering header in the EFL Cup final which ended in a 2–1 win against Liverpool, contributing to his club's first domestic trophy since 1955."
+    ]
+   },
+   {
+    "text": "Dan Burn has played with Mac Allister, Trossard & Guimarães.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Dan_Burn",
+   "revid": 1386698319
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Jean-Philippe Mateta",
+  "acceptableAnswers": [
+   "Jean-Philippe Mateta",
+   "Mateta"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "In early 2025 I needed 25 stitches after a head injury in the FA Cup, which left me wearing a mask.\nLater that year I made my senior international debut, and I went on to play at the 2026 World Cup.\nI've played with Awoniyi, Olise & Zaha.",
+  "problems": [
+   "claim not stated in the evidence: \"Jean-Philippe Mateta wore a mask following his head injury in the FA Cup in early 2025.\"",
+   "claim not stated in the evidence: \"Jean-Philippe Mateta made his senior international debut later in 2025.\"",
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The hook (25 stitches/mask) is memorable and fits the 'delightful oddity' style perfectly. The narrative flow is good, connecting the injury to the subsequent international breakthrough. However, it loses a point because the final clue list (Awoniyi, Olise & Zaha) all points directly to Crystal Pal9",
+   "fix": "Replace one of the teammates with someone from his previous club (e.g., a teammate at Toulouse or Bordeaux) or a manager he played under elsewhere to spread the clues across clubs as per the style guide."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Jean-Philippe Mateta needed 25 stitches after a head injury in the FA Cup in early 2025.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "The injury sustained during the game, resulted with him requiring 25 stitches for a laceration behind his ear and a concussion observation."
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta wore a mask following his head injury in the FA Cup in early 2025.",
+    "final": "NOT_FOUND",
+    "quotes": []
+   },
+   {
+    "text": "Jean-Philippe Mateta made his senior international debut later in 2025.",
+    "final": "NOT_FOUND",
+    "quotes": [
+     "He made his senior debut in 2025"
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta played at the 2026 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 14 May 2026, Mateta was named in the French squad for the World Cup.",
+     "On 26 June, Mateta made his World Cup debut, coming on as a substitute in the 87th minute during France's 4-1 victory over Norway in their final match of the group stage."
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta has played with Awoniyi, Olise & Zaha.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Jean-Philippe_Mateta",
+   "revid": 1386346414
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Hwang Hee-chan",
+  "acceptableAnswers": [
+   "Hwang Hee-chan",
+   "Hee-chan Hwang",
+   "Hee-chan"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I once scored the winning goal in an Asian Games final, which exempted me from military service.\nAt a World Cup I scored a stoppage-time winner against Portugal to send us through to the Round of 16.\nI've been managed by Julian Nagelsmann & Gary O'Neil.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The question is strong because it avoids leading with his most famous stat (the Portugal goal) and instead opens with a culturally specific hook (military service exemption) that requires knowledge of Asian football norms. The connection between the two goals (Asian Games winner vs WC stoppage-time)",
+   "fix": "Tighten the final sentence to ensure the managers are clearly distinct clues rather than just a list, perhaps by adding a slight narrative link or ensuring the names are spaced out in the career timeline if possible, though the current format is acceptable per style guide."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Hwang Hee-chan scored the winning goal in an Asian Games final.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Hwang represented South Korea in the under-23 team at the 2018 Asian Games where he scored the second and winning goal for South Korea in the 2–1 final against Japan",
+     "Hwang represented South Korea in the under-23 team at the 2018 Asian Games where he scored the second and winning goal for South Korea in the 2–1 final against Japan, a goal assisted by Son Heung-min."
+    ]
+   },
+   {
+    "text": "Scoring the winning goal in that Asian Games final exempted Hwang Hee-chan from military service.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Hwang represented South Korea in the under-23 team at the 2018 Asian Games where he scored the second and winning goal for South Korea in the 2–1 final against Japan, a goal assisted by Son Heung-min. The tournament win guaranteed Hwang and his teammates exemption from mandatory military service.",
+     "Hwang represented South Korea in the under-23 team at the 2018 Asian Games where he scored the second and winning goal for South Korea in the 2–1 final against Japan, a goal assisted by Son Heung-min. The tournament win guaranteed Hwang and his teammates exemption from mandatory military service."
+    ]
+   },
+   {
+    "text": "Hwang Hee-chan scored a stoppage-time winner against Portugal at a World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Hwang scored the winning goal in stoppage time against Portugal",
+     "In the 2022 FIFA World Cup, Hwang scored the winning goal in stoppage time against Portugal to secure a 2–1 win"
+    ]
+   },
+   {
+    "text": "The goal Hwang Hee-chan scored against Portugal sent his team through to the Round of 16.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Hwang scored the winning goal in stoppage time against Portugal to secure a 2–1 win, which helped South Korea advance to the Round of 16",
+     "In the 2022 FIFA World Cup, Hwang scored the winning goal in stoppage time against Portugal to secure a 2–1 win, which helped South Korea advance to the Round of 16"
+    ]
+   },
+   {
+    "text": "Hwang Hee-chan has been managed by Julian Nagelsmann.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > RB Leipzig] Was managed by Julian Nagelsmann at RB Leipzig in 26 matches (2020 to 2021)",
+     "Was managed by Julian Nagelsmann at RB Leipzig in 26 matches (2020 to 2021)"
+    ]
+   },
+   {
+    "text": "Hwang Hee-chan has been managed by Gary O'Neil.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Wolverhampton Wanderers] Was managed by Gary O'Neil at Wolverhampton Wanderers in 42 matches (2023 to 2024)",
+     "[Squad data > Wolverhampton Wanderers] Was managed by Gary O'Neil at Wolverhampton Wanderers in 42 matches (2023 to 2024)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Hwang_Hee-chan",
+   "revid": 1386598073
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Matt Turner",
+  "acceptableAnswers": [
+   "Matt Turner",
+   "Turner"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": null,
+  "status": "NEEDS_WORK",
+  "question": "I didn't start playing football until I was 14, and only took it up to stay in shape for basketball and baseball.\nYet I went on to become the first goalkeeper in New England Revolution history to be named MLS Goalkeeper of the Year.\nI've since played under Mikel Arteta & Nuno Espírito Santo.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 4,
+   "why": "The hook is a dull procedural detail (starting late for other sports) rather than a memorable moment or charming oddity. It also lists two managers who both point to the same club (Arsenal), failing to spread clues across different stages of the career as required by the style guide.",
+   "fix": "Replace the 'started at 14' hook with a specific, memorable save or record (e.g., clean sheets in a season). Change the manager clue to include one from his time at New England and one from Arsenal to spread the timeline, e.g., 'I've played under Bruce Arena & Mikel Arteta.'"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Matt Turner did not start playing football until he was 14.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Turner did not play soccer until he was 14 years old",
+     "Turner did not play soccer until he was 14 years old"
+    ]
+   },
+   {
+    "text": "Matt Turner took up football to stay in shape for basketball and baseball.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "initially taking up the sport to stay in shape for his primary sports of basketball and baseball",
+     "Turner did not play soccer until he was 14 years old, initially taking up the sport to stay in shape for his primary sports of basketball and baseball."
+    ]
+   },
+   {
+    "text": "Matt Turner is the first goalkeeper in New England Revolution history to be named MLS Goalkeeper of the Year.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He was the first keeper in Revolution history to earn the honor.",
+     "He was the first keeper in Revolution history to earn the honor."
+    ]
+   },
+   {
+    "text": "Matt Turner has played under Mikel Arteta.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 7 matches (2022 to 2023)",
+     "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 7 matches (2022 to 2023)"
+    ]
+   },
+   {
+    "text": "Matt Turner has played under Nuno Espírito Santo.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Nottingham Forest] Was managed by Nuno Espírito Santo at Nottingham Forest in 8 matches (2023 to 2024)",
+     "[Squad data > Nottingham Forest] Was managed by Nuno Espírito Santo at Nottingham Forest in 8 matches (2023 to 2024)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Matt_Turner_(soccer)",
+   "revid": 1386343281
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Christian Nørgaard",
+  "acceptableAnswers": [
+   "Christian Nørgaard",
+   "Nørgaard"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I spent six seasons as a mainstay for one English club, but only won the Premier League after leaving them.\nEven then, I made just seven league appearances that season.\nI've played with Saka, Rice & Bryan Mbeumo.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The hook is strong and fits the style guide perfectly: a player who was a mainstay for six seasons but only won the league after leaving, with just seven appearances. This creates immediate intrigue and avoids leading with a famous fact or stacking headline stats. The sentence structure connects the",
+   "fix": "The final clue list (Saka, Rice & Bryan Mbeumo) is slightly weak because Saka and Rice are both Arsenal players, which strongly points to an Arsenal connection for two of the three names. While Mbeumo adds a different club (Brentford), having two names from the same prominent squad reduces the 'narr"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Christian Nørgaard spent six seasons as a mainstay for one English club.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "This was his sixth and final season playing for Brentford, concluding his time at the club with 196 appearances and scoring 13 goals.",
+     "This was his sixth and final season playing for Brentford"
+    ]
+   },
+   {
+    "text": "Christian Nørgaard won the Premier League after leaving that specific English club.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 10 July 2025, Nørgaard was signed by fellow Premier League club Arsenal on a two-year deal for a reported fee of £10 million...",
+     "In July 2025, he signed with fellow London club Arsenal, winning the Premier League & Community Shield."
+    ]
+   },
+   {
+    "text": "Christian Nørgaard made just seven league appearances in the season he won the Premier League.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Nørgaard made seven Premier League appearances for Arsenal, which was enough for him to earn a winner's medal, as the Gunners won their first league title in twenty-two years.",
+     "Nørgaard made seven Premier League appearances for Arsenal, which was enough for him to earn a winner's medal, as the Gunners won their first league title in twenty-two years."
+    ]
+   },
+   {
+    "text": "Christian Nørgaard has played with Bukayo Saka.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Arsenal FC] Played in 14 matches alongside Bukayo Saka for Arsenal FC (2025 to 2026)",
+     "[Squad data > Arsenal FC] Played in 14 matches alongside Bukayo Saka for Arsenal FC (2025 to 2026)"
+    ]
+   },
+   {
+    "text": "Christian Nørgaard has played with Declan Rice.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Arsenal FC] Played in 12 matches alongside Declan Rice for Arsenal FC (2025 to 2026)",
+     "[Squad data > Arsenal FC] Played in 12 matches alongside Declan Rice for Arsenal FC (2025 to 2026)"
+    ]
+   },
+   {
+    "text": "Christian Nørgaard has played with Bryan Mbeumo.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Brentford FC] Played in 109 matches alongside Bryan Mbeumo for Brentford FC (2021 to 2025)",
+     "[Squad data > Brentford FC] Played in 109 matches alongside Bryan Mbeumo for Brentford FC (2021 to 2025)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Christian_Nørgaard",
+   "revid": 1385021027
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Patson Daka",
+  "acceptableAnswers": [
+   "Patson Daka",
+   "Daka"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": null,
+  "status": "NEEDS_WORK",
+  "question": "I became the first player from my country to score in the group stage of the Champions League.\nAfter moving to England, I scored four goals in a single Europa League match.\nI've played with Tielemans & Wesley Fofana.",
+  "problems": [
+   "every team-mate and manager named meets the player at Leicester City, so together they only say 'Leicester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+  ],
+  "style": {
+   "score": 0,
+   "why": "lint"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Patson Daka was the first player from his country to score in the group stage of the Champions League.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "becoming the first Zambian player to score in the competition's group stage",
+     "On 27 November, Daka scored against Genk in the 2019–20 UEFA Champions League, becoming the first Zambian player to score in the competition's group stage."
+    ]
+   },
+   {
+    "text": "After moving to England, Patson Daka scored four goals in a single Europa League match.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He followed this up on 20 October by scoring all four goals in a 4–3 win over Spartak Moscow in the 2021–22 UEFA Europa League",
+     "He followed this up on 20 October by scoring all four goals in a 4–3 win over Spartak Moscow in the 2021–22 UEFA Europa League, becoming the first Leicester player to score 4 in a game since 1958."
+    ]
+   },
+   {
+    "text": "Patson Daka has played with Tielemans and Wesley Fofana.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Leicester City] Played in 7 matches alongside Wesley Fofana for Leicester City (2022) [Squad data > Leicester City] Played in 54 matches alongside Youri Tielemans for Leicester City (2021 to 2023)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Patson_Daka",
+   "revid": 1385254648
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Jesse Lingard",
+  "acceptableAnswers": [
+   "Jesse Lingard",
+   "Lingard"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to December 2026 (Transfermarkt)"
+  },
+  "target": 4,
+  "status": "READY",
+  "question": "I've played club football in South Korea and in Brazil, where I became the first British player to score in the Copa do Brasil.\nYears before, I'd played for my country at the 2018 World Cup, where we finished fourth.\nI've been managed by van Gaal, Mourinho & Moyes.",
+  "problems": [],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The hook (first Brit to score in the Copa do Brasil) is a genuine 'really?' moment that fits the style guide's preference for delightful obscure facts over dull stats. The structure works well: it opens with the surprising achievement, connects back to a major tournament (2018 WC), and closes with a",
+   "fix": "The manager list (van Gaal, Mourinho & Moyes) is slightly weak because all three are heavily associated with Manchester United, which might make the answer too obvious for a keen fan who knows Lingard's career path. However, since the first sentence already narrows it down significantly to Lingard ("
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Jesse Lingard has played club football in South Korea.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 7 February 2024, Lingard signed a two-year contract with South Korean K League club FC Seoul.",
+     "On 7 February 2024, Lingard signed a two-year contract with South Korean K League club FC Seoul."
+    ]
+   },
+   {
+    "text": "Jesse Lingard has played club football in Brazil.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Jesse Ellis Lingard (born 15 December 1992) is an English professional footballer who plays as an attacking midfielder or winger for Campeonato Brasileiro Série A club Corinthians.",
+     "On 6 March 2026, Lingard signed a one-year contract with Brazilian club Corinthians."
+    ]
+   },
+   {
+    "text": "Jesse Lingard was the first British player to score in the Copa do Brasil.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "he became the first British player to score a goal in the Copa do Brasil",
+     "he became the first British player to score a goal in the Copa do Brasil"
+    ]
+   },
+   {
+    "text": "Jesse Lingard played for his country at the 2018 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Lingard represented England at under-17 and under-21 levels, before making his senior international debut in October 2016 and representing his country at the 2018 FIFA World Cup",
+     "representing his country at the 2018 FIFA World Cup"
+    ]
+   },
+   {
+    "text": "The team Jesse Lingard represented at the 2018 World Cup finished fourth.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Lingard represented England at under-17 and under-21 levels, before making his senior international debut in October 2016 and representing his country at the 2018 FIFA World Cup, where England finished fourth.",
+     "representing his country at the 2018 FIFA World Cup, where England finished fourth."
+    ]
+   },
+   {
+    "text": "Jesse Lingard was managed by van Gaal.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester United] Was managed by Louis van Gaal at Manchester United in 40 matches (2014 to 2016)",
+     "[Squad data > Manchester United] Was managed by Louis van Gaal at Manchester United in 40 matches (2014 to 2016)"
+    ]
+   },
+   {
+    "text": "Jesse Lingard was managed by Mourinho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 100 matches (2016 to 2018)",
+     "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 100 matches (2016 to 2018)"
+    ]
+   },
+   {
+    "text": "Jesse Lingard was managed by Moyes.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 16 matches (2021)",
+     "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 16 matches (2021)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Jesse_Lingard",
+   "revid": 1386703966
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Dele Alli",
+  "acceptableAnswers": [
+   "Dele Alli",
+   "Alli"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": 4,
+  "status": "NEEDS_WORK",
+  "question": "As a teenager I played the full 90 minutes of a historic 4-0 League Cup win over Manchester United.\nWithin three years I had been voted PFA Young Player of the Year twice in a row.\nI've played with Weghorst, Iwobi & Bale.",
+  "problems": [
+   "claim is wrong: \"Dele Alli was voted PFA Young Player of the Year two consecutive times within three years of playing the full 90 minutes of that historic 4-0 League Cup win over Manchester United.\"",
+   "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 3,
+   "difficulty": 2,
+   "why": "The facts are correct and the teammate list is good (Weghorst, Iwobi & Bale spans clubs well), but it reads like a list of three disconnected achievements rather than a story. It lacks the conversational flow, tension or 'aha' moment found in the originals. Additionally, leading with the famous 4-0 ",
+   "fix": "Rewrite to connect the sentences and add a twist or feeling. For example: \"I was just a teenager when I played every minute of that historic 4-0 win over Manchester United. It set me on a path where I won the PFA Young Player award two years running, yet my career has seen me play alongside Weghorst"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Dele Alli was a teenager when he played the full 90 minutes of a historic 4-0 League Cup win over Manchester United.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 26 August, Dele played the full 90 minutes in the League Cup second round as MK Dons recorded a historic 4–0 win over Manchester United."
+    ]
+   },
+   {
+    "text": "The match in which Dele Alli played the full 90 minutes as a teenager was a 4-0 League Cup victory for his team against Manchester United.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 26 August, Dele played the full 90 minutes in the League Cup second round as MK Dons recorded a historic 4–0 win over Manchester United.",
+     "On 26 August, Dele played the full 90 minutes in the League Cup second round as MK Dons recorded a historic 4–0 win over Manchester United."
+    ]
+   },
+   {
+    "text": "Within three years of playing the full 90 minutes of that historic 4-0 League Cup win over Manchester United, Dele Alli had been voted PFA Young Player of the Year twice in a row.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 26 August, Dele played the full 90 minutes in the League Cup second round as MK Dons recorded a historic 4–0 win over Manchester United."
+    ]
+   },
+   {
+    "text": "Dele Alli was voted PFA Young Player of the Year two consecutive times within three years of playing the full 90 minutes of that historic 4-0 League Cup win over Manchester United.",
+    "final": "CONTRADICTED",
+    "quotes": []
+   },
+   {
+    "text": "Dele Alli has played with Weghorst, Iwobi & Bale.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Dele_Alli",
+   "revid": 1385385622
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Kieran Tierney",
+  "acceptableAnswers": [
+   "Kieran Tierney",
+   "Tierney"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2030 (Transfermarkt)"
+  },
+  "target": 4,
+  "status": "NEEDS_WORK",
+  "question": "At one point I considered representing the Isle of Man at a ConIFA World Cup.\nAs a teenager I scored from the edge of my own penalty area in a development league match.\nI've played with Zubimendi, Aubameyang & Saka.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 4,
+   "why": "The first sentence is a dull procedural detail that neither delights nor surprises, violating the hook rule. The second sentence is an obscure minor stat with no narrative weight. While the final clue list is strong and correctly narrows the field, the question reads as a flat list of disconnected, ",
+   "fix": "Replace the first two sentences with a memorable moment or tension (e.g., his rapid rise from Celtic to Arsenal, or a specific high-profile performance) to create a narrative arc."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Kieran Tierney considered representing the Isle of Man at a ConIFA World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He had also considered playing for the Ellan Vannin team that represents the Isle of Man when the ConIFA World Cup competition was being held.",
+     "He had also considered playing for the Ellan Vannin team that represents the Isle of Man when the ConIFA World Cup competition was being held."
+    ]
+   },
+   {
+    "text": "As a teenager, Kieran Tierney scored from the edge of his own penalty area in a development league match.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "in October 2014 during a Development League match against Heart of Midlothian he scored a goal from the edge of his own penalty box.",
+     "in October 2014 during a Development League match against Heart of Midlothian he scored a goal from the edge of his own penalty box"
+    ]
+   },
+   {
+    "text": "Kieran Tierney has played with Zubimendi.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Real Sociedad] Played in 19 matches alongside Martín Zubimendi for Real Sociedad (2023 to 2024)",
+     "[Squad data > Real Sociedad] Played in 19 matches alongside Martín Zubimendi for Real Sociedad (2023 to 2024)"
+    ]
+   },
+   {
+    "text": "Kieran Tierney has played with Aubameyang.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Arsenal FC] Played in 58 matches alongside Pierre-Emerick Aubameyang for Arsenal FC (2019 to 2021)",
+     "[Squad data > Arsenal FC] Played in 58 matches alongside Pierre-Emerick Aubameyang for Arsenal FC (2019 to 2021)"
+    ]
+   },
+   {
+    "text": "Kieran Tierney has played with Saka.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Arsenal FC] Played in 112 matches alongside Bukayo Saka for Arsenal FC (2019 to 2025)",
+     "[Squad data > Arsenal FC] Played in 112 matches alongside Bukayo Saka for Arsenal FC (2019 to 2025)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Kieran_Tierney",
+   "revid": 1386098464
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Conor Coady",
+  "acceptableAnswers": [
+   "Conor Coady",
+   "Coady"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "ENG": true,
+   "RET": true
+  },
+  "retiredEvidence": {
+   "retired": true,
+   "quote": "On 6 November 2026, Coady announced his retirement from professional football.",
+   "how": "article",
+   "contract": "2026-06-30 00:00:00"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I was in England's squads for Euro 2020 and the 2022 World Cup, yet I didn't play a single minute at either.\nI was once named in UEFA's Squad of the Season after playing every minute of a Europa League campaign.\nI've played with Vitinha, Anthony Gordon & Wilfred Ndidi.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The hook is strong and memorable (being in two major tournament squads without playing a minute), which fits the 'twist' requirement well. The second sentence provides a specific achievement that narrows the field effectively. However, it loses a point because the final clue list (Vitinha, Gordon, &",
+   "fix": "Ndidi) is slightly awkward; while they are all from his Southampton era, listing three current high-profile players without mentioning the club or context feels like a simple name-dropping exercise rather than a clever narrowing clue. It works, but it's less elegant than the originals' 'Torres, Kalu"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Conor Coady was included in England's squad for Euro 2020.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He made his debut for the senior team in 2020 and was part of the squad that came runners-up at UEFA Euro 2020.",
+     "Coady was in the England squad that came runners-up at UEFA Euro 2020, held in 2021."
+    ]
+   },
+   {
+    "text": "Conor Coady was included in England's squad for the 2022 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He was later included in the squad for the 2022 FIFA World Cup in Qatar",
+     "He was later included in the squad for the 2022 FIFA World Cup in Qatar"
+    ]
+   },
+   {
+    "text": "Conor Coady did not play a single minute at Euro 2020.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Though he did not play any games, he was dubbed England's \"player of the tournament\" by assistant manager Steve Holland",
+     "Though he did not play any games, he was dubbed England's \"player of the tournament\" by assistant manager Steve Holland"
+    ]
+   },
+   {
+    "text": "Conor Coady did not play a single minute at the 2022 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "though again he did not make any appearances in the tournament",
+     "he did not make any appearances in the tournament"
+    ]
+   },
+   {
+    "text": "Conor Coady was named in UEFA's Squad of the Season.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "At the end of the competition, he was named in UEFA's Squad of the Season.",
+     "At the end of the competition, he was named in UEFA's Squad of the Season."
+    ]
+   },
+   {
+    "text": "Conor Coady played every minute of a Europa League campaign.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He also played every minute of Wolves' Europa League campaign in 2019–20 as they reached the quarter-finals.",
+     "He also played every minute of Wolves' Europa League campaign in 2019–20 as they reached the quarter-finals."
+    ]
+   },
+   {
+    "text": "Conor Coady has played with Vitinha.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Wolverhampton Wanderers] Played in 19 matches alongside Vitinha for Wolverhampton Wanderers (2020 to 2021)",
+     "[Squad data > Wolverhampton Wanderers] Played in 19 matches alongside Vitinha for Wolverhampton Wanderers (2020 to 2021)"
+    ]
+   },
+   {
+    "text": "Conor Coady has played with Anthony Gordon.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Everton FC] Played in 15 matches alongside Anthony Gordon for Everton FC (2022 to 2023)",
+     "[Squad data > Everton FC] Played in 15 matches alongside Anthony Gordon for Everton FC (2022 to 2023)"
+    ]
+   },
+   {
+    "text": "Conor Coady has played with Wilfred Ndidi.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Leicester City] Played in 16 matches alongside Wilfred Ndidi for Leicester City (2024 to 2025)",
+     "[Squad data > Leicester City] Played in 16 matches alongside Wilfred Ndidi for Leicester City (2024 to 2025)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Conor_Coady",
+   "revid": 1386698060
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Allan Saint-Maximin",
+  "acceptableAnswers": [
+   "Allan Saint-Maximin",
+   "Saint-Maximin"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "During a loan spell in Germany, my time was cut short after I collided with a tram and presented a fake driving licence.\nYears later I made my mark in the Premier League before moving to Saudi Arabia.\nI've been managed by Steve Bruce & José Mourinho.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The tram incident is a genuinely memorable and charming hook that fits the style guide's preference for delightful oddities over dull stats. The narrative flow is good, connecting the scandal to his later career success. However, it loses a point because the final clue (Bruce & Mourinho) points very",
+   "fix": "Consider swapping one of the managers for a teammate from a different club or era to make the narrowing clue less obvious and more puzzle-like, as per the style guide's advice on spreading names across clubs."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Allan Saint-Maximin had a loan spell in Germany.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Saint-Maximin began his professional career at Saint-Étienne as a teenager before joining Monaco, where he gained experience through loan spells at German side Hannover 96 and French club Bastia.",
+     "Saint-Maximin began his professional career at Saint-Étienne as a teenager before joining Monaco, where he gained experience through loan spells at German side Hannover 96 and French club Bastia."
+    ]
+   },
+   {
+    "text": "Allan Saint-Maximin's time during his loan spell in Germany was cut short after he collided with a tram.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "However, an incident cut his loan short. In April, Saint-Maximin was involved in a car accident that collided with a tram...",
+     "However, an incident cut his loan short. In April, Saint-Maximin was involved in a car accident that collided with a tram"
+    ]
+   },
+   {
+    "text": "Allan Saint-Maximin presented a fake driving licence after colliding with a tram during his loan spell in Germany.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In April, Saint-Maximin was involved in a car accident that collided with a tram, injuring 1 person then presented a fake driving license, leading to an investigation on suspicion of forgery, driving without a license and negligent bodily harm.",
+     "In April, Saint-Maximin was involved in a car accident that collided with a tram, injuring 1 person then presented a fake driving license, leading to an investigation on suspicion of forgery, driving without a license and negligent bodily harm."
+    ]
+   },
+   {
+    "text": "Years after his loan spell in Germany, Allan Saint-Maximin made his mark in the Premier League.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "After a brief stint at Nice, Saint-Maximin made his mark in the Premier League with Newcastle United.",
+     "After a brief stint at Nice, Saint-Maximin made his mark in the Premier League with Newcastle United."
+    ]
+   },
+   {
+    "text": "Allan Saint-Maximin moved to Saudi Arabia after making his mark in the Premier League.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He later moved to Saudi Arabian club Al-Ahli before having a loan spell at Turkish side Fenerbahçe."
+    ]
+   },
+   {
+    "text": "Steve Bruce has managed Allan Saint-Maximin.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Newcastle United] Was managed by Steve Bruce at Newcastle United in 63 matches (2019 to 2021)",
+     "[Squad data > Newcastle United] Was managed by Steve Bruce at Newcastle United in 63 matches (2019 to 2021)"
+    ]
+   },
+   {
+    "text": "José Mourinho has managed Allan Saint-Maximin.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Fenerbahce] Was managed by José Mourinho at Fenerbahce in 29 matches (2024 to 2025)",
+     "[Squad data > Fenerbahce] Was managed by José Mourinho at Fenerbahce in 29 matches (2024 to 2025)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Allan_Saint-Maximin",
+   "revid": 1385881143
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Matheus Cunha",
+  "acceptableAnswers": [
+   "Matheus Cunha",
+   "Cunha"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2030 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I originally played futsal for a club in Recife before moving to Europe as an 18-year-old to join Sion.\nI later scored a Bundesliga goal that was nominated for the FIFA Puskás Award.\nI've played with the likes of Griezmann, Casemiro & Timo Werner.",
+  "problems": [],
+  "style": {
+   "score": 3,
+   "difficulty": 4,
+   "why": "The question is factually correct and follows the structure, but it reads like a list of disconnected facts rather than a story. The first sentence (futsal in Recife) is a dull procedural detail that doesn't hook the reader or provide a memorable 'aha' moment. The second sentence mentions a Puskas-n",
+   "fix": "Rewrite to focus on the tension between his modest start and high-profile career, or highlight the specific Puskas goal context more vividly. For example: 'I started my career playing futsal in Brazil before moving to Switzerland as a teenager. My time at RB Leipzig saw me score a stunning long-rang"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Matheus Cunha originally played futsal for a club in Recife.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He originally played futsal for a club in Recife, before switching to football.",
+     "He originally played futsal for a club in Recife, before switching to football."
+    ]
+   },
+   {
+    "text": "Matheus Cunha moved to Europe as an 18-year-old to join Sion.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "At the age of 18, he moved to Europe to join Swiss club Sion.",
+     "At the age of 18, he moved to Europe to join Swiss club Sion."
+    ]
+   },
+   {
+    "text": "Matheus Cunha scored a Bundesliga goal that was nominated for the FIFA Puskás Award.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He scored a goal against Bayer Leverkusen in April 2019 that won the Bundesliga Goal of the Month award, and was nominated for the FIFA Puskás Award.",
+     "He scored a goal against Bayer Leverkusen in April 2019 that won the Bundesliga Goal of the Month award, and was nominated for the FIFA Puskás Award."
+    ]
+   },
+   {
+    "text": "Matheus Cunha has played with Griezmann, Casemiro & Timo Werner.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Matheus_Cunha",
+   "revid": 1385505876
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Ezri Konsa",
+  "acceptableAnswers": [
+   "Ezri Konsa",
+   "Konsa"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I was in the squad that won the 2017 Under-20 World Cup, though I played just a single minute of the tournament.\nNine years later I won the Europa League.\nI've played with Coutinho, Sancho & Nico O'Reilly.",
+  "problems": [
+   "claim not stated in the evidence: \"Nine years after the 2017 Under-20 World Cup, Ezri Konsa won the Europa League.\"",
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The structure is strong and fits the house style well: it opens with a specific, slightly obscure fact (U20 WC squad member who barely played), creates tension by contrasting that minor role with a major trophy win nine years later, and closes with a list of teammates from different clubs/eras to do",
+   "fix": "The main weakness is the final clue. 'Coutinho' is a very famous name, but pairing him with Sancho (who was at Dortmund when Konsa was there? No, Konsa was at Aston Villa/Dortmund loan... wait, Konsa was at Aston Villa, then Dortmund on loan in 2019-20. Sancho was at Dortmund. So they were teammates"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Ezri Konsa was in the squad that won the 2017 Under-20 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup",
+     "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup"
+    ]
+   },
+   {
+    "text": "Ezri Konsa played just a single minute of the 2017 Under-20 World Cup tournament.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "his only appearance of the tournament coming as a 93rd-minute substitute",
+     "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup with his only appearance of the tournament coming as a 93rd-minute substitute during the 3–1 semi-final victory over Italy."
+    ]
+   },
+   {
+    "text": "Nine years after the 2017 Under-20 World Cup, Ezri Konsa won the Europa League.",
+    "final": "NOT_FOUND",
+    "quotes": [
+     "On 20 May 2026, Konsa started in the 2026 UEFA Europa League final, which Aston Villa won 3–0."
+    ]
+   },
+   {
+    "text": "Ezri Konsa has played with Coutinho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Aston Villa] Played in 33 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)",
+     "[Squad data > Aston Villa] Played in 33 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)"
+    ]
+   },
+   {
+    "text": "Ezri Konsa has played with Sancho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)",
+     "[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)"
+    ]
+   },
+   {
+    "text": "Ezri Konsa has played with Nico O'Reilly.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > England] Played in 3 matches alongside Nico O'Reilly for England (2026)",
+     "[Squad data > England] Played in 3 matches alongside Nico O'Reilly for England (2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Ezri_Konsa",
+   "revid": 1386025172
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Odsonne Édouard",
+  "acceptableAnswers": [
+   "Odsonne Édouard",
+   "Édouard"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I scored the fastest goal by a debutant in Premier League history, 28 seconds after coming on.\nBefore that, I became the first player from my country to be named SFWA Footballer of the Year in Scotland.\nI've played with Frimpong, Olise & Saint-Maximin.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 4,
+   "why": "The draft fails on multiple style and logic fronts. First, it leads with the player's most famous headline fact (fastest debut goal), which violates the rule against giving away the answer immediately; this makes the question flat and untricky. Second, the teammate clue is flawed: Kieran Tierney (im",
+   "fix": "The draft fails on multiple style and logic fronts. First, it leads with the player's most famous headline fact (fastest debut goal), which violates the rule against giving away the answer immediately; this makes the question flat and untricky. Second, the teammate clue is flawed: Kieran Tierney (im"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Odsonne Édouard scored the fastest goal by a debutant in Premier League history.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "the first of which was the fastest debutant goal in Premier League history",
+     "the first of which was the fastest debutant goal in Premier League history which he scored in just 28 seconds."
+    ]
+   },
+   {
+    "text": "Odsonne Édouard's goal was scored 28 seconds after coming on as a substitute.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "the first of which was the fastest debutant goal in Premier League history which he scored in just 28 seconds",
+     "the first of which was the fastest debutant goal in Premier League history which he scored in just 28 seconds."
+    ]
+   },
+   {
+    "text": "Odsonne Édouard is the first player from his country to be named SFWA Footballer of the Year in Scotland.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He was later adjudged as the SFWA Footballer of the Year for 2019–20 (becoming the first French player to win that award) and Celtic Player of the Year.",
+     "He was later adjudged as the SFWA Footballer of the Year for 2019–20 (becoming the first French player to win that award)"
+    ]
+   },
+   {
+    "text": "Odsonne Édouard has played with Frimpong, Olise & Saint-Maximin.",
+    "final": "SUPPORTED",
+    "quotes": []
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Odsonne_Édouard",
+   "revid": 1385590222
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Sam Johnstone",
+  "acceptableAnswers": [
+   "Sam Johnstone",
+   "Johnstone"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I spent the early part of my career on loan at seven different clubs, including a spell with my hometown team.\nWith that club I kept a clean sheet in a 4-0 win at Wembley to secure promotion to the Championship.\nI've since played with the likes of Conor Gallagher, Marc Guéhi & Matheus Cunha.",
+  "problems": [],
+  "style": {
+   "score": 3,
+   "difficulty": 5,
+   "why": "The question is factually correct and follows the structure well, but it fails the 'tricky and thought-provoking' test for a few reasons. First, the hook (loaning to seven clubs) is a bit dry; while true, it's not as memorable or charming as the best examples in the style guide (like Mitoma's thesis",
+   "fix": "Make the opening hook more engaging or surprising. Instead of just listing the number of loans, focus on the specific achievement at Wembley first, then reveal the context of his journeyman status. For example: 'I kept a clean sheet in a 4-0 win at Wembley to secure promotion for my hometown club, a"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Sam Johnstone spent the early part of his career on loan at seven different clubs.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Johnstone spent time on loan with Oldham Athletic, Scunthorpe United, Walsall, Yeovil Town, Doncaster Rovers, Preston North End and Aston Villa",
+     "Johnstone spent time on loan with Oldham Athletic, Scunthorpe United, Walsall, Yeovil Town, Doncaster Rovers, Preston North End and Aston Villa"
+    ]
+   },
+   {
+    "text": "One of the clubs Sam Johnstone was on loan to during the early part of his career was his hometown team.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 12 January 2015, Johnstone joined his hometown club, Preston North End of League One, on loan until the end of the 2014–15 season.",
+     "On 12 January 2015, Johnstone joined his hometown club, Preston North End of League One, on loan until the end of the 2014–15 season."
+    ]
+   },
+   {
+    "text": "Sam Johnstone kept a clean sheet in a 4-0 win at Wembley while playing for his hometown club.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 25 May, Johnstone kept a clean sheet in the 2015 League One play-off final as Preston won promotion to the Championship with a 4–0 win over Swindon Town at Wembley Stadium.",
+     "On 25 May, Johnstone kept a clean sheet in the 2015 League One play-off final as Preston won promotion to the Championship with a 4–0 win over Swindon Town at Wembley Stadium."
+    ]
+   },
+   {
+    "text": "The 4-0 win at Wembley secured promotion to the Championship for Sam Johnstone's hometown club.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 25 May, Johnstone kept a clean sheet in the 2015 League One play-off final as Preston won promotion to the Championship with a 4–0 win over Swindon Town at Wembley Stadium.",
+     "On 25 May, Johnstone kept a clean sheet in the 2015 League One play-off final as Preston won promotion to the Championship with a 4–0 win over Swindon Town at Wembley Stadium."
+    ]
+   },
+   {
+    "text": "Sam Johnstone has played with Conor Gallagher.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > West Bromwich Albion] Played in 30 matches alongside Conor Gallagher for West Bromwich Albion (2020 to 2021)",
+     "[Squad data > West Bromwich Albion] Played in 30 matches alongside Conor Gallagher for West Bromwich Albion (2020 to 2021)"
+    ]
+   },
+   {
+    "text": "Sam Johnstone has played with Marc Guéhi.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Played in 27 matches alongside Marc Guéhi for Crystal Palace (2023 to 2024)",
+     "[Squad data > Crystal Palace] Played in 27 matches alongside Marc Guéhi for Crystal Palace (2023 to 2024)"
+    ]
+   },
+   {
+    "text": "Sam Johnstone has played with Matheus Cunha.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Wolverhampton Wanderers] Played in 9 matches alongside Matheus Cunha for Wolverhampton Wanderers (2024 to 2025)",
+     "[Squad data > Wolverhampton Wanderers] Played in 9 matches alongside Matheus Cunha for Wolverhampton Wanderers (2024 to 2025)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Sam_Johnstone",
+   "revid": 1386838517
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Tyrick Mitchell",
+  "acceptableAnswers": [
+   "Tyrick Mitchell",
+   "Mitchell"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I came through Brentford's youth ranks until their academy closed in 2016.\nI then joined another London club, and in 2022 made my England debut after two of the country's best-known defenders withdrew.\nI've been managed by Roy Hodgson, Patrick Vieira & Oliver Glasner.",
+  "problems": [
+   "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+   "claim not stated in the evidence: \"Tyrick Mitchell came through Brentford's youth ranks until their academy closed in 2016.\""
+  ],
+  "style": {
+   "score": 0,
+   "why": "lint"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Tyrick Mitchell came through Brentford's youth ranks until their academy closed in 2016.",
+    "final": "NOT_FOUND",
+    "quotes": []
+   },
+   {
+    "text": "Tyrick Mitchell joined another London club after leaving Brentford's youth system.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In July 2016, Mitchell joined Premier League club Crystal Palace."
+    ]
+   },
+   {
+    "text": "Tyrick Mitchell made his England debut in 2022.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He made his debut for the England national team in 2022.",
+     "He made his debut for the England national team in 2022."
+    ]
+   },
+   {
+    "text": "Two of the country's best-known defenders withdrew before Tyrick Mitchell made his England debut in 2022.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He received his first senior England call up on 21 March 2022, following withdrawals by Trent Alexander-Arnold and Reece James."
+    ]
+   },
+   {
+    "text": "Tyrick Mitchell has been managed by Roy Hodgson.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Was managed by Roy Hodgson at Crystal Palace in 61 matches (2020 to 2024)",
+     "[Squad data > Crystal Palace] Was managed by Roy Hodgson at Crystal Palace in 61 matches (2020 to 2024)"
+    ]
+   },
+   {
+    "text": "Tyrick Mitchell has been managed by Patrick Vieira.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 65 matches (2021 to 2023)",
+     "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 65 matches (2021 to 2023)"
+    ]
+   },
+   {
+    "text": "Tyrick Mitchell has been managed by Oliver Glasner.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 97 matches (2024 to 2026)",
+     "[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 97 matches (2024 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Tyrick_Mitchell",
+   "revid": 1385451416
+  },
+  "alternatives": []
+ }
+]

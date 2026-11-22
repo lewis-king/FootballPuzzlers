@@ -1,0 +1,118 @@
+{
+ "answer": "Darwin Núñez",
+ "acceptableAnswers": [
+  "Darwin Núñez",
+  "Núñez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I scored on my senior international debut against Peru in 2019.\nYears later I became only the second Uruguayan to win the Premier League.\nI've been managed by Jorge Jesus, Jürgen Klopp & Arne Slot.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and uses a good list of managers to narrow the field, but it reads like a list of disconnected facts rather than a story. It lacks the conversational flow, tension, or 'twist' that defines the best originals (e.g., no contrast between his reputation and a specific, ",
+  "fix": "Rewrite in first person with connected sentences and a hook. For example: 'I scored on my senior debut against Peru, but it was years later that I finally won the Premier League, becoming only the second Uruguayan to do so. Along the way, I’ve been managed by Jorge Jesus, Jürgen Klopp & Arne Slot.'"
+ },
+ "claims": [
+  {
+   "text": "Darwin Núñez scored on his senior international debut against Peru in 2019.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He scored on his international debut against Peru.",
+    "He scored on his international debut against Peru."
+   ]
+  },
+  {
+   "text": "Darwin Núñez is only the second Uruguayan to win the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the second Uruguayan to achieve this feat following Diego Forlán",
+    "In a season marked by limited playing time, Núñez regardless won his first Premier League title with Liverpool, becoming the second Uruguayan to achieve this feat following Diego Forlán."
+   ]
+  },
+  {
+   "text": "Jorge Jesus has managed Darwin Núñez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SL Benfica] Was managed by Jorge Jesus at SL Benfica in 60 matches (2020 to 2021)",
+    "[Squad data > SL Benfica] Was managed by Jorge Jesus at SL Benfica in 60 matches (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Jürgen Klopp has managed Darwin Núñez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Was managed by Jürgen Klopp at Liverpool FC in 94 matches (2022 to 2024)",
+    "[Squad data > Liverpool FC] Was managed by Jürgen Klopp at Liverpool FC in 94 matches (2022 to 2024)"
+   ]
+  },
+  {
+   "text": "Arne Slot has managed Darwin Núñez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 41 matches (2024 to 2025)",
+    "[Squad data > Liverpool FC] Was managed by Arne Slot at Liverpool FC in 41 matches (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Darwin_Núñez",
+  "revid": 1386349750
+ },
+ "alternatives": [
+  {
+   "question": "As a teenager I suffered a cruciate ligament injury that ruled me out for over a year.\nLater in my career, I became the all-time top scorer for my Portuguese club in modern Champions League history.\nI've played alongside Vertonghen, Gonçalo Ramos & Federico Valverde.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I joined a Spanish second-tier club for a record fee before moving to Portugal for another club record.\nIt was there I became the all-time top scorer in my club's modern Champions League history.\nI've been managed by Jorge Jesus, Jürgen Klopp & Arne Slot.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I joined the Spanish second division for a club record fee in 2019.\nFollowing my time there, I moved to Portugal where I became the league's top scorer in 2022.\nI've played with the likes of Rúben Dias, Salah & Van Dijk.",
+   "problems": [
+    "claim not stated in the evidence: \"Following his time in the Spanish second division, Darwin Núñez moved to Portugal.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I scored on my senior international debut against Peru in 2019.\nYears later I won the Premier League, becoming only the second Uruguayan to do so.\nI've played with the likes of Rúben Dias, Mohamed Salah & Manuel Ugarte.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The phrase 'becoming only the second Uruguayan to do so' is a present-tense count that could change if another Uruguayan wins the Premier League in 2026 or later.; The claim 'becoming only the second Uruguayan to do so' could become false if another Uruguayan wins the league."
+   ],
+   "style": 3
+  },
+  {
+   "question": "I scored on my senior international debut against Peru.\nYears later I became only the second Uruguayan to win the Premier League.\nI've played with the likes of Rúben Dias, Mohamed Salah & Manuel Ugarte.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The phrase 'only the second Uruguayan to win the Premier League' is a present-tense superlative that could become false if another Uruguayan wins the league in the future.; The claim 'only the second Uruguayan to win the Premier League' could become false if another Uruguayan wins it."
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once joined a Spanish second-division side for a club record fee.\nFollowing my time in Spain I moved to Portugal, where I became the league's top scorer and Player of the Year.\nI've been managed by Jorge Jesus, Jürgen Klopp & Arne Slot.",
+   "problems": [
+    "claim is wrong: \"After his time in Spain, Darwin Núñez moved to Portugal.\""
+   ],
+   "style": 2
+  }
+ ]
+}

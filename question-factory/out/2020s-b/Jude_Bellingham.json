@@ -1,0 +1,98 @@
+{
+ "answer": "Jude Bellingham",
+ "acceptableAnswers": [
+  "Jude Bellingham",
+  "Bellingham"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 2,
+ "status": "READY",
+ "question": "I became the youngest first-team player in the history of my first club, and they later retired my shirt number as a mark of appreciation.\nFollowing my move to Spain in 2023, I broke the record for the most goals scored in my first 15 games for my new club.\nI've been managed by Carlo Ancelotti & Marco Rose.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The question is factually accurate and follows the house style well with connected sentences and a narrowing clue at the end. However, it loses points for leading with the player's most famous early-career narrative (youngest debutant + retired shirt), which gives away the answer to any casual fan. ",
+  "fix": "Remove the first sentence about being the youngest player and having your number retired, as this is Bellingham's primary headline fact. Instead, open with a less obvious achievement or a specific moment from his time at Dortmund (e.g., scoring in the Champions League final or a specific domestic杯)."
+ },
+ "claims": [
+  {
+   "text": "Jude Bellingham became the youngest first-team player in the history of his first club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Bellingham became the youngest first-team player in Birmingham City's history",
+    "Bellingham became the youngest first-team player in Birmingham City's history, at 16 years and 38 days."
+   ]
+  },
+  {
+   "text": "Jude Bellingham's first club retired his shirt number as a mark of appreciation.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In appreciation of what Bellingham achieved in such a short time with the first team, the club announced that they would retire his number 22 shirt",
+    "In appreciation of what Bellingham achieved in such a short time with the first team, the club announced that they would retire his number 22 shirt, \"to remember one of our own and to inspire others.\""
+   ]
+  },
+  {
+   "text": "Jude Bellingham moved to Spain in 2023.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Bellingham signed for Real Madrid in 2023 for €103 million."
+   ]
+  },
+  {
+   "text": "Jude Bellingham broke the record for the most goals scored in his first 15 games for his new club after moving to Spain in 2023.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "his personal total to 14 from his first 15 games, breaking the club record held jointly by Pruden, Alfredo Di Stéfano and Cristiano Ronaldo",
+    "his personal total to 14 from his first 15 games, breaking the club record"
+   ]
+  },
+  {
+   "text": "Carlo Ancelotti has managed Jude Bellingham.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Was managed by Carlo Ancelotti at Real Madrid in 93 matches (2023 to 2025)",
+    "[Squad data > Real Madrid] Was managed by Carlo Ancelotti at Real Madrid in 93 matches (2023 to 2025)"
+   ]
+  },
+  {
+   "text": "Marco Rose has managed Jude Bellingham.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Borussia Dortmund] Was managed by Marco Rose at Borussia Dortmund in 44 matches (2021 to 2022)",
+    "[Squad data > Borussia Dortmund] Was managed by Marco Rose at Borussia Dortmund in 44 matches (2021 to 2022)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jude_Bellingham",
+  "revid": 1385901029
+ },
+ "alternatives": [
+  {
+   "question": "At the 2026 World Cup I scored seven goals, making me the highest goal-scorer for my country in a single tournament.\nIncredibly, I was also the first person born in the 21st century to score in a World Cup.\nI've played with the likes of Haaland, Mbappé & Harry Kane.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In 2023 I was named the Bundesliga Player of the Season, yet I ended that campaign in tears after my team narrowly missed out on the title.\nWithin a year I had won the Champions League & became the all-time top English scorer for my club.\nI've played with Vinícius Júnior, Sancho & Trent Alexander-Arnold.",
+   "problems": [
+    "claim not stated in the evidence: \"Jude Bellingham was named the Bundesliga Player of the Season in 2023.\"",
+    "claim is wrong: \"Jude Bellingham's team narrowly missed out on the title in the 2023 campaign.\""
+   ],
+   "style": 2
+  }
+ ]
+}

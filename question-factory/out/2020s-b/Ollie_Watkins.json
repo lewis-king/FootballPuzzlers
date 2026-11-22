@@ -1,0 +1,147 @@
+{
+ "answer": "Ollie Watkins",
+ "acceptableAnswers": [
+  "Ollie Watkins",
+  "Watkins"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "Despite being a forward I was named the Premier League Playmaker of the Season in 2024.\nPreviously I'd been named the Championship Player of the Year after finishing as joint top-scorer for that division.\nI've played with Rashford, Asensio & Tielemans",
+ "problems": [
+  "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+ ],
+ "style": {
+  "score": 0,
+  "why": "lint"
+ },
+ "claims": [
+  {
+   "text": "Ollie Watkins is a forward.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Oliver George Arthur Watkins (born 30 December 1995) is an English professional footballer who plays as a forward for Saudi Pro League club Al-Hilal and the England national team.",
+    "Oliver George Arthur Watkins (born 30 December 1995) is an English professional footballer who plays as a forward for Saudi Pro League club Al-Hilal and the England national team."
+   ]
+  },
+  {
+   "text": "Ollie Watkins was named the Premier League Playmaker of the Season in 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In May 2024, he was named Premier League Playmaker of the Season for the 2023–24 season.",
+    "In May 2024, he was named Premier League Playmaker of the Season for the 2023–24 season."
+   ]
+  },
+  {
+   "text": "Ollie Watkins was named the Championship Player of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "EFL Championship Player of the Year: 2019–20",
+    "being named Championship Player of the Year in 2020."
+   ]
+  },
+  {
+   "text": "Ollie Watkins finished as joint top-scorer in the Championship division.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "culminating in being the joint top-scorer in the 2019–20 Championship",
+    "being the joint top-scorer in the 2019–20 Championship"
+   ]
+  },
+  {
+   "text": "Ollie Watkins was named the Championship Player of the Year before being named the Premier League Playmaker of the Season in 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "being named Championship Player of the Year in 2020... In May 2024, he was named Premier League Playmaker of the Season for the 2023–24 season."
+   ]
+  },
+  {
+   "text": "Ollie Watkins has played with Rashford.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 16 matches alongside Marcus Rashford for Aston Villa (2025)",
+    "[Squad data > Aston Villa] Played in 16 matches alongside Marcus Rashford for Aston Villa (2025)"
+   ]
+  },
+  {
+   "text": "Ollie Watkins has played with Asensio.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 20 matches alongside Marco Asensio for Aston Villa (2025)",
+    "[Squad data > Aston Villa] Played in 20 matches alongside Marco Asensio for Aston Villa (2025)"
+   ]
+  },
+  {
+   "text": "Ollie Watkins has played with Tielemans.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 122 matches alongside Youri Tielemans for Aston Villa (2023 to 2026)",
+    "[Squad data > Aston Villa] Played in 122 matches alongside Youri Tielemans for Aston Villa (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ollie_Watkins",
+  "revid": 1383062722
+ },
+ "alternatives": [
+  {
+   "question": "I failed a trial with my boyhood club at the age of nine, yet I eventually won their EFL Young Player of the Year award in 2017.\nFollowing a move to Saudi Arabia in 2026, I’ve had the honour of playing for England at both a European Championship & a World Cup.\nI've been managed by Dean Smith & Unai Emery",
+   "problems": [
+    "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was once the joint top-scorer in the Championship and named Player of the Year for that division.\nFollowing my move to the Premier League, I became the first player since 2009 to score four goals against Liverpool in a single season.\nI've played with Coutinho, Grealish & Maupay.",
+   "problems": [
+    "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was once the joint top-scorer in the Championship and was named the division's Player of the Year in 2020.\nBy May 2025 I had become my next club's all-time top Premier League scorer.\nI've played with Grealish, Rashford & Tielemans",
+   "problems": [
+    "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I've scored more Premier League goals for my club than any other player in their history.\nDespite this, I was named the league's Playmaker of the Season in 2024.\nI've been managed by Dean Smith & Unai Emery and played with Sancho.",
+   "problems": [
+    "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "wording will date: The claim of scoring more Premier League goals than any other player in the club's history is a current record that could be broken by another player.; The claim to have scored more goals than any other player in the club's history is a current record that could be broken."
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once scored a perfect hat-trick against the reigning champions in my first Premier League month, a result that was their heaviest defeat in 57 years.\nIn 2024 I was named the league's Playmaker of the Season despite not being a midfielder.\nI've played with the likes of Maupay, Coutinho & Sancho",
+   "problems": [
+    "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Ollie Watkins has played with Maupay, Coutinho & Sancho.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "In May 2025 I became my club's all-time top Premier League scorer.\nThat same year I won the Europa League and helped my country to a third place finish at the World Cup.\nI've played with Grealish, Coutinho & Sancho",
+   "problems": [
+    "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Ollie Watkins won the Europa League in 2025.\"",
+    "claim is wrong: \"Ollie Watkins helped his country to a third place finish at the World Cup in 2025.\""
+   ],
+   "style": 0
+  }
+ ]
+}

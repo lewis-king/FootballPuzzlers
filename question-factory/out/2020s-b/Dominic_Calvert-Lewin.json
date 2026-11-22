@@ -1,0 +1,113 @@
+{
+ "answer": "Dominic Calvert-Lewin",
+ "acceptableAnswers": [
+  "Dominic Calvert-Lewin",
+  "Calvert-Lewin"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "Early in my career I spent a loan spell at Northampton Town in League Two, where I scored eight goals in 26 appearances.\nYears later I became the first player for Leeds United to be named Premier League Player of the Month since Rio Ferdinand in 2001.\nI've played alongside Wayne Rooney & Sean Longstaff.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and follows a logical career path, but it reads like a list of stats rather than a story. The hook (loan spell at Northampton) is a bit dry for a casual fan, and the middle sentence relies on a specific record anchor ('since Rio Ferdinand') which feels clunky. It is",
+  "fix": "Make it more conversational and focus on the contrast between his early struggles/loans and his sudden breakout. For example: 'I started my career with a loan spell in League Two, scoring eight goals for Northampton Town. Years later, I was named Premier League Player of the Month for Leeds United,a"
+ },
+ "claims": [
+  {
+   "text": "Dominic Calvert-Lewin spent a loan spell at Northampton Town in League Two early in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He spent the first half of the 2015–16 season on loan at Northampton Town in League Two",
+    "He spent the first half of the 2015–16 season on loan at Northampton Town in League Two"
+   ]
+  },
+  {
+   "text": "Dominic Calvert-Lewin scored eight goals in 26 appearances during his loan spell at Northampton Town.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "By the time he left, he had made 26 appearances and scored eight times across all competitions.",
+    "By the time he left, he had made 26 appearances and scored eight times across all competitions."
+   ]
+  },
+  {
+   "text": "Dominic Calvert-Lewin was the first player for Leeds United to be named Premier League Player of the Month since Rio Ferdinand in 2001.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He became the first Leeds United player to have won the award since Rio Ferdinand in October 2001.",
+    "He became the first Leeds United player to have won the award since Rio Ferdinand in October 2001."
+   ]
+  },
+  {
+   "text": "Dominic Calvert-Lewin played alongside Wayne Rooney and Sean Longstaff.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Played in 35 matches alongside Wayne Rooney for Everton FC (2017 to 2018)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Dominic_Calvert-Lewin",
+  "revid": 1385901950
+ },
+ "alternatives": [
+  {
+   "question": "In my youth academy I actually played as a box-to-box midfielder.\nYears later I became the first Everton player to score two hat-tricks in one month since Dixie Dean in 1931.\nI've been managed by Carlo Ancelotti & Daniel Farke.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "When I first started in my academy, I actually played as a box-to-box midfielder.\nIt was only after being loaned to a Conference North side that I began playing as a centre forward.\nI've been managed by Carlo Ancelotti & Daniel Farke.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I scored the winning goal for my country in a FIFA U-20 World Cup final.\nIncredibly, this makes me one of only three English players to have ever scored in a World Cup final.\nI've played with the likes of James Rodríguez, Dele Alli & Noah Okafor.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The claim \"one of only three English players to have ever scored in a World Cup final\" is an all-time ranking stated in the present tense that could change if another English player scores in a future World Cup final.; The claim 'one of only three English players to have ever scored in a World Cup final' could become false if another English player scores in a future tournament."
+   ],
+   "style": 4
+  },
+  {
+   "question": "I started my senior career on loan at Conference North side Stalybridge Celtic.\nIncredibly, I later became one of only three English players to score in a World Cup final.\nI've played with the likes of James Rodríguez, Noah Okafor & Dele Alli.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "Although I started my youth career as a box-to-box midfielder, I converted to a forward during a loan spell in the Conference North.\nYears later I became the first player for my current club to be named Premier League Player of the Month since 2001.\nI've been managed by Carlo Ancelotti & Daniel Farke.",
+   "problems": [
+    "tied to where the player is now (\"current\"): it goes wrong the day he moves club or league; anchor it to something fixed, such as his position or a year",
+    "wording will date: The claim 'first player for my current club to be named Premier League Player of the Month since 2001' is a superlative record that could theoretically be broken by another player at the same club in the future.; The phrase 'my current club' and the reference to a record held at that club are time-sensitive."
+   ],
+   "style": 0
+  },
+  {
+   "question": "I scored the winning goal in a World Cup final for my country.\nInterestingly, this was at under-20 level and I'm one of only three Englishmen to have achieved the feat.\nI've played with the likes of James Rodríguez, Noah Okafor & Dele Alli.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim is wrong: \"Dominic Calvert-Lewin scored the winning goal in a World Cup final for his country.\"",
+    "claim is wrong: \"Dominic Calvert-Lewin is one of only three Englishmen to have scored the winning goal in an under-20 World Cup final for their country.\""
+   ],
+   "style": 0
+  }
+ ]
+}

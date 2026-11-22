@@ -10,7 +10,7 @@
     "backgroundColor": "#0e1b2f",
     "ios": {
       "bundleIdentifier": "com.king.FootballTrivia",
-      "buildNumber": "31",
+      "buildNumber": "32",
       "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -19,7 +19,7 @@
     },
     "android": {
       "package": "com.footballtrivia",
-      "versionCode": 3000003,
+      "versionCode": 3000008,
       "adaptiveIcon": {
         "backgroundColor": "#0E1624",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -58,8 +58,8 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
-          "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+          "androidAppId": "ca-app-pub-5964830289406172~6573111124",
+          "iosAppId": "ca-app-pub-5964830289406172~5649522946",
           "delayAppMeasurementInit": true,
           "userTrackingUsageDescription": "This lets us show you ads that are more relevant. Saying no still gives you ads, just less tailored ones."
         }

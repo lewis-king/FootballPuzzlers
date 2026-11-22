@@ -1,0 +1,116 @@
+{
+ "answer": "Mason Mount",
+ "acceptableAnswers": [
+  "Mason Mount",
+  "Mount"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "READY",
+ "question": "Early in my career I was often accused of benefiting from manager favouritism for both club and country.\nYet I eventually became the first graduate of my academy to reach 50 appearances in a single season.\nI've been managed by Frank Lampard, Thomas Tuchel & Rúben Amorim.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook (accusations of favouritism) is a strong, memorable narrative point that fits the house style well. The manager list effectively narrows the field without giving away the answer immediately, as it spans different clubs and eras. However, the middle sentence ('first graduate... to reach 50')",
+  "fix": "Replace the dry statistical achievement with a more evocative moment or consequence of that season (e.g., winning the Europa League, or a specific high-profile performance) to maintain the narrative flow."
+ },
+ "claims": [
+  {
+   "text": "Mason Mount was often accused early in his career of benefiting from manager favouritism for both club and country.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mount's presence in the Chelsea and England starting line-ups was alleged by fans and media to be because of favouritism by respective team managers",
+    "Early in the season, Mount's presence in the Chelsea and England starting line-ups was alleged by fans and media to be because of favouritism by respective team managers, Lampard and Gareth Southgate."
+   ]
+  },
+  {
+   "text": "Mason Mount became the first graduate of his academy to reach 50 appearances in a single season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 22 July, he became the first Chelsea Academy graduate to make his first team debut and complete 50 appearances in the same season.",
+    "he became the first Chelsea Academy graduate to make his first team debut and complete 50 appearances in the same season."
+   ]
+  },
+  {
+   "text": "Frank Lampard managed Mason Mount.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Was managed by Frank Lampard at Chelsea FC in 80 matches (2019 to 2023)",
+    "[Squad data > Chelsea FC] Was managed by Frank Lampard at Chelsea FC in 80 matches (2019 to 2023)"
+   ]
+  },
+  {
+   "text": "Thomas Tuchel managed Mason Mount.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Was managed by Thomas Tuchel at Chelsea FC in 81 matches (2021 to 2022)",
+    "[Squad data > Chelsea FC] Was managed by Thomas Tuchel at Chelsea FC in 81 matches (2021 to 2022)"
+   ]
+  },
+  {
+   "text": "Rúben Amorim managed Mason Mount.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by Rúben Amorim at Manchester United in 36 matches (2024 to 2025)",
+    "[Squad data > Manchester United] Was managed by Rúben Amorim at Manchester United in 36 matches (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Mason_Mount",
+  "revid": 1386021359
+ },
+ "alternatives": [
+  {
+   "question": "As a youth player I was named Golden Player at a European Championship.\nIn the senior game, I've had the honour of winning the Champions League and scoring a goal that handed Liverpool their fifth consecutive league defeat at Anfield.\nI've played with the likes of Varane, Lukaku & Havertz.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "As a youth player I was named Golden Player at a European Championship.\nI later spent time on loan in the Eredivisie, where I managed to score a hat-trick during the European play-offs.\nI've played with the likes of Casemiro, Lukaku & Havertz.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "During a FIFA World Cup, I won a penalty in the quarter-finals that was subsequently missed by my captain.\nIn club football, I've had the honour of winning the Champions League and being named Player of the Season twice in a row.\nI've played with Havertz, Rashford & De Ligt.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I once spent a season on loan in the Eredivisie, where I was named Player of the Year.\nFollowing this, I had a spell in the Championship before finally breaking into my parent club's first team.\nI've played with the likes of Lukaku, Casemiro & Eriksen.",
+   "problems": [
+    "claim is wrong: \"Mason Mount was named Player of the Year during his time in the Eredivisie.\"",
+    "claim is wrong: \"After his spell in the Championship, Mason Mount broke into his parent club's first team.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "Early in my career I spent time playing in the Netherlands, where I once scored a hat-trick in a European play-off semi-final.\nFollowing my return to England, I won the Champions League and was named my club's Player of the Season twice in a row.\nI've played with the likes of Casemiro, Sterling & Eriksen.",
+   "problems": [
+    "claim is wrong: \"Mason Mount won the Champions League following his return to England.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "In 2020 I was spoken to by my club for ignoring self-isolation rules to play football with friends.\nDespite this, I went on to become the youngest player in that club's history to score 20 Premier League goals.\nI've been managed by Lampard, Tuchel & Ten Hag.",
+   "problems": [
+    "every team-mate and manager named meets the player at Chelsea FC, so together they only say 'Chelsea FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Mason Mount has been managed by Lampard, Tuchel & Ten Hag.\""
+   ],
+   "style": 0
+  }
+ ]
+}

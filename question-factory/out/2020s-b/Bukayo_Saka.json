@@ -1,0 +1,107 @@
+{
+ "answer": "Bukayo Saka",
+ "acceptableAnswers": [
+  "Bukayo Saka",
+  "Saka"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "Early in my career, I spent a significant period establishing myself as a regular at left-back.\nIn 2026, I scored a hat-trick to secure a bronze medal for my country at the World Cup.\nI've played with the likes of Sterling, Bellingham & Havertz.",
+ "problems": [
+  "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 3,
+  "difficulty": 1,
+  "why": "The question is factually correct but reads like a list of stats rather than a story. It fails the 'tricky' test for a superstar: listing Sterling, Bellingham & Havertz points directly to Arsenal without any misdirection or tension. Additionally, it leads with his most famous trait (left-back) and a",
+  "fix": "Reframe around a specific moment or contradiction. For example: 'I started my career as a left-back, but it was only after moving into midfield that I found my true form. In 2026, I scored a hat-trick to secure a bronze medal for my country at the World Cup. I've played with the likes of Sterling, B"
+ },
+ "claims": [
+  {
+   "text": "Bukayo Saka spent a significant period establishing himself as a regular at left-back early in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Following injuries to Sead Kolašinac and Kieran Tierney, Saka began to establish himself as a regular in the Arsenal first team at left-back.",
+    "Saka began to establish himself as a regular in the Arsenal first team at left-back."
+   ]
+  },
+  {
+   "text": "In 2026, Bukayo Saka scored a hat-trick to secure a bronze medal for his country at the World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 18 July, during the 3rd place play-off between against France, Saka scored a hat-trick to secure England's third place finish in a 6–4 win",
+    "On 18 July, during the 3rd place play-off between against France, Saka scored a hat-trick to secure England's third place finish in a 6–4 win, becoming just the fourth player to do so for England at the World Cup, following Geoff Hurst, Gary Lineker, and Harry Kane."
+   ]
+  },
+  {
+   "text": "Bukayo Saka has played with Sterling, Bellingham & Havertz.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Bukayo_Saka",
+  "revid": 1384507677
+ },
+ "alternatives": [
+  {
+   "question": "I was the first player born in 2001 to feature in a Premier League match.\nFollowing that, I became the first person to retain my club's Player of the Season award since Thierry Henry did so in 2004.\nI've played with Sterling, Rashford & Elliot Anderson.",
+   "problems": [
+    "claim is wrong: \"Bukayo Saka is the first person to retain his club's Player of the Season award since Thierry Henry did so in 2004.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "Early in my career, I spent a significant period establishing myself as a regular at left-back.\nIn 2026, I scored a hat-trick to secure a bronze medal for my country at the World Cup.\nI've played with the likes of Sterling, Bellingham & Guéhi.",
+   "problems": [
+    "claim not stated in the evidence: \"Bukayo Saka has played with Maxence Guéhi.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In a World Cup third place play-off I scored a hat-trick to secure the bronze medal for my country.\nPrior to this, I was named my national team's Player of the Year in two consecutive seasons.\nI've played alongside the likes of Bellingham, Kane & Rashford.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "I was the first player born in 2001 to play in a Premier League match.\nLater in my career, I became only the third player in my club's history to reach a specific milestone of both goals and assists.\nI've played with the likes of Sterling, Havertz & Rogers.",
+   "problems": [
+    "wording will date: The claim 'only the third player in my club's history' is a present-tense superlative that could become false if another Arsenal player reaches that milestone after November 2026.; The claim 'only the third player in my club's history' is a current ranking that could change if another player reaches that milestone."
+   ],
+   "style": 2
+  },
+  {
+   "question": "I once spent a period of my early professional career establishing myself as a regular at left-back.\nFollowing this, I became the first person to retain my club's Player of the Season award since Thierry Henry did so in 2004.\nI've been managed by Emery & Arteta.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Bukayo Saka became the first person to retain his club's Player of the Season award since Thierry Henry did so in 2004.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was the first player born in 2001 to feature in a Premier League match.\nIn 2026 I became only the third player in my club's history to reach a specific milestone of goals and assists.\nI've played with the likes of Sterling, Rice & Havertz.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"In 2026, Bukayo Saka became only the third player in his club's history to reach a specific milestone of goals and assists.\"",
+    "wording will date: The claim \"In 2026 I became only the third player...\" uses present-tense superlative language (\"only the third\") that implies a current standing which could change if another player reaches the same milestone in late 2026 or beyond.; The phrase 'only the third player' is a present-tense record that could be broken by another player tomorrow."
+   ],
+   "style": 0
+  }
+ ]
+}

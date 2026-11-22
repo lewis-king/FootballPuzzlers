@@ -1,0 +1,126 @@
+{
+ "answer": "Tammy Abraham",
+ "acceptableAnswers": [
+  "Tammy Abraham",
+  "Abraham"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I once played a game of rock paper scissors on the pitch with a teammate to decide who would take a penalty.\nDespite my early struggles for form at Swansea, I later became the first Englishman in thirty years to score more than 10 goals in a Serie A season.\nI've played alongside the likes of Dybala, João Félix & Kanté.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The hook is a dull procedural detail (deciding a penalty via RPS) that lacks charm or memorability. The second sentence leads with the player's most famous headline fact (first Englishman in 30 years to score 10+ in Serie A), which gives away the answer immediately and violates the rule against anch",
+  "fix": "Remove the RPS hook entirely. Start with a more intriguing angle, such as his early struggles at Swansea or a specific memorable moment from his time at Roma/Chelsea. Ensure the first sentence does not contain the 'first Englishman in 30 years' record, as this is too obvious for Tammy Abraham. Use a"
+ },
+ "claims": [
+  {
+   "text": "Tammy Abraham once played a game of rock paper scissors on the pitch with a teammate to decide who would take a penalty.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Later that year, while representing the U19 team in a friendly against Japan, Abraham and teammate Patrick Roberts played a game of rock paper scissors on the pitch to decide who would take a penalty.",
+    "Abraham and teammate Patrick Roberts played a game of rock paper scissors on the pitch to decide who would take a penalty."
+   ]
+  },
+  {
+   "text": "Tammy Abraham had early struggles for form at Swansea.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Both club and player struggled for form thereafter, however, and by the end of the year Abraham had failed to add to his goal tally.",
+    "Both club and player struggled for form thereafter, however, and by the end of the year Abraham had failed to add to his goal tally."
+   ]
+  },
+  {
+   "text": "Tammy Abraham was the first Englishman in thirty years to score more than 10 goals in a Serie A season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first English player in thirty years to score more than 10 goals in a Serie A season",
+    "becoming the first English player in thirty years to score more than 10 goals in a Serie A season."
+   ]
+  },
+  {
+   "text": "Tammy Abraham has played alongside Dybala.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Associazione Sportiva Roma] Played in 48 matches alongside Paulo Dybala for Associazione Sportiva Roma (2022 to 2024)",
+    "[Squad data > Associazione Sportiva Roma] Played in 48 matches alongside Paulo Dybala for Associazione Sportiva Roma (2022 to 2024)"
+   ]
+  },
+  {
+   "text": "Tammy Abraham has played alongside João Félix.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AC Milan] Played in 16 matches alongside João Félix for AC Milan (2025)",
+    "[Squad data > AC Milan] Played in 16 matches alongside João Félix for AC Milan (2025)"
+   ]
+  },
+  {
+   "text": "Tammy Abraham has played alongside Kanté.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 50 matches alongside N'Golo Kanté for Chelsea FC (2019 to 2021)",
+    "[Squad data > Chelsea FC] Played in 50 matches alongside N'Golo Kanté for Chelsea FC (2019 to 2021)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Tammy_Abraham",
+  "revid": 1386388771
+ },
+ "alternatives": [
+  {
+   "question": "During a loan spell at Bristol City I became the first player ever to win the club's Player of the Season, Young Player of the Season and top goalscorer awards in one year.\nI have since had the honour of winning every UEFA club competition.\nI've been managed by the likes of Mourinho, Lampard & Fonseca.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "Early in my career I was sounded out by the Nigerian Football Association and some claimed I had switched my allegiance to them.\nDespite this I remained available for England, later becoming one of only two players to win every UEFA club competition.\nI've played under managers such as Mourinho & Lampard.",
+   "problems": [
+    "claim not stated in the evidence: \"Tammy Abraham was sounded out by the Nigerian Football Association early in his career.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "While on loan at Aston Villa I became the first player in 40 years to score 25 goals in a single league campaign for the club.\nI later returned there permanently after spells in Italy and Turkey.\nI've played with the likes of Sancho, Morata & Reijnders.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "While on loan in the Championship I became the first player ever to win my club's Player of the Season, Young Player of the Season and top goalscorer awards in one campaign.\nYears later I moved to Italy for €40 million and eventually won the inaugural edition of the UEFA Europa Conference League.\nI've been managed by the likes of Mourinho, Lampard & Fonseca.",
+   "problems": [
+    "claim is wrong: \"Years after being on loan in the Championship, Tammy Abraham moved to Italy for €40 million.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "During a loan spell at Bristol City I became the first player ever to win the club's Player of the Season, Young Player of the Season & top goalscorer awards in a single campaign.\nYears later I moved to Italy and set a record for the most goals scored by an Englishman in a debut Serie A season.\nI've played with the likes of Dybala, João Félix & Kanté.",
+   "problems": [
+    "too long (69 words; Lewis's originals are 20 to 40)"
+   ],
+   "style": 0
+  },
+  {
+   "question": "Early in my career I was sounded out by the Nigerian Football Association, though I denied claims that I had switched my allegiance to them.\nFollowing a spell in Italy where I set a record for goals scored by an Englishman in a debut season, I eventually became only the second player ever to win every UEFA club competition.\nI've played with the likes of Dybala, João Félix & Sancho.",
+   "problems": [
+    "too long (70 words; Lewis's originals are 20 to 40)"
+   ],
+   "style": 0
+  }
+ ]
+}

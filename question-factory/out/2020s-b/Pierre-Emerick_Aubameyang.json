@@ -1,0 +1,99 @@
+{
+ "answer": "Pierre-Emerick Aubameyang",
+ "acceptableAnswers": [
+  "Pierre-Emerick Aubameyang",
+  "Aubameyang"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "After playing once for the France under-21s, I switched my allegiance to represent Gabon.\nIn 2015 I became the first Gabonese player to be named African Footballer of the Year.\nI've been managed by Klopp, Emery & De Zerbi.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is strong because it leads with a genuine misdirection (the France U21 cap) and uses the manager list effectively to narrow the field across different clubs (Liverpool, Arsenal, Brighton). It avoids giving away the position or nationality in the first sentence. However, it loses one '5'",
+  "fix": "To reach a 5, tighten the second sentence slightly to feel more like a narrative beat rather than a stat drop, and ensure the manager list feels less like a checklist. For example: 'After playing once for France's under-21s, I switched my allegiance to Gabon, becoming their first-ever African Player"
+ },
+ "claims": [
+  {
+   "text": "Pierre-Emerick Aubameyang played once for the France under-21s.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After playing once for the France under-21 team",
+    "After playing once for the France under-21 team, Aubameyang switched to represent Gabon at international level"
+   ]
+  },
+  {
+   "text": "After playing once for the France under-21s, Pierre-Emerick Aubameyang switched his allegiance to represent Gabon.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After playing once for the France under-21 team, Aubameyang switched to represent Gabon at international level",
+    "After playing once for the France under-21 team, Aubameyang switched to represent Gabon at international level"
+   ]
+  },
+  {
+   "text": "In 2015, Pierre-Emerick Aubameyang became the first Gabonese player to be named African Footballer of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2015, he was named African Footballer of the Year; the first Gabonese and second European-born player to win the award.",
+    "In 2015, he was named African Footballer of the Year; the first Gabonese and second European-born player to win the award."
+   ]
+  },
+  {
+   "text": "Pierre-Emerick Aubameyang has been managed by Klopp.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Borussia Dortmund] Was managed by Jürgen Klopp at Borussia Dortmund in 93 matches (2013 to 2015)",
+    "[Squad data > Borussia Dortmund] Was managed by Jürgen Klopp at Borussia Dortmund in 93 matches (2013 to 2015)"
+   ]
+  },
+  {
+   "text": "Pierre-Emerick Aubameyang has been managed by Emery.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Unai Emery at Arsenal FC in 65 matches (2018 to 2019)",
+    "[Squad data > Arsenal FC] Was managed by Unai Emery at Arsenal FC in 65 matches (2018 to 2019)"
+   ]
+  },
+  {
+   "text": "Pierre-Emerick Aubameyang has been managed by De Zerbi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Olympique Marseille] Was managed by Roberto De Zerbi at Olympique Marseille in 27 matches (2025 to 2026)",
+    "[Squad data > Olympique Marseille] Was managed by Roberto De Zerbi at Olympique Marseille in 27 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Pierre-Emerick_Aubameyang",
+  "revid": 1386553621
+ },
+ "alternatives": [
+  {
+   "question": "I began my senior club career at AC Milan, but I never actually played a game for them.\nInstead I spent several loan spells in France before eventually becoming the highest scoring African player in Bundesliga history.\nI've played with the likes of Isak, Saka & João Félix.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I'm the all-time top goalscorer in the UEFA Europa League.\nIncredibly, I won a league title with Barcelona despite playing only nine minutes for the club.\nI've played alongside Lewandowski, Sterling & Koulibaly.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The claim of being the 'all-time top goalscorer' is a present-tense record that could be broken by another player scoring more goals in future seasons.; The claim to be the all-time top goalscorer is a current record that could be broken."
+   ],
+   "style": 0
+  }
+ ]
+}

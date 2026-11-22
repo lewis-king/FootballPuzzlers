@@ -1,0 +1,73 @@
+{
+ "answer": "Moisés Caicedo",
+ "acceptableAnswers": [
+  "Moisés Caicedo",
+  "Caicedo"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2033 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I wear a squad number that had not been used by my club since Gianfranco Zola left in 2003.\nIn 2024, I scored my first goal for them with a strike from 50 yards out.\nI've played alongside Hincapié, Colwill & Trossard",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is excellent and fits the 'delightful oddity' criteria perfectly (wearing Zola's number). The narrative flow is good, connecting the number to a specific memorable moment (the 50-yard goal) which fans actually remember. It avoids giving away the position or nationality explicitly. However, ",
+  "fix": "The final clue list (Hincapié, Colwill & Trossard) all point exclusively to Chelsea's current squad. While this is a valid narrowing clue, it lacks the 'spread across clubs' element that makes some of Lewis's best questions tricky (e.g., mixing in a former teammate from a previous club or national)."
+ },
+ "claims": [
+  {
+   "text": "Moisés Caicedo wears a squad number that had not been used by his club since Gianfranco Zola left in 2003.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Caicedo received the squad number 25, which was not officially retired but had not been worn since Gianfranco Zola left Chelsea in 2003",
+    "Caicedo received the squad number 25, which was not officially retired but had not been worn since Gianfranco Zola left Chelsea in 2003"
+   ]
+  },
+  {
+   "text": "In 2024, Moisés Caicedo scored his first goal for his club with a strike from 50 yards out.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 19 May 2024, the final match day of the Premier League season, he scored his first goal for Chelsea with a shot from 50 yards out, in a 2–1 win over Bournemouth.",
+    "On 19 May 2024, the final match day of the Premier League season, he scored his first goal for Chelsea with a shot from 50 yards out, in a 2–1 win over Bournemouth."
+   ]
+  },
+  {
+   "text": "Moisés Caicedo has played alongside Hincapié, Colwill & Trossard.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Moisés_Caicedo",
+  "revid": 1386402552
+ },
+ "alternatives": [
+  {
+   "question": "I once had a trial with Barcelona in Guayaquil that proved unsuccessful.\nIncredibly, I later captained my youth team to a title in Spain before moving to the Belgian Pro League on loan.\nI've played with Mac Allister, Sterling & Sancho",
+   "problems": [
+    "claim not stated in the evidence: \"Moisés Caicedo moved to the Belgian Pro League on loan after captaining his youth team to a title in Spain.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once announced my desire to leave my club via an open letter on Instagram.\nAlthough I've since won a European trophy in 2025, I first arrived in England for a fee of just £4 million.\nI've been managed by De Zerbi, Pochettino & Maresca",
+   "problems": [
+    "claim not stated in the evidence: \"Moisés Caicedo announced his desire to leave his club via an open letter on Instagram.\""
+   ],
+   "style": 3
+  }
+ ]
+}

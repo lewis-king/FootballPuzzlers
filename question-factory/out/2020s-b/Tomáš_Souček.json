@@ -1,0 +1,138 @@
+{
+ "answer": "Tomáš Souček",
+ "acceptableAnswers": [
+  "Tomáš Souček",
+  "Souček"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "The fee paid for my move to the Premier League in 2020 was enough to cover the running costs of my childhood club for ten years.\nBy February 2026 I had become the highest scoring Czech player in that league's history.\nI've been managed by David Moyes & played alongside Felipe Anderson, Adam Hlozek & Axel Disasi.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The first sentence is a dull procedural detail (transfer fee vs club running costs) that fails the 'memorable or charming' test and reads like an infobox stat. The second sentence anchors a record to a specific future date ('By February 2026'), which violates the style guide's rule against time-anch",
+  "fix": "Replace the dull transfer fee hook with a memorable moment (e.g., his goal in the Europa Conference League final or a specific Premier League performance). Remove the 'By February 2026' anchor and state the record as a current fact ('I am now the highest scoring Czech player...'). Ensure the list of"
+ },
+ "claims": [
+  {
+   "text": "Tomáš Souček moved to the Premier League in 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 29 January 2020, Souček joined Premier League side West Ham United on an initial loan deal until the end of the 2019–20 season",
+    "On 29 January 2020, Součěek joined Premier League side West Ham United on an initial loan deal until the end of the 2019–20 season, with an option to make the transfer permanent in the summer."
+   ]
+  },
+  {
+   "text": "The fee paid for Tomáš Souček's move to the Premier League in 2020 was enough to cover the running costs of his childhood club for ten years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Slovan Havlíčkův Brod subsequently netted £1.5 million following Souček's transfer to West Ham United in 2020, covering their running costs for the next ten years.",
+    "Slovan Havlíčkův Brod subsequently netted £1.5 million following Souček's transfer to West Ham United in 2020, covering their running costs for the next ten years."
+   ]
+  },
+  {
+   "text": "By February 2026, Tomáš Souček had become the highest scoring Czech player in the Premier League's history.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "surpassing Patrik Berger as the highest scoring Czech in Premier League history",
+    "On 10 February 2026, Souček scored in West Ham's 1–1 draw with Manchester United, his 39th Premier League goal, surpassing Patrik Berger as the highest scoring Czech in Premier League history."
+   ]
+  },
+  {
+   "text": "Tomáš Souček has been managed by David Moyes.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 196 matches (2020 to 2024)",
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 196 matches (2020 to 2024)"
+   ]
+  },
+  {
+   "text": "Tomáš Souček played alongside Felipe Anderson.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Played in 7 matches alongside Felipe Anderson for West Ham United (2020)",
+    "Played in 7 matches alongside Felipe Anderson for West Ham United (2020)"
+   ]
+  },
+  {
+   "text": "Tomáš Souček played alongside Adam Hlozek.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Czech Republic] Played in 3 matches alongside Adam Hlozek for Czech Republic (2026)",
+    "[Squad data > Czech Republic] Played in 3 matches alongside Adam Hlozek for Czech Republic (2026)"
+   ]
+  },
+  {
+   "text": "Tomáš Souček played alongside Axel Disasi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Played in 16 matches alongside Axel Disasi for West Ham United (2026)",
+    "Played in 16 matches alongside Axel Disasi for West Ham United (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Tomáš_Souček",
+  "revid": 1385400347
+ },
+ "alternatives": [
+  {
+   "question": "I once spent time on loan at a club where the manager wasn't convinced of my ability, yet he would later go on to manage me again.\nIn 2026 I became the highest scoring Czech player in Premier League history.\nI've played with the likes of Declan Rice, Carlos Soler & Ladislav Krejci.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I once had trials with two second-tier clubs who both decided not to sign me.\nFollowing a loan spell where my manager was not initially convinced of my ability, I eventually became the highest scoring Czech player in Premier League history.\nI've played with the likes of Declan Rice, Patrik Schick & Ladislav Krejci.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was once controversially sent off for an incident where my manager and teammates publicly protested my innocence.\nFollowing this, I went on to win a European trophy in my home city of Prague.\nI've been managed by David Moyes & played alongside Felipe Anderson, Evan Ferguson & Adam Hlozek.",
+   "problems": [
+    "claim not stated in the evidence: \"Following the incident where Tomáš Souček was controversially sent off, he went on to win a European trophy in Prague.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "The fee paid for my transfer to the Premier League in 2020 was enough to cover the running costs of my childhood club for ten years.\nIn 2026 I became the highest scoring Czech player in the history of that league.\nI've played with the likes of Felipe Anderson, Kalvin Phillips & Evan Ferguson.",
+   "problems": [
+    "every team-mate and manager named meets the player at West Ham United, so together they only say 'West Ham United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "Early in my career I had trials with two second-tier clubs who both decided not to sign me.\nYet I've since won the Czech Footballer of the Year award four times, equalling a record set by Pavel Nedvěd.\nI've played alongside Patrik Schick & Ladislav Krejci.",
+   "problems": [
+    "every team-mate and manager named meets the player at Czech Republic, so together they only say 'Czech Republic'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"The record for most Czech Footballer of the Year awards was set by Pavel Nedvěd.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "My first goal for my English club came in a win against Chelsea.\nI later won a European trophy with them in my home city, and became the first player to equal Nedvěd's four Czech Footballer of the Year awards.\nI've been managed by David Moyes, Graham Potter & Nuno Espírito Santo.",
+   "problems": [
+    "every team-mate and manager named meets the player at West Ham United, so together they only say 'West Ham United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Tomáš Souček won a European trophy with his English club in his home city.\"",
+    "claim not stated in the evidence: \"Tomáš Souček became the first player to equal Nedvěd's four Czech Footballer of the Year awards.\""
+   ],
+   "style": 0
+  }
+ ]
+}

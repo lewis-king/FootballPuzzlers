@@ -1,0 +1,120 @@
+{
+ "answer": "Odsonne Édouard",
+ "acceptableAnswers": [
+  "Odsonne Édouard",
+  "Édouard"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "In 2015 I won both the Golden Player and Golden Boot awards at a European Under-17 Championship.\nI later moved to Scotland for a club record fee, where I became the first French player to be named SFWA Footballer of the Year.\nI've played with Frimpong, Olise & Saint-Maximin.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 4,
+  "why": "The draft reads like a list of three disconnected facts rather than a story, violating the core style guide rule against flat lists. It also fails the 'tricky' test: leading with 'Golden Player and Golden Boot at U17 Euros' is a dull procedural detail that neither delights nor surprises (scoring no ",
+  "fix": "Rewrite to focus on a memorable moment or tension, such as his rapid rise from youth awards to becoming a cult hero in Scotland. Connect the sentences with narrative flow ('Following my time at...') and ensure the teammate clue (Frimpong, Olise & Saint-Maximin) is presented as a narrowing puzzle, e."
+ },
+ "claims": [
+  {
+   "text": "Odsonne Édouard won the Golden Player award at a European Under-17 Championship in 2015.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He has also represented France at various youth levels and was a key player for the country at the 2015 UEFA European Under-17 Championship, where he won both the Golden Player and Golden Boot awards.",
+    "[Honours > Individual] UEFA European Under-17 Championship Golden Player: 2015"
+   ]
+  },
+  {
+   "text": "Odsonne Édouard won the Golden Boot award at a European Under-17 Championship in 2015.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He has also represented France at various youth levels and was a key player for the country at the 2015 UEFA European Under-17 Championship, where he won both the Golden Player and Golden Boot awards."
+   ]
+  },
+  {
+   "text": "Odsonne Édouard moved to Scotland for a club record fee.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "The following season, he was loaned to Scottish Premiership club Celtic, where he won the domestic treble, before joining them on a permanent move for a club record fee"
+   ]
+  },
+  {
+   "text": "Odsonne Édouard was named SFWA Footballer of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was later adjudged as the SFWA Footballer of the Year for 2019–20 (becoming the first French player to win that award) and Celtic Player of the Year.",
+    "He was later adjudged as the SFWA Footballer of the Year for 2019–20 (becoming the first French player to win that award) and Celtic Player of the Year."
+   ]
+  },
+  {
+   "text": "Odsonne Édouard is the first French player to be named SFWA Footballer of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was later adjudged as the SFWA Footballer of the Year for 2019–20 (becoming the first French player to win that award) and Celtic Player of the Year.",
+    "He was later adjudged as the SFWA Footballer of the Year for 2019–20 (becoming the first French player to win that award)"
+   ]
+  },
+  {
+   "text": "Odsonne Édouard has played with Frimpong, Olise & Saint-Maximin.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Odsonne_Édouard",
+  "revid": 1385590222
+ },
+ "alternatives": [
+  {
+   "question": "I was once the only player playing in Scotland to be nominated for the Golden Boy award.\nFollowing a move for a club record fee, I became the first French player to be named SFWA Footballer of the Year.\nI've played with Frimpong, Olise & Saint-Maximin.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I scored the fastest debutant goal in Premier League history, netting just 28 seconds after coming on.\nBefore that, I was the first French player to be named SFWA Footballer of the Year during a spell in Scotland.\nI've played with Frimpong, Olise & Saint-Maximin.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "Early in my career, a loan spell in Ligue 1 was prematurely terminated after I was interrogated by the police.\nYears later I made a Premier League debut that saw me score the fastest goal in the history of the competition.\nI've played with Ndidi, Thauvin & Dembélé.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 5
+  },
+  {
+   "question": "Early in my career I had a loan spell at Toulouse that was prematurely terminated after I was interrogated by the police.\nYears later, I made the fastest debutant goal in Premier League history.\nI've been managed by Patrick Vieira, Brendan Rodgers & Pierre Sage.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "My first professional loan was prematurely terminated after I was interrogated by the police for an incident involving an airsoft gun.\nYears later, I returned to France and won the Coupe de France in my debut season for a new club.\nI've been managed by Rodgers, Vieira & Sage.",
+   "problems": [
+    "claim not stated in the evidence: \"Odsonne Édouard was interrogated by the police for an incident involving an airsoft gun during his first professional loan.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "Despite being eligible for Haiti, I turned down an offer to represent them at the 2026 World Cup as I felt it would be unfair to their qualifying squad.\nI've had a successful career in Scotland and England, before returning to France to win a domestic cup in 2026.\nI've played with Dembélé, Ndidi & Thauvin.",
+   "problems": [
+    "claim not stated in the evidence: \"Odsonne Édouard had a successful career in England.\""
+   ],
+   "style": 3
+  }
+ ]
+}

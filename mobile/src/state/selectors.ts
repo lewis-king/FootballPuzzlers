@@ -15,16 +15,20 @@ export function packStats(pack: PackId, answered: number[]) {
 /** Position of a question within its pack, 1-based, as shown on tiles and the nav bar. */
 export const numberInPack = (q: Question) => questionsIn(q.pack).findIndex((x) => x.id === q.id) + 1;
 
-/** The next unanswered question after this one in the pack, wrapping round. */
+/**
+ * Questions are played in order, as in 2019: the first unsolved question in a pack is the one in
+ * play, and everything after it stays locked until it's solved. Solved ones can always be reopened.
+ */
+export function isLocked(q: Question, answered: number[]) {
+  if (answered.includes(q.id)) return false;
+  const { next } = packStats(q.pack, answered);
+  return !!next && next.id !== q.id;
+}
+
+/** The question in play after this one: the first unsolved question in its pack. */
 export function nextUnanswered(q: Question, answered: number[]): Question | undefined {
-  const qs = questionsIn(q.pack);
   const done = new Set(answered);
-  const at = qs.findIndex((x) => x.id === q.id);
-  for (let i = 1; i <= qs.length; i++) {
-    const c = qs[(at + i) % qs.length];
-    if (!done.has(c.id)) return c;
-  }
-  return undefined;
+  return questionsIn(q.pack).find((x) => x.id !== q.id && !done.has(x.id));
 }
 
 export const solvedWithoutHelp = (s: SaveData) =>

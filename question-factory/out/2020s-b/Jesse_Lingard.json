@@ -1,0 +1,144 @@
+{
+ "answer": "Jesse Lingard",
+ "acceptableAnswers": [
+  "Jesse Lingard",
+  "Lingard"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to December 2026 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I made my senior international debut in 2016 and represented my country at the 2018 World Cup.\nIn recent years I've played in both South Korea & Brazil, where I became the first British player to score in the Copa do Brasil.\nI've been managed by Moyes, Mourinho & van Gaal.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The question reads like a list of disconnected facts rather than a story, violating the core style guide requirement for connected sentences and narrative flow. It also fails the 'tricky' test: leading with 'represented my country at the 2018 World Cup' combined with 'first British player to score' ",
+  "fix": "Rewrite as a narrative arc focusing on the contrast between his high-profile England debut and his later career path. Example: 'I made my senior international debut in 2016, but it was my time abroad that defined my later years. After spells in South Korea and Brazil, I became the first Britisher to"
+ },
+ "claims": [
+  {
+   "text": "Jesse Lingard made his senior international debut in 2016.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Lingard represented England at under-17 and under-21 levels, before making his senior international debut in October 2016",
+    "making his senior international debut in October 2016"
+   ]
+  },
+  {
+   "text": "Jesse Lingard represented his country at the 2018 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Lingard represented England at under-17 and under-21 levels, before making his senior international debut in October 2016 and representing his country at the 2018 FIFA World Cup",
+    "representing his country at the 2018 FIFA World Cup"
+   ]
+  },
+  {
+   "text": "In recent years, Jesse Lingard has played in South Korea.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 7 February 2024, Lingard signed a two-year contract with South Korean K League club FC Seoul.",
+    "On 7 February 2024, Lingard signed a two-year contract with South Korean K League club FC Seoul."
+   ]
+  },
+  {
+   "text": "In recent years, Jesse Lingard has played in Brazil.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 6 March 2026, Lingard signed a one-year contract with Brazilian club Corinthians.",
+    "On 6 March 2026, Lingard signed a one-year contract with Brazilian club Corinthians."
+   ]
+  },
+  {
+   "text": "Jesse Lingard became the first British player to score in the Copa do Brasil.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he became the first British player to score a goal in the Copa do Brasil",
+    "On 21 April 2026, he became the first British player to score a goal in the Copa do Brasil, securing a 1–0 away win over Barra in the fifth round."
+   ]
+  },
+  {
+   "text": "Jesse Lingard has been managed by David Moyes.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 16 matches (2021)",
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 16 matches (2021)"
+   ]
+  },
+  {
+   "text": "Jesse Lingard has been managed by José Mourinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 100 matches (2016 to 2018)",
+    "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 100 matches (2016 to 2018)"
+   ]
+  },
+  {
+   "text": "Jesse Lingard has been managed by Louis van Gaal.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by Louis van Gaal at Manchester United in 40 matches (2014 to 2016)",
+    "[Squad data > Manchester United] Was managed by Louis van Gaal at Manchester United in 40 matches (2014 to 2016)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jesse_Lingard",
+  "revid": 1386703966
+ },
+ "alternatives": [
+  {
+   "question": "During a loan spell in 2021, I scored more league goals for my temporary club than I ever did in a single season for my parent club.\nIn that same period, I recorded the furthest distance travelled with the ball before scoring in the league.\nI've played alongside the likes of Sancho, Gibbs-White & Felipe.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I represented my country at the 2018 World Cup, where we finished fourth.\nFollowing a spell in South Korea, I moved to Brazil and became the first British player to score in the Copa do Brasil.\nI've been managed by van Gaal, Moyes & Mourinho.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I made my senior debut while on loan at Leicester City in 2012.\nIt was only years later that I'd return to the Foxes as an opponent, scoring the final goal of a Premier League season to secure my club's Champions League qualification.\nI've played with the likes of Lukaku, Lodi & Rice.",
+   "problems": [
+    "claim is wrong: \"Jesse Lingard has played with Romelu Lukaku, Marquinhos Lodi, and Declan Rice.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I made my senior debut while on loan at Leicester City in 2012.\nFollowing a spell at Birmingham City, I broke into the Manchester United first-team and represented my country at the 2018 World Cup.\nI've played with the likes of Lukaku, Renan Lodi & Alexis Sánchez.",
+   "problems": [
+    "claim is wrong: \"Jesse Lingard had a spell at Birmingham City after his time at Leicester City and before breaking into the Manchester United first-team.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once scored four goals on my debut for Birmingham City during a month-long loan.\nLater in my career, I became one of only three players to score in the FA Cup, EFL Cup & Community Shield finals.\nI've played with the likes of Lodi, Rice & Lukaku.",
+   "problems": [
+    "claim is wrong: \"Jesse Lingard's loan spell at Birmingham City lasted one month.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I'm one of only three players to score in the FA Cup, EFL Cup & Community Shield finals.\nYet my career has since taken me to South Korea and Brazil, where I became the first British player to score in the Copa do Brasil.\nI've been managed by van Gaal, Moyes & Steve Cooper.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim is wrong: \"Jesse Lingard is one of only three players to score in the FA Cup final.\"",
+    "claim is wrong: \"Jesse Lingard is one of only three players to score in the EFL Cup final.\"",
+    "claim is wrong: \"Jesse Lingard is one of only three players to score in the Community Shield final.\""
+   ],
+   "style": 0
+  }
+ ]
+}

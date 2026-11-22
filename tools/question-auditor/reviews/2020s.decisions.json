@@ -1,59 +1,71 @@
 {
+ "N6": {
+  "status": "approved",
+  "at": "2026-11-21T07:35:45",
+  "applied": "2026-11-22T19:32:12"
+ },
  "N1": {
   "status": "approved",
-  "at": "2026-11-21T07:23:09"
+  "at": "2026-11-22T08:18:55",
+  "applied": "2026-11-22T19:32:12"
  },
  "N2": {
   "status": "approved",
-  "at": "2026-11-21T07:23:22"
+  "at": "2026-11-22T08:19:06",
+  "applied": "2026-11-22T19:32:12"
  },
  "N3": {
   "status": "approved",
-  "at": "2026-11-21T07:23:34"
+  "at": "2026-11-22T17:40:08",
+  "applied": "2026-11-22T19:32:12"
  },
  "N4": {
   "status": "approved",
-  "at": "2026-11-21T07:24:40"
+  "at": "2026-11-22T17:40:38",
+  "applied": "2026-11-22T19:32:12"
  },
  "N5": {
   "status": "approved",
-  "at": "2026-11-21T07:24:49"
- },
- "N6": {
-  "status": "approved",
-  "at": "2026-11-21T07:25:03"
+  "at": "2026-11-22T17:40:52",
+  "applied": "2026-11-22T19:32:12"
  },
  "N7": {
   "status": "approved",
-  "at": "2026-11-21T07:25:17"
+  "at": "2026-11-22T17:41:38",
+  "applied": "2026-11-22T19:32:12"
  },
  "N8": {
   "status": "approved",
-  "at": "2026-11-21T07:25:40"
+  "at": "2026-11-22T17:43:53",
+  "applied": "2026-11-22T19:32:12"
  },
  "N9": {
   "status": "approved",
-  "at": "2026-11-21T07:25:55"
+  "at": "2026-11-22T17:46:59",
+  "applied": "2026-11-22T19:32:12"
  },
  "N10": {
   "status": "approved",
-  "at": "2026-11-21T07:34:06"
+  "at": "2026-11-22T17:47:21",
+  "applied": "2026-11-22T19:32:12"
  },
  "N11": {
   "status": "approved",
-  "at": "2026-11-21T07:34:29"
+  "at": "2026-11-22T17:47:35",
+  "applied": "2026-11-22T19:32:12"
  },
  "N12": {
   "status": "approved",
-  "at": "2026-11-21T07:34:39"
+  "at": "2026-11-22T17:47:54",
+  "applied": "2026-11-22T19:32:12"
  },
  "N13": {
   "status": "edited",
-  "at": "2026-11-21T07:35:24",
-  "question": "I've won the Champions League & was named my club's Player of the Season for two consecutive years.\nYet I left that same club in 2023.\nI've played with the likes of Kanté, Lukaku & Eriksen.",
+  "at": "2026-11-22T17:50:27",
+  "question": "At the 2026 World Cup I registered seven assists, setting a record for the most in a single tournament.\nFollowing my time in the Premier League, I moved to Germany where I have won two league titles.\nI've played with the likes of Harry Kane, Kimmich & Mbappé.",
   "answers": [
-   "Mason Mount",
-   "Mount"
+   "Michael Olise",
+   "Olise"
   ],
   "clues": {
    "GK": false,
@@ -63,10 +75,587 @@
    "RET": false,
    "ENG": true
   },
-  "note": ""
+  "note": "",
+  "applied": "2026-11-22T19:32:12"
  },
  "N14": {
   "status": "approved",
-  "at": "2026-11-21T07:35:45"
+  "at": "2026-11-22T17:50:39",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N15": {
+  "status": "approved",
+  "at": "2026-11-22T17:51:00",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N16": {
+  "status": "approved",
+  "at": "2026-11-22T17:51:25",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N17": {
+  "status": "approved",
+  "at": "2026-11-22T17:52:13",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N18": {
+  "status": "approved",
+  "at": "2026-11-22T17:52:47",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N19": {
+  "status": "approved",
+  "at": "2026-11-22T17:53:15",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N20": {
+  "status": "approved",
+  "at": "2026-11-22T18:01:31",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N21": {
+  "status": "approved",
+  "at": "2026-11-22T18:02:01",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N22": {
+  "status": "approved",
+  "at": "2026-11-22T18:03:50",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N23": {
+  "status": "approved",
+  "at": "2026-11-22T18:04:02",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N24": {
+  "status": "approved",
+  "at": "2026-11-22T18:04:44",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N25": {
+  "status": "approved",
+  "at": "2026-11-22T18:09:05",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N26": {
+  "status": "approved",
+  "at": "2026-11-22T18:09:18",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N27": {
+  "status": "approved",
+  "at": "2026-11-22T18:09:47",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N28": {
+  "status": "approved",
+  "at": "2026-11-22T18:09:55",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N29": {
+  "status": "approved",
+  "at": "2026-11-22T18:10:55",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N30": {
+  "status": "approved",
+  "at": "2026-11-22T18:11:05",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N31": {
+  "status": "edited",
+  "at": "2026-11-22T18:13:54",
+  "question": "I later became the youngest player ever to win six major trophies for an English club.\nI've played alongside Coutinho, Bellingham & Valverde.",
+  "answers": [
+   "Trent Alexander-Arnold",
+   "Alexander-Arnold"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": false,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N32": {
+  "status": "approved",
+  "at": "2026-11-22T18:14:07",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N33": {
+  "status": "approved",
+  "at": "2026-11-22T18:15:19",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N34": {
+  "status": "approved",
+  "at": "2026-11-22T18:15:33",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N35": {
+  "status": "approved",
+  "at": "2026-11-22T18:16:07",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N36": {
+  "status": "approved",
+  "at": "2026-11-22T18:16:52",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N37": {
+  "status": "approved",
+  "at": "2026-11-22T18:17:11",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N38": {
+  "status": "approved",
+  "at": "2026-11-22T18:17:30",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N39": {
+  "status": "approved",
+  "at": "2026-11-22T18:17:41",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N40": {
+  "status": "approved",
+  "at": "2026-11-22T18:18:07",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N41": {
+  "status": "edited",
+  "at": "2026-11-22T18:19:06",
+  "question": "I've had the humiliation of being subbed off after coming on at half-time, reacting angrily to my manager in the process.\nDespite this, I later helped my club win their first major domestic trophy in 70 years.\nI've played with the likes of James Rodríguez, Bruno Guimarães & Tonali.",
+  "answers": [
+   "Anthony Gordon",
+   "Gordon"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": false,
+   "ENG": true
+  },
+  "note": "",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N42": {
+  "status": "approved",
+  "at": "2026-11-22T19:05:53",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N43": {
+  "status": "approved",
+  "at": "2026-11-22T19:06:06",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N44": {
+  "status": "approved",
+  "at": "2026-11-22T19:06:19",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N45": {
+  "status": "approved",
+  "at": "2026-11-22T19:06:43",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N46": {
+  "status": "approved",
+  "at": "2026-11-22T19:06:59",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N47": {
+  "status": "approved",
+  "at": "2026-11-22T19:07:06",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N48": {
+  "status": "approved",
+  "at": "2026-11-22T19:07:20",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N49": {
+  "status": "approved",
+  "at": "2026-11-22T19:07:52",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N50": {
+  "status": "approved",
+  "at": "2026-11-22T19:08:10",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N51": {
+  "status": "approved",
+  "at": "2026-11-22T19:08:47",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N52": {
+  "status": "approved",
+  "at": "2026-11-22T19:08:56",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N53": {
+  "status": "approved",
+  "at": "2026-11-22T19:09:47",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N54": {
+  "status": "approved",
+  "at": "2026-11-22T19:10:22",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N55": {
+  "status": "approved",
+  "at": "2026-11-22T19:10:31",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N56": {
+  "status": "approved",
+  "at": "2026-11-22T19:10:56",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N57": {
+  "status": "approved",
+  "at": "2026-11-22T19:11:07",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N58": {
+  "status": "approved",
+  "at": "2026-11-22T19:11:17",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N59": {
+  "status": "approved",
+  "at": "2026-11-22T19:11:32",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N60": {
+  "status": "approved",
+  "at": "2026-11-22T19:11:46",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N61": {
+  "status": "approved",
+  "at": "2026-11-22T19:12:00",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N62": {
+  "status": "approved",
+  "at": "2026-11-22T19:12:11",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N63": {
+  "status": "approved",
+  "at": "2026-11-22T19:12:24",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N64": {
+  "status": "approved",
+  "at": "2026-11-22T19:13:55",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N65": {
+  "status": "approved",
+  "at": "2026-11-22T19:14:15",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N66": {
+  "status": "approved",
+  "at": "2026-11-22T19:14:36",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N67": {
+  "status": "approved",
+  "at": "2026-11-22T19:14:51",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N68": {
+  "status": "approved",
+  "at": "2026-11-22T19:15:02",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N69": {
+  "status": "approved",
+  "at": "2026-11-22T19:15:31",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N70": {
+  "status": "approved",
+  "at": "2026-11-22T19:15:43",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N71": {
+  "status": "approved",
+  "at": "2026-11-22T19:16:02",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N72": {
+  "status": "approved",
+  "at": "2026-11-22T19:16:12",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N73": {
+  "status": "approved",
+  "at": "2026-11-22T19:16:34",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N74": {
+  "status": "approved",
+  "at": "2026-11-22T19:16:47",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N75": {
+  "status": "approved",
+  "at": "2026-11-22T19:17:00",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N76": {
+  "status": "approved",
+  "at": "2026-11-22T19:17:11",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N77": {
+  "status": "approved",
+  "at": "2026-11-22T19:17:24",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N78": {
+  "status": "approved",
+  "at": "2026-11-22T19:17:41",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N79": {
+  "status": "approved",
+  "at": "2026-11-22T19:17:49",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N80": {
+  "status": "approved",
+  "at": "2026-11-22T19:17:58",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N81": {
+  "status": "approved",
+  "at": "2026-11-22T19:18:09",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N82": {
+  "status": "approved",
+  "at": "2026-11-22T19:18:20",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N83": {
+  "status": "approved",
+  "at": "2026-11-22T19:18:29",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N84": {
+  "status": "approved",
+  "at": "2026-11-22T19:18:50",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N85": {
+  "status": "approved",
+  "at": "2026-11-22T19:19:14",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N86": {
+  "status": "approved",
+  "at": "2026-11-22T19:19:22",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N87": {
+  "status": "approved",
+  "at": "2026-11-22T19:19:31",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N88": {
+  "status": "approved",
+  "at": "2026-11-22T19:19:48",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N89": {
+  "status": "approved",
+  "at": "2026-11-22T19:20:03",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N90": {
+  "status": "approved",
+  "at": "2026-11-22T19:20:11",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N91": {
+  "status": "approved",
+  "at": "2026-11-22T19:20:24",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N92": {
+  "status": "approved",
+  "at": "2026-11-22T19:20:40",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N93": {
+  "status": "approved",
+  "at": "2026-11-22T19:20:48",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N94": {
+  "status": "approved",
+  "at": "2026-11-22T19:20:56",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N95": {
+  "status": "rejected",
+  "at": "2026-11-22T19:21:35",
+  "note": "No real decent detail to allow people to have a good idea of who to guess"
+ },
+ "N96": {
+  "status": "approved",
+  "at": "2026-11-22T19:21:48",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N97": {
+  "status": "approved",
+  "at": "2026-11-22T19:22:03",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N98": {
+  "status": "approved",
+  "at": "2026-11-22T19:22:23",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N99": {
+  "status": "approved",
+  "at": "2026-11-22T19:22:43",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N100": {
+  "status": "edited",
+  "at": "2026-11-22T19:24:28",
+  "question": "I spent four consecutive seasons on loan before I finally scored my first league goal for my parent club.\nI won the Premier League and then moved to Turkey.\nI've played with the likes of Ndidi, Caicedo & Sterling.",
+  "answers": [
+   "Leandro Trossard",
+   "Trossard"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N101": {
+  "status": "approved",
+  "at": "2026-11-22T19:24:48",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N102": {
+  "status": "approved",
+  "at": "2026-11-22T19:25:11",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N103": {
+  "status": "approved",
+  "at": "2026-11-22T19:25:26",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N104": {
+  "status": "approved",
+  "at": "2026-11-22T19:25:33",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N105": {
+  "status": "approved",
+  "at": "2026-11-22T19:25:55",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N106": {
+  "status": "approved",
+  "at": "2026-11-22T19:26:30",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N107": {
+  "status": "approved",
+  "at": "2026-11-22T19:27:01",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N108": {
+  "status": "approved",
+  "at": "2026-11-22T19:27:10",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N109": {
+  "status": "approved",
+  "at": "2026-11-22T19:27:24",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N110": {
+  "status": "approved",
+  "at": "2026-11-22T19:27:41",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N111": {
+  "status": "approved",
+  "at": "2026-11-22T19:28:31",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N112": {
+  "status": "rejected",
+  "at": "2026-11-22T19:28:51",
+  "note": ""
+ },
+ "N113": {
+  "status": "approved",
+  "at": "2026-11-22T19:29:06",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N114": {
+  "status": "edited",
+  "at": "2026-11-22T19:29:42",
+  "question": "I spent two years on loan in Austria, where I scored an added-time winner to send my club to a cup final for the first time in 12 years.\nFollowing my return to Germany, I scored a Champions League equaliser against Lyon.\nI've played with Gregor Kobel & Sandro Tonali.",
+  "answers": [
+   "Joelinton"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "note": "",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N115": {
+  "status": "approved",
+  "at": "2026-11-22T19:29:52",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N116": {
+  "status": "approved",
+  "at": "2026-11-22T19:30:00",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N117": {
+  "status": "approved",
+  "at": "2026-11-22T19:30:13",
+  "applied": "2026-11-22T19:32:12"
+ },
+ "N118": {
+  "status": "approved",
+  "at": "2026-11-22T19:30:26",
+  "applied": "2026-11-22T19:32:12"
  }
 }

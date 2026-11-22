@@ -1,6 +1,6 @@
 # ENG clue vs birthplace (Wikidata)
 
-ENG means born in England (How to Play text). Checked automatically by `factory/check_eng.py`.
+ENG means born in England (How to Play text). Checked automatically by `question-factory/check_eng.py`.
 
 209 agree, 2 disagree, 1 unresolved.
 

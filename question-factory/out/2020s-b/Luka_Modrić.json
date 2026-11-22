@@ -1,0 +1,124 @@
+{
+ "answer": "Luka Modrić",
+ "acceptableAnswers": [
+  "Luka Modrić",
+  "Modrić"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "article",
+  "contract": ""
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I spent seven years of my childhood living as a refugee in two different hotels.\nYears later I became the first player from Eastern Europe to win the Ballon d'Or since 2004.\nI've been managed by Mourinho, Zidane & Allegri.",
+ "problems": [
+  "too easy for its place in the pack: judged 1 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 3,
+  "difficulty": 1,
+  "why": "The first sentence is a strong hook, but the second sentence immediately gives away the answer to any casual fan by naming the Ballon d'Or and the specific 'Eastern Europe since 2004' record. This violates the rule against stacking headline facts or leading with the most famous achievement. The list",
+  "fix": "Remove the Ballon d'Or reference entirely, as it is the defining fact of his career that makes him instantly recognizable. Instead, focus on a specific moment from his time at Real Madrid (e.g., winning consecutive Champions Leagues) or a lesser-known aspect of his playing style/role to maintain the"
+ },
+ "claims": [
+  {
+   "text": "Luka Modrić spent seven years of his childhood living as a refugee in two different hotels.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Modrić became a refugee and lived with his family in the Hotel Kolovare for seven years; he later moved to the Hotel Iž, both in Zadar.",
+    "Modrić became a refugee and lived with his family in the Hotel Kolovare for seven years; he later moved to the Hotel Iž, both in Zadar."
+   ]
+  },
+  {
+   "text": "Luka Modrić became the first player from Eastern Europe to win the Ballon d'Or since 2004.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "the first footballer from Eastern Europe to win a Ballon d'Or after Andriy Shevchenko in 2004",
+    "the first footballer from Eastern Europe to win a Ballon d'Or after Andriy Shevchenko in 2004"
+   ]
+  },
+  {
+   "text": "Luka Modrić has been managed by José Mourinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 53 matches (2012 to 2013)",
+    "[Squad data > Real Madrid] Was managed by José Mourinho at Real Madrid in 53 matches (2012 to 2013)"
+   ]
+  },
+  {
+   "text": "Luka Modrić has been managed by Zinedine Zidane.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 154 matches (2016 to 2020)",
+    "[Squad data > Real Madrid] Was managed by Zinédine Zidane at Real Madrid in 154 matches (2016 to 2020)"
+   ]
+  },
+  {
+   "text": "Luka Modrić has been managed by Massimiliano Allegri.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AC Milan] Was managed by Massimiliano Allegri at AC Milan in 37 matches (2025 to 2026)",
+    "Was managed by Massimiliano Allegri at AC Milan in 37 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Luka_Modrić",
+  "revid": 1386040141
+ },
+ "alternatives": [
+  {
+   "question": "At just 18, I was named the Player of the Year in the Bosnian Premier League.\nYears later, I became the first player from Eastern Europe to win the Ballon d'Or since 2004.\nI've played with the likes of Nkunku, Pulisic & Gvardiol.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I spent seven years of my childhood living as a refugee in two different hotels.\nDespite this start, I went on to win the Ballon d'Or in 2018.\nI've been managed by Mourinho, Zidane & Allegri.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2008 I scored the fastest penalty in the history of the European Championships.\nI later became the first player from Eastern Europe to win the Ballon d'Or since 2004.\nI've played with the likes of Hazard, Nkunku & Pulisic.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2025 I became the oldest player to make a debut in Serie A.\nAlthough I am now in Italy, my greatest individual achievement was winning the Ballon d'Or in 2018.\nI've played with the likes of Hazard, Gvardiol & Mbappé.",
+   "problems": [
+    "claim not stated in the evidence: \"Luka Modrić considers winning the Ballon d'Or in 2018 to be his greatest individual achievement.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "At the age of 18 I became the Player of the Year in the Bosnian Premier League.\nYears later I won the Ballon d'Or after leading my country to a World Cup final.\nI've been managed by Mourinho, Zidane & Allegri.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "At the age of 18 I became the Bosnian Premier League Player of the Year.\nFollowing my time in Bosnia, I won the Ballon d'Or in 2018.\nI've played with the likes of Nkunku, Pulisic & Rabiot.",
+   "problems": [
+    "every team-mate and manager named meets the player at AC Milan, so together they only say 'AC Milan'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

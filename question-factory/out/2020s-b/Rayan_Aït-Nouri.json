@@ -1,0 +1,113 @@
+{
+ "answer": "Rayan Aït-Nouri",
+ "acceptableAnswers": [
+  "Rayan Aït-Nouri",
+  "Aït-Nouri"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "READY",
+ "question": "I joined my first professional academy from Paris FC in return for the club covering my tuition fees of €5,000.\nIn 2023 I switched from representing France at youth level to playing for Algeria.\nI've played with Vitinha, Marc Guéhi & Erling Haaland.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 4,
+  "why": "The question is factually accurate and follows the house style well: it uses first-person British English, connects the sentences logically (academy -> switch of allegiance -> teammates), and avoids giving away the position or nationality explicitly. The hook (tuition fees) is a charming, specific '",
+  "fix": "The opening sentence about tuition fees is a bit dry/procedural compared to the more dramatic hooks in the originals (like Bosingwa's defensive role or Kroos' brace). It feels slightly like a transfer clause rather than a story beat. However, it does serve as a unique identifier that prevents the 'f"
+ },
+ "claims": [
+  {
+   "text": "Rayan Aït-Nouri joined his first professional academy from Paris FC.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Aït-Nouri is a graduate of the Angers youth academy, which he joined from Paris FC",
+    "Aït-Nouri is a graduate of the Angers youth academy, which he joined from Paris FC"
+   ]
+  },
+  {
+   "text": "The club covering Rayan Aït-Nouri's tuition fees of €5,000 was the condition for him joining his first professional academy from Paris FC.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Aït-Nouri is a graduate of the Angers youth academy, which he joined from Paris FC in July 2016 in return for covering Aït-Nouri's tuition fees of €5,000."
+   ]
+  },
+  {
+   "text": "In 2023, Rayan Aït-Nouri switched from representing France at youth level to playing for Algeria.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In January 2023, he switched to represent Algeria internationally.",
+    "In January 2023, he switched to represent Algeria internationally."
+   ]
+  },
+  {
+   "text": "Rayan Aït-Nouri has played with Vitinha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 15 matches alongside Vitinha for Wolverhampton Wanderers (2020 to 2021)",
+    "[Squad data > Wolverhampton Wanderers] Played in 15 matches alongside Vitinha for Wolverhampton Wanderers (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Rayan Aït-Nouri has played with Marc Guéhi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 13 matches alongside Marc Guéhi for Manchester City (2026)",
+    "[Squad data > Manchester City] Played in 13 matches alongside Marc Guéhi for Manchester City (2026)"
+   ]
+  },
+  {
+   "text": "Rayan Aït-Nouri has played with Erling Haaland.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 26 matches alongside Erling Haaland for Manchester City (2025 to 2026)",
+    "[Squad data > Manchester City] Played in 26 matches alongside Erling Haaland for Manchester City (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Rayan_Aït-Nouri",
+  "revid": 1385439818
+ },
+ "alternatives": [
+  {
+   "question": "Joining my first professional academy required the club to cover my tuition fees of €5,000.\nIn 2023 I switched from representing France at youth level to playing for Algeria.\nI've played with Vitinha, Marc Guéhi & Erling Haaland.",
+   "problems": [
+    "claim not stated in the evidence: \"Rayan Aït-Nouri's first professional academy required the club to cover his tuition fees of €5,000.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once broke my jaw in a game against Nice during my time as a first-choice left-back in France.\nFollowing my move to England, I scored the winning goal in Julen Lopetegui's first Premier League game in charge.\nI've been managed by Nuno Espírito Santo & Pep Guardiola.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "My professional debut was a substitute appearance in a defeat to Paris Saint-Germain.\nFollowing my time in France, I scored on my league debut for an English club before eventually moving to Manchester City.\nI've been managed by Nuno Espírito Santo, Pep Guardiola & Stéphane Moulin.",
+   "problems": [
+    "claim not stated in the evidence: \"Rayan Aït-Nouri spent time playing in France before moving to an English club.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "Having represented France at the under-21s, I eventually chose to represent Algeria internationally.\nIn 2026 I was named in my country's squad for the FIFA World Cup.\nI've played alongside Rayan Cherki, Omar Marmoush & Matheus Cunha.",
+   "problems": [
+    "gives away the answer (\"rayan\")"
+   ],
+   "style": 0
+  }
+ ]
+}

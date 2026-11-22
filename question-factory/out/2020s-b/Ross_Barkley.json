@@ -1,0 +1,99 @@
+{
+ "answer": "Ross Barkley",
+ "acceptableAnswers": [
+  "Ross Barkley",
+  "Barkley"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I was once forced to watch a Champions League match from inside the club coach as punishment for an altercation with a taxi driver.\nDespite this, I went on to win the FA Cup and Club World Cup during my time in London.\nI've played alongside Hazard, Sancho & Grealish.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 3,
+  "why": "The hook is a delightful, specific anecdote that perfectly fits the 'obscure fact that makes people smile' criterion in the style guide. It avoids leading with his most famous stats (like his early Premier League goals or World Cup appearances), creating genuine intrigue and tension before revealing",
+  "fix": "none"
+ },
+ "claims": [
+  {
+   "text": "Ross Barkley was forced to watch a Champions League match from inside the club coach as punishment for an altercation with a taxi driver.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "However, Barkley revealed in a later interview that, because this night out was the night before a Champions League game against Lille, he was punished by being made to travel to the game, but being forced to watch the match from inside the club coach.",
+    "However, Barkley revealed in a later interview that, because this night out was the night before a Champions League game against Lille, he was punished by being made to travel to the game, but being forced to watch the match from inside the club coach."
+   ]
+  },
+  {
+   "text": "Ross Barkley won the FA Cup during his time in London.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He signed for Chelsea in 2018 and won the FA Cup in 2018",
+    "He signed for Chelsea in 2018 and won the FA Cup in 2018, the UEFA Europa League in 2019 and the FIFA Club World Cup in 2021."
+   ]
+  },
+  {
+   "text": "Ross Barkley won the Club World Cup during his time in London.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He signed for Chelsea in 2018 and won the FA Cup in 2018, the UEFA Europa League in 2019 and the FIFA Club World Cup in 2021.",
+    "He signed for Chelsea in 2018 and won the FA Cup in 2018, the UEFA Europa League in 2019 and the FIFA Club World Cup in 2021."
+   ]
+  },
+  {
+   "text": "Ross Barkley played alongside Hazard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 38 matches alongside Eden Hazard for Chelsea FC (2018 to 2019)",
+    "[Squad data > Chelsea FC] Played in 38 matches alongside Eden Hazard for Chelsea FC (2018 to 2019)"
+   ]
+  },
+  {
+   "text": "Ross Barkley played alongside Sancho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 17 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)",
+    "[Squad data > Aston Villa] Played in 17 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Ross Barkley played alongside Grealish.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 14 matches alongside Jack Grealish for Aston Villa (2020 to 2021)",
+    "[Squad data > Aston Villa] Played in 14 matches alongside Jack Grealish for Aston Villa (2020 to 2021)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ross_Barkley",
+  "revid": 1386712507
+ },
+ "alternatives": [
+  {
+   "question": "In 2010 I helped England win the UEFA European Under-17 Championship.\nLater in my career, I scored the final goal of the Roman Abramovich era at Chelsea.\nI've been managed by Ronald Koeman, Maurizio Sarri & Unai Emery.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "I spent time on loan at Sheffield Wednesday and Leeds United before becoming a regular for my first professional club.\nFollowing my move to London, I won the Europa League in 2019.\nI've played with the likes of Lukaku, Kanté & Pépé.",
+   "problems": [
+    "claim is wrong: \"Ross Barkley moved to London.\"",
+    "claim is wrong: \"Ross Barkley played with Tiago Pépé.\""
+   ],
+   "style": 4
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "answer": "Yoane Wissa",
+ "acceptableAnswers": [
+  "Yoane Wissa",
+  "Wissa"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "In the 2026 World Cup I scored my nation's first ever goal and first ever win in the tournament.\nAlthough born in France, I represent the DR Congo national team.\nI've been managed by Thomas Frank & Eddie Howe.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and follows a logical structure (hook -> context -> clue), but it reads like a list of facts rather than a story. The first sentence leads with the most significant recent achievement for this specific player in 2026, which makes the answer findable too quickly for ",
+  "fix": "Rewrite to lead with a less obvious aspect of his career or a misdirection before revealing the World Cup feat. For example: 'I was born in France but chose to represent DR Congo. In 2026, I scored their first ever World Cup goal and secured their first win. My club career has seen me managed by the"
+ },
+ "claims": [
+  {
+   "text": "Yoane Wissa scored the Democratic Republic of Congo's first ever goal at the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He scored DR Congo's first-ever FIFA World Cup goal in their 1–1 draw against Portugal in the opening group stage match on 17 June, earning the country its first point in the tournament.",
+    "He scored DR Congo's first-ever FIFA World Cup goal in their 1–1 draw against Portugal in the opening group stage match on 17 June, earning the country its first point in the tournament."
+   ]
+  },
+  {
+   "text": "Yoane Wissa was part of the team that achieved the Democratic Republic of Congo's first ever win in the 2026 World Cup tournament.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 27 June, he scored a brace and earned Man of the Match award in a 3–1 victory over Uzbekistan, securing his nation's first-ever World Cup win and qualification for the knockout stage.",
+    "On 27 June, he scored a brace and earned Man of the Match award in a 3–1 victory over Uzbekistan, securing his nation's first-ever World Cup win and qualification for the knockout stage."
+   ]
+  },
+  {
+   "text": "Yoane Wissa was born in France.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Born in France, he represents the DR Congo national team.",
+    "Born in France, he represents the DR Congo national team."
+   ]
+  },
+  {
+   "text": "Yoane Wissa represents the DR Congo national team.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Born in France, he represents the DR Congo national team.",
+    "Born in France, he represents the DR Congo national team."
+   ]
+  },
+  {
+   "text": "Thomas Frank has managed Yoane Wissa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 143 matches (2021 to 2025)",
+    "[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 143 matches (2021 to 2025)"
+   ]
+  },
+  {
+   "text": "Eddie Howe has managed Yoane Wissa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Was managed by Eddie Howe at Newcastle United in 28 matches (2025 to 2026)",
+    "[Squad data > Newcastle United] Was managed by Eddie Howe at Newcastle United in 28 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Yoane_Wissa",
+  "revid": 1385506280
+ },
+ "alternatives": [
+  {
+   "question": "I began my youth career as a goalkeeper before eventually moving into the forward line.\nIn 2025 I became the record Premier League goalscorer for my club at the time.\nI've played with Eriksen, Ramsdale & Guimarães.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "Before focusing on football at fifteen, I also played rugby union.\nIn 2025 I became the record Premier League goalscorer for my club at the time.\nI've played with Ramsdale, Tonali & Eriksen.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I began my youth career as a goalkeeper before eventually moving into the forward line.\nIn January 2025 I became the record Premier League goalscorer for my club at the time.\nI've played with Ramsdale, Jacob Ramsey & Eriksen.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "In the 2026 World Cup I scored my nation's first-ever goal in the tournament.\nI also secured their first-ever win in the competition by scoring a brace against Uzbekistan.\nI've played with Jacob Ramsey, Guimarães & Mbeumo.",
+   "problems": [
+    "claim is wrong: \"Yoane Wissa scored Cameroon's first-ever goal in the 2026 World Cup.\"",
+    "claim is wrong: \"Yoane Wissa secured Cameroon's first-ever win in the 2026 World Cup by scoring a brace against Uzbekistan.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2026 I scored the first ever World Cup goal for my national team.\nI've also played in a World Cup match where we were knocked out by England.\nI've been managed by Thomas Frank & Eddie Howe.",
+   "problems": [
+    "claim not stated in the evidence: \"Yoane Wissa played in a World Cup match where his national team was knocked out by England.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "After four seasons in West London, I joined a new club in 2025 where I became the 1000th player to represent them in the league.\nI've also been named in an AFCON Team of the Tournament.\nI've played alongside Mbeumo, Tonali & Ramsey.",
+   "problems": [
+    "claim not stated in the evidence: \"Yoane Wissa spent four seasons playing for a club located in West London.\""
+   ],
+   "style": 2
+  }
+ ]
+}

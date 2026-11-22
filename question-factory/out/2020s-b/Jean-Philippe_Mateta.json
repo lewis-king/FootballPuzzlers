@@ -1,0 +1,146 @@
+{
+ "answer": "Jean-Philippe Mateta",
+ "acceptableAnswers": [
+  "Jean-Philippe Mateta",
+  "Mateta"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "In early 2025 I was hospitalised after a head injury in the FA Cup that required 25 stitches and left me wearing a mask.\nDespite this, I made my senior international debut later that year and played in the 2026 World Cup.\nI've played with Baku, Guéhi & Zaha.",
+ "problems": [
+  "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is excellent: a specific, memorable incident (the mask) that fans actually remember, followed by a strong contrast (debuting and playing in the WC despite it). The teammate list works well to narrow the field without pointing at one obvious squad. It reads naturally and fits the style guide",
+  "fix": "The phrase 'In early 2025' is slightly clunky for the conversational voice; consider starting with 'I was hospitalised in early 2025...' or just 'After a head injury...'. Also, ensure the '25 stitches' detail is accurate to the evidence provided."
+ },
+ "claims": [
+  {
+   "text": "Jean-Philippe Mateta was hospitalised in early 2025 after a head injury sustained during an FA Cup match.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 1 March 2025, Mateta was hospitalised after being kicked in the side of the head by Millwall goalkeeper Liam Roberts, as he challenged for the ball outside the box in the FA Cup",
+    "On 1 March 2025, Mateta was hospitalised after being kicked in the side of the head by Millwall goalkeeper Liam Roberts, as he challenged for the ball outside the box in the FA Cup, an incident for which Roberts received a red card."
+   ]
+  },
+  {
+   "text": "The head injury Jean-Philippe Mateta sustained in the FA Cup required 25 stitches.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "The injury sustained during the game, resulted with him requiring 25 stitches for a laceration behind his ear and a concussion observation.",
+    "The injury sustained during the game, resulted with him requiring 25 stitches for a laceration behind his ear and a concussion observation."
+   ]
+  },
+  {
+   "text": "Jean-Philippe Mateta wore a mask following his hospitalisation for the FA Cup head injury.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mateta said that while he would be able to begin training, he would need to wear a mask to protect his ear"
+   ]
+  },
+  {
+   "text": "Jean-Philippe Mateta made his senior international debut in 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his senior debut in 2025",
+    "He made his senior debut in 2025"
+   ]
+  },
+  {
+   "text": "Jean-Philippe Mateta played in the 2026 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his senior debut in 2025, and was part of the squad that finished fourth at the 2026 FIFA World Cup.",
+    "On 26 June, Mateta made his World Cup debut, coming on as a substitute in the 87th minute during France's 4-1 victory over Norway in their final match of the group stage."
+   ]
+  },
+  {
+   "text": "Jean-Philippe Mateta has been a teammate of Baku.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > 1.FSV Mainz 05] Played in 36 matches alongside Ridle Baku for 1.FSV Mainz 05 (2018 to 2020)",
+    "[Squad data > 1.FSV Mainz 05] Played in 36 matches alongside Ridle Baku for 1.FSV Mainz 05 (2018 to 2020)"
+   ]
+  },
+  {
+   "text": "Jean-Philippe Mateta has been a teammate of Guéhi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Played in 147 matches alongside Marc Guéhi for Crystal Palace (2021 to 2026)",
+    "[Squad data > Crystal Palace] Played in 147 matches alongside Marc Guéhi for Crystal Palace (2021 to 2026)"
+   ]
+  },
+  {
+   "text": "Jean-Philippe Mateta has been a teammate of Zaha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Played in 44 matches alongside Wilfried Zaha for Crystal Palace (2021 to 2023)",
+    "[Squad data > Crystal Palace] Played in 44 matches alongside Wilfried Zaha for Crystal Palace (2021 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jean-Philippe_Mateta",
+  "revid": 1386346414
+ },
+ "alternatives": [
+  {
+   "question": "I was once the most expensive signing in the history of my club, a German side where I scored my first senior hat-trick.\nFollowing my move to England, I became the first French player to be named my club's Player of the Year.\nI've played with Awoniyi, Chilwell & Olise.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once joined a Bundesliga club for the most expensive transfer fee in their history.\nYears later I scored the winning goal in a European final to secure my club's first ever continental title.\nI've played with Awoniyi, Chilwell & Zaha.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I won a silver medal at the Paris Olympics and was among the tournament's top three scorers.\nDespite this success I didn't make my senior international debut until 2025.\nI've been managed by Patrick Vieira & played alongside Baku, Olise & Eze.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I won a silver medal at the Paris 2024 Olympics, finishing as one of the tournament's top three scorers.\nIn 2026 I scored the winning goal in a European final to secure my club's first ever continental trophy.\nI've played with Baku, Johnson & Eze.",
+   "problems": [
+    "claim not stated in the evidence: \"Jean-Philippe Mateta has played with Baku, Johnson & Eze.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "When I joined the Bundesliga in 2018, my transfer fee made me the most expensive signing in my club's history.\nFollowing a move to England, I became the first French player to be named Player of the Year for my club.\nI've played with the likes of Awoniyi, Ben Chilwell & Eze.",
+   "problems": [
+    "claim not stated in the evidence: \"Jean-Philippe Mateta has played with Awoniyi, Ben Chilwell & Eze.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2024 I won an Olympic silver medal after scoring in both the quarter-final and semi-final.\nTwo years later, I scored the winning goal in a European final to secure my club's first ever continental trophy.\nI've been managed by Patrick Vieira & Oliver Glasner.",
+   "problems": [
+    "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

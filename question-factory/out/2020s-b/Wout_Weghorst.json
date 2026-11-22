@@ -1,0 +1,127 @@
+{
+ "answer": "Wout Weghorst",
+ "acceptableAnswers": [
+  "Wout Weghorst",
+  "Weghorst"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I began my professional career in the second tier of Dutch football with Emmen.\nIn 2022 I scored twice in a World Cup quarter-final, only to be involved in a viral post-match confrontation with Lionel Messi.\nI've played with the likes of Dele Alli, Casemiro & Bruno Fernandes.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and uses a memorable hook (the Messi confrontation), but it reads like a list of disconnected facts rather than a story. It violates the style guide's rule against stacking headline facts: naming Dele Alli, Casemiro & Bruno Fernandes all points directly to Tottenham",
+  "fix": "Rewrite as a narrative arc focusing on the contrast between his modest start and sudden World Cup fame. Remove the specific teammate list that gives away the club immediately; instead, use a more obscure fact or a single surprising connection (e.g., 'I was managed by someone who later won the Ballon"
+ },
+ "claims": [
+  {
+   "text": "Wout Weghorst began his professional career in the second tier of Dutch football with Emmen.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Weghorst began his professional career in the second tier of Dutch football with Emmen.",
+    "Weghorst began his professional career in the second tier of Dutch football with Emmen."
+   ]
+  },
+  {
+   "text": "In 2022, Wout Weghorst scored twice in a World Cup quarter-final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He represented the Netherlands at UEFA Euro 2020, the 2022 FIFA World Cup (where he notably scored two goals in his side's quarter-final match against Argentina), UEFA Euro 2024, and the 2026 FIFA World Cup.",
+    "He represented the Netherlands at UEFA Euro 2020, the 2022 FIFA World Cup (where he notably scored two goals in his side's quarter-final match against Argentina), UEFA Euro 2024, and the 2026 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Wout Weghorst was involved in a viral post-match confrontation with Lionel Messi after the 2022 World Cup quarter-final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After the match, Weghorst was engaged in a confrontation with Lionel Messi after the Argentina captain refused to swap shirts with him.",
+    "After the match, Weghorst was engaged in a confrontation with Lionel Messi after the Argentina captain refused to swap shirts with him."
+   ]
+  },
+  {
+   "text": "Wout Weghorst has played with Dele Alli.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Beşiktaş Jimnastik Kulübü] Played in 7 matches alongside Dele Alli for Beşiktaş Jimnastik Kulübü (2022)",
+    "[Squad data > Beşiktaş Jimnastik Kulübü] Played in 7 matches alongside Dele Alli for Beşiktaş Jimnastik Kulübü (2022)"
+   ]
+  },
+  {
+   "text": "Wout Weghorst has played with Casemiro.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 21 matches alongside Casemiro for Manchester United (2023)",
+    "[Squad data > Manchester United] Played in 21 matches alongside Casemiro for Manchester United (2023)"
+   ]
+  },
+  {
+   "text": "Wout Weghorst has played with Bruno Fernandes.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 27 matches alongside Bruno Fernandes for Manchester United (2023)",
+    "[Squad data > Manchester United] Played in 27 matches alongside Bruno Fernandes for Manchester United (2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Wout_Weghorst",
+  "revid": 1386488735
+ },
+ "alternatives": [
+  {
+   "question": "In the 2021-22 Premier League season I averaged more presses per 90 minutes than any other player.\nDespite this defensive work rate, I'm well known for scoring a brace in a World Cup quarter-final that same year.\nI've been managed by Oliver Glasner & Francesco Farioli.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I began my professional career in the second tier of Dutch football with Emmen.\nYears later I scored twice in a World Cup quarter-final, though the match is perhaps best remembered for a viral post-match confrontation with Lionel Messi.\nI've played with the likes of Dele Alli & Christian Eriksen.",
+   "problems": [
+    "claim not stated in the evidence: \"The World Cup quarter-final match where Wout Weghorst scored twice is best remembered for a viral post-match confrontation with Lionel Messi.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once scored in the first start of my Eredivisie career, which happened to be against Ajax.\nYears later I played for that same club after having loan spells in Turkey and Germany.\nI've played with the likes of Dele Alli, Raphaël Varane & Jadon Sancho.",
+   "problems": [
+    "claim not stated in the evidence: \"Wout Weghorst played for Ajax after having loan spells in Turkey and Germany.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "During a spell in the Premier League I averaged more presses per 90 minutes than any other player.\nAlthough I've played for several top European clubs, the only trophy of my career came during a short loan spell at Manchester United.\nI've been managed by Erik ten Hag & Oliver Glasner.",
+   "problems": [
+    "wording will date: The claim that the player is 'the only' one to average more presses per 90 minutes than any other in the Premier League is a present-tense superlative record that could be invalidated by future performance data.; The claim that he has won only one trophy is dated as it could become false if he wins another."
+   ],
+   "style": 2
+  },
+  {
+   "question": "I was once part of a top-flight academy but never broke into the first team.\nIncredibly, I later scored two goals in a World Cup quarter-final and won a trophy during a short loan spell in England.\nMy career has seen me managed by Oliver Glasner & Francesco Farioli.",
+   "problems": [
+    "claim is wrong: \"Wout Weghorst was once part of a top-flight academy.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I once joined an Eredivisie club in 2011, but I never broke through to the first-team and only featured for the reserves.\nIt was only after moving to the Dutch second tier that my professional career truly began.\nIn 2022 I scored twice in a World Cup quarter-final before being involved in a viral post-match confrontation with Lionel Messi.\nI've played with Dele Alli & Christian Eriksen.",
+   "problems": [
+    "too long (67 words; Lewis's originals are 20 to 40)",
+    "claim is wrong: \"Wout Weghorst moved to a Dutch second tier club after his time at the Eredivisie club.\""
+   ],
+   "style": 0
+  }
+ ]
+}

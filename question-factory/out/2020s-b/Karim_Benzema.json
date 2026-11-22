@@ -1,0 +1,124 @@
+{
+ "answer": "Karim Benzema",
+ "acceptableAnswers": [
+  "Karim Benzema",
+  "Benzema"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "I once held the record for being the oldest player to score a hat-trick in the Champions League era.\nFollowing my time in Spain, I led my new club to a Saudi Pro League title as captain.\nI've played with the likes of Hazard, Bale & Hakimi.",
+ "problems": [
+  "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+ ],
+ "style": {
+  "score": 0,
+  "why": "lint"
+ },
+ "claims": [
+  {
+   "text": "Karim Benzema once held the record for being the oldest player to score a hat-trick in the Champions League era.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the age of 34, Benzema became the oldest player to score a hat-trick in the Champions League era.",
+    "At the age of 34, Benzema became the oldest player to score a hat-trick in the Champions League era."
+   ]
+  },
+  {
+   "text": "Following his time in Spain, Karim Benzema led his new club to a Saudi Pro League title as captain.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "As captain, he led Al-Ittihad to the 2024–25 Saudi Pro League title.",
+    "As captain, he led Al-Ittihad to the 2024–25 Saudi Pro League title."
+   ]
+  },
+  {
+   "text": "Karim Benzema has played with Eden Hazard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 44 matches alongside Eden Hazard for Real Madrid (2019 to 2023)",
+    "[Squad data > Real Madrid] Played in 44 matches alongside Eden Hazard for Real Madrid (2019 to 2023)"
+   ]
+  },
+  {
+   "text": "Karim Benzema has played with Gareth Bale.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 224 matches alongside Gareth Bale for Real Madrid (2013 to 2022)",
+    "[Squad data > Real Madrid] Played in 224 matches alongside Gareth Bale for Real Madrid (2013 to 2022)"
+   ]
+  },
+  {
+   "text": "Karim Benzema has played with Achraf Hakimi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 11 matches alongside Achraf Hakimi for Real Madrid (2017 to 2018)",
+    "[Squad data > Real Madrid] Played in 11 matches alongside Achraf Hakimi for Real Madrid (2017 to 2018)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Karim_Benzema",
+  "revid": 1384804670
+ },
+ "alternatives": [
+  {
+   "question": "Despite my success at club level, I was controversially left out of the squad for the 2010 FIFA World Cup.\nYears later I won the Ballon d'Or following a season in which I finished as the Champions League top scorer.\nI've played with Vinicius Junior, Valverde & Ronaldo.",
+   "problems": [
+    "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once held the record for being the oldest player to score a hat-trick in the Champions League era.\nFollowing my time in Spain, I led my new club to a Saudi Pro League title as captain.\nI've played with the likes of Hazard, Hakimi & Essien.",
+   "problems": [
+    "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I became the oldest player to score a hat-trick in the Champions League era after a remarkable comeback against Paris.\nFollowing my time in Spain, I led my new club to a Saudi Pro League title as captain.\nI've played with the likes of Hazard, Hakimi & Essien.",
+   "problems": [
+    "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was once left out of a World Cup squad despite being one of my country's most prolific scorers.\nYears later I won the Ballon d'Or and became the most decorated player in my nation's history.\nI've been managed by Mourinho, Ancelotti & Laurent Blanc.",
+   "problems": [
+    "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"At the time he was left out, Karim Benzema was one of his country's most prolific scorers.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "As a youngster I once told my new teammates not to laugh because I was there to take their place.\nYears later I won the Ballon d'Or and became the most decorated Frenchman in football history.\nI've played with the likes of Bale, Valverde & Malouda.",
+   "problems": [
+    "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "wording will date: The claim to be 'the most decorated Frenchman in football history' is a present-tense superlative that could become false if another player surpasses his trophy count.; The claim to be the 'most decorated Frenchman' is a current ranking that could change if another player wins more trophies."
+   ],
+   "style": 0
+  },
+  {
+   "question": "When I first joined my longtime club in 2009, I was criticized by the Spanish media for not knowing the local language.\nYet I went on to become that club's second-highest all-time goalscorer.\nI've been managed by Mourinho, Zidane & Ancelotti.",
+   "problems": [
+    "every team-mate and manager named meets the player at Real Madrid, so together they only say 'Real Madrid'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Karim Benzema joined his longtime club in 2009.\"",
+    "claim not stated in the evidence: \"Karim Benzema was criticized by the Spanish media for not knowing the local language when he first joined his longtime club in 2009.\""
+   ],
+   "style": 0
+  }
+ ]
+}

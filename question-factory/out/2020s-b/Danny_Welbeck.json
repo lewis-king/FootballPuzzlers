@@ -1,0 +1,126 @@
+{
+ "answer": "Danny Welbeck",
+ "acceptableAnswers": [
+  "Danny Welbeck",
+  "Welbeck"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I was once signed on loan by Darren Ferguson for a spell at Preston North End.\nIn 2025 I became the all-time top Premier League scorer for my club.\nI've played with the likes of Mac Allister, Aubameyang & Torreira.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and uses a good narrowing clue list (Mac Allister, Aubameyang & Torreira), but it reads like a list of disconnected facts rather than a story. It lacks the conversational flow, tension, or 'twist' that defines the house style. Additionally, stating 'In 2025 I became",
+  "fix": "I was loaned to Preston by Darren Ferguson early in my career, but it was at Arsenal where I found my feet.\n\nYears later, I broke the club's all-time Premier League scoring record.\n\nI've shared a dressing room with Mac Allister, Aubameyang & Torreira."
+ },
+ "claims": [
+  {
+   "text": "Danny Welbeck was signed on loan by Darren Ferguson for a spell at Preston North End.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 25 January 2010, Welbeck became Alex Ferguson's son Darren Ferguson's first signing as Preston North End manager since he took charge earlier in the month, signing on loan for the remainder of the 2009–10 season.",
+    "On 25 January 2010, Welbeck became Alex Ferguson's son Darren Ferguson's first signing as Preston North End manager since he took charge earlier in the month, signing on loan for the remainder of the 2009–10 season."
+   ]
+  },
+  {
+   "text": "In 2025, Danny Welbeck became the all-time top Premier League scorer for his club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 5 April 2025, Welbeck became Brighton's top all-time Premier League scorer, netting his 31st league goal for his club against Crystal Palace.",
+    "On 5 April 2025, Welbeck became Brighton's top all-time Premier League scorer, netting his 31st league goal for his club against Crystal Palace."
+   ]
+  },
+  {
+   "text": "Danny Welbeck has played with Alexis Mac Allister.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Played in 72 matches alongside Alexis Mac Allister for Brighton & Hove Albion (2020 to 2023)",
+    "[Squad data > Brighton & Hove Albion] Played in 72 matches alongside Alexis Mac Allister for Brighton & Hove Albion (2020 to 2023)"
+   ]
+  },
+  {
+   "text": "Danny Welbeck has played with Pierre-Emerick Aubameyang.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Played in 23 matches alongside Pierre-Emerick Aubameyang for Arsenal FC (2018)",
+    "[Squad data > Arsenal FC] Played in 23 matches alongside Pierre-Emerick Aubameyang for Arsenal FC (2018)"
+   ]
+  },
+  {
+   "text": "Danny Welbeck has played with Lucas Torreira.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Played in 11 matches alongside Lucas Torreira for Arsenal FC (2018)",
+    "[Squad data > Arsenal FC] Played in 11 matches alongside Lucas Torreira for Arsenal FC (2018)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Danny_Welbeck",
+  "revid": 1386698710
+ },
+ "alternatives": [
+  {
+   "question": "I was once signed on loan by Darren Ferguson for a spell at Preston North End.\nYears later, I became the all-time top Premier League scorer for my club.\nI've played with the likes of Mac Allister, Aubameyang & Torreira.",
+   "problems": [
+    "wording will date: The claim to be the 'all-time top Premier League scorer' is a mutable record that could change if another player scores more goals in future seasons.; The claim to be the all-time top PL scorer for his club could change if a teammate overtakes him."
+   ],
+   "style": 4
+  },
+  {
+   "question": "I scored my first senior international goal in a friendly victory over Belgium in 2012.\nYears later I would score the winning goal to knock my boyhood club out of the FA Cup.\nI've been managed by David Moyes, Arsène Wenger & Roberto De Zerbi.",
+   "problems": [
+    "claim is wrong: \"Danny Welbeck's boyhood club is Arsenal.\"",
+    "claim is wrong: \"Years after scoring his first senior international goal in 2012, Danny Welbeck scored the winning goal to knock Arsenal out of the FA Cup.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2013 I became the first Englishman to score for a Premier League team at the Bernabéu since 2001.\nAlthough I've played for several top-flight clubs, I only recently signed for Chelsea in 2026.\nI've shared a pitch with de Gea, Sánchez & Ansu Fati.",
+   "problems": [
+    "claim not stated in the evidence: \"Danny Welbeck shared a pitch with de Gea.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I was once signed on loan by Darren Ferguson for a spell at Preston North End.\nYears later I became the all-time top Premier League scorer for my club.\nI've played with the likes of Mac Allister, Aubameyang & Torreira.",
+   "problems": [
+    "wording will date: The claim to be the 'all-time top Premier League scorer' is a mutable record that could change if another player scores more goals for the club in future seasons.; The claim to be the all-time top PL scorer for his club could change if a teammate overtakes him."
+   ],
+   "style": 2
+  },
+  {
+   "question": "Early in my career, the Ghana Football Association kept tabs on me to see if I'd represent them.\nI eventually chose England instead, though I'm now the record league goalscorer for a club on the south coast.\nI've been managed by David Moyes & Arsène Wenger.",
+   "problems": [
+    "claim not stated in the evidence: \"Danny Welbeck chose to represent England instead of Ghana.\"",
+    "claim not stated in the evidence: \"Danny Welbeck is the record league goalscorer for a club on the south coast.\"",
+    "wording will date: The claim of being the 'record league goalscorer' is a present-tense superlative that could be invalidated if another player surpasses his tally.; The claim to be the record league goalscorer is a current status that could change."
+   ],
+   "style": 2
+  },
+  {
+   "question": "I scored a backheeled winning goal for my country during UEFA Euro 2012.\nAlthough I've played for several big English clubs, I only recently became the record league scorer for my current side.\nI've shared a pitch with Ansu Fati, de Gea & Guendouzi.",
+   "problems": [
+    "tied to where the player is now (\"current\"): it goes wrong the day he moves club or league; anchor it to something fixed, such as his position or a year",
+    "claim not stated in the evidence: \"Danny Welbeck has played for several big English clubs.\"",
+    "claim not stated in the evidence: \"Danny Welbeck has shared a pitch with Ansu Fati, de Gea & Guendouzi.\"",
+    "wording will date: The phrase 'only recently became the record league scorer' relies on a current standing that could change if another player scores more goals for that club in the future.; The claim to be the record league scorer for his current side could change if another player overtakes him."
+   ],
+   "style": 0
+  }
+ ]
+}

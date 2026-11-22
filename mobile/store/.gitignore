@@ -1,0 +1,8 @@
+# Generated images: rebuilt by capture.mjs (raw captures) and render_frames.js (framed store images).
+raw/
+raw-ipad/
+play/
+ios/
+ipad/
+metadata/android/*/images/
+metadata/ios-screenshots/

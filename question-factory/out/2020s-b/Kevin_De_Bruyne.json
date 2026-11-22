@@ -1,0 +1,122 @@
+{
+ "answer": "Kevin De Bruyne",
+ "acceptableAnswers": [
+  "Kevin De Bruyne",
+  "Bruyne"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "I became the first player from my country to score in three different World Cups.\nIn 2018 I was named in the Fan Dream Team after we finished in third place.\nI've played with Courtois, Sterling & Højlund.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The first sentence is a major giveaway for any casual fan; being the first Belgian to score in three World Cups immediately points to De Bruyne or Lukaku, and the 'third place' clue confirms it. It lacks the misdirection or obscure charm of the originals (like Bosingwa's defensive role) and reads as",
+  "fix": "Remove the nationality/country reference entirely. Focus on a specific, less obvious moment: e.g., his role in the 2018 semi-final loss to France, or a specific assist record that doesn't name Belgium. Use teammates from different clubs (e.g., 'I've played with Courtois, Sterling & Højlund') as the "
+ },
+ "claims": [
+  {
+   "text": "Kevin De Bruyne became the first player from his country to score in three different World Cups.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In addition, he became the first Belgian player to score in three World tournaments.",
+    "he became the first Belgian player to score in three World tournaments."
+   ]
+  },
+  {
+   "text": "In 2018, Kevin De Bruyne was named in the Fan Dream Team after his team finished in third place.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "De Bruyne was named in the Fan Dream Team of the 2018 World Cup, as Belgium finished in third place",
+    "De Bruyne was named in the Fan Dream Team of the 2018 World Cup, as Belgium finished in third place"
+   ]
+  },
+  {
+   "text": "Kevin De Bruyne has played with Courtois.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Belgium] Played in 3 matches alongside Thibaut Courtois for Belgium (2026)",
+    "[Squad data > Belgium] Played in 3 matches alongside Thibaut Courtois for Belgium (2026)"
+   ]
+  },
+  {
+   "text": "Kevin De Bruyne has played with Sterling.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 241 matches alongside Raheem Sterling for Manchester City (2015 to 2022)",
+    "[Squad data > Manchester City] Played in 241 matches alongside Raheem Sterling for Manchester City (2015 to 2022)"
+   ]
+  },
+  {
+   "text": "Kevin De Bruyne has played with Højlund.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SSC Napoli] Played in 15 matches alongside Rasmus Højlund for SSC Napoli (2025 to 2026)",
+    "[Squad data > SSC Napoli] Played in 15 matches alongside Rasmus Højlund for SSC Napoli (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
+  "revid": 1386705601
+ },
+ "alternatives": [
+  {
+   "question": "I was used sparingly during my first spell in England, which led to a loan move to Germany.\nIt was there and at Wolfsburg that I established myself as one of the best in the Bundesliga, winning the league's Player of the Year award in 2015.\nI've played with the likes of Torres, Haaland & McTominay.",
+   "problems": [
+    "claim is wrong: \"Kevin De Bruyne was used sparingly during his first spell in England.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I've made over 120 caps for my country and was named in the Fan Dream Team of the 2018 World Cup.\nIn 2026 I became the first player from my nation to score in three different World Cups.\nI've played with Hazard, Rodri & Højlund.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "Despite my success in the Premier League, it was revealed by my youth club that I grew up as a Liverpool fan.\nI've since won the league six times and became the first player to reach 20 assists in a single season in two of Europe's top five leagues.\nI've played with Hazard, Haaland & Højlund.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I was signed by a Premier League club in 2012, but I spent the following season on loan in Germany.\nIt was after moving to Wolfsburg that I established myself as one of the best in the Bundesliga, winning the league's Player of the Year award in 2015.\nI've played with the likes of Torres, Haaland & McTominay.",
+   "problems": [
+    "claim is wrong: \"Kevin De Bruyne moved to Wolfsburg after being on loan in Germany.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I played a significant role in my club becoming the only Premier League team to reach 100 points in a single season.\nIn 2020 I equalled the then-record for most assists in a league campaign, becoming the first player to hit 20 assists in two different top European leagues.\nI've been managed by Mourinho, Guardiola & Conte.",
+   "problems": [
+    "claim not stated in the evidence: \"In 2020, Kevin De Bruyne equalled the then-record for most assists in a league campaign.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once set a new Bundesliga record for the most assists in a single season.\nFollowing my time in Germany, I joined an English club for a then-record fee and later equalled the Premier League's all-time assist record in one campaign.\nI've played with the likes of Torres, Rodri & McTominay.",
+   "problems": [
+    "claim not stated in the evidence: \"Following his time in Germany, Kevin De Bruyne joined an English club for a then-record fee.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  }
+ ]
+}

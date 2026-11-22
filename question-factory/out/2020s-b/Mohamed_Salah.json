@@ -1,0 +1,131 @@
+{
+ "answer": "Mohamed Salah",
+ "acceptableAnswers": [
+  "Mohamed Salah",
+  "Salah"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "During my first professional season, I struggled so much in front of goal that I would sometimes be in tears in the dressing room.\nYears later I became the first player in Premier League history to win the Golden Boot, Player of the Season & Playmaker award in a single campaign.\nI've played with the likes of Pjanić, Courtois & Wirtz.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The first sentence is a generic 'struggled early' trope that applies to almost every player and fails the 'memorable hook' test. More critically, it violates the core rule against stacking headline facts: winning the Golden Boot, Player of the Season, AND Playmaker in one season is three massive, co",
+  "fix": "Cut two of the three awards (keep only the most surprising or relevant one, e.g., just the Golden Boot or just the 'first to win all three' if phrased as a single unique feat). Replace the generic crying line with a specific, verifiable moment from his early career at Basel or Chelsea that fans know"
+ },
+ "claims": [
+  {
+   "text": "Mohamed Salah struggled in front of goal during his first professional season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Even though he was getting regular game time, Salah struggled to score.",
+    "Even though he was getting regular game time, Salah struggled to score."
+   ]
+  },
+  {
+   "text": "Mohamed Salah was sometimes in tears in the dressing room during his first professional season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In the dressing room after matches, he would sometimes be in tears because of this",
+    "In the dressing room after matches, he would sometimes be in tears because of this"
+   ]
+  },
+  {
+   "text": "Mohamed Salah is the first player in Premier League history to win the Golden Boot, Player of the Season & Playmaker award in a single campaign.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Salah finished the season by winning the Premier League Player of the Season award, the Golden Boot for most goals scored and the Playmaker award for most assists, making him the first player in Prem",
+    "Salah finished the season by winning the Premier League Player of the Season award, the Golden Boot for most goals scored and the Playmaker award for most assists, making him the first player in Premier League history to win all three awards in the same season."
+   ]
+  },
+  {
+   "text": "Mohamed Salah has played with Pjanić.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Associazione Sportiva Roma] Played in 36 matches alongside Miralem Pjanić for Associazione Sportiva Roma (2015 to 2016)",
+    "[Squad data > Associazione Sportiva Roma] Played in 36 matches alongside Miralem Pjanić for Associazione Sportiva Roma (2015 to 2016)"
+   ]
+  },
+  {
+   "text": "Mohamed Salah has played with Courtois.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 4 matches alongside Thibaut Courtois for Chelsea FC (2014 to 2015)",
+    "[Squad data > Chelsea FC] Played in 4 matches alongside Thibaut Courtois for Chelsea FC (2014 to 2015)"
+   ]
+  },
+  {
+   "text": "Mohamed Salah has played with Wirtz.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 36 matches alongside Florian Wirtz for Liverpool FC (2025 to 2026)",
+    "[Squad data > Liverpool FC] Played in 36 matches alongside Florian Wirtz for Liverpool FC (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+  "revid": 1386458608
+ },
+ "alternatives": [
+  {
+   "question": "During my first professional season, I struggled so much in front of goal that I would sometimes be in tears in the dressing room.\nYears later I became the all-time top foreign goalscorer in the Premier League.\nI've played with the likes of Pjanić, Courtois & Mané.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The claim to be the 'all-time top foreign goalscorer' is a present-tense superlative that could theoretically change if another player surpasses the record.; The claim to be the all-time top foreign goalscorer is a current record that could be broken."
+   ],
+   "style": 2
+  },
+  {
+   "question": "I once caused a major controversy in the Champions League by appearing to avoid shaking hands with players from an Israeli club.\nFollowing my time in Switzerland and Italy, I moved to England where I eventually became the third-highest goalscorer in my club's history.\nI've been managed by Mourinho, Spalletti & Slot.",
+   "problems": [
+    "claim not stated in the evidence: \"Mohamed Salah played for a club in Switzerland before playing for a club in Italy.\"",
+    "claim is wrong: \"Mohamed Salah moved to England after his time in Switzerland and Italy.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I spent time on loan at two different Italian clubs before moving to England for a club-record fee.\nIn 2025 I became the first player in Premier League history to win the Golden Boot, Playmaker award & Player of the Season in a single campaign.\nI've been managed by Mourinho, Spalletti & Klopp.",
+   "problems": [
+    "claim not stated in the evidence: \"Mohamed Salah spent time on loan at two different Italian clubs.\""
+   ],
+   "style": 1
+  },
+  {
+   "question": "I once held the record for the fastest hat-trick in Champions League history.\nIn 2026 I became my nation's all-time leading goalscorer, and led them to their first ever World Cup victory.\nI've played with the likes of Hazard, Alisson & Marmoush.",
+   "problems": [
+    "claim not stated in the evidence: \"In 2026, Mohamed Salah led his nation to their first ever World Cup victory.\""
+   ],
+   "style": 1
+  },
+  {
+   "question": "Early in my career I played as a left-back, but after being in tears over several missed chances in one game, my coach moved me to a forward position.\nYears later I became the first player in Premier League history to win the Golden Boot, Player of the Season & Playmaker award in a single campaign.\nI've played with the likes of Pjanić, Courtois & Wirtz.",
+   "problems": [
+    "too long (66 words; Lewis's originals are 20 to 40)"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I am the all-time top scorer for my country, yet I only scored three goals across my first two World Cups.\nIn 2026 I led my nation to its first ever match victories in that tournament.\nI've played alongside the likes of Hazard, Rüdiger & van Dijk.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The phrase 'all-time top scorer' is a present-tense record that could be overtaken by another player in the future.; The phrase 'I am the all-time top scorer for my country' is a current record that could be broken."
+   ],
+   "style": 0
+  }
+ ]
+}

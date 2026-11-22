@@ -1,0 +1,110 @@
+{
+ "answer": "Victor Boniface",
+ "acceptableAnswers": [
+  "Victor Boniface",
+  "Boniface"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "READY",
+ "question": "I learned to play football in a military barracks in Nigeria.\nFollowing my move to Europe, I finished as the joint top scorer of the 2022-23 Europa League.\nI've played with the likes of Xhaka, Adingra & Mario Hermoso.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 4,
+  "why": "The military barracks hook is charming and memorable, fitting the 'delightful oddity' style guide perfectly. The narrative flow is good ('Following my move...'). However, it scores a 4 rather than a 5 because the final clue list (Xhaka, Adingra & Hermoso) all point to one specific club (Bayer 04 Leu",
+  "fix": "The question is strong but could be tightened. The phrase 'I learned to play football in a military barracks' is slightly wordy; 'I grew up playing in a military barracks' or similar might be punchier, though the current version is acceptable. More importantly, ensure the 'joint top scorer' fact is "
+ },
+ "claims": [
+  {
+   "text": "Victor Boniface learned to play football in a military barracks in Nigeria.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "His background includes learning to play football in a military barracks in Nigeria.",
+    "His background includes learning to play football in a military barracks in Nigeria."
+   ]
+  },
+  {
+   "text": "Victor Boniface moved to Europe.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Boniface signed for Norwegian side Bodø/Glimt on 4 March 2019."
+   ]
+  },
+  {
+   "text": "Victor Boniface finished as the joint top scorer of the 2022-23 Europa League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Boniface scored six goals in the competition, including a brace against Union Berlin in the round of 16, finishing as the competition's joint top scorer along with Marcus Rashford.",
+    "Boniface scored six goals in the competition, including a brace against Union Berlin in the round of 16, finishing as the competition's joint top scorer along with Marcus Rashford."
+   ]
+  },
+  {
+   "text": "Victor Boniface has played with Granit Xhaka.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayer 04 Leverkusen] Played in 59 matches alongside Granit Xhaka for Bayer 04 Leverkusen (2023 to 2025)",
+    "[Squad data > Bayer 04 Leverkusen] Played in 59 matches alongside Granit Xhaka for Bayer 04 Leverkusen (2023 to 2025)"
+   ]
+  },
+  {
+   "text": "Victor Boniface has played with Jean-Philippe Mateta (referred to as Adingra in the question).",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Union Saint-Gilloise] Played in 37 matches alongside Simon Adingra for Union Saint-Gilloise (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Victor Boniface has played with Mario Hermoso.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayer 04 Leverkusen] Played in 5 matches alongside Mario Hermoso for Bayer 04 Leverkusen (2025)",
+    "[Squad data > Bayer 04 Leverkusen] Played in 5 matches alongside Mario Hermoso for Bayer 04 Leverkusen (2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Victor_Boniface",
+  "revid": 1386016620
+ },
+ "alternatives": [
+  {
+   "question": "I learned to play football in a military barracks in my home country.\nIn 2024 I helped my club secure their first ever league title with five games to spare.\nI've been managed by Xabi Alonso & Karel Geraerts.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In January 2018 I went on loan to the Cypriot side Lefke TSK.\nFollowing a spell in Norway, I finished as the joint top scorer of the Europa League in 2023.\nI've played with Xhaka, Adingra & Hermoso.",
+   "problems": [
+    "claim is wrong: \"Lefke TSK is a Cypriot side.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "Two weeks after signing for my first Norwegian club, a ligament injury threatened to sideline me for the entire season.\nYears later I scored the winning goal against AC Milan in the Champions League.\nI've played with Wirtz, Puertas & Sugawara.",
+   "problems": [
+    "claim not stated in the evidence: \"The ligament injury Victor Boniface suffered threatened to sideline him for the entire season.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "The start of my time in Norway was unfortunate, as I suffered a ligament injury just two weeks after signing.\nYet I later became the first player to help my next German club win their first ever league title with five games to spare.\nI've been managed by Xabi Alonso & Karel Geraerts.",
+   "problems": [
+    "claim not stated in the evidence: \"Victor Boniface was the first player to help his next German club win their first ever league title with five games to spare.\""
+   ],
+   "style": 2
+  }
+ ]
+}

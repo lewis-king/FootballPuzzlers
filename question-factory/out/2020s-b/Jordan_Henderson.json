@@ -1,0 +1,120 @@
+{
+ "answer": "Jordan Henderson",
+ "acceptableAnswers": [
+  "Jordan Henderson",
+  "Henderson"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I spent six months on loan at Coventry City early in my career.\nIn 2019 I became the first player to win the England Player of the Year award at both U21 and senior level.\nI've played with the likes of Suárez, Bergwijn & Weghorst.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct but reads like a list of disconnected facts rather than a story. It lacks the conversational flow and 'twist' found in the originals (e.g., no connection between the loan spell and the later achievements). The final clue lists three Liverpool teammates, which points",
+  "fix": "Rewrite to connect the sentences and add a narrative arc or tension. For example: \"I started my career with a six-month loan at Coventry City before joining Liverpool. My time there culminated in becoming the first player to win the England Player of the Year award at both U21 and senior level, a 20"
+ },
+ "claims": [
+  {
+   "text": "Jordan Henderson spent six months on loan at Coventry City early in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He spent six months on loan at Coventry City in 2009, before returning to Sunderland.",
+    "He spent six months on loan at Coventry City in 2009, before returning to Sunderland."
+   ]
+  },
+  {
+   "text": "In 2019, Jordan Henderson became the first player to win the England Player of the Year award at both U21 and senior level.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was the first player to win the England Player of the Year award at both the U21 and senior level.",
+    "The following year, after helping his nation finish third at the inaugural UEFA Nations League and qualify for UEFA Euro 2020, Henderson was named England Player of the Year, in the process becoming the first player to win the award at both U21 and senior level."
+   ]
+  },
+  {
+   "text": "Jordan Henderson has played with Suárez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 66 matches alongside Luis Suárez for Liverpool FC (2012 to 2014)",
+    "[Squad data > Liverpool FC] Played in 66 matches alongside Luis Suárez for Liverpool FC (2012 to 2014)"
+   ]
+  },
+  {
+   "text": "Jordan Henderson has played with Bergwijn.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Ajax Amsterdam] Played in 7 matches alongside Steven Bergwijn for Ajax Amsterdam (2024)",
+    "[Squad data > Ajax Amsterdam] Played in 7 matches alongside Steven Bergwijn for Ajax Amsterdam (2024)"
+   ]
+  },
+  {
+   "text": "Jordan Henderson has played with Weghorst.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Ajax Amsterdam] Played in 28 matches alongside Wout Weghorst for Ajax Amsterdam (2024 to 2025)",
+    "[Squad data > Ajax Amsterdam] Played in 28 matches alongside Wout Weghorst for Ajax Amsterdam (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jordan_Henderson",
+  "revid": 1386801718
+ },
+ "alternatives": [
+  {
+   "question": "In 2026 I became the first English player to be selected for seven major international tournaments.\nAlthough I've won a Champions League and a Premier League, I only scored one goal in total during my time in the Eredivisie.\nI've been managed by Klopp, Farioli & Andrews.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I spent six months on loan at Coventry City early in my career.\nIt was years later that I became the first player to win the England Player of the Year award at both U21 and senior level.\nI've played with the likes of Suárez, Bergwijn & Weghorst.",
+   "problems": [
+    "claim is wrong: \"Jordan Henderson played with Luis Suárez, Bryan Bergwijn, and Wout Weghorst.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I spent six months on loan at Coventry City early in my career.\nI later became the first player to win the England Player of the Year award at both U21 and senior level.\nI've played with the likes of Suárez, Bergwijn & Weghorst.",
+   "problems": [
+    "claim is wrong: \"Jordan Henderson is the first player to win the England Player of the Year award at U21 level.\"",
+    "claim is wrong: \"Jordan Henderson is the first player to win the England Player of the Year award at senior level.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2020 I was named the FWA Footballer of the Year after leading my club to their first league title in 30 years.\nYet, during that same era I suffered from an incurable heel condition which saw me miss the arrival of my most successful manager.\nI've played with Sterling, Ouattara & Kelleher.",
+   "problems": [
+    "claim is wrong: \"During the era of winning that league title, Jordan Henderson suffered from an incurable heel condition.\"",
+    "claim not stated in the evidence: \"Jordan Henderson missed the arrival of his most successful manager due to this heel condition.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I am the first English player to be selected for seven major international tournaments.\nIncredibly, I've played in four World Cups but only scored a single goal in the competition.\nI've been managed by Klopp, Farioli & Keith Andrews.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2026 I became the first English player to be selected for seven major international tournaments.\nFollowing my long spell at Liverpool, my career took me to Saudi Arabia before a move to the Eredivisie.\nI've played with Sterling, Kelleher & been managed by Klopp.",
+   "problems": [
+    "every team-mate and manager named meets the player at Liverpool FC, so together they only say 'Liverpool FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

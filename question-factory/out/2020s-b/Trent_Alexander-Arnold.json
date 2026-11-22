@@ -1,0 +1,106 @@
+{
+ "answer": "Trent Alexander-Arnold",
+ "acceptableAnswers": [
+  "Trent Alexander-Arnold",
+  "Alexander-Arnold"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "Due to my grandmother's past relationship with a famous manager, I was once eligible to represent the United States.\nI later became the youngest player ever to win six major trophies for an English club.\nI've played alongside Coutinho, Bellingham & Valverde.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The first sentence is a factual error (Alexander-Arnold was not eligible for the US via his grandmother) and reads like a confusing trivia bit rather than a story. The second sentence uses an obscure stat ('youngest to win six major trophies') that doesn't resonate with fans. The final clue lists B-",
+  "fix": "Fix the eligibility fact (he is English, no US link). Use a memorable hook like his early debut or a specific famous moment (e.g., 'I made my debut as a teenager...'). Replace the obscure trophy stat with something more relatable or a twist. Ensure the teammate list includes names from different era"
+ },
+ "claims": [
+  {
+   "text": "Trent Alexander-Arnold's grandmother had a past relationship with a famous manager.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "His maternal grandmother, Doreen Carling, was once also in a relationship with former United manager, Alex Ferguson, before moving to New York City where she later married.",
+    "His maternal grandmother, Doreen Carling, was once also in a relationship with former United manager, Alex Ferguson, before moving to New York City where she later married."
+   ]
+  },
+  {
+   "text": "Due to his grandmother's past relationship, Trent Alexander-Arnold was once eligible to represent the United States.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "His maternal grandmother, Doreen Carling, was once also in a relationship with former United manager, Alex Ferguson, before moving to New York City where she later married. Alexander-Arnold was thus eligible to play for the United States prior to making his England debut.",
+    "Alexander-Arnold was thus eligible to play for the United States prior to making his England debut."
+   ]
+  },
+  {
+   "text": "Trent Alexander-Arnold is the youngest player ever to win six major trophies for an English club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Alexander-Arnold became the youngest-ever player to win six major trophies, namely the FIFA Club World Cup, UEFA Champions League, UEFA Super Cup, Premier League, FA Cup and League Cup, for an English club",
+    "In May 2022, following Liverpool's victory over Chelsea in the 2022 FA Cup Final, Alexander-Arnold became the youngest-ever player to win six major trophies, namely the FIFA Club World Cup, UEFA Champions League, UEFA Super Cup, Premier League, FA Cup and League Cup, for an English club, doing so at the age of 23 years and 219 days."
+   ]
+  },
+  {
+   "text": "Trent Alexander-Arnold has played alongside Coutinho, Bellingham & Valverde.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Trent_Alexander-Arnold",
+  "revid": 1385338351
+ },
+ "alternatives": [
+  {
+   "question": "Due to a past relationship my grandmother had with a famous manager, I was once eligible to represent the United States.\nI later became the youngest player ever to win six major trophies for an English club.\nI've played with Coutinho, Mbappé & Alaba.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "Due to a past relationship my grandmother had with a famous manager, I was once eligible to represent the United States.\nI later became the youngest player ever to win six major trophies for an English club.\nI've played with Coutinho, Alaba & Valverde.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I became the youngest player to start in consecutive Champions League finals.\nIn 2025, after helping my first club win a second league title, I moved to Spain.\nI've played with the likes of Salah, Mbappé & Alaba.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I spent my youth as a wide midfielder before converting to right-back to find the clearest path into the first team.\nIn 2024 I was listed as a midfielder for my country, but in 2025 I moved to Spain.\nI've been managed by Klopp & Xabi Alonso.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once broke the Premier League record for the most assists by a defender in a single campaign.\nDespite my success, I was surprisingly omitted from my national team's squad for several World Cup qualifiers in 2022.\nI've been managed by Klopp & Xabi Alonso.",
+   "problems": [
+    "claim not stated in the evidence: \"Trent Alexander-Arnold was omitted from his national team's squad for several World Cup qualifiers in 2022.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I am the youngest player to have started in consecutive Champions League finals.\nIn 2024 I was listed as a midfielder for my country and assigned the number 8 shirt.\nI've been managed by Klopp, Alonso & Arbeloa.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

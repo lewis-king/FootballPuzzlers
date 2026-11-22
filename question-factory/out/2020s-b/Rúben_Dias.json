@@ -1,0 +1,99 @@
+{
+ "answer": "Rúben Dias",
+ "acceptableAnswers": [
+  "Rúben Dias",
+  "Dias"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "After starting my career at Estrela da Amadora I moved to Benfica's academy where I initially played as a midfielder.\nYears later I helped my club secure a continental treble in 2023.\nI've been managed by Pep Guardiola & Rui Vitória.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is factually accurate and follows the house style well with connected sentences and a narrowing clue at the end. However, it loses points for two reasons: first, it explicitly states 'I initially played as a midfielder,' which spends the position clue for free and removes the potential ",
+  "fix": "twist"
+ },
+ "claims": [
+  {
+   "text": "Rúben Dias started his career at Estrela da Amadora.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Dias started his career at local club Estrela da Amadora after being brought to the club by a close family member.",
+    "Dias started his career at local club Estrela da Amadora after being brought to the club by a close family member."
+   ]
+  },
+  {
+   "text": "After starting his career at Estrela da Amadora, Rúben Dias moved to Benfica's academy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Dias started his career at local club Estrela da Amadora after being brought to the club by a close family member. He moved to Benfica's youth academy in 2008"
+   ]
+  },
+  {
+   "text": "Rúben Dias initially played as a midfielder in Benfica's academy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "where he played initially as a midfielder",
+    "He moved to Benfica's youth academy in 2008, where he played initially as a midfielder, before changing position to centre-back for the junior side until 2015."
+   ]
+  },
+  {
+   "text": "In 2023, Rúben Dias helped his club secure a continental treble.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2022–23, he played a crucial role in defence as City secured a first-ever continental treble",
+    "In 2022–23, he played a crucial role in defence as City secured a first-ever continental treble, their most successful season to date."
+   ]
+  },
+  {
+   "text": "Rúben Dias has been managed by Pep Guardiola.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 250 matches (2020 to 2026)",
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 250 matches (2020 to 2026)"
+   ]
+  },
+  {
+   "text": "Rúben Dias has been managed by Rui Vitória.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SL Benfica] Was managed by Rui Vitória at SL Benfica in 55 matches (2017 to 2019)",
+    "[Squad data > SL Benfica] Was managed by Rui Vitória at SL Benfica in 55 matches (2017 to 2019)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Rúben_Dias",
+  "revid": 1385716675
+ },
+ "alternatives": [
+  {
+   "question": "I initially played as a striker before switching to defence during a match where my team were two goals down.\nIn 2021 I became the first defender to be named FWA Footballer of the Year since the 1988-89 season.\nI've played with the likes of Darwin Núñez, Raúl Jiménez & Rodri.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In the 2019 Nations League final I was named man of the match in a game we won on home soil.\nFollowing this I moved to England for a fee that made me the second-highest ever Portuguese player to leave their domestic league.\nI've played alongside João Félix, Jan Vertonghen & Erling Haaland.",
+   "problems": [
+    "claim not stated in the evidence: \"Following the 2019 Nations League final, Rúben Dias moved to England.\""
+   ],
+   "style": 3
+  }
+ ]
+}

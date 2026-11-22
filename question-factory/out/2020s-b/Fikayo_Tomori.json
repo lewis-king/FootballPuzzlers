@@ -1,0 +1,107 @@
+{
+ "answer": "Fikayo Tomori",
+ "acceptableAnswers": [
+  "Fikayo Tomori",
+  "Tomori"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "In July 2021 I completed a degree in Business Management through the Open University.\nFollowing this I won the Serie A title with my club in 2022.\nI've played alongside Leão, Donnarumma & Kanté.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The hook (completing a degree) is a dull procedural detail that neither delights nor surprises, violating the style guide's preference for memorable moments or charming oddities. The question reads like a list of disconnected facts rather than a connected story with tension or a twist. While the 'Le",
+  "fix": "Leão' typo in the original text should be corrected to 'Rafael Leão' or just 'Leão', and the phrasing is flat, it is factually correct and solvable for keen fans."
+ },
+ "claims": [
+  {
+   "text": "Fikayo Tomori completed a degree in Business Management through the Open University in July 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In July 2021, Tomori completed a degree in Business Management through the Open University.",
+    "In July 2021, Tomori completed a degree in Business Management through the Open University."
+   ]
+  },
+  {
+   "text": "Fikayo Tomori won the Serie A title with his club in 2022.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2021, he was signed by AC Milan, with whom he won the Serie A title in 2022.",
+    "In 2021, he was signed by AC Milan, with whom he won the Serie A title in 2022."
+   ]
+  },
+  {
+   "text": "Fikayo Tomori has played alongside Rafael Leão, Gianluigi Donnarumma, and N'Golo Kanté.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Fikayo_Tomori",
+  "revid": 1384906555
+ },
+ "alternatives": [
+  {
+   "question": "I captained Canada at the U20 level, yet I went on to win a FIFA World Cup with England's under-20s in 2017.\nFollowing my time in London, I moved to Italy where I became the first Englishman to score for my club since David Beckham.\nI've played alongside Leão, Donnarumma & Kanté.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once captained Canada U20 to a victory over England U20.\nYet I later chose to represent the latter at senior level, helping them win a global tournament in 2017.\nI've played with the likes of Nkunku, Donnarumma & Kanté.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I made my professional debut for Brighton in an FA Cup match where I scored an own goal.\nYears later I became the first Englishman to score for AC Milan since David Beckham in 2009.\nI've been managed by Lampard & Allegri.",
+   "problems": [
+    "claim is wrong: \"Fikayo Tomori made his professional debut for Brighton.\"",
+    "claim not stated in the evidence: \"Fikayo Tomori's professional debut was in an FA Cup match.\"",
+    "claim not stated in the evidence: \"Fikayo Tomori scored an own goal during his professional debut for Brighton.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2021 I became the first Englishman to score for my club since David Beckham in 2009.\nFollowing that goal, I went on to win a league title with them in 2022.\nI've played alongside Leão, João Félix & Abraham.",
+   "problems": [
+    "every team-mate and manager named meets the player at AC Milan, so together they only say 'AC Milan'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once captained Canada U20 to a victory over England U20.\nYet I later chose to represent the latter at senior level.\nI've played with the likes of Abraham, Félix & Nkunku.",
+   "problems": [
+    "every team-mate and manager named meets the player at AC Milan, so together they only say 'AC Milan'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Fikayo Tomori chose to represent England at senior level after previously representing Canada at youth level.\"",
+    "claim not stated in the evidence: \"Fikayo Tomori has played with Tammy Abraham, Antonee Robinson (or similar 'Abraham' teammate context implies Chelsea/England peers), and Christopher Nkunku as teammates.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I started my professional career by scoring an own goal on my debut for a Championship club.\nYears later I won the Serie A title and was named in the league's Team of the Year for 2022.\nI've played with the likes of Nkunku, João Félix & Tammy Abraham.",
+   "problems": [
+    "every team-mate and manager named meets the player at AC Milan, so together they only say 'AC Milan'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Fikayo Tomori scored an own goal on his professional debut.\"",
+    "claim is wrong: \"Fikayo Tomori's professional debut was for a Championship club.\""
+   ],
+   "style": 0
+  }
+ ]
+}

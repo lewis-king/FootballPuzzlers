@@ -1,0 +1,138 @@
+{
+ "answer": "Lisandro Martínez",
+ "acceptableAnswers": [
+  "Lisandro Martínez",
+  "Martínez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I began my professional career at Newell's Old Boys before spending time on loan at Defensa y Justicia.\nAlthough I was called up to the 2017 U-20 World Cup, I failed to make a single appearance in the tournament.\nI've played with Gravenberch, Mbeumo & Eriksen.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and follows the structure of a story (career start -> specific tournament detail -> teammates), but it feels flat and list-like rather than engaging. The hook ('failed to make a single appearance in the U-20 World Cup') is a negative stat that doesn't create much 't",
+  "fix": "Make the opening more intriguing or positive, perhaps focusing on his rapid rise from Newell's to Ajax/Man United, or highlighting a specific memorable moment (like his crucial goals for Argentina). The current draft reads like a biography summary rather than a puzzle. Consider: 'I started at Newell"
+ },
+ "claims": [
+  {
+   "text": "Lisandro Martínez began his professional career at Newell's Old Boys.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Martínez began his career at Newell's Old Boys before joining Defensa y Justicia in 2017, initially on loan.",
+    "Martínez began his career at Newell's Old Boys before joining Defensa y Justicia in 2017, initially on loan."
+   ]
+  },
+  {
+   "text": "Lisandro Martínez spent time on loan at Defensa y Justicia after beginning his professional career at Newell's Old Boys.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Martínez began his career at Newell's Old Boys before joining Defensa y Justicia in 2017, initially on loan.",
+    "Martínez began his career at Newell's Old Boys before joining Defensa y Justicia in 2017, initially on loan."
+   ]
+  },
+  {
+   "text": "Lisandro Martínez was called up to the 2017 U-20 World Cup squad.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was called up to the U-20 World Cup squad",
+    "He was called up to the U-20 World Cup squad"
+   ]
+  },
+  {
+   "text": "Lisandro Martínez made zero appearances in the 2017 U-20 World Cup tournament.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was called up to the U-20 World Cup squad, but failed to make an appearance, appearing on the substitutes bench once against Guinea.",
+    "He was called up to the U-20 World Cup squad, but failed to make an appearance, appearing on the substitutes bench once against Guinea."
+   ]
+  },
+  {
+   "text": "Lisandro Martínez has played with Ryan Gravenberch.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Ajax Amsterdam] Played in 84 matches alongside Ryan Gravenberch for Ajax Amsterdam (2019 to 2022)",
+    "[Squad data > Ajax Amsterdam] Played in 84 matches alongside Ryan Gravenberch for Ajax Amsterdam (2019 to 2022)"
+   ]
+  },
+  {
+   "text": "Lisandro Martínez has played with Bryan Mbeumo.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 13 matches alongside Bryan Mbeumo for Manchester United (2025 to 2026)",
+    "[Squad data > Manchester United] Played in 13 matches alongside Bryan Mbeumo for Manchester United (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Lisandro Martínez has played with Christian Eriksen.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 52 matches alongside Christian Eriksen for Manchester United (2022 to 2025)",
+    "[Squad data > Manchester United] Played in 52 matches alongside Christian Eriksen for Manchester United (2022 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Lisandro_Martínez",
+  "revid": 1386493542
+ },
+ "alternatives": [
+  {
+   "question": "I was called up to the 2017 U-20 World Cup for my country, yet I failed to make a single appearance in the tournament.\nYears later I'd win the world cup and be named in the Dream XI of the 2026 edition.\nI've played with Gravenberch, Mbeumo & Eriksen.",
+   "problems": [
+    "claim is wrong: \"Lisandro Martínez was named in the Dream XI of the 2026 edition of the tournament he won.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "In the 2021–22 season I averaged more passes per 90 minutes than any other player in my league.\nYears later, during a World Cup, a goal was disallowed for the opposition after the referee ruled that I had been stepped on in the buildup.\nI've played with Ronaldo, Mount & Antony.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester United, so together they only say 'Manchester United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2025 I became the first player for my club to score at Anfield since Jesse Lingard in 2018.\nI've also had the honour of winning a World Cup and two Copa Américas with my country.\nI've been managed by Ten Hag, Amorim & Carrick.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester United, so together they only say 'Manchester United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was called up to the 2017 U-20 World Cup but failed to make a single appearance in the tournament.\nYears later I became the first player from my current club to score at Anfield since 2018.\nI've played with Gravenberch, Mbeumo & Eriksen.",
+   "problems": [
+    "tied to where the player is now (\"current\"): it goes wrong the day he moves club or league; anchor it to something fixed, such as his position or a year"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In January 2025 I became the first player for my club to score at Anfield since 2018, ending a drought of five league visits without a goal.\nI've also had the honour of winning two Eredivisie titles.\nI've played with Ronaldo, Antony & de Ligt.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester United, so together they only say 'Manchester United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I spent time on loan at Defensa y Justicia before moving to Europe.\nFollowing a few successful years in the Netherlands I moved to England, where I've been managed by both Erik ten Hag & Rúben Amorim.\nI've played alongside Ronaldo, De Ligt & Antony.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester United, so together they only say 'Manchester United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Lisandro Martínez moved to Europe after his time on loan at Defensa y Justicia.\""
+   ],
+   "style": 0
+  }
+ ]
+}

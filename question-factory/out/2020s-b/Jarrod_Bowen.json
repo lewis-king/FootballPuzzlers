@@ -1,0 +1,91 @@
+{
+ "answer": "Jarrod Bowen",
+ "acceptableAnswers": [
+  "Jarrod Bowen",
+  "Bowen"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I started my professional career as a scholar at Hereford United.\nAfter moving to the Premier League, I once scored in five successive away games, a feat previously achieved only by Thierry Henry and Mohamed Salah.\nI've played with the likes of Robertson, Maguire & Rice.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question follows the house style well: first-person British English, connected sentences, a narrowing clue at the end with names from different clubs (Liverpool, Manchester United, Arsenal). The hook is strong and memorable for fans. However, it scores no higher than 4 because the second fact ('",
+  "fix": "scored in five successive away games... previously achieved only by Henry and Salah') is a very specific statistical record that might be too obscure or hard to verify for a casual fan without clues, though it fits the 'tricky' requirement. It avoids giving away the position or nationality directly."
+ },
+ "claims": [
+  {
+   "text": "Jarrod Bowen started his professional career as a scholar at Hereford United.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After unsuccessful trials at Aston Villa and Cardiff City, Bowen started his career as a scholar at Hereford United.",
+    "Bowen started his career as a scholar at Hereford United."
+   ]
+  },
+  {
+   "text": "Jarrod Bowen moved to the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "before joining then-Premier League side West Ham in January 2020",
+    "On 31 January 2020, Bowen signed for Premier League club West Ham United on a five-and-a-half-year contract, for a fee reported to be around £22 million."
+   ]
+  },
+  {
+   "text": "Jarrod Bowen scored in five successive away games after moving to the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "This was the fifth successive away game in which he had scored",
+    "This was the fifth successive away game in which he had scored, a feat only previously achieved in the Premier League by Thierry Henry and Mohamed Salah."
+   ]
+  },
+  {
+   "text": "The feat of scoring in five successive away games was previously achieved only by Thierry Henry and Mohamed Salah before Jarrod Bowen did it.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "This was the fifth successive away game in which he had scored, a feat only previously achieved in the Premier League by Thierry Henry and Mohamed Salah.",
+    "This was the fifth successive away game in which he had scored, a feat only previously achieved in the Premier League by Thierry Henry and Mohamed Salah."
+   ]
+  },
+  {
+   "text": "Jarrod Bowen has played with Robertson, Maguire & Rice.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jarrod_Bowen",
+  "revid": 1384448729
+ },
+ "alternatives": [
+  {
+   "question": "I scored the winning goal in a European final to give my club their first trophy in 43 years.\nIn 2026 I became my club's all-time leader for goal involvements, surpassing the record of Michail Antonio.\nI've been managed by David Moyes & Nuno Espírito Santo.",
+   "problems": [
+    "every team-mate and manager named meets the player at West Ham United, so together they only say 'West Ham United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "wording will date: The statement \"In 2026 I became my club's all-time leader\" uses present-tense phrasing for a record that can be broken by future performances.; The claim about being the all-time leader for goal involvements is a current record that could be surpassed."
+   ],
+   "style": 0
+  },
+  {
+   "question": "During the 2018-19 season I was selected for the Championship Team of the Season after finishing as my club's top scorer.\nFollowing my move to London, I became the first player at my new club to record ten goals and ten assists in a single campaign since Dimitri Payet.\nI've played with the likes of Paquetá, Kudus & Ferguson.",
+   "problems": [
+    "every team-mate and manager named meets the player at West Ham United, so together they only say 'West Ham United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Jarrod Bowen moved to a club in London after the 2018-19 season.\""
+   ],
+   "style": 0
+  }
+ ]
+}

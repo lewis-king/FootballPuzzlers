@@ -46,7 +46,7 @@ On first launch the app looks for Realm's `default.realm` in the documents direc
 
 ## Before release
 
-- [ ] Real AdMob app ids in `app.json` (test ids are in there now). The 2019 ad unit ids are already in `ads.native.tsx`.
+- [x] Real Android AdMob app id in `app.json` (from the 2019 AndroidManifest). [x] Real iOS AdMob app id in `app.json` (from Lewis, 22 Nov 2026). The 2019 ad unit ids are already in `ads.native.tsx`.
 - [ ] Confirm the support email (`src/services/config.ts`).
 - [ ] Price both packs at £1.99 in the stores.
 - [ ] Android upload keystore (`FootballWhoAmI-release-key.keystore`) for EAS, so the update is signed like the 2019 app.

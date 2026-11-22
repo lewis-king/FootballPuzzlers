@@ -1,0 +1,102 @@
+{
+ "answer": "Son Heung-min",
+ "acceptableAnswers": [
+  "Son Heung-min",
+  "Heung-min Son",
+  "Heung-min"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to December 2027 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "READY",
+ "question": "I once had to wear a protective mask for every match of a World Cup campaign due to an orbital fracture.\nIn 2025 I finally won my first major trophy, ending a long drought for my club in the process.\nI've played with the likes of Çalhanoğlu, Maddison & Min-jae Kim.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 2,
+  "why": "The opening hook (wearing a mask due to an orbital fracture) is excellent: it's memorable, surprising, and immediately narrows the field without giving away the name. The second sentence provides strong context (2025 trophy win ending a drought), which fits the 'twist/tension' requirement well. The ",
+  "fix": "The final clue list is slightly weak because Min-jae Kim and Son Heung-min are often associated in the public eye due to their shared nationality and high-profile status, though they were at different clubs (Bayern vs Spurs) for most of that period. More importantly, 'Maddison' and 'Çalhanoğlu' are "
+ },
+ "claims": [
+  {
+   "text": "Son Heung-min wore a protective mask for every match of a World Cup campaign due to an orbital fracture.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Son managed to recover enough to play in the 2022 World Cup for South Korea, wearing a protective mask in all his matches.",
+    "Son managed to recover enough to play in the 2022 World Cup for South Korea, wearing a protective mask in all his matches."
+   ]
+  },
+  {
+   "text": "In 2025, Son Heung-min won his first major trophy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2025, he led Spurs to the UEFA Europa League title, his first major honour",
+    "In 2025, he led Spurs to the UEFA Europa League title, his first major honour, ending a 17-year trophy drought for Spurs in the process."
+   ]
+  },
+  {
+   "text": "Son Heung-min's win of a major trophy in 2025 ended a long drought for his club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2025, he led Spurs to the UEFA Europa League title, his first major honour, ending a 17-year trophy drought for Spurs in the process.",
+    "In 2025, he led Spurs to the UEFA Europa League title, his first major honour, ending a 17-year trophy drought for Spurs in the process."
+   ]
+  },
+  {
+   "text": "Son Heung-min has played with Hakan Çalhanoğlu.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayer 04 Leverkusen] Played in 43 matches alongside Hakan Çalhanoğlu for Bayer 04 Leverkusen (2014 to 2015)",
+    "[Squad data > Bayer 04 Leverkusen] Played in 43 matches alongside Hakan Çalhanoğlu for Bayer 04 Leverkusen (2014 to 2015)"
+   ]
+  },
+  {
+   "text": "Son Heung-min has played with James Maddison.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Tottenham Hotspur] Played in 61 matches alongside James Maddison for Tottenham Hotspur (2023 to 2025)",
+    "[Squad data > Tottenham Hotspur] Played in 61 matches alongside James Maddison for Tottenham Hotspur (2023 to 2025)"
+   ]
+  },
+  {
+   "text": "Son Heung-min has played with Min-jae Kim.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Korea, South] Played in 3 matches alongside Min-jae Kim for Korea, South (2026)",
+    "[Squad data > Korea, South] Played in 3 matches alongside Min-jae Kim for Korea, South (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Son_Heung-min",
+  "revid": 1386553696
+ },
+ "alternatives": [
+  {
+   "question": "I've scored a solo goal that won the FIFA Puskás Award.\nDespite my success in England, I once had to take a break from football to complete mandatory military service with the Marine Corps.\nI've played alongside Van der Vaart, Julian Brandt & Dele Alli.",
+   "problems": [
+    "claim not stated in the evidence: \"Son Heung-min took a break from football to complete mandatory military service with the Marine Corps.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I learned German by watching episodes of SpongeBob SquarePants so that I could succeed in Europe.\nYears later I became the first player from my continent to win the Premier League Golden Boot.\nI've been managed by Pochettino, Mourinho & Postecoglou.",
+   "problems": [
+    "every team-mate and manager named meets the player at Tottenham Hotspur, so together they only say 'Tottenham Hotspur'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Son Heung-min stated that he learned German so that he could succeed in Europe.\""
+   ],
+   "style": 0
+  }
+ ]
+}

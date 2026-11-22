@@ -1,0 +1,115 @@
+{
+ "answer": "Emiliano Buendía",
+ "acceptableAnswers": [
+  "Emiliano Buendía",
+  "Buendía"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I spent a year on loan at Cultural Leonesa before moving to England.\nIn 2021 I won the EFL Championship Player of the Season award after scoring 15 league goals.\nI've played with Wirtz, Sancho & Douglas Luiz.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and the clues are valid, but it reads like a list of disconnected facts rather than a story. It lacks the conversational flow, tension, or 'twist' that defines the house style (e.g., no connection between the loan spell and the England move, or the award and the big",
+  "fix": "Rewrite to connect the sentences and add a hook. For example: 'I spent a year on loan in Spain before moving to England, where I quickly became a key figure. In 2021, my form earned me the EFL Championship Player of the Season award after scoring 15 league goals. Since then, I've shared a dressing"
+ },
+ "claims": [
+  {
+   "text": "Emiliano Buendía spent a year on loan at Cultural Leonesa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 27 July 2017, he was loaned to fellow second-tier club Cultural Leonesa, for one year.",
+    "On 27 July 2017, he was loaned to fellow second-tier club Cultural Leonesa, for one year."
+   ]
+  },
+  {
+   "text": "Emiliano Buendía moved to England after his loan spell at Cultural Leonesa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Buendía's senior career began at Spanish club Getafe with whom he spent four years, including a short spell with Cultural Leonesa, before he moved to England, joining Norwich City in 2018."
+   ]
+  },
+  {
+   "text": "In 2021, Emiliano Buendía won the EFL Championship Player of the Season award.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 29 April, following a campaign in which Buendía scored 15 league goals and added a further 16 assists, he won the EFL Championship Player of the Season award."
+   ]
+  },
+  {
+   "text": "Emiliano Buendía scored 15 league goals in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 29 April, following a campaign in which Buendía scored 15 league goals and added a further 16 assists, he won the EFL Championship Player of the Season award.",
+    "On 29 April, following a campaign in which Buendía scored 15 league goals and added a further 16 assists, he won the EFL Championship Player of the Season award."
+   ]
+  },
+  {
+   "text": "Emiliano Buendía has played with Wirtz, Sancho & Douglas Luiz.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayer 04 Leverkusen] Played in 11 matches alongside Florian Wirtz for Bayer 04 Leverkusen (2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Emiliano_Buendía",
+  "revid": 1385027669
+ },
+ "alternatives": [
+  {
+   "question": "I moved to Spain as an eleven year old to join the academy of Real Madrid.\nYears later, I set a Premier League record for the most chances created in a single month.\nI've played with the likes of Xhaka, Coutinho & Sarabia.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In December 2019 I created more chances in a single month than any other player since the stat began being recorded in 2003-04.\nDespite this, it was only after moving to another club that I became a record signing for both the team I joined and the one I left.\nI've been managed by Xabi Alonso, Steven Gerrard & Daniel Farke.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In December 2019 I created more chances in a single Premier League month than any other player since the stat began being recorded in 2003-04.\nYet my club was relegated from the top flight just a few weeks later.\nI've been managed by Xabi Alonso, Steven Gerrard & Unai Emery.",
+   "problems": [
+    "claim is wrong: \"Emiliano Buendía's club was relegated from the top flight a few weeks after December 2019.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "Early in my career I was called up to the Spain under-19s.\nDespite this, I later represented Argentina at the senior level and won a European trophy in 2026.\nI've been managed by Xabi Alonso, Daniel Farke & Steven Gerrard.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I moved to Spain as an eleven year old to join the academy of Real Madrid.\nAfter leaving them, I spent four years at Getafe including a loan spell in the second tier before moving to England.\nI've played with Xhaka, Sancho & Coutinho.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I moved to Spain as an eleven year old to join the academy of Real Madrid.\nAfter leaving them, I eventually spent a year on loan at Cultural Leonesa before moving to England.\nI've played with Xhaka, Sancho & Coutinho.",
+   "problems": [
+    "claim not stated in the evidence: \"Emiliano Buendía left Real Madrid's academy.\"",
+    "claim is wrong: \"Emiliano Buendía spent a year on loan at Cultural Leonesa after leaving Real Madrid.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  }
+ ]
+}

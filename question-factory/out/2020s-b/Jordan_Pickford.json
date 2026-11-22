@@ -1,0 +1,87 @@
+{
+ "answer": "Jordan Pickford",
+ "acceptableAnswers": [
+  "Jordan Pickford",
+  "Pickford"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "The only goal ever scored by a goalkeeper from open play in a FIFA finals tournament was conceded by me.\nYears later, I became the first to keep clean sheets in the first five games of a European Championship.\nI've played with the likes of James Rodríguez, Dele Alli & Wayne Rooney.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is excellent and memorable (the only open-play keeper goal in a World Cup), creating strong tension with the clean sheet record. However, it loses a point because the final clue list (James Rodríguez, Dele Alli & Wayne Rooney) all point to one club (Everton), which violates the style guide’",
+  "fix": "Replace the Everton-centric teammate list with names from different stages of his career or national team to spread the clues. For example: 'I've played alongside the likes of James Milner, Dele Alli & Wayne Rooney' still leans heavy on Everton, so better would be mixing in a loan spell or a more ob"
+ },
+ "claims": [
+  {
+   "text": "Jordan Pickford conceded the only goal ever scored by a goalkeeper from open play in a FIFA finals tournament.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "This remains as the only goal scored by a goalkeeper in a FIFA finals to date from open play.",
+    "This remains as the only goal scored by a goalkeeper in a FIFA finals to date from open play."
+   ]
+  },
+  {
+   "text": "Jordan Pickford was the first to keep clean sheets in the first five games of a European Championship.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Pickford became the first goalkeeper in history to keep clean sheets in the first five games of a European Championship.",
+    "Pickford became the first goalkeeper in history to keep clean sheets in the first five games of a European Championship."
+   ]
+  },
+  {
+   "text": "Jordan Pickford has played with James Rodríguez, Dele Alli & Wayne Rooney.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jordan_Pickford",
+  "revid": 1385336155
+ },
+ "alternatives": [
+  {
+   "question": "In 2011 I conceded the only goal scored by a goalkeeper from open play in the history of a FIFA finals tournament.\nYears later, I became the first goalkeeper to keep clean sheets in the first five games of a European Championship.\nI've played with the likes of James Rodríguez, Jack Grealish & Wayne Rooney.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In 2021 I set a new all-time England record for the most consecutive scoreless minutes posted by a goalkeeper.\nAlthough my reception among pundits has been mixed, I have now made more World Cup appearances for my country than any other player besides Peter Shilton.\nI've shared a pitch with the likes of Dele Alli & Jude Bellingham.",
+   "problems": [
+    "claim not stated in the evidence: \"Jordan Pickford has made more World Cup appearances for his country than any other player besides Peter Shilton.\"",
+    "claim not stated in the evidence: \"Jordan Pickford shared a pitch with Dele Alli and Jude Bellingham.\"",
+    "wording will date: The claim about holding the all-time record for consecutive scoreless minutes is stated in the present tense and could be invalidated by a future performance.; The claim about World Cup appearances is stated as a current record/ranking that could change in future tournaments."
+   ],
+   "style": 2
+  },
+  {
+   "question": "By the age of 21 I had played in the top five leagues of English football.\nFollowing this, I became the most expensive British goalkeeper of all time when I moved to a new club in 2017.\nI've been managed by Carlo Ancelotti & David Moyes.",
+   "problems": [
+    "every team-mate and manager named meets the player at Everton FC, so together they only say 'Everton FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "By the age of 21 I had already played in all five top divisions of English football.\nI later set a national record for most consecutive scoreless minutes, passing a mark held by Gordon Banks.\nI've been managed by Carlo Ancelotti & David Moyes.",
+   "problems": [
+    "every team-mate and manager named meets the player at Everton FC, so together they only say 'Everton FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "answer": "Harry Kane",
+ "acceptableAnswers": [
+  "Harry Kane",
+  "Kane"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 2,
+ "status": "READY",
+ "question": "I was released from my academy as a child for being a bit chubby.\nYears later I won the Ballon d'Or.\nI've played with the likes of Bale, Eriksen & Musiala.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 2,
+  "why": "This is a perfect execution of the style guide's 'tricky and thought-provoking' rule for superstars. It avoids leading with Kane's famous goal records or his current club (Tottenham), instead opening with a charming, slightly obscure childhood detail ('chubby') that creates immediate intrigue. The '",
+  "fix": "The second sentence provides the massive hook (Ballon d'Or) without over-specifying (no mention of England or scoring records). The final clue uses teammates from different eras and clubs (Bale/Eriksen at Spurs, Musiala at Bayern), which narrows the field effectively while adding a layer of puzzle. "
+ },
+ "claims": [
+  {
+   "text": "Harry Kane was released from his academy as a child for being a bit chubby.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was released after one season for being \"a bit chubby\" and not \"very athletic\", according to Liam Brady who was then in charge of Arsenal's academy.",
+    "He was released after one season for being \"a bit chubby\" and not \"very athletic\", according to Liam Brady who was then in charge of Arsenal's academy."
+   ]
+  },
+  {
+   "text": "Harry Kane won the Ballon d'Or.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 26 October 2026, Kane received the Ballon d'Or at the London Palladium",
+    "On 26 October 2026, Kane received the Ballon d'Or at the London Palladium"
+   ]
+  },
+  {
+   "text": "Harry Kane played with Gareth Bale, Christian Eriksen and Jamal Musiala.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Harry_Kane",
+  "revid": 1386106752
+ },
+ "alternatives": [
+  {
+   "question": "I won the World Cup Golden Boot in 2018, yet I didn't win a major trophy for another seven years.\nFollowing my move to Germany, I finally won a league title and became the highest scoring Englishman in Bundesliga history.\nI've been managed by Pochettino, Mourinho & Kompany.",
+   "problems": [
+    "claim is wrong: \"Harry Kane did not win a major trophy for seven years after winning the 2018 World Cup Golden Boot.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I first played for my long-time club as a midfielder, often in a holding position.\nDespite this start, I eventually became the highest scoring English player in history.\nI've played alongside Dele Alli, Leroy Sané & Luis Díaz.",
+   "problems": [
+    "wording will date: The claim of being the 'highest scoring English player in history' is a present-tense superlative that could theoretically be overtaken by another active or future player.; The claim of being the 'highest scoring English player in history' is a present-tense record that could be surpassed."
+   ],
+   "style": 2
+  }
+ ]
+}

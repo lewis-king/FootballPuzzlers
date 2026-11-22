@@ -70,7 +70,7 @@ More than one player fits: Q27, Q29, Q40, Q158, Q164, Q167, Q168, Q169, Q171, Q1
 
 ## Decisions (Lewis, 18 Nov 2026)
 
-1. **ENG = born in England**, as the How to Play screen says, whatever country the player represents. All 212 ENG flags were checked against Wikidata birthplaces by `factory/check_eng.py` (`research_notes/question-audit/eng-birthplace.md`). 209 agree, including Q50 George Boyd (born Chatham, already ENG true). The one real error is **Raheem Sterling (Q40, Q190): born in Kingston, Jamaica, so ENG becomes false.** Q203 Alan wasn't found but is being replaced.
+1. **ENG = born in England**, as the How to Play screen says, whatever country the player represents. All 212 ENG flags were checked against Wikidata birthplaces by `question-factory/check_eng.py` (`research_notes/question-audit/eng-birthplace.md`). 209 agree, including Q50 George Boyd (born Chatham, already ENG true). The one real error is **Raheem Sterling (Q40, Q190): born in Kingston, Jamaica, so ENG becomes false.** Q203 Alan wasn't found but is being replaced.
 2. **Ronaldinho is RET false** while he's playing for Ravenna. Questions are stamped "correct as of Dec 2026".
 3. **Broken records become "I once held the record for…"**, so they don't date again.
 4. **Q201 Beckham** never reached players because Lucas Pérez overwrote it. It gets a new id and ships as a new CL question.

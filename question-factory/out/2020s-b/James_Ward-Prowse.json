@@ -1,0 +1,96 @@
+{
+ "answer": "James Ward-Prowse",
+ "acceptableAnswers": [
+  "James Ward-Prowse",
+  "Ward-Prowse"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "While in the academy at my first professional club, I secretly trained with non-League Havant & Waterlooville to toughen myself up.\nIn 2021, I became the first player in Premier League history to play every single minute of two consecutive seasons.\nI've played with the likes of Mané, Paquetá & Kyle Walker.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is excellent and fits the 'delightful oddity' criteria perfectly (training with non-league to toughen up). The middle sentence provides a strong, verifiable record. However, it loses a point because the final clue list points almost exclusively at one club (Southampton), which slightly nar2",
+  "fix": "Replace Kyle Walker with a teammate from his time at West Ham or Brighton to spread the clues across different clubs and stages of his career."
+ },
+ "claims": [
+  {
+   "text": "James Ward-Prowse was in the academy at his first professional club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Originally a member of Southampton's youth teams, Ward-Prowse made his first-team debut in October 2011, and signed his first professional contract in 2012.",
+    "After playing locally for East Lodge from the age of six, Ward-Prowse joined the Southampton Academy at the age of eight"
+   ]
+  },
+  {
+   "text": "While in the academy at his first professional club, James Ward-Prowse secretly trained with non-League Havant & Waterlooville to toughen himself up.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "While at the Southampton academy, he secretly trained with non-League team Havant & Waterlooville to \"toughen\" himself.",
+    "While at the Southampton academy, he secretly trained with non-League team Havant & Waterlooville to \"toughen\" himself."
+   ]
+  },
+  {
+   "text": "In 2021, James Ward-Prowse became the first player in Premier League history to play every single minute of two consecutive seasons.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "in 2021, he became the first Premier League player to play every single minute of two consecutive Premier League seasons.",
+    "in 2021, he became the first Premier League player to play every single minute of two consecutive Premier League seasons."
+   ]
+  },
+  {
+   "text": "James Ward-Prowse has played with Sadio Mané.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Southampton FC] Played in 52 matches alongside Sadio Mané for Southampton FC (2014 to 2016)",
+    "[Squad data > Southampton FC] Played in 52 matches alongside Sadio Mané for Southampton FC (2014 to 2016)"
+   ]
+  },
+  {
+   "text": "James Ward-Prowse has played with Lucas Paquetá.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Played in 61 matches alongside Lucas Paquetá for West Ham United (2023 to 2025)",
+    "[Squad data > West Ham United] Played in 61 matches alongside Lucas Paquetá for West Ham United (2023 to 2025)"
+   ]
+  },
+  {
+   "text": "James Ward-Prowse has played with Kyle Walker.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Burnley FC] Played in 12 matches alongside Kyle Walker for Burnley FC (2026)",
+    "[Squad data > Burnley FC] Played in 12 matches alongside Kyle Walker for Burnley FC (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/James_Ward-Prowse",
+  "revid": 1384312575
+ },
+ "alternatives": [
+  {
+   "question": "Although my family are supporters of Portsmouth, I joined their South Coast rivals at the age of eight.\nBy February 2023, I had scored more away free-kicks in the Premier League than David Beckham ever did.\nI've been managed by Pochettino, Moyes & Nuno Espírito Santo.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "In 2016, I had the honour of captaining the England under-21s to their first Toulon Tournament victory since 1994.\nI later broke my club's all-time record for Premier League appearances in March 2023.\nI've played with Virgil van Dijk, Mohammed Kudus & Carlos Soler.",
+   "problems": [],
+   "style": 3
+  }
+ ]
+}

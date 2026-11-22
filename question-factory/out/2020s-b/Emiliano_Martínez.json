@@ -1,0 +1,116 @@
+{
+ "answer": "Emiliano Martínez",
+ "acceptableAnswers": [
+  "Emiliano Martínez",
+  "Martínez"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "Due to a mistake made by my mother at the post office, my first and middle names were registered in the wrong order on my birth certificate.\nYears later I won the World Cup and was named The Best FIFA Goalkeeper twice.\nI've played with the likes of Aubameyang, Coutinho & Sancho.",
+ "problems": [
+  "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 5,
+  "difficulty": 2,
+  "why": "The hook is a delightful, surprising personal anecdote that perfectly fits the house style's preference for charming oddities over dry stats. It avoids leading with his most famous fact (the World Cup saves) and instead builds intrigue before revealing the major achievements. The teammate list mixes",
+  "fix": ""
+ },
+ "claims": [
+  {
+   "text": "Emiliano Martínez's first and middle names were registered in the wrong order on his birth certificate due to a mistake made by his mother at the post office.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "\"But when my mum went to do it in the post office, I don't know where she done it, she was waiting hours and hours in the queue and when they done it they put Damian Emiliano first.",
+    "But when my mum went to do it in the post office, I don't know where she done it, she was waiting hours and hours in the queue and when they done it they put Damian Emiliano first."
+   ]
+  },
+  {
+   "text": "Emiliano Martínez won the World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He went on to win the 2022 FIFA World Cup with Argentina",
+    "He went on to win the 2022 FIFA World Cup with Argentina, again being voted best goalkeeper of the tournament, and the 2024 Copa América, where he was awarded the Golden Glove a third time."
+   ]
+  },
+  {
+   "text": "Emiliano Martínez was named The Best FIFA Goalkeeper twice.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was also named The Best FIFA Goalkeeper a record two times in 2022 and 2024",
+    "He was also named The Best FIFA Goalkeeper a record two times in 2022 and 2024"
+   ]
+  },
+  {
+   "text": "Emiliano Martínez played with Pierre-Emerick Aubameyang, Philippe Coutinho, and Jadon Sancho.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Emiliano_Martínez",
+  "revid": 1386399985
+ },
+ "alternatives": [
+  {
+   "question": "Due to a mistake made at the post office, my first and middle names were registered in the wrong order on my birth certificate.\nAlthough I'm now a World Cup winner, I once held the record for most own goals scored by a goalkeeper in Premier League history.\nI've been managed by the likes of Wenger, Gerrard & Emery.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 5
+  },
+  {
+   "question": "Due to a mistake at the post office, my first and middle names were registered in the wrong order on my birth certificate.\nDespite this confusion I went on to win the World Cup and two Yashin Trophies.\nI've been managed by the likes of Wenger, Gerrard & Emery.",
+   "problems": [
+    "claim not stated in the evidence: \"Emiliano Martínez's first and middle names were registered in the wrong order on his birth certificate due to a mistake at the post office.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 5
+  },
+  {
+   "question": "I spent time on loan at Oxford United, Sheffield Wednesday and Rotherham United before finally breaking into my parent club's first team.\nIn 2022 I won the World Cup and was subsequently named The Best FIFA Goalkeeper.\nI've played with the likes of Aubameyang, Grealish & Sancho.",
+   "problems": [
+    "claim is wrong: \"Emiliano Martínez broke into his parent club's first team after spending time on loan at Oxford United, Sheffield Wednesday and Rotherham United.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "During the 2023-24 season I became the goalkeeper with the most own goals in Premier League history.\nYet I've also been voted best goalkeeper at a World Cup and won two Golden Gloves at the Copa América.\nI've played alongside the likes of Lacazette, Grealish & Messi.",
+   "problems": [
+    "claim not stated in the evidence: \"Emiliano Martínez won two Golden Gloves awards at the Copa América.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I spent several years on loan at clubs including Oxford United, Rotherham United & Getafe.\nLater I won the World Cup and was named The Best FIFA Goalkeeper twice.\nI've played with the likes of Aubameyang, Sancho & Rashford.",
+   "problems": [
+    "claim is wrong: \"Emiliano Martínez spent several years on loan at Oxford United.\"",
+    "claim is wrong: \"Emiliano Martínez spent several years on loan at Rotherham United.\"",
+    "claim is wrong: \"Emiliano Martínez spent several years on loan at Getafe.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "I made my Football League debut on emergency loan for Oxford United in a 3-0 defeat to Port Vale.\nDespite a journeyman start, I eventually won the Yashin Trophy twice and two Copa Américas.\nI've been managed by Arsène Wenger & Unai Emery.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "answer": "Michail Antonio",
+ "acceptableAnswers": [
+  "Michail Antonio",
+  "Antonio"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "On my 20th birthday I scored in a final at Wembley to win my first piece of silverware.\nAlthough I spent years as a winger, I eventually became the record top scorer for my longest-serving club in the Premier League era.\nI've been managed by Alan Pardew & David Moyes.",
+ "problems": [
+  "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question reads naturally and follows the house style with connected sentences ('Although...') and a narrowing clue at the end (managers). The hook is strong: scoring in a final on his birthday is a memorable moment. However, it loses a point because 'record top scorer for my longest-serving club",
+  "fix": "The question reads naturally and follows the house style with connected sentences ('Although...') and a narrowing clue at the end (managers). The hook is strong: scoring in a final on his birthday is a memorable moment. However, it loses a point because 'record top scorer for my longest-serving club"
+ },
+ "claims": [
+  {
+   "text": "Michail Antonio scored in a final at Wembley on his 20th birthday.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He scored again in the 4–1 2010 Football League Trophy Final win over Carlisle United at Wembley Stadium on 28 March 2010, which was his 20th birthday",
+    "He scored again in the 4–1 2010 Football League Trophy Final win over Carlisle United at Wembley Stadium on 28 March 2010, which was his 20th birthday, bringing Antonio his first silverware."
+   ]
+  },
+  {
+   "text": "The final Michail Antonio scored in on his 20th birthday resulted in him winning his first piece of silverware.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He scored again in the 4–1 2010 Football League Trophy Final win over Carlisle United at Wembley Stadium on 28 March 2010, which was his 20th birthday, bringing Antonio his first silverware.",
+    "He scored again in the 4–1 2010 Football League Trophy Final win over Carlisle United at Wembley Stadium on 28 March 2010, which was his 20th birthday, bringing Antonio his first silverware."
+   ]
+  },
+  {
+   "text": "Michail Antonio spent years playing as a winger.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2015, Antonio signed for West Ham United of the Premier League, where he was deployed in a number of positions including right back, right midfielder and as a winger before eventually establishing himself as the club's main striker."
+   ]
+  },
+  {
+   "text": "Michail Antonio is the record top scorer for his longest-serving club in the Premier League era.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "The goal drew him level with the club's all-time record top scorer in the Premier League era, Paolo Di Canio. On 23 August, he scored a brace in West Ham's 4–1 home win against Leicester City to eclipse Di Canio's record.",
+    "On 23 August, he scored a brace in West Ham's 4–1 home win against Leicester City to eclipse Di Canio's record."
+   ]
+  },
+  {
+   "text": "Alan Pardew has managed Michail Antonio.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Antonio's loan deal finished at the end of the 2009–10 season, but both manager Alan Pardew and Antonio himself expressed a desire for the winger to remain at Southampton.",
+    "Antonio's loan deal finished at the end of the 2009–10 season, but both manager Alan Pardew and Antonio himself expressed a desire for the winger to remain at Southampton."
+   ]
+  },
+  {
+   "text": "David Moyes has managed Michail Antonio.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 172 matches (2017 to 2024)",
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 172 matches (2017 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Michail_Antonio",
+  "revid": 1385586535
+ },
+ "alternatives": [
+  {
+   "question": "As a teenager, my mother rejected a trial for me at Tottenham Hotspur.\nYears later I returned to the same club's new stadium to score their first ever visiting goal.\nI've played with the likes of Ryan Lowe, Jesse Lingard & Mason Holgate.",
+   "problems": [
+    "claim not stated in the evidence: \"Michail Antonio has played with Ryan Lowe.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I scored my country's first ever goal in a Copa América tournament.\nAlthough I spent years as a winger, I eventually established myself as the main striker for a club where I won a European trophy in 2023.\nI've been managed by Slaven Bilic & Alan Pardew.",
+   "problems": [
+    "claim not stated in the evidence: \"Michail Antonio spent years as a winger.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "As a teenager, my mother rejected a trial for me at Tottenham Hotspur.\nYears later I returned to the same club's new stadium to score their first ever visiting goal.\nI've played with the likes of Jesse Lingard, Carlos Soler & Kalvin Phillips.",
+   "problems": [
+    "every team-mate and manager named meets the player at West Ham United, so together they only say 'West Ham United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "On my 20th birthday I scored in a final at Wembley to win the Football League Trophy.\nLater in my career I became the first player in my club's history to score four goals in a single Premier League game.\nI've played with the likes of Felipe Anderson, Aaron Wan-Bissaka & Tomáš Souček.",
+   "problems": [
+    "every team-mate and manager named meets the player at West Ham United, so together they only say 'West Ham United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was called up to the England squad under two different managers but never made an appearance.\nInstead, I went on to score my country's first ever goal in a Copa América tournament.\nI've been managed by David Moyes & Slaven Bilic.",
+   "problems": [
+    "every team-mate and manager named meets the player at West Ham United, so together they only say 'West Ham United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Michail Antonio was called up to the England squad under two different managers.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "As a teenager, my mother rejected a trial for me at Tottenham Hotspur on my behalf.\nYears later I became the all-time record top scorer in the Premier League era for my longest-serving club.\nI've played with the likes of Lingard, Wan-Bissaka & Soler.",
+   "problems": [
+    "every team-mate and manager named meets the player at West Ham United, so together they only say 'West Ham United'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Michail Antonio has played with Jesse Lingard, Aaron Wan-Bissaka and Pablo Soler.\"",
+    "wording will date: The claim of being the 'all-time record top scorer' is a present-tense superlative that could be invalidated if another player surpasses this total in future seasons.; The claim to be the all-time record top scorer for his club is a current status that could change if another player overtakes him."
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "answer": "Lewis Dunk",
+ "acceptableAnswers": [
+  "Lewis Dunk",
+  "Dunk"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I started my youth career at Wimbledon, but was released following the club's liquidation.\nYears later I would lead my hometown club to their first ever European qualification.\nI've played with the likes of Mac Allister, Cucurella & Ansu Fati.",
+ "problems": [
+  "every team-mate and manager named meets the player at Brighton & Hove Albion, so together they only say 'Brighton & Hove Albion'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+ ],
+ "style": {
+  "score": 0,
+  "why": "lint"
+ },
+ "claims": [
+  {
+   "text": "Lewis Dunk started his youth career at Wimbledon.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Dunk started his youth career at Wimbledon before joining Brighton & Hove Albion's academy in 2003.",
+    "Dunk started his youth career at Wimbledon before joining Brighton & Hove Albion's academy in 2003."
+   ]
+  },
+  {
+   "text": "Lewis Dunk was released by Wimbledon following the club's liquidation.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Dunk started his career at Wimbledon before he was released following the club's liquidation and relocation to Milton Keynes.",
+    "Dunk started his career at Wimbledon before he was released following the club's liquidation and relocation to Milton Keynes."
+   ]
+  },
+  {
+   "text": "Years after being released from Wimbledon, Lewis Dunk led his hometown club to their first ever European qualification.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Appointed captain in 2019, Dunk led the club to their maiden European qualification in the 2022–23 season, as they qualified for the following season's UEFA Europa League.",
+    "Appointed captain in 2019, Dunk led the club to their maiden European qualification in the 2022–23 season, as they qualified for the following season's UEFA Europa League."
+   ]
+  },
+  {
+   "text": "Lewis Dunk has played with Mac Allister.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Played in 92 matches alongside Alexis Mac Allister for Brighton & Hove Albion (2020 to 2023)",
+    "Played in 92 matches alongside Alexis Mac Allister for Brighton & Hove Albion (2020 to 2023)"
+   ]
+  },
+  {
+   "text": "Lewis Dunk has played with Cucurella.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Played in 27 matches alongside Marc Cucurella for Brighton & Hove Albion (2021 to 2022)",
+    "[Squad data > Brighton & Hove Albion] Played in 27 matches alongside Marc Cucurella for Brighton & Hove Albion (2021 to 2022)"
+   ]
+  },
+  {
+   "text": "Lewis Dunk has played with Ansu Fati.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Played in 23 matches alongside Ansu Fati for Brighton & Hove Albion (2023 to 2024)",
+    "[Squad data > Brighton & Hove Albion] Played in 23 matches alongside Ansu Fati for Brighton & Hove Albion (2023 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Lewis_Dunk",
+  "revid": 1385849118
+ },
+ "alternatives": [
+  {
+   "question": "Early in my career I spent a month on loan at Bristol City and once rejected a contract from Crystal Palace because of school commitments.\nDespite this slow start, I eventually became the first player from my club to earn a senior England cap since 1982.\nI've played alongside Caicedo, Ben White & Mitoma.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brighton & Hove Albion, so together they only say 'Brighton & Hove Albion'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "Despite being called up to the England under-21s in 2011, I remained uncapped at youth international level.\nYears later I would lead my club to a top seven finish and their first ever qualification for Europe.\nI've been managed by Graham Potter & Chris Hughton.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brighton & Hove Albion, so together they only say 'Brighton & Hove Albion'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I started my youth career at Wimbledon, but was released following the club's liquidation.\nYears later I led my hometown club to their maiden European qualification.\nI've played with the likes of Ben White, Mac Allister & Ansu Fati.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brighton & Hove Albion, so together they only say 'Brighton & Hove Albion'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In the 2014-15 season I finished as my club's top goalscorer.\nDespite this, I once held a joint-record for the most own goals in a single Premier League season.\nI've played with the likes of Caicedo, Cucurella & Mitoma.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brighton & Hove Albion, so together they only say 'Brighton & Hove Albion'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In the 2014–15 season I finished as my club's top goalscorer.\nAlthough I've made over 500 appearances for them, I was actually uncapped at youth international level.\nI've been managed by the likes of Hughton, Potter & De Zerbi.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brighton & Hove Albion, so together they only say 'Brighton & Hove Albion'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Lewis Dunk has made over 500 appearances for his club.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I spent a short loan spell at Bristol City in 2013 after struggling for game time.\nFollowing my return, I eventually captained my hometown club to their first ever European qualification.\nI've played with the likes of Ben White, Caicedo & Ansu Fati.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brighton & Hove Albion, so together they only say 'Brighton & Hove Albion'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Lewis Dunk captained his hometown club to their first ever European qualification after returning from his loan spell at Bristol City.\""
+   ],
+   "style": 0
+  }
+ ]
+}

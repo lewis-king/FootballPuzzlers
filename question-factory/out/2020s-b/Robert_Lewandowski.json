@@ -1,0 +1,136 @@
+{
+ "answer": "Robert Lewandowski",
+ "acceptableAnswers": [
+  "Robert Lewandowski",
+  "Lewandowski"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "article",
+  "contract": ""
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "Earlier in my career, I was offered a move to Sporting Gijón, but they rejected me.\nYears later I became the first player in history to score a Champions League hat-trick for three different clubs.\nI've played with the likes of Coutinho, João Félix & Marcus Rashford.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The first sentence is a dull procedural detail (a rejected transfer offer) that neither delights nor surprises, violating the style guide's rule against boring hooks. Additionally, the second sentence stacks two massive headline facts (first in history + CL hat-trick for three clubs) which nearly g1",
+  "fix": "Replace the dull opening with a memorable moment or contradiction (e.g., his early struggles at Dortmund or a specific famous goal). Ensure the 'three clubs' fact is framed as a surprising achievement rather than just a record, and verify that the teammate list effectively narrows the field without "
+ },
+ "claims": [
+  {
+   "text": "Robert Lewandowski was offered a move to Sporting Gijón earlier in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In June 2008, Lech Poznań signed Lewandowski from Znicz for 1.5 million PLN. (398,670 Dollars, or 350,055 Euros) Earlier that month, Lewandowski's agent Cezary Kucharski offered him to his former team Sporting Gijón, which had been promoted to the La Liga, Spain's first division, after ten years in the Segunda División.",
+    "Earlier that month, Lewandowski's agent Cezary Kucharski offered him to his former team Sporting Gijón"
+   ]
+  },
+  {
+   "text": "Sporting Gijón rejected Robert Lewandowski's offer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "However, Gijón rejected him.",
+    "However, Gijón rejected him."
+   ]
+  },
+  {
+   "text": "Robert Lewandowski is the first player in history to score a Champions League hat-trick for three different clubs.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first player in history to score a Champions League hat-trick for three different clubs",
+    "becoming the first player in history to score a Champions League hat-trick for three different clubs."
+   ]
+  },
+  {
+   "text": "Robert Lewandowski has played with Philippe Coutinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Bayern Munich] Played in 34 matches alongside Philippe Coutinho for Bayern Munich (2019 to 2020)",
+    "[Squad data > Bayern Munich] Played in 34 matches alongside Philippe Coutinho for Bayern Munich (2019 to 2020)"
+   ]
+  },
+  {
+   "text": "Robert Lewandowski has played with João Félix.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 40 matches alongside João Félix for FC Barcelona (2023 to 2024)",
+    "[Squad data > FC Barcelona] Played in 40 matches alongside João Félix for FC Barcelona (2023 to 2024)"
+   ]
+  },
+  {
+   "text": "Robert Lewandowski has played with Marcus Rashford.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)",
+    "[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+  "revid": 1386384091
+ },
+ "alternatives": [
+  {
+   "question": "I was once on the verge of joining Blackburn Rovers, but a volcanic eruption in Iceland caused flights to be cancelled and killed the deal.\nYears later I became one of only five players to score 100 goals with three different clubs.\nI've played with the likes of Coutinho, João Félix & Marcus Rashford.",
+   "problems": [
+    "claim not stated in the evidence: \"A volcanic eruption in Iceland caused flights to be cancelled, which killed Robert Lewandowski's deal with Blackburn Rovers.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The claim 'one of only five players' is a present-tense count that could change if another player reaches 100 goals with three clubs.; The claim 'one of only five players' is a current ranking that could change if another player reaches 100 goals for three clubs."
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was the top goalscorer in the Polish third division in 2007.\nYears later I became the first player in history to score a Champions League hat-trick for three different clubs.\nI've played with the likes of Coutinho, João Félix & Marcus Rashford.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "At UEFA Euro 2016 I did not register a single shot on target until the knockout stages.\nDespite this, I've since become my nation's all-time leading goalscorer.\nI've been managed by Klopp, Guardiola & Hansi Flick.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The phrase \"I've since become my nation's all-time leading goalscorer\" is a present-tense claim of an active record that could theoretically be broken by another player in the future.; The claim of being the all-time leading goalscorer is a current record that could be surpassed."
+   ],
+   "style": 3
+  },
+  {
+   "question": "I spent my early years playing for fourth and third tier sides in Poland.\nFollowing this I moved to Germany where I won the Bundesliga with two different clubs.\nI've been managed by the likes of Klopp, Guardiola & Hansi Flick.",
+   "problems": [
+    "claim is wrong: \"Robert Lewandowski spent his early years playing for fourth and third tier sides in Poland.\"",
+    "claim is wrong: \"After spending his early years playing for fourth and third tier sides in Poland, Robert Lewandowski moved to Germany.\"",
+    "claim not stated in the evidence: \"Robert Lewandowski won the Bundesliga with two different clubs while in Germany.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2010, a volcanic eruption in Iceland prevented me from completing a move to Blackburn Rovers.\nI later became one of only five players to score 100 goals with three different clubs.\nI've been managed by Klopp, Guardiola & Hansi Flick.",
+   "problems": [
+    "wording will date: The claim of being 'one of only five players' is a present-tense count that could change if another player achieves the feat.; The claim 'one of only five players' is a current ranking that could change if another player reaches the milestone."
+   ],
+   "style": 2
+  },
+  {
+   "question": "At UEFA Euro 2016 I did not register a single shot on target until the knockout stages.\nDespite this, I am my country's all-time leading goalscorer.\nI've played alongside Gavi, Pedri & João Cancelo.",
+   "problems": [
+    "every team-mate and manager named meets the player at FC Barcelona, so together they only say 'FC Barcelona'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "wording will date: The claim of being the 'all-time leading goalscorer' is a present-tense superlative that could theoretically be overtaken by another player in the future.; The claim to be the all-time leading goalscorer is a current record that could change."
+   ],
+   "style": 0
+  }
+ ]
+}

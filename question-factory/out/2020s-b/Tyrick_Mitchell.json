@@ -1,0 +1,111 @@
+{
+ "answer": "Tyrick Mitchell",
+ "acceptableAnswers": [
+  "Tyrick Mitchell",
+  "Mitchell"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I was part of the Brentford under-15 team that won the Junior Globe at the 2014 Milk Cup.\nFollowing the closure of their academy in 2016, I joined a different London club where I've since won the FA Cup.\nI've played with the likes of Batshuayi, Chilwell & Olise.",
+ "problems": [
+  "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+ ],
+ "style": {
+  "score": 0,
+  "why": "lint"
+ },
+ "claims": [
+  {
+   "text": "Tyrick Mitchell was part of the Brentford under-15 team that won the Junior Globe at the 2014 Milk Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was part of the under-15 team that won the Junior Globe at the 2014 Milk Cup",
+    "He was part of the under-15 team that won the Junior Globe at the 2014 Milk Cup"
+   ]
+  },
+  {
+   "text": "Following the closure of their academy in 2016, Tyrick Mitchell joined a different London club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In July 2016, Mitchell joined Premier League club Crystal Palace."
+   ]
+  },
+  {
+   "text": "Tyrick Mitchell has won the FA Cup with the London club he joined after Brentford's academy closed.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Mitchell made his first-team debut in 2020, and has since made over 180 appearances for the club, as well as winning the FA Cup in 2025."
+   ]
+  },
+  {
+   "text": "Tyrick Mitchell has played with Batshuayi, Chilwell & Olise.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Tyrick_Mitchell",
+  "revid": 1385451416
+ },
+ "alternatives": [
+  {
+   "question": "I made my senior England debut in 2022 after two of the country's most prominent defenders had to withdraw.\nIn 2025 I played every minute of a match that secured my club their first major trophy.\nI've been managed by Roy Hodgson, Patrick Vieira & Oliver Glasner.",
+   "problems": [
+    "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I only received my first senior England call-up because two other established players had to withdraw.\nYears later, I played every minute of a match in which my club won their first major trophy.\nI've been managed by Patrick Vieira, Roy Hodgson & Oliver Glasner.",
+   "problems": [
+    "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In the 2025 FA Cup final I conceded a penalty that was ultimately saved by my goalkeeper.\nAlthough I've made over 180 appearances for my club, I have only scored two goals for them.\nI've played alongside Zaha, Guehi & Brennan Johnson.",
+   "problems": [
+    "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Tyrick Mitchell played alongside Ethan Guehi.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was part of the Brentford under-15 team that won the Junior Globe at the 2014 Milk Cup.\nFollowing the closure of their academy in 2016, I joined a different London club where I've since won the FA Cup.\nI've played with the likes of Batshuayi, Brennan Johnson & Gareth Southgate.",
+   "problems": [
+    "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Tyrick Mitchell has played with Batshuayi, Brennan Johnson & Gareth Southgate.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was part of the Brentford under-15 team that won the Junior Globe at the 2014 Milk Cup.\nFollowing the closure of their academy in 2016, I joined a different London club where I later won the FA Cup.\nI've played with the likes of Batshuayi, Brennan Johnson & Gareth Southgate.",
+   "problems": [
+    "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Tyrick Mitchell has played with Gareth Southgate.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I made my senior international debut in 2022 after being called up to replace two of the most prominent full-backs in my country.\nIn 2025 I played every minute of a cup final that secured my club's first major trophy.\nI've been managed by Roy Hodgson, Patrick Vieira & Oliver Glasner.",
+   "problems": [
+    "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Tyrick Mitchell was called up to replace two of the most prominent full-backs in his country for his senior international debut.\""
+   ],
+   "style": 0
+  }
+ ]
+}

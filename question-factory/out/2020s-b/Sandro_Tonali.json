@@ -1,0 +1,133 @@
+{
+ "answer": "Sandro Tonali",
+ "acceptableAnswers": [
+  "Sandro Tonali",
+  "Tonali"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2032 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "After being banned for ten months for breaching betting regulations, I returned to football in August 2024.\nIn March 2025 I helped my club win their first major domestic trophy in 70 years.\nI've played with the likes of Leão, Bruno Guimarães & Malick Thiaw.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The facts are correct and the player is identifiable to keen fans, but it reads like a list of disconnected events rather than a story. It lacks the conversational flow, tension, or 'twist' found in the originals (e.g., no contrast between the ban and the success, just two separate dates). The final",
+  "fix": "Connect the sentences with narrative flow and add a bit of feeling or tension. For example: \"I was banned for ten months over betting regulations, but I returned to football in August 2024 ready to prove myself. That resilience paid off when I helped my club win their first major domestic trophy in "
+ },
+ "claims": [
+  {
+   "text": "Sandro Tonali was banned for ten months for breaching betting regulations.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 26 October, he was banned from playing football for 10 months for breaching Italian betting regulations.",
+    "he was banned from playing football for 10 months for breaching Italian betting regulations."
+   ]
+  },
+  {
+   "text": "Sandro Tonali returned to football in August 2024.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "though he was allowed to return to football in August on the condition that no further breaches were made during the 2024–25 season.",
+    "he was allowed to return to football in August on the condition that no further breaches were made during the 2024–25 season."
+   ]
+  },
+  {
+   "text": "In March 2025, Sandro Tonali helped his club win their first major domestic trophy in 70 years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 16 March 2025, Tonali became part of the first Newcastle United side to win a major domestic trophy in 70 years when he played the full 90 minutes in the 2025 EFL Cup final.",
+    "On 16 March 2025, Tonali became part of the first Newcastle United side to win a major domestic trophy in 70 years when he played the full 90 minutes in the 2025 EFL Cup final."
+   ]
+  },
+  {
+   "text": "Sandro Tonali has played with Rafael Leão.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AC Milan] Played in 110 matches alongside Rafael Leão for AC Milan (2020 to 2023)",
+    "[Squad data > AC Milan] Played in 110 matches alongside Rafael Leão for AC Milan (2020 to 2023)"
+   ]
+  },
+  {
+   "text": "Sandro Tonali has played with Bruno Guimarães.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Played in 90 matches alongside Bruno Guimarães for Newcastle United (2023 to 2026)",
+    "[Squad data > Newcastle United] Played in 90 matches alongside Bruno Guimarães for Newcastle United (2023 to 2026)"
+   ]
+  },
+  {
+   "text": "Sandro Tonali has played with Malick Thiaw.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Played in 49 matches alongside Malick Thiaw for Newcastle United (2025 to 2026)",
+    "[Squad data > Newcastle United] Played in 49 matches alongside Malick Thiaw for Newcastle United (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Sandro_Tonali",
+  "revid": 1385915037
+ },
+ "alternatives": [
+  {
+   "question": "In my youth I was often likened to Andrea Pirlo, a player who also started his professional career at Brescia.\nFollowing my move to Milan I took a pay-cut to secure what I described as my childhood dream.\nI've played with the likes of Donnarumma, Isak & Jacob Ramsey.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I won the Serie B title with my first professional club in 2019.\nIn 2023 I became the most expensive Italian player of all time when I moved to the Premier League.\nI've played with the likes of Donnarumma, Isak & Thiaw.",
+   "problems": [
+    "claim is wrong: \"Sandro Tonali won the Serie B title in 2019.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I took a pay-cut to secure a move to my childhood dream club.\nAlthough I won a league title there, I later missed an entire season and a European Championship due to a betting ban.\nI've been managed by Pioli & Howe, and played with Leão & Ramsey.",
+   "problems": [
+    "claim is wrong: \"Sandro Tonali missed an entire season due to a betting ban.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once took a pay-cut to secure a move to my childhood dream club.\nFollowing that spell, I moved to London in 2026 for a fee of £100 million.\nI've played with the likes of Leão, Guimarães & Thiaw.",
+   "problems": [
+    "claim not stated in the evidence: \"Following the spell at his childhood dream club, Sandro Tonali moved to London in 2026 for a fee of £100 million.\"",
+    "claim is wrong: \"Sandro Tonali has played with João Guimarães.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I started my professional career at Brescia, where I won the Serie B title in 2019.\nLater, I became the most expensive Italian player of all time during a move to the Premier League.\nI've played with the likes of Donnarumma, Isak & Ramsey.",
+   "problems": [
+    "wording will date: The claim of being the 'most expensive Italian player of all time' is a superlative record that could be invalidated by a future transfer fee exceeding it.; The claim of being the 'most expensive Italian player of all time' is a current record that could be broken by a future transfer."
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2024 I was banned from football for ten months due to illegal betting activity.\nDespite this, I later helped my club win their first major domestic trophy in 70 years.\nI've been managed by Stefano Pioli & Eddie Howe.",
+   "problems": [
+    "claim is wrong: \"Sandro Tonali was banned from football for ten months in 2024 due to illegal betting activity.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  }
+ ]
+}

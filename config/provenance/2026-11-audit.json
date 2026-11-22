@@ -1,0 +1,5118 @@
+[
+ {
+  "id": 4,
+  "pack": "Starter",
+  "player": "Peter Crouch",
+  "question": "I've scored more headed goals than anyone else in Premier League history.",
+  "answers": [
+   "Peter Crouch",
+   "Crouch"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:22:35",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q4",
+   "kind": "change"
+  },
+  "before": "Which player has scored the most headed goals in the Premier League?",
+  "verdict": "REWORD",
+  "issues": "The question is not in the first person (\"Which player has...\"). The fact still holds: 53 headed PL goals, a Guinness record. Crouch retired on 12 July 2019, so RET is wrong.",
+  "shelf": "RECORD (most PL headed goals)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.guinnessworldrecords.com/world-records/464813-most-football-soccer-premier-league-headed-goals",
+   "https://www.si.com/soccer/2019/07/12/peter-crouch-retires"
+  ]
+ },
+ {
+  "id": 5,
+  "pack": "Starter",
+  "player": "Sergio Agüero",
+  "question": "I've scored 5 goals in a single Premier League match in the fastest time",
+  "answers": [
+   "Sergio Agüero",
+   "Agüero",
+   "Sergio Aguero",
+   "Aguero"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:22:46",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q5",
+   "kind": "change"
+  },
+  "before": "I've scored 5 goals in a single Premier League match in the fastest time",
+  "verdict": "FIX-FLAGS",
+  "issues": "The fact still holds: five goals against Newcastle (Oct 2015) is still the fastest PL five-goal haul. Agüero retired on 15 Dec 2021 because of a heart condition.",
+  "shelf": "RECORD (fastest PL five-goal haul)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.fourfourtwo.com/features/which-two-players-scored-80-premier-league-goals-quicker-sergio-aguero",
+   "https://www.eurosport.com/football/premier-league/2015-2016/sergio-aguero-and-the-four-other-men-who-bagged-five-goal-hauls-in-the-premier-league_sto4936430/story.shtml",
+   "https://www.irishtimes.com/sport/soccer/sergio-aguero-retires-from-football-due-to-a-heart-condition-aged-33-1.4755969"
+  ]
+ },
+ {
+  "id": 6,
+  "pack": "Starter",
+  "player": "Gareth Barry",
+  "question": "I've made over 50 caps for my country and made more than 450 appearances in the Premier League.\nI won the Premier League for the first time after playing in the division for more than a decade.\nI was named my club's Player of the Season in my 19th Premier League campaign.",
+  "answers": [
+   "Gareth Barry",
+   "Barry"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T17:28:07",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q6",
+   "kind": "change"
+  },
+  "before": "I've made over 50 caps for my country and have made more than 450 appearances in the Premier League.\nI won the Premier League for the first time after playing in the division for more than a decade.\nI was picked as Player of the Season for my club in my 19th Premier League campaign",
+  "proposedBeforeLewisEdit": "I've won over 50 caps for my country and made more than 450 appearances in the Premier League.\nI won the Premier League for the first time after playing in the division for more than a decade.\nI was named my club's Player of the Season in my 19th Premier League campaign.",
+  "verdict": "REWORD",
+  "issues": "The facts check out: 53 caps, 653 PL appearances, first title in 2011-12 after debuting in 1997-98, and Everton Player of the Season in 2015-16, his 19th PL season. \"Made over 50 caps\" is clumsy English. Barry retired on 27 Aug 2020, so RET is wrong.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gareth_Barry",
+   "https://www.skysports.com/football/news/11095/12057643/garry-barry-retires-from-football-at-39"
+  ]
+ },
+ {
+  "id": 10,
+  "pack": "Starter",
+  "player": "Wayne Rooney",
+  "question": "I've scored a hat-trick from set pieces in a single Premier League game.\nI've won the Premier League as many times as I've been named Premier League Player of the Month (which is more than 2).\nMy Premier League career spans over 10 years.",
+  "answers": [
+   "Wayne Rooney",
+   "Rooney"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T17:39:07",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q10",
+   "kind": "change"
+  },
+  "before": "I've scored a hat-trick from set pieces in a single Premier League game.\nI've won the Premier League as many times as I've been named PFA Player of the Month (which is greater than 2).\nMy Premier League career spans over 10 years",
+  "proposedBeforeLewisEdit": "I've scored a hat-trick made up entirely of set pieces in a single Premier League game.\nI've won the Premier League as many times as I've been named Premier League Player of the Month (which is more than 2).\nMy Premier League career spans over 10 years.",
+  "verdict": "REWORD",
+  "issues": "\"PFA Player of the Month\" is wrong: his five awards are Premier League Player of the Month. The count still works: 5 PL titles and 5 Player of the Month awards. The set-piece hat-trick is real (Wikipedia names 10 Sep 2011 v Bolton; the 8-2 against Arsenal in Aug 2011 was two free kicks and a penalty). Rooney retired as a player on 15 Jan 2021.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (sources disagree on which 2011 match was the set-piece hat-trick, but one exists either way)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_Premier_League_hat-tricks",
+   "https://en.wikipedia.org/wiki/Premier_League_Player_of_the_Month",
+   "https://www.sportbible.com/football/news-wayne-rooney-retires-from-football-to-become-full-time-manager-20210115"
+  ]
+ },
+ {
+  "id": 11,
+  "pack": "Starter",
+  "player": "Jermain Defoe",
+  "question": "I've scored the most Premier League goals as a substitute.\nDuring my career I've played with the likes of Berbatov, Júlio César, Van Der Vaart & Joleon Lescott",
+  "answers": [
+   "Jermain Defoe",
+   "Defoe"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:50:50",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q11",
+   "kind": "change"
+  },
+  "before": "I've scored the most Premier League goals as a substitute.\nDuring my career I've played with the likes of Berbatov, Júlio César, Van Der Vaart & Joleon Lescott",
+  "verdict": "FIX-FLAGS",
+  "issues": "The facts still hold: 24 PL goals as a substitute is still the record (Giroud is next on 21). The teammates check out: Júlio César at Toronto in 2014, Lescott at Sunderland in 2017, and Berbatov and Van der Vaart at Spurs. Defoe retired on 24 Mar 2022.",
+  "shelf": "RECORD (most PL goals as a substitute)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://theanalyst.com/articles/top-scoring-substitutes-premier-league",
+   "https://en.wikipedia.org/wiki/2014_Toronto_FC_season",
+   "https://www.skysports.com/football/news/11065/10740951/sunderland-sign-joleon-lescott-on-a-free-transfer",
+   "https://thescore.com/eng_fed/news/2324036"
+  ]
+ },
+ {
+  "id": 12,
+  "pack": "Starter",
+  "player": "Martin Škrtel",
+  "question": "I share the record for the most own goals in a single Premier League season.\nI've played on the same team as Pogrebnyak, Keane, Pennant & Glen Johnson.",
+  "answers": [
+   "Martin Skrtel",
+   "Škrtel",
+   "Martin Škrtel",
+   "Skrtel"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:51:09",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q12",
+   "kind": "change"
+  },
+  "before": "I've scored the most own-goals in a Premier League season.\nI've played on the same team as Pogrebnyak, Keane, Pennant & Glen Johnson",
+  "verdict": "REWORD",
+  "issues": "His four own goals in 2013-14 were equalled by Lewis Dunk in 2017-18, so the record is now shared. He retired in May 2022 (back injuries).",
+  "shelf": "RECORD (joint most own goals in a PL season)",
+  "confidence": "medium (teammate list not re-verified one by one)",
+  "notes": [],
+  "sources": [
+   "https://theanalyst.com/2023/04/most-premier-league-own-goals/",
+   "https://www.liverpoolfc.com/news/martin-skrtel-announces-retirement-football"
+  ]
+ },
+ {
+  "id": 13,
+  "pack": "Starter",
+  "player": "Ledley King",
+  "question": "I scored the fastest goal in Premier League history and held that record for more than 18 years.\nI've been capped for England and featured in the 2010 FIFA World Cup.\nI've played alongside Gallas, Carrick & Robinson during my career.",
+  "answers": [
+   "Ledley King",
+   "King"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:51:26",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q13",
+   "kind": "change"
+  },
+  "before": "I still hold the record for the fastest Premier League goal.\nI've been capped for England and featured in the 2010 FIFA World Cup.\nI've played alongside Gallas, Carrick & Robinson during my career",
+  "verdict": "REWORD",
+  "issues": "\"I still hold the record for the fastest PL goal\" is false. Shane Long scored after 7.69s on 23 Apr 2019, beating King's 9.82s (Dec 2000). The rest is fine.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.guinnessworldrecords.com/world-records/411353-fastest-goal-scored-in-the-football-soccer-premier-league",
+   "https://theanalyst.com/articles/fastest-premier-league-goals/"
+  ]
+ },
+ {
+  "id": 14,
+  "pack": "Starter",
+  "player": "Michael Owen",
+  "question": "I'm the only player to take a Premier League penalty before turning 18, and I scored it on my debut.",
+  "answers": [
+   "Michael Owen",
+   "Owen"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:51:45",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q14",
+   "kind": "change"
+  },
+  "before": "Over 2200 (and counting) penalties have been taken in the history of the Premier League\nI'm the only player who has taken one under the age of 18?",
+  "verdict": "REWORD",
+  "issues": "The \"over 2200 (and counting)\" penalty count has dated. The question splits across a stray line break and ends with \"?\". The core fact (scored a penalty on his PL debut aged 17y 143d, the only under-18 penalty taker) is supported by The Analyst and FootballOrbit, but I found only one explicit source for \"only\".",
+  "shelf": "RECORD (only under-18 PL penalty taker)",
+  "confidence": "medium",
+  "notes": [],
+  "sources": [
+   "https://theanalyst.com/articles/youngest-premier-league-scorers/",
+   "https://footballorbit.com/?p=4623",
+   "https://en.wikipedia.org/wiki/Michael_Owen"
+  ]
+ },
+ {
+  "id": 15,
+  "pack": "Starter",
+  "player": "Dennis Bergkamp",
+  "question": "I made over 300 Premier League appearances, all for the same team.\nDuring that time my club won three league titles and four FA Cups.\nOne of my goals was voted the best of the Premier League's first 25 years.",
+  "answers": [
+   "Dennis Bergkamp",
+   "Bergkamp"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:52:07",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q15",
+   "kind": "change"
+  },
+  "before": "I made over 300 Premier League appearances all for the same team.\nDuring that time, my club lifted 11 trophies. One of my famous goals was voted the best Premier League goal of all time.",
+  "verdict": "REWORD",
+  "issues": "315 PL appearances, all for Arsenal, are confirmed, and the Newcastle goal was voted best in the PL's first 25 years (BBC, 2017). I could not verify the \"11 trophies\" figure: 3 league titles and 4 FA Cups are confirmed, but the Charity Shield wins are not. The wording \"voted the best Premier League goal of all time\" is also too strong for one poll.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dennis_Bergkamp",
+   "https://www.sportsjoe.ie/football/13-years-on-dennis-bergkamps-pirouette-goal-against-newcastle-remains-the-best-in-premier-league-era-15715"
+  ]
+ },
+ {
+  "id": 16,
+  "pack": "Starter",
+  "player": "Craig Bellamy",
+  "question": "I'm the only player to have scored for seven Premier League clubs.",
+  "answers": [
+   "Craig Bellamy",
+   "Bellamy"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:52:14",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q16",
+   "kind": "change"
+  },
+  "before": "I'm the only player to have scored for seven Premier League clubs?",
+  "verdict": "REWORD",
+  "issues": "The fact still holds: he is the only player to score for seven PL clubs (an April 2026 list still says so). The only change needed is to drop the stray \"?\".",
+  "shelf": "RECORD (scored for most PL clubs)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.premierleague.com/news/645456",
+   "https://www.talesfromthetopflight.com/2025/02/09/marcus-bent-played-at-a-record-8-premier-league-clubs/"
+  ]
+ },
+ {
+  "id": 18,
+  "pack": "Starter",
+  "player": "Jack Rodwell",
+  "question": "I've played in the Premier League, the Championship and Australia's A-League.\nI've played with Lescott at 3 different clubs and with Pienaar and Sinclair at 2 different clubs.\nI have a Premier League medal to my name.",
+  "answers": [
+   "Jack Rodwell",
+   "Rodwell"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T17:53:36",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q18",
+   "kind": "change"
+  },
+  "before": "I've played both in the Premier League and Championship\nI've played with Lescott at 3 different clubs and with Pienaar and Sinclair at 2 different clubs\nI have a Premier League medal to my name",
+  "proposedBeforeLewisEdit": "I've played in the Premier League, the Championship and Australia's A-League.\nI've played with Lescott at 3 different clubs and with Pienaar at 2 different clubs.\nI have a Premier League medal to my name.",
+  "verdict": "REWORD",
+  "issues": "The Sinclair claim fails. Scott Sinclair was his teammate only at Man City, and Jerome Sinclair joined Sunderland in July 2018, after Rodwell had left. The Lescott claim holds (Everton, Man City, Sunderland), as does Pienaar (Everton, Sunderland). His PL medal is from 2013-14 with City. Since then he has also played in Australia (Western Sydney, Sydney FC). He has had no club since his Sydney FC contract ended on 30 Jun 2024, but I found no retirement announcement.",
+  "shelf": "TIMELESS",
+  "confidence": "low (retirement status)",
+  "notes": [
+   "Flags note: RET unclear: free agent since June 2024 with no announcement. Leave false or treat as retired; Lewis to decide."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jack_Rodwell",
+   "https://www.sunderlandecho.com/news/revealed-surprising-role-jack-rodwell-played-jerome-sinclairs-sunderland-move-349699"
+  ]
+ },
+ {
+  "id": 19,
+  "pack": "Starter",
+  "player": "James Milner",
+  "question": "I scored my first Premier League goal at the age of 16.\nSome of the names I've been managed by are Allardyce, Rodgers, Mancini & O'Neill",
+  "answers": [
+   "James Milner",
+   "Milner"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:53:45",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q19",
+   "kind": "change"
+  },
+  "before": "I scored my first Premier League goal at the age of 16.\nSome of the names I've been managed by are Allardyce, Rodgers, Mancini & O'Neill",
+  "verdict": "FIX-FLAGS",
+  "issues": "The facts hold: his first PL goal came on 26 Dec 2002 aged 16y 356d, and he played under Allardyce (Newcastle), O'Neill (Villa), Mancini (City) and Rodgers (Liverpool). Milner announced his retirement on 1 Jun 2026 after 24 PL seasons at Brighton. He also broke Barry's PL appearance record on 21 Feb 2026, which could be added later.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/James_Milner",
+   "https://www.beinsports.com/en/premier-league/news/james-milner-serial-winner/1461528"
+  ]
+ },
+ {
+  "id": 20,
+  "pack": "Starter",
+  "player": "Nemanja Vidić",
+  "question": "I share the record for the most Premier League Player of the Season awards.\nIn one of those seasons I helped my club to a record 14 consecutive league games without conceding a goal.",
+  "answers": [
+   "Nemanja Vidić",
+   "Nemanja Vidić",
+   "Nemanja Vidic",
+   "Vidic"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:54:05",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q20",
+   "kind": "change"
+  },
+  "before": "I've got the record for the joint highest Premier League Player of the Season awards.\nDuring one of these seasons I helped my club to a record breaking 14 consecutive games without conceding a goal.",
+  "verdict": "REWORD",
+  "issues": "The facts hold. Two Player of the Season awards is still the most anyone has won, now shared with Henry, Ronaldo, De Bruyne and others. United's 14 straight PL clean sheets in 2008-09 is still the record (Arsenal chased it in late 2025). The English is clumsy.",
+  "shelf": "RECORD (joint most Player of the Season awards; 14 consecutive clean sheets)",
+  "confidence": "medium (I could not confirm where Arsenal's 2025-26 run ended)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Premier_League_Player_of_the_Season",
+   "https://www.guinnessworldrecords.com/world-records/777877-most-wins-of-the-football-soccer-premier-league-player-of-the-season-award",
+   "https://www.guinnessworldrecords.com/world-records/90515-most-consecutive-english-football-premier-league-clean-sheets"
+  ]
+ },
+ {
+  "id": 21,
+  "pack": "Starter",
+  "player": "Sébastien Bassong",
+  "question": "I have been relegated from the Premier League 4 times with 3 different clubs.\nI've played for my country (Cameroon) at a World Cup, have been managed by Harry Redknapp and have played in the same team as Defoe and Bale",
+  "answers": [
+   "Sébastien Bassong",
+   "Bassong",
+   "Sebastien Bassong"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:54:07",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q21",
+   "kind": "change"
+  },
+  "before": "I have been relegated from the Premier League 4 times with 3 different clubs.\nI've played for my country (Cameroon) at a World Cup, have been managed by Harry Redknapp and have played in the same team as Defoe and Bale",
+  "verdict": "FIX-FLAGS",
+  "issues": "The facts hold: four PL relegations (Newcastle 2009, Wolves 2012, Norwich 2014 and 2016) and the 2010 World Cup. Wikipedia calls him \"former\"; his last club was Volos (released Dec 2019).",
+  "shelf": "TIMELESS",
+  "confidence": "medium (no formal retirement date found)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/S%C3%A9bastien_Bassong"
+  ]
+ },
+ {
+  "id": 22,
+  "pack": "Starter",
+  "player": "Thierry Henry",
+  "question": "I set a Premier League record of 20 assists in a season.\nI've never won the League Cup but I've won the FA Cup, Community Shield and League Title.\nAnother accolade to my name is the European Golden Shoe.",
+  "answers": [
+   "Thierry Henry",
+   "Henry"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T17:55:23",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q22",
+   "kind": "change"
+  },
+  "before": "I've made the most assists in a Premier League season.\nI've never won the League cup but I've won the FA cup, Community Shield and League Title.\nAnother accolade to my name is the European Golden Boot",
+  "proposedBeforeLewisEdit": "I set a Premier League record of 20 assists in a season, which nobody beat for 23 years.\nI've never won the League Cup but I've won the FA Cup, Community Shield and League Title.\nAnother accolade to my name is the European Golden Shoe.",
+  "verdict": "REWORD",
+  "issues": "The PL single-season assist record has gone. Henry's 20 (2002-03) was equalled by De Bruyne in 2019-20 and beaten by Bruno Fernandes with 21 on 24 May 2026. The rest holds.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.si.com/soccer/bruno-fernandes-breaks-famous-premier-league-assist-record-final-day",
+   "https://theanalyst.com/articles/most-assists-in-a-premier-league-season"
+  ]
+ },
+ {
+  "id": 23,
+  "pack": "Starter",
+  "player": "Christopher Samba",
+  "question": "Some of the players I've played with include Phil Jones, Samuel Eto'o, Steven N'Zonzi & Míchel Salgado.\nMy accumulated transfer fee total for my career is in excess of £40 mil",
+  "answers": [
+   "Christopher Samba",
+   "Samba"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T17:55:46",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q23",
+   "kind": "change"
+  },
+  "before": "Some of the players I've played with include Phil Jones, Samuel Eto'o, Steven N'Zonzi & Míchel Salgado.\nMy accumulated transfer fee total for my career is in excess of £40 mil",
+  "proposedBeforeLewisEdit": "Some of the players I've played with include Phil Jones, Samuel Eto'o, Steven N'Zonzi & Míchel Salgado.\nI joined the same Russian club twice in 18 months, with a spell at a Premier League club in between.",
+  "verdict": "REWORD",
+  "issues": "I could not verify \"in excess of £40 mil\". The known fees (£0.45m, about £12.3m, £12.5m, £12m) add up to about £37m, and the Dynamo Moscow fee was undisclosed. Samba quietly retired after Aston Villa released him in June 2018 and is now a Blackburn academy coach.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (teammates are from memory and club overlap, not individually sourced)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Christopher_Samba",
+   "https://sportsmole.co.uk/football/qpr/transfer-talk/news/samba-rejoins-anzhi_92181.html"
+  ]
+ },
+ {
+  "id": 24,
+  "pack": "Starter",
+  "player": "George Weah",
+  "question": "I'm a retired striker who played for clubs including Chelsea, PSG, Man City & Monaco.\nIn 2018 I became president of my home country.",
+  "answers": [
+   "George Weah",
+   "Weah"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:55:59",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q24",
+   "kind": "change"
+  },
+  "before": "I'm a retired striker who has played for a number of clubs which include Chelsea, PSG, Man City & Monaco.\nIn 2018 I will take office after being elected president of my home country",
+  "verdict": "REWORD",
+  "issues": "\"In 2018 I will take office\" has dated. He served from Jan 2018 until 22 Jan 2024, after losing the 2023 election to Boakai.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.aljazeera.com/amp/news/2024/1/22/boakai-sworn-in-as-new-liberia-president-after-victory-over-weah"
+  ]
+ },
+ {
+  "id": 25,
+  "pack": "Starter",
+  "player": "Dimitar Berbatov",
+  "question": "I shared the Premier League Golden Boot in a season my club won the title.\nI've played with Stekelenburg, Dembélé & Taarabt to name a few and have been managed by Sir Alex Ferguson.",
+  "answers": [
+   "Dimitar Berbatov",
+   "Berbatov"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:56:07",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q25",
+   "kind": "change"
+  },
+  "before": "I was the top assist provider for one Premier League season, the season after I won the Premier League Golden Boot.\nI've played with Stekelenburg, Dembélé & Taarabt to name a few and have been managed by Sir Alex Ferguson.",
+  "verdict": "REWORD",
+  "issues": "The assist claim looks false. He shared the 2010-11 Golden Boot with Tevez, but David Silva led the 2011-12 assists (15), and Wikipedia records no assist title for Berbatov. The teammates check out from his Fulham spell (Stekelenburg, Dembélé, Taarabt). He retired in Sep 2019.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (I did not fetch the full 2011-12 assists table)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dimitar_Berbatov",
+   "https://www.squawka.com/en/?p=1316430"
+  ]
+ },
+ {
+  "id": 26,
+  "pack": "Starter",
+  "player": "Gus Poyet",
+  "question": "I've played for both London clubs Chelsea and Tottenham.\nI never won the Premier League but did lift the FA Cup.\nOne of my career highlights is scoring the winner in a UEFA Super Cup final.",
+  "answers": [
+   "Gus Poyet",
+   "Poyet"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:56:21",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q26",
+   "kind": "change"
+  },
+  "before": "I've played for both London clubs Chelsea and Tottenham.\nI've never won the league but have lifted the FA cup.\nOne of my career highlights is scoring the winner in a UEFA Super Cup final",
+  "verdict": "REWORD",
+  "issues": "\"I've never won the league\" is false. He won the 1990 Uruguayan title with Bella Vista. He never won the PL. The FA Cup (2000) and the Super Cup winner against Real Madrid (1998) are correct.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gus_Poyet"
+  ]
+ },
+ {
+  "id": 27,
+  "pack": "Starter",
+  "player": "Alan Shearer",
+  "question": "I share the record for the most missed Premier League penalties, with 11.",
+  "answers": [
+   "Alan Shearer",
+   "Shearer"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T17:56:39",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q27",
+   "kind": "change"
+  },
+  "before": "I've missed the most Premier League penalties in history with 11",
+  "proposedBeforeLewisEdit": "I share the record for the most missed Premier League penalties, with 11.\nI've also scored more Premier League penalties than anyone else.",
+  "verdict": "REWORD",
+  "issues": "He missed 11 of 67, but Wayne Rooney also missed 11, so the record is shared (PA/Premier League). With the shared record alone the question has two answers, so add a fact that separates them.",
+  "shelf": "RECORD (joint most PL penalties missed; most PL penalties scored, 56)",
+  "confidence": "medium (I did not see the official PL penalty table directly)",
+  "notes": [],
+  "sources": [
+   "https://www.premierleague.com/news/4192169",
+   "https://www.talesfromthetopflight.com/2024/10/24/alan-shearer-is-the-premier-league-penalty-king-with-56-goals-from-the-spot/"
+  ]
+ },
+ {
+  "id": 29,
+  "pack": "Starter",
+  "player": "Emile Heskey",
+  "question": "I scored 110 Premier League goals and not one of them was a penalty.\nI played for exactly 5 different Premier League teams but never won the league.",
+  "answers": [
+   "Emile Heskey",
+   "Heskey"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:57:02",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q29",
+   "kind": "change"
+  },
+  "before": "I reached the 100 goal mark in the Premier League without scoring from the penalty spot.\nI played for 5 different Premier League teams but never won the league",
+  "verdict": "REWORD",
+  "issues": "The first line is no longer unique. Ferdinand, Cole, Giggs, Crouch and Mané also reached 100 PL goals without scoring a penalty. \"Played for 5 PL teams, never won the league\" still narrows it to Heskey (Ferdinand had 6 clubs and Crouch 7), but only by an exact count.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://thefootballfaithful.com/appreciating-the-six-players-to-reach-100-premier-league-goals-without-scoring-a-penalty/",
+   "https://fourfourtwo.com/news/im-one-of-only-two-players-to-score-100-goals-in-the-premier-league-without-taking-a-penalty-former-liverpool-striker-discusses-special-record"
+  ]
+ },
+ {
+  "id": 30,
+  "pack": "Starter",
+  "player": "Nicolas Anelka",
+  "question": "My senior club career spanned more than 500 games in which I scored more than 150 goals.\nTeams I have played for include Shanghai Shenhua, PSG, Chelsea, Juventus & Arsenal.\nI made 69 caps for my country and won the Euros.\nMy transfer fees added up to over £100 million.",
+  "answers": [
+   "Nicolas Anelka",
+   "Anelka"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T17:57:52",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q30",
+   "kind": "change"
+  },
+  "before": "My senior career spanned (now retired) over 500 games in which I scored more than 150 goals.\nTeams I have played for include Shanghai Shenhua, PSG, Chelsea, Juventus & Arsenal.\nI've played 50 games at international level, scoring 12 goals and have won the Euros.\nAccumulation of all of my transfer fees equates to over £110mil",
+  "proposedBeforeLewisEdit": "My senior club career spanned more than 500 games in which I scored more than 150 goals.\nTeams I have played for include Shanghai Shenhua, PSG, Chelsea, Juventus & Arsenal.\nI won 69 caps for my country and won the Euros.\nMy transfer fees added up to almost £90 million.",
+  "verdict": "REWORD",
+  "issues": "The international figures are wrong: 69 caps and 14 goals, not 50 and 12. Transfer fees total \"just under £90 million\" per Wikipedia, not over £110m. The \"(now retired)\" aside is awkward. The club totals (508 games, 157 goals) and Euro 2000 are fine.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nicolas_Anelka"
+  ]
+ },
+ {
+  "id": 31,
+  "pack": "Starter",
+  "player": "Wes Brown",
+  "question": "I'm a joint record holder for the infamous most Premier League red cards in a season.\nI've won all three major English trophies (PL, FA Cup, League Cup) and have a Champions League medal.\nSome of the players I have played with include Rose, Berbatov & Mame Biram Diouf.",
+  "answers": [
+   "Wes Brown",
+   "Brown"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:58:04",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q31",
+   "kind": "change"
+  },
+  "before": "I'm a joint record holder of the infamous most Premier League red cards in a season.\nI've won all of the three English top flight trophies (PL, FA, LC) and have a Champions League medal.\nSome of the players I have played with include Rose, Berbatov &  Mame Biram Diouf",
+  "verdict": "REWORD",
+  "issues": "The facts hold. Three reds in 2013-14 makes him one of seven players sharing the season record (Squawka), though Wikipedia says one of the three was overturned on appeal. He won the PL, FA Cup, LC and CL. The only fix is a double space typo (\"&  Mame\").",
+  "shelf": "RECORD (joint most PL reds in a season)",
+  "confidence": "medium (whether the overturned card counts)",
+  "notes": [],
+  "sources": [
+   "https://www.squawka.com/us/?p=1113",
+   "https://en.wikipedia.org/wiki/Wes_Brown"
+  ]
+ },
+ {
+  "id": 33,
+  "pack": "Starter",
+  "player": "Gervinho",
+  "question": "Some of the clubs I have played for include Roma, Arsenal and Lille.\nI'm an African Cup of Nations winner.\nPlayers I have played with include Podolski, Ashley Cole & Idrissa Gueye",
+  "answers": [
+   "Gervinho"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:58:07",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q33",
+   "kind": "change"
+  },
+  "before": "Some of the clubs I have played for include Roma, Arsenal and Lille.\nI'm an African Cup of Nations winner.\nPlayers I have played with include Podolski, Ashley Cole & Idrissa Gueye",
+  "verdict": "FIX-FLAGS",
+  "issues": "The facts hold: Lille, Arsenal and Roma, the AFCON 2015 win, and Podolski, A. Cole and Gueye as teammates. Wikipedia calls him \"former\"; his last club was Aris (2022-23).",
+  "shelf": "TIMELESS",
+  "confidence": "medium (no formal announcement found)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gervinho"
+  ]
+ },
+ {
+  "id": 35,
+  "pack": "Starter",
+  "player": "Ricardo Quaresma",
+  "question": "I've played for Chelsea and have been managed by the likes of Mourinho & Scolari. My teammates have included Demba Ba, Malouda, Pepe & Arnautović.\nI've won 3 different top flight European domestic leagues",
+  "answers": [
+   "Ricardo Quaresma",
+   "Quaresma"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:58:11",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q35",
+   "kind": "change"
+  },
+  "before": "I've played for Chelsea and have been managed by the likes of Mourinho & Scolari. My teammates have included Demba Ba, Malouda, Pepe & Arnautović.\nI've won 3 different top flight European domestic leagues",
+  "verdict": "FIX-FLAGS",
+  "issues": "The facts hold. He won league titles in Portugal, Italy (Inter 2008-09) and Turkey (Beşiktaş 2015-17), was on loan at Chelsea in 2009, and played under Mourinho at Inter and Scolari (Chelsea and Portugal). Wikipedia calls him \"former\"; he left Vitória in May 2022. He is a winger, so FWD could be added.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (no formal announcement found)",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, wing-backs as defenders, and a player can have more than one position if they played in more than one. Starts by position: MID 98%, FWD 2%. A winger, so Midfielder only."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ricardo_Quaresma"
+  ]
+ },
+ {
+  "id": 40,
+  "pack": "Starter",
+  "player": "Raheem Sterling",
+  "question": "I was born in Kingston, Jamaica.\nI've won the Premier League four times with the same club.\nI scored three goals for England at Euro 2020.",
+  "answers": [
+   "Raheem Sterling",
+   "Sterling"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": false,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:58:40",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q40",
+   "kind": "change"
+  },
+  "before": "I was born after the Premier League began and I've managed to score a hat-trick in it.",
+  "verdict": "REWORD",
+  "issues": "The question is not unique and was not unique even in 2019. Many players born after Aug 1992 have scored PL hat-tricks (Kane, born 1993, for one). Sterling is a free agent since leaving Feyenoord in summer 2026 and is not retired. Wikipedia lists him as a winger.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, wing-backs as defenders, and a player can have more than one position if they played in more than one. Starts by position: MID 85%, FWD 15%. A winger, so Midfielder only.",
+   "English stays yes: Lewis decided on 20 Nov 2026 that Sterling counts as English (he played for England), even though he was born in Kingston."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Raheem_Sterling",
+   "https://www.beinsports.com/en-us/soccer/premier-league/articles/sterling-ends-underwhelming-chelsea-stint-by-mutual-consent-2026-01-28"
+  ]
+ },
+ {
+  "id": 41,
+  "pack": "Starter",
+  "player": "Salomón Rondón",
+  "question": "I've scored a hat-trick of headers in a single Premier League match.\nI've played club football in Spain, Russia, England, China, Argentina and Mexico.\nI never won La Liga but have lifted the Russian Premier League and Russian Super Cup.",
+  "answers": [
+   "Salomón Rondón",
+   "Rondón",
+   "Salomon Rondon",
+   "Rondon"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:58:48",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q41",
+   "kind": "change"
+  },
+  "before": "I've scored a hat-trick of headers in a single Premier League match.\nI've played for two different Spanish teams, two different Russian teams and a single English team as part of my career (as of 2018).\nI didn't win La Liga but have lifted the Russian Premier League & Russian Super Cup trophies",
+  "verdict": "REWORD",
+  "issues": "\"two Spanish, two Russian and a single English team (as of 2018)\" has dated. He has since played for Newcastle (loan) and Everton, CSKA Moscow (loan), Dalian, River Plate, Pachuca and Real Oviedo (loan, 2025). He is still playing for Pachuca. Ferguson is the only other player with a PL hat-trick of headers.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Salom%C3%B3n_Rond%C3%B3n",
+   "https://en.wikipedia.org/wiki/List_of_Premier_League_hat-tricks"
+  ]
+ },
+ {
+  "id": 42,
+  "pack": "Starter",
+  "player": "César Azpilicueta",
+  "question": "I've played every minute of a title winning Premier League season.\nI've also won the French League Cup, English League Cup & Europa League.",
+  "answers": [
+   "César Azpilicueta",
+   "Cesar Azpilicueta",
+   "Azpilicueta",
+   "Dave"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:58:52",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q42",
+   "kind": "change"
+  },
+  "before": "I've played every minute of a title winning Premier League season.\nI've also won the French League Cup, English League Cup & Europa League.",
+  "verdict": "FIX-FLAGS",
+  "issues": "The facts hold: every minute of 2016-17, Coupe de la Ligue (2012), League Cup (2015) and Europa League (2013, 2019). He retired on 22 May 2026; his last club was Sevilla.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/C%C3%A9sar_Azpilicueta"
+  ]
+ },
+ {
+  "id": 43,
+  "pack": "Starter",
+  "player": "Yaya Touré",
+  "question": "I scored all 11 of the Premier League penalties I took, a perfect record nobody beat until 2026.\nI've won more than one Premier League title and have lifted the Champions League.",
+  "answers": [
+   "Yaya Touré",
+   "Touré",
+   "Yaya Toure",
+   "Toure"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:59:02",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q43",
+   "kind": "change"
+  },
+  "before": "I'm the only player to have taken 10 or more penalties in the Premier League and convert them all.\nI've won more than one Premier League title and have lifted the Champions League",
+  "verdict": "REWORD",
+  "issues": "\"Only player with 10+ PL penalties, all converted\" is false now. Raúl Jiménez went 12/12 in Feb 2026 (14/14 by March), and PA says Jiménez was the third player with a perfect record from 10 or more. Touré retired in May 2019.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (I did not identify the other perfect-record player, but the titles line rules out Jiménez)",
+  "notes": [],
+  "sources": [
+   "https://www.premierleague.com/en/news/4236846",
+   "https://theanalyst.com/articles/raul-jimenez-penalties-premier-league-perfect-record",
+   "https://gianlucadimarzio.com/en/yaya-toure-officially-retires-from-football"
+  ]
+ },
+ {
+  "id": 44,
+  "pack": "Starter",
+  "player": "Tony Yeboah",
+  "question": "My goals-to-game ratio for club and country was above 0.47.\nI won the Bundesliga top scorer award twice without winning the league.\nI've scored hat-tricks in the Premier League and the UEFA Cup, and I have an African Cup of Nations runners-up medal after losing the final on penalties.",
+  "answers": [
+   "Tony Yeboah",
+   "Anthony Yeboah",
+   "Yeboah"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:59:12",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q44",
+   "kind": "change"
+  },
+  "before": "My goals to game ratio for club and country was above 0.47.\nI've won the Bundesliga golden boot on two occasions without winning the league.\nI've scored hat-trick(s) in the Premier League and the UEFA Cup\nand I've got an African Cup of Nations runners up medal having lost the final on penalties.",
+  "verdict": "REWORD",
+  "issues": "The facts hold. He scored 267 in 466 for his clubs and 29 in 59 for Ghana, about 0.56 a game. He was Bundesliga top scorer in 1992-93 and 1993-94 (both shared) and Frankfurt won neither title. He scored PL hat-tricks against Ipswich and Wimbledon and a UEFA Cup hat-trick against Monaco, and lost the 1992 AFCON final 11–10 on penalties. The only problem is a line break in the middle of a sentence (\"\\nand I've got\").",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tony_Yeboah",
+   "https://en.wikipedia.org/wiki/1992_African_Nations_Cup"
+  ]
+ },
+ {
+  "id": 48,
+  "pack": "Starter",
+  "player": "Asmir Begović",
+  "question": "I'm a goalkeeper who once held the Guinness World Record for the longest goal scored in football.\nIt's the only goal of my career, and I've won league titles in England and Azerbaijan.",
+  "answers": [
+   "Asmir Begović",
+   "Begović",
+   "Asmir Begovic",
+   "Begovic"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:59:25",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q48",
+   "kind": "change"
+  },
+  "before": "I'm in the Guinness World Records for the longest goal scored in football.\nIt's my only career goal and my only club career accolade is a Premier League title",
+  "verdict": "REWORD",
+  "issues": "(1) Guinness record lost: Tom King (Newport County) scored from 96.01 m on 19 Jan 2021, confirmed by Guinness, beating Begović's 91.9 m (Nov 2013). (2) \"My only club career accolade is a Premier League title\" is false: he also won the Azerbaijan Premier League with Qarabağ in 2019-20. Only career goal is still true (1 goal in 459 apps). Status: free agent since his Leicester contract ended (July 2026); no retirement announcement found, so RET false left, re-check before launch.",
+  "shelf": "TIMELESS",
+  "confidence": "high (facts); medium (RET status)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Asmir_Begovi%C4%87",
+   "https://newport-county.co.uk/news/2021/january/tom-king-sets-new-guinness-world-record",
+   "https://itv.com/news/wales/2021-01-21/newport-goalies-spectacular-goal-confirmed-as-longest-in-football-history"
+  ]
+ },
+ {
+  "id": 49,
+  "pack": "Starter",
+  "player": "Claude Makélélé",
+  "question": "I've won the Premier League, La Liga, Ligue 1 and the Champions League.\nSince retiring I've been an assistant coach in the French and English leagues alongside the same manager.\nI've also managed clubs in France, Belgium and Greece, but I'm best known for playing alongside the likes of Zinedine Zidane and Raúl.",
+  "answers": [
+   "Claude Makélélé",
+   "Makélélé",
+   "Claude Makelele",
+   "Makelele"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:59:38",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q49",
+   "kind": "change"
+  },
+  "before": "I've won the Premier League, La Liga, Ligue 1 and the Champions League\nSince retiring I've been an assistant coach in the French and English leagues alonside the same manager\nI've also managed a club but I'm most recognisable from playing with the likes of Zinedine Zidane and Raul to name a few",
+  "verdict": "REWORD",
+  "issues": "Facts hold (Ligue 1 1995 Nantes, La Liga 2001/2003, CL 2002, PL 2005/2006; assistant to Paul Clement at PSG and Swansea). Typo \"alonside\". \"I've also managed a club\" is now understated: he has managed Bastia (2014), Eupen (2017-19) and Asteras Tripolis (2024). \"Raul\" missing accent (optional).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Claude_Mak%C3%A9l%C3%A9l%C3%A9"
+  ]
+ },
+ {
+  "id": 50,
+  "pack": "Starter",
+  "player": "George Boyd",
+  "question": "I've been capped internationally for Scotland and have played for two relegated Premier League teams in the same season.\nI've played in all 4 professional domestic England leagues and have made the PFA Team of the Year in League One & Two.\nI've been promoted to the Premier League with two different clubs",
+  "answers": [
+   "George Boyd",
+   "Boyd"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:59:43",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q50",
+   "kind": "change"
+  },
+  "before": "I've been capped internationally for Scotland and have played for two relegated Premier League teams in the same season.\nI've played in all 4 professional domestic England leagues and have made the PFA Team of the Year in League One & Two.\nI've been promoted to the Premier League with two different clubs",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired from professional football 28 Oct 2021 (played semi-pro for Wythenshawe Town until 2024-25). All facts confirmed: 2 Scotland caps; Hull (1 PL app) and Burnley in 2014-15, both relegated; played all four divisions; PFA Team of the Year League Two 2007-08 and League One 2008-09; promoted to PL with Hull 2013 and Burnley 2016. Flag note: he is English-born (Chatham) but a Scotland international, so the ENG clue (\"I am English\") is ambiguous for players. Consider ENG false to match his international nationality, or keep true and accept the trick.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [
+   "Flags note: RET false→true; (consider ENG true→false)"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/George_Boyd_(footballer)"
+  ]
+ },
+ {
+  "id": 52,
+  "pack": "Starter",
+  "player": "Alexander Hleb",
+  "question": "I've played alongside the likes of Messi, Bojan, Robin van Persie & Kolo Touré.\nMy greatest club achievements include a La Liga title and a UEFA Champions League.\nI was one of the Bundesliga's top assist providers before moving to the Premier League, and I'm a former Belarus captain.",
+  "answers": [
+   "Alexander Hleb",
+   "Hleb"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:00:21",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q52",
+   "kind": "change"
+  },
+  "before": "I've played alongside the likes of Messi, Bojan, Robin van Persie & Kolo Toure.\nMy greatest club achievements include a La Liga title and a UEFA Champions League.\nOne season I got the highest assists in the Bundesliga",
+  "verdict": "REWORD",
+  "issues": "(1) \"One season I got the highest assists in the Bundesliga\" not supported: worldfootball.net 2004-05 has Petrov 14, Makaay and Marcelinho 13, Hleb 4th with 12 (statscrew gives him 13, still not top). No source found naming him the league leader. (2) Retired: last club Isloch (2019), Wikipedia calls him a former footballer. La Liga and CL with Barcelona 2008-09 confirmed. Teammates Messi, Bojan (Barcelona), van Persie, Kolo Touré (Arsenal) fit by club overlap.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (\"former Belarus captain\" from memory of his captaincy; if you want zero risk drop that clause and end the line after \"Premier League\")",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alexander_Hleb",
+   "https://www.worldfootball.net/assists/bundesliga-2004-2005/",
+   "https://statscrew.com/worldfootball/stats/t-VFBST918/y-2004"
+  ]
+ },
+ {
+  "id": 53,
+  "pack": "Starter",
+  "player": "Stevan Jovetić",
+  "question": "I've played in the same team as Sergio Agüero, Gary Medel, Felipe Melo and Radamel Falcao.\nI'm a Montenegrin forward and my best scoring season came at Fiorentina in 2012-13.\nI've won the Premier League and League Cup in the same season.",
+  "answers": [
+   "Stevan Jovetić",
+   "Stevan Jovetic",
+   "Jovetić",
+   "Jovetic"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:00:33",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q53",
+   "kind": "change"
+  },
+  "before": "I've played in the same team as Sergio Aguero, Gary Medel, Felipe Melo and Radamel Falcao\nI'm a forward still currently playing as of 2018 however, I've have not scored more than 10 goals in a single season since 2012-2013\nI've won the Premier League and League Cup in the same season",
+  "verdict": "REWORD",
+  "issues": "\"still currently playing as of 2018\" is dated wording and \"I've have\" is a typo. He is still playing (AEL Limassol, signed Aug 2026), so RET false is right. \"Not scored more than 10 goals in a single season since 2012-13\" still true per Wikipedia (Monaco 2017-18 reached exactly 10; Hertha 7, Olympiacos 8), but it can change while he plays. PL and League Cup 2013-14 with Man City confirmed.",
+  "shelf": "TIMELESS (reworded version)",
+  "confidence": "medium (the \"best scoring season\" line relies on Wikipedia's per-season table; 13 league goals in 2012-13)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stevan_Joveti%C4%87"
+  ]
+ },
+ {
+  "id": 55,
+  "pack": "Starter",
+  "player": "Andriy Shevchenko",
+  "question": "Some of the players I've played with before retiring include Kaká, Claudio Pizarro, Jaap Stam & Nicolas Anelka.\nI won the Ballon d'Or ahead of the likes of Ronaldinho and Henry, and I'm the top goalscorer for my country.",
+  "answers": [
+   "Andriy Shevchenko",
+   "Shevchenko"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:01:14",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q55",
+   "kind": "change"
+  },
+  "before": "Some of the players I've played with before retiring include Kaka, Claudio Pizarro, Jaap Stam & Nicholas Anelka.\nI won the Ballon d'Or in front of the likes of Ronaldinho and Henry and I'm the top goalscorer for my country",
+  "verdict": "REWORD",
+  "issues": "Facts hold (Ballon d'Or 2004; Ukraine top scorer, 48 goals; retired 2012). Typo only: \"Nicholas Anelka\" should be \"Nicolas Anelka\"; \"Kaka\" can take its accent.",
+  "shelf": "RECORD (country top scorer could in theory be passed; nobody close)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andriy_Shevchenko"
+  ]
+ },
+ {
+  "id": 56,
+  "pack": "Starter",
+  "player": "Paul Robinson",
+  "question": "I'm a goalkeeper, but I've managed to score, assist and win a penalty in the Premier League.\nMy 5 assists were a record for a Premier League keeper until Ederson overtook me.",
+  "answers": [
+   "Paul Robinson",
+   "Robinson"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:01:29",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q56",
+   "kind": "change"
+  },
+  "before": "I'm a goalkeeper, but I've managed to score, assist and win a penalty in the Premier League.\nI've made 5 assists, more than any other keeper.",
+  "verdict": "REWORD",
+  "issues": "\"I've made 5 assists, more than any other keeper\" is out of date. Ederson passed Robinson's 5 in 2024-25 (6 PL assists per Sports Mole and Man City; Guinness lists 7 as of 12 Apr 2025, which may include a non-PL assist). Goal (v Watford 2007) and won penalty (v Wigan 2011) confirmed. Retired 2017.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paul_Robinson_(footballer,_born_1979)",
+   "https://www.sportsmole.co.uk/football/man-city/feature/goalkeepers-with-the-most-assists-in-premier-league-history_565723.html",
+   "https://www.guinnessworldrecords.com/world-records/775921-most-english-premier-league-epl-assists-by-a-goalkeeper"
+  ]
+ },
+ {
+  "id": 57,
+  "pack": "Starter",
+  "player": "Eiður Guðjohnsen",
+  "question": "I played for 16 different clubs during a senior career that ended in 2017.\nThey included Chelsea, Tottenham, Monaco & Barcelona.\nI've won the Premier League, La Liga & Champions League and scored over 100 goals in my career.\nI held my country's goalscoring record for over a decade, and my country reached its first World Cup in 2018.",
+  "answers": [
+   "Eiður Guðjohnsen",
+   "Gudjohnsen",
+   "Eidur Gudjohnsen",
+   "Eiður Smári",
+   "Eidur Smari"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:01:39",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q57",
+   "kind": "change"
+  },
+  "before": "I've played for 15 different clubs during my senior career which I retired from in 2017.\nThey included Chelsea, Tottenham, Monaco & Barcelona.\nI've won the Premier League, La Liga & Champions League and have scored over 100 goals in my career.\nI'm also the current top goalscorer for my country (at 2018), a country which has qualified for the 2018 FIFA World Cup",
+  "verdict": "REWORD",
+  "issues": "(1) No longer Iceland's top scorer: Gylfi Sigurðsson passed his 26 goals (27 by Oct 2023, 28 by 2026). (2) Wikipedia counts 16 senior clubs (17 spells), not 15. Retired Sept 2017, honours, clubs and 100+ career goals (158 all comps) confirmed.",
+  "shelf": "TIMELESS",
+  "confidence": "high (record passed); medium (16 vs 15 clubs depends on how loans count; \"16\" matches Wikipedia)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ei%C3%B0ur_Gu%C3%B0johnsen",
+   "https://statista.com/statistics/576914/all-time-top-goal-scorers-national-football-team-by-goals-scored-iceland",
+   "https://www.11v11.com/teams/iceland/tab/stats/option/scorers/"
+  ]
+ },
+ {
+  "id": 60,
+  "pack": "Starter",
+  "player": "Richard Wright",
+  "question": "I've won 2 Premier League winner's medals, with Arsenal and Man City, but played only 12 league games across the two title-winning seasons.",
+  "answers": [
+   "Richard Wright",
+   "Wright"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:02:16",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q60",
+   "kind": "change"
+  },
+  "before": "I have managed to win 2 Premier League medals by only playing a total of 12 matches in total for two different teams.\nThe two teams were Arsenal and Man City",
+  "verdict": "REWORD",
+  "issues": "Facts essentially hold: 12 league apps for Arsenal in 2001-02 (medal), and a 2013-14 Man City medal without playing (City used him as third keeper; PL medal rules changed). Wikipedia's honours list shows only the Arsenal title, so the City medal rests on press sources. Wording repeats \"in total\" twice.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (City medal not on Wikipedia or the PL profile)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Richard_Wright_(footballer)",
+   "https://bleacherreport.com/articles/2060588-richard-wright-and-the-6-least-deserving-premier-league-winners",
+   "https://blog.woolwicharsenal.co.uk/?p=20709"
+  ]
+ },
+ {
+  "id": 61,
+  "pack": "Starter",
+  "player": "Fábio da Silva",
+  "question": "I'm a Brazilian international who has won a Premier League medal.\nSome players I've played with include Bosingwa, Zaha, & Negredo and I've been managed by Harry Redknapp",
+  "answers": [
+   "Fábio da Silva",
+   "Fábio",
+   "Fabio da Silva",
+   "Fabio"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:02:19",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q61",
+   "kind": "change"
+  },
+  "before": "I'm a Brazilian international who has won a Premier League medal.\nSome players I've played with include Bosingwa, Zaha, & Negredo and I've been managed by Harry Redknapp",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired: Fábio and twin Rafael jointly announced retirement after his Grêmio spell (2023-24). Brazil caps (2, 2011) and PL 2010-11 medal confirmed. Teammates Bosingwa (QPR), Zaha (Man Utd/Cardiff), Negredo (Middlesbrough) and Redknapp (QPR manager 2012-13) fit by club/season overlap. Uniqueness note: his twin Rafael also has Brazil caps and PL medals, but Rafael never played for QPR/Cardiff/Middlesbrough, so Bosingwa/Negredo/Redknapp separate them.",
+  "shelf": "TIMELESS",
+  "confidence": "high on retirement; date not pinned down (believed early 2025)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/F%C3%A1bio_(footballer,_born_1990)",
+   "https://tribalfootball.com/article/soccer-premier-league-man-utd-s-former-twins-fabio-and-rafael-announce-retirement-29759a63-1e78-43b0-be9a-b736ab89bed3"
+  ]
+ },
+ {
+  "id": 62,
+  "pack": "Starter",
+  "player": "Emmanuel Adebayor",
+  "question": "I've scored hat-tricks against the same club in both matches of a Premier League season.\nI have a Champions League runners up medal with Monaco and a Copa del Rey winners medal with Real Madrid.\nI've played in the same team as Zaha & Toure",
+  "answers": [
+   "Emmanuel Adebayor",
+   "Adebayor"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:02:20",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q62",
+   "kind": "change"
+  },
+  "before": "I've scored hat-tricks against the same club in both matches of a Premier League season.\nI have a Champions League runners up medal with Monaco and a Copa del Rey winners medal with Real Madrid.\nI've played in the same team as Zaha & Toure",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired 21 March 2023. Hat-tricks home and away v Derby 2007-08 confirmed (Wikipedia: the only player to do this in a PL season). CL runner-up 2004 with Monaco (unused sub) and Copa del Rey 2011 with Real Madrid confirmed. Zaha (Palace 2016) and Touré (Man City) fit by overlap.",
+  "shelf": "TIMELESS (the hat-trick claim is phrased as an achievement, not a \"only\" record)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Emmanuel_Adebayor"
+  ]
+ },
+ {
+  "id": 63,
+  "pack": "Starter",
+  "player": "Kevin Davies",
+  "question": "I've scored, assisted and scored an own goal all in the same Premier League game.\nI retired in 2015 and spent most of my career at a club in the north of England, making over 350 league appearances and scoring over 70 league goals.\nI played 9 consecutive Premier League seasons there before we were relegated in 2012.",
+  "answers": [
+   "Kevin Davies",
+   "Davies"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:02:31",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q63",
+   "kind": "change"
+  },
+  "before": "I've scored, assisted and scored an own goal all in the same Premier League game.\nI retired in 2015 and spent the majority of my career at a North England club making over 350 appearances and scoring over 70 goals.\nWe endured 9 consecutive seasons in the Premier League before being relegated and we haven't made it back since (as 2018)",
+  "verdict": "REWORD",
+  "issues": "\"(as 2018)\" is dated and missing a word. Bolton have still not returned to the PL, but they were promoted to the Championship via the 2026 League One play-offs, so this may change. Retired Sept 2015; 351 league apps / 74 league goals for Bolton confirmed. Bolton's PL run was 2001-12 (11 seasons); the \"9 seasons\" is Davies's own spell (2003-04 to 2011-12), so say so. The scored/assisted/own goal game: found the Villa 4-2 Bolton match (13 Dec 2008) where he scored and was credited with an own goal, but the assist was not confirmed. \"North England\" reads oddly.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (assist in the own-goal game unverified)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kevin_Davies",
+   "https://www.11v11.com/matches/aston-villa-v-bolton-wanderers-13-december-2008-283735/",
+   "https://en.wikipedia.org/wiki/Bolton_Wanderers_F.C."
+  ]
+ },
+ {
+  "id": 64,
+  "pack": "Starter",
+  "player": "Paulinho",
+  "question": "I've won a Fifa Club World Cup beating Chelsea in the final.\nI've been managed by the likes of Pochettino & Valverde. Scolari has managed me for both club and country and I've won the Chinese domestic treble having also made the team of the year",
+  "answers": [
+   "Paulinho"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:02:33",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q64",
+   "kind": "change"
+  },
+  "before": "I've won a Fifa Club World Cup beating Chelsea in the final.\nI've been managed by the likes of Pochettino & Valverde. Scolari has managed me for both club and country and I've won the Chinese domestic treble having also made the team of the year",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired 8 Sept 2024. Club World Cup 2012 v Chelsea, Scolari for Guangzhou and Brazil, 2016 domestic treble, CSL Team of the Year confirmed. Pochettino (Spurs) and Valverde (Barcelona 2017-18) fit by overlap. Optional typo: \"Fifa\" to \"FIFA\".",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paulinho_(footballer,_born_July_1988)"
+  ]
+ },
+ {
+  "id": 65,
+  "pack": "Starter",
+  "player": "Carlton Cole",
+  "question": "I've scored over 50 Premier League goals.\nI've played on the same team as Robert Huth, Alex Song, Paolo Di Canio & Zola.\nI've been managed by Claudio Ranieri.",
+  "answers": [
+   "Carlton Cole",
+   "Cole"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:03:00",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q65",
+   "kind": "change"
+  },
+  "before": "I'm in the top 100 all-time Premier League goalscorers as of 2018.\nI've played on the same team as Robert Huth, Alex Song, Paolo Di Canio & Zola.\nI've been managed by Claudio Ranieri",
+  "proposedBeforeLewisEdit": "I've scored over 50 Premier League goals, most of them for West Ham.\nI've played on the same team as Robert Huth, Alex Song, Paolo Di Canio & Zola.\nI've been managed by Claudio Ranieri.",
+  "verdict": "REWORD",
+  "issues": "\"top 100 all-time PL goalscorers as of 2018\" is dated and likely no longer true: Cole has 52 PL goals (Wikipedia lead), while 50th place is already 88 goals (Kevin Davies) and active forwards keep passing the 50s and 60s. Retired March 2018. Teammates Zola (Chelsea), Huth (Chelsea), Di Canio (Charlton 2003-04 loan), Song (West Ham 2014-15) and Ranieri (Chelsea) fit.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (exact current rank not found; the reworded claim is verified)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carlton_Cole",
+   "https://www.sportsmole.co.uk/football/newcastle-united/feature/top-premier-league-goalscorers-of-all-time_538118.html",
+   "https://www.nbcsports.com/soccer/news/premier-league-all-time-goals-leaders-scoring-records-stats-100-goals-top-50"
+  ]
+ },
+ {
+  "id": 66,
+  "pack": "Starter",
+  "player": "Nuri Şahin",
+  "question": "I was the Bundesliga's youngest ever player and scorer when I broke through, though both records have since been beaten.\nI won the Bundesliga before joining Real Madrid, then spent a season on loan at Liverpool.\nI later returned to my first club as head coach.",
+  "answers": [
+   "Nuri Sahin",
+   "Sahin",
+   "Nuri Şahin",
+   "Sahin"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:03:14",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q66",
+   "kind": "change"
+  },
+  "before": "I hold the record for playing the highest number of Premier League games to be substituted off in all of them.\nThe team I was playing for was Liverpool",
+  "verdict": "REWORD",
+  "issues": "Claim appears false: lfchistory shows 7 PL starts in 2012-13 with the full 90 at West Brom, so he was not substituted off in all of them, and no source records this as a PL record. Also retired 2021 (now a manager), so RET is wrong.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nuri_%C5%9Eahin",
+   "https://www.lfchistory.net/Players/Player/Profile/1246"
+  ]
+ },
+ {
+  "id": 68,
+  "pack": "Starter",
+  "player": "Scott Parker",
+  "question": "I retired from playing at the end of the 2016-17 season.\nI was in the Chelsea squad that won the club's first league title in 50 years, a year after I was named PFA Young Player of the Year.\nPlayers I have played alongside include Robben, Owen, Bellamy & Sidwell.",
+  "answers": [
+   "Scott Parker",
+   "Parker"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:03:20",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q68",
+   "kind": "change"
+  },
+  "before": "I retired from playing at the end of the 2016-17 season.\nI was part of the team which won Chelsea's first Premier League trophy in 50 years.\nI was awarded the PFA young player of the year for the previous year.\nPlayers I have played alongside include Robben, Owen, Bellamy & Sidwell",
+  "verdict": "REWORD",
+  "issues": "Facts hold (retired June 2017; PFA Young Player 2003-04; in Chelsea's 2004-05 squad with 4 league apps). Wording: 2005 was Chelsea's first league title in 50 years, not their first \"Premier League trophy in 50 years\", and Parker's 4 appearances were below the 10-game medal threshold of the time, so \"part of the squad\" is safer than \"part of the team which won\". Teammates Robben (Chelsea), Owen (Newcastle), Bellamy (West Ham), Sidwell (Fulham 2013-14) fit by overlap. He is now West Ham head coach (Nov 2026), no effect.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Scott_Parker"
+  ]
+ },
+ {
+  "id": 69,
+  "pack": "Starter",
+  "player": "Jordi Gómez",
+  "question": "I'm a midfielder who has won the FA Cup.\nI've been at the same club at the same time as the likes of Ronaldinho, Vito Mannone, Eto'o, Defoe & Victor Moses.\nI've also scored a Premier League hat-trick.",
+  "answers": [
+   "Jordi Gómez",
+   "Gómez",
+   "Jordi Gomez",
+   "Gomez"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:03:25",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q69",
+   "kind": "change"
+  },
+  "before": "I'm a midfielder who has won the FA Cup.\nI've been at the same club at the same time as the likes of Ronaldhino, Vito Mannone, Eto'o, Defoe & Victor Moses.\nI've also scored a Premier League hat-trick",
+  "verdict": "FIX-FLAGS",
+  "issues": "Wikipedia now calls him a former footballer; last club Omonia 29M (2023). FA Cup 2013 and PL hat-trick v Reading (Nov 2012) confirmed. Typo: \"Ronaldhino\" should be \"Ronaldinho\". Teammates Ronaldinho/Eto'o (Barcelona 2005-06), Mannone/Defoe (Sunderland), Moses (Wigan) fit by overlap.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (no formal retirement announcement found; no club since 2023)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jordi_G%C3%B3mez"
+  ]
+ },
+ {
+  "id": 70,
+  "pack": "Starter",
+  "player": "John Terry",
+  "question": "I'm a capped England international and have played on the same team as Freedman, Snodgrass, Mile Jedinak, Christopher Samba and Robert Huth.\nI've won the Premier League and played my final season in the Championship.",
+  "answers": [
+   "John Terry",
+   "Terry"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:03:37",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q70",
+   "kind": "change"
+  },
+  "before": "I'm a capped England international and have played on the same team as Freedman, Snodgrass, Mile Jedinak, Christopher Samba and Robert Huth.\nI've won the Premier League and have played matches in both the Championship and Premier League. I'm still playing as of season 2017-2018",
+  "verdict": "REWORD",
+  "issues": "\"I'm still playing as of season 2017-2018\" is out of date: retired 7 Oct 2018 (RET already true). 78 England caps. Freedman (Forest 2000 loan), Huth (Chelsea), Snodgrass/Jedinak/Samba (Villa 2017-18) fit by overlap.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/John_Terry"
+  ]
+ },
+ {
+  "id": 72,
+  "pack": "Starter",
+  "player": "Olivier Dacourt",
+  "question": "I've played with Dunne, Figo, Mido & Woodgate at club level.\nI've never won the Premier League but have 2 Serie A titles to my name.",
+  "answers": [
+   "Olivier Dacourt",
+   "Dacourt"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:05:58",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q72",
+   "kind": "change"
+  },
+  "before": "I've played with Dunne, Figo, Mido & Woodgate at club level./nI've never won the Premier League but have 2 Serie A titles to my name",
+  "verdict": "REWORD",
+  "issues": "Literal \"/n\" in the text. Facts hold: 2 Serie A titles (Inter 2006-07, 2007-08), no PL title (Fulham loan 2008-09). Teammates Dunne (Everton), Figo (Inter), Mido (Roma), Woodgate (Leeds) fit by overlap. Retired 2010.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Olivier_Dacourt"
+  ]
+ },
+ {
+  "id": 73,
+  "pack": "Starter",
+  "player": "Stephen Ireland",
+  "question": "I've played with Sturridge, Walker, Pirès & Vieira but have never played for Liverpool, Arsenal or Spurs.\nI've played for Man City but never won the Premier League.\nI was Man City's Player of the Season in 2009.",
+  "answers": [
+   "Stephen Ireland",
+   "Ireland"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:06:15",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q73",
+   "kind": "change"
+  },
+  "before": "I've played with Sturridge, Walker, Pirès & Vieira but have not played for Liverpool, Arsenal or Spurs.\nI've played for Man City but have never won the Premier League.\nI'm still a Premier League player (as of 2017-18 season)",
+  "verdict": "REWORD",
+  "issues": "\"I'm still a Premier League player (as of 2017-18 season)\" is out of date. Retired after a brief Bolton spell (left Dec 2018, no first-team games). Facts hold: Sturridge and Vieira (Man City), Walker and Pirès (Villa), no PL title.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stephen_Ireland"
+  ]
+ },
+ {
+  "id": 74,
+  "pack": "Starter",
+  "player": "Maxi Rodríguez",
+  "question": "I won the English League Cup during my time in the Premier League.\nPlayers I have played with include Joe Cole, Reyes, Doni & Forlán and I have a FIFA World Cup runners up medal to my name",
+  "answers": [
+   "Maxi Rodríguez",
+   "Rodríguez",
+   "Maxi Rodriguez",
+   "Rodriguez"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:06:17",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q74",
+   "kind": "change"
+  },
+  "before": "I won the English League Cup during my time in the Premier League.\nPlayers I have played with include Joe Cole, Reyes, Doni & Forlán and I have a FIFA World Cup runners up medal to my name",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired 27 Nov 2021 (farewell match 2023). League Cup 2012 and 2014 WC runner-up confirmed. Joe Cole/Doni (Liverpool), Reyes/Forlán (Atlético) fit by overlap.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Maxi_Rodr%C3%ADguez"
+  ]
+ },
+ {
+  "id": 77,
+  "pack": "Starter",
+  "player": "Fernando Torres",
+  "question": "I've scored over 50 Premier League goals with at least 15 of them being headers.\nSome of my teammates have included Lukaku, Matić & Agüero.",
+  "answers": [
+   "Fernando Torres",
+   "Torres"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:06:23",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q77",
+   "kind": "change"
+  },
+  "before": "I've scored over 50 Premier League goals with at least 15 of them being headers.\nSome of my teammates have included Lukaku, Matić, & Augero",
+  "verdict": "REWORD",
+  "issues": "Retired June 2019 (RET wrong). 85 PL goals, 15 headed (premierleague.com stats), so \"at least 15 headers\" holds. Typo \"Augero\" should be \"Agüero\". Lukaku and Matić (Chelsea), Agüero (Atlético) fit.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (header count from one source)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fernando_Torres",
+   "https://www.premierleague.com/players/3420/Oscar/stats (ID 3420 is Torres's profile per search)",
+   "https://statmuse.com/fc/ask/torres-premier-league-goals"
+  ]
+ },
+ {
+  "id": 78,
+  "pack": "Starter",
+  "player": "Oscar",
+  "question": "I've won the Premier League on more than one occasion.\nI've had André Villas-Boas & Rafael Benítez as managers and have played with the likes of Maicon & Pedro ",
+  "answers": [
+   "Oscar"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:06:26",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q78",
+   "kind": "change"
+  },
+  "before": "I've won the Premier League on more than one occasion.\nI've had André Villas-Boas & Rafael Benítez as managers and have played with the likes of Maicon & Pedro ",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired: told São Paulo in Dec 2025, officially announced 4 April 2026. Two PL titles (2014-15, 2016-17). Benítez (Chelsea interim), Villas-Boas (Shanghai SIPG 2017), Pedro (Chelsea), Maicon (Brazil) fit by overlap. Trailing space at the end of the text.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oscar_(footballer,_born_1991)"
+  ]
+ },
+ {
+  "id": 82,
+  "pack": "Starter",
+  "player": "Jérémie Aliadière",
+  "question": "My greatest sporting achievement is winning the Premier League, a season in which I made 10 appearances but did not find the net.\nI've played with Huth, Cole and Sheringham",
+  "answers": [
+   "Jérémie Aliadière",
+   "Aliadière",
+   "Jeremie Aliadiere",
+   "Aliadiere"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:06:44",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q82",
+   "kind": "change"
+  },
+  "before": "My greatest sporting achievement is winning the Premier League, a season in which I made 10 appearances but did not find the net.\nI've played with Huth, Cole and Sheringham",
+  "verdict": "FIX-FLAGS",
+  "issues": "none. 10 PL apps, 0 goals, medal in 2003-04; retired 2018. Huth (Middlesbrough), Cole (Arsenal), Sheringham (West Ham) fit by overlap. Flag note: Wikipedia lists him as a striker; MID true is generous but harmless.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, wing-backs as defenders, and a player can have more than one position if they played in more than one. Starts by position: FWD 100%. A striker, so Forward only."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/J%C3%A9r%C3%A9mie_Aliadi%C3%A8re"
+  ]
+ },
+ {
+  "id": 83,
+  "pack": "Starter",
+  "player": "André Bikey",
+  "question": "My teammates have included Woodgate, Steven Fletcher, Sammy Ameobi & Shane Long.\nI've played in the Premier League, Russian Premier League & Indian Super League during my career but have not won any of them",
+  "answers": [
+   "André Bikey",
+   "Andre Bikey",
+   "Bikey",
+   "Amougou",
+   "André Amougou",
+   "Andre Amougou"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:06:47",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q83",
+   "kind": "change"
+  },
+  "before": "My teammates have included Woodgate, Steven Fletcher, Sammy Ameobi & Shane Long.\nI've played in the Premier League, Russian Premier League & Indian Super League during my career but have not won any of them",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired and now coaching (Zamalek assistant from 2024; later reported as Al Fateh head coach). No league titles. Woodgate and Ameobi (Middlesbrough), Fletcher (Burnley), Long (Reading) fit by overlap.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andr%C3%A9_Bikey"
+  ]
+ },
+ {
+  "id": 85,
+  "pack": "Starter",
+  "player": "John Carew",
+  "question": "I'm a Champions League and League Cup runner-up.\nClubs I've played for in England include Aston Villa, West Ham & Stoke City.",
+  "answers": [
+   "John Carew",
+   "Carew"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:06:57",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q85",
+   "kind": "change"
+  },
+  "before": "I'm a Champions League and League Cup runner-up.\nClubs I've played for in the Premier League include Aston Villa, West Ham & Stoke City",
+  "verdict": "REWORD",
+  "issues": "West Ham were in the Championship during his 2011-12 spell, so \"Clubs I've played for in the Premier League include ... West Ham\" is wrong. CL runner-up 2001 (Valencia) and League Cup runner-up 2010 (Villa) confirmed; retired 2013.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/John_Carew"
+  ]
+ },
+ {
+  "id": 88,
+  "pack": "Starter",
+  "player": "Gabriel Obertan",
+  "question": "I've played with Rooney, Evra and Ben Arfa.\nSome of the clubs I've played for include Man United and Anzhi, but I've never won a domestic league title",
+  "answers": [
+   "Gabriel Obertan",
+   "Obertan"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:28:32",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q88",
+   "kind": "change"
+  },
+  "before": "I've played with Rooney, Evra and Ben Arfa.\nSome of the clubs I've played for include Man United and Anzhi, but I've never won a domestic league title",
+  "lewisNote": "FWD removed: under 30% of starts (Lewis, 20 Nov 2026).",
+  "verdict": "FIX-FLAGS",
+  "issues": "Playing career at Charlotte Independence ran 2021-2025 and Wikipedia now lists him as a coach there. No domestic league title (Bordeaux won 2008-09 while he was on loan at Lorient; no Man Utd title credited). Rooney/Evra (Man Utd), Ben Arfa (Newcastle) fit.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (no formal retirement announcement found)",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: MID 77%, FWD 23%, so Forward becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gabriel_Obertan"
+  ]
+ },
+ {
+  "id": 89,
+  "pack": "Starter",
+  "player": "Antonio Valencia",
+  "question": "I've made over 300 appearances for my Premier League club.\nDuring this time I've won the Premier League, FA Cup and League Cup.\nI've won the Europa League but never the Champions League",
+  "answers": [
+   "Antonio Valencia",
+   "Valencia"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:07:04",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q89",
+   "kind": "change"
+  },
+  "before": "I've made over 300 appearances for my Premier League club.\nDuring this time I've won the Premier League, FA Cup and League Cup.\nI've won the Europa League but never the Champions League",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired 12 May 2021. 339 Man Utd appearances in all competitions; PL 2011, 2013; FA Cup 2016; League Cup 2010, 2017; Europa League 2017; CL runner-up only.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Antonio_Valencia"
+  ]
+ },
+ {
+  "id": 90,
+  "pack": "Starter",
+  "player": "Florent Sinama Pongolle",
+  "question": "I've won the Champions League, and the next season I scored in Liverpool's first FA Cup tie on the way to winning it.\nPlayers I've played with include Agüero, Owen & Savage.",
+  "answers": [
+   "Sinama Pongolle",
+   "Pongolle"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:07:24",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q90",
+   "kind": "change"
+  },
+  "before": "I've won the Champions League, following up with an FA Cup triumph the following year.\nPlayers I've played with include Aguero, Owen & Savage",
+  "verdict": "REWORD",
+  "issues": "Retired 2019 (RET wrong). \"FA Cup triumph\" is shaky: he scored in the third round v Luton in Jan 2006 but went on loan to Blackburn that month and is not credited with the cup in his honours. He also missed the 2005 CL final through injury, though the honours list credits him. Agüero (Atlético), Owen (Liverpool), Savage (Blackburn 2006) fit.",
+  "shelf": "TIMELESS",
+  "confidence": "medium",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Florent_Sinama_Pongolle"
+  ]
+ },
+ {
+  "id": 91,
+  "pack": "World Cup",
+  "player": "Miroslav Klose",
+  "question": "I scored 16 WC goals across 4 tournaments, which was the all-time record from 2014 until 2026",
+  "answers": [
+   "Miroslav Klose",
+   "Klose"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:07:37",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q91",
+   "kind": "change"
+  },
+  "before": "I'm the leading WC goalscorer of all time",
+  "verdict": "REWORD",
+  "issues": "No longer the leading WC scorer. Messi passed his 16 in June 2026 and Kylian Mbappé finished the 2026 tournament on 22, the all-time record.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+   "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+   "https://www.foxsports.com/stories/soccer/messi-2026-world-cup-goals-ranked"
+  ]
+ },
+ {
+  "id": 94,
+  "pack": "World Cup",
+  "player": "Ronaldo",
+  "question": "I have a well-known Nike football boot named after me.\nSome say I'm the true greatest to carry my name",
+  "answers": [
+   "Ronaldo"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:07:47",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q94",
+   "kind": "change"
+  },
+  "before": "I have a well-known Nike football boot made after of me.\nSome say I'm the true greatest for my namesake",
+  "verdict": "REWORD",
+  "issues": "Typo \"made after of me\". Facts fine (Nike Mercurial R9 named after Ronaldo Nazário). Consider adding \"Ronaldo Nazário\"/\"R9\" to acceptable answers.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.soccerbible.com/performance/football-boots/2013/05/nike-mercurial-r9-1998-the-original/"
+  ]
+ },
+ {
+  "id": 96,
+  "pack": "World Cup",
+  "player": "Kylian Mbappé",
+  "question": "I'm the second youngest player to score in a WC final, after Pelé.\nWe went on to lift the trophy that day",
+  "answers": [
+   "Kylian Mbappé",
+   "Mbappé",
+   "Kylian Mbappe",
+   "Mbappe"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:28:32",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q96",
+   "kind": "change"
+  },
+  "before": "I'm the second youngest player to score in a WC after Pelé.\nThe same WC I went on to lift the trophy",
+  "lewisNote": "MID removed: under 30% of starts (Lewis, 20 Nov 2026).",
+  "verdict": "REWORD",
+  "issues": "False claim. He was not the second-youngest WC scorer (he was 19y 183d v Peru; several players were younger). He was the second-youngest to score in a WC final after Pelé (19y 207d, 2018).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: FWD 73%, MID 27%, so Midfielder becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "https://theanalyst.com/articles/youngest-players-to-score-world-cup-fifa",
+   "https://global.espn.com/football/story/_/id/37558309/kylian-mbappe-becomes-youngest-pele-score-world-cup-final"
+  ]
+ },
+ {
+  "id": 97,
+  "pack": "World Cup",
+  "player": "Olivier Giroud",
+  "question": "During a WC-winning campaign I played in every match but did not manage a single shot on target.\nEven so, I'm one of the top 5 all-time leading goalscorers for my country",
+  "answers": [
+   "Olivier Giroud",
+   "Giroud"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:07:58",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q97",
+   "kind": "change"
+  },
+  "before": "During a WC winning campaign I played in every match and did not register a single shot on goal.\nWith that being said, I'm actually in the top 5 of all-time leading goalscorers for my country",
+  "verdict": "REWORD",
+  "issues": "He did take shots in 2018 (13, none on target), so \"shot on goal\" is wrong; it should be \"shot on target\". He played all 7 matches (sub in the opener). Became France's top scorer (57) in 2022, then Mbappé passed him in June 2026; he is now second, so \"top 5\" is still true. Still playing (Lille, Nov 2026); retired from France duty in 2024.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.the42.ie/olivier-giroud-france-world-cup-shots-on-target-russia-2018-croatia-4129456-Jul2018/",
+   "https://en.wikipedia.org/wiki/Olivier_Giroud",
+   "https://www.si.com/soccer/kylian-mbappe-breaks-two-france-goalscoring-records-in-opening-world-cup-win"
+  ]
+ },
+ {
+  "id": 98,
+  "pack": "World Cup",
+  "player": "Paul Ince",
+  "question": "Some of my accolades include winning the Premier League and FA Cup.\nUnfortunately I'm well known for a penalty miss that helped knock my country out of a WC",
+  "answers": [
+   "Paul Ince",
+   "Ince"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:08:03",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q98",
+   "kind": "change"
+  },
+  "before": "Some of my accolades include winning the Premier League and FA Cup.\nUnfortuantely I'm well known for a penalty miss that assisted in my country being knocked out of a WC",
+  "verdict": "REWORD",
+  "issues": "Typo \"Unfortuantely\". Facts fine: PL 1992-93 and 1993-94 and FA Cup with Man Utd; penalty saved by Roa in the 1998 shoot-out v Argentina.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paul_Ince"
+  ]
+ },
+ {
+  "id": 99,
+  "pack": "World Cup",
+  "player": "Fabien Barthez",
+  "question": "I'm the joint record holder for the most clean sheets in WC history.\nI won the WC at my first tournament and was a runner-up 8 years later, having played in both finals",
+  "answers": [
+   "Fabien Barthez",
+   "Barthez"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:08:07",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q99",
+   "kind": "change"
+  },
+  "before": "I'm the joint record holder for the most number of clean sheets in WC history.\nI won the WC in my inaugural appearence and was a runner-up 8 years later having played in the final of both",
+  "verdict": "REWORD",
+  "issues": "Typo \"appearence\". The record still stands: Shilton and Barthez on 10 clean sheets after 2026. Unai Simón kept 7 in 2026 and is now on about 9, so this could fall in 2030.",
+  "shelf": "RECORD (joint most clean sheets; Unai Simón one behind)",
+  "confidence": "medium (Simón's career total of 9 is inferred from 2 in 2022 plus 7 in 2026)",
+  "notes": [],
+  "sources": [
+   "https://www.guinnessworldrecords.com/world-records/78427-most-football-soccer-fifa-world-cup-clean-sheets",
+   "https://en.wikipedia.org/wiki/Unai_Sim%C3%B3n"
+  ]
+ },
+ {
+  "id": 100,
+  "pack": "World Cup",
+  "player": "Peter Shilton",
+  "question": "I won 125 caps for my country, a record that stood for more than three decades.\nI also held the world record for the most club and country appearances until 2025",
+  "answers": [
+   "Peter Shilton",
+   "Shilton"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:08:14",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q100",
+   "kind": "change"
+  },
+  "before": "I have the achievement for making the highest number of caps for my country.\nThis is coupled with the record of making the most appearances for club and country of all time",
+  "verdict": "REWORD",
+  "issues": "Both claims are now false. Harry Kane passed his 125 caps (Kane is on 127 and is England's most-capped man). Brazilian keeper Fábio passed his 1,390 club-and-country appearances in August 2025.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Harry_Kane",
+   "https://www.aljazeera.com/sports/2025/8/20/brazil-keeper-fabio-breaks-shiltons-world-record-for-most-games"
+  ]
+ },
+ {
+  "id": 102,
+  "pack": "World Cup",
+  "player": "Samuel Eto'o",
+  "question": "I've played at 4 WCs and I'm my country's leading goalscorer.\nI'm known for my goalscoring, yet I only managed 3 goals across all my WC appearances",
+  "answers": [
+   "Samuel Eto'o",
+   "Eto'o",
+   "Eto",
+   "Samuel Eto"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:08:24",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q102",
+   "kind": "change"
+  },
+  "before": "I've participated in 4 WCs and I'm my country's leading goalscorer.\nI'm known for my goalscoring ability, yet I only managed 3 goals during my WC appearences",
+  "verdict": "REWORD",
+  "issues": "RET is wrong: he retired in September 2019 (now FECAFOOT president). Typo \"appearences\". 4 WCs (1998, 2002, 2010, 2014), 3 WC goals and 56 goals as Cameroon's top scorer are all still correct.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Samuel_Eto%27o",
+   "https://en.wikipedia.org/wiki/List_of_international_goals_scored_by_Samuel_Eto%27o"
+  ]
+ },
+ {
+  "id": 103,
+  "pack": "World Cup",
+  "player": "David Villa",
+  "question": "I've lifted the WC on one occasion.\nI'm currently my country's leading goalscorer which includes 9 goals in the WC",
+  "answers": [
+   "David Villa",
+   "Villa"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:28:32",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q103",
+   "kind": "change"
+  },
+  "before": "I've lifted the WC on one occasion.\nI'm currently my country's leading goalscorer which includes 9 goals in the WC",
+  "lewisNote": "MID removed: under 30% of starts (Lewis, 20 Nov 2026).",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired in December 2019. Still Spain's top scorer (59) with 9 WC goals.",
+  "shelf": "RECORD (\"currently my country's leading goalscorer\")",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: FWD 72%, MID 28%, so Midfielder becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Villa"
+  ]
+ },
+ {
+  "id": 104,
+  "pack": "World Cup",
+  "player": "Lothar Matthäus",
+  "question": "I'm a German footballer who played 25 WC matches across 5 tournaments, the all-time record until 2022.\nI lifted the trophy as captain in 1990",
+  "answers": [
+   "Lothar Matthäus",
+   "Lothar Matthaus",
+   "Matthäus",
+   "Matthaus"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:08:35",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q104",
+   "kind": "change"
+  },
+  "before": "I'm a German footballer and have the record for playing the highest number of WC matches of all time.",
+  "verdict": "REWORD",
+  "issues": "No longer the record holder. Messi passed his 25 WC matches in 2022 and now has 34 (2006-2026).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+   "https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us"
+  ]
+ },
+ {
+  "id": 106,
+  "pack": "World Cup",
+  "player": "Brian Laudrup",
+  "question": "I've won the Euros during my international career but never managed to win the WC.\nMy brother is also a well-known footballer. He missed our Euros triumph, yet most people still rate him as the better player of the two of us",
+  "answers": [
+   "Brian Laudrup",
+   "Laudrup"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:08:53",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q106",
+   "kind": "change"
+  },
+  "before": "I've won the Euros during my international career but have never managed to win the WC.\nMy brother is also a well known footballer and although he has never won an international trophy, he is deemed the better player of us two",
+  "verdict": "REWORD",
+  "issues": "Michael Laudrup did win an international trophy. He captained Denmark to the 1995 King Fahd Cup (now recognised as the Confederations Cup) and scored in the final.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/1995_King_Fahd_Cup_final",
+   "https://www.fifa.com/news/the-decisive-goal-rasmussen-on-the-break-2878864"
+  ]
+ },
+ {
+  "id": 108,
+  "pack": "World Cup",
+  "player": "Philipp Lahm",
+  "question": "Although I've won 8 top-division league titles and a Champions League, winning the WC may be my greatest achievement.\nI've been named in the WC All-Star team at 3 separate tournaments",
+  "answers": [
+   "Philipp Lahm",
+   "Lahm"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:08:57",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q108",
+   "kind": "change"
+  },
+  "before": "Although I've won 8 top division domestic league titles and a Champions League, winning the WC may just be my greatest achievement.\nI've been included in 3 separate WC's All-Star teams",
+  "verdict": "REWORD",
+  "issues": "Grammar only (\"WC's\"). 8 Bundesliga titles and 1 CL are correct. WC teams: All-Star 2006 and 2010, Dream Team 2010, Castrol Index All-Star 2014, so 3 separate tournaments is correct.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: DEF 55%, MID 45%, so Midfielder becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Philipp_Lahm"
+  ]
+ },
+ {
+  "id": 109,
+  "pack": "World Cup",
+  "player": "Andrés Iniesta",
+  "question": "I've scored the winning goal in a WC final.\nI was also named Player of the Tournament at a Euros, a tournament in which I was man of the match in 3 of the games.",
+  "answers": [
+   "Andrés Iniesta",
+   "Iniesta"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:10:47",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q109",
+   "kind": "change"
+  },
+  "before": "I've scored the winning goal in a WC final.\n I've also ben named in the Team of the Tournament in a Euros, a tournament in which I was man of the match in 3 of the games",
+  "proposedBeforeLewisEdit": "I've scored the winning goal in a WC final.\nI was also named Player of the Tournament at a Euros",
+  "verdict": "REWORD",
+  "issues": "Retired on 7 October 2024. Typo \"ben\" and a stray leading space. The Euro 2012 man-of-the-match count is ambiguous in sources (3 or 4), so swap it for the verifiable Player of the Tournament award.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta"
+  ]
+ },
+ {
+  "id": 110,
+  "pack": "World Cup",
+  "player": "Harry Kane",
+  "question": "I've won the WC Golden Boot, but I had to move abroad to win my first league title",
+  "answers": [
+   "Harry Kane",
+   "Kane"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": false,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:10:56",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q110",
+   "kind": "change"
+  },
+  "before": "I've won the Golden Boot but have never won the WC nor have I won the league at club level",
+  "verdict": "REWORD",
+  "issues": "He has now won a league title (Bundesliga 2024-25 with Bayern, and 2025-26 according to Wikipedia's lead). He did not win the 2026 WC (England finished third). He is England's top WC scorer (14) and record cap holder (127).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Harry_Kane"
+  ]
+ },
+ {
+  "id": 112,
+  "pack": "World Cup",
+  "player": "Siphiwe Tshabalala",
+  "question": "I scored the first goal of a WC, and it was my home nation's WC.\nI've played in the Turkish top division, and for a club whose name sounds like a famous band",
+  "answers": [
+   "Siphiwe Tshabalala",
+   "Tshabalala"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:11:05",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q112",
+   "kind": "change"
+  },
+  "before": "I've scored the first goal in a WC, of which was my home nations WC.\nI've played in the Turkish top division and have also played for a team which has a similar name to a famous band",
+  "verdict": "REWORD",
+  "issues": "Grammar (\"of which was my home nations WC\"). He has not played since AmaZulu in 2021, and Wikipedia calls him a former player, though he has never formally announced retirement. Kaizer Chiefs / Kaiser Chiefs and BB Erzurumspor (Turkey) are correct.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (retirement status informal)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Siphiwe_Tshabalala",
+   "https://www.news24.com/citypress/sport/siphiwe-tshabalala-insists-he-is-not-retired-20221123"
+  ]
+ },
+ {
+  "id": 114,
+  "pack": "World Cup",
+  "player": "Gonzalo Higuaín",
+  "question": "Some of the names I've been managed by include Pellegrini and Sarri.\nI've scored a hat-trick in a WC and have played in Serie A, Premier League and La Liga during my club career",
+  "answers": [
+   "Gonzalo Higuaín",
+   "Higuaín",
+   "Gonzalo Higuain",
+   "Higuain"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:11:07",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q114",
+   "kind": "change"
+  },
+  "before": "Some of the names I've been managed by include Pellegrini and Sarri.\nI've scored a hat-trick in a WC and have played in Serie A, Premier League and La Liga during my club career",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired at the end of the 2022 MLS season (Inter Miami). The facts are fine: Pellegrini (Real Madrid), Sarri (Napoli, Chelsea, Juventus), hat-trick v South Korea 2010.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://batimes.com.ar/news/amp/sports/gonzalo-higuain-determined-to-end-on-high-after-confirming-retirement.phtml",
+   "https://en.wikipedia.org/wiki/Gonzalo_Higua%C3%ADn"
+  ]
+ },
+ {
+  "id": 118,
+  "pack": "World Cup",
+  "player": "Thomas Müller",
+  "question": "I've scored 10 WC goals, 5 at each of two tournaments.\nAt my first WC I won both the Golden Boot and the Best Young Player award. An interesting fact is that I've scored the milestone 2,000th goal for my country",
+  "answers": [
+   "Thomas Müller",
+   "Müller",
+   "Thomas Muller",
+   "Muller"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:11:51",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q118",
+   "kind": "change"
+  },
+  "before": "I've scored more than 8 WC goals.\n5 of which came in a single WC.\nAn interesting fact is that I've scored the milestone 2,000th goal for my country",
+  "proposedBeforeLewisEdit": "I've scored 10 WC goals, 5 at each of two tournaments.\nAt my first WC I won both the Golden Boot and the Best Young Player award",
+  "verdict": "REWORD",
+  "issues": "The \"2,000th goal for my country\" claim could not be verified anywhere (DFB, RSSSF, Wikipedia). \"More than 8 WC goals\" is vague: the total is 10 (5 in 2010, 5 in 2014). Still playing (Vancouver Whitecaps); retired from Germany duty in 2024. Teófilo Cubillas also scored 5+5, so the 2010 Golden Boot keeps the answer unique.",
+  "shelf": "TIMELESS",
+  "confidence": "high (for the proposed text); low for the original 2,000th-goal claim",
+  "notes": [],
+  "sources": [
+   "https://rsssf.org/miscellaneous/thmueller-intlg.html",
+   "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller"
+  ]
+ },
+ {
+  "id": 119,
+  "pack": "World Cup",
+  "player": "Gianluigi Buffon",
+  "question": "I'm the most capped player for my country.\nI'm a WC winner and the first player in my position to win the Golden Foot award",
+  "answers": [
+   "Gianluigi Buffon",
+   "Gigi Buffon",
+   "Buffon"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:12:47",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q119",
+   "kind": "change"
+  },
+  "before": "I'm the most capped player for my country.\nI'm a WC winner and am the only player in my position to have won the Golden Foot award",
+  "proposedBeforeLewisEdit": "I'm the most capped player for my country.\nI'm a WC winner and the first goalkeeper to win the Golden Foot award",
+  "verdict": "REWORD",
+  "issues": "Not the only goalkeeper to win the Golden Foot, because Iker Casillas won it in 2017. Buffon was the first, in 2016. Retired on 2 August 2023. Still Italy's most capped player (176).",
+  "shelf": "RECORD (most capped for Italy)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Golden_Foot",
+   "https://www.juventus.com/en/news/articles/buffon-wins-golden-foot-award-2016",
+   "https://www.rte.ie/sport/soccer/2023/0802/1397855-world-cup-winner-gigi-buffon-retires-at-the-age-of-45"
+  ]
+ },
+ {
+  "id": 121,
+  "pack": "World Cup",
+  "player": "Klaas-Jan Huntelaar",
+  "question": "I've never won the WC, but I have come close having won a runners-up medal.\nTeams I've played for in the past include A.C Milan, Ajax and Real Madrid",
+  "answers": [
+   "Klaas-Jan Huntelaar",
+   "Huntelaar"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:12:49",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q121",
+   "kind": "change"
+  },
+  "before": "I've never won the WC, but I have come close having won a runners-up medal.\nTeams I've played for in the past include A.C Milan, Ajax and Real Madrid",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired at the end of 2020-21 (Schalke). Was in the 2010 squad (unused sub in the final).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Klaas-Jan_Huntelaar"
+  ]
+ },
+ {
+  "id": 123,
+  "pack": "World Cup",
+  "player": "Luis Suárez",
+  "question": "I've scored 7 WC goals across 4 tournaments and I'm my country's all-time leading goalscorer.\nOther honours include an English League Cup and the Champions League",
+  "answers": [
+   "Luis Suárez",
+   "Suárez"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:12:58",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q123",
+   "kind": "change"
+  },
+  "before": "I'm in the top 30 all-time leading goalscorers in WC history with a goals per game of over 1 goal in every 2 games.\nI'm also my country's leading goalscorer.\nOther accolades include winning an English League Cup and the Champions League",
+  "verdict": "REWORD",
+  "issues": "The goals-per-game claim is now false: 7 goals in about 15 WC matches after scoring none in 2022. \"Top 30 all-time\" is shaky after 2022 and 2026 added scorers. Still Uruguay's top scorer and still playing (Inter Miami); international career ended in 2024.",
+  "shelf": "RECORD (country's leading goalscorer)",
+  "confidence": "medium (exact WC match count differs between sources; 7 goals is consistent)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(Uruguayan_footballer)",
+   "https://www.goal.com/en-sg/news/how-many-goals-has-luis-suarez-scored-for-uruguay-la-celeste-star-full-world-cup-copa-america-and-international-friendly-record/blt5b0b32b9db931d4e"
+  ]
+ },
+ {
+  "id": 124,
+  "pack": "World Cup",
+  "player": "Toni Kroos",
+  "question": "I've scored the fastest brace in a WC.\nYet I've only scored a total of 3 WC goals.\nMy brace was scored in the tournament we went on to win",
+  "answers": [
+   "Toni Kroos",
+   "Kroos"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:13:00",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q124",
+   "kind": "change"
+  },
+  "before": "I've scored the fastest brace in a WC.\nYet I've only scored a total of 3 WC goals.\nMy brace was scored in the tournament we went on to win",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired after Euro 2024. The 69-second brace (Guinness) and 3 total WC goals are correct.",
+  "shelf": "RECORD (fastest brace)",
+  "confidence": "medium (no 2022/2026-dated confirmation that the 69-second record still stands)",
+  "notes": [],
+  "sources": [
+   "https://guinnessworldrecords.com/world-records/117307-shortest-time-to-score-two-goals-in-a-football-soccer-fifa-world-cup-match",
+   "https://en.wikipedia.org/wiki/Toni_Kroos"
+  ]
+ },
+ {
+  "id": 125,
+  "pack": "World Cup",
+  "player": "Asamoah Gyan",
+  "question": "I missed a penalty in the last minute of extra time in a WC quarter-final that would have sent my country into the semi-finals.\nDuring my career I've played in Italy, England, France and China",
+  "answers": [
+   "Asamoah Gyan",
+   "Gyan"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:13:08",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q125",
+   "kind": "change"
+  },
+  "before": "I've missed the most penalties (excl. shoot-outs) during a WC.\nDuring my career I've played in Italy, England, France and China",
+  "verdict": "REWORD",
+  "issues": "No longer the record holder. Messi now has the most WC penalties missed (4, including 2 in 2026); Gyan has 2. Retired on 20 June 2023. The clubs are correct (Udinese, Sunderland, Rennes, Shanghai SIPG).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Asamoah_Gyan",
+   "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics"
+  ]
+ },
+ {
+  "id": 126,
+  "pack": "World Cup",
+  "player": "James Rodríguez",
+  "question": "In a single WC I managed to score in every group match, the Round of 16 and the Quarter-finals.\nThat's 5 consecutive WC matches",
+  "answers": [
+   "James Rodríguez",
+   "Rodríguez",
+   "James Rodriguez",
+   "Rodriguez"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:13:18",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q126",
+   "kind": "change"
+  },
+  "before": "In a single WC I managed to score in every group match, the Round of 16 and the Quarter-finals.\nThat's 5 consecutive WC matches",
+  "verdict": "FIX-FLAGS",
+  "issues": "Wikipedia lists him as attacking midfielder and right winger; the clues say MID false. The fact is correct (goals in 5 straight matches in 2014). Still playing (Atlético Nacional); played at the 2026 WC without scoring.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, wing-backs as defenders, and a player can have more than one position if they played in more than one. Starts by position: MID 91%, FWD 9%. An attacking midfielder and winger, so Midfielder yes and Forward no."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/James_Rodr%C3%ADguez"
+  ]
+ },
+ {
+  "id": 127,
+  "pack": "World Cup",
+  "player": "Rigobert Song",
+  "question": "I'm infamously the first player to be sent off at two different WCs.\nI've won the Africa Cup of Nations more than once and played alongside Steven Gerrard and Paolo Di Canio at club level",
+  "answers": [
+   "Rigobert Song",
+   "Rigobert Song"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:13:27",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q127",
+   "kind": "change"
+  },
+  "before": "I'm infamously the first player to receive two red cards in WC history.\nI'm a multiple time African Cup of Nations winner and have played with the likes of Steven Gerrard and Paolo Di Canio at club level",
+  "verdict": "REWORD",
+  "issues": "The wording is imprecise. He was the first player sent off at two different WCs (1994, 1998). Zidane matched it in 2006. The rest is correct (AFCON 2000 and 2002; Liverpool with Gerrard, West Ham with Di Canio). Duplicate acceptable answer.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rigobert_Song"
+  ]
+ },
+ {
+  "id": 129,
+  "pack": "World Cup",
+  "player": "Marcelo",
+  "question": "In a WC I opened the scoring with an own goal, the first own goal my country had ever conceded at a WC.\nI've been named in the FIFA WC Dream Team twice",
+  "answers": [
+   "Marcelo"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:13:31",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q129",
+   "kind": "change"
+  },
+  "before": "During a WC, I opened the scoring by netting an own goal which subsequently was the first own goal scored by my country in a WC.\nI've made the FIFA WC Dream Team on two occassions",
+  "verdict": "REWORD",
+  "issues": "Retired on 6 February 2025. Typo \"occassions\". The facts are correct (Brazil's first WC own goal, 2014; Dream Team 2014 and 2018).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marcelo_(footballer,_born_1988)",
+   "https://www.deccanherald.com/sports/marcelo-scores-brazils-first-world-2211543"
+  ]
+ },
+ {
+  "id": 130,
+  "pack": "World Cup",
+  "player": "Lionel Messi",
+  "question": "I've made more WC appearances and more WC assists than anyone in history.\nI've won the Golden Ball twice and lifted the trophy at my fifth attempt",
+  "answers": [
+   "Lionel Messi",
+   "Messi"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:13:38",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q130",
+   "kind": "change"
+  },
+  "before": "I've made at least one assist in the most number of WCs than anyone else.\nI've also won the FIFA WC Golden Ball but, have never managed to lift the WC trophy itself",
+  "verdict": "REWORD",
+  "issues": "He won the WC in 2022 (and lost the 2026 final), so \"never lifted the trophy\" is now false. He now has a second Golden Ball (2014, 2022), the most WC matches (34) and the most WC assists (12). Still playing (Inter Miami); retired from internationals in October 2026.",
+  "shelf": "RECORD (most appearances, most assists)",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: MID 51%, FWD 49%, so Midfielder becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+   "https://en.wikipedia.org/wiki/Lionel_Messi",
+   "https://www.guinnessworldrecords.com/world-records/727985-first-player-to-assist-in-five-different-fifa-world-cups-male"
+  ]
+ },
+ {
+  "id": 131,
+  "pack": "World Cup",
+  "player": "Raphaël Varane",
+  "question": "I've played every minute of a WC winning campaign. This topped off a year in which I also won the Champions League, a feat which had only been achieved by 3 other players at the time",
+  "answers": [
+   "Raphaël Varane",
+   "Varane",
+   "Raphael Varane"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:13:40",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q131",
+   "kind": "change"
+  },
+  "before": "I've played every minute of a WC winning campaign. This topped off a year in which I also won the Champions League, a feat which had only been achieved by 3 other players at the time",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired on 25 September 2024. The facts are correct: every minute in 2018, and the 4th to win CL and WC in the same year after Karembeu, Roberto Carlos and Khedira.",
+  "shelf": "TIMELESS (\"at the time\" protects it)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rapha%C3%ABl_Varane"
+  ]
+ },
+ {
+  "id": 134,
+  "pack": "World Cup",
+  "player": "Denílson",
+  "question": "I've only played in 2 WCs, but my 11 appearances off the bench were a record until 2026.\nThey earned me a winner's and a runner-up medal, and in the final we won I played just one minute",
+  "answers": [
+   "Denílson",
+   "Denilson"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:14:02",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q134",
+   "kind": "change"
+  },
+  "before": "I've only played in 2 WCs but I've made more appearences as a substitute than anyone else in WC history.\nThese appearances took me to a WC winners and runners-up medal, during the winning campaign I was a substitute in every game, playing only a minute in the final",
+  "verdict": "REWORD",
+  "issues": "No longer the record holder. Rashford equalled his 11 substitute appearances in June 2026 and finished on 12. Also in 2002 he made 5 substitute appearances, not one in every Brazil game. The 1 minute in the final is correct.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Den%C3%ADlson_(footballer,_born_1977)",
+   "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+   "https://thepeoplesperson.com/2026/06/24/marcus-rashford-makes-world-cup-history-as-england-are-held-by-ghana-311890/"
+  ]
+ },
+ {
+  "id": 136,
+  "pack": "World Cup",
+  "player": "Ivan Perišić",
+  "question": "I covered more distance than any other player at the 2018 WC, playing in every one of our matches.\nI'm in my country's top 5 all-time goalscorers and the highest-placed of those still playing",
+  "answers": [
+   "Ivan Perišić",
+   "Perišić",
+   "Ivan Perisic",
+   "Perisic"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:14:13",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q136",
+   "kind": "change"
+  },
+  "before": "I've covered the most amount of distance in a WC having played the maximum number of games available during it.\nI'm in the top 5 all-time leading goalscorers for my country and currently top out of all the players still to be playing",
+  "verdict": "REWORD",
+  "issues": "\"Most distance in a WC\" should be pinned to 2018 (72.5 km), since the 48-team format allows 8 matches. He is Croatia's 2nd-highest scorer (41, behind Šuker's 45) and the top active scorer, so the claim holds today. Still playing (PSV) and for Croatia.",
+  "shelf": "RECORD (\"highest-placed still playing\")",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ivan_Peri%C5%A1i%C4%87",
+   "https://en.wikipedia.org/wiki/Croatia_national_football_team_records_and_statistics"
+  ]
+ },
+ {
+  "id": 137,
+  "pack": "World Cup",
+  "player": "Kieran Trippier",
+  "question": "At the 2018 WC I created 24 chances.",
+  "answers": [
+   "Kieran Trippier",
+   "Trippier"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": false,
+   "ENG": true
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:14:45",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q137",
+   "kind": "change"
+  },
+  "before": "I made the most crosses in the 2018 FIFA WC",
+  "proposedBeforeLewisEdit": "At the 2018 WC I created 24 chances, the most by an England player at a WC since 1966.\nI also scored a free kick in the semi-final",
+  "verdict": "REWORD",
+  "issues": "Could not verify \"most crosses at the 2018 WC\" from any end-of-tournament table. Verifiable instead: he created 24 chances (an England record at a WC since 1966) and scored a free kick in the semi-final. Still playing (Wolves); retired from England duty in 2024.",
+  "shelf": "TIMELESS",
+  "confidence": "medium (original crosses claim unverified)",
+  "notes": [],
+  "sources": [
+   "https://www.skysports.com/football/news/12098/11438311/world-cup-2018-standout-stats-from-the-tournament-in-russia",
+   "https://en.wikipedia.org/wiki/Kieran_Trippier"
+  ]
+ },
+ {
+  "id": 138,
+  "pack": "World Cup",
+  "player": "Marcus Berg",
+  "question": "At a WC where we reached the quarter-finals only Neymar, Griezmann & Ronaldo had more shots on target than me, I started every match but didn't score, despite taking more shots without a goal than any other player at the tournament",
+  "answers": [
+   "Marcus Berg",
+   "Berg"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:16:02",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q138",
+   "kind": "change"
+  },
+  "before": "During a WC, only Neymar, Griezmann & Ronaldo had more shots on target than me.\nHaving made it to the Quarter-finals, I didn't actually manage to score a goal during the campaign",
+  "proposedBeforeLewisEdit": "At a WC where we reached the quarter-finals, I started every match but didn't score, despite taking more shots without a goal than any other player at the tournament",
+  "verdict": "REWORD",
+  "issues": "Retired on 25 September 2023. Could not verify the shots-on-target ranking (Neymar led on 13; nothing found for Berg). Verifiable instead: no player had more shots at the 2018 WC without scoring (13 by the round of 16).",
+  "shelf": "TIMELESS",
+  "confidence": "medium",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marcus_Berg",
+   "https://www.fourfourtwo.com/news/berg-and-forsberg-grapple-ibrahimovics-shadow"
+  ]
+ },
+ {
+  "id": 139,
+  "pack": "World Cup",
+  "player": "Javier Mascherano",
+  "question": "I've infamously been shown more yellow cards than any other player in WC history",
+  "answers": [
+   "Javier Mascherano",
+   "Mascherano"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:16:10",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q139",
+   "kind": "change"
+  },
+  "before": "I infamously have been shown the highest number of cards in WC history",
+  "verdict": "REWORD",
+  "issues": "Retired in November 2020 (he coached Inter Miami until April 2026). The record is specifically yellow cards (7, ahead of Cafu on 6); \"cards\" is loose. No 2026-dated confirmation was found.",
+  "shelf": "RECORD (most WC yellow cards)",
+  "confidence": "medium (record not confirmed post-2026)",
+  "notes": [],
+  "sources": [
+   "https://www.goal.com/en-gb/news/mascherano-makes-unwanted-world-cup-history-as-argentina-bow-out-of-russia-2018/pdqvz713x41p1kpvpsrpjvaq8",
+   "https://en.wikipedia.org/wiki/Javier_Mascherano"
+  ]
+ },
+ {
+  "id": 141,
+  "pack": "World Cup",
+  "player": "Essam El-Hadary",
+  "question": "I'm the oldest player to have featured in a WC at the age of 45",
+  "answers": [
+   "Essam El-Hadary",
+   "El-Hadary"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:16:11",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q141",
+   "kind": "change"
+  },
+  "before": "I'm the oldest player to have featured in a WC at the age of 45",
+  "verdict": "FIX-FLAGS",
+  "issues": "Retired from all football on 18 November 2020. Still the oldest WC player after 2026 (45y 161d).",
+  "shelf": "RECORD (oldest player)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Essam_El_Hadary",
+   "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics"
+  ]
+ },
+ {
+  "id": 143,
+  "pack": "World Cup",
+  "player": "Diego Forlán",
+  "question": "I've won the Golden Ball at a FIFA WC.\nIt was all the more remarkable because my country finished fourth",
+  "answers": [
+   "Diego Forlán",
+   "Forlán",
+   "Diego Forlan",
+   "Forlan"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:16:25",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q143",
+   "kind": "change"
+  },
+  "before": "I've won the Golden Ball in a FIFA WC.\nThis can be seen as a bigger individual achievement given that my country did not make it to the final",
+  "verdict": "REWORD",
+  "issues": "Not unique. Schillaci (Italy, 3rd in 1990) also won the Golden Ball without reaching the final. Saying \"fourth\" makes it unique to Forlán (2010).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/FIFA_World_Cup_awards",
+   "https://www.si.com/soccer/world-cup-golden-ball-full-list-winners"
+  ]
+ },
+ {
+  "id": 144,
+  "pack": "World Cup",
+  "player": "Wesley Sneijder",
+  "question": "My country reached the WC final, and on the way there I won 4 Man of the Match awards, more than anyone else at that tournament",
+  "answers": [
+   "Wesley Sneijder",
+   "Sneijder"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:16:34",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q144",
+   "kind": "change"
+  },
+  "before": "In a successful WC campaign which saw my country reach the final, I had racked up an impressive 4 Man of the Match awards in the run-up to it, which is the joint highest in history for a single WC",
+  "verdict": "REWORD",
+  "issues": "4 Man of the Match awards is no longer the joint record. Messi won 5 in 2022. Retired in August 2019 (RET flag wrong).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.guinnessworldrecords.com/news/2022/12/messi-breaks-record-after-winning-world-cup-with-argentina-730036",
+   "https://en.wikipedia.org/wiki/Wesley_Sneijder"
+  ]
+ },
+ {
+  "id": 146,
+  "pack": "World Cup",
+  "player": "Marcos Rojo",
+  "question": "I've played club football in Russia, Portugal and England.\nOne of my proudest moments was making the Castrol Index Top 11 at a WC, the only player from my country to be picked",
+  "answers": [
+   "Marcos Rojo",
+   "Rojo"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:17:06",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q146",
+   "kind": "change"
+  },
+  "before": "I've played my domestic football in Russia, Portugal & England.\nOne of my biggest individual accolades is making the All-Star Team in a WC, referring to the Castrol Index Top 11, I was the only player from my country to be selected",
+  "verdict": "REWORD",
+  "issues": "The grammar of the second line is clumsy. The facts are correct: Spartak Moscow, Sporting, Man Utd; the only Argentine in the 2014 Castrol Index Top 11. Still playing (Estudiantes).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marcos_Rojo"
+  ]
+ },
+ {
+  "id": 149,
+  "pack": "World Cup",
+  "player": "Luís Figo",
+  "question": "I played in a WC match where the referee showed 16 yellow cards and 4 reds.\nI was lucky to finish the game with only a yellow after a headbutt",
+  "answers": [
+   "Luís Figo",
+   "Figo",
+   "Luis Figo"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:18:13",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q149",
+   "kind": "change"
+  },
+  "before": "I was involved in a WC match in which 16 cards were brandished.\nI was lucky to end the game with only a yellow given a headbutt incident",
+  "verdict": "REWORD",
+  "issues": "The Battle of Nuremberg had 20 cards (16 yellow, 4 red), not 16. Figo headbutted Van Bommel and got only a yellow.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Battle_of_Nuremberg_(2006_FIFA_World_Cup)"
+  ]
+ },
+ {
+  "id": 151,
+  "pack": "World Cup",
+  "player": "Nicolas Anelka",
+  "question": "During a WC I was sent home by the manager, and the team refused to train the next day in protest.\nI was later given an 18-match ban, but I'd already decided to retire from international football",
+  "answers": [
+   "Nicolas Anelka",
+   "Anelka"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:18:19",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q151",
+   "kind": "change"
+  },
+  "before": "During a WC I was sent home by the manager, this resulted in the team refusing to train the following day in protest.\nI was subsequently given a 18 game ban for my actions but decided to retire from international football",
+  "verdict": "REWORD",
+  "issues": "Grammar only (\"a 18 game ban\"). The facts are correct (sent home 2010, players' training boycott at Knysna, 18-match ban, never played for France again).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://www.aljazeera.com/news/2010/8/17/anelka-handed-18-match-france-ban"
+  ]
+ },
+ {
+  "id": 152,
+  "pack": "Champions League",
+  "player": "Cristiano Ronaldo",
+  "question": "I'm the leading Champions League goalscorer of all time",
+  "answers": [
+   "Cristiano Ronaldo",
+   "Ronaldo"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:34:11",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q152",
+   "kind": "change"
+  },
+  "before": "I'm the leading Champions League goalscorer of all time",
+  "lewisNote": "Position flags approved in chat (strict winger rule).",
+  "verdict": "FIX-FLAGS",
+  "issues": "none. Still all-time top scorer with 140 goals (Messi 129, Lewandowski 109; nobody active is close: Mbappé 74, Haaland 62). Still playing for Al-Nassr (retired from international football Nov 2026), so RET false is correct.",
+  "shelf": "RECORD (all-time top scorer; safe for many years)",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: FWD 55%, MID 45%, so Midfielder becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "TOPSCORERS",
+   "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+  ]
+ },
+ {
+  "id": 153,
+  "pack": "Champions League",
+  "player": "Cristiano Ronaldo",
+  "question": "I've finished as the Champions League's top scorer in a record seven seasons, six of them in a row.",
+  "answers": [
+   "Cristiano Ronaldo",
+   "Ronaldo"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:18:23",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q153",
+   "kind": "change"
+  },
+  "before": "I've made the most assists of any other player in the Champions League",
+  "verdict": "REWORD",
+  "issues": "\"Most assists\" is source-dependent and no longer safe. Opta (used by Wikipedia) has Ryan Giggs top on 41, Ronaldo 40, Messi 39, Di María 38. UEFA's own list (which only counts from 2003-04 and uses looser criteria) has Ronaldo first on 42. A player who knows the Opta figure would answer Giggs. Also ungrammatical (\"the most assists of any other player\"). Same answer as Q152, so a different Ronaldo fact keeps the pair distinct.",
+  "shelf": "RECORD (most seasons as top scorer, 7; next best is far behind)",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: FWD 55%, MID 45%, so Midfielder becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "RECORDS (Assists table notes; \"Top scorers by seasons\": 7 seasons, 2007-08 and 2012-13 to 2017-18)",
+   "https://theanalyst.com/eu/2023/10/who-has-the-most-champions-league-assists/"
+  ]
+ },
+ {
+  "id": 154,
+  "pack": "Champions League",
+  "player": "Iker Casillas",
+  "question": "I was 19 when I became the youngest to play in and win a Champions League final.\nI also played in a record 20 consecutive Champions League seasons.",
+  "answers": [
+   "Iker Casillas",
+   "Casillas"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:18:47",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q154",
+   "kind": "change"
+  },
+  "before": "I've made the most Champions League appearances of all time",
+  "proposedBeforeLewisEdit": "I was 19 when I became the youngest goalkeeper to play in and win a Champions League final.\nI also played in a record 20 consecutive Champions League seasons.",
+  "verdict": "REWORD",
+  "issues": "(1) No longer the all-time appearance leader: Ronaldo has 183, Casillas 177. (2) \"Most appearances by a goalkeeper\" is not safe either: Manuel Neuer is on 164 and is playing in the 2026-27 competition. (3) RET is wrong: Casillas retired in August 2020 (last club Porto 2015-2020).",
+  "shelf": "TIMELESS (youngest keeper to win a final) plus RECORD (20 consecutive seasons; hard to beat)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "APPS",
+   "RECORDS (Goalkeeping: youngest goalkeeper to play in and win a final, 19y4d, 2000; Appearances, other records: 20 consecutive seasons 1999-2019)",
+   "https://en.wikipedia.org/wiki/Iker_Casillas"
+  ]
+ },
+ {
+  "id": 155,
+  "pack": "Champions League",
+  "player": "James Milner",
+  "question": "I made nine assists in a single Champions League season on the way to the 2018 final.\nA year later I came off the bench as my club won the trophy.",
+  "answers": [
+   "James Milner",
+   "Milner"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:19:10",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q155",
+   "kind": "change"
+  },
+  "before": "I currently hold the record for the most assists in one Champions League season",
+  "verdict": "REWORD",
+  "issues": "(1) \"Currently hold the record\" is no longer safe. Milner's 9 assists in 2017-18 was reported as a record at the time and his Wikipedia article still says so, but the records page (Opta-based) now lists Luís Figo with 9 in 1999-2000 and Milner on 8, tied with Beckham, Mendieta, Neymar and Raphinha (2024-25). (2) RET is wrong: Milner retired on 1 June 2026, aged 40.",
+  "shelf": "TIMELESS",
+  "confidence": "high (retirement, dispute); medium (exact 2019 final detail: Milner came on as a substitute in the 2019 final, from memory of the final line-up, consistent with his article)",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/James_Milner",
+   "RECORDS (Assists, single season)",
+   "https://www.irishtimes.com/sport/soccer/2026/06/01/james-milner-premier-leagues-appearance-record-holder-retires-aged-40/"
+  ]
+ },
+ {
+  "id": 156,
+  "pack": "Champions League",
+  "player": "Zlatan Ibrahimović",
+  "question": "I've been sent off as many times as anyone else in the Champions League.\nI've also made four assists in one Champions League game.",
+  "answers": [
+   "Zlatan Ibrahimović",
+   "Ibrahimović",
+   "Zlatan Ibrahimovic",
+   "Ibrahimovic"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:19:15",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q156",
+   "kind": "change"
+  },
+  "before": "I have been sent of as many times as anyone else in the Champions League.\nI've also made four assists in one Champions League game",
+  "verdict": "REWORD",
+  "issues": "Facts hold. Red cards: 4, joint record with Edgar Davids and Sergio Ramos, so \"as many times as anyone else\" is true. Four assists in PSG's 4-0 win over Dinamo Zagreb (Nov 2012) confirmed by UEFA. Typo \"sent of\" (should be \"sent off\"). RET is wrong: retired June 2023 (last club Milan 2019-2023).",
+  "shelf": "RECORD (joint most red cards, 4; could be matched or passed)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "RECORDS (Disciplinary)",
+   "https://www.uefa.com/uefachampionsleague/news/0203-0e9db5eef25a-259076c85bf8-1000--rampant-psg-hit-four-to-oust-dinamo",
+   "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87"
+  ]
+ },
+ {
+  "id": 158,
+  "pack": "Champions League",
+  "player": "Marcel Desailly",
+  "question": "I was the first player to win the Champions League in consecutive seasons with two different clubs.",
+  "answers": [
+   "Marcel Desailly",
+   "Desailly"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:19:31",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q158",
+   "kind": "change"
+  },
+  "before": "I'm part of a small club of players that have managed to win the Champions League in consecutive seasons",
+  "verdict": "REWORD",
+  "issues": "The answer is not unique as written. Dozens of players have won the CL in consecutive seasons (Real Madrid 2016-18, Milan 1989-90, Ajax/Bayern/Liverpool eras, etc.). What makes Desailly special is doing it with two different clubs (Marseille 1993, Milan 1994), and he was the first of four to do so (then Paulo Sousa, Piqué, Eto'o).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "RECORDS (Players, other records: four players in consecutive seasons with two clubs)",
+   "https://en.wikipedia.org/wiki/Marcel_Desailly"
+  ]
+ },
+ {
+  "id": 159,
+  "pack": "Champions League",
+  "player": "Luiz Adriano",
+  "question": "I've scored 5 goals in a single Champions League game.\nLionel Messi did it before me, and only Erling Haaland has done it since.",
+  "answers": [
+   "Luiz Adriano",
+   "Adriano"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:19:42",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q159",
+   "kind": "change"
+  },
+  "before": "I've scored 5 goals in a single Champions League game.\nOnly Lionel Messi has achieved the same feat",
+  "verdict": "REWORD",
+  "issues": "(1) \"Only Lionel Messi has achieved the same feat\" is false since 14 March 2023, when Erling Haaland scored five against RB Leipzig. (2) RET is wrong: Wikipedia now calls him a former footballer; his last club was Vitória (2024).",
+  "shelf": "RECORD (another five-goal game would make \"only Haaland since\" wrong; reword again if it happens)",
+  "confidence": "high (facts); medium (retirement date not stated, but article describes him as a former player)",
+  "notes": [],
+  "sources": [
+   "RECORDS (Five goals in a match)",
+   "HATTRICKS",
+   "https://en.wikipedia.org/wiki/Luiz_Adriano"
+  ]
+ },
+ {
+  "id": 163,
+  "pack": "Champions League",
+  "player": "Francesco Totti",
+  "question": "I was the oldest goalscorer of the Champions League era until Pepe broke my record in 2023.\nI spent my whole career at one club.",
+  "answers": [
+   "Francesco Totti",
+   "Totti"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:19:58",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q163",
+   "kind": "change"
+  },
+  "before": "I'm the oldest player to have scored a goal in the Champions League",
+  "verdict": "REWORD",
+  "issues": "Record broken. Pepe became the oldest Champions League scorer on 7 Nov 2023 (40y254d) and extended it to 40y289d in Dec 2023. Totti's mark was 38y59d (v CSKA Moscow, 25 Nov 2014).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Francesco_Totti",
+   "https://en.wikipedia.org/wiki/Pepe_(footballer,_born_February_1983)",
+   "RECORDS (Oldest goalscorer)"
+  ]
+ },
+ {
+  "id": 164,
+  "pack": "Champions League",
+  "player": "Dietmar Hamann",
+  "question": "I've won the FA Cup, Bundesliga and Champions League, and I've played in a World Cup final.\nI also scored the last goal at the old Wembley.",
+  "answers": [
+   "Dietmar Hamann",
+   "Hamann"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:20:04",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q164",
+   "kind": "change"
+  },
+  "before": "I've won the FA Cup, Bundesliga, Champions League & have been a finalist in a World Cup",
+  "verdict": "REWORD",
+  "issues": "Not unique. Arjen Robben also has an FA Cup (Chelsea 2007, came on in the final), Bundesliga titles, a Champions League (2013) and was a World Cup finalist (2010). Facts about Hamann are correct.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dietmar_Hamann",
+   "https://en.wikipedia.org/wiki/Arjen_Robben"
+  ]
+ },
+ {
+  "id": 167,
+  "pack": "Champions League",
+  "player": "Dejan Lovren",
+  "question": "In 2018 I lost a Champions League final and a World Cup final.",
+  "answers": [
+   "Dejan Lovren",
+   "Lovren"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:20:10",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q167",
+   "kind": "change"
+  },
+  "before": "I'm in a group of players that have lost both a Champions League and World Cup final in the same year",
+  "verdict": "REWORD",
+  "issues": "Not unique. Players who lost a CL final and a World Cup final in the same year include Rummenigge and Breitner (1982), Ballack, Ramelow, Schneider, Neuville and Butt (2002), Robben and van Bommel (2010), Lovren (2018) and Konaté (2022). Robben is also the answer to Q206 with the same fact. Adding the year makes it unique. RET false left: PAOK contract ran to summer 2026; an April 2026 report says he was not thinking of retiring, but his current club is unconfirmed.",
+  "shelf": "TIMELESS",
+  "confidence": "high (fact); low (playing status)",
+  "notes": [],
+  "sources": [
+   "RECORDS (Combinations: runner-up of CL and WC/Euros in the same year)",
+   "https://en.wikipedia.org/wiki/Dejan_Lovren",
+   "https://www.tportal.hr/sport/clanak/dejan-lovren-poslao-jasnu-poruku-splitskom-hajduku-zelim-mu-20260424"
+  ]
+ },
+ {
+  "id": 168,
+  "pack": "Champions League",
+  "player": "Sami Khedira",
+  "question": "In 2014 I won the Champions League and the World Cup within two months of each other.",
+  "answers": [
+   "Sami Khedira",
+   "Khedira"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:20:20",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q168",
+   "kind": "change"
+  },
+  "before": "I'm one of a small group of players that have won the Champions League and World Cup in the same year",
+  "verdict": "REWORD",
+  "issues": "(1) Not unique: twelve players have won the CL and World Cup in the same year (Bayern/West Germany 1974, Karembeu 1998, Roberto Carlos 2002, Khedira 2014, Varane 2018, Fabián Ruiz 2026). (2) RET wrong: retired at the end of 2020-21 (Hertha).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "RECORDS (Combinations of wins)",
+   "https://en.wikipedia.org/wiki/Sami_Khedira"
+  ]
+ },
+ {
+  "id": 169,
+  "pack": "Champions League",
+  "player": "Sergio Busquets",
+  "question": "I've won the Champions League three times and the treble twice.\nMy dad won the European Cup with the same club.",
+  "answers": [
+   "Sergio Busquets",
+   "Busquets"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:20:25",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q169",
+   "kind": "change"
+  },
+  "before": "I've won the Champions League on at least 3 occasions.\nI'm part of an elite group of players that have won the treble twice",
+  "verdict": "REWORD",
+  "issues": "(1) Not unique. Barcelona's 2009 and 2015 trebles were shared by Messi, Xavi, Iniesta, Piqué, Pedro, Dani Alves and Busquets, all with 3+ CL wins. (2) RET wrong: retired after Inter Miami's MLS Cup win, 6 Dec 2025.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "RECORDS (Relatives: Carles and Sergio Busquets)",
+   "https://en.wikipedia.org/wiki/Sergio_Busquets"
+  ]
+ },
+ {
+  "id": 170,
+  "pack": "Champions League",
+  "player": "Alisson Becker",
+  "question": "In back-to-back seasons I helped two different clubs overturn three-goal first-leg deficits against Barcelona.\nThe first came in a quarter-final, the second in a semi-final.",
+  "answers": [
+   "Alisson Becker",
+   "Becker"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:20:37",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q170",
+   "kind": "change"
+  },
+  "before": "I was part of a team that overturned a 3-goal deficit in the quarter-finals.\nIncredibly the opposing team was Barcelona",
+  "verdict": "REWORD",
+  "issues": "Not unique as written. The quarter-final comeback against Barcelona was Roma's in 2018 (lost 4-1, won 3-0), which every Roma player shared. Alisson is the one player who was also in Liverpool's 4-0 semi-final comeback against Barcelona in 2019, so the double comeback makes it unique.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "RECORDS (Comebacks, two-leg knockout matches)",
+   "https://en.wikipedia.org/wiki/Alisson_Becker"
+  ]
+ },
+ {
+  "id": 171,
+  "pack": "Champions League",
+  "player": "Marcus Rashford",
+  "question": "My stoppage-time penalty in Paris sent my club through after we'd lost the home first leg 2-0.\nNo other team in the Champions League era has done that.",
+  "answers": [
+   "Marcus Rashford",
+   "Rashford"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": false,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:21:03",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q171",
+   "kind": "change"
+  },
+  "before": "I was on the scoresheet in the 2nd leg of a game which saw our club, the first team in Champions League history to qualify after losing the home 1st leg by two goals",
+  "verdict": "REWORD",
+  "issues": "(1) Not unique: Romelu Lukaku scored twice in the same 3-1 second leg in Paris (Mar 2019), so \"on the scoresheet\" fits him too. (2) The \"first\" claim needs qualifying: Ajax did it in the European Cup in 1969; Man Utd are the first (and only) team in the Champions League era. Wording is also hard to follow.",
+  "shelf": "RECORD (\"no other team\" would break if repeated)",
+  "confidence": "high",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: MID 64%, FWD 36%, so Midfielder becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "RECORDS (Comebacks: \"Only two teams have lost the first leg at home by two goals but still qualified\")",
+   "https://en.wikipedia.org/wiki/Marcus_Rashford"
+  ]
+ },
+ {
+  "id": 172,
+  "pack": "Champions League",
+  "player": "Celestine Babayaro",
+  "question": "I played in the Champions League at 16 for Anderlecht, a record for the youngest player that stood until 2020.\nI was sent off in that game, and I later played in the competition for Chelsea.",
+  "answers": [
+   "Celestine Babayaro",
+   "Babayaro"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:21:12",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q172",
+   "kind": "change"
+  },
+  "before": "I'm the youngest player to have played in the Champions League at the age of 16.\nA team I have represented in the tournament includes Chelsea",
+  "verdict": "REWORD",
+  "issues": "Record broken. Babayaro (16y86d, Anderlecht v Steaua, Nov 1994) was the youngest player until Youssoufa Moukoko (16y18d, 8 Dec 2020); Max Dowman now holds it (15y308d, Nov 2025). Babayaro was also sent off on that debut, still cited as the youngest red card.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Celestine_Babayaro",
+   "https://www.eurosport.com/football/champions-league/2020-2021/dortmund-s-youssoufa-moukoko-makes-history-as-he-becomes-youngest-player-to-play-in-champions-league_sto8024561/story.shtml",
+   "RECORDS (Youngest player)"
+  ]
+ },
+ {
+  "id": 173,
+  "pack": "Champions League",
+  "player": "Juan Mata",
+  "question": "In 2012 I won the Champions League and the Euros.\nIn the Champions League final I took the corner for our late equaliser.",
+  "answers": [
+   "Juan Mata",
+   "Mata"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:21:26",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q173",
+   "kind": "change"
+  },
+  "before": "The pinnacle of my playing career has to be winning the Champions League and Euros in the same year",
+  "verdict": "REWORD",
+  "issues": "Not unique: Fernando Torres also won the CL with Chelsea and Euro 2012 with Spain. Mata's distinguishing detail: his corner set up Drogba's 88th-minute equaliser in the 2012 final. RET status uncertain: left Melbourne Victory (contract ended Sept 2026) and joined its ownership group; one thin report says he retired at 38, others say he ruled retirement out. RET false left pending confirmation.",
+  "shelf": "TIMELESS",
+  "confidence": "high (facts); low (RET)",
+  "notes": [],
+  "sources": [
+   "RECORDS (Combinations: CL and Euros same year)",
+   "https://en.wikipedia.org/wiki/Juan_Mata",
+   "https://www.ysscores.com/en/news/14043411/juan-mata-announces-retirement-from-football-at-age-38"
+  ]
+ },
+ {
+  "id": 175,
+  "pack": "Champions League",
+  "player": "Darren Fletcher",
+  "question": "One of my biggest career accomplishments is winning a Champions League title.\nPlayers I've played with at club level include Chadli, Crouch and Choupo-Moting",
+  "answers": [
+   "Darren Fletcher",
+   "Fletcher"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:21:28",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q175",
+   "kind": "change"
+  },
+  "before": "One of my biggest career accomplishments is winning a Champions League title.\nPlayers I've played with at club level include Chadli, Crouch and Choupo-Moting",
+  "verdict": "FIX-FLAGS",
+  "issues": "Facts hold (CL winner 2008; teammates Chadli at West Brom, Crouch and Choupo-Moting at Stoke). RET wrong: last club Stoke (2017-19); now a coach (Man Utd U18 head coach, caretaker first-team coach Jan 2026).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Darren_Fletcher"
+  ]
+ },
+ {
+  "id": 177,
+  "pack": "Champions League",
+  "player": "Andrés Iniesta",
+  "question": "I'm the first player to have assisted a goal in 3 different Champions League finals.\nI'm also the only player to have won Man of the Match in a Champions League, Euros and World Cup final",
+  "answers": [
+   "Andrés Iniesta",
+   "Iniesta",
+   "Andres Iniesta"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:21:29",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q177",
+   "kind": "change"
+  },
+  "before": "I'm the first player to have assisted a goal in 3 different Champions League finals.\nI'm also the only player to have won Man of the Match in a Champions League, Euros and World Cup final",
+  "verdict": "FIX-FLAGS",
+  "issues": "Facts hold (assisted in the 2009, 2011 and 2015 finals; only player to be man of the match in a CL, Euro and World Cup final). RET wrong: retired in 2024 (last club Emirates Club, 2023-24).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta"
+  ]
+ },
+ {
+  "id": 179,
+  "pack": "Champions League",
+  "player": "Ivan Rakitić",
+  "question": "I made history by becoming the first player to win the Champions League a year after winning the Europa League.\nI was Man of the Match in the Europa League final and made Team of the Season in the Champions League winning campaign",
+  "answers": [
+   "Ivan Rakitić",
+   "Rakitić",
+   "Ivan Rakitic",
+   "Rakitic"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:21:43",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q179",
+   "kind": "change"
+  },
+  "before": "I made history by becoming the first player to win the Champions League a year after winning the Europa League.\nI was Man of the Match in the Europa League final and made Team of the Season in the Champions League winning campaign",
+  "verdict": "FIX-FLAGS",
+  "issues": "Facts hold (Wikipedia: first player to win the CL a year after winning the Europa League with two clubs; man of the match in the 2014 EL final; CL team of the season 2014-15). RET wrong: retired (last club Hajduk Split 2024-25, now its technical director).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ivan_Rakiti%C4%87"
+  ]
+ },
+ {
+  "id": 180,
+  "pack": "Champions League",
+  "player": "Neymar",
+  "question": "I've won the Champions League having scored a goal in both Quarter-final and Semi-final legs as well as scoring in the Final",
+  "answers": [
+   "Neymar"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T17:34:11",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q180",
+   "kind": "change"
+  },
+  "before": "I've won the Champions League having scored a goal in both Quarter-final and Semi-final legs as well as scoring in the Final",
+  "lewisNote": "Position flags approved in chat (strict winger rule).",
+  "verdict": "FIX-FLAGS",
+  "issues": "none found. In 2014-15 he scored in both QF legs v PSG, both SF legs v Bayern, and the final. Checked later winners for the same pattern: Benzema 2022 did not score in the final; PSG 2025 and 2026 (Dembélé missed the 2026 QF first leg) do not match. Still playing (Santos).",
+  "shelf": "TIMELESS (could be matched in future, but unlikely)",
+  "confidence": "medium (2014-15 goal-by-goal from memory consistent with articles; later seasons spot-checked, not every winner since 2015 exhaustively)",
+  "notes": [
+   "Position rules (How to Play): wingers count as midfielders, and a player can have more than one position. Starts by position since 2012-13: MID 85%, FWD 15%, so Midfielder becomes yes. Positions set in 2019 are kept, since the line-up data starts in 2012."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Neymar",
+   "https://en.wikipedia.org/wiki/2025%E2%80%9326_UEFA_Champions_League_knockout_phase"
+  ]
+ },
+ {
+  "id": 181,
+  "pack": "Champions League",
+  "player": "Bafétimbi Gomis",
+  "question": "I held the record for the fastest hat-trick in Champions League history for over ten years.",
+  "answers": [
+   "Bafétimbi Gomis",
+   "Gomis",
+   "Bafetimbi Gomis"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:22:08",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q181",
+   "kind": "change"
+  },
+  "before": "I've scored the fastest Champions League hat-trick of all time",
+  "proposedBeforeLewisEdit": "I held the record for the fastest hat-trick in Champions League history for over ten years.\nI scored it for Lyon in a 7-1 win over Dinamo Zagreb.",
+  "verdict": "REWORD",
+  "issues": "(1) Record broken: Mohamed Salah's hat-trick v Rangers on 12 Oct 2022 took 6 min 12 s. Gomis's (Lyon v Dinamo Zagreb, Dec 2011, reported as 7 or 8 minutes) was the record until then. (2) RET wrong: Gomis retired on 10 Nov 2024.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "RECORDS (Hat-tricks: fastest-ever)",
+   "https://en.wikipedia.org/wiki/Baf%C3%A9timbi_Gomis",
+   "https://guinnessworldrecords.com/world-records/101475-fastest-champions-league-hat-trick"
+  ]
+ },
+ {
+  "id": 183,
+  "pack": "Champions League",
+  "player": "David Alaba",
+  "question": "I've made the UEFA Team of the Year three times.\nI've won the Champions League twice with Bayern Munich and twice with Real Madrid.",
+  "answers": [
+   "David Alaba",
+   "Alaba"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:22:27",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q183",
+   "kind": "change"
+  },
+  "before": "I've made the UEFA Team of the Year on at least 3 occasions.\nBut I've only managed to win the Champions League once",
+  "verdict": "REWORD",
+  "issues": "\"Only managed to win the Champions League once\" is false. Alaba has four: 2013 and 2020 with Bayern, 2022 and 2024 with Real Madrid. UEFA Team of the Year 2013, 2014, 2015 still true. Now at Udinese (2026), still playing.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Alaba",
+   "RECORDS"
+  ]
+ },
+ {
+  "id": 185,
+  "pack": "Champions League",
+  "player": "Pepe",
+  "question": "Teams I've played for in the Champions League include Porto, Beşiktaş and Real Madrid.",
+  "answers": [
+   "Pepe"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:22:30",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q185",
+   "kind": "change"
+  },
+  "before": "Teams I've played with in the Champions League include Porto, Besiktas & Real Madrid",
+  "verdict": "REWORD",
+  "issues": "Facts hold (CL with Porto, Real Madrid, Beşiktaş). Grammar: \"Teams I've played with\" should be \"played for\". RET wrong: retired 8 Aug 2024.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pepe_(footballer,_born_February_1983)"
+  ]
+ },
+ {
+  "id": 188,
+  "pack": "Champions League",
+  "player": "Sami Hyypiä",
+  "question": "I'm an FA Cup and Champions League winner, having won both on a penalty shootout in consecutive seasons.\nI finished my playing career at Bayer Leverkusen.",
+  "answers": [
+   "Sami Hyypiä",
+   "Hyypiä",
+   "Sami Hyypia",
+   "Hyypia"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:22:34",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q188",
+   "kind": "change"
+  },
+  "before": "I'm an FA Cup and Champions League winner having won both on a penalty shootout in consecutive seasons.\nI finished my playing career at Bayern Leverkusen",
+  "verdict": "REWORD",
+  "issues": "Facts hold (CL 2005 and FA Cup 2006, both won on penalties; retired at Leverkusen in 2011). Typo: the club is Bayer Leverkusen, not \"Bayern\".",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sami_Hyypi%C3%A4"
+  ]
+ },
+ {
+  "id": 189,
+  "pack": "Champions League",
+  "player": "Alberto Aquilani",
+  "question": "Some of the teams I've represented in the Champions League include Liverpool, Roma & Milan.\nI've never won the Champions League",
+  "answers": [
+   "Alberto Aquilani",
+   "Aquilani"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:22:37",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q189",
+   "kind": "change"
+  },
+  "before": "Some of the teams I've represented in the Champions League include Liverpool, Roma & Milan.\nI've never won the Champions League",
+  "verdict": "FIX-FLAGS",
+  "issues": "Facts hold. RET wrong: retired 28 June 2019.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alberto_Aquilani"
+  ]
+ },
+ {
+  "id": 193,
+  "pack": "Champions League",
+  "player": "Clarence Seedorf",
+  "question": "I was the first player to win the Champions League with three different clubs.\nOne of those clubs is Real Madrid.",
+  "answers": [
+   "Clarence Seedorf",
+   "Seedorf"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:22:42",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q193",
+   "kind": "change"
+  },
+  "before": "I was the first player to win the Champions League with 3 different teams.\nOne of those teams include Real Madrid",
+  "verdict": "REWORD",
+  "issues": "Fact holds (still the only player to win with three clubs). Grammar: \"One of those teams include\". RET wrong: retired 14 Jan 2014.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "RECORDS (Players, other records)",
+   "https://en.wikipedia.org/wiki/Clarence_Seedorf"
+  ]
+ },
+ {
+  "id": 198,
+  "pack": "Champions League",
+  "player": "Wayne Rooney",
+  "question": "I scored a hat-trick on my Champions League debut, and I'm still the youngest player ever to do it.",
+  "answers": [
+   "Wayne Rooney",
+   "Rooney"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": true,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:24:17",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q198",
+   "kind": "change"
+  },
+  "before": "I've scored the highest number of Champions League goals of anyone else from my country",
+  "verdict": "REWORD",
+  "issues": "(1) No longer England's top CL scorer. Harry Kane has 58 (and is still adding); Rooney has around 30. (2) RET wrong: retired January 2021.",
+  "shelf": "RECORD (youngest debut hat-trick, 18y340d, Man Utd v Fenerbahçe 2004)",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "TOPSCORERS",
+   "RECORDS (Hat-tricks)",
+   "https://en.wikipedia.org/wiki/Wayne_Rooney"
+  ]
+ },
+ {
+  "id": 200,
+  "pack": "Champions League",
+  "player": "Arda Turan",
+  "question": "I've scored a Champions League hat-trick.\nTeams I've played for include Barcelona and Atlético Madrid.\nI've never won the Champions League but I have won the Europa League",
+  "answers": [
+   "Arda Turan",
+   "Turan"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:24:20",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q200",
+   "kind": "change"
+  },
+  "before": "I've scored a Champions League hat-trick.\nTeams I've played for include Barcelona and Atlético Madrid.\nI've never won the Champions League but I have won the Europa League",
+  "verdict": "FIX-FLAGS",
+  "issues": "Facts hold (hat-trick v Mönchengladbach, Dec 2016; joined Barcelona after their 2015 win; EL 2012 with Atlético). RET wrong: retired 2022 (last club Galatasaray).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arda_Turan"
+  ]
+ },
+ {
+  "id": 201,
+  "pack": "Champions League",
+  "player": "David Beckham",
+  "question": "I've made over 100 Champions League appearances, and Real Madrid and PSG are two of the clubs that helped make that up.\nI was once the highest-paid player in the world.",
+  "answers": [
+   "David Beckham",
+   "Beckham"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": true
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:24:28",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q201a",
+   "kind": "change"
+  },
+  "before": "I've made over 100 Champions League appearances in total, some of the teams to have helped make this up are Real Madrid & PSG.\nI Once was the highest paid player in the world",
+  "verdict": "REWORD",
+  "issues": "Facts hold (first British player to reach 100 CL games; listed as the world's highest-paid player). Typo \"I Once\". Duplicate id 201 must be renumbered in the data file.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [
+   "Id 201 is used twice in baseQuestions.json; this is occurrence 1."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Beckham"
+  ]
+ },
+ {
+  "id": 202,
+  "pack": "Champions League",
+  "player": "Ronaldinho",
+  "question": "I've won the Champions League, the World Cup and the Ballon d'Or.\nI was the first player to win all three after the year 2000.",
+  "answers": [
+   "Ronaldinho"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:24:58",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q202",
+   "kind": "change"
+  },
+  "before": "I'm one of an elite group of players to have won the Champions League, World Cup and Ballon d'Or.\nI was the first to achieve it since the year 2000",
+  "verdict": "REWORD",
+  "issues": "(1) \"First to achieve it since the year 2000\" is wrong as worded: Zidane completed the CL, World Cup and Ballon d'Or set in 2002 and Rivaldo in 2003, both before Ronaldinho (2006). Ronaldinho is the first to have won all three after 2000 (WC 2002, Ballon d'Or 2005, CL 2006). (2) RET is now wrong: Ronaldinho came out of retirement, signed for Serie C club Ravenna in June 2026 and played the first half against Forlì on 15 Nov 2026. This is likely a short-lived stunt, so consider re-checking near launch or dropping the RET clue for him.",
+  "shelf": "TIMELESS (the RET flag is volatile)",
+  "confidence": "high",
+  "notes": [
+   "Flags note: RET true→false (re-check before launch)"
+  ],
+  "sources": [
+   "RECORDS (Combinations with Ballon d'Or)",
+   "https://en.wikipedia.org/wiki/Ronaldinho",
+   "https://www.wsls.com/news/weird-news/2026/06/24/ronaldinho-says-let-the-magic-begin-after-signing-with-italian-serie-c-club-ravenna-at-age-46/",
+   "https://www.thescore.com/news/3656152"
+  ]
+ },
+ {
+  "id": 205,
+  "pack": "Champions League",
+  "player": "Gerard Piqué",
+  "question": "I won the Champions League in consecutive seasons with two different clubs.\nI've scored more than 10 goals in the competition.",
+  "answers": [
+   "Gerard Piqué",
+   "Piqué",
+   "Gerard Pique",
+   "Pique"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "edited",
+   "at": "2026-11-20T18:27:30",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q205",
+   "kind": "change"
+  },
+  "before": "I've won the Champions League on consecutive years.\nI've scored over 10 goals in the competition",
+  "proposedBeforeLewisEdit": "I won the Champions League in consecutive seasons with two different clubs.\nI'm a defender, but I've scored more than 10 goals in the competition.",
+  "verdict": "REWORD",
+  "issues": "(1) Not unique: Ramos (2016-18, 15 goals), Eto'o (2009/2010), Ronaldo, Benzema, Bale and others have won it in consecutive years and scored 10+. Piqué's unique angle is consecutive wins with two clubs (Man Utd 2008, Barcelona 2009) as a defender with 16 CL goals. (2) RET wrong: retired November 2022.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "RECORDS (consecutive wins with two clubs)",
+   "https://en.wikipedia.org/wiki/Gerard_Piqu%C3%A9",
+   "https://www.statmuse.com/fc/player/gerard-piqu%C3%A9-2211"
+  ]
+ },
+ {
+  "id": 206,
+  "pack": "Champions League",
+  "player": "Arjen Robben",
+  "question": "I lost a Champions League final and a World Cup final in the same year.\nI lost another Champions League final two years later, then scored the winner in the next one.",
+  "answers": [
+   "Arjen Robben",
+   "Robben"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:27:37",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q206",
+   "kind": "change"
+  },
+  "before": "I've lost in the final of both the Champions League and World Cup in the same year.\nAlthough I managed to win the Champions League in my next final, my national team went one worse and finished third at the following World Cup",
+  "verdict": "REWORD",
+  "issues": "(1) \"Won the Champions League in my next final\" is false: his next final after 2010 was 2012, lost to Chelsea; he won in 2013 and scored the winner. (2) RET wrong: retired again in 2021 after his Groningen comeback. Netherlands third at 2014 World Cup is correct.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arjen_Robben",
+   "RECORDS (runner-up combinations)"
+  ]
+ },
+ {
+  "id": 208,
+  "pack": "Champions League",
+  "player": "Claudio Bravo",
+  "question": "I have a Champions League title to my name, and I captained my country to two Copa América wins.\nOther titles I've won include the Premier League and La Liga.",
+  "answers": [
+   "Claudio Bravo",
+   "Bravo"
+  ],
+  "clues": {
+   "GK": true,
+   "DEF": false,
+   "MID": false,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:27:48",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q208",
+   "kind": "change"
+  },
+  "before": "I have a Champions League title to my name and I'm the second most capped player for my country.\nOther titles I've won include the Premier League and La Liga",
+  "verdict": "REWORD",
+  "issues": "(1) No longer second most capped for Chile: Alexis Sánchez 168, Gary Medel 161, Bravo 150 (and Arturo Vidal, still active, is on 147). (2) Not unique otherwise: Courtois is also a goalkeeper with the CL, Premier League and La Liga. (3) RET wrong: retired 2024 (last club Betis).",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chile_national_football_team",
+   "https://en.wikipedia.org/wiki/Claudio_Bravo"
+  ]
+ },
+ {
+  "id": 209,
+  "pack": "Champions League",
+  "player": "Ibrahim Afellay",
+  "question": "I've won the Champions League and have been a runner up in the FIFA World Cup.\nOther achievements include winning the top-flight Greek, Spanish and Dutch leagues",
+  "answers": [
+   "Ibrahim Afellay",
+   "Afellay"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "RET": true,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:27:50",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q209",
+   "kind": "change"
+  },
+  "before": "I've won the Champions League and have been a runner up in the FIFA World Cup.\nOther achievements include winning the top-flight Greek, Spanish and Dutch leagues",
+  "verdict": "FIX-FLAGS",
+  "issues": "Facts hold (CL 2011 with Barcelona; 2010 World Cup runner-up; Greek title on loan at Olympiacos, Spanish and Dutch titles). RET wrong: retired 31 Jan 2021.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ibrahim_Afellay"
+  ]
+ },
+ {
+  "id": 210,
+  "pack": "Champions League",
+  "player": "Robert Lewandowski",
+  "question": "I once scored four goals against Real Madrid in a Champions League semi-final, but lost the final that year.\nI finally won the competition seven years later with a different club.",
+  "answers": [
+   "Robert Lewandowski",
+   "Lewandowski"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "RET": false,
+   "ENG": false
+  },
+  "decision": {
+   "status": "approved",
+   "at": "2026-11-20T18:28:02",
+   "applied": "2026-11-20T18:29:13"
+  },
+  "review": {
+   "name": "2026-11-audit",
+   "card": "Q210",
+   "kind": "change"
+  },
+  "before": "I'm in the top 10 Champions League goalscorers of all time, but I've never won the competition.\nI've also been included in the Champions League Squad of the Season on at least two occasions",
+  "verdict": "REWORD",
+  "issues": "\"I've never won the competition\" is false since 23 Aug 2020 (Bayern beat PSG). He is third all-time on 109 goals and has been in the Squad of the Season four times. Still playing (Chicago Fire, 2026). The reword uses a timeless fact rather than his rank, which Mbappé or Haaland may overtake.",
+  "shelf": "TIMELESS",
+  "confidence": "high",
+  "notes": [],
+  "sources": [
+   "TOPSCORERS",
+   "RECORDS (Four goals in a match: Dortmund 4-1 Real Madrid, 2012-13 SF)",
+   "https://en.wikipedia.org/wiki/Robert_Lewandowski"
+  ]
+ }
+]

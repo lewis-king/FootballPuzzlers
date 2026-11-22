@@ -1,0 +1,135 @@
+{
+ "answer": "Christian Nørgaard",
+ "acceptableAnswers": [
+  "Christian Nørgaard",
+  "Nørgaard"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I spent six seasons as a mainstay for one English club, but it was only after leaving them that I won the Premier League.\nIncredibly, this trophy came in a season where I made just seven league appearances.\nI've played with the likes of Saka, Rice & Bryan Mbeumo.",
+ "problems": [
+  "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The structure is excellent and fits the house style perfectly: it opens with a strong hook (winning the title after leaving the club), provides a surprising detail (only seven appearances) that creates tension, and closes with a narrowing clue. The names chosen for the final clue are well-selected; ",
+  "fix": "Saka & Rice"
+ },
+ "claims": [
+  {
+   "text": "Christian Nørgaard spent six seasons as a mainstay for one English club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "This was his sixth and final season playing for Brentford, concluding his time at the club with 196 appearances and scoring 13 goals.",
+    "This was his sixth and final season playing for Brentford"
+   ]
+  },
+  {
+   "text": "Christian Nørgaard won the Premier League after leaving that English club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 10 July 2025, Nørgaard was signed by fellow Premier League club Arsenal... [Honours > Arsenal] Premier League: 2025–26",
+    "In July 2025, he signed with fellow London club Arsenal, winning the Premier League & Community Shield."
+   ]
+  },
+  {
+   "text": "In the season Christian Nørgaard won the Premier League, he made just seven league appearances.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Nørgaard made seven Premier League appearances for Arsenal, which was enough for him to earn a winner's medal, as the Gunners won their first league title in twenty-two years.",
+    "Nørgaard made seven Premier League appearances for Arsenal, which was enough for him to earn a winner's medal, as the Gunners won their first league title in twenty-two years."
+   ]
+  },
+  {
+   "text": "Christian Nørgaard has played with Bukayo Saka.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Played in 14 matches alongside Bukayo Saka for Arsenal FC (2025 to 2026)",
+    "[Squad data > Arsenal FC] Played in 14 matches alongside Bukayo Saka for Arsenal FC (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Christian Nørgaard has played with Declan Rice.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Played in 12 matches alongside Declan Rice for Arsenal FC (2025 to 2026)",
+    "[Squad data > Arsenal FC] Played in 12 matches alongside Declan Rice for Arsenal FC (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Christian Nørgaard has played with Bryan Mbeumo.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brentford FC] Played in 109 matches alongside Bryan Mbeumo for Brentford FC (2021 to 2025)",
+    "[Squad data > Brentford FC] Played in 109 matches alongside Bryan Mbeumo for Brentford FC (2021 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Christian_Nørgaard",
+  "revid": 1385021027
+ },
+ "alternatives": [
+  {
+   "question": "I once signed for Hamburger SV but failed to make a single first team appearance before leaving.\nYears later I won the Premier League, despite only making seven league appearances during that campaign.\nI've been managed by Stefano Pioli & Thomas Frank.",
+   "problems": [
+    "claim not stated in the evidence: \"Christian Nørgaard won the Premier League years after signing for Hamburger SV.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once signed a three-year contract with Hamburger SV, yet I failed to make a single first team appearance before leaving.\nFollowing abortive spells in Germany and Italy, I moved to England where I eventually became club captain.\nI've played with the likes of Eriksen, Gyökeres & Stefano Pioli.",
+   "problems": [
+    "claim is wrong: \"Christian Nørgaard signed a three-year contract with Hamburger SV.\"",
+    "claim is wrong: \"Christian Nørgaard had an abortive spell in Germany after his time at Hamburger SV.\"",
+    "claim is wrong: \"Christian Nørgaard had an abortive spell in Italy after his time in Germany.\"",
+    "claim not stated in the evidence: \"Christian Nørgaard moved to England following his spells in Germany and Italy.\"",
+    "claim is wrong: \"Christian Nørgaard played with Stefano Pioli.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once signed a contract with Hamburger SV, yet I failed to make a single first team appearance before leaving.\nFollowing my time in Germany and Italy, I moved to England where I eventually became club captain.\nI've played with the likes of Eriksen, Saka & Gyökeres.",
+   "problems": [
+    "claim is wrong: \"Christian Nørgaard played in Germany and Italy prior to moving to England.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I made my senior international debut in 2020 with a start against England, where I was named man of the match.\nIncredibly, I've since represented three different English clubs in the top flight.\nI've been managed by Stefano Pioli, Thomas Frank & Mikel Arteta.",
+   "problems": [
+    "claim is wrong: \"Christian Nørgaard has represented three different English clubs in the top flight since 2020.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "In 2026 I announced my retirement from international football after failing to qualify for the World Cup.\nThat same year I moved to Everton, having just won the Premier League with a different English club.\nI've played with the likes of Eriksen, Zubimendi & Ødegaard.",
+   "problems": [
+    "claim not stated in the evidence: \"Christian Nørgaard won the Premier League with a different English club immediately before moving to Everton in 2026.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I won the Premier League during a season in which I only made seven appearances.\nIt was a brief spell at a club where I played alongside Ødegaard & Saliba.\nBefore that, I spent several years as a cult hero in my native Denmark.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

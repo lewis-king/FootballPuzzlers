@@ -1,0 +1,105 @@
+{
+ "answer": "Dele Alli",
+ "acceptableAnswers": [
+  "Dele Alli",
+  "Alli"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "My first touch in professional football was a back-heeled pass.\nI later won PFA Young Player of the Year two years running.\nI've played with the likes of Weghorst, Gordon & Van de Beek.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The first sentence is a dull procedural detail that neither delights nor surprises, violating the style guide's rule against boring hooks. Additionally, listing Weghorst and Van de Beek points directly to Tottenham Hotspur, which narrows the field too easily for a player as famous as Dele Alli.",
+  "fix": "Replace the back-heel hook with a memorable moment or tension (e.g., his rapid rise from academy to star, or a specific controversial incident). Ensure the teammate list includes names from different clubs or stages of his career to avoid pointing solely at one squad."
+ },
+ "claims": [
+  {
+   "text": "Dele Alli's first touch in professional football was a back-heeled pass.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "His first touch in professional football was a back-heeled pass.",
+    "His first touch in professional football was a back-heeled pass."
+   ]
+  },
+  {
+   "text": "Dele Alli won the PFA Young Player of the Year award two years running.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Early in his career, Dele was widely considered one of the best young midfielders of his generation, and won PFA Young Player of the Year two years running.",
+    "won PFA Young Player of the Year two years running."
+   ]
+  },
+  {
+   "text": "Dele Alli has played with Weghorst, Gordon & Van de Beek.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Dele_Alli",
+  "revid": 1385385622
+ },
+ "alternatives": [
+  {
+   "question": "I once played the full 90 minutes of a historic 4-0 win over Manchester United while playing for a team in the third tier.\nWithin two years I'd been voted PFA Young Player of the Year twice running.\nI've played with the likes of Weghorst, Iwobi & Bale.",
+   "problems": [
+    "claim not stated in the evidence: \"At the time of that match, Dele Alli was playing for a team in the third tier.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 5
+  },
+  {
+   "question": "Early in my career it was reported that I might be convinced to play for Nigeria.\nInstead I went on to help England reach a World Cup semi-final.\nI've been managed by the likes of Pochettino, Lampard & Güneş.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once scored a long range goal on my senior international debut to beat a goalkeeper who was also my club teammate.\nFollowing this, I won PFA Young Player of the Year two years running.\nI've played with the likes of Weghorst, Iwobi & Richarlison.",
+   "problems": [
+    "claim is wrong: \"Dele Alli scored a long range goal on his senior international debut.\"",
+    "claim not stated in the evidence: \"Dele Alli won the PFA Young Player of the Year award two years running following his senior international debut.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I made my first start for the senior national team by scoring a long-range goal against France.\nAlthough I was once considered the world's most expensive midfielder, my career later saw me move to Turkey and Italy.\nI've been managed by Pochettino, Lampard & Güneş.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I've played in a World Cup semi-final and have been named the world's most expensive midfielder by transfer value.\nYet my return to professional football in 2025 lasted only ten minutes before I was sent off.\nI've been managed by Pochettino, Lampard & Güneş.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2025 I made my return to professional football after two years out.\nHowever my comeback lasted only ten minutes before I was sent off for a foul on Ruben Loftus-Cheek.\nI've played alongside the likes of Bale, Son & Richarlison.",
+   "problems": [
+    "claim is wrong: \"Dele Alli was out of professional football for two years prior to his 2025 return.\"",
+    "claim not stated in the evidence: \"Dele Alli played alongside Son Heung-min.\""
+   ],
+   "style": 2
+  }
+ ]
+}

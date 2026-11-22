@@ -1,0 +1,133 @@
+{
+ "answer": "Kylian Mbappé",
+ "acceptableAnswers": [
+  "Kylian Mbappé",
+  "Mbappé"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 2,
+ "status": "NEEDS_WORK",
+ "question": "When I made my professional debut, I broke a record for the youngest ever player at my club previously held by Thierry Henry.\nYears later, I moved to Spain on a free transfer after becoming the highest goalscorer in the history of the French capital's biggest club.\nI've played alongside Lionel Messi, Trent Alexander-Arnold & Michael Olise.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 1,
+  "why": "The question fails on multiple fronts. First, it leads with the most famous fact about the player (breaking Henry's record), which immediately gives away the answer to any casual fan, violating the rule against leading with headline facts. Second, it stacks two major achievements (youngest debut and",
+  "fix": "Rewrite to focus on a less obvious angle or a specific moment that doesn't immediately identify him as Mbappé. For example, start with his time at Monaco or a specific match detail, then use the teammates as the narrowing clue. Avoid stating he is the top scorer for PSG unless it's framed in a way ("
+ },
+ "claims": [
+  {
+   "text": "Kylian Mbappé broke a record for the youngest ever player at his club when he made his professional debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "The 16-year-old Mbappé became Monaco's youngest-ever first-team player, breaking the previous record set by Thierry Henry in 1994.",
+    "The 16-year-old Mbappé became Monaco's youngest-ever first-team player, breaking the previous record set by Thierry Henry in 1994."
+   ]
+  },
+  {
+   "text": "The record for the youngest ever player at Kylian Mbappé's club was previously held by Thierry Henry.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "The 16-year-old Mbappé became Monaco's youngest-ever first-team player, breaking the previous record set by Thierry Henry in 1994.",
+    "The 16-year-old Mbappé became Monaco's youngest-ever first-team player, breaking the previous record set by Thierry Henry in 1994."
+   ]
+  },
+  {
+   "text": "Kylian Mbappé moved to Spain on a free transfer years after his professional debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2024, Mbappé joined Real Madrid on a free transfer."
+   ]
+  },
+  {
+   "text": "Kylian Mbappé became the highest goalscorer in the history of the French capital's biggest club before moving to Spain.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "all-time top scorer Kylian Mbappé"
+   ]
+  },
+  {
+   "text": "Kylian Mbappé has played alongside Lionel Messi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Paris Saint-Germain] Played in 66 matches alongside Lionel Messi for Paris Saint-Germain (2021 to 2023)",
+    "Played in 66 matches alongside Lionel Messi for Paris Saint-Germain (2021 to 2023)"
+   ]
+  },
+  {
+   "text": "Kylian Mbappé has played alongside Trent Alexander-Arnold.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 25 matches alongside Trent Alexander-Arnold for Real Madrid (2025 to 2026)",
+    "[Squad data > Real Madrid] Played in 25 matches alongside Trent Alexander-Arnold for Real Madrid (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Kylian Mbappé has played alongside Michael Olise.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > France] Played in 3 matches alongside Michael Olise for France (2026)",
+    "[Squad data > France] Played in 3 matches alongside Michael Olise for France (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kylian_Mbappé",
+  "revid": 1385906751
+ },
+ "alternatives": [
+  {
+   "question": "I've won the World Cup Golden Boot twice, a feat that has never been achieved by any other player.\nIn 2022 I also became only the second man in history to score a hat-trick in a World Cup final.\nI've played with Bernardo Silva, Neymar & Trent Alexander-Arnold.",
+   "problems": [],
+   "style": 1
+  },
+  {
+   "question": "I became only the second teenager in history to score in a World Cup final.\nFollowing that success, I went on to become the all-time leading goalscorer for both my national team and the tournament itself.\nI've been managed by Leonardo Jardim, Thomas Tuchel & Carlo Ancelotti.",
+   "problems": [
+    "wording will date: The claim of being the 'all-time leading goalscorer' is a present-tense record that could be overtaken by another player in future tournaments.; The claim to be the all-time leading goalscorer for both his national team and the World Cup is a current record that could be surpassed."
+   ],
+   "style": 2
+  },
+  {
+   "question": "I became the all-time leading goalscorer for my club in 2023, yet I departed on a free transfer a year later.\nFollowing this move, I broke the record for most goals scored by any player in their debut season for my new club.\nI've been managed by Leonardo Jardim, Thomas Tuchel & Carlo Ancelotti.",
+   "problems": [
+    "claim is wrong: \"Kylian Mbappé departed his club on a free transfer one year after becoming the all-time leading goalscorer (in 2024).\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "At the age of 16 I became the youngest ever first-team player for Monaco.\nFollowing my time there I spent several years as the all-time leading scorer for a club in the French capital.\nI've been managed by Leonardo Jardim, Thomas Tuchel & Carlo Ancelotti.",
+   "problems": [
+    "claim not stated in the evidence: \"Following his time at Monaco, Kylian Mbappé spent several years as the all-time leading scorer for a club in the French capital.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I'm the first player to win two World Cup Golden Boots.\nIn 2022 I also became only the second man in history to score a hat-trick in a World Cup final.\nI've played with Bernardo Silva, Lionel Messi & Trent Alexander-Arnold.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the only player to score a hat-trick in a World Cup final since 1966.\nDespite this individual feat, we unfortunately finished as runners-up in that tournament.\nI've played with Bernardo Silva, Neymar & Jude Bellingham.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim is wrong: \"Kylian Mbappé is the only player to score a hat-trick in a World Cup final since 1966.\""
+   ],
+   "style": 0
+  }
+ ]
+}

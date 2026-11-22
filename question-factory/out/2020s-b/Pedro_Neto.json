@@ -1,0 +1,106 @@
+{
+ "answer": "Pedro Neto",
+ "acceptableAnswers": [
+  "Pedro Neto",
+  "Neto"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I became the youngest ever goalscorer in the top flight for my first professional club.\nFollowing a loan spell in Italy, I moved to England where I once became the first teenager to score for my club in the Premier League.\nI've played with the likes of Milinković-Savić, Vitinha & Cole Palmer.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question follows the house style well: first-person narrative, connected sentences ('Following a loan spell...'), and a narrowing clue list at the end that mixes clubs (Lazio, Benfica, Chelsea) to help solve it. The facts are accurate and memorable for fans of his career trajectory. It scores 4,",
+  "fix": "The opening line is slightly generic ('youngest ever goalscorer in the top flight') which could apply to many prodigies without immediately hooking the reader with a specific tension or twist like the originals (e.g., 'fastest hat-trick' or 'scored but didn't win'). To push it to a 5, consider anch'"
+ },
+ "claims": [
+  {
+   "text": "Pedro Neto is the youngest ever goalscorer in the top flight for his first professional club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the club's youngest ever goal scorer in the competition."
+   ]
+  },
+  {
+   "text": "Pedro Neto had a loan spell in Italy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He started his career at Braga, who loaned him to Italian club Lazio in the summer of 2017.",
+    "He started his career at Braga, who loaned him to Italian club Lazio in the summer of 2017."
+   ]
+  },
+  {
+   "text": "After his loan spell in Italy, Pedro Neto moved to England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 2 August 2019, Neto signed with Wolverhampton Wanderers."
+   ]
+  },
+  {
+   "text": "Pedro Neto was the first teenager to score for his club in the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the first teenager to achieve the feat for the club in the Premier League in the process.",
+    "becoming the first teenager to achieve the feat for the club in the Premier League in the process."
+   ]
+  },
+  {
+   "text": "Pedro Neto has played with Sergej Milinković-Savić.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Società Sportiva Lazio S.p.A.] Played in 4 matches alongside Sergej Milinković-Savić for Società Sportiva Lazio S.p.A. (2019)",
+    "[Squad data > Società Sportiva Lazio S.p.A.] Played in 4 matches alongside Sergej Milinković-Savić for Società Sportiva Lazio S.p.A. (2019)"
+   ]
+  },
+  {
+   "text": "Pedro Neto has played with Vitinha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 15 matches alongside Vitinha for Wolverhampton Wanderers (2020 to 2021)",
+    "[Squad data > Wolverhampton Wanderers] Played in 15 matches alongside Vitinha for Wolverhampton Wanderers (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Pedro Neto has played with Cole Palmer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 70 matches alongside Cole Palmer for Chelsea FC (2024 to 2026)",
+    "[Squad data > Chelsea FC] Played in 70 matches alongside Cole Palmer for Chelsea FC (2024 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Pedro_Neto",
+  "revid": 1386426612
+ },
+ "alternatives": [
+  {
+   "question": "I was the first player born in the 2000s to represent my national team, scoring on my debut.\nIn 2024 I won the Nations League and played in a World Cup that ended in a round of 16 exit.\nI've been managed by Nuno Espírito Santo & Enzo Maresca.",
+   "problems": [
+    "claim is wrong: \"In 2024, Pedro Neto won the Nations League with his national team.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In my first season with my current club I won both the UEFA Conference League and the FIFA Club World Cup.\nI've also made a name for myself as a regular in the national team, though recurrent injuries have often hampered me.\nI've played alongside Cristiano Ronaldo, Jadon Sancho & Nuno Mendes.",
+   "problems": [
+    "tied to where the player is now (\"current\"): it goes wrong the day he moves club or league; anchor it to something fixed, such as his position or a year"
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "answer": "Serhou Guirassy",
+ "acceptableAnswers": [
+  "Serhou Guirassy",
+  "Guirassy"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "After representing France at youth level, I switched my allegiance to Guinea.\nIn 2024 I set a Bundesliga record for the most goals scored in the first seven matches of a season.\nI've played with Doku, Raphinha & Zagadou.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and uses the required British English style, but it reads like a list of three disconnected facts rather than a story. It lacks the conversational flow, tension, or 'twist' that characterizes Lewis's best originals (e.g., no linking phrases like 'Yet...' or 'It was…",
+  "fix": "Rewrite to connect the sentences and add a narrative hook. For example: 'I started my career representing France at youth level before switching my allegiance to Guinea. That move set me up for a breakout 2024, where I broke the Bundesliga record for goals in the first seven matches of a season. I’d"
+ },
+ "claims": [
+  {
+   "text": "Serhou Guirassy represented France at youth level.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Guirassy was a youth international for France.",
+    "Guirassy was a youth international for France."
+   ]
+  },
+  {
+   "text": "Serhou Guirassy switched his allegiance to Guinea after representing France at youth level.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After initially representing France at various youth levels, Guirassy switched to Guinea",
+    "After initially representing France at various youth levels, Guirassy switched to Guinea, making his debut in 2022 and appearing for them at the 2023 Africa Cup of Nations."
+   ]
+  },
+  {
+   "text": "In 2024, Serhou Guirassy set a Bundesliga record for the most goals scored in the first seven matches of a season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He also set the Bundesliga record for most goals by a player in the first seven matches of a season by scoring a hat-trick within 15 minutes in a 3–1 win against Wolfsburg.",
+    "He also set the Bundesliga record for most goals by a player in the first seven matches of a season by scoring a hat-trick within 15 minutes in a 3–1 win against Wolfsburg."
+   ]
+  },
+  {
+   "text": "Serhou Guirassy has played with Doku.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Stade Rennais FC] Played in 39 matches alongside Jérémy Doku for Stade Rennais FC (2020 to 2022)",
+    "[Squad data > Stade Rennais FC] Played in 39 matches alongside Jérémy Doku for Stade Rennais FC (2020 to 2022)"
+   ]
+  },
+  {
+   "text": "Serhou Guirassy has played with Raphinha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Stade Rennais FC] Played in 5 matches alongside Raphinha for Stade Rennais FC (2020)",
+    "[Squad data > Stade Rennais FC] Played in 5 matches alongside Raphinha for Stade Rennais FC (2020)"
+   ]
+  },
+  {
+   "text": "Serhou Guirassy has played with Zagadou.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Played in 30 matches alongside Dan-Axel Zagadou for VfB Stuttgart (2022 to 2023)",
+    "[Squad data > VfB Stuttgart] Played in 30 matches alongside Dan-Axel Zagadou for VfB Stuttgart (2022 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Serhou_Guirassy",
+  "revid": 1385298159
+ },
+ "alternatives": [
+  {
+   "question": "I started my career representing France at youth level before switching my allegiance to Guinea.\nIt was after moving to Germany that I really made my mark, setting a Bundesliga record for the most goals scored in the first seven matches of a season in 2024.\nI've played with Pavard, Camavinga & Süle.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I was the top scorer for my club during a season in which we were relegated from the Bundesliga.\nYears later, I became the second African player to be the top scorer of a Champions League campaign.\nI've played with Pavard, Camavinga & Süle.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I represented France at various youth levels, but later switched my allegiance to Guinea.\nIn 2024 I set a club record for goals in a single Bundesliga season before moving to Borussia Dortmund.\nI've played with Pavard, Camavinga & Süle.",
+   "problems": [
+    "claim is wrong: \"Serhou Guirassy moved to Borussia Dortmund after setting the club record for goals in a single Bundesliga season in 2024.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I scored my club's first ever Champions League goal in a draw against Krasnodar.\nYears later I became the all-time top scorer for both Africa and my new club in a single campaign of that competition.\nI've been managed by Bruno Génésio & Niko Kovac.",
+   "problems": [
+    "wording will date: The claim of being the 'all-time top scorer' is a present-tense record that could be invalidated by future goals.; The claim to be the all-time top scorer for Africa/club in a single campaign is a current record that could be broken."
+   ],
+   "style": 2
+  },
+  {
+   "question": "In 2025 I became only the second African player to be the top scorer in a Champions League campaign, a feat first achieved by George Weah.\nYet before this European success, I spent several years as a journeyman across France and Germany.\nI've played with Doku, Zagadou & Raphinha.",
+   "problems": [
+    "claim is wrong: \"Serhou Guirassy spent several years as a journeyman across France and Germany before his 2025 European success.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I spent my first two years in the Bundesliga plagued by injuries, yet I still finished as my club's top scorer in a season they were relegated.\nFollowing this, I had a prolific spell at Stuttgart before joining Borussia Dortmund.\nI've played with Bisseck, Doku & Adeyemi.",
+   "problems": [
+    "banned wording (still)",
+    "claim is wrong: \"Serhou Guirassy spent his first two years in the Bundesliga plagued by injuries.\"",
+    "claim not stated in the evidence: \"Serhou Guirassy had a prolific spell at Stuttgart after the season he was relegated with his previous club.\""
+   ],
+   "style": 0
+  }
+ ]
+}

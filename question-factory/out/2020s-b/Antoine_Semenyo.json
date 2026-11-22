@@ -1,0 +1,108 @@
+{
+ "answer": "Antoine Semenyo",
+ "acceptableAnswers": [
+  "Antoine Semenyo",
+  "Semenyo"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "While on loan in League Two, I played the full 90 minutes as we knocked Leicester City out of the FA Cup.\nYears later I scored the only goal in an FA Cup final to secure a trophy for my club.\nI've been managed by Andoni Iraola & Pep Guardiola.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 3,
+  "why": "This reads exactly like one of Lewis's originals: it tells a story with a clear arc (loan cup upset -> years later winning the final) and closes with a narrowing clue that mixes a current manager with a famous one to pinpoint the player. The hook is memorable and surprising for a casual fan, not a D",
+  "fix": "None needed."
+ },
+ "claims": [
+  {
+   "text": "Antoine Semenyo was on loan in League Two.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 18 July 2018, Semenyo joined EFL League Two club Newport County on a season-long loan.",
+    "On 18 July 2018, Semenyo joined EFL League Two club Newport County on a season-long loan."
+   ]
+  },
+  {
+   "text": "While on loan in League Two, Antoine Semenyo played the full 90 minutes in a match against Leicester City.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 6 January 2019, he played the full 90 minutes as Newport knocked Premier League club Leicester City out of the FA Cup in the third round with a 2–1 win.",
+    "On 6 January 2019, he played the full 90 minutes as Newport knocked Premier League club Leicester City out of the FA Cup in the third round with a 2–1 win."
+   ]
+  },
+  {
+   "text": "In that match while on loan in League Two, Antoine Semenyo's team knocked Leicester City out of the FA Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 6 January 2019, he played the full 90 minutes as Newport knocked Premier League club Leicester City out of the FA Cup in the third round with a 2–1 win.",
+    "On 6 January 2019, he played the full 90 minutes as Newport knocked Premier League club Leicester City out of the FA Cup in the third round with a 2–1 win."
+   ]
+  },
+  {
+   "text": "Years after his time on loan in League Two, Antoine Semenyo scored the only goal in an FA Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 16 May, Semenyo scored the decisive goal in the 2026 FA Cup final against Chelsea, producing a backheel finish to seal a 1–0 victory and deliver the trophy to Manchester City.",
+    "On 16 May, Semenyo scored the decisive goal in the 2026 FA Cup final against Chelsea, producing a backheel finish to seal a 1–0 victory and deliver the trophy to Manchester City."
+   ]
+  },
+  {
+   "text": "Antoine Semenyo's scoring of the only goal in that FA Cup final secured a trophy for his club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 16 May, Semenyo scored the decisive goal in the 2026 FA Cup final against Chelsea, producing a backheel finish to seal a 1–0 victory and deliver the trophy to Manchester City.",
+    "On 16 May, Semenyo scored the decisive goal in the 2026 FA Cup final against Chelsea, producing a backheel finish to seal a 1–0 victory and deliver the trophy to Manchester City."
+   ]
+  },
+  {
+   "text": "Antoine Semenyo has been managed by Andoni Iraola.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AFC Bournemouth] Was managed by Andoni Iraola at AFC Bournemouth in 99 matches (2023 to 2026)",
+    "[Squad data > AFC Bournemouth] Was managed by Andoni Iraola at AFC Bournemouth in 99 matches (2023 to 2026)"
+   ]
+  },
+  {
+   "text": "Antoine Semenyo has been managed by Pep Guardiola.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 26 matches (2026)",
+    "Was managed by Pep Guardiola at Manchester City in 26 matches (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Antoine_Semenyo",
+  "revid": 1385549555
+ },
+ "alternatives": [
+  {
+   "question": "Despite being born in England, I chose to represent Ghana at the World Cup.\nI once played for a National League South side on loan before moving to the Premier League.\nI've shared a pitch with the likes of Haaland, Rayan Cherki & Justin Kluivert.",
+   "problems": [
+    "claim not stated in the evidence: \"Antoine Semenyo moved to the Premier League after playing for a National League South side on loan.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I almost gave up on professional football before being convinced to join a college academy.\nIn 2017, I had a brief spell at Hellenic League side Highworth Town where I played only 13 minutes of an FA Cup preliminary tie.\nSince then I've won the FA Cup and played with the likes of Rodri & Marc Guéhi.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

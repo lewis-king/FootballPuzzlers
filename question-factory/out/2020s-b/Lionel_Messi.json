@@ -1,0 +1,126 @@
+{
+ "answer": "Lionel Messi",
+ "acceptableAnswers": [
+  "Lionel Messi",
+  "Messi"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to December 2028 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "I once retired from international football after losing three consecutive finals.\nUpon my return I led my country to a World Cup title in 2022.\nI've been managed by Luis Enrique & Christophe Galtier.",
+ "problems": [
+  "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 3,
+  "difficulty": 1,
+  "why": "The first sentence leads with the most famous narrative arc of Lionel Messi's career (losing three finals then winning the World Cup), which immediately gives away the answer to any casual fan. This violates the core rule against leading with a player's headline fact or stacking two major clues that",
+  "fix": "Remove the 'three consecutive finals' setup and the explicit 2022 World Cup win, as these are his defining traits. Instead, focus on a specific, less obvious moment from that era (e.g., a specific assist, a controversial penalty decision, or a lesser-known teammate interaction) and use the managers/"
+ },
+ "claims": [
+  {
+   "text": "Lionel Messi retired from international football after losing three consecutive finals.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Losing three finals in three consecutive years caused Messi to retire from international football",
+    "Losing three finals in three consecutive years caused Messi to retire from international football"
+   ]
+  },
+  {
+   "text": "Lionel Messi returned to international football after retiring.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Losing three finals in three consecutive years caused Messi to retire from international football, but a nationwide campaign in Argentina helped convince him to return to the national team",
+    "He subsequently announced his retirement from international football, but returned soon after."
+   ]
+  },
+  {
+   "text": "Lionel Messi led his country to a World Cup title in 2022.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the 2022 FIFA World Cup, Messi led Argentina to their first World Cup victory in 36 years, scoring twice in the final to defeat France.",
+    "He then led Argentina to victory at the 2021 Copa América, the 2022 World Cup, and the 2024 Copa América."
+   ]
+  },
+  {
+   "text": "Lionel Messi was managed by Luis Enrique.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Was managed by Luis Enrique at FC Barcelona in 158 matches (2014 to 2017)",
+    "[Squad data > FC Barcelona] Was managed by Luis Enrique at FC Barcelona in 158 matches (2014 to 2017)"
+   ]
+  },
+  {
+   "text": "Lionel Messi was managed by Christophe Galtier.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Paris Saint-Germain] Was managed by Christophe Galtier at Paris Saint-Germain in 40 matches (2022 to 2023)",
+    "Was managed by Christophe Galtier at Paris Saint-Germain in 40 matches (2022 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Lionel_Messi",
+  "revid": 1386068285
+ },
+ "alternatives": [
+  {
+   "question": "At the age of 10, my professional career was threatened by a growth hormone deficiency.\nYears later I won a record eight Ballons d'Or.\nI've played with the likes of Mbappé, Coutinho & Griezmann.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "My first professional commitment was famously written on a paper napkin.\nI later became the all-time leading goalscorer for my national team.\nI've been managed by Pep Guardiola, Christophe Galtier & Luis Enrique.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "My first professional contract was famously written on a paper napkin.\nYears later I won the Ballon d'Or eight times.\nI've played with the likes of Coutinho, Mbappé & Vitinha.",
+   "problems": [
+    "claim is wrong: \"Lionel Messi's first professional contract was written on a paper napkin.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "At age 10 my professional career was almost over before it began due to a growth hormone deficiency.\nIncredibly I went on to become the all-time leading goalscorer for my country.\nI've played alongside Griezmann, Neymar & Ekitiké.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The claim of being the 'all-time leading goalscorer' is a current record that could theoretically be broken by another player in the future.; The claim of being the all-time leading goalscorer is a current record that could be surpassed."
+   ],
+   "style": 2
+  },
+  {
+   "question": "As a child I was diagnosed with a growth hormone deficiency, which threatened my future in the game.\nYears later I won the Ballon d'Or eight times.\nI've played with the likes of Coutinho, Mbappé & Ekitiké.",
+   "problems": [
+    "claim is wrong: \"Lionel Messi has played with Bradley Ekitiké.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "At age 13 I moved to Spain and was so quiet that some of my teammates initially believed I was mute.\nI later became the all-time leading goalscorer for my national team.\nI've been managed by Galtier, Koeman & Enrique.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The claim of being the 'all-time leading goalscorer' is a present-tense record that could theoretically be broken by another player in the future.; The claim to be the all-time leading goalscorer is a current record that could be surpassed."
+   ],
+   "style": 2
+  }
+ ]
+}

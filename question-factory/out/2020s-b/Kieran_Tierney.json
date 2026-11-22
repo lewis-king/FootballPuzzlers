@@ -1,0 +1,101 @@
+{
+ "answer": "Kieran Tierney",
+ "acceptableAnswers": [
+  "Kieran Tierney",
+  "Tierney"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "In a development league match as a teenager, I scored a goal from the edge of my own penalty box.\nYears later, I became the first Scotsman to score for an English club in European competition since 1980.\nI've played with the likes of Zubimendi, Aubameyang & Saka.",
+ "problems": [
+  "claim is wrong: \"Kieran Tierney became the first Scotsman to score for an English club in European competition since 1980.\""
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is factually accurate and follows the house style well: it uses first-person narrative, connects sentences logically, and ends with a strong narrowing clue list (Zubimendi, Aubameyang & Saka) that effectively points to Arsenal without giving away the player's identity. The 'first Scotsm",
+  "fix": "The main weakness is the opening hook. Scoring from the edge of your own box in a youth match is a very minor, unmemorable detail that doesn't create tension or intrigue; it feels like filler rather than a story beat. A stronger opening would focus on his rapid rise (e.g., 'I was signed as a 15-year"
+ },
+ "claims": [
+  {
+   "text": "Kieran Tierney scored a goal from the edge of his own penalty box in a development league match as a teenager.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "in October 2014 during a Development League match against Heart of Midlothian he scored a goal from the edge of his own penalty box",
+    "in October 2014 during a Development League match against Heart of Midlothian he scored a goal from the edge of his own penalty box"
+   ]
+  },
+  {
+   "text": "Kieran Tierney became the first Scotsman to score for an English club in European competition since 1980.",
+   "final": "CONTRADICTED",
+   "quotes": []
+  },
+  {
+   "text": "Kieran Tierney has played with Zubimendi, Aubameyang & Saka.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kieran_Tierney",
+  "revid": 1386098464
+ },
+ "alternatives": [
+  {
+   "question": "At one point in my career I considered representing the Isle of Man in a ConIFA World Cup.\nAlthough I've made over 50 caps for my country, it was only in 2025 that I helped them secure a place in a FIFA World Cup.\nI've been managed by Martin O'Neill, Imanol Alguacil & Mikel Arteta.",
+   "problems": [
+    "claim not stated in the evidence: \"Kieran Tierney helped his country secure a place in a FIFA World Cup in 2025.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "In a development league match as a teenager, I scored a goal from the edge of my own penalty box.\nYears later, I became the first Scotsman to score for Arsenal in European competition since 1980.\nI've played with the likes of Zubimendi, Aubameyang & Saka.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "Although I spent my childhood in Scotland, I was actually born on the Isle of Man.\nIn 2025 I scored in my final game for an English club before returning to where it all began.\nI've been managed by Martin O'Neill, Mikel Arteta & Imanol Alguacil.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In a development league match as a teenager, I scored a goal from the edge of my own penalty box.\nLater in my career I became the first Scotsman to score for Arsenal in a European competition since 1980.\nI've played with the likes of Zubimendi, Aubameyang & Saka.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I was born on the Isle of Man, but moved to Scotland as a baby.\nIn 2018 I played a major role in securing a historic double treble for my club.\nI've been managed by Brendan Rodgers & Imanol Alguacil.",
+   "problems": [
+    "claim not stated in the evidence: \"Kieran Tierney moved to Scotland as a baby.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I won three consecutive Young Player of the Year awards in Scotland before moving to the Premier League.\nYet I later spent a season on loan in La Liga, where my manager described me as 'exquisite'.\nI've played with the likes of Sterling, Rice & Ødegaard.",
+   "problems": [
+    "every team-mate and manager named meets the player at Arsenal FC, so together they only say 'Arsenal FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

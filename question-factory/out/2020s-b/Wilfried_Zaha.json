@@ -1,0 +1,131 @@
+{
+ "answer": "Wilfried Zaha",
+ "acceptableAnswers": [
+  "Wilfried Zaha",
+  "Zaha"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I once made my senior international debut as a substitute for Raheem Sterling.\nAlthough I represented England early on, I later switched allegiance to the Ivory Coast in 2016.\nI've been managed by Roy Hodgson & played alongside Lacazette and Matic.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question reads naturally and follows the house style well with connected sentences and a clear narrative arc (England to Ivory Coast). The facts are accurate and the clues (Hodgson, Lacazette, Matic) effectively narrow down the field without giving it away immediately. It avoids common pitfalls:",
+  "fix": "It is slightly less punchy than the best originals because the first sentence is a bit dry ('made my senior international debut as a substitute'). A stronger hook might focus on the 'switch' aspect earlier or use a more memorable moment from his career (like his time at QPR or Crystal Palace) to set"
+ },
+ "claims": [
+  {
+   "text": "Wilfried Zaha made his senior international debut as a substitute for Raheem Sterling.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He came on as a substitute for fellow debutant Raheem Sterling in the 83rd minute.",
+    "He came on as a substitute for fellow debutant Raheem Sterling in the 83rd minute."
+   ]
+  },
+  {
+   "text": "Wilfried Zaha represented England early in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his debut for the England national team in 2012",
+    "He made his debut for the England national team in 2012, appearing in two non-competitive matches (the latter of which came in 2013)."
+   ]
+  },
+  {
+   "text": "Wilfried Zaha switched allegiance to the Ivory Coast in 2016.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After not playing for England for four years, he switched to play for Ivory Coast in 2016",
+    "he switched to play for Ivory Coast in 2016"
+   ]
+  },
+  {
+   "text": "Wilfried Zaha was managed by Roy Hodgson.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Was managed by Roy Hodgson at Crystal Palace in 137 matches (2017 to 2023)",
+    "[Squad data > Crystal Palace] Was managed by Roy Hodgson at Crystal Palace in 137 matches (2017 to 2023)"
+   ]
+  },
+  {
+   "text": "Wilfried Zaha played alongside Lacazette.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Olympique Lyon] Played in 6 matches alongside Alexandre Lacazette for Olympique Lyon (2024)",
+    "Played in 6 matches alongside Alexandre Lacazette for Olympique Lyon (2024)"
+   ]
+  },
+  {
+   "text": "Wilfried Zaha played alongside Matic.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Olympique Lyon] Played in 4 matches alongside Nemanja Matić for Olympique Lyon (2024)",
+    "[Squad data > Olympique Lyon] Played in 4 matches alongside Nemanja Matić for Olympique Lyon (2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+  "revid": 1386715477
+ },
+ "alternatives": [
+  {
+   "question": "I have induced more red cards for opponents in the history of the Premier League than any other player.\nDespite this, I've often been accused of diving throughout my career.\nI've played with the likes of Eberechi Eze, Hakim Ziyech & Alexandre Lacazette.",
+   "problems": [
+    "wording will date: The claim to hold an all-time Premier League record for inducing red cards is stated in the present tense without a specific date anchor.; The claim to hold an all-time Premier League record in the present tense is dated as it could be surpassed."
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was the final signing made by Sir Alex Ferguson before his retirement.\nAlthough I struggled for game time in Manchester, I later became my former club's highest ever goalscorer in the Premier League.\nI've played with the likes of De Gea, Icardi & Nemanja Matić.",
+   "problems": [
+    "claim not stated in the evidence: \"Wilfried Zaha has played with De Gea, Icardi & Nemanja Matić.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I became the last signing made by Sir Alex Ferguson before his retirement.\nFollowing a brief loan spell in Wales, I returned to my boyhood club where I eventually became their highest ever goalscorer in the Premier League.\nI've played with the likes of De Gea, Icardi & Ndombélé.",
+   "problems": [
+    "claim is wrong: \"After the loan spell, Wilfried Zaha returned to his boyhood club.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I made my senior debut for England in 2012, appearing in two non-competitive matches.\nFour years later I switched my allegiance to represent the Ivory Coast at the Africa Cup of Nations.\nI've played with David de Gea, Mauro Icardi & Nemanja Matić.",
+   "problems": [
+    "claim not stated in the evidence: \"Wilfried Zaha appeared in two non-competitive matches during his senior debut period for England in 2012.\"",
+    "claim not stated in the evidence: \"Four years after making his senior debut for England, Wilfried Zaha switched his allegiance to represent the Ivory Coast at the Africa Cup of Nations.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "After making a few appearances for England, I switched my international allegiance to the Ivory Coast in 2016.\nIncredibly, while playing in the Premier League, I induced more red cards for opponents than any other player in the competition's history.\nI've been managed by Roy Hodgson & Ole Gunnar Solskjaer.",
+   "problems": [
+    "wording will date: The claim of holding an all-time Premier League record for inducing red cards is stated in the present tense without a specific date anchor.; The claim about inducing the most red cards is a present-tense record that could be surpassed."
+   ],
+   "style": 2
+  },
+  {
+   "question": "I hold the distinction of being Alex Ferguson's final signing for Manchester United.\nAlthough I struggled for game time in Manchester, I later became the highest ever goalscorer in the Premier League for my former club.\nI've been managed by Roy Hodgson & Ole Gunnar Solskjaer.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Wilfried Zaha struggled for game time at Manchester United.\"",
+    "wording will date: The phrase 'highest ever goalscorer' is a present-tense superlative that could be invalidated if another player surpasses the record in the future.; The phrase 'highest ever goalscorer' is a current record that could be broken."
+   ],
+   "style": 0
+  }
+ ]
+}

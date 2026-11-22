@@ -1,0 +1,110 @@
+{
+ "answer": "Bruno Fernandes",
+ "acceptableAnswers": [
+  "Bruno Fernandes",
+  "Fernandes"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "I was injured during an attack by my own club's supporters at our training ground in 2018.\nDespite this I became the highest scoring Portuguese midfielder in a single season the following year.\nI've been managed by Jorge Jesus, Ole Gunnar Solskjær & Erik ten Hag.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The first sentence is a strong, memorable hook that avoids the usual 'Porto to Man Utd' narrative. However, the second sentence violates the style guide by over-specifying ('highest scoring Portuguese midfielder'), which narrows the field too much and feels like a dry stat rather than a story beat. ",
+  "fix": "Remove the nationality qualifier in the second sentence to keep it intriguing (e.g., 'Despite this I became the league's top scorer for my club the following year'). Ensure the manager list is accurate; if he was not managed by Jesus, replace with a more surprising connection or remove that name."
+ },
+ "claims": [
+  {
+   "text": "Bruno Fernandes was injured during an attack by his own club's supporters at their training ground in 2018.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 15 May 2018, Fernandes and several of his teammates, including coaches, were injured following an attack by around 50 Sporting supporters at the club's training ground",
+    "On 15 May 2018, Fernandes and several of his teammates, including coaches, were injured following an attack by around 50 Sporting supporters at the club's training ground"
+   ]
+  },
+  {
+   "text": "In the year following 2018, Bruno Fernandes became the highest scoring Portuguese midfielder in a single season.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2018–19, he scored a record of 33 goals in all competitions, making him the highest-scoring Portuguese midfielder and the highest-scoring midfielder in Europe in a single season.",
+    "In 2018–19, he scored a record of 33 goals in all competitions, making him the highest-scoring Portuguese midfielder and the highest-scoring midfielder in Europe in a single season."
+   ]
+  },
+  {
+   "text": "Bruno Fernandes has been managed by Jorge Jesus.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Sporting CP] Was managed by Jorge Jesus at Sporting CP in 51 matches (2017 to 2018)",
+    "[Squad data > Sporting CP] Was managed by Jorge Jesus at Sporting CP in 51 matches (2017 to 2018)"
+   ]
+  },
+  {
+   "text": "Bruno Fernandes has been managed by Ole Gunnar Solskjær.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 93 matches (2020 to 2021)",
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 93 matches (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Bruno Fernandes has been managed by Erik ten Hag.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by Erik ten Hag at Manchester United in 114 matches (2022 to 2024)",
+    "[Squad data > Manchester United] Was managed by Erik ten Hag at Manchester United in 114 matches (2022 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Bruno_Fernandes",
+  "revid": 1386385987
+ },
+ "alternatives": [
+  {
+   "question": "In 2026 I broke the Premier League record for most assists in a single season.\nYet I spent the first five years of my professional career playing in Italy.\nI've played with Sancho, Pogba & Rafael Leão.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I was injured during an attack by my own club's supporters at our training ground in 2018.\nDespite the events, I became the highest scoring midfielder in Europe in a single season the following year.\nI've been managed by Jorge Jesus, Ole Gunnar Solskjær & Erik ten Hag.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I was injured during an attack by my own club's supporters at our training ground in 2018.\nDespite this, I became the highest-scoring midfielder in Europe in a single season the following year.\nI've been managed by Jorge Jesus, Ole Gunnar Solskjær & Erik ten Hag.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I initially struggled with homesickness and the language when I first moved to Italy.\nEventually I settled in and was nicknamed the 'Maradona of Novara'.\nI've played with the likes of Raphinha, Eriksen & Cristiano Ronaldo.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I started my career as a centre-back before being converted to an attacking midfielder at the age of 15.\nFollowing several years in Italy, I moved back to my home country and won two consecutive league Player of the Year awards.\nI've played with the likes of Raphinha, Paul Pogba & Christian Eriksen.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I started my career as a centre-back before being converted to an attacking midfielder at the age of 15.\nIn 2026 I broke the record for the most assists in a single Premier League season.\nI've played with the likes of Raphinha, Christian Eriksen & Cristiano Ronaldo.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  }
+ ]
+}

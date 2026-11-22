@@ -1,0 +1,111 @@
+{
+ "answer": "Bruno Guimarães",
+ "acceptableAnswers": [
+  "Bruno Guimarães",
+  "Guimarães"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I was eligible to represent Spain before eventually earning my senior cap for Brazil.\nIn 2025 I became the first captain of my English club in 70 years to lift a domestic trophy.\nI've played with the likes of Rayan Cherki, Alexander Isak & Lucas Paquetá.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is strong because it avoids the obvious 'Newcastle star' hook and instead uses a surprising eligibility fact (Spain vs Brazil) to misdirect. The core achievement (first captain in 70 years to win a domestic trophy) is specific, verifiable, and creates genuine tension for the guesser who",
+  "fix": "The final clue list is slightly weak because Rayan Cherki and Alexander Isak are both current Newcastle teammates, which points heavily at one club rather than spreading across career stages as the style guide prefers. Swapping one of them for a manager (e.g., Eddie Howe) or a former teammate from a"
+ },
+ "claims": [
+  {
+   "text": "Bruno Guimarães was eligible to represent Spain.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Guimarães was eligible to represent Spain before earning his senior cap for Brazil.",
+    "Guimarães was eligible to represent Spain before earning his senior cap for Brazil."
+   ]
+  },
+  {
+   "text": "Bruno Guimarães earned his senior cap for Brazil.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Guimarães was eligible to represent Spain before earning his senior cap for Brazil.",
+    "Guimarães was eligible to represent Spain before earning his senior cap for Brazil."
+   ]
+  },
+  {
+   "text": "In 2025, Bruno Guimarães became the first captain of his English club in 70 years to lift a domestic trophy.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Guimarães became the first Newcastle United captain to lift a domestic trophy in 70 years",
+    "On 16 March 2025, Guimarães became the first Newcastle United captain to lift a domestic trophy in 70 years, or any trophy in 56 years, after leading the team to victory in the Carabao Cup final against Liverpool."
+   ]
+  },
+  {
+   "text": "Bruno Guimarães has played with Rayan Cherki.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Olympique Lyon] Played in 40 matches alongside Rayan Cherki for Olympique Lyon (2020 to 2022)",
+    "[Squad data > Olympique Lyon] Played in 40 matches alongside Rayan Cherki for Olympique Lyon (2020 to 2022)"
+   ]
+  },
+  {
+   "text": "Bruno Guimarães has played with Alexander Isak.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Played in 96 matches alongside Alexander Isak for Newcastle United (2022 to 2025)",
+    "[Squad data > Newcastle United] Played in 96 matches alongside Alexander Isak for Newcastle United (2022 to 2025)"
+   ]
+  },
+  {
+   "text": "Bruno Guimarães has played with Lucas Paquetá.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Olympique Lyon] Played in 48 matches alongside Lucas Paquetá for Olympique Lyon (2020 to 2022)",
+    "[Squad data > Olympique Lyon] Played in 48 matches alongside Lucas Paquetá for Olympique Lyon (2020 to 2022)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Bruno_Guimarães",
+  "revid": 1386597242
+ },
+ "alternatives": [
+  {
+   "question": "In the 2023-24 Premier League season I ran more kilometres than any other player.\nFollowing my time in France, I moved to England where I eventually captained my side to a domestic cup win.\nI've been managed by Rudi Garcia & Eddie Howe.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "At the 2026 World Cup I provided four assists, a feat only three other players in the 21st century had achieved.\nDespite this success, my tournament ended with a penalty miss in the Round of 16.\nI've played under the management of Peter Bosz & Eddie Howe.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "Because of my grandfather, I was eligible to represent Spain before earning a senior cap for Brazil.\nIn 2026 I became the first captain of my former club to lift a domestic trophy in 70 years.\nI've played with the likes of Rayan Cherki, Sandro Tonali & Alisson.",
+   "problems": [
+    "claim is wrong: \"In 2026, Bruno Guimarães became the first captain of his former club to lift a domestic trophy in 70 years.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "At the 2026 World Cup I registered four assists, becoming only the fourth player in the 21st century to do so.\nDespite this success, I unfortunately missed a penalty in the Round of 16 that contributed to our exit.\nI've played with Lucas Paquetá at two different clubs.",
+   "problems": [
+    "every team-mate and manager named meets the player at Olympique Lyon, so together they only say 'Olympique Lyon'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Bruno Guimarães has been a teammate of Lucas Paquetá at two different clubs.\""
+   ],
+   "style": 0
+  }
+ ]
+}

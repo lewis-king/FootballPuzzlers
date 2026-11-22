@@ -1,0 +1,131 @@
+{
+ "answer": "Youri Tielemans",
+ "acceptableAnswers": [
+  "Youri Tielemans",
+  "Tielemans"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "In 2017 I won the Ebony Shoe award for the best player of African origin in Belgium.\nFollowing my time in Ligue 1 and the Midlands, I helped Aston Villa win a European trophy in 2026.\nI've been managed by Leonardo Jardim, Brendan Rodgers & Unai Emery.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and the manager list works well as a narrowing clue, but it reads like a CV rather than a story. It lacks the conversational flow, tension, or 'twist' that defines the best originals (e.g., no contrast between expectation and reality). The opening hook (Ebony Shoe) ",
+  "fix": "Reframe to highlight a contradiction or journey. For example: 'I was named Belgium's best African-origin player in 2017, yet I spent my next two seasons proving myself in Ligue 1 before moving to the Midlands. It wasn't until joining Aston Villa that I finally lifted a European trophy, having been a"
+ },
+ "claims": [
+  {
+   "text": "Youri Tielemans won the Ebony Shoe award for the best player of African origin in Belgium in 2017.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He won the 2017 Ebony Shoe Award for best player of African origin",
+    "He won the 2017 Ebony Shoe Award for best player of African origin"
+   ]
+  },
+  {
+   "text": "Youri Tielemans played in Ligue 1 before playing in the Midlands.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After two years at Monaco in Ligue 1, he joined Leicester City in 2019, initially on loan and then for an estimated fee of £33 million."
+   ]
+  },
+  {
+   "text": "Youri Tielemans helped Aston Villa win a European trophy in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 20 May 2026, he opened the scoring in a 3–0 victory over SC Freiburg in the Europa League final, helping his club win their first title in the competition.",
+    "won the UEFA Europa League in the 2025–26 season."
+   ]
+  },
+  {
+   "text": "Leonardo Jardim managed Youri Tielemans.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AS Monaco] Was managed by Leonardo Jardim at AS Monaco in 43 matches (2017 to 2018)",
+    "[Squad data > AS Monaco] Was managed by Leonardo Jardim at AS Monaco in 43 matches (2017 to 2018)"
+   ]
+  },
+  {
+   "text": "Brendan Rodgers managed Youri Tielemans.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 165 matches (2019 to 2023)",
+    "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 165 matches (2019 to 2023)"
+   ]
+  },
+  {
+   "text": "Unai Emery managed Youri Tielemans.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Was managed by Unai Emery at Aston Villa in 124 matches (2023 to 2026)",
+    "[Squad data > Aston Villa] Was managed by Unai Emery at Aston Villa in 124 matches (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Youri_Tielemans",
+  "revid": 1386386300
+ },
+ "alternatives": [
+  {
+   "question": "In 2017 I won the Ebony Shoe for being the best player of African origin in Belgium.\nYears later, I helped Aston Villa win their first Europa League title before moving to Manchester United in 2026.\nI've been managed by Leonardo Jardim, Brendan Rodgers & Unai Emery.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I became the youngest Belgian player to ever appear in the Champions League when I was just 16.\nYears later, I scored the only goal in an FA Cup final to secure my club's first ever trophy in that competition.\nI've played with Fabinho, Sancho & Rashford.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I became the youngest Belgian player to feature in the UEFA Champions League when I made my debut at just 16 years and 148 days.\nIn 2021, I scored the only goal in an FA Cup final to secure a first-ever trophy for my club.\nI've played with Fabinho, Harry Maguire & Jadon Sancho.",
+   "problems": [
+    "claim not stated in the evidence: \"The FA Cup final win in 2021 secured a first-ever trophy for Youri Tielemans' club.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "After a move to Ligue 1, I was labelled one of the biggest flops of the season by France Football.\nYet I later captained my country and won the Europa League in 2026 after scoring in the final.\nI've been managed by Leonardo Jardim, Brendan Rodgers & Unai Emery.",
+   "problems": [
+    "claim not stated in the evidence: \"France Football labelled Youri Tielemans one of the biggest flops of the season following his move to Ligue 1.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "At the 2026 World Cup I became only the second Belgian in history to score multiple goals in a single knockout match.\nDespite this international success, I was once labelled one of the biggest flops of the season during a spell in France.\nI've played alongside the likes of Marcus Rashford, Marco Asensio & Kevin De Bruyne.",
+   "problems": [
+    "claim is wrong: \"Youri Tielemans was only the second Belgian in history to score multiple goals in a single knockout match.\"",
+    "claim not stated in the evidence: \"Youri Tielemans was labelled one of the biggest flops of the season during a spell in France.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I became the youngest Belgian player to ever appear in the Champions League at just 16 years old.\nAlthough I later struggled for form during a spell in Ligue 1, I eventually found my feet in the Midlands where I scored the only goal in an FA Cup final.\nI've played with Fabinho, Sancho & Lukaku.",
+   "problems": [
+    "claim not stated in the evidence: \"Youri Tielemans struggled for form during a spell in Ligue 1.\"",
+    "claim not stated in the evidence: \"Youri Tielemans found his feet in the Midlands.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  }
+ ]
+}

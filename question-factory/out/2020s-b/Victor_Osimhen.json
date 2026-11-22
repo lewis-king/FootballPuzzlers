@@ -1,0 +1,104 @@
+{
+ "answer": "Victor Osimhen",
+ "acceptableAnswers": [
+  "Victor Osimhen",
+  "Osimhen"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "A summer bout with malaria once left me unable to secure a move during trials with two different Belgian clubs.\nDespite this, I later became the highest scoring African player in Serie A history.\nI've been managed by Galtier, Gattuso & Okan Buruk.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The malaria hook is a dull procedural detail that fails the 'delight or surprise' test, and the second sentence stacks two headline facts (highest scoring African in Serie A + implied star status) which nearly gives away the answer immediately. The manager list is also weak because Galtier and Gatt索",
+  "fix": "Replace the malaria anecdote with a memorable moment (e.g., his famous goal against Juventus or his rapid rise at Lille). Remove the 'highest scoring African' record to avoid stacking headline facts, and focus on the narrative of his move from Lille to Napoli. Keep the manager list but ensure it nar"
+ },
+ "claims": [
+  {
+   "text": "Victor Osimhen was unable to secure a move during trials with two different Belgian clubs due to a bout of malaria in the summer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Osimhen had summer trials with Belgian clubs Zulte Waregem and Club Brugge... However, a summer bout with malaria had affected his physical condition, and neither club decided to take him on loan.",
+    "Osimhen had summer trials with Belgian clubs Zulte Waregem and Club Brugge, who were the reigning champions. However, a summer bout with malaria had affected his physical condition, and neither club decided to take him on loan."
+   ]
+  },
+  {
+   "text": "Victor Osimhen is the highest scoring African player in Serie A history.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "to become the highest scoring African player in Serie A with 47 goals, overtaking Weah's record.",
+    "to become the highest scoring African player in Serie A with 47 goals, overtaking Weah's record."
+   ]
+  },
+  {
+   "text": "Victor Osimhen has been managed by Galtier, Gattuso & Okan Buruk.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Victor_Osimhen",
+  "revid": 1385535397
+ },
+ "alternatives": [
+  {
+   "question": "In 2015 I won the Golden Boot at the FIFA U-17 World Cup.\nYears later I became the first African to finish as a top scorer in Serie A, helping my club win their first league title in 33 years.\nI've been managed by Gattuso, Spalletti & Okan Buruk.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I grew up in a community near one of Lagos' largest landfills, where I sold sachet water to support my family.\nYears later I became the first African to finish as the top scorer in Serie A.\nI've been managed by Gattuso, Galtier & Okan Buruk.",
+   "problems": [
+    "claim is wrong: \"Victor Osimhen has been managed by Laurent Galtier.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I began my professional career in Germany, but I failed to score a single goal in any of my 16 appearances for my first club.\nYears later I became the first African player to finish as the top scorer in Serie A.\nI've played with Gabriel, Morata & Leroy Sané.",
+   "problems": [
+    "claim not stated in the evidence: \"Victor Osimhen made 16 appearances for his first club.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I failed to score a single goal in my first 16 appearances for Wolfsburg.\nFollowing a loan spell in Belgium, I moved to France where I was once clocked as the fastest player in Ligue 1 over 35 km/h.\nI've played with Gabriel, Kvaratskhelia & Mauro Icardi.",
+   "problems": [
+    "claim not stated in the evidence: \"Victor Osimhen was clocked as the fastest player in Ligue 1 over 35 km/h while playing in France.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I started my professional career in Germany, but I failed to score a single goal in 16 appearances for my first club.\nFollowing a loan spell in Belgium, I moved to France where I was once clocked as the fastest player in Ligue 1.\nI've played with the likes of Gabriel, Morata & Leroy Sané.",
+   "problems": [
+    "claim not stated in the evidence: \"Victor Osimhen started his professional career in Germany.\"",
+    "claim not stated in the evidence: \"Victor Osimhen was once clocked as the fastest player in Ligue 1 while playing in France.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I hold the record for the highest transfer fee in Turkish football history.\nBefore moving to Istanbul, I made the top ten of the Ballon d'Or rankings for the first time for a player from my country.\nI've played with the likes of Morata, Leroy Sané & Lookman.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "wording will date: The phrase 'I hold the record' is a present-tense claim that could become false if another player transfers to Turkey for a higher fee.; The claim to hold the transfer fee record could be surpassed by a future signing."
+   ],
+   "style": 0
+  }
+ ]
+}

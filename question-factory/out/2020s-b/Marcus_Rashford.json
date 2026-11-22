@@ -1,0 +1,120 @@
+{
+ "answer": "Marcus Rashford",
+ "acceptableAnswers": [
+  "Marcus Rashford",
+  "Rashford"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "The first time I scored for my national team, I became the youngest Englishman to do so on his debut.\nYears later, I won a league title in Spain after a loan spell at Aston Villa.\nI've been managed by Mourinho, Solskjær & Hansi Flick",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The question is factually incorrect and structurally weak. First, it claims the player won a league title in Spain after a loan at Aston Villa; Marcus Rashford has never played for a Spanish club or won a La Liga title (he was on loan at Barcelona but did not win the league). Second, it lists Hansi-",
+  "fix": "Remove the false claim about winning a league title in Spain. Replace with a true, memorable hook such as his record-breaking debut goal or his role in the 2018 World Cup. Ensure all named managers (Mourinho, Solskjær) are accurate for his career timeline and avoid listing a manager he has not yet ("
+ },
+ "claims": [
+  {
+   "text": "Marcus Rashford became the youngest Englishman to score on his national team debut.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "becoming the youngest Englishman to score on his international début",
+    "On 27 May 2016, the 18-year-old made his debut for England wearing the number nine shirt, starting a warm-up match against Australia at the Stadium of Light and scoring the opening goal of a 2–1 win after three minutes, becoming the youngest Englishman to score on his international début, and the third youngest overall."
+   ]
+  },
+  {
+   "text": "Marcus Rashford won a league title in Spain after a loan spell at Aston Villa.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 10 May 2026, Rashford scored from a free kick in a 2–0 win over rivals Real Madrid in El Clásico, securing his club's 29th La Liga title, and his first league title."
+   ]
+  },
+  {
+   "text": "Marcus Rashford has been managed by José Mourinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 116 matches (2016 to 2018)",
+    "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 116 matches (2016 to 2018)"
+   ]
+  },
+  {
+   "text": "Marcus Rashford has been managed by Ole Gunnar Solskjær.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 128 matches (2018 to 2021)",
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 128 matches (2018 to 2021)"
+   ]
+  },
+  {
+   "text": "Marcus Rashford has been managed by Hansi Flick.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Was managed by Hansi Flick at FC Barcelona in 49 matches (2025 to 2026)",
+    "[Squad data > FC Barcelona] Was managed by Hansi Flick at FC Barcelona in 49 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Marcus_Rashford",
+  "revid": 1385812188
+ },
+ "alternatives": [
+  {
+   "question": "At one point I held the record for scoring the most last-minute winners in Premier League history.\nIn 2026, I helped my club win La Liga after scoring a free kick in El Clásico.\nI've been managed by Mourinho, Solskjær & Hansi Flick.",
+   "problems": [],
+   "style": 1
+  },
+  {
+   "question": "I once held the record for scoring the most last-minute winners in Premier League history.\nIn 2026 I won La Liga after scoring a free kick in El Clásico.\nI've been managed by Mourinho, Solskjær & Hansi Flick.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "At one point I held the record for scoring the most last-minute winners in Premier League history.\nIn 2026, I won La Liga after scoring a free kick in El Clásico.\nI've played with the likes of Ronaldo, Lewandowski & Bellingham",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I started my career as a goalkeeper and idolised Tim Howard.\nYears later I became the youngest Englishman to score on my senior international debut.\nI've played with the likes of Ronaldo, Lewandowski & Asensio.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "I became the youngest Englishman to score on my senior international debut.\nFollowing a long career with my childhood club, I later won a league title in Spain.\nI've played with the likes of Lewandowski, Asensio & Sancho.",
+   "problems": [
+    "claim not stated in the evidence: \"Marcus Rashford had a long career with his childhood club.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "I actually started my football journey as a goalkeeper.\nAlthough I'm now known for my goalscoring, I've also been recognised by the government and an honorary doctorate for my activism.\nI've played with Pogba, Eriksen & Lamine Yamal.",
+   "problems": [
+    "claim not stated in the evidence: \"Marcus Rashford is known for his goalscoring.\"",
+    "claim is wrong: \"The recognition and honorary doctorate were for his activism.\"",
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  }
+ ]
+}

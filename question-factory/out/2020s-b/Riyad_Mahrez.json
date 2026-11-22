@@ -1,0 +1,109 @@
+{
+ "answer": "Riyad Mahrez",
+ "acceptableAnswers": [
+  "Riyad Mahrez",
+  "Mahrez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "article",
+  "contract": ""
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I once had a two-month trial at the Scottish club St Mirren, but I left because of the cold weather.\nYears later I became the first African player to win the PFA Players' Player of the Year award.\nI've played with the likes of Kanté, Harry Maguire & Rodri.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The St Mirren trial is a charming and surprising hook that avoids leading with his most famous facts (PL title or Ballon d'Or). The structure follows the house style well: an obscure start, a major achievement in the middle, and a narrowing clue at the end. However, it loses a point because the PFA ",
+  "fix": "The question is strong but slightly flat in the middle; the PFA award is a standard headline fact rather than a twist or tension. The final clue list (Kanté, Maguire, Rodri) all points to Manchester City, which makes it easier than intended for a keen fan who knows Mahrez's career path."
+ },
+ "claims": [
+  {
+   "text": "Riyad Mahrez had a two-month trial at St Mirren.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He had a two-month trial at Scottish club St Mirren, but left due to the cold weather.",
+    "He had a two-month trial at Scottish club St Mirren, but left due to the cold weather."
+   ]
+  },
+  {
+   "text": "St Mirren is a Scottish club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Scottish club St Mirren",
+    "Scottish club St Mirren"
+   ]
+  },
+  {
+   "text": "Riyad Mahrez left the trial at St Mirren because of the cold weather.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He had a two-month trial at Scottish club St Mirren, but left due to the cold weather.",
+    "He had a two-month trial at Scottish club St Mirren, but left due to the cold weather."
+   ]
+  },
+  {
+   "text": "Riyad Mahrez was the first African player to win the PFA Players' Player of the Year award.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was the first African to earn the accolade.",
+    "He was the first African to earn the accolade."
+   ]
+  },
+  {
+   "text": "Riyad Mahrez played with N'Golo Kanté.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Played in 36 matches alongside N'Golo Kanté for Leicester City (2015 to 2016)",
+    "[Squad data > Leicester City] Played in 36 matches alongside N'Golo Kanté for Leicester City (2015 to 2016)"
+   ]
+  },
+  {
+   "text": "Riyad Mahrez played with Harry Maguire.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leicester City] Played in 38 matches alongside Harry Maguire for Leicester City (2017 to 2018)",
+    "[Squad data > Leicester City] Played in 38 matches alongside Harry Maguire for Leicester City (2017 to 2018)"
+   ]
+  },
+  {
+   "text": "Riyad Mahrez played with Rodri.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 155 matches alongside Rodri for Manchester City (2019 to 2023)",
+    "[Squad data > Manchester City] Played in 155 matches alongside Rodri for Manchester City (2019 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Riyad_Mahrez",
+  "revid": 1385831819
+ },
+ "alternatives": [
+  {
+   "question": "During my early career in France I lived with Mathias Pogba.\nI later became the first African player to complete an English domestic treble.\nI've been managed by Nigel Pearson, Claudio Ranieri & Pep Guardiola.",
+   "problems": [],
+   "style": 4
+  },
+  {
+   "question": "When I was first scouted for a move to England I had never heard of my new club and presumed they were a rugby team.\nI eventually won the Champions League with two different clubs in Asia and Europe.\nI've played alongside the likes of Sterling, Bennacer & Cole Palmer.",
+   "problems": [
+    "claim is wrong: \"Riyad Mahrez was first scouted for a move to England.\"",
+    "claim not stated in the evidence: \"Riyad Mahrez won the Champions League with a club in Asia.\"",
+    "claim is wrong: \"The two clubs Riyad Mahrez won the Champions League with are different from each other.\""
+   ],
+   "style": 5
+  }
+ ]
+}

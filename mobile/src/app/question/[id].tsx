@@ -7,12 +7,13 @@ import Animated, { useAnimatedStyle, useSharedValue, withSequence, withTiming } 
 import { clueAnswer, CLUES, cluesUsed, isCorrect, isNearMiss, MAX_CLUES, MAX_LETTERS, PACKS, questionById, revealedPrefix } from '../../lib/game';
 import { Banner, maybeShowInterstitial } from '../../services/ads';
 import { useProgress } from '../../state/progress';
-import { nextUnanswered, numberInPack, owns, packStats } from '../../state/selectors';
+import { isLocked, nextUnanswered, numberInPack, owns, packStats } from '../../state/selectors';
 import { Button } from '../../ui/Button';
 import { CHECK_MS, CHECK_TICKS, CheckButton, type CheckPhase } from '../../ui/CheckButton';
 import { ClueSheet } from '../../ui/ClueSheet';
 import { ClueBadge, ClueIcon } from '../../ui/ClueIcon';
 import { NavBar } from '../../ui/NavBar';
+import { maybeAskForRating } from '../../services/rate';
 import { NotifySheet } from '../../ui/NotifySheet';
 import { ProgressBar } from '../../ui/Progress';
 import { RevealSheet } from '../../ui/RevealSheet';
@@ -37,6 +38,7 @@ function QuestionBody({ id }: { id: number }) {
   const q = questionById(id);
   const { height } = useWindowDimensions();
   const answered = useProgress((s) => s.answered);
+  const addGuess = useProgress((s) => s.addGuess);
   const purchased = useProgress((s) => s.purchased);
   const clueMask = useProgress((s) => (q ? s.clues[q.id] ?? 0 : 0));
   const letters = useProgress((s) => (q ? s.letters[q.id] ?? 0 : 0));
@@ -65,6 +67,8 @@ function QuestionBody({ id }: { id: number }) {
 
   const pack = q && PACKS.find((p) => p.id === q.pack);
   if (!q || !pack || !owns(pack, purchased)) return <Redirect href="/" />;
+  // A locked question (one after the question in play) sends you to the one in play instead.
+  if (isLocked(q, answered) && stats.next) return <Redirect href={`/question/${stats.next.id}`} />;
 
   const solved = answered.includes(q.id);
   const colour = PACK_COLOUR[q.pack];
@@ -78,6 +82,7 @@ function QuestionBody({ id }: { id: number }) {
     const right = isCorrect(guess, q);
     setWrong(null);
     setPhase('checking');
+    addGuess(q.id);
     CHECK_TICKS.forEach((ms) => later(ms, () => Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {})));
     later(CHECK_MS, () => {
       if (right) {
@@ -112,7 +117,9 @@ function QuestionBody({ id }: { id: number }) {
         <ProgressBar value={stats.total ? stats.solved / stats.total : 0} colour={colour} height={4} />
       </View>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1 }}>
-        <ScrollView keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false} contentContainerStyle={styles.scroll}>
+        {/* Pulled out past the screen padding and padded back in, so the Check button's tada and ring
+            aren't cut off at the scroll view's edges. */}
+        <ScrollView keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false} style={{ marginHorizontal: -16 }} contentContainerStyle={styles.scroll}>
           {/* Question v3 A (Figma 36:637): the card fills the space, the question centred in it, and
               two clue slots at the bottom that fill as clues are picked. */}
           <View style={[styles.card, phase === 'right' && { borderColor: C.yes, backgroundColor: C.yesTint }]}>
@@ -172,7 +179,7 @@ function QuestionBody({ id }: { id: number }) {
             {solved ? (
               <>
                 <Text style={[T.caption, { color: colour, textAlign: 'center' }]}>You&apos;ve solved this one</Text>
-                {next ? <Button label="Next question" onPress={() => router.replace(`/question/${next.id}`)} /> : null}
+                {next ? <Button label="Next question" onPress={() => maybeAskForRating(() => router.replace(`/question/${next.id}`))} /> : null}
                 <Button label="Back to the pack" variant="secondary" onPress={() => router.dismissTo(`/pack/${q.pack}`)} />
               </>
             ) : (
@@ -202,7 +209,7 @@ function QuestionBody({ id }: { id: number }) {
 }
 
 const styles = StyleSheet.create({
-  scroll: { flexGrow: 1, gap: 20, paddingTop: 8, paddingBottom: 12 },
+  scroll: { flexGrow: 1, gap: 20, paddingTop: 8, paddingBottom: 12, paddingHorizontal: 16 },
   card: { flex: 1, minHeight: 200, backgroundColor: C.card, borderRadius: R.lg, borderWidth: 1, borderColor: C.stroke, padding: 22, alignItems: 'center', justifyContent: 'space-between', gap: 16 },
   slots: { flexDirection: 'row', gap: 12 },
   slot: { width: 52, height: 52, borderRadius: 16, borderWidth: 1.5, alignItems: 'center', justifyContent: 'center' },

@@ -1,0 +1,147 @@
+{
+ "answer": "Callum Wilson",
+ "acceptableAnswers": [
+  "Callum Wilson",
+  "Wilson"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "When I made my senior England debut in 2018, I scored the first ever goal for a Bournemouth player at that level.\nIncredibly, I was later named in the squad for the 2022 World Cup despite having been absent from the national team for three years.\nI've played with Guimarães, Tonali & Adama Traoré.",
+ "problems": [
+  "claim is wrong: \"Callum Wilson has played with Rafael Leão (Guimarães).\"",
+  "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question reads naturally and follows the house style well, using a strong hook (first Bournemouth England goal) and a surprising narrative beat (returning to the squad after three years). The closing clue list is excellent: it mixes clubs (Bournemouth, Newcastle, Wolves) and eras, forcing the gu",
+  "fix": "The main weakness is that 'Callum Wilson' is not in the text, but the combination of 'first Bournemouth player to score for England' and '2022 World Cup squad' narrows it down very quickly for a keen fan. To make it trickier, you could obscure the 2018 debut fact slightly or focus more on the weird "
+ },
+ "claims": [
+  {
+   "text": "Callum Wilson made his senior England debut in 2018.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Wilson made his senior debut for England in 2018.",
+    "Wilson made his senior debut for England in 2018."
+   ]
+  },
+  {
+   "text": "Callum Wilson scored the first ever goal for a Bournemouth player at the senior England level.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In doing so, he became the first Bournemouth player to score for England.",
+    "In doing so, he became the first Bournemouth player to score for England."
+   ]
+  },
+  {
+   "text": "Callum Wilson was named in the squad for the 2022 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was also a part of the squad for the 2022 FIFA World Cup.",
+    "He was also a part of the squad for the 2022 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Callum Wilson had been absent from the England national team for three years prior to being named in the 2022 World Cup squad.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After a three-year absence, he was named in England's 26-man squad for the 2022 FIFA World Cup.",
+    "After a three-year absence, he was named in England's 26-man squad for the 2022 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Callum Wilson has played with Rafael Leão (Guimarães).",
+   "final": "CONTRADICTED",
+   "quotes": []
+  },
+  {
+   "text": "Callum Wilson has played with Sandro Tonali.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Played in 29 matches alongside Sandro Tonali for Newcastle United (2023 to 2025)",
+    "[Squad data > Newcastle United] Played in 29 matches alongside Sandro Tonali for Newcastle United (2023 to 2025)"
+   ]
+  },
+  {
+   "text": "Callum Wilson has played with Adama Traoré.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Played in 9 matches alongside Adama Traoré for West Ham United (2026)",
+    "[Squad data > West Ham United] Played in 9 matches alongside Adama Traoré for West Ham United (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Callum_Wilson",
+  "revid": 1386697129
+ },
+ "alternatives": [
+  {
+   "question": "I began my career with loans to Conference Premier clubs Kettering & Tamworth.\nFollowing a prolific season in League One I made the jump to the top flight, where I scored a hat-trick on my first day.\nI've played with the likes of Danjuma, Isak & Bowen.",
+   "problems": [
+    "claim not stated in the evidence: \"Following his prolific season in League One, Callum Wilson made the jump to the top flight.\"",
+    "claim not stated in the evidence: \"Callum Wilson scored a hat-trick on his first day in the top flight.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I began my career at Coventry City, but it was during short loan spells at Kettering & Tamworth that I first gained experience.\nYears later, I became the first player from a certain South Coast club to score for the England senior team.\nI've played with the likes of Isak, Bowen & Axel Disasi.",
+   "problems": [
+    "claim not stated in the evidence: \"Callum Wilson first gained experience during his loan spells at Kettering Town and Tamworth.\"",
+    "claim is wrong: \"Callum Wilson was the first player from a South Coast club to score for the England senior team.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I've had the misfortune of rupturing my ACL in both knees on separate occasions.\nDespite a three-year absence from the national side, I was surprisingly named in England's 2022 World Cup squad.\nI've played under Eddie Howe at two different clubs and alongside Adama Traoré.",
+   "problems": [
+    "claim not stated in the evidence: \"Callum Wilson ruptured his ACL in one knee.\"",
+    "claim not stated in the evidence: \"Callum Wilson played under manager Eddie Howe at one club.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I began my career with my hometown club, but it was only after loans to Kettering and Tamworth that I broke into the first team.\nYears later I became the first player from my then-club to score for the senior England national team.\nI've played with Isak, Danjuma & Adama Traoré.",
+   "problems": [
+    "claim is wrong: \"Callum Wilson broke into the first team after his loans to Kettering and Tamworth.\"",
+    "claim is wrong: \"Callum Wilson has played with Wout Danjuma.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2014 I was named in the PFA Team of the Year for League One after finishing as the division's third-top scorer.\nFollowing this, I achieved promotion to the Premier League and scored a hat-trick on my top-flight debut.\nI've been managed by Eddie Howe & Graham Potter.",
+   "problems": [
+    "claim is wrong: \"Callum Wilson achieved promotion to the Premier League after being named in the PFA Team of the Year for League One in 2014.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "Having ruptured my ACL in my right knee in 2015, I suffered the exact same injury to my left knee just two years later.\nDespite these setbacks I've had a long career in the top flight, spending five seasons at one club before moving to another for £20 million.\nI've been managed by Eddie Howe & Nuno Espírito Santo.",
+   "problems": [
+    "claim not stated in the evidence: \"Callum Wilson suffered the exact same injury to his left knee just two years later than his right knee injury.\"",
+    "claim not stated in the evidence: \"Callum Wilson has had a long career in the top flight despite these setbacks.\"",
+    "claim not stated in the evidence: \"Callum Wilson spent five seasons at one club before moving to another for £20 million.\"",
+    "claim not stated in the evidence: \"Callum Wilson moved from his previous club to a new club for a transfer fee of £20 million.\""
+   ],
+   "style": 3
+  }
+ ]
+}

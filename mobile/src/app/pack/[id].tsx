@@ -1,10 +1,16 @@
 import { Redirect, router, useLocalSearchParams } from 'expo-router';
-import { useEffect } from 'react';
+import * as Haptics from 'expo-haptics';
+import { ReactNode, useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import Animated, {
+  Easing, SharedValue, useAnimatedStyle, useReducedMotion, useSharedValue, withRepeat, withSequence, withTiming,
+} from 'react-native-reanimated';
 
 import { PACKS, PackId, questionsIn, surnameOf } from '../../lib/game';
 import { useProgress } from '../../state/progress';
+import { maybeAskForRating } from '../../services/rate';
 import { owns, packStats } from '../../state/selectors';
+import { Icon } from '../../ui/Icon';
 import { NavBar } from '../../ui/NavBar';
 import { ProgressBar } from '../../ui/Progress';
 import { Screen } from '../../ui/Screen';
@@ -16,6 +22,7 @@ export default function PackScreen() {
   const answered = useProgress((s) => s.answered);
   const purchased = useProgress((s) => s.purchased);
   const setLastPack = useProgress((s) => s.setLastPack);
+  const nudge = useSharedValue(0); // a tap on a locked tile makes the one in play throb harder
 
   useEffect(() => {
     if (pack) setLastPack(pack.id);
@@ -34,7 +41,9 @@ export default function PackScreen() {
       {/* A plain ScrollView, not a FlatList: on Android a FlatList with a header and `gap` drew the
           header over the first row of tiles (seen on a Pixel 10, Nov 2026). 90 tiles don't need
           virtualising. */}
-      <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 32 }}>
+      {/* Pulled out past the screen padding and padded back in, so the throbbing tile in the first or
+          last column isn't clipped at the scroll view's edge. */}
+      <ScrollView showsVerticalScrollIndicator={false} style={{ marginHorizontal: -12 }} contentContainerStyle={{ paddingBottom: 32, paddingHorizontal: 12 }}>
         <View style={styles.summary}>
             <View style={{ flexDirection: 'row', alignItems: 'baseline', justifyContent: 'space-between' }}>
               <Text style={T.body}>
@@ -55,17 +64,29 @@ export default function PackScreen() {
                 if (!item) return <View key={c} style={styles.gap} />;
               const solved = done.has(item.id);
               const isNext = index === stats.nextIndex;
-              return (
+              // Played in order, as in 2019: tiles after the one in play stay dim and locked.
+              const locked = !solved && stats.nextIndex >= 0 && index > stats.nextIndex;
+              const tile = (
                 <Pressable
                   key={item.id}
-                  onPress={() => router.push(`/question/${item.id}`)}
+                  onPress={() => {
+                    if (locked) {
+                      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Warning).catch(() => {});
+                      nudge.set(withSequence(withTiming(1, { duration: 120 }), withTiming(0, { duration: 380 })));
+                      return;
+                    }
+                    const open = () => router.push(`/question/${item.id}`);
+                    if (isNext) maybeAskForRating(open); else open();
+                  }}
                   accessibilityRole="button"
-                  accessibilityLabel={`Question ${index + 1}${solved ? `, solved: ${surnameOf(item)}` : ''}`}
+                  accessibilityState={{ disabled: locked }}
+                  accessibilityLabel={`Question ${index + 1}${solved ? `, solved: ${surnameOf(item)}` : locked ? ', locked' : isNext ? ', up next' : ''}`}
                   style={({ pressed }) => [
                     styles.tile,
                     solved && { backgroundColor: tint(colour), borderColor: colour + '80' },
                     isNext && { borderColor: colour, borderWidth: 2, backgroundColor: C.raised },
-                    { transform: [{ scale: pressed ? 0.94 : 1 }] },
+                    locked && styles.locked,
+                    !isNext && { transform: [{ scale: pressed && !locked ? 0.94 : 1 }] },
                   ]}
                 >
                   {solved ? (
@@ -73,9 +94,15 @@ export default function PackScreen() {
                       <Text style={[styles.small, { color: colour }]}>{index + 1}</Text>
                       <Text style={styles.name} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.75}>{surnameOf(item)}</Text>
                     </>
-                  ) : <Text style={styles.num}>{index + 1}</Text>}
+                  ) : locked ? (
+                    <>
+                      <Text style={[styles.num, { color: C.textMuted, fontSize: 15 }]}>{index + 1}</Text>
+                      <Icon name="lock" size={11} color={C.textMuted} />
+                    </>
+                  ) : <Text style={[styles.num, isNext && { color: colour }]}>{index + 1}</Text>}
                 </Pressable>
               );
+              return isNext ? <Throb key={item.id} colour={colour} nudge={nudge}>{tile}</Throb> : tile;
               })}
             </View>
           ))}
@@ -85,11 +112,33 @@ export default function PackScreen() {
   );
 }
 
+/** The question in play breathes gently, pointing the player at it, as the 2019 grid did. */
+function Throb({ colour, nudge, children }: { colour: string; nudge: SharedValue<number>; children: ReactNode }) {
+  const reduced = useReducedMotion();
+  const t = useSharedValue(0);
+  useEffect(() => {
+    if (!reduced) t.set(withRepeat(withTiming(1, { duration: 900, easing: Easing.inOut(Easing.sin) }), -1, true));
+  }, [reduced, t]);
+  const ring = useAnimatedStyle(() => ({
+    opacity: 0.15 + t.value * 0.45 + nudge.value * 0.4,
+    transform: [{ scale: 1 + t.value * 0.08 + nudge.value * 0.12 }],
+  }));
+  const body = useAnimatedStyle(() => ({ transform: [{ scale: 1 + t.value * 0.045 + nudge.value * 0.08 }] }));
+  return (
+    <View style={{ flex: 1, aspectRatio: 1 }}>
+      <Animated.View pointerEvents="none" style={[styles.ring, { borderColor: colour, backgroundColor: colour + '22' }, ring]} />
+      <Animated.View style={[{ flex: 1 }, body]}>{children}</Animated.View>
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   summary: { backgroundColor: C.card, borderRadius: R.lg, borderWidth: 1, borderColor: C.stroke, padding: 18, marginTop: 8, marginBottom: 16 },
   grid: { gap: 10 },
   row: { flexDirection: 'row', gap: 10 },
   gap: { flex: 1 },
+  locked: { opacity: 0.6 },
+  ring: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderRadius: 14, borderWidth: 2 },
   tile: { flex: 1, aspectRatio: 1, borderRadius: 14, backgroundColor: C.card, borderWidth: 1, borderColor: C.stroke, alignItems: 'center', justifyContent: 'center' },
   num: { fontFamily: F.bold, fontSize: 17, color: C.text },
   small: { fontFamily: F.medium, fontSize: 10 },

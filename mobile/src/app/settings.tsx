@@ -51,6 +51,8 @@ export default function Settings() {
     if (!ok) setAlertNote('Allow notifications for this app in your phone settings');
   };
   const rate = async () => {
+    // rating from here counts as both asks, so the in-game prompt never follows it up
+    useProgress.setState({ rateAsks: 2, rateLastAt: Date.now() });
     if (await StoreReview.hasAction()) StoreReview.requestReview().catch(() => {});
     else {
       const url = StoreReview.storeUrl();

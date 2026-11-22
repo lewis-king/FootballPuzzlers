@@ -1,0 +1,124 @@
+{
+ "answer": "Phil Foden",
+ "acceptableAnswers": [
+  "Phil Foden",
+  "Foden"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "In 2018 I became the youngest player to ever receive a Premier League winner's medal.\nUnfortunately, my first loss in a senior career final didn't come until 2021 when we were beaten by Chelsea in the Champions League.\nI've played with Bernardo Silva & Julian Alvarez.",
+ "problems": [
+  "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+ ],
+ "style": {
+  "score": 0,
+  "why": "lint"
+ },
+ "claims": [
+  {
+   "text": "Phil Foden became the youngest player to ever receive a Premier League winner's medal in 2018.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Foden has since made over 300 appearances for the club, winning 19 honours, including a continental treble in the 2022–23 season and becoming the youngest recipient of a Premier League winner's medal.",
+    "becoming the youngest recipient of a Premier League winner's medal in 2018"
+   ]
+  },
+  {
+   "text": "Phil Foden's first loss in a senior career final occurred in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "City would lose the match 1–0 against Chelsea – Foden's first loss in a final during his senior career.",
+    "City would lose the match 1–0 against Chelsea – Foden's first loss in a final during his senior career."
+   ]
+  },
+  {
+   "text": "In the 2021 Champions League final, Phil Foden's team was beaten by Chelsea.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "City would lose the match 1–0 against Chelsea – Foden's first loss in a final during his senior career.",
+    "City would lose the match 1–0 against Chelsea – Foden's first loss in a final during his senior career."
+   ]
+  },
+  {
+   "text": "Phil Foden has played with Bernardo Silva.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 295 matches alongside Bernardo Silva for Manchester City (2017 to 2026)",
+    "[Squad data > Manchester City] Played in 295 matches alongside Bernardo Silva for Manchester City (2017 to 2026)"
+   ]
+  },
+  {
+   "text": "Phil Foden has played with Julian Alvarez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Played in 85 matches alongside Julián Alvarez for Manchester City (2022 to 2024)",
+    "[Squad data > Manchester City] Played in 85 matches alongside Julián Alvarez for Manchester City (2022 to 2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Phil_Foden",
+  "revid": 1385437221
+ },
+ "alternatives": [
+  {
+   "question": "I won the Golden Ball after my country's successful Under-17 World Cup campaign in 2017.\nIn 2018 I became the youngest player to receive a Premier League winner's medal.\nI've played with the likes of Harry Kane, Cole Palmer & Raheem Sterling.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once held the record for being the youngest Englishman to start a Champions League match.\nBy 2024 I had won both the PFA Players' Player of the Year and Premier League Player of the Season awards.\nI've played with Julian Alvarez, Leroy Sané & Bukayo Saka.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2017 I won the Golden Ball award after helping my country win the U-17 World Cup.\nBy 2024, I'd gone on to be named both the PFA Players' Player of the Year and the Premier League Player of the Season.\nI've played alongside the likes of Sterling, Palmer & Rodri.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Phil Foden won the Golden Ball award in 2017.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2023 I became the first English player to score in a Club World Cup final since Wayne Rooney in 2008.\nFollowing this, I'd go on to win my sixth league title by May 2024.\nI've been managed by Guardiola & played with Sane & Grealish.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Phil Foden won his sixth league title by May 2024.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I won the Golden Ball at a FIFA U-17 World Cup before making my senior professional debut.\nIn 2018 I became the youngest player to receive a Premier League winner's medal.\nI've played with the likes of Harry Kane, Cole Palmer & Leroy Sané.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Phil Foden made his senior professional debut after winning the Golden Ball at a FIFA U-17 World Cup.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I once held the record for being the youngest Englishman to start a Champions League match.\nFollowing my first loss in a senior career final in 2021, I went on to win a continental treble two years later.\nI've played with Julian Alvarez, Rodri & Bukayo Saka.",
+   "problems": [
+    "every team-mate and manager named meets the player at Manchester City, so together they only say 'Manchester City'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Phil Foden won a continental treble two years after his first loss in a senior career final in 2021.\""
+   ],
+   "style": 0
+  }
+ ]
+}

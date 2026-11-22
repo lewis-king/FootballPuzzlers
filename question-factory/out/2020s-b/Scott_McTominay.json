@@ -1,0 +1,134 @@
+{
+ "answer": "Scott McTominay",
+ "acceptableAnswers": [
+  "Scott McTominay",
+  "McTominay"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "In September 2020 I was used as a centre-back for my national team, though it was noted that I struggled to adapt to the role.\nYears later I won a league title in Italy and received a nomination for the Ballon d'Or.\nI've been managed by Mourinho, Conte & Solskjær.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 3,
+  "why": "The draft is factually correct but reads like a list of disconnected facts rather than a story. It violates the style guide's rule against 'three disconnected facts in a row' and lacks the conversational flow ('connected sentences') seen in the originals. The opening hook (playing centre-back) is a ",
+  "fix": "Rewrite to connect the sentences with narrative links (e.g., 'Although I was used as a centre-back... it wasn't until my move to Italy that...'). Ensure the Ballon d'Or nomination is framed carefully, as it is a minor detail compared to the league title; consider focusing on the contrast between his"
+ },
+ "claims": [
+  {
+   "text": "Scott McTominay was used as a centre-back for his national team in September 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "For the international games played in September 2020, McTominay was used as a centre-back in a three-man defence by head coach Steve Clarke.",
+    "For the international games played in September 2020, McTominay was used as a centre-back in a three-man defence by head coach Steve Clarke."
+   ]
+  },
+  {
+   "text": "It was noted that Scott McTominay struggled to adapt to the role of centre-back when he played it for his national team in September 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "For the international games played in September 2020, McTominay was used as a centre-back in a three-man defence by head coach Steve Clarke. The Times commented that McTominay had the physique needed for the position, but had struggled to adapt to the role.",
+    "The Times commented that McTominay had the physique needed for the position, but had struggled to adapt to the role."
+   ]
+  },
+  {
+   "text": "Scott McTominay won a league title in Italy years after September 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2024, McTominay signed for Napoli in a £25.7 million transfer; he emerged as a focal player to the club winning the Serie A title in his debut season",
+    "winning the Serie A title in his debut season"
+   ]
+  },
+  {
+   "text": "Scott McTominay received a nomination for the Ballon d'Or years after September 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2024, McTominay signed for Napoli in a £25.7 million transfer; he emerged as a focal player to the club winning the Serie A title in his debut season, being named the league's Most Valuable Player and receiving a nomination for the Ballon d'Or.",
+    "In 2024, McTominay signed for Napoli in a £25.7 million transfer; he emerged as a focal player to the club winning the Serie A title in his debut season, being named the league's Most Valuable Player and receiving a nomination for the Ballon d'Or."
+   ]
+  },
+  {
+   "text": "Scott McTominay has been managed by Mourinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 28 matches (2017 to 2018)",
+    "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 28 matches (2017 to 2018)"
+   ]
+  },
+  {
+   "text": "Scott McTominay has been managed by Conte.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SSC Napoli] Was managed by Antonio Conte at SSC Napoli in 80 matches (2024 to 2026)",
+    "Was managed by Antonio Conte at SSC Napoli in 80 matches (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Scott McTominay has been managed by Solskjær.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 112 matches (2019 to 2021)",
+    "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 112 matches (2019 to 2021)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Scott_McTominay",
+  "revid": 1386099042
+ },
+ "alternatives": [
+  {
+   "question": "I once scored two goals within the opening three minutes of a Premier League match, a feat that had never happened before in the history of the competition.\nFollowing my time in England, I moved abroad where I became a fan favourite and won the league MVP award.\nI've been managed by Mourinho, Conte & Solskjær.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I once played as a centre-back for my national team, and one of my goals was later commemorated on a £20 bank note.\nIn 2024 I joined Napoli in a £25.7 million transfer, eventually receiving a nomination for the Ballon d'Or.\nI've been managed by Mourinho, Solskjær & Conte.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In September 2020 I was used as a centre-back for my national team, although it was noted that I struggled to adapt to the role.\nIt wasn't until my move to Italy in 2024 that I truly flourished, winning a league title and receiving a nomination for the Ballon d'Or in my debut season.\nI've played with the likes of De Bruyne, Højlund & Casemiro.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I missed most of one season as a teenager due to growth and development issues, growing 14 inches in just two years.\nFollowing my time at Manchester United, I moved to Italy where I won the league title and was named the division's MVP in my debut season.\nI've played with the likes of De Bruyne, Lukaku & Højlund.",
+   "problems": [
+    "every team-mate and manager named meets the player at SSC Napoli, so together they only say 'SSC Napoli'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first player in Premier League history to score twice in the opening three minutes of a match.\nDespite this, I only scored my first competitive goal for my club in my 41st appearance.\nI've played alongside the likes of Ronaldo, Casemiro & Kvaratskhelia.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I missed most of the 2014–15 season due to growth issues, growing 14 inches in just two years.\nFollowing my move to Italy in 2024, I won the league and was named its Most Valuable Player.\nI've played with the likes of De Bruyne, Lukaku & Højlund.",
+   "problems": [
+    "every team-mate and manager named meets the player at SSC Napoli, so together they only say 'SSC Napoli'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

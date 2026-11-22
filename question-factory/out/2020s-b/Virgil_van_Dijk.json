@@ -1,0 +1,152 @@
+{
+ "answer": "Virgil van Dijk",
+ "acceptableAnswers": [
+  "Virgil van Dijk",
+  "Dijk"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "Shortly after my 20th birthday I was admitted to hospital with kidney poisoning and peritonitis, a situation so serious the staff asked me to sign a will.\nIt took several months to recover, but I eventually moved to Scotland where I won two league titles.\nI've since played with the likes of Pukki, Wirtz & Frenkie de Jong.",
+ "problems": [
+  "claim is wrong: \"After recovering, Virgil van Dijk moved to Scotland.\"",
+  "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 5,
+  "difficulty": 2,
+  "why": "This reads exactly like one of Lewis's originals: a dramatic, personal hook (kidney poisoning/signing a will) that creates immediate tension and intrigue, followed by a clear narrative arc (recovery -> Scotland -> current era). The final clue list is excellent; Pukki (Celtic), Wirtz (Liverpool), and",
+  "fix": "None needed. It perfectly balances the 'tricky' requirement with a memorable story that fans would actually tell about him, avoiding the trap of just listing his Ballon d'Or or Premier League titles."
+ },
+ "claims": [
+  {
+   "text": "Virgil van Dijk was admitted to hospital shortly after his 20th birthday.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "soon after his 20th birthday he was admitted to hospital",
+    "soon after his 20th birthday he was admitted to hospital"
+   ]
+  },
+  {
+   "text": "Virgil van Dijk suffered from kidney poisoning and peritonitis during this admission.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He suffered a personal setback during the campaign, however, as soon after his 20th birthday he was admitted to hospital with advanced appendicitis, peritonitis, and kidney poisoning.",
+    "he was admitted to hospital with advanced appendicitis, peritonitis, and kidney poisoning."
+   ]
+  },
+  {
+   "text": "Hospital staff asked Virgil van Dijk to sign a will due to the seriousness of his condition.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "the hospital had even gone so far as to ask him to sign a \"sort of will\" in the event of his death.",
+    "the hospital had even gone so far as to ask him to sign a \"sort of will\" in the event of his death."
+   ]
+  },
+  {
+   "text": "Virgil van Dijk took several months to recover from this illness.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "It took Van Dijk a few months to fully recover."
+   ]
+  },
+  {
+   "text": "After recovering, Virgil van Dijk moved to Scotland.",
+   "final": "CONTRADICTED",
+   "quotes": []
+  },
+  {
+   "text": "Virgil van Dijk won two league titles while in Scotland.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Honours > Celtic] Scottish Premiership: 2013–14, 2014–15",
+    "[Honours > Celtic] Scottish Premiership: 2013–14, 2014–15"
+   ]
+  },
+  {
+   "text": "Teemu Pukki was a teammate of Virgil van Dijk at some point in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Celtic FC] Played in 35 matches alongside Teemu Pukki for Celtic FC (2013 to 2014)",
+    "[Squad data > Celtic FC] Played in 35 matches alongside Teemu Pukki for Celtic FC (2013 to 2014)"
+   ]
+  },
+  {
+   "text": "Florian Wirtz was a teammate of Virgil van Dijk at some point in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Liverpool FC] Played in 49 matches alongside Florian Wirtz for Liverpool FC (2025 to 2026)",
+    "[Squad data > Liverpool FC] Played in 49 matches alongside Florian Wirtz for Liverpool FC (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Frenkie de Jong was a teammate of Virgil van Dijk at some point in his career.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Netherlands] Played in 3 matches alongside Frenkie de Jong for Netherlands (2026)",
+    "[Squad data > Netherlands] Played in 3 matches alongside Frenkie de Jong for Netherlands (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
+  "revid": 1386752226
+ },
+ "alternatives": [
+  {
+   "question": "I was once a right-back, but I was moved into the centre of defence at 17 after growing by around 18 centimetres.\nDespite this, my reserve manager believed I had too many limitations to break into the first team.\nI've since won the UEFA Men's Player of the Year Award & played with the likes of Pukki, Wirtz & Frenkie de Jong.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "Shortly after my 20th birthday, I was admitted to hospital with advanced appendicitis and kidney poisoning.\nIt was a lifesaving operation that left me unable to walk for ten days.\nI've since won the UEFA Men's Player of the Year Award & played alongside Frenkie de Jong.",
+   "problems": [
+    "claim not stated in the evidence: \"Virgil van Dijk was admitted to hospital with advanced appendicitis and kidney poisoning shortly after his 20th birthday.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I spent my early years as a right-back, but was shifted to the centre of defence at 17 after growing by 18 centimetres.\nDespite this, I was told I had too many limitations and was released on a free transfer.\nI've since been managed by Ronald Koeman & played with Mohamed Salah.",
+   "problems": [
+    "claim is wrong: \"Virgil van Dijk was released on a free transfer.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I've won the Scottish Premiership twice, though I was once sent off after just 13 minutes in a match against Aberdeen.\nFollowing my time in Scotland, I joined a Premier League side for £13 million.\nI've had the honour of captaining both my club and country.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  },
+  {
+   "question": "Shortly after my 20th birthday I was admitted to hospital with advanced appendicitis and kidney poisoning.\nIt was a lifesaving operation that left me unable to walk for ten days, and the hospital even asked me to sign a will.\nI've since been managed by Ronald Koeman & played alongside Salah & Memphis Depay.",
+   "problems": [
+    "claim not stated in the evidence: \"Virgil van Dijk was admitted to hospital with advanced appendicitis and kidney poisoning shortly after his 20th birthday.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "In 2013 I personally contacted the director of Ajax to try and arrange a move, but they decided not to accept my advances.\nInstead I moved to Scotland, where I was named in the PFA Team of the Year for two consecutive seasons.\nI've been managed by Ronald Koeman & Arne Slot.",
+   "problems": [
+    "claim is wrong: \"In 2013, Virgil van Dijk personally contacted the director of Ajax to try and arrange a move.\"",
+    "claim is wrong: \"Virgil van Dijk moved to Scotland after the failed move to Ajax.\""
+   ],
+   "style": 2
+  }
+ ]
+}

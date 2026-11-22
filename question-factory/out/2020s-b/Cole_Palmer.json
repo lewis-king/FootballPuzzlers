@@ -1,0 +1,117 @@
+{
+ "answer": "Cole Palmer",
+ "acceptableAnswers": [
+  "Cole Palmer",
+  "Palmer"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2033 (Transfermarkt)"
+ },
+ "target": 3,
+ "status": "NEEDS_WORK",
+ "question": "I once held the outright Premier League record for the most penalties scored without a single miss.\nIn 2025 I won the Golden Ball at the FIFA Club World Cup after scoring twice in the final.\nI've been managed by Pep Guardiola & Xabi Alonso.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 2,
+  "why": "The question is factually correct but reads like a list of stats rather than a story. It violates the style guide's rule against leading with or stacking headline facts: 'most penalties without a miss' and 'Golden Ball at CWC' are two distinct major achievements that narrow the field too quickly for",
+  "fix": "Rewrite to focus on one intriguing angle (e.g., the penalty record) and use the managers as the narrowing clue. Remove the Golden Ball mention or integrate it less prominently. Ensure the first sentence doesn't immediately identify him to a casual fan by using a more specific, less obvious stat or a"
+ },
+ "claims": [
+  {
+   "text": "Cole Palmer once held the outright Premier League record for the most penalties scored without a single miss.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "With twelve penalties scored out of twelve penalties taken, Palmer's goals in this match earned him the outright Premier League record for the most penalties scored without a single miss, surpassing Yaya Touré's previous record of eleven.",
+    "With twelve penalties scored out of twelve penalties taken, Palmer's goals in this match earned him the outright Premier League record for the most penalties scored without a single miss, surpassing Yaya Touré's previous record of eleven."
+   ]
+  },
+  {
+   "text": "In 2025, Cole Palmer won the Golden Ball at the FIFA Club World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2025, Palmer helped Chelsea win both the UEFA Conference League and the FIFA Club World Cup, being named man of the match in both finals and receiving the Golden Ball in the latter.",
+    "In 2025, Palmer helped Chelsea win both the UEFA Conference League and the FIFA Club World Cup, being named man of the match in both finals and receiving the Golden Ball in the latter."
+   ]
+  },
+  {
+   "text": "Cole Palmer scored twice in the final of the 2025 FIFA Club World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Later that year, on 13 July, he scored twice and provided an assist in a 3–0 win over Paris Saint-Germain in the 2025 FIFA Club World Cup final, where he was named player of the match.",
+    "on 13 July, he scored twice and provided an assist in a 3–0 win over Paris Saint-Germain in the 2025 FIFA Club World Cup final"
+   ]
+  },
+  {
+   "text": "Pep Guardiola has managed Cole Palmer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 35 matches (2020 to 2023)",
+    "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 35 matches (2020 to 2023)"
+   ]
+  },
+  {
+   "text": "Xabi Alonso has managed Cole Palmer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Under new manager Xabi Alonso, Palmer scored in each of Chelsea's first two Premier League matches of the 2026–27 season",
+    "Under new manager Xabi Alonso, Palmer scored in each of Chelsea's first two Premier League matches of the 2026–27 season"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Cole_Palmer",
+  "revid": 1385092147
+ },
+ "alternatives": [
+  {
+   "question": "Academy coaches wanted to release me at 16 because they felt my physique was too slight for professional football.\nYears later I scored the equaliser in a European Championship final.\nI've been managed by Pep Guardiola & Xabi Alonso.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I became the first player in Premier League history to score four goals in a single half.\nIncredibly, I've also won the Golden Ball at a FIFA Club World Cup.\nI've played with the likes of Haaland, Laporte & João Félix.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "At sixteen, my academy coaches wanted to release me because they felt my physique was too slight for professional football.\nFortunately the director rejected their decision and I went on to win a continental treble in 2023.\nI've played with the likes of Haaland, Sancho & Caicedo.",
+   "problems": [
+    "too easy for its place in the pack: judged 1 of 5, wanted about 3. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "In December 2024 I earned the outright Premier League record for the most penalties scored without a single miss.\nYet by March 2025 I had failed to score in 11 league matches.\nI've been managed by Pep Guardiola & Enzo Maresca.",
+   "problems": [
+    "claim is wrong: \"By March 2025, Cole Palmer had failed to score in 11 league matches.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once held the outright Premier League record for the most penalties scored without a single miss.\nAlthough I've won a continental treble, it was only after moving clubs that I became a regular starter.\nI've played with the likes of De Bruyne, Sancho & Caicedo.",
+   "problems": [
+    "claim not stated in the evidence: \"Cole Palmer became a regular starter only after moving clubs.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I've scored the most goals in a single half of a Premier League match, a feat I later repeated by scoring three goals in the first half of a game on three separate occasions.\nFollowing my time at Manchester City, I moved to London and won the PFA Young Player of the Year award.\nI've played with the likes of Aymeric Laporte, Jadon Sancho & Moisés Caicedo.",
+   "problems": [
+    "too long (67 words; Lewis's originals are 20 to 40)",
+    "claim not stated in the evidence: \"Cole Palmer scored the most goals in a single half of a Premier League match.\""
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "answer": "Che Adams",
+ "acceptableAnswers": [
+  "Che Adams",
+  "Adams"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "At UEFA Euro 2020 I became the first non-white player to play for Scotland at the finals of a major tournament.\nAlthough born in England, I committed my allegiance to the Scots in 2021.\nI've been managed by Hasenhüttl & played alongside Højbjerg and Simeone",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct but reads like a list of disconnected facts rather than a story. It violates the style guide's rule against 'three disconnected facts in a row' and lacks the conversational flow ('I've', 'my club') seen in the originals. The hook (first non-white player for Scotland",
+  "fix": "Rewrite to connect the sentences and add a twist or tension. For example: 'Although born in England, I committed my allegiance to Scotland in 2021. At Euro 2020, I became the first non-white player to represent them at a major tournament finals. I've since played alongside Højbjerg & Simeone under a"
+ },
+ "claims": [
+  {
+   "text": "Che Adams was the first non-white player to play for Scotland at the finals of a major tournament.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At UEFA Euro 2020 he became the first non-white player to play for Scotland at the finals of a major tournament.",
+    "At UEFA Euro 2020 he became the first non-white player to play for Scotland at the finals of a major tournament."
+   ]
+  },
+  {
+   "text": "Che Adams played for Scotland at UEFA Euro 2020.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At UEFA Euro 2020 he became the first non-white player to play for Scotland at the finals of a major tournament.",
+    "At UEFA Euro 2020 he became the first non-white player to play for Scotland at the finals of a major tournament."
+   ]
+  },
+  {
+   "text": "Che Adams was born in England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Adams was eligible to represent England, his country of birth",
+    "Adams was eligible to represent England, his country of birth"
+   ]
+  },
+  {
+   "text": "Che Adams committed his allegiance to the Scots in 2021.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In March 2021, Adams committed his allegiance to Scotland",
+    "In March 2021, Adams committed his allegiance to Scotland"
+   ]
+  },
+  {
+   "text": "Che Adams has been managed by Hasenhüttl.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Southampton FC] Was managed by Ralph Hasenhüttl at Southampton FC in 118 matches (2019 to 2022)",
+    "[Squad data > Southampton FC] Was managed by Ralph Hasenhüttl at Southampton FC in 118 matches (2019 to 2022)"
+   ]
+  },
+  {
+   "text": "Che Adams played alongside Højbjerg.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Southampton FC] Played in 27 matches alongside Pierre-Emile Højbjerg for Southampton FC (2019 to 2020)",
+    "Played in 27 matches alongside Pierre-Emile Højbjerg for Southampton FC (2019 to 2020)"
+   ]
+  },
+  {
+   "text": "Che Adams played alongside Simeone.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Played in 31 matches alongside Giovanni Simeone for Torino FC (2025 to 2026)",
+    "Played in 31 matches alongside Giovanni Simeone for Torino FC (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ché_Adams",
+  "revid": 1386385878
+ },
+ "alternatives": [
+  {
+   "question": "I was named after an Argentine revolutionary and began my senior career in non-league football.\nFollowing a move to the Football League, I once scored twice in just over two minutes during a League Cup semi-final.\nI've played with the likes of Zapata, Elmas & Robertson",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I was released from the Coventry City academy as a fourteen-year-old.\nYears later I moved to Italy for a three-year contract, where I earned a place in the Serie A Team of the Season.\nI've been managed by Hasenhüttl & played with Zapata and Elmas.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "At UEFA Euro 2020 I became the first non-white player to represent Scotland at the finals of a major tournament.\nIncredibly, I was born in England and only made my senior debut for the Scots in 2021.\nI've been managed by Hasenhüttl & played with Elmas.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was released from my youth academy at fourteen, which led me to play for clubs like Oadby Town and Ilkeston.\nYears later I moved to Italy and scored the winner against Atalanta in only my second league game.\nI've played with the likes of Walcott, Lavia & McTominay",
+   "problems": [
+    "claim not stated in the evidence: \"After being released, Che Adams played for Oadby Town.\"",
+    "claim not stated in the evidence: \"After being released, Che Adams played for Ilkeston.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I started my senior career in non-league football with Oadby Town and Ilkeston.\nAlthough born in England, I later committed my allegiance to Scotland in 2021.\nI've played alongside the likes of Højbjerg, Zapata & Simeone.",
+   "problems": [
+    "claim is wrong: \"Che Adams started his senior career in non-league football with Ilkeston.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I started my senior career in non-league football with Oadby Town & Ilkeston.\nAlthough born in England, I later committed my allegiance to Scotland, becoming the first non-white player to represent them at a major tournament finals.\nI've played alongside the likes of Højbjerg, Robertson & Simeone.",
+   "problems": [
+    "claim is wrong: \"Che Adams started his senior career in non-league football with Ilkeston.\""
+   ],
+   "style": 2
+  }
+ ]
+}

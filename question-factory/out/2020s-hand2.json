@@ -1,0 +1,614 @@
+[
+ {
+  "answer": "Scott McTominay",
+  "acceptableAnswers": [
+   "Scott McTominay",
+   "McTominay"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 4,
+  "status": "NEEDS_WORK",
+  "question": "I've played at centre-back for my national team, and one of my goals was later commemorated on a £20 bank note.\nI've also won a league title in Italy and been named the league's MVP.\nI've been managed by Mourinho, Solskjær & Conte.",
+  "problems": [],
+  "style": {
+   "score": 3,
+   "difficulty": 4,
+   "why": "The facts are correct but presented as a flat list of achievements rather than a story. It leads with the most famous fact (the bank note goal), which gives away the answer to any casual fan immediately, violating the rule against leading with headline facts. Additionally, it explicitly states his '",
+   "fix": "position' (centre-back) and lists three managers who all point to one club (Man Utd), failing to provide a tricky puzzle or misdirection."
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Scott McTominay has played at centre-back for his national team.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "For the international games played in September 2020, McTominay was used as a centre-back in a three-man defence by head coach Steve Clarke.",
+     "For the international games played in September 2020, McTominay was used as a centre-back in a three-man defence by head coach Steve Clarke."
+    ]
+   },
+   {
+    "text": "One of Scott McTominay's goals was later commemorated on a £20 bank note.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "That overhead kick has now been commemorated on a Scottish £20 bank note",
+     "That overhead kick has now been commemorated on a Scottish £20 bank note"
+    ]
+   },
+   {
+    "text": "Scott McTominay has won a league title in Italy.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Honours > Napoli] Serie A: 2024–25",
+     "In 2024, McTominay signed for Napoli in a £25.7 million transfer; he emerged as a focal player to the club winning the Serie A title in his debut season, being named the league's Most Valuable Player and receiving a nomination for the Ballon d'Or."
+    ]
+   },
+   {
+    "text": "Scott McTominay was named the MVP of the Italian league.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "being named the league's Most Valuable Player",
+     "being named the league's Most Valuable Player"
+    ]
+   },
+   {
+    "text": "Scott McTominay has been managed by Mourinho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 28 matches (2017 to 2018)",
+     "[Squad data > Manchester United] Was managed by José Mourinho at Manchester United in 28 matches (2017 to 2018)"
+    ]
+   },
+   {
+    "text": "Scott McTominay has been managed by Solskjær.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 112 matches (2019 to 2021)",
+     "[Squad data > Manchester United] Was managed by Ole Gunnar Solskjær at Manchester United in 112 matches (2019 to 2021)"
+    ]
+   },
+   {
+    "text": "Scott McTominay has been managed by Conte.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > SSC Napoli] Was managed by Antonio Conte at SSC Napoli in 80 matches (2024 to 2026)",
+     "Was managed by Antonio Conte at SSC Napoli in 80 matches (2024 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Scott_McTominay",
+   "revid": 1386099042
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Dele Alli",
+  "acceptableAnswers": [
+   "Dele Alli",
+   "Alli"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": 4,
+  "status": "NEEDS_WORK",
+  "question": "As a teenager I played the full 90 minutes of a historic 4-0 League Cup win over Manchester United.\nI was later voted PFA Young Player of the Year two years running.\nI've played with Weghorst, Iwobi & Bale.",
+  "problems": [
+   "claim not stated in the evidence: \"Dele Alli was a teenager when he played the full 90 minutes of that League Cup match against Manchester United.\"",
+   "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 3,
+   "difficulty": 2,
+   "why": "The facts are correct and the teammate list is a good narrowing clue, but the question reads like a flat list of three disconnected achievements rather than a story with tension or a twist. It leads with a very famous moment (the 4-0 win over United) which makes it too easy for casual fans, failing’",
+   "fix": "Reframe to create a misdirection or focus on the less obvious aspect of his career. For example: 'I was part of a historic 4-0 win over Manchester United as a teenager, yet I was often criticized for my consistency in the Premier League. Despite this, I won the PFA Young Player of the Year award two"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Dele Alli played the full 90 minutes in a League Cup match against Manchester United that ended in a 4-0 win.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 26 August, Dele played the full 90 minutes in the League Cup second round as MK Dons recorded a historic 4–0 win over Manchester United.",
+     "On 26 August, Dele played the full 90 minutes in the League Cup second round as MK Dons recorded a historic 4–0 win over Manchester United."
+    ]
+   },
+   {
+    "text": "Dele Alli was a teenager when he played the full 90 minutes of that League Cup match against Manchester United.",
+    "final": "NOT_FOUND",
+    "quotes": []
+   },
+   {
+    "text": "The League Cup win over Manchester United in which Dele Alli played the full 90 minutes is described as historic.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 26 August, Dele played the full 90 minutes in the League Cup second round as MK Dons recorded a historic 4–0 win over Manchester United.",
+     "On 26 August, Dele played the full 90 minutes in the League Cup second round as MK Dons recorded a historic 4–0 win over Manchester United."
+    ]
+   },
+   {
+    "text": "Dele Alli was voted PFA Young Player of the Year for two consecutive years.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "won PFA Young Player of the Year two years running.",
+     "won PFA Young Player of the Year two years running."
+    ]
+   },
+   {
+    "text": "Dele Alli has played with Weghorst.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Beşiktaş Jimnastik Kulübü] Played in 7 matches alongside Wout Weghorst for Beşiktaş Jimnastik Kulübü (2022)",
+     "[Squad data > Beşiktaş Jimnastik Kulübü] Played in 7 matches alongside Wout Weghorst for Beşiktaş Jimnastik Kulübü (2022)"
+    ]
+   },
+   {
+    "text": "Dele Alli has played with Iwobi.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Everton FC] Played in 10 matches alongside Alex Iwobi for Everton FC (2022)",
+     "[Squad data > Everton FC] Played in 10 matches alongside Alex Iwobi for Everton FC (2022)"
+    ]
+   },
+   {
+    "text": "Dele Alli has played with Bale.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Tottenham Hotspur] Played in 19 matches alongside Gareth Bale for Tottenham Hotspur (2020 to 2021)",
+     "Played in 19 matches alongside Gareth Bale for Tottenham Hotspur (2020 to 2021)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Dele_Alli",
+   "revid": 1385385622
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Kelechi Iheanacho",
+  "acceptableAnswers": [
+   "Kelechi Iheanacho",
+   "Iheanacho"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "no mention of retiring in the article"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I won the Golden Ball as the best player of a FIFA U-17 World Cup.\nAfter moving to England, I became the first player in English football to be awarded a goal by VAR.\nI've been managed by Pep Guardiola & Brendan Rodgers.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 2,
+   "difficulty": 3,
+   "why": "The hook is a dull procedural detail (VAR award) that fails the 'delight or surprise' test, and the question reads like a list of disconnected facts rather than a story. It also violates the rule against leading with a headline fact that narrows the field too quickly for a casual fan.",
+   "fix": "Reframe the VAR moment as a surprising anecdote (e.g., 'I was involved in one of the first goals ever awarded by VAR in England') and connect it to his career trajectory. Replace the generic 'managed by' clue with specific teammates from different clubs to create a puzzle, e.g., 'I've shared a pitch"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Kelechi Iheanacho won the Golden Ball as the best player of a FIFA U-17 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Iheanacho played a significant role in the 2013 FIFA U-17 World Cup, where he won the Golden Ball award for player of the tournament.",
+     "Iheanacho played a significant role in the 2013 FIFA U-17 World Cup, where he won the Golden Ball award for player of the tournament."
+    ]
+   },
+   {
+    "text": "After moving to England, Kelechi Iheanacho became the first player in English football to be awarded a goal by VAR.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Iheanacho became the first player in English football to be awarded a goal due to video assistant referee",
+     "On 16 January 2018, Iheanacho became the first player in English football to be awarded a goal due to video assistant referee"
+    ]
+   },
+   {
+    "text": "Kelechi Iheanacho has been managed by Pep Guardiola.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 27 matches (2016 to 2017)",
+     "[Squad data > Manchester City] Was managed by Pep Guardiola at Manchester City in 27 matches (2016 to 2017)"
+    ]
+   },
+   {
+    "text": "Kelechi Iheanacho has been managed by Brendan Rodgers.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 123 matches (2019 to 2023)",
+     "[Squad data > Leicester City] Was managed by Brendan Rodgers at Leicester City in 123 matches (2019 to 2023)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Kelechi_Iheanacho",
+   "revid": 1386705430
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Jean-Philippe Mateta",
+  "acceptableAnswers": [
+   "Jean-Philippe Mateta",
+   "Mateta"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "In early 2025 I was hospitalised after a head injury in the FA Cup that required 25 stitches and left me wearing a mask.\nDespite this, I made my senior international debut later that year and played in the 2026 World Cup.\nI've played with Awoniyi, Olise & Zaha.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The hook is excellent: a specific, memorable incident (the mask) that fans actually remember, followed by a strong contrast (debuting and playing in the WC despite it). The teammate list works well to narrow the field without pointing at one club. It reads naturally and fits the style guide's voice.",
+   "fix": "The only weakness is the first sentence: 'In early 2025 I was hospitalised...' is a bit procedural/dry for an opening hook. Consider starting with the visual or the consequence to make it punchier, e.g., 'I played in the 2026 World Cup wearing a mask after a head injury that required 25 stitches.' ("
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Jean-Philippe Mateta was hospitalised in early 2025 after a head injury sustained during an FA Cup match.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 1 March 2025, Mateta was hospitalised after being kicked in the side of the head by Millwall goalkeeper Liam Roberts, as he challenged for the ball outside the box in the FA Cup",
+     "On 1 March 2025, Mateta was hospitalised after being kicked in the side of the head by Millwall goalkeeper Liam Roberts, as he challenged for the ball outside the box in the FA Cup, an incident for which Roberts received a red card."
+    ]
+   },
+   {
+    "text": "The head injury Jean-Philippe Mateta sustained in the FA Cup required 25 stitches.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "The injury sustained during the game, resulted with him requiring 25 stitches for a laceration behind his ear and a concussion observation.",
+     "The injury sustained during the game, resulted with him requiring 25 stitches for a laceration behind his ear and a concussion observation."
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta wore a mask following his hospitalisation for the FA Cup head injury.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Mateta said that while he would be able to begin training, he would need to wear a mask to protect his ear"
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta made his senior international debut in 2025.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He made his senior debut in 2025",
+     "He made his senior debut in 2025"
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta played in the 2026 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 26 June, Mateta made his World Cup debut, coming on as a substitute in the 87th minute during France's 4-1 victory over Norway in their final match of the group stage.",
+     "On 26 June, Mateta made his World Cup debut, coming on as a substitute in the 87th minute during France's 4-1 victory over Norway in their final match of the group stage."
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta has been a team-mate of Awoniyi.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > 1.FSV Mainz 05] Played in 5 matches alongside Taiwo Awoniyi for 1.FSV Mainz 05 (2020)",
+     "[Squad data > 1.FSV Mainz 05] Played in 5 matches alongside Taiwo Awoniyi for 1.FSV Mainz 05 (2020)"
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta has been a team-mate of Olise.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Played in 68 matches alongside Michael Olise for Crystal Palace (2021 to 2024)",
+     "[Squad data > France] Played in 1 match alongside Michael Olise for France (2026)"
+    ]
+   },
+   {
+    "text": "Jean-Philippe Mateta has been a team-mate of Zaha.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Played in 44 matches alongside Wilfried Zaha for Crystal Palace (2021 to 2023)",
+     "[Squad data > Crystal Palace] Played in 44 matches alongside Wilfried Zaha for Crystal Palace (2021 to 2023)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Jean-Philippe_Mateta",
+   "revid": 1386346414
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Ezri Konsa",
+  "acceptableAnswers": [
+   "Ezri Konsa",
+   "Konsa"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": false,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2028 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "I was in the squad that won the 2017 Under-20 World Cup, though I played just a single minute of the tournament.\nIn 2026 I won the Europa League.\nI've played with Coutinho, Sancho & Nico O'Reilly.",
+  "problems": [
+   "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+  ],
+  "style": {
+   "score": 4,
+   "difficulty": 3,
+   "why": "The question follows the house style well: first-person, connected sentences, a twist (playing one minute in a World Cup win), and a narrowing clue list at the end. The facts are accurate and memorable enough for a keen fan. It loses a point because the final clue list is slightly weak; 'Nico O'Rell",
+   "fix": "Nico O'Reilly' is not a name that adds much intrigue or helps narrow the field as effectively as a more famous teammate would, making the puzzle rely heavily on the 2017 U-20 WC fact alone. However, it avoids giving away the position or nationality explicitly and doesn't lead with his most famous PL"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Ezri Konsa was in the squad that won the 2017 Under-20 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup",
+     "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup"
+    ]
+   },
+   {
+    "text": "Ezri Konsa played just a single minute of the 2017 Under-20 World Cup tournament.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "his only appearance of the tournament coming as a 93rd-minute substitute",
+     "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup with his only appearance of the tournament coming as a 93rd-minute substitute during the 3–1 semi-final victory over Italy."
+    ]
+   },
+   {
+    "text": "In 2026, Ezri Konsa won the Europa League.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "On 20 May 2026, Konsa started in the 2026 UEFA Europa League final, which Aston Villa won 3–0.",
+     "On 20 May 2026, Konsa started in the 2026 UEFA Europa League final, which Aston Villa won 3–0."
+    ]
+   },
+   {
+    "text": "Ezri Konsa has played with Coutinho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Aston Villa] Played in 33 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)",
+     "[Squad data > Aston Villa] Played in 33 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)"
+    ]
+   },
+   {
+    "text": "Ezri Konsa has played with Sancho.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)",
+     "[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)"
+    ]
+   },
+   {
+    "text": "Ezri Konsa has played with Nico O'Reilly.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > England] Played in 3 matches alongside Nico O'Reilly for England (2026)",
+     "[Squad data > England] Played in 3 matches alongside Nico O'Reilly for England (2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Ezri_Konsa",
+   "revid": 1386025172
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Tyrick Mitchell",
+  "acceptableAnswers": [
+   "Tyrick Mitchell",
+   "Mitchell"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": true,
+   "MID": true,
+   "FWD": false,
+   "ENG": true,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 5,
+  "status": "NEEDS_WORK",
+  "question": "Following the closure of Brentford's academy in 2016, I joined a different London club, where I've since won the FA Cup.\nIn 2022 I made my senior England debut after two of the country's most prominent defenders had to withdraw.\nI've been managed by Roy Hodgson, Patrick Vieira & Oliver Glasner.",
+  "problems": [
+   "every team-mate and manager named meets the player at Crystal Palace, so together they only say 'Crystal Palace'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+   "claim is wrong: \"Tyrick Mitchell joined a different London club following the closure of Brentford's academy in 2016.\"",
+   "claim not stated in the evidence: \"Two of the country's most prominent defenders had to withdraw before Tyrick Mitchell made his senior England debut in 2022.\""
+  ],
+  "style": {
+   "score": 0,
+   "why": "lint"
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Tyrick Mitchell joined a different London club following the closure of Brentford's academy in 2016.",
+    "final": "CONTRADICTED",
+    "quotes": []
+   },
+   {
+    "text": "Tyrick Mitchell has won the FA Cup with the London club he joined after leaving Brentford's academy.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "In July 2016, Mitchell joined Premier League club Crystal Palace.",
+     "A Crystal Palace academy graduate, Mitchell made his first-team debut in 2020, and has since made over 180 appearances for the club, as well as winning the FA Cup in 2025."
+    ]
+   },
+   {
+    "text": "Tyrick Mitchell made his senior England debut in 2022.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "He made his senior debut under manager Gareth Southgate in a 2–1 win over Switzerland on 26 March 2022, as a 61st-minute like-for-like substitute for Luke Shaw.",
+     "He made his debut for the England national team in 2022."
+    ]
+   },
+   {
+    "text": "Two of the country's most prominent defenders had to withdraw before Tyrick Mitchell made his senior England debut in 2022.",
+    "final": "NOT_FOUND",
+    "quotes": [
+     "He received his first senior England call up on 21 March 2022, following withdrawals by Trent Alexander-Arnold and Reece James."
+    ]
+   },
+   {
+    "text": "Tyrick Mitchell has been managed by Roy Hodgson.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Was managed by Roy Hodgson at Crystal Palace in 61 matches (2020 to 2024)",
+     "[Squad data > Crystal Palace] Was managed by Roy Hodgson at Crystal Palace in 61 matches (2020 to 2024)"
+    ]
+   },
+   {
+    "text": "Tyrick Mitchell has been managed by Patrick Vieira.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 65 matches (2021 to 2023)",
+     "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 65 matches (2021 to 2023)"
+    ]
+   },
+   {
+    "text": "Tyrick Mitchell has been managed by Oliver Glasner.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 97 matches (2024 to 2026)",
+     "[Squad data > Crystal Palace] Was managed by Oliver Glasner at Crystal Palace in 97 matches (2024 to 2026)"
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Tyrick_Mitchell",
+   "revid": 1385451416
+  },
+  "alternatives": []
+ },
+ {
+  "answer": "Karim Benzema",
+  "acceptableAnswers": [
+   "Karim Benzema",
+   "Benzema"
+  ],
+  "clues": {
+   "GK": false,
+   "DEF": false,
+   "MID": false,
+   "FWD": true,
+   "ENG": false,
+   "RET": false
+  },
+  "retiredEvidence": {
+   "retired": false,
+   "quote": "",
+   "how": "contract runs to June 2027 (Transfermarkt)"
+  },
+  "target": 3,
+  "status": "NEEDS_WORK",
+  "question": "Despite my success at club level, I was controversially left out of my country's squad for the 2010 World Cup.\nYears later I set a record as the oldest player to score a hat-trick in the Champions League era.\nFollowing my time in Spain, I led my new club to a Saudi Pro League title as captain.",
+  "problems": [],
+  "style": {
+   "score": 2,
+   "difficulty": 3,
+   "why": "The draft is factually correct but reads like a list of three disconnected Wikipedia facts rather than a story. It violates the style guide's rule against stacking headline facts (the 2010 WC snub and the CL hat-trick record are both major news items that narrow the field too quickly). Furthermore, ",
+   "fix": "Rewrite to focus on one intriguing angle or a specific moment. For example: 'I was controversially left out of my country's squad for the 2010 World Cup despite being in peak form. Years later, I became the oldest player to score a hat-trick in the Champions League era. I've played with Benzema... ("
+  },
+  "writtenByHand": true,
+  "claims": [
+   {
+    "text": "Karim Benzema was left out of France's squad for the 2010 World Cup.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Benzema was controversially left out of the squad for the 2010 FIFA World Cup",
+     "Benzema was controversially left out of the squad for the 2010 FIFA World Cup;"
+    ]
+   },
+   {
+    "text": "Karim Benzema set a record as the oldest player to score a hat-trick in the Champions League era.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "At the age of 34, Benzema became the oldest player to score a hat-trick in the Champions League era.",
+     "At the age of 34, Benzema became the oldest player to score a hat-trick in the Champions League era."
+    ]
+   },
+   {
+    "text": "Karim Benzema played for a club in Spain before joining his new club.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "Benzema finished as Champions League top scorer as he won his fifth title in 2022, and subsequently captained the club in his final season before signing for Al-Ittihad the following year."
+    ]
+   },
+   {
+    "text": "Karim Benzema led his new club to a Saudi Pro League title as captain.",
+    "final": "SUPPORTED",
+    "quotes": [
+     "As captain, he led Al-Ittihad to the 2024–25 Saudi Pro League title.",
+     "As captain, he led Al-Ittihad to the 2024–25 Saudi Pro League title."
+    ]
+   }
+  ],
+  "source": {
+   "url": "https://en.wikipedia.org/wiki/Karim_Benzema",
+   "revid": 1384804670
+  },
+  "alternatives": []
+ }
+]

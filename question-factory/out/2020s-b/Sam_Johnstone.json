@@ -1,0 +1,133 @@
+{
+ "answer": "Sam Johnstone",
+ "acceptableAnswers": [
+  "Sam Johnstone",
+  "Johnstone"
+ ],
+ "clues": {
+  "GK": true,
+  "DEF": false,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I spent the early part of my career on loan at seven different clubs, including a spell with my hometown team.\nWith that club I kept a clean sheet in a 4-0 win at Wembley to secure promotion to the Championship.\nI've since played with the likes of Conor Gallagher, Marc Guéhi & Matheus Cunha.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 5,
+  "why": "The question is factually correct and follows the structure well, but it fails the 'tricky and thought-provoking' test for a few reasons. First, the hook (loaning to seven clubs) is a bit dry; while true, it's not as memorable or charming as the best examples in the style guide (like Mitoma's thesis",
+  "fix": "Make the opening hook more engaging or surprising. Instead of just listing the number of loans, focus on the specific achievement at Wembley first, then reveal the context of his journeyman status. For example: 'I kept a clean sheet in a 4-0 win at Wembley to secure promotion for my hometown club, a"
+ },
+ "claims": [
+  {
+   "text": "Sam Johnstone spent the early part of his career on loan at seven different clubs.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Johnstone spent time on loan with Oldham Athletic, Scunthorpe United, Walsall, Yeovil Town, Doncaster Rovers, Preston North End and Aston Villa",
+    "Johnstone spent time on loan with Oldham Athletic, Scunthorpe United, Walsall, Yeovil Town, Doncaster Rovers, Preston North End and Aston Villa"
+   ]
+  },
+  {
+   "text": "One of the clubs Sam Johnstone was on loan to during the early part of his career was his hometown team.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 12 January 2015, Johnstone joined his hometown club, Preston North End of League One, on loan until the end of the 2014–15 season.",
+    "On 12 January 2015, Johnstone joined his hometown club, Preston North End of League One, on loan until the end of the 2014–15 season."
+   ]
+  },
+  {
+   "text": "Sam Johnstone kept a clean sheet in a 4-0 win at Wembley while playing for his hometown club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 25 May, Johnstone kept a clean sheet in the 2015 League One play-off final as Preston won promotion to the Championship with a 4–0 win over Swindon Town at Wembley Stadium.",
+    "On 25 May, Johnstone kept a clean sheet in the 2015 League One play-off final as Preston won promotion to the Championship with a 4–0 win over Swindon Town at Wembley Stadium."
+   ]
+  },
+  {
+   "text": "The 4-0 win at Wembley secured promotion to the Championship for Sam Johnstone's hometown club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 25 May, Johnstone kept a clean sheet in the 2015 League One play-off final as Preston won promotion to the Championship with a 4–0 win over Swindon Town at Wembley Stadium.",
+    "On 25 May, Johnstone kept a clean sheet in the 2015 League One play-off final as Preston won promotion to the Championship with a 4–0 win over Swindon Town at Wembley Stadium."
+   ]
+  },
+  {
+   "text": "Sam Johnstone has played with Conor Gallagher.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Bromwich Albion] Played in 30 matches alongside Conor Gallagher for West Bromwich Albion (2020 to 2021)",
+    "[Squad data > West Bromwich Albion] Played in 30 matches alongside Conor Gallagher for West Bromwich Albion (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Sam Johnstone has played with Marc Guéhi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Played in 27 matches alongside Marc Guéhi for Crystal Palace (2023 to 2024)",
+    "[Squad data > Crystal Palace] Played in 27 matches alongside Marc Guéhi for Crystal Palace (2023 to 2024)"
+   ]
+  },
+  {
+   "text": "Sam Johnstone has played with Matheus Cunha.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 9 matches alongside Matheus Cunha for Wolverhampton Wanderers (2024 to 2025)",
+    "[Squad data > Wolverhampton Wanderers] Played in 9 matches alongside Matheus Cunha for Wolverhampton Wanderers (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Sam_Johnstone",
+  "revid": 1386838517
+ },
+ "alternatives": [
+  {
+   "question": "My first Premier League appearance for Crystal Palace was a 5-1 win over Leeds.\nCoincidentally, the last time Palace had scored five goals in a game was against my former club.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I made my Premier League debut for Crystal Palace in a 5-1 win over Leeds.\nIncredibly, the last time that club had scored five goals in a game was against me and my former team.\nI've been managed by Sam Allardyce, Roy Hodgson & Vítor Pereira.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I was named on the bench for Manchester United's opening game of the season in 2015, having briefly filled in as second-choice during their US tour.\nDespite this early promise, I spent much of my career moving between clubs on loan before earning a senior England cap.\nI've been managed by Sam Allardyce & Roy Hodgson.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I was part of a victorious England under-17 squad at the 2010 European Championship.\nSince making my senior debut, I have kept a clean sheet in every single one of my four caps.",
+   "problems": [
+    "wording will date: The claim that the player has kept a clean sheet in 'every single one' of their caps is a cumulative record that would become false if they conceded in any future appearance.; The claim about his clean sheet record could become false if he plays another match and concedes."
+   ],
+   "style": 3
+  },
+  {
+   "question": "I kept a clean sheet in a 4-0 win at Wembley to secure promotion for my hometown club.\nFollowing this, I spent several years as a backup before finally becoming a regular in the Premier League.\nI've played with the likes of Conor Gallagher, Marc Guéhi & Pablo Sarabia.",
+   "problems": [
+    "claim is wrong: \"Following the clean sheet in the 4-0 win at Wembley, Sam Johnstone spent several years as a backup.\"",
+    "claim is wrong: \"After spending several years as a backup, Sam Johnstone became a regular in the Premier League.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I spent the early part of my career on loan at clubs including Walsall, Yeovil & Doncaster.\nIn more recent years I've played alongside the likes of Conor Gallagher, Michael Olise & Pablo Sarabia.",
+   "problems": [
+    "claim not stated in the evidence: \"Sam Johnstone spent the early part of his career on loan at Walsall.\"",
+    "claim not stated in the evidence: \"Sam Johnstone spent the early part of his career on loan at Yeovil Town.\"",
+    "claim not stated in the evidence: \"Sam Johnstone spent the early part of his career on loan at Doncaster Rovers.\""
+   ],
+   "style": 2
+  }
+ ]
+}

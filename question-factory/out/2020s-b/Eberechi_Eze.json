@@ -1,0 +1,99 @@
+{
+ "answer": "Eberechi Eze",
+ "acceptableAnswers": [
+  "Eberechi Eze"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I was released by my boyhood club at thirteen and later spent a loan spell in League Two with Wycombe Wanderers.\nIn 2025 I scored the only goal in an FA Cup final to win my club's first ever major trophy.\nI've been managed by Steve McClaren & Patrick Vieira.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question reads naturally and follows the house style well: it tells a story (released young -> loan in League Two -> FA Cup final hero) rather than listing stats. The hook is strong because being released at 13 is a memorable narrative beat for Eze, and the Wycombe detail adds specific intrigue.",
+  "fix": "The main weakness is that the second sentence ('In 2025 I scored the only goal in an FA Cup final...') effectively gives away the answer to anyone who followed football in 2025, as Crystal Palace's first major trophy was a huge headline event. This makes it less of a puzzle and more of a recall test"
+ },
+ "claims": [
+  {
+   "text": "Eberechi Eze was released by his boyhood club at the age of thirteen.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Eze started his football career aged 6 at a little team called All Stars based in and around Plumstead, then Bruin then Arsenal before being released when he was thirteen",
+    "Eze started his football career aged 6 at a little team called All Stars based in and around Plumstead, then Bruin then Arsenal before being released when he was thirteen"
+   ]
+  },
+  {
+   "text": "Eberechi Eze spent a loan spell in League Two with Wycombe Wanderers.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 30 August 2017, Eze joined League Two club Wycombe Wanderers on loan until January 2018.",
+    "On 30 August 2017, Eze joined League Two club Wycombe Wanderers on loan until January 2018."
+   ]
+  },
+  {
+   "text": "In 2025, Eberechi Eze scored the only goal in an FA Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "scored the only goal in the 2025 FA Cup final",
+    "scored the only goal in the 2025 FA Cup final to win the club's first ever major trophy."
+   ]
+  },
+  {
+   "text": "Eberechi Eze won his club's first ever major trophy by scoring the only goal in the 2025 FA Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was subsequently signed by Premier League club Crystal Palace, where he went on to make over 150 appearances, and scored the only goal in the 2025 FA Cup final to win the club's first ever major.",
+    "scored the only goal in the 2025 FA Cup final to win the club's first ever major trophy."
+   ]
+  },
+  {
+   "text": "Steve McClaren has managed Eberechi Eze.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Ahead of the 2018–19 season, Holloway left Queens Park Rangers as the previous season was concluded and his replacement, Steve McClaren handed Eze the number 10 shirt for the club.",
+    "Ahead of the 2018–19 season, Holloway left Queens Park Rangers as the previous season was concluded and his replacement, Steve McClaren handed Eze the number 10 shirt for the club."
+   ]
+  },
+  {
+   "text": "Patrick Vieira has managed Eberechi Eze.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 45 matches (2021 to 2023)",
+    "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 45 matches (2021 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Eberechi_Eze",
+  "revid": 1384305865
+ },
+ "alternatives": [
+  {
+   "question": "In 2025 I won an online amateur chess tournament called PogChamps 6, earning a prize of $20,000.\nFollowing this success, I moved to my boyhood club for £67.5 million and won the Premier League in my first season.\nI've played with the likes of Olise, Zubimendi & Saka.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 1
+  },
+  {
+   "question": "I'm the first player in the Premier League era to score a hat-trick in a North London derby.\nBefore achieving this, I helped my previous club win their first ever major trophy in 2025.\nI've been managed by Roy Hodgson & Mikel Arteta.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

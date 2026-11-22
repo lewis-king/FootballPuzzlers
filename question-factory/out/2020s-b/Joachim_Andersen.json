@@ -1,0 +1,129 @@
+{
+ "answer": "Joachim Andersen",
+ "acceptableAnswers": [
+  "Joachim Andersen",
+  "Andersen"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2029 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I once finished a Premier League season as the player with the most clearances in the division.\nAlthough I've had two separate spells at the same London club, I only scored my first international goal in October 2025.\nI've been managed by Patrick Vieira & Marco Silva and played alongside Duván Zapata.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct but reads like a list of stats rather than a story. Leading with 'most clearances' is a dull hook that doesn't intrigue or misdirect, and the sentence structure lacks the conversational flow and tension found in the originals (e.g., no 'twist' or narrative payoff).",
+  "fix": "Reframe the opening to highlight a more memorable aspect of his career (perhaps his physicality or a specific match moment) rather than a dry stat. Connect the sentences better: instead of listing spells and goals, explain how his time at the London club contrasted with his international journey. E."
+ },
+ "claims": [
+  {
+   "text": "Joachim Andersen finished a Premier League season as the player with the most clearances in the division.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He finished the 2023–24 season as the player with most clearances in the Premier League in 229 occasions.",
+    "He finished the 2023–24 season as the player with most clearances in the Premier League in 229 occasions."
+   ]
+  },
+  {
+   "text": "Joachim Andersen has had two separate spells at the same London club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After a loan spell at Fulham, he remained in London to sign permanently with Crystal Palace in 2021, where he made 112 appearances over three years before returning to Fulham, this time on a permanent deal."
+   ]
+  },
+  {
+   "text": "Joachim Andersen scored his first international goal in October 2025.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Andersen scored his first goal for the national team in a 3–1 victory over Greece on 12 October 2025.",
+    "Andersen scored his first goal for the national team in a 3–1 victory over Greece on 12 October 2025."
+   ]
+  },
+  {
+   "text": "Joachim Andersen has been managed by Patrick Vieira.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 61 matches (2021 to 2023)",
+    "[Squad data > Crystal Palace] Was managed by Patrick Vieira at Crystal Palace in 61 matches (2021 to 2023)"
+   ]
+  },
+  {
+   "text": "Joachim Andersen has been managed by Marco Silva.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 68 matches (2024 to 2026)",
+    "[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 68 matches (2024 to 2026)"
+   ]
+  },
+  {
+   "text": "Joachim Andersen played alongside Duván Zapata.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > UC Sampdoria] Played in 4 matches alongside Duván Zapata for UC Sampdoria (2018)",
+    "[Squad data > UC Sampdoria] Played in 4 matches alongside Duván Zapata for UC Sampdoria (2018)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Joachim_Andersen_(footballer)",
+  "revid": 1386399514
+ },
+ "alternatives": [
+  {
+   "question": "I was once headbutted on a Liverpool home debut, an incident which saw the Uruguayan striker sent off.\nAlthough I've played for several clubs in Europe, I only scored my first international goal in October 2025.\nI've played with the likes of Depay, Zapata & Lookman.",
+   "problems": [
+    "claim is wrong: \"Joachim Andersen was headbutted during his debut match for Liverpool at their home stadium.\"",
+    "claim is wrong: \"Joachim Andersen has played with Memphis Depay, Yerry Zapata, and Ademola Lookman.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once held the record for the highest transfer fee ever paid for a Danish player.\nFollowing my time in France, I spent three years at Crystal Palace where I finished the 2023-24 season with more clearances than anyone else in the Premier League.\nI've played with Ziyech, Bruno Guimarães & Willian.",
+   "problems": [
+    "claim not stated in the evidence: \"Joachim Andersen spent time in France before joining Crystal Palace.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once held the record for the highest transfer fee ever paid for a Danish player.\nIn 2023-24 I finished as the player with the most clearances in the Premier League.\nI've played with the likes of Ziyech, Torreira & Willian.",
+   "problems": [
+    "claim is wrong: \"Joachim Andersen has played with Thomas Partey (Torreira).\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I spent my early senior career in the Netherlands, where I once trained with the likes of Hakim Ziyech & Dušan Tadić.\nIn 2019 I became the record transfer for a French club and the most expensive Danish player in history.\nI've played with Lucas Torreira, Bruno Guimarães & Willian.",
+   "problems": [
+    "claim not stated in the evidence: \"In 2019, Joachim Andersen became the record transfer for a French club.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In the 2018-19 Serie A season, only one midfielder in the entire league recorded more accurate long-passes than me.\nI later moved to France for a club record fee before returning to London on two separate permanent deals.\nI've been managed by Patrick Vieira & Marco Silva.",
+   "problems": [
+    "claim not stated in the evidence: \"Joachim Andersen returned to London on two separate permanent deals.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "Before making my first team debut in the Netherlands, I accepted a one-week trial after being scouted from Denmark.\nYears later I was headbutted on an opponent's home debut, which saw the striker sent off.\nI've been managed by Patrick Vieira & Marco Silva.",
+   "problems": [
+    "claim is wrong: \"Years after his first team debut in the Netherlands, Joachim Andersen headbutted an opponent on that opponent's home debut.\""
+   ],
+   "style": 2
+  }
+ ]
+}

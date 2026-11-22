@@ -1,0 +1,74 @@
+{
+ "answer": "Jorginho",
+ "acceptableAnswers": [
+  "Jorginho"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I spent my first full senior season on loan at Sambonifacese.\nYears later, I became the only Italian player to be named UEFA Men's Player of the Year.\nI've played with the likes of Hazard, Havertz & Gabriel Jesus.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook (loan at Sambonifacese) is a delightful obscure fact that fits the style guide perfectly, and the closing clue list (Hazard, Havertz & Gabriel Jesus) effectively narrows the field to Chelsea without pointing at one obvious squad. However, it loses a point because 'the only Italian player to",
+  "fix": "Replace the static record with a more narrative or time-anchored fact about his 2021/22 season (e.g., winning the Champions League and Europa League in the same year) to avoid relying on a potentially outdated superlative, and ensure the loan detail is framed as a surprising start rather than just a"
+ },
+ "claims": [
+  {
+   "text": "Jorginho spent his first full senior season on loan at Sambonifacese.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "where he played his first full senior season",
+    "In June 2010, Jorginho was loaned out to Lega Pro Seconda Divisione club Sambonifacese, where he played his first full senior season for the Veneto club"
+   ]
+  },
+  {
+   "text": "Jorginho is the only Italian player to be named UEFA Men's Player of the Year.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In 2021, he was named UEFA Men's Player of the Year and is the only Italian player to ever win the award.",
+    "In 2021, he was named UEFA Men's Player of the Year and is the only Italian player to ever win the award."
+   ]
+  },
+  {
+   "text": "Jorginho has played with Eden Hazard, Kai Havertz and Gabriel Jesus.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Chelsea FC] Played in 44 matches alongside Eden Hazard for Chelsea FC (2018 to 2019)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Jorginho_(footballer,_born_December_1991)",
+  "revid": 1386704854
+ },
+ "alternatives": [
+  {
+   "question": "Despite being born in Brazil, I chose to represent Italy at the senior level.\nIn 2021, these performances saw me finish third in the Ballon d'Or voting.\nI've been managed by Benítez, Sarri & Arteta.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once became the first player in Premier League history to score 10 consecutive penalties.\nAlthough I'm well known for my time in London, I actually started my professional career at Hellas Verona.\nI've played alongside Kanté, Rice & Sterling.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  }
+ ]
+}

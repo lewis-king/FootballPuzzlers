@@ -2,6 +2,7 @@ import { ReactNode, useEffect, useMemo, useState } from 'react';
 import { Animated, Modal, PanResponder, Pressable, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { MAX_WIDTH } from './Screen';
 import { C } from './theme';
 
 /**
@@ -34,20 +35,27 @@ export function Sheet({ visible, onClose, children }: { visible: boolean; onClos
 
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose} statusBarTranslucent>
-      <Pressable style={styles.dim} onPress={onClose} accessibilityLabel="Close" />
+      {/* The dim fills the whole screen behind the sheet. When it stopped at the sheet's top edge,
+          the undimmed screen showed through behind the rounded corners as square ones. */}
+      <View style={styles.root}>
+      <Pressable style={StyleSheet.absoluteFill} onPress={onClose} accessibilityLabel="Close" />
       <Animated.View {...pan.panHandlers} style={[styles.sheet, { paddingBottom: insets.bottom + 16, transform: [{ translateY: drag }] }]}>
         <View style={styles.handleHit}>
           <View style={styles.handle} />
         </View>
         {children}
       </Animated.View>
+      </View>
     </Modal>
   );
 }
 
 const styles = StyleSheet.create({
-  dim: { flex: 1, backgroundColor: '#070e1abf' },
+  root: { flex: 1, justifyContent: 'flex-end', backgroundColor: '#070e1abf' },
   sheet: {
+    width: '100%',
+    maxWidth: MAX_WIDTH,
+    alignSelf: 'center',
     backgroundColor: C.raised,
     borderTopLeftRadius: 28,
     borderTopRightRadius: 28,

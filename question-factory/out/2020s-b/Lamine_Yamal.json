@@ -1,0 +1,139 @@
+{
+ "answer": "Lamine Yamal",
+ "acceptableAnswers": [
+  "Lamine Yamal",
+  "Yamal"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2031 (Transfermarkt)"
+ },
+ "target": 2,
+ "status": "READY",
+ "question": "As a baby I was featured in a charity photo shoot where I was bathed by a then 20-year-old Lionel Messi.\nYears later, we actually faced each other in a World Cup final.\nI've played with the likes of Robert Lewandowski, Marcus Rashford & Rodri.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 1,
+  "why": "This is a perfect example of the 'delightful oddity' hook that Lewis values. The first sentence is charming and surprising (a baby photo shoot with Messi), which immediately distinguishes it from a standard stat-based question. It avoids the trap of leading with his most famous fact (the 2024 Euros/",
+  "fix": "The prompt contains a JSON syntax error in the 'why' field due to an unclosed quote and invalid characters. I will provide the corrected JSON below."
+ },
+ "claims": [
+  {
+   "text": "Lamine Yamal was featured as a baby in a charity photo shoot where he was bathed by Lionel Messi.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona, during which he was bathed by a 20-year-old Lionel Messi.",
+    "As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona, during which he was bathed by a 20-year-old Lionel Messi."
+   ]
+  },
+  {
+   "text": "At the time of the charity photo shoot, Lionel Messi was 20 years old.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "during which he was bathed by a 20-year-old Lionel Messi",
+    "during which he was bathed by a 20-year-old Lionel Messi."
+   ]
+  },
+  {
+   "text": "Lamine Yamal faced Lionel Messi in a World Cup final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Two years later, the photos received additional attention in the media as Yamal and Messi prepared to face each other in the 2026 FIFA World Cup final.",
+    "Two years later, the photos received additional attention in the media as Yamal and Messi prepared to face each other in the 2026 FIFA World Cup final."
+   ]
+  },
+  {
+   "text": "The World Cup final where Lamine Yamal faced Lionel Messi occurred years after the charity photo shoot.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona, during which he was bathed by a 20-year-old Lionel Messi.",
+    "As a baby he was featured in a 2007 UNICEF charity photo shoot with his future club Barcelona, during which he was bathed by a 20-year-old Lionel Messi."
+   ]
+  },
+  {
+   "text": "Lamine Yamal has played with Robert Lewandowski.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 128 matches alongside Robert Lewandowski for FC Barcelona (2023 to 2026)",
+    "[Squad data > FC Barcelona] Played in 128 matches alongside Robert Lewandowski for FC Barcelona (2023 to 2026)"
+   ]
+  },
+  {
+   "text": "Lamine Yamal has played with Marcus Rashford.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)",
+    "[Squad data > FC Barcelona] Played in 38 matches alongside Marcus Rashford for FC Barcelona (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Lamine Yamal has played with Rodri.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Spain] Played in 3 matches alongside Rodri for Spain (2026)",
+    "Played in 3 matches alongside Rodri for Spain (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Lamine_Yamal",
+  "revid": 1385903856
+ },
+ "alternatives": [
+  {
+   "question": "In 2024 I became the youngest player to score in a European Championship.\nThat same summer I was named Young Player of the Tournament as we won the title.\nI've played with the likes of Rodri, Marcus Rashford & Nico Williams.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In 2024 I became the youngest player to score in a European Championship.\nThat same summer I was named Young Player of the Tournament as we won the title.\nI've played under Hansi Flick & Xavi.",
+   "problems": [
+    "every team-mate and manager named meets the player at FC Barcelona, so together they only say 'FC Barcelona'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "At age 17 I became the youngest player to be nominated for the Ballon d'Or.\nI also managed to win the Kopa Trophy three times in a row between 2024 and 2026.\nI've shared the pitch with Pedri, Rodri & Aymeric Laporte.",
+   "problems": [
+    "every team-mate and manager named meets the player at Spain, so together they only say 'Spain'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "As a baby I was once bathed by Lionel Messi in a charity photo shoot.\nTwo decades later we faced each other in the final of a World Cup which I won.\nI've been managed by Hansi Flick & Xavi.",
+   "problems": [
+    "every team-mate and manager named meets the player at FC Barcelona, so together they only say 'FC Barcelona'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "As a baby I was featured in a charity photo shoot where I was bathed by a then 20-year-old Lionel Messi.\nTwo years ago we actually faced each other in a World Cup final.\nI've played alongside the likes of Lewandowski, Rashford & João Félix.",
+   "problems": [
+    "every team-mate and manager named meets the player at FC Barcelona, so together they only say 'FC Barcelona'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Lamine Yamal faced Lionel Messi in a World Cup final two years ago.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I'm the first player to win the Kopa Trophy three times, yet I've never actually won the Ballon d'Or.\nDespite that, I managed to finish in the top three of the voting for that award for three consecutive years.\nI've been managed by Xavi & Hansi Flick.",
+   "problems": [
+    "every team-mate and manager named meets the player at FC Barcelona, so together they only say 'FC Barcelona'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")",
+    "claim not stated in the evidence: \"Lamine Yamal is the first player to win the Kopa Trophy three times.\"",
+    "claim is wrong: \"Lamine Yamal finished in the top three of the voting for the Ballon d'Or for three consecutive years.\"",
+    "wording will date: The claim 'first player to win the Kopa Trophy three times' is a superlative record that could be broken by another player in future seasons.; The claim 'I've never actually won the Ballon d'Or' becomes false if he wins it in the future."
+   ],
+   "style": 0
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "answer": "Kieran Trippier",
+ "acceptableAnswers": [
+  "Kieran Trippier",
+  "Trippier"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "My family are Manchester United fans, yet I chose to join the academy of their biggest rivals instead.\nYears later I became the first English player in 95 years to play for Atlético Madrid.\nI've been managed by Mauricio Pochettino, Diego Simeone & Eddie Howe.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The opening hook is strong and misdirects well (family United fans vs joining rivals), which fits the style guide's preference for tension over standard bio facts. The manager list effectively narrows the field without giving away the answer immediately. However, it loses a point because the second句",
+  "fix": "The phrase 'first English player in 95 years' is slightly clunky and feels like a stat rather than a story beat; also, naming three managers (Pochettino, Simeone, Howe) is a bit list-heavy compared to the more narrative flow of the best originals. It's good, but not quite at the 'delightful oddity' "
+ },
+ "claims": [
+  {
+   "text": "Kieran Trippier's family are Manchester United fans.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "His family are Manchester United fans",
+    "His family are Manchester United fans"
+   ]
+  },
+  {
+   "text": "Kieran Trippier chose to join the academy of Manchester United's biggest rivals instead of Manchester United.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "although he was scouted by United when he was eight, he chose to join Manchester City's academy",
+    "although he was scouted by United when he was eight, he chose to join Manchester City's academy"
+   ]
+  },
+  {
+   "text": "Kieran Trippier became the first English player in 95 years to play for Atlético Madrid.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He became Atlético's first English player in 95 years.",
+    "He became Atlético's first English player in 95 years."
+   ]
+  },
+  {
+   "text": "Kieran Trippier has been managed by Mauricio Pochettino.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Was managed by Mauricio Pochettino at Tottenham Hotspur in 107 matches (2015 to 2019)",
+    "[Squad data > Tottenham Hotspur] Was managed by Mauricio Pochettino at Tottenham Hotspur in 107 matches (2015 to 2019)"
+   ]
+  },
+  {
+   "text": "Kieran Trippier has been managed by Diego Simeone.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Atlético de Madrid] Was managed by Diego Simeone at Atlético de Madrid in 86 matches (2019 to 2022)",
+    "[Squad data > Atlético de Madrid] Was managed by Diego Simeone at Atlético de Madrid in 86 matches (2019 to 2022)"
+   ]
+  },
+  {
+   "text": "Kieran Trippier has been managed by Eddie Howe.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Was managed by Eddie Howe at Newcastle United in 150 matches (2022 to 2026)",
+    "[Squad data > Newcastle United] Was managed by Eddie Howe at Newcastle United in 150 matches (2022 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kieran_Trippier",
+  "revid": 1386705777
+ },
+ "alternatives": [
+  {
+   "question": "In 2020 I was given a ten-week worldwide football ban for breaching betting rules.\nDespite this, the following season I helped my side win La Liga on the final day of the campaign.\nI've played with Jan Oblak, Harry Kane & Matheus Cunha.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I started my career in the youth system at Manchester City, but I only ever made a handful of senior appearances for them.\nFollowing two spells on loan at Barnsley, I secured promotion to the Premier League with Burnley.\nI've played with the likes of Luis Suárez, Dele Alli & Alexander Isak.",
+   "problems": [
+    "claim not stated in the evidence: \"Kieran Trippier made only a handful of senior appearances for Manchester City.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I scored a free kick in a World Cup semi-final, yet that remains the only senior goal I've ever scored for my country.\nIn 2021 I won a league title in Spain before returning to England to win a domestic trophy with Newcastle United.\nI've been managed by Mauricio Pochettino & Diego Simeone.",
+   "problems": [
+    "claim is wrong: \"After winning the league title in Spain in 2021, Kieran Trippier returned to England.\"",
+    "claim is wrong: \"Kieran Trippier won a domestic trophy with Newcastle United after returning to England from Spain in 2021.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I spent time on loan at Barnsley before making my name in the Championship with Burnley.\nFollowing a move to North London, I was later become the first English player in 95 years to play for Atlético Madrid.\nI've played with the likes of Luis Suárez, Dele Alli & Alexander Isak.",
+   "problems": [
+    "claim not stated in the evidence: \"Kieran Trippier made his name in the Championship with Burnley.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  }
+ ]
+}

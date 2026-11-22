@@ -16,8 +16,8 @@ Keys: **A** approve, **E** edit (⌘/Ctrl+Enter saves), **R** reject, **U** undo
 - **An audit of the existing questions:** write the findings as Markdown blocks (`### Q<id>: Player` with Verdict, Issues, Proposed question, Proposed flags, Shelf life, Sources, Confidence), as in `research_notes/question-audit/`, then
   `python3 tools/question-auditor/extract_audit.py research_notes/question-audit 2026-11-audit`.
   Only definite flag changes are pre-filled. Optional ones ("(optional)", "consider") show as a note for you to tick in Edit.
-- **A new pack:** after `factory/assemble.py <pack>`, run
-  `factory/.venv/bin/python tools/question-auditor/from_factory.py 2020s "The 2020s" 2020s` (pack, title, category).
+- **A new pack:** after `question-factory/assemble.py <pack>`, run
+  `question-factory/.venv/bin/python tools/question-auditor/from_factory.py 2020s "The 2020s" 2020s` (pack, title, category).
   Items are `"kind": "new"` (no "Now" column), with clue flags recomputed under the current rules and the fact-check quotes as notes. Approved ones are appended with fresh ids above the current highest.
 
 ## Files
@@ -27,5 +27,9 @@ Keys: **A** approve, **E** edit (⌘/Ctrl+Enter saves), **R** reject, **U** undo
 | `reviews/<name>.json` | The items to review |
 | `reviews/<name>.decisions.json` | Your decisions, keyed by item (`Q4`, `Q201b`, …), stamped `applied` once written |
 | `apply.py` | Edits only the lines that change, so the diff of `baseQuestions.json` stays readable |
+
+## The audit trail
+
+`apply.py` also writes `config/provenance/<review>.json`: one record per question id with the final wording, the decision and its date, the wording before Lewis's edit, the reviewer's verdict, every note on the card (fact-check claims and quotes, position shares, retired evidence, any edit Claude made and why) and the sources, including a link to the exact Wikipedia revision the fact-check read. It exists so a question can be audited years later. `apply.py <review> --provenance-only` rebuilds the records for decisions already applied.
 
 Ids are permanent: progress, the 2019 import and save codes all store them. A replacement player keeps the old id.

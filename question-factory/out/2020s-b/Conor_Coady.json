@@ -1,0 +1,104 @@
+{
+ "answer": "Conor Coady",
+ "acceptableAnswers": [
+  "Conor Coady",
+  "Coady"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": true
+ },
+ "retiredEvidence": {
+  "retired": true,
+  "quote": "On 6 November 2026, Coady announced his retirement from professional football.",
+  "how": "article",
+  "contract": "2026-06-30 00:00:00"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I turned down a pre-season tour of Australia and the Far East with my boyhood club in order to join Sheffield United on loan.\nYears later I was named in UEFA's Squad of the Season after playing every minute of a Europa League campaign.\nI've been managed by Nuno Espírito Santo, Frank Lampard & Ruud van Nistelrooy.",
+ "problems": [
+  "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The draft reads naturally and follows the house style well with connected sentences and a clear narrative arc (loan move -> European success -> managerial clues). The hook is decent but not exceptional; turning down a tour for a loan is a specific detail that might be slightly obscure to casual fans",
+  "fix": "Consider sharpening the first sentence to make the 'boyhood club' aspect clearer or more intriguing, as it currently relies on the reader knowing which club he was at before Sheffield United. The list of managers is strong and spreads across different clubs/eras effectively."
+ },
+ "claims": [
+  {
+   "text": "Conor Coady turned down a pre-season tour of Australia and the Far East with his boyhood club in order to join Sheffield United on loan.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "later stating that he had turned down the chance to go on Liverpool's pre-season tour of Australia and the Far East in order to join up with his new club",
+    "Coady agreed a six-month loan with League One club Sheffield United on 22 July 2013, later stating that he had turned down the chance to go on Liverpool's pre-season tour of Australia and the Far East in order to join up with his new club."
+   ]
+  },
+  {
+   "text": "Conor Coady was named in UEFA's Squad of the Season after playing every minute of a Europa League campaign.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He also played every minute of Wolves' Europa League campaign in 2019–20 as they reached the quarter-finals. At the end of the competition, he was named in UEFA's Squad of the Season."
+   ]
+  },
+  {
+   "text": "Conor Coady has been managed by Nuno Espírito Santo, Frank Lampard & Ruud van Nistelrooy.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Conor_Coady",
+  "revid": 1386698060
+ },
+ "alternatives": [
+  {
+   "question": "I was part of the England squads for both Euro 2020 and the 2022 World Cup, yet I did not play a single minute in either tournament.\nDespite this, I once held one of the best records in Premier League history for consecutive minutes played by an outfield player.\nI've played alongside Vitinha, Anthony Gordon & Wilfred Ndidi.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I captained the England team that won the 2010 UEFA European Under-17 Championship, becoming part of the first English side to win an international tournament in 17 years.\nLater in my career I was named in UEFA's Squad of the Season after playing every minute of a Europa League campaign.\nI've played with Diogo Jota, Alex Iwobi & Harry Winks.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I captained my national team to a European Under-17 title, the first England side to win an international tournament in 17 years.\nYears later I played every minute of a Europa League campaign and was named in UEFA's Squad of the Season.\nI've been managed by Nuno Espírito Santo & Ruud van Nistelrooy.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I captained my country to a European Under-17 title in 2010, the first time England had won an international tournament in 17 years.\nIn later years I became known for a remarkable streak of playing every single minute of 84 consecutive Premier League games.\nI've played with the likes of Diogo Jota, Alex Iwobi & Harry Winks.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once held a Premier League streak of playing every minute for 84 consecutive games, the third-best ever for an outfield player.\nDespite my success in the league I did not make a single appearance in the World Cup squad I was called up to in 2022.\nI've been managed by Nuno Espírito Santo, Sean Dyche & Ruud van Nistelrooy.",
+   "problems": [
+    "claim is wrong: \"Conor Coady's streak of 84 consecutive minutes in the Premier League was the third-best ever for an outfield player.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I once held a streak of playing every single minute of 84 consecutive Premier League games.\nAlthough I was in the squad for two different World Cups, I didn't make a single appearance in either.\nI've played with the likes of Vitinha, Alex Iwobi & Harry Winks.",
+   "problems": [
+    "claim not stated in the evidence: \"Conor Coady was in the squad for two different World Cups.\"",
+    "claim is wrong: \"Conor Coady did not make a single appearance in either of those two World Cups.\""
+   ],
+   "style": 3
+  }
+ ]
+}

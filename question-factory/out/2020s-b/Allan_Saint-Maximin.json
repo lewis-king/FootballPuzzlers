@@ -1,0 +1,136 @@
+{
+ "answer": "Allan Saint-Maximin",
+ "acceptableAnswers": [
+  "Allan Saint-Maximin",
+  "Saint-Maximin"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "During a loan spell in Germany, my time was cut short after I collided with a tram and presented a fake driving license.\nYears later I made my mark in the Premier League before moving to Saudi Arabia.\nI've been managed by Steve Bruce & José Mourinho.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 4,
+  "why": "The hook is a dull procedural detail (a traffic incident and fake license) that lacks charm or memorability, violating the style guide's preference for delightful oddities over boring facts. Additionally, listing two famous managers (Bruce & Mourinho) without context creates ambiguity about which of",
+  "fix": "Replace the tram/license anecdote with a memorable on-pitch moment or a charming personal quirk. If keeping the loan story, focus on the performance rather than the legal trouble. Ensure the manager clues are tied to specific clubs or eras to avoid confusion."
+ },
+ "claims": [
+  {
+   "text": "Allan Saint-Maximin had a loan spell in Germany.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Saint-Maximin began his professional career at Saint-Étienne as a teenager before joining Monaco, where he gained experience through loan spells at German side Hannover 96 and French club Bastia.",
+    "Saint-Maximin began his professional career at Saint-Étienne as a teenager before joining Monaco, where he gained experience through loan spells at German side Hannover 96 and French club Bastia."
+   ]
+  },
+  {
+   "text": "Allan Saint-Maximin's time during his loan spell in Germany was cut short after he collided with a tram.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "However, an incident cut his loan short. In April, Saint-Maximin was involved in a car accident that collided with a tram...",
+    "However, an incident cut his loan short. In April, Saint-Maximin was involved in a car accident that collided with a tram"
+   ]
+  },
+  {
+   "text": "Allan Saint-Maximin presented a fake driving license after colliding with a tram during his loan spell in Germany.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In April, Saint-Maximin was involved in a car accident that collided with a tram, injuring 1 person then presented a fake driving license, leading to an investigation on suspicion of forgery, driving without a license and negligent bodily harm.",
+    "In April, Saint-Maximin was involved in a car accident that collided with a tram, injuring 1 person then presented a fake driving license, leading to an investigation on suspicion of forgery, driving without a license and negligent bodily harm."
+   ]
+  },
+  {
+   "text": "Years after his loan spell in Germany, Allan Saint-Maximin made his mark in the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After a brief stint at Nice, Saint-Maximin made his mark in the Premier League with Newcastle United.",
+    "After a brief stint at Nice, Saint-Maximin made his mark in the Premier League with Newcastle United."
+   ]
+  },
+  {
+   "text": "Allan Saint-Maximin moved to Saudi Arabia after making his mark in the Premier League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He later moved to Saudi Arabian club Al-Ahli before having a loan spell at Turkish side Fenerbahçe."
+   ]
+  },
+  {
+   "text": "Steve Bruce has managed Allan Saint-Maximin.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Was managed by Steve Bruce at Newcastle United in 63 matches (2019 to 2021)",
+    "[Squad data > Newcastle United] Was managed by Steve Bruce at Newcastle United in 63 matches (2019 to 2021)"
+   ]
+  },
+  {
+   "text": "José Mourinho has managed Allan Saint-Maximin.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Fenerbahce] Was managed by José Mourinho at Fenerbahce in 29 matches (2024 to 2025)",
+    "[Squad data > Fenerbahce] Was managed by José Mourinho at Fenerbahce in 29 matches (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Allan_Saint-Maximin",
+  "revid": 1385881143
+ },
+ "alternatives": [
+  {
+   "question": "In 2026 I joined a French club on a short-term contract and helped them win the Coupe de France for the first time in their history.\nEarlier in my career, I was once a club-record signing for Nice.\nI've played alongside players like Thauvin, Isak & En-Nesyri.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I once rejected a move to PSG that included a house for my parents and a signing bonus of over €100,000.\nYears later I made my mark in the Premier League before moving to Saudi Arabia.\nI've played with the likes of Sneijder, Fred & Zouma.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "My trademark headband was inspired by my love for manga and the Karate Kid.\nIn 2026 I helped a French club win their first ever Coupe de France before moving to MLS.\nI've been managed by Patrick Vieira & José Mourinho.",
+   "problems": [
+    "claim not stated in the evidence: \"Allan Saint-Maximin's trademark headband was inspired by his love for manga and the Karate Kid.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I made my professional debut in a Europa League play-off at just 16 years old.\nFollowing a journey through Germany, Turkey and Mexico, I recently helped RC Lens win the Coupe de France for the first time in their history.\nI've been managed by Patrick Vieira & José Mourinho.",
+   "problems": [
+    "claim not stated in the evidence: \"Allan Saint-Maximin played for clubs in Germany, Turkey and Mexico following his professional debut.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once rejected a move to Paris Saint-Germain, despite an offer that included a house for my parents and a massive bonus.\nYears later I made my name in the Premier League before moving to Saudi Arabia.\nI've played with Sneijder, Fred & Zouma.",
+   "problems": [
+    "gives away the answer (\"saint\")"
+   ],
+   "style": 0
+  },
+  {
+   "question": "As a teenager I rejected a huge offer from Paris Saint-Germain, which included a house for my parents and a signing bonus of over €100,000.\nFollowing that decision, I began my professional career at Saint-Étienne.\nI've since played with the likes of Sneijder, Fred & Zouma.",
+   "problems": [
+    "gives away the answer (\"saint\")",
+    "claim is wrong: \"Following the rejection of the Paris Saint-Germain offer, Allan Saint-Maximin began his professional career at Saint-Étienne.\""
+   ],
+   "style": 0
+  }
+ ]
+}

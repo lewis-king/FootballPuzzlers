@@ -1,0 +1,115 @@
+{
+ "answer": "Matheus Cunha",
+ "acceptableAnswers": [
+  "Matheus Cunha",
+  "Cunha"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I originally played futsal for a club in Recife before moving to Europe as an 18-year-old to join Sion.\nIncredibly, I later scored a Bundesliga goal that was nominated for the FIFA Puskás Award.\nI've played with the likes of Griezmann, Casemiro & Timo Werner.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 4,
+  "why": "The question is factually correct but reads like a list of disconnected facts rather than a story. It lacks the conversational flow and 'twist' found in the originals (e.g., no tension between the futsal background and the Puskas nomination). The final clue lists three high-profile names who all met",
+  "fix": "Rewrite to connect the sentences with narrative links ('After moving to Europe...', 'It was at [Club] that...'). Ensure the teammate list is accurate (Cunha played with Griezmann at Atletico, but not Casemiro or Werner; he played with Cunha's former teammates like Koke or Lemar). A better clue might"
+ },
+ "claims": [
+  {
+   "text": "Matheus Cunha originally played futsal for a club in Recife.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He originally played futsal for a club in Recife, before switching to football.",
+    "He originally played futsal for a club in Recife, before switching to football."
+   ]
+  },
+  {
+   "text": "Matheus Cunha moved to Europe as an 18-year-old.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the age of 18, he moved to Europe to join Swiss club Sion.",
+    "At the age of 18, he moved to Europe to join Swiss club Sion."
+   ]
+  },
+  {
+   "text": "Matheus Cunha joined Sion upon moving to Europe.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the age of 18, he moved to Europe to join Swiss club Sion.",
+    "At the age of 18, he moved to Europe to join Swiss club Sion."
+   ]
+  },
+  {
+   "text": "Matheus Cunha scored a Bundesliga goal that was nominated for the FIFA Puskás Award.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He scored a goal against Bayer Leverkusen in April 2019 that won the Bundesliga Goal of the Month award, and was nominated for the FIFA Puskás Award.",
+    "He scored a goal against Bayer Leverkusen in April 2019 that won the Bundesliga Goal of the Month award, and was nominated for the FIFA Puskás Award."
+   ]
+  },
+  {
+   "text": "Matheus Cunha has played with Griezmann, Casemiro & Timo Werner.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Matheus_Cunha",
+  "revid": 1385505876
+ },
+ "alternatives": [
+  {
+   "question": "I won a gold medal at the 2020 Summer Olympics after being the top scorer of the Toulon Tournament the year prior.\nLater in my career, I was given a two game ban and an £80,000 fine for pulling the glasses off a club employee.\nI've played with Luis Suárez, Alisson & Bryan Mbeumo.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I originally played futsal in Recife before moving to Europe at the age of 18 to join Sion.\nIncredibly, I later scored a Bundesliga goal that was nominated for the FIFA Puskás Award.\nI've played with the likes of Luis Suárez, Bryan Mbeumo & Timo Werner.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I originally played futsal in Recife before moving to Europe as an 18-year-old to join Sion.\nIt was after leaving Switzerland for the Bundesliga that I scored a goal nominated for the FIFA Puskás Award.\nI've since played with the likes of Griezmann, Casemiro & Bryan Mbeumo.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was once given a two game ban and an £80,000 fine for pulling the glasses off a club employee during a match.\nDespite this, I finished the 2024-25 season as my club's highest scorer.\nI've been managed by Diego Simeone & Ralf Rangnick.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "I won a gold medal at the 2020 Summer Olympics, having been the top scorer of the previous year's Toulon Tournament.\nUnfortunately I'm also well known for receiving a two game ban in 2024 after pulling an opponent's glasses off his face.\nI've played under managers such as Diego Simeone & Ralf Rangnick.",
+   "problems": [
+    "claim is wrong: \"Matheus Cunha received a two game ban in 2024 after pulling an opponent's glasses off his face.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I won a gold medal at the 2020 Summer Olympics and am known for a goal celebration that imitates balancing on a surfboard.\nI later became only the second player from my former club to score a Premier League hat-trick.\nI've played with Jan Oblak, Vinicius Junior & Casemiro.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 2
+  }
+ ]
+}

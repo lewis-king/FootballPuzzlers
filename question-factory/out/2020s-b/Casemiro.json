@@ -1,0 +1,109 @@
+{
+ "answer": "Casemiro",
+ "acceptableAnswers": [
+  "Casemiro"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I performed so impressively during a loan spell at Porto that my parent club paid a €7 million penalty fee just to cancel the option for them to buy me.\nFollowing my return, I became a mainstay in a side that won five Champions Leagues.\nI've played with the likes of Hazard, Eriksen & Ødegaard.",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 3,
+  "why": "This reads exactly like one of Lewis's originals: a surprising hook (the penalty fee to cancel a loan), connected narrative flow ('Following my return'), and a narrowing clue list that spans different clubs/eras (Hazard at Chelsea, Eriksen at Spurs, Ødegaard at Arsenal) rather than pointing to one '",
+  "fix": "none"
+ },
+ "claims": [
+  {
+   "text": "Casemiro performed impressively during a loan spell at Porto.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "During his time at Porto, Casemiro performed impressively",
+    "During his time at Porto, Casemiro performed impressively and helped the team reach the Champions League quarterfinals."
+   ]
+  },
+  {
+   "text": "Casemiro's parent club paid a €7 million penalty fee to cancel the option for Porto to buy him.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Real Madrid decided to cancel the clause, paying a €7 million penalty fee to Porto",
+    "Real Madrid decided to cancel the clause, paying a €7 million penalty fee to Porto in the summer transfer window of 2015."
+   ]
+  },
+  {
+   "text": "Following his return from Porto, Casemiro became a mainstay in a side that won five Champions Leagues.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After returning to the club, Casemiro played a crucial role in Real Madrid's success, becoming one of the best defensive midfielders in the world, and winning numerous trophies including three La Liga titles, three Supercopa de España, three FIFA Club World Cups, three UEFA Super Cups, one Copa del Rey, and five UEFA Champions Leagues.",
+    "After returning to the club, Casemiro played a crucial role in Real Madrid's success, becoming one of the best defensive midfielders in the world, and winning numerous trophies including three La Liga titles, three Supercopa de España, three FIFA Club World Cups, three UEFA Super Cups, one Copa del Rey, and five UEFA Champions Leagues."
+   ]
+  },
+  {
+   "text": "Casemiro has played with Hazard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 63 matches alongside Eden Hazard for Real Madrid (2019 to 2022)",
+    "[Squad data > Real Madrid] Played in 63 matches alongside Eden Hazard for Real Madrid (2019 to 2022)"
+   ]
+  },
+  {
+   "text": "Casemiro has played with Eriksen.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 76 matches alongside Christian Eriksen for Manchester United (2022 to 2025)",
+    "[Squad data > Manchester United] Played in 76 matches alongside Christian Eriksen for Manchester United (2022 to 2025)"
+   ]
+  },
+  {
+   "text": "Casemiro has played with Ødegaard.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Real Madrid] Played in 7 matches alongside Martin Ødegaard for Real Madrid (2016 to 2021)",
+    "[Squad data > Real Madrid] Played in 7 matches alongside Martin Ødegaard for Real Madrid (2016 to 2021)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Casemiro",
+  "revid": 1385361990
+ },
+ "alternatives": [
+  {
+   "question": "I was once loaned to Porto, a spell so impressive that my parent club later paid a €7 million penalty fee just to cancel the option for them to buy me.\nFollowing my return, I became a mainstay in a side that won five Champions Leagues.\nI've played with the likes of Ødegaard, Sancho & Eriksen.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "From the age of 11 I acted as captain for my youth sides, where I was known by the nickname 'Carlão'.\nYears later, I tied a long-standing record for the most headed goals in a single season for one of England's biggest clubs.\nI've been managed by Benítez, Zidane & Amorim.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "Upon joining a new club in 2022, I reportedly told my agent to message the manager that I would 'fix it' after they had suffered a heavy defeat.\nIn my final season at that same club, I tied the record for the most headed goals in a single league campaign.\nI've played with the likes of Sancho, Bruno Guimarães & Alisson.",
+   "problems": [
+    "claim not stated in the evidence: \"After the new club suffered a heavy defeat, Casemiro reportedly told his agent to message the manager that he would 'fix it'.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "At the 2026 World Cup I equalled the record of 12 unbeaten appearances in the tournament, and became only the second-oldest Brazilian ever to score at a WC.\nIn club football, I've won the Champions League with one team and the EFL Cup with another.\nI've played alongside Hazard, Bruno Guimarães & Alisson.",
+   "problems": [
+    "claim is wrong: \"Casemiro won the Champions League with one team in club football.\""
+   ],
+   "style": 2
+  }
+ ]
+}

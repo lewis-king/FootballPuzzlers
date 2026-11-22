@@ -1,0 +1,111 @@
+{
+ "answer": "Teemu Pukki",
+ "acceptableAnswers": [
+  "Teemu Pukki",
+  "Pukki"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to December 2026 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I moved to Sevilla as a teenager, but only made a single La Liga appearance before returning home.\nYears later I became my country's all-time leading goalscorer.\nI've played with the likes of Van Dijk, Matip & Draxler.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and follows a logical structure (early career -> record -> teammates), but it reads like a list of facts rather than the conversational story Lewis writes. The hook ('moved to Sevilla as a teenager') is a bit dry for a top-10 player, and the final clue relies on a '",
+  "fix": "I moved to Sevilla as a teenager, but only made a single La Liga appearance before returning home.\nYears later I became my country's all-time leading goalscorer.\nI've played with the likes of Van Dijk, Matip & Draxler."
+ },
+ "claims": [
+  {
+   "text": "Teemu Pukki moved to Sevilla as a teenager.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He then moved to Sevilla in 2008"
+   ]
+  },
+  {
+   "text": "Teemu Pukki made only a single La Liga appearance for Sevilla before returning home.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He then moved to Sevilla in 2008, where he played only one La Liga game for the first team before returning to Finland with HJK.",
+    "He then moved to Sevilla in 2008, where he played only one La Liga game for the first team before returning to Finland with HJK."
+   ]
+  },
+  {
+   "text": "Teemu Pukki is his country's all-time leading goalscorer.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "making him the all-time leading male Finnish goalscorer",
+    "He went on to earn over 130 caps and score 43 goals, making him the all-time leading male Finnish goalscorer."
+   ]
+  },
+  {
+   "text": "Teemu Pukki has played with Virgil van Dijk, Joel Matip and Julian Draxler.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Celtic FC] Played in 35 matches alongside Virgil van Dijk for Celtic FC (2013 to 2014)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Teemu_Pukki",
+  "revid": 1386714674
+ },
+ "alternatives": [
+  {
+   "question": "I scored ten goals in a single qualifying campaign to help my nation reach their first ever major international tournament.\nAlthough I didn't score at the finals, I eventually became my country's highest scoring player.\nI've been managed by Thomas Frank & Dean Smith.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once admitted that I initially felt playing in Scotland would be easier than in Germany, though I soon found the physical nature of the game difficult.\nIn contrast, my time in England saw me named a Championship Player of the Season.\nI've played with Buendía, Gilmour & van Dijk.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I moved to Sevilla as a teenager but only made one appearance in La Liga before returning home.\nYears later I became my country's all-time leading goalscorer.\nI've played with the likes of van Dijk, Matip & Draxler.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I scored ten goals in a single qualifying campaign to help my nation reach their first ever major tournament.\nIncredibly I didn't find the net during the finals themselves.\nI've been managed by Neil Lennon & Thomas Frank.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I scored ten goals in a single qualifying campaign to lead my nation to their first ever major tournament.\nIncredibly, I failed to find the net during the finals themselves.\nI've been managed by Neil Lennon & Thomas Frank.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I moved from the Finnish league to Sevilla as a teenager, though I only made one appearance in La Liga.\nYears later, I became my country's all-time leading male goalscorer.\nI've played with the likes of Draxler, Matip & van Dijk.",
+   "problems": [
+    "claim is wrong: \"Teemu Pukki moved from the Finnish league to Sevilla as a teenager.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "answer": "Ezri Konsa",
+ "acceptableAnswers": [
+  "Ezri Konsa",
+  "Konsa"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I was part of the England squad that won the FIFA U-20 World Cup in 2017, although I only played a single minute of the tournament.\nIn 2026 I won the Europa League before transferring to a club I grew up supporting as a fan.\nI've played with the likes of Coutinho, Sancho & Nico O'Reilly.",
+ "problems": [
+  "claim is wrong: \"After winning the Europa League in 2026, Ezri Konsa transferred to a club he grew up supporting as a fan.\"",
+  "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question follows the house style well: first-person voice, connected sentences, a twist (playing one minute in a World Cup win), and a narrowing clue list at the end. The facts are accurate and memorable enough for a keen fan. However, it loses a point because the final sentence lists three high",
+  "fix": "Replace 'Nico O'Reilly' with a less obvious teammate or manager from a different club to make the clue list more puzzling. For example: 'I've played with Coutinho, Sancho & Marmoush.' This spreads the clues across clubs and makes it harder to guess just from the names."
+ },
+ "claims": [
+  {
+   "text": "Ezri Konsa was part of the England squad that won the FIFA U-20 World Cup in 2017.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup with his only appearance of the tournament coming as a 93rd-minute substitute during the 3–1 semi-final victory over Italy",
+    "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup"
+   ]
+  },
+  {
+   "text": "Ezri Konsa played a single minute of the 2017 FIFA U-20 World Cup tournament.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "his only appearance of the tournament coming as a 93rd-minute substitute",
+    "Konsa was a member of the England squad that won the 2017 FIFA U-20 World Cup with his only appearance of the tournament coming as a 93rd-minute substitute during the 3–1 semi-final victory over Italy."
+   ]
+  },
+  {
+   "text": "In 2026, Ezri Konsa won the Europa League.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 20 May 2026, Konsa started in the 2026 UEFA Europa League final, which Aston Villa won 3–0.",
+    "On 20 May 2026, Konsa started in the 2026 UEFA Europa League final, which Aston Villa won 3–0."
+   ]
+  },
+  {
+   "text": "After winning the Europa League in 2026, Ezri Konsa transferred to a club he grew up supporting as a fan.",
+   "final": "CONTRADICTED",
+   "quotes": []
+  },
+  {
+   "text": "Ezri Konsa has played with Philippe Coutinho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 33 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)",
+    "[Squad data > Aston Villa] Played in 33 matches alongside Philippe Coutinho for Aston Villa (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Ezri Konsa has played with Jadon Sancho.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)",
+    "[Squad data > Aston Villa] Played in 33 matches alongside Jadon Sancho for Aston Villa (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Ezri Konsa has played with Nico O'Reilly.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > England] Played in 3 matches alongside Nico O'Reilly for England (2026)",
+    "[Squad data > England] Played in 3 matches alongside Nico O'Reilly for England (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ezri_Konsa",
+  "revid": 1386025172
+ },
+ "alternatives": [
+  {
+   "question": "I was part of the England squad that won the FIFA U-20 World Cup in 2017, though I only played a single minute of the tournament.\nIn 2026 I won the Europa League before moving to a club I grew up supporting as a fan.\nI've played with the likes of Coutinho, Sancho & Nico O'Reilly.",
+   "problems": [
+    "claim not stated in the evidence: \"After winning the Europa League in 2026, Ezri Konsa moved to a club he grew up supporting as a fan.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I began my professional career at Charlton Athletic, where I was named the club's Young Player of the Year.\nFollowing a spell with Brentford, I spent seven seasons at a club where I eventually won the Europa League and served as vice captain.\nI've played with the likes of Grealish, Asensio & Marc Guéhi.",
+   "problems": [
+    "claim is wrong: \"Ezri Konsa began his professional career at Charlton Athletic.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "After being named Young Player of the Year at Charlton Athletic, I moved to Brentford and then Aston Villa.\nIn 2026 I won a European trophy with the latter before transferring for £51m.\nI've played alongside Grealish, Rashford & Nico O'Reilly.",
+   "problems": [
+    "claim not stated in the evidence: \"After being named Young Player of the Year at Charlton Athletic, Ezri Konsa moved to Brentford.\"",
+    "claim is wrong: \"After winning the European trophy in 2026, Ezri Konsa transferred for £51m.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I was named Young Player of the Year for my first professional club, although I spent a significant part of that period as an unused substitute during our relegation.\nFollowing several years in the Championship, I won the Europa League in 2026 before moving to a different Premier League side.\nI've played with the likes of Coutinho, Rashford & Nico O'Reilly.",
+   "problems": [
+    "claim is wrong: \"Ezri Konsa spent a significant part of that period as an unused substitute during his first professional club's relegation.\"",
+    "claim is wrong: \"Ezri Konsa played in the Championship for several years.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2021 I became the first defender to score twice in a Premier League match for my club since 2010.\nFollowing this, I eventually won the Europa League and made my senior international debut.\nI've been managed by Dean Smith & Steven Gerrard.",
+   "problems": [
+    "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim not stated in the evidence: \"Following becoming the first defender to score twice in a Premier League match for his club since 2010, Ezri Konsa made his senior international debut.\""
+   ],
+   "style": 0
+  },
+  {
+   "question": "I was part of the England squad that won the FIFA U-20 World Cup in 2017, yet I only played a single minute of the tournament.\nIn 2026 I captained my club in Europe and later scored on my debut for a different Premier League team.\nI've been managed by Steven Gerrard & Unai Emery.",
+   "problems": [
+    "every team-mate and manager named meets the player at Aston Villa, so together they only say 'Aston Villa'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"In 2026, Ezri Konsa captained his club in Europe.\"",
+    "claim not stated in the evidence: \"In 2026, after captaining his club in Europe, Ezri Konsa scored on his debut for a different Premier League team.\""
+   ],
+   "style": 0
+  }
+ ]
+}

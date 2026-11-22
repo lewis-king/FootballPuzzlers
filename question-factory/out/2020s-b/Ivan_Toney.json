@@ -1,0 +1,113 @@
+{
+ "answer": "Ivan Toney",
+ "acceptableAnswers": [
+  "Ivan Toney",
+  "Toney"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "In May 2023 my season was ended prematurely by an eight month ban for breaches of betting rules.\nDespite this setback, I've since won the AFC Champions League Elite in Saudi Arabia.\nI've been managed by Thomas Frank & Thomas Tuchel.",
+ "problems": [],
+ "style": {
+  "score": 1,
+  "difficulty": 5,
+  "why": "The question is factually incorrect and unusable. Ivan Toney has not won the AFC Champions League Elite in Saudi Arabia; he was playing for Al-Ahli (who are in that league) but did not win it with them in a way that fits this narrative, nor is that his defining achievement. More critically, the 'tw'",
+  "fix": "Rewrite to focus on Toney's actual career: his time at Brentford under Thomas Frank, his move to Al-Ahli, and perhaps his goal-scoring record or the betting ban as a central hook, but ensure all facts are true and relevant."
+ },
+ "claims": [
+  {
+   "text": "In May 2023, Ivan Toney's season was ended prematurely by an eight month ban for breaches of betting rules.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In May 2023, after his 20 goals helped Brentford to a top-half finish, he was found guilty of 232 breaches of the Football Association's betting rules and banned from football for eight months",
+    "On 17 May, Toney's season was ended prematurely after playing 33 league matches and scoring 20 goals, as he received an eight month ban from football from the FA for numerous breaches of their player betting rules."
+   ]
+  },
+  {
+   "text": "Ivan Toney has won the AFC Champions League Elite in Saudi Arabia.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In his debut season, he won the AFC Champions League Elite with his club, securing their first-ever title in the competition.",
+    "In his debut season, he won the AFC Champions League Elite with his club, securing their first-ever title in the competition."
+   ]
+  },
+  {
+   "text": "Ivan Toney has been managed by Thomas Frank.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 85 matches (2021 to 2024)",
+    "[Squad data > Brentford FC] Was managed by Thomas Frank at Brentford FC in 85 matches (2021 to 2024)"
+   ]
+  },
+  {
+   "text": "Ivan Toney has been managed by Thomas Tuchel.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 22 May 2025, new manager Thomas Tuchel recalled Toney to the national team with Tuchel stating that he gave Phil Foden a rest.",
+    "On 22 May 2025, new manager Thomas Tuchel recalled Toney to the national team with Tuchel stating that he gave Phil Foden a rest."
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ivan_Toney",
+  "revid": 1382692376
+ },
+ "alternatives": [
+  {
+   "question": "In May 2023 my season was ended prematurely by an eight month ban for breaches of betting rules.\nDespite this I've since won the AFC Champions League Elite in Saudi Arabia.\nI've been managed by Thomas Frank & Thomas Tuchel.",
+   "problems": [
+    "claim is wrong: \"Ivan Toney has won the AFC Champions League Elite in Saudi Arabia since May 2023.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I've won the AFC Champions League Elite and finished as my club's top scorer in Saudi Arabia.\nPreviously, I had a spell at Newcastle United where I spent much of my time on loan at clubs like Barnsley & Wigan.\nI've been managed by Thomas Frank.",
+   "problems": [
+    "claim not stated in the evidence: \"During his time at Newcastle United, Ivan Toney spent much of his time on loan at clubs like Barnsley and Wigan.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I became the youngest player to represent my hometown club when I made my debut in 2012.\nLater, I set a new Championship record for most goals scored in a single season.\nI've played with the likes of David Raya & Christian Eriksen.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brentford FC, so together they only say 'Brentford FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I became the youngest first-team player in my hometown club's history.\nYears later I set a new Championship record for most goals scored in a single season.\nI've played with the likes of David Raya, Christian Eriksen & Bryan Mbeumo.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brentford FC, so together they only say 'Brentford FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "I became the youngest player to ever represent my hometown club when I made my debut in 2012.\nYears later, I set a new Championship record for the most goals scored in a single season.\nI've played with the likes of David Raya, Christian Eriksen & Sergio Reguilón.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brentford FC, so together they only say 'Brentford FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  },
+  {
+   "question": "In 2023 I was banned from football for eight months after being found guilty of over 200 breaches of betting rules.\nDespite this, I've since made my debut for the England national team.\nI've played with Mbeumo & Wissa.",
+   "problems": [
+    "every team-mate and manager named meets the player at Brentford FC, so together they only say 'Brentford FC'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one",
+    "claim is wrong: \"Ivan Toney made his debut for the England national team after being banned from football in 2023.\""
+   ],
+   "style": 0
+  }
+ ]
+}

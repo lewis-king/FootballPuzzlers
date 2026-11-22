@@ -3178,5 +3178,2135 @@
       "ENG": false
     },
     "category": "CL"
+  },
+  {
+    "id": 213,
+    "questionId": 213,
+    "question": "I was released from my boyhood club as a teenager due to a lack of physical strength.\nYet I went on to become the first midfielder to win the Ballon d'Or since 2018.\nI've played with Griezmann, Haaland & Lamine Yamal.",
+    "acceptableAnswers": [
+      "Rodri",
+      "Rodrigo Hernández",
+      "Rodrigo Hernandez"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 214,
+    "questionId": 214,
+    "question": "As a baby I was featured in a charity photo shoot where I was bathed by a then 20-year-old Lionel Messi.\nYears later, we actually faced each other in a World Cup final.\nI've played with the likes of Robert Lewandowski, Marcus Rashford & Rodri.",
+    "acceptableAnswers": [
+      "Lamine Yamal",
+      "Yamal"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 215,
+    "questionId": 215,
+    "question": "As a teenager I broke my first club's record for its youngest ever player.\nSoon after, I became only the second teenager in history to score in a World Cup final.\nI've played alongside Messi, Trent Alexander-Arnold & Michael Olise.",
+    "acceptableAnswers": [
+      "Kylian Mbappé",
+      "Mbappé",
+      "Kylian Mbappe",
+      "Mbappe"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 216,
+    "questionId": 216,
+    "question": "I once retired from international football after losing three consecutive finals.\nUpon my return I led my country to a World Cup title in 2022.\nI've been managed by Christophe Galtier & Gerardo Martino.",
+    "acceptableAnswers": [
+      "Lionel Messi",
+      "Messi"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 217,
+    "questionId": 217,
+    "question": "I started out as a goalkeeper, and my idol was Tim Howard.\nYears later I became the youngest Englishman to score on his senior international debut.\nI've played with Ronaldo, Lewandowski & Asensio.",
+    "acceptableAnswers": [
+      "Marcus Rashford",
+      "Rashford"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 218,
+    "questionId": 218,
+    "question": "I joined Arsenal for a club record fee of £100 million, helping them win their first league title in 22 years.\nBefore that move, I had the honour of captaining West Ham to their first major European trophy since 1965.\nI've been managed by David Moyes & Mikel Arteta.",
+    "acceptableAnswers": [
+      "Declan Rice",
+      "Rice"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 219,
+    "questionId": 219,
+    "question": "I became the youngest first-team player in the history of my first club, and they later retired my shirt number as a mark of appreciation.\nFollowing my move to Spain in 2023, I broke the record for the most goals scored in my first 15 games for my new club.\nI've been managed by Carlo Ancelotti & Marco Rose.",
+    "acceptableAnswers": [
+      "Jude Bellingham",
+      "Bellingham"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 220,
+    "questionId": 220,
+    "question": "In 2019 I became the only defender to win the UEFA Men's Player of the Year Award, although I only finished runner-up for the Ballon d'Or.\nFollowing this period I helped end my club's 30-year league title drought.\nI've been managed by Klopp, Slot & Koeman.",
+    "acceptableAnswers": [
+      "Virgil van Dijk",
+      "Van Dijk"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 221,
+    "questionId": 221,
+    "question": "I was released from my academy as a child for being a bit chubby.\nYears later I won the Ballon d'Or.\nI've played with the likes of Bale, Eriksen & Musiala.",
+    "acceptableAnswers": [
+      "Harry Kane",
+      "Kane"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 222,
+    "questionId": 222,
+    "question": "In 2018 I moved to Italy for a fee that was the highest ever for a player over 30.\nFollowing this, I became the first footballer to score 50 goals in the Premier League, La Liga and Serie A.\nI've played with the likes of Isco, Pogba & Vitinha.",
+    "acceptableAnswers": [
+      "Cristiano Ronaldo",
+      "Ronaldo"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 223,
+    "questionId": 223,
+    "question": "I became the youngest player in the history of Real Madrid when I made my debut as a substitute for Cristiano Ronaldo.\nFollowing several loan spells, I eventually signed permanently for Arsenal where I was later named captain.\nI've played with the likes of Hazard, Isak & Rice",
+    "acceptableAnswers": [
+      "Martin Ødegaard",
+      "Ødegaard",
+      "Martin Odegaard",
+      "Odegaard"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 224,
+    "questionId": 224,
+    "question": "Although I was capped by the Republic of Ireland up to under-21 level, I eventually decided to represent England.\nIt was a decision that led me to a World Cup and European Championship, as well as two different loan spells at Everton.\nI've been managed by the likes of Dean Smith, Pep Guardiola & David Moyes.",
+    "acceptableAnswers": [
+      "Jack Grealish",
+      "Grealish"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 225,
+    "questionId": 225,
+    "question": "At the 2026 World Cup I registered seven assists, setting a record for the most in a single tournament.\nFollowing my time in the Premier League, I moved to Germany where I have won two league titles.\nI've played with the likes of Harry Kane, Kimmich & Mbappé.",
+    "acceptableAnswers": [
+      "Michael Olise",
+      "Olise"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 226,
+    "questionId": 226,
+    "question": "I became the first ever player in football history to win the World Cup and a continental treble in the same season.\nIn 2023 I also scored the fastest goal in the history of the Club World Cup.\nI've played with the likes of Griezmann, De Bruyne & Cole Palmer.",
+    "acceptableAnswers": [
+      "Julián Alvarez",
+      "Alvarez",
+      "Julian Alvarez"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 227,
+    "questionId": 227,
+    "question": "I've won three senior international trophies in as many years, including a World Cup and a Copa América.\nFollowing my move to England, I helped my club win both the EFL Cup and the Premier League.\nI've played with the likes of Caicedo, Salah & Van Dijk.",
+    "acceptableAnswers": [
+      "Alexis Mac Allister",
+      "Mac Allister"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 228,
+    "questionId": 228,
+    "question": "I became the first player from my country to score in three different World Cups.\nIn 2018 I was named in the Fan Dream Team after we finished in third place.\nI've played with Courtois, Sterling & Højlund.",
+    "acceptableAnswers": [
+      "Kevin De Bruyne",
+      "De Bruyne"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 229,
+    "questionId": 229,
+    "question": "My move to Europe was a national record for a player under 18.\nIn 2024 I was named The Best FIFA Men's Player and became the youngest ever to score in two Champions League finals.\nI've played with the likes of Hazard, Mbappé & Alisson.",
+    "acceptableAnswers": [
+      "Vinícius Júnior",
+      "Vinícius",
+      "Vinícius Jr",
+      "Vini Jr",
+      "Vinicius Junior",
+      "Vinicius",
+      "Vinicius Jr"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 230,
+    "questionId": 230,
+    "question": "I once held the record for being the highest scoring Englishman in the Bundesliga.\nMy early career saw me leave England for Germany as a teenager, before returning home in 2021.\nI've played alongside Haaland, Bellingham & Pogba.",
+    "acceptableAnswers": [
+      "Jadon Sancho",
+      "Sancho"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 231,
+    "questionId": 231,
+    "question": "I've had the honour of becoming the youngest ever goalscorer for Germany in the history of the European Championships.\nIncredibly, I also scored a friendly goal against France just seven seconds after kick-off earlier that same year.\nI've played under managers such as Xabi Alonso & Arne Slot.",
+    "acceptableAnswers": [
+      "Florian Wirtz",
+      "Wirtz"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 232,
+    "questionId": 232,
+    "question": "I once held the outright Premier League record for the most penalties scored without a single miss.\nIn 2025 I won the Golden Ball at the FIFA Club World Cup after scoring twice in the final.\nI've been managed by Pep Guardiola & Xabi Alonso.",
+    "acceptableAnswers": [
+      "Cole Palmer",
+      "Palmer"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 233,
+    "questionId": 233,
+    "question": "I was the first player born in 2001 to appear in a Premier League match.\nEarly on, I spent a long spell as a regular at left-back.\nI've played with Sterling, Bellingham & Havertz.",
+    "acceptableAnswers": [
+      "Bukayo Saka",
+      "Saka"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 234,
+    "questionId": 234,
+    "question": "As a teenager I played the full 90 minutes of a historic 4-0 League Cup win over Manchester United.\nI was later voted PFA Young Player of the Year two years running.\nI've played with Weghorst, Iwobi & Bale.",
+    "acceptableAnswers": [
+      "Dele Alli",
+      "Alli"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 235,
+    "questionId": 235,
+    "question": "I once had to wear a protective mask for every match of a World Cup campaign due to an orbital fracture.\nIn 2025 I finally won my first major trophy, ending a long drought for my club in the process.\nI've played with the likes of Çalhanoğlu, Maddison & Min-jae Kim.",
+    "acceptableAnswers": [
+      "Son Heung-min",
+      "Son",
+      "Heung-min Son"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 236,
+    "questionId": 236,
+    "question": "I once became the first teenager to reach double figures in a season for my club in over 20 years.\nI later moved to Saudi Arabia for a fee of £60 million.\nI've been managed by Unai Emery & Mikel Arteta.",
+    "acceptableAnswers": [
+      "Gabriel Martinelli",
+      "Martinelli"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 237,
+    "questionId": 237,
+    "question": "I was injured during an attack by my own club's supporters at our training ground in 2018.\nDespite this, the following year I became my nation's highest-scoring midfielder in a single season.\nI've been managed by Jorge Jesus, Ole Gunnar Solskjær & Erik ten Hag.",
+    "acceptableAnswers": [
+      "Bruno Fernandes",
+      "Fernandes"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 238,
+    "questionId": 238,
+    "question": "I wear a squad number my club hadn't given to anyone since 2003.\nIn 2024, I scored my first goal for them with a strike from 50 yards out.\nI've played alongside Hincapié, Colwill & Trossard",
+    "acceptableAnswers": [
+      "Moisés Caicedo",
+      "Caicedo",
+      "Moises Caicedo"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 239,
+    "questionId": 239,
+    "question": "I scored a last minute winner against Iceland to send my country to Euro 2020.\nIn 2025, I became the first player from my nation to win the Premier League.\nI've played with Dani Olmo, André Silva & Ibrahima Konaté.",
+    "acceptableAnswers": [
+      "Dominik Szoboszlai",
+      "Szoboszlai"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 240,
+    "questionId": 240,
+    "question": "I was born in Leeds and grew up supporting Leeds United.\nYet I once scored nine goals in a single match at an Under-20 World Cup, for a different country.\nI've played with Minamino, Bellingham & Ødegaard.",
+    "acceptableAnswers": [
+      "Erling Haaland",
+      "Haaland"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 241,
+    "questionId": 241,
+    "question": "During my first professional season, I struggled so much in front of goal that I was sometimes in tears in the dressing room.\nYears later I became the first player to win the Premier League Golden Boot, Player of the Season and Playmaker award in the same campaign.\nI've played with Gilardino, Nainggolan & Fernando Torres.",
+    "acceptableAnswers": [
+      "Mohamed Salah",
+      "Salah"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 242,
+    "questionId": 242,
+    "question": "I won the Golden Ball after my country's successful Under-17 World Cup campaign in 2017.\nThe following year I became the youngest player ever to receive a Premier League winner's medal.\nI've played with Harry Kane & Bernardo Silva.",
+    "acceptableAnswers": [
+      "Phil Foden",
+      "Foden"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 243,
+    "questionId": 243,
+    "question": "I later became the youngest player ever to win six major trophies for an English club.\nI've played alongside Coutinho, Bellingham & Valverde.",
+    "acceptableAnswers": [
+      "Trent Alexander-Arnold",
+      "Alexander-Arnold"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 244,
+    "questionId": 244,
+    "question": "A bout of malaria once left me unable to earn a move after trials with two Belgian clubs.\nYears later I became the first African to finish as Serie A's top scorer.\nI've been managed by Galtier, Gattuso & Okan Buruk.",
+    "acceptableAnswers": [
+      "Victor Osimhen",
+      "Osimhen"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 245,
+    "questionId": 245,
+    "question": "I became the most expensive goalkeeper in my club's history when I signed for them in 2021.\nFollowing a run of form that saw me named in the PFA Team of the Year, I was relegated to the bench.\nI've played with Sander Berge, Arnaut Danjuma & Tyler Dibling.",
+    "acceptableAnswers": [
+      "Aaron Ramsdale",
+      "Ramsdale"
+    ],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 246,
+    "questionId": 246,
+    "question": "I was released by my boyhood club at thirteen and later spent a loan spell in League Two with Wycombe Wanderers.\nIn 2025 I scored the only goal in an FA Cup final to win my club's first ever major trophy.\nI've been managed by Steve McClaren & Patrick Vieira.",
+    "acceptableAnswers": [
+      "Eberechi Eze",
+      "Eze"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 247,
+    "questionId": 247,
+    "question": "During my first World Cup I won the Young Player Award, but in the 2026 final I became the first player to be sent off since 2010.\nUnfortunately I'm also well known for a six-month driving ban involving a Porsche Cayenne.\nI've been managed by Maresca, Pochettino & Roger Schmidt",
+    "acceptableAnswers": [
+      "Enzo Fernández",
+      "Fernández",
+      "Enzo Fernandez",
+      "Fernandez"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 248,
+    "questionId": 248,
+    "question": "While on loan in League Two, I played the full 90 minutes as we knocked Leicester City out of the FA Cup.\nYears later I scored the only goal in an FA Cup final to secure a trophy for my club.\nI've been managed by Andoni Iraola & Pep Guardiola.",
+    "acceptableAnswers": [
+      "Antoine Semenyo",
+      "Semenyo"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 249,
+    "questionId": 249,
+    "question": "I performed so impressively during a loan spell at Porto that my parent club paid a €7 million penalty fee just to cancel the option for them to buy me.\nFollowing my return, I became a mainstay in a side that won five Champions Leagues.\nI've played with Luka Jović, Ødegaard & Manuel Ugarte.",
+    "acceptableAnswers": [
+      "Casemiro"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 250,
+    "questionId": 250,
+    "question": "I've scored the winning goals in both a Champions League final and a Club World Cup final.\nIn 2026, I became the first German ever to score in two different Champions League finals.\nI've played with Moussa Diaby, Hakan Çalhanoğlu & Kepa Arrizabalaga.",
+    "acceptableAnswers": [
+      "Kai Havertz",
+      "Havertz"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 251,
+    "questionId": 251,
+    "question": "Early in my career I was often accused of benefiting from manager favouritism for both club and country.\nYet I eventually became the first graduate of my academy to reach 50 appearances in a single season.\nI've played with Milot Rashica, Christian Pulisic & Alejandro Garnacho.",
+    "acceptableAnswers": [
+      "Mason Mount",
+      "Mount"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 252,
+    "questionId": 252,
+    "question": "I spent my first full senior season on loan at Sambonifacese.\nYears later, I became the only Italian player to be named UEFA Men's Player of the Year.\nI've played with Luca Toni, Allan & Christian Pulisic.",
+    "acceptableAnswers": [
+      "Jorginho"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 253,
+    "questionId": 253,
+    "question": "I've had the humiliation of being subbed off after coming on at half-time, reacting angrily to my manager in the process.\nDespite this, I later helped my club win their first major domestic trophy in 70 years.\nI've played with the likes of James Rodríguez, Bruno Guimarães & Tonali.",
+    "acceptableAnswers": [
+      "Anthony Gordon",
+      "Gordon"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 254,
+    "questionId": 254,
+    "question": "I was eligible to represent Spain before eventually earning my senior cap for Brazil.\nIn 2025 I became the first captain of my English club in 70 years to lift a domestic trophy.\nI've played with the likes of Rayan Cherki, Alexander Isak & Lucas Paquetá.",
+    "acceptableAnswers": [
+      "Bruno Guimarães",
+      "Guimarães",
+      "Bruno Guimaraes",
+      "Guimaraes"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 255,
+    "questionId": 255,
+    "question": "After starting my career at Estrela da Amadora I moved to one of my country's biggest academies, where I initially played as a midfielder.\nYears later I helped my club secure a continental treble in 2023.\nI've been managed by Pep Guardiola & Rui Vitória.",
+    "acceptableAnswers": [
+      "Rúben Dias",
+      "Dias",
+      "Ruben Dias"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 256,
+    "questionId": 256,
+    "question": "I've won the Golden Boot at a Copa América, though I only finished third with my country that tournament.\nFollowing my time in Portugal, I moved to England where I was named man of the match in an FA Cup final.\nI've played with Evanilson, Vitinha & Min-jae Kim.",
+    "acceptableAnswers": [
+      "Luis Díaz",
+      "Díaz",
+      "Luis Diaz",
+      "Diaz"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 257,
+    "questionId": 257,
+    "question": "My first professional club received a sell-on fee from my later move that was larger than any transfer fee they had ever received in their history.\nIn 2022-23 I found great success after being moved into midfield.\nI've played with the likes of Samuel Eto'o, Cole Palmer & Rodri.",
+    "acceptableAnswers": [
+      "John Stones",
+      "Stones"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 258,
+    "questionId": 258,
+    "question": "Early in my career I spent a loan spell in Scotland, where I managed to score a last-minute winner against Rangers.\nIn 2021 I won the FA Cup, though I only appeared as a substitute in the final.\nI've been managed by Brendan Rodgers & Ange Postecoglou",
+    "acceptableAnswers": [
+      "James Maddison",
+      "Maddison"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 259,
+    "questionId": 259,
+    "question": "After playing once for the France under-21s, I switched my international allegiance.\nIn 2015 I became the first player from my nation to be named African Footballer of the Year.\nI've been managed by Klopp, Emery & De Zerbi.",
+    "acceptableAnswers": [
+      "Pierre-Emerick Aubameyang",
+      "Aubameyang"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 260,
+    "questionId": 260,
+    "question": "I made my first-team debut as a sixteen-year-old, in the FA Cup.\nFollowing my time there, I won the European Under-21 Championship in 2023, though I was sent off in the final.\nI've played with Patrick Cutrone, Douglas Luiz & Brennan Johnson.",
+    "acceptableAnswers": [
+      "Morgan Gibbs-White",
+      "Gibbs-White"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 261,
+    "questionId": 261,
+    "question": "I represented England from under-19 level up to the under-21s, including winning a global tournament in 2017.\nYet I later switched my allegiance to Nigeria, with whom I finished as runners-up at the 2023 Africa Cup of Nations.\nI've played with Gylfi Sigurdsson, Patrik Schick & Teun Koopmeiners.",
+    "acceptableAnswers": [
+      "Ademola Lookman",
+      "Lookman"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 262,
+    "questionId": 262,
+    "question": "I once had a two-month trial at the Scottish club St Mirren, but I left because of the cold weather.\nYears later I became the first African player to win the PFA Players' Player of the Year award.\nI've played with Kramarić, Ndidi & Gündoğan.",
+    "acceptableAnswers": [
+      "Riyad Mahrez",
+      "Mahrez"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 263,
+    "questionId": 263,
+    "question": "I became the youngest ever goalscorer in the top flight for my first professional club.\nFollowing a loan spell in Italy, I moved to England where I once became the first teenager to score for my club in the Premier League.\nI've played with Milinković-Savić, Diego Costa & Levi Colwill.",
+    "acceptableAnswers": [
+      "Pedro Neto",
+      "Neto"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 264,
+    "questionId": 264,
+    "question": "Despite my success at club level, I was controversially left out of my country's squad for the 2010 World Cup.\nYears later I set a record as the oldest player to score a hat-trick in the Champions League era.\nFollowing my time in Spain, I led my new club to a Saudi Pro League title as captain.",
+    "acceptableAnswers": [
+      "Karim Benzema",
+      "Benzema"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 265,
+    "questionId": 265,
+    "question": "Early in my career I was offered a move to Sporting Gijón, but they rejected me.\nYears later I became the first player to score Champions League hat-tricks for three different clubs.\nI've played with Götze, Douglas Costa & Marcus Rashford.",
+    "acceptableAnswers": [
+      "Robert Lewandowski",
+      "Lewandowski"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 266,
+    "questionId": 266,
+    "question": "I failed a trial with my boyhood club at the age of nine, yet in 2017 I won the EFL Young Player of the Year award.\nDespite being a striker, I was named the Premier League's Playmaker of the Season in 2024.\nI've played with Harry Kane, Tielemans & Elliot Anderson.",
+    "acceptableAnswers": [
+      "Ollie Watkins",
+      "Watkins"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 267,
+    "questionId": 267,
+    "question": "I was the first foreign-born player in the Eredivisie to score 12 goals in my first 12 league games.\nFollowing this, I moved to La Liga where I won the Copa del Rey.\nI've played with Pavlidis, Sokratis & Mikel Merino.",
+    "acceptableAnswers": [
+      "Alexander Isak",
+      "Isak"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 268,
+    "questionId": 268,
+    "question": "I spent a short spell at Dinamo Batumi before moving to Italy, where I became the first player in my club's history to score three goals in the opening two league matches.\nIn 2025 I moved to France for €70 million and won a continental treble in my debut season.\nI've played with Osimhen, Fabián Ruiz & Vitinha.",
+    "acceptableAnswers": [
+      "Khvicha Kvaratskhelia",
+      "Kvaratskhelia",
+      "Kvara"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 269,
+    "questionId": 269,
+    "question": "I was released from the Manchester United academy at the age of 14.\nWithin a week I went on trial at another club in the north-west, where I eventually broke into the first team.\nI've since been managed by Sean Dyche at two different clubs.",
+    "acceptableAnswers": [
+      "Dwight McNeil",
+      "McNeil"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 270,
+    "questionId": 270,
+    "question": "In 2020 I finished just one goal short of the Premier League Golden Boot.\nFollowing my time on the south coast, I moved to the Midlands.\nI've played with the likes of Coutinho, Rice & Paquetá.",
+    "acceptableAnswers": [
+      "Danny Ings",
+      "Ings"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 271,
+    "questionId": 271,
+    "question": "In 2025 I won both the FA Cup and Community Shield with my club.\nI've also had the honour of helping England finish third at the 2026 World Cup.\nThroughout my career I've been managed by Chris Wilder, Ole Gunnar Solskjær & Oliver Glasner.",
+    "acceptableAnswers": [
+      "Dean Henderson",
+      "Henderson"
+    ],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 272,
+    "questionId": 272,
+    "question": "Before turning professional, I combined non-League football with a job making medical splints.\nYears later I became the oldest player to win the Premier League Golden Boot.\nI've played with Kanté, Mahrez & Franco Vázquez.",
+    "acceptableAnswers": [
+      "Jamie Vardy",
+      "Vardy"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 273,
+    "questionId": 273,
+    "question": "Before making my senior international debut, I was undecided whether to represent the country of my birth or Albania.\nIn 2023-24 I won a league title in Germany, and by November 2024 I had broken the record for most caps for my nation.\nI've been managed by Wenger, Alonso & Le Bris.",
+    "acceptableAnswers": [
+      "Granit Xhaka",
+      "Xhaka"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 274,
+    "questionId": 274,
+    "question": "I started my professional career as a scholar at Hereford United.\nAfter moving to the Premier League, I once scored in five successive away games, a feat only two players had managed before me.\nI've played with Robertson, Maguire & Kudus.",
+    "acceptableAnswers": [
+      "Jarrod Bowen",
+      "Bowen"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 275,
+    "questionId": 275,
+    "question": "While in the academy at my first professional club, I secretly trained with non-League Havant & Waterlooville to toughen myself up.\nIn 2021, I became the first player in Premier League history to play every single minute of two consecutive seasons.\nI've played with the likes of Mané, Paquetá & Kyle Walker.",
+    "acceptableAnswers": [
+      "James Ward-Prowse",
+      "Ward-Prowse"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 276,
+    "questionId": 276,
+    "question": "The only goal ever scored by a goalkeeper from open play in a FIFA finals tournament was conceded by me.\nYears later, I became the first to keep clean sheets in the first five games of a European Championship.\nI've played with the likes of James Rodríguez, Dele Alli & Wayne Rooney.",
+    "acceptableAnswers": [
+      "Jordan Pickford",
+      "Pickford"
+    ],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 277,
+    "questionId": 277,
+    "question": "I made my international debut before ever appearing in a top division, a feat only three other players have achieved in this century.\nFollowing that call up, I started every game for my country during our run to the Euro 2020 final.\nI've been managed by Marcelo Bielsa & David Moyes.",
+    "acceptableAnswers": [
+      "Kalvin Phillips",
+      "Phillips"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 278,
+    "questionId": 278,
+    "question": "I once made my senior international debut as a substitute for Raheem Sterling.\nAlthough I represented England early on, I later switched allegiance to the Ivory Coast in 2016.\nI've been managed by Roy Hodgson & played alongside Lacazette and Matic.",
+    "acceptableAnswers": [
+      "Wilfried Zaha",
+      "Zaha"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 279,
+    "questionId": 279,
+    "question": "During a loan spell in 2011 I scored on my debut against my former club and later found the net from 30 yards against Fulham.\nYears later, I volunteered to go in goal for ten minutes during a Champions League match against Atalanta.\nI've been managed by Pochettino, Conceição & Scott Parker.",
+    "acceptableAnswers": [
+      "Kyle Walker",
+      "Walker"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 280,
+    "questionId": 280,
+    "question": "My family are Manchester United fans, yet I chose to join the academy of their biggest rivals instead.\nYears later I became the first English player in 95 years to play for Atlético Madrid.\nI've been managed by Mauricio Pochettino, Diego Simeone & Eddie Howe.",
+    "acceptableAnswers": [
+      "Kieran Trippier",
+      "Trippier"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 281,
+    "questionId": 281,
+    "question": "I spent seven years of my childhood as a refugee, living in two different hotels.\nAt just 18, I was named Player of the Year in the Bosnian Premier League.\nI've been managed by Mourinho, Zidane & Allegri.",
+    "acceptableAnswers": [
+      "Luka Modrić",
+      "Modrić",
+      "Luka Modric",
+      "Modric"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 282,
+    "questionId": 282,
+    "question": "Due to a mistake made at the post office, my first and middle names were registered in the wrong order on my birth certificate.\nI once held the record for the most own goals scored by a goalkeeper in Premier League history.\nI've been managed by Wenger, Gerrard & Emery.",
+    "acceptableAnswers": [
+      "Emiliano Martínez",
+      "Martínez",
+      "Emiliano Martinez",
+      "Martinez"
+    ],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 283,
+    "questionId": 283,
+    "question": "At the 2022 World Cup I set up a winning goal that was first ruled out, until VAR stepped in.\nI've since won several Premier League Goal of the Month awards.\nI've been managed by Felice Mazzù & Roberto De Zerbi.",
+    "acceptableAnswers": [
+      "Kaoru Mitoma",
+      "Mitoma"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 284,
+    "questionId": 284,
+    "question": "I was once described as the best loan signing in Newport County's history.\nAfter leaving a World Cup for personal reasons in 2022, I stayed away from my national team for years, then scored on my return in 2026.\nI've played with Mac Allister, Sterling & Robert Sánchez.",
+    "acceptableAnswers": [
+      "Ben White",
+      "White"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 285,
+    "questionId": 285,
+    "question": "In 2015 I famously failed to show up for a medical with West Ham after reports claimed I had overslept.\nInstead I signed for a club in Portugal, where I won two consecutive league titles.\nI've been managed by Nuno Espírito Santo & Marco Silva.",
+    "acceptableAnswers": [
+      "Raúl Jiménez",
+      "Jiménez",
+      "Raul Jimenez",
+      "Jimenez"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 286,
+    "questionId": 286,
+    "question": "In early 2025 I was hospitalised after a head injury in the FA Cup that required 25 stitches and left me wearing a mask.\nDespite this, I made my senior international debut later that year and played in the 2026 World Cup.\nI've played with Awoniyi, Olise & Zaha.",
+    "acceptableAnswers": [
+      "Jean-Philippe Mateta",
+      "Mateta"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 287,
+    "questionId": 287,
+    "question": "I've played club football in South Korea and in Brazil, where I became the first British player to score in the Copa do Brasil.\nYears before, I'd played for my country at the 2018 World Cup, where we finished fourth.\nI've been managed by van Gaal, Mourinho & Moyes.",
+    "acceptableAnswers": [
+      "Jesse Lingard",
+      "Lingard"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 288,
+    "questionId": 288,
+    "question": "During a loan spell in Germany, my time was cut short after I collided with a tram and presented a fake driving licence.\nYears later I made my mark in the Premier League before moving to Saudi Arabia.\nI've been managed by Steve Bruce & José Mourinho.",
+    "acceptableAnswers": [
+      "Allan Saint-Maximin",
+      "Saint-Maximin"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 289,
+    "questionId": 289,
+    "question": "I was in the squad that won the 2017 Under-20 World Cup, though I played just a single minute of the tournament.\nIn 2026 I won the Europa League.\nI've played with Clément Lenglet, Nicolò Zaniolo & Nico O'Reilly.",
+    "acceptableAnswers": [
+      "Ezri Konsa",
+      "Konsa"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 290,
+    "questionId": 290,
+    "question": "In the 2021-22 Premier League season I tied the record for the most times hitting the woodwork in a single campaign.\nAfter six seasons in London, I moved north in 2025.\nI've played with Ivan Toney, David Raya & Joshua Zirkzee.",
+    "acceptableAnswers": [
+      "Bryan Mbeumo",
+      "Mbeumo"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 291,
+    "questionId": 291,
+    "question": "I spent a brief period playing in the Austrian Bundesliga before moving to Italy.\nIn 2024 I became the first player from my country to win the Premier League Player of the Month award.\nI've played with the likes of Koopmeiners, McTominay & De Bruyne.",
+    "acceptableAnswers": [
+      "Rasmus Højlund",
+      "Højlund",
+      "Rasmus Hojlund",
+      "Hojlund"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 292,
+    "questionId": 292,
+    "question": "After being banned for ten months for breaching betting regulations, I returned to football in August 2024.\nIn March 2025 I helped my club win their first major domestic trophy in 70 years.\nI've played with the likes of Leão, Bruno Guimarães & Malick Thiaw.",
+    "acceptableAnswers": [
+      "Sandro Tonali",
+      "Tonali"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 293,
+    "questionId": 293,
+    "question": "I scored on my senior international debut against Peru in 2019.\nYears later I became only the second Uruguayan to win the Premier League.\nI've been managed by Jorge Jesus, Jürgen Klopp & Arne Slot.",
+    "acceptableAnswers": [
+      "Darwin Núñez",
+      "Núñez",
+      "Darwin Nunez",
+      "Nunez"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 294,
+    "questionId": 294,
+    "question": "I originally played futsal for a club in Recife before moving to Europe as an 18-year-old to join Sion.\nI later scored a Bundesliga goal that was nominated for the FIFA Puskás Award.\nI've played with Sami Khedira, Krzysztof Piątek & Diego Costa.",
+    "acceptableAnswers": [
+      "Matheus Cunha",
+      "Cunha"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 295,
+    "questionId": 295,
+    "question": "At the age of 22 I registered for unemployment and began looking for jobs outside of football.\nFortunately I found my way back into the game, eventually moving to England where I won the Champions League.\nI've played with Camavinga, Raphinha & Lukaku",
+    "acceptableAnswers": [
+      "Édouard Mendy",
+      "Mendy",
+      "Edouard Mendy"
+    ],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 296,
+    "questionId": 296,
+    "question": "I was once forced to watch a Champions League match from inside the club coach as punishment for an altercation with a taxi driver.\nDespite this, I went on to win the FA Cup and Club World Cup during my time in London.\nI've played with Aaron Ramsey, Carlton Morris & Andros Townsend.",
+    "acceptableAnswers": [
+      "Ross Barkley",
+      "Barkley"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 297,
+    "questionId": 297,
+    "question": "I made my senior England debut in 2018, scoring on my first appearance.\nIncredibly, I then went three years without another call-up before being named in the squad for the 2022 World Cup.\nI've played with the likes of Isak, Bowen & Solanke.",
+    "acceptableAnswers": [
+      "Callum Wilson",
+      "Wilson"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 298,
+    "questionId": 298,
+    "question": "I won the Golden Ball as the best player of a FIFA U-17 World Cup.\nAfter moving to England, I became the first player in English football to be awarded a goal by VAR.\nI've been managed by Pep Guardiola & Brendan Rodgers.",
+    "acceptableAnswers": [
+      "Kelechi Iheanacho",
+      "Iheanacho"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 299,
+    "questionId": 299,
+    "question": "On my 20th birthday I scored in a final at Wembley to win my first piece of silverware.\nYears later I scored my country's first ever goal at a Copa América.\nI've been managed by Alan Pardew & David Moyes.",
+    "acceptableAnswers": [
+      "Michail Antonio",
+      "Antonio"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 300,
+    "questionId": 300,
+    "question": "I once scored the winning goal in an Asian Games final, which exempted me from military service.\nAt a World Cup I scored a stoppage-time winner against Portugal to send us through to the Round of 16.\nI've been managed by Julian Nagelsmann & Gary O'Neil.",
+    "acceptableAnswers": [
+      "Hwang Hee-chan",
+      "Hwang",
+      "Hee-chan Hwang"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 301,
+    "questionId": 301,
+    "question": "I spent six seasons as a mainstay for one English club, but only won the Premier League after leaving them.\nEven then, I made just seven league appearances that season.\nI've played with Daniel Agger, Johan Elmander & Ivan Toney.",
+    "acceptableAnswers": [
+      "Christian Nørgaard",
+      "Nørgaard",
+      "Christian Norgaard",
+      "Norgaard"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 302,
+    "questionId": 302,
+    "question": "I became the first player from my country to score in the group stage of the Champions League.\nAfter moving to England, I scored four goals in a single Europa League match.\nI've played with Tielemans & Wesley Fofana.",
+    "acceptableAnswers": [
+      "Patson Daka",
+      "Daka"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 303,
+    "questionId": 303,
+    "question": "I was in England's squads for Euro 2020 and the 2022 World Cup, yet I didn't play a single minute at either.\nI was once named in UEFA's Squad of the Season after playing every minute of a Europa League campaign.\nI've played with Vitinha, Anthony Gordon & Wilfred Ndidi.",
+    "acceptableAnswers": [
+      "Conor Coady",
+      "Coady"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": true,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 304,
+    "questionId": 304,
+    "question": "I joined my first professional academy from Paris FC in return for the club covering my tuition fees of €5,000.\nIn 2023 I switched from representing France at youth level to playing for Algeria.\nI've played with Vitinha, Angelo Fulgini & Erling Haaland.",
+    "acceptableAnswers": [
+      "Rayan Aït-Nouri",
+      "Aït-Nouri",
+      "Rayan Ait-Nouri",
+      "Ait-Nouri"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 305,
+    "questionId": 305,
+    "question": "I learned to play football in a military barracks in Nigeria.\nFollowing my move to Europe, I finished as the joint top scorer of the 2022-23 Europa League.\nI've played with the likes of Xhaka, Adingra & Mario Hermoso.",
+    "acceptableAnswers": [
+      "Victor Boniface",
+      "Boniface"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 306,
+    "questionId": 306,
+    "question": "In July 2021 I completed a degree in Business Management through the Open University.\nFollowing this I won the Serie A title with my club in 2022.\nI've played alongside Leão, Donnarumma & Kanté.",
+    "acceptableAnswers": [
+      "Fikayo Tomori",
+      "Tomori"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 307,
+    "questionId": 307,
+    "question": "In 2017 I won the Ebony Shoe award for the best player of African origin in Belgium.\nFollowing my time in Ligue 1 and the Midlands, I helped my club win a European trophy in 2026.\nI've been managed by Leonardo Jardim, Brendan Rodgers & Unai Emery.",
+    "acceptableAnswers": [
+      "Youri Tielemans",
+      "Tielemans"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 308,
+    "questionId": 308,
+    "question": "The fee paid for my move to the Premier League in 2020 was enough to cover the running costs of my childhood club for ten years.\nBy February 2026 I had become the highest scoring Czech player in that league's history.\nI've been managed by David Moyes & played alongside Felipe Anderson, Adam Hlozek & Axel Disasi.",
+    "acceptableAnswers": [
+      "Tomáš Souček",
+      "Souček",
+      "Tomas Soucek",
+      "Soucek"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 309,
+    "questionId": 309,
+    "question": "Early in my career I spent a loan spell at Northampton Town in League Two, where I scored eight goals in 26 appearances.\nYears later I became the first player for Leeds United to be named Premier League Player of the Month since 2001.\nI've played alongside Wayne Rooney & Sean Longstaff.",
+    "acceptableAnswers": [
+      "Dominic Calvert-Lewin",
+      "Calvert-Lewin"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 310,
+    "questionId": 310,
+    "question": "I once finished a Premier League season as the player with the most clearances in the division.\nAlthough I've had two separate spells at the same London club, I only scored my first international goal in October 2025.\nI've been managed by Patrick Vieira & Marco Silva and played alongside Duván Zapata.",
+    "acceptableAnswers": [
+      "Joachim Andersen",
+      "Andersen"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 311,
+    "questionId": 311,
+    "question": "I spent four consecutive seasons on loan before I finally scored my first league goal for my parent club.\nI won the Premier League and then moved to Turkey.\nI've played with the likes of Ndidi, Caicedo & Sterling.",
+    "acceptableAnswers": [
+      "Leandro Trossard",
+      "Trossard"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 312,
+    "questionId": 312,
+    "question": "I spent a year on loan at Cultural Leonesa before moving to England.\nIn 2021 I won the EFL Championship Player of the Season award after scoring 15 league goals.\nI've played with Todd Cantwell, Pablo Sarabia & Florian Wirtz.",
+    "acceptableAnswers": [
+      "Emiliano Buendía",
+      "Buendía",
+      "Emiliano Buendia",
+      "Buendia"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 313,
+    "questionId": 313,
+    "question": "At a World Cup I scored my nation's first ever goal and first ever win in the tournament.\nAlthough born in France, I chose to represent a different country.\nI've been managed by Thomas Frank & Eddie Howe.",
+    "acceptableAnswers": [
+      "Yoane Wissa",
+      "Wissa"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 314,
+    "questionId": 314,
+    "question": "I spent six months on loan at Coventry City early in my career.\nIn 2019 I became the first player to win the England Player of the Year award at both U21 and senior level.\nI've played with the likes of Suárez, Bergwijn & Weghorst.",
+    "acceptableAnswers": [
+      "Jordan Henderson",
+      "Henderson"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 315,
+    "questionId": 315,
+    "question": "After representing France at youth level, I switched my allegiance to Guinea.\nIn 2024 I set a Bundesliga record for the most goals scored in the first seven matches of a season.\nI've played with Doku, Raphinha & Zagadou.",
+    "acceptableAnswers": [
+      "Serhou Guirassy",
+      "Guirassy"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 316,
+    "questionId": 316,
+    "question": "I've played at centre-back for my national team, and one of my goals was later commemorated on a £20 bank note.\nI've also won a league title in Italy and been named the league's MVP.\nI've played with Cavani, Lobotka & David Neres.",
+    "acceptableAnswers": [
+      "Scott McTominay",
+      "McTominay"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 317,
+    "questionId": 317,
+    "question": "I once played rock, paper, scissors with a team-mate on the pitch to decide who would take a penalty.\nI have since won every one of UEFA's club competitions.\nI've played with Wilfried Bony, Georginio Wijnaldum & Wilfred Ndidi.",
+    "acceptableAnswers": [
+      "Tammy Abraham",
+      "Abraham"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 318,
+    "questionId": 318,
+    "question": "Initially a goalkeeper, I was released by my boyhood club at age 11.\nYears later I returned to them and scored in a domestic cup final to help secure their first trophy since 1955.\nI've played with the likes of Mac Allister, Trossard & Guimarães.",
+    "acceptableAnswers": [
+      "Dan Burn",
+      "Burn"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": true,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 319,
+    "questionId": 319,
+    "question": "I began my professional career in the second tier of Dutch football with Emmen.\nIn 2022 I scored twice in a World Cup quarter-final, only to be involved in a viral post-match confrontation with Lionel Messi.\nI've played with the likes of Dele Alli, Casemiro & Bruno Fernandes.",
+    "acceptableAnswers": [
+      "Wout Weghorst",
+      "Weghorst"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 320,
+    "questionId": 320,
+    "question": "Despite being a former French youth international, I once personally requested that Lionel Scaloni consider me for the Argentinian national team.\nI'm also well known for equaling a club record for goals in the Premier League during my time in Sussex.\nI've been managed by Claude Puel, Sean Dyche & Roberto De Zerbi",
+    "acceptableAnswers": [
+      "Neal Maupay",
+      "Maupay"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 321,
+    "questionId": 321,
+    "question": "At UEFA Euro 2020 I became the first non-white player to play for Scotland at the finals of a major tournament.\nAlthough born in England, I committed my allegiance to the Scots in 2021.\nI've been managed by Hasenhüttl & played alongside Højbjerg and Simeone",
+    "acceptableAnswers": [
+      "Che Adams",
+      "Adams"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 322,
+    "questionId": 322,
+    "question": "I was once signed on loan by Darren Ferguson for a spell at Preston North End.\nIn 2025 I became the all-time top Premier League scorer for my club.\nI've played with the likes of Mac Allister, Aubameyang & Torreira.",
+    "acceptableAnswers": [
+      "Danny Welbeck",
+      "Welbeck"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 323,
+    "questionId": 323,
+    "question": "I scored the fastest goal by a debutant in Premier League history, 28 seconds after coming on.\nBefore that, I became the first player from my country to be named SFWA Footballer of the Year in Scotland.\nI've played with Frimpong, Olise & Saint-Maximin.",
+    "acceptableAnswers": [
+      "Odsonne Édouard",
+      "Édouard",
+      "Odsonne Edouard",
+      "Edouard"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 324,
+    "questionId": 324,
+    "question": "I spent two years on loan in Austria, where I scored an added-time winner to send my club to a cup final for the first time in 12 years.\nFollowing my return to Germany, I scored a Champions League equaliser against Lyon.\nI've played with Gregor Kobel & Sandro Tonali.",
+    "acceptableAnswers": [
+      "Joelinton"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 325,
+    "questionId": 325,
+    "question": "I only made my senior international debut at the age of 32.\nFollowing this I was selected for both a European Championship and a World Cup squad.\nI've played alongside the likes of Niklas Süle, Ben White & Moisés Caicedo.",
+    "acceptableAnswers": [
+      "Pascal Groß",
+      "Groß",
+      "Pascal Gross",
+      "Gross"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": true,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 326,
+    "questionId": 326,
+    "question": "I moved to Sevilla as a teenager, but only made a single La Liga appearance before returning home.\nYears later I became my country's all-time leading goalscorer.\nI've played with the likes of Van Dijk, Matip & Draxler.",
+    "acceptableAnswers": [
+      "Teemu Pukki",
+      "Pukki"
+    ],
+    "clues": {
+      "GK": false,
+      "DEF": false,
+      "MID": false,
+      "FWD": true,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 327,
+    "questionId": 327,
+    "question": "I didn't start playing football until I was 14, and only took it up to stay in shape for basketball and baseball.\nYet I went on to become the first goalkeeper in New England Revolution history to be named MLS Goalkeeper of the Year.\nI've since played under Mikel Arteta & Nuno Espírito Santo.",
+    "acceptableAnswers": [
+      "Matt Turner",
+      "Turner"
+    ],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": false
+    },
+    "category": "2020s"
+  },
+  {
+    "id": 328,
+    "questionId": 328,
+    "question": "I spent the early part of my career on loan at seven different clubs, including a spell with my hometown team.\nWith that club I kept a clean sheet in a 4-0 win at Wembley to secure promotion to the Championship.\nI've since played with the likes of Conor Gallagher, Marc Guéhi & Matheus Cunha.",
+    "acceptableAnswers": [
+      "Sam Johnstone",
+      "Johnstone"
+    ],
+    "clues": {
+      "GK": true,
+      "DEF": false,
+      "MID": false,
+      "FWD": false,
+      "RET": false,
+      "ENG": true
+    },
+    "category": "2020s"
   }
 ]

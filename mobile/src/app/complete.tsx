@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { Share, StyleSheet, Text, View } from 'react-native';
 import Animated, { FadeInDown, FadeInUp, ZoomIn } from 'react-native-reanimated';
 
-import { currentStreak, PACKS, PackId, questionsIn } from '../lib/game';
+import { PACKS, PackId, questionsIn } from '../lib/game';
 import { useProgress } from '../state/progress';
 import { Button } from '../ui/Button';
 import { Confetti } from '../ui/Confetti';
@@ -31,17 +31,22 @@ export default function Complete() {
 
   if (!pack) return <Redirect href="/" />;
   const qs = questionsIn(pack.id);
-  const clean = qs.filter((q) => s.answered.includes(q.id) && !(s.clues[q.id] ?? 0) && !(s.letters[q.id] ?? 0)).length;
-  const streak = currentStreak(s.streak);
+  // Total guesses to finish the pack: clues and letters are there to be used, so they don't count
+  // against you. Questions solved before guesses were counted (Nov 2026) count as one each.
+  const guesses = qs.reduce((n, q) => n + Math.max(s.guesses?.[q.id] ?? 0, 1), 0);
+  // How many days the pack took, first answer to last (Lewis, Nov 2026). Only when every answer has a
+  // date: questions solved before dates were kept, or carried over from 2019, have none.
+  const days = qs.map((q) => s.solvedOn?.[q.id]).filter((d): d is number => d !== undefined);
+  const took = days.length === qs.length ? Math.max(...days) - Math.min(...days) + 1 : null;
   const colour = PACK_COLOUR[pack.id];
 
   const share = () =>
-    Share.share({ message: `I finished ${pack.title} on Football Who Am I: all ${qs.length}, ${clean} without a single clue. How well do you know your football?` }).catch(() => {});
+    Share.share({ message: `I finished ${pack.title} on Football Who Am I: all ${qs.length} in ${guesses} guesses. How well do you know your football?` }).catch(() => {});
 
   const stats = [
     { n: qs.length, label: 'solved' },
-    { n: clean, label: 'without a clue' },
-    ...(streak > 1 ? [{ n: streak, label: 'days in a row' }] : []),
+    { n: guesses, label: 'guesses' },
+    ...(took ? [{ n: took, label: took === 1 ? 'day' : 'days' }] : []),
   ];
 
   return (
@@ -49,9 +54,14 @@ export default function Complete() {
       <Confetti count={46} />
       <View style={{ alignItems: 'center', marginTop: 48 }}>
         <Animated.View entering={ZoomIn.springify().damping(10).delay(100)}>
-          <LinearGradient colors={[colour, C.purple]} style={styles.medal}>
-            <Icon name="trophy" size={72} color={C.text} />
-          </LinearGradient>
+          {/* The ring is its own circle with the gradient clipped inside it. With the border on the
+              gradient itself, the gradient repeated under the see-through ring and showed a purple
+              sliver at the top (seen in the store screenshots, Nov 2026). */}
+          <View style={styles.medal}>
+            <LinearGradient colors={[colour, C.purple]} style={styles.medalFill}>
+              <Icon name="trophy" size={72} color={C.text} />
+            </LinearGradient>
+          </View>
         </Animated.View>
         <Animated.Text entering={FadeInDown.delay(350)} style={[T.label, { color: colour, marginTop: 24 }]}>
           Pack complete · {qs.length} of {qs.length}
@@ -102,7 +112,8 @@ function CountUp({ to, delay }: { to: number; delay: number }) {
 }
 
 const styles = StyleSheet.create({
-  medal: { width: 156, height: 156, borderRadius: 78, alignItems: 'center', justifyContent: 'center', borderWidth: 4, borderColor: '#ffffff59' },
+  medal: { width: 156, height: 156, borderRadius: 78, borderWidth: 4, borderColor: '#ffffff59', overflow: 'hidden' },
+  medalFill: { flex: 1, alignItems: 'center', justifyContent: 'center' },
   stats: { flexDirection: 'row', gap: 10, marginTop: 28, alignSelf: 'stretch' },
   stat: { flex: 1, alignItems: 'center', gap: 4, paddingVertical: 14, paddingHorizontal: 6, borderRadius: R.md, backgroundColor: C.card, borderWidth: 1, borderColor: C.stroke },
 });

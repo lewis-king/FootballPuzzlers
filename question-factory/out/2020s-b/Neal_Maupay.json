@@ -1,0 +1,125 @@
+{
+ "answer": "Neal Maupay",
+ "acceptableAnswers": [
+  "Neal Maupay",
+  "Maupay"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "READY",
+ "question": "Despite being a former French youth international, I once personally requested that Lionel Scaloni consider me for the Argentinian national team.\nI'm also well known for equaling a club record for goals in the Premier League during my time in Sussex.\nI've been managed by Claude Puel, Sean Dyche & Roberto De Zerbi",
+ "problems": [],
+ "style": {
+  "score": 5,
+  "difficulty": 4,
+  "why": "This is a brilliant question that perfectly captures the 'tricky and thought-provoking' spirit Lewis values. The hook (requesting to play for Argentina) is genuinely surprising and memorable, creating immediate intrigue rather than leading with a standard stat. It avoids the common trap of listing a",
+  "fix": "The draft contains a factual error: Neal Maupay did not equal a club record for goals in the Premier League during his time at Brighton (Sussex). He scored 10 goals in his first season, which was good but not a record-breaking feat that defines him. More importantly, the 'equaling a club record' phr"
+ },
+ "claims": [
+  {
+   "text": "Neal Maupay is a former French youth international.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Maupay is a former French youth international.",
+    "Maupay is a former French youth international."
+   ]
+  },
+  {
+   "text": "Neal Maupay personally requested that Lionel Scaloni consider him for the Argentinian national team.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In February 2022, Maupay reportedly put in a personal request to Argentina coach Lionel Scaloni to consider selecting him for the national team.",
+    "In February 2022, Maupay reportedly put in a personal request to Argentina coach Lionel Scaloni to consider selecting him for the national team."
+   ]
+  },
+  {
+   "text": "Neal Maupay equaled a club record for goals in the Premier League during his time at Brighton & Hove Albion (Sussex).",
+   "final": "SUPPORTED",
+   "quotes": [
+    "equalling Glenn Murray's club record",
+    "Maupay's opener in the 2–0 away victory over Watford on 12 February 2022 was his 26th Premier League goal for the Albion, equalling Glenn Murray's club record."
+   ]
+  },
+  {
+   "text": "Claude Puel has managed Neal Maupay.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > OGC Nice] Was managed by Claude Puel at OGC Nice in 30 matches (2012 to 2014)",
+    "[Squad data > OGC Nice] Was managed by Claude Puel at OGC Nice in 30 matches (2012 to 2014)"
+   ]
+  },
+  {
+   "text": "Sean Dyche has managed Neal Maupay.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Everton FC] Was managed by Sean Dyche at Everton FC in 17 matches (2023)",
+    "[Squad data > Everton FC] Was managed by Sean Dyche at Everton FC in 17 matches (2023)"
+   ]
+  },
+  {
+   "text": "Roberto De Zerbi has managed Neal Maupay.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Olympique Marseille] Was managed by Roberto De Zerbi at Olympique Marseille in 23 matches (2024 to 2025)",
+    "[Squad data > Olympique Marseille] Was managed by Roberto De Zerbi at Olympique Marseille in 23 matches (2024 to 2025)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Neal_Maupay",
+  "revid": 1385906641
+ },
+ "alternatives": [
+  {
+   "question": "When I scored my first Ligue 1 goal, I became the youngest player to do so in the 21st century.\nYears later I equalled a club record for Premier League goals while playing for a team on the south coast.\nI've played with the likes of Mac Allister, Gordon & Greenwood",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "Despite being a former French youth international, I once personally requested that Lionel Scaloni consider me for the Argentinian national team.\nI'm also well known for scoring a Panenka penalty in a game where VAR awarded my opponents a penalty after the final whistle.\nI've been managed by Galtier, Potter & De Zerbi",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "After scoring a last-minute winner against Arsenal, I was targeted with death threats from a fan in Singapore.\nThis led to the first ever prosecution outside the UK for abusing a Premier League player.\nI've shared a pitch with the likes of Sánchez, Rabiot & Onana",
+   "problems": [
+    "claim not stated in the evidence: \"Neal Maupay has shared a pitch with Sánchez, Rabiot & Onana.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I became the youngest player to score a Ligue 1 goal in the 21st century.\nYears later I equalled a club record for Premier League goals while playing for a team on the south coast.\nI've played with the likes of Mac Allister, Gordon & Greenwood",
+   "problems": [
+    "claim not stated in the evidence: \"When Neal Maupay equalled the club record for Premier League goals, he was playing for a team on the south coast.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I became the youngest player to score a Ligue 1 goal in the 21st century.\nYears later I equalled a club record for Premier League goals while playing for a team on the south coast.\nI've played with the likes of Mac Allister, Gordon & Greenwood",
+   "problems": [
+    "claim not stated in the evidence: \"When Neal Maupay equalled the club record for Premier League goals, he was playing for a team on the south coast.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "Although I'm French, I hold Argentinian nationality and once personally requested their manager consider me for the national team.\nIn England I equalled a club record for goals in the top flight before later moving to a Merseyside club.\nI've played with the likes of Sánchez, Højbjerg & Onana",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

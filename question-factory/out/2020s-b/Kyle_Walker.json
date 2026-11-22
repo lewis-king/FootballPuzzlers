@@ -1,0 +1,107 @@
+{
+ "answer": "Kyle Walker",
+ "acceptableAnswers": [
+  "Kyle Walker",
+  "Walker"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "During a loan spell in 2011 I scored on my debut against my former club and later found the net from 30 yards against Fulham.\nYears later, I volunteered to go in goal for ten minutes during a Champions League match against Atalanta.\nI've been managed by Pochettino, Conceição & Scott Parker.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is strong because it avoids the obvious 'fastest defender' or 'England captain' hooks and instead uses a specific, memorable anecdote (volunteering for goal) to create intrigue. The manager list effectively narrows the field without pointing to a single club, as required by the style. \n",
+  "fix": "The first sentence is slightly clunky: \"During a loan spell in 2011 I scored on my debut against my former club and later found the net from 30 yards against Fulham.\" It packs two distinct events into one breathless clause. Consider splitting it or smoothing the transition, e.g., \"I made my loan deb"
+ },
+ "claims": [
+  {
+   "text": "Kyle Walker was on loan in 2011.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "After leaving QPR, Walker joined Premier League club Aston Villa on loan until the end of the 2010–11 season."
+   ]
+  },
+  {
+   "text": "During his 2011 loan spell, Kyle Walker scored on his debut against his former club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He scored on his debut only nine minutes into the match against former club Sheffield United in the third round of the FA Cup in January 2011.",
+    "He scored on his debut only nine minutes into the match against former club Sheffield United in the third round of the FA Cup in January 2011."
+   ]
+  },
+  {
+   "text": "Kyle Walker scored a goal from 30 yards against Fulham during his 2011 loan spell.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "At the start of February, Walker scored his first Premier League goal and first senior league goal, a 30-yard shot into the bottom left corner of the goal against Fulham.",
+    "At the start of February, Walker scored his first Premier League goal and first senior league goal, a 30-yard shot into the bottom left corner of the goal against Fulham."
+   ]
+  },
+  {
+   "text": "Years after the 2011 loan spell, Kyle Walker volunteered to go in goal for ten minutes during a Champions League match against Atalanta.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 6 November, in a UEFA Champions League away match against Atalanta, Walker volunteered to go in goal for the last 10 minutes after substitute goalkeeper Claudio Bravo was sent off; he did not concede and saved a free-kick as the match ended 1–1.",
+    "On 6 November, in a UEFA Champions League away match against Atalanta, Walker volunteered to go in goal for the last 10 minutes after substitute goalkeeper Claudio Bravo was sent off; he did not concede and saved a free-kick as the match ended 1–1."
+   ]
+  },
+  {
+   "text": "Kyle Walker has been managed by Pochettino.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Tottenham Hotspur] Was managed by Mauricio Pochettino at Tottenham Hotspur in 92 matches (2014 to 2017)",
+    "[Squad data > Tottenham Hotspur] Was managed by Mauricio Pochettino at Tottenham Hotspur in 92 matches (2014 to 2017)"
+   ]
+  },
+  {
+   "text": "Kyle Walker has been managed by Conceição.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > AC Milan] Was managed by Sérgio Conceição at AC Milan in 16 matches (2025)",
+    "Was managed by Sérgio Conceição at AC Milan in 16 matches (2025)"
+   ]
+  },
+  {
+   "text": "Kyle Walker has been managed by Scott Parker.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Burnley FC] Was managed by Scott Parker at Burnley FC in 32 matches (2025 to 2026)",
+    "[Squad data > Burnley FC] Was managed by Scott Parker at Burnley FC in 32 matches (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kyle_Walker",
+  "revid": 1384718074
+ },
+ "alternatives": [
+  {
+   "question": "I became the youngest player from my boyhood club ever to play at Wembley Stadium.\nIn 2012 I was named PFA Young Player of the Year, a season in which I also scored the winner in the North London derby.\nI've played with the likes of Bale, João Félix & Rodri.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  },
+  {
+   "question": "In March 2026 I retired from international football having made 96 caps for my country.\nAlthough widely regarded as one of the greatest in my position, I spent the latter half of the 2024–25 season on loan at AC Milan.\nI've played alongside the likes of Haaland, Pulisic & Gareth Bale.",
+   "problems": [
+    "too easy for its place in the pack: judged 2 of 5, wanted about 4. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 3
+  }
+ ]
+}

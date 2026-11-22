@@ -1,0 +1,137 @@
+{
+ "answer": "Rasmus Højlund",
+ "acceptableAnswers": [
+  "Rasmus Højlund",
+  "Højlund"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "NEEDS_WORK",
+ "question": "I spent a brief period playing in the Austrian Bundesliga before moving to Italy.\nIn 2024 I became the first player from my country to win the Premier League Player of the Month award.\nI've played with the likes of Koopmeiners, McTominay & De Bruyne.",
+ "problems": [],
+ "style": {
+  "score": 3,
+  "difficulty": 4,
+  "why": "The question is factually correct and uses a valid narrowing clue list (Koopmeiners/McTominay/De Bruyne), but it reads like a flat list of facts rather than a story. It lacks the conversational flow, tension, or 'twist' that defines the house style (e.g., no connection between the Austrian stint and",
+  "fix": "Rewrite to connect the sentences and add a hook. For example: \"I spent a brief spell in Austria before moving to Italy, but it was my move to Manchester United where I truly made an impact. In 2024, I became the first player from my country to win the Premier League Player of the Month award. I've共享"
+ },
+ "claims": [
+  {
+   "text": "Rasmus Højlund spent a brief period playing in the Austrian Bundesliga.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In January 2022, Højlund joined Austrian Bundesliga club Sturm Graz for a reported fee of €1.8 million.",
+    "In January 2022, Højlund joined Austrian Bundesliga club Sturm Graz for a reported fee of €1.8 million."
+   ]
+  },
+  {
+   "text": "Rasmus Højlund moved to Italy after his time in the Austrian Bundesliga.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 27 August 2022, Højlund signed for Serie A club Atalanta in a deal worth a reported €17 million."
+   ]
+  },
+  {
+   "text": "In 2024, Rasmus Højlund won the Premier League Player of the Month award.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Premier League Player of the Month: February 2024",
+    "[Honours > Individual] Premier League Player of the Month: February 2024"
+   ]
+  },
+  {
+   "text": "Rasmus Højlund is from Denmark (implied by 'my country' in context of being first to win PL POTM).",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Rasmus Winther Højlund (Danish pronunciation: [ˈʁɑsmus ˈhʌjˌlɔnˀ]; born 4 February 2003) is a Danish professional footballer who plays as a striker for Serie A club Napoli and the Denmark national team.",
+    "Rasmus Winther Højlund (Danish pronunciation: [ˈʁɑsmus ˈhʌjˌlɔnˀ]; born 4 February 2003) is a Danish professional footballer who plays as a striker for Serie A club Napoli and the Denmark national team."
+   ]
+  },
+  {
+   "text": "No player from Rasmus Højlund's country had won the Premier League Player of the Month award before him.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Højlund won the Premier League Player of the Month, becoming the first Danish player in Premier League history to win the award.",
+    "After his performances in February, Højlund won the Premier League Player of the Month, becoming the first Danish player in Premier League history to win the award."
+   ]
+  },
+  {
+   "text": "Rasmus Højlund has played with Koopmeiners.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Atalanta BC] Played in 29 matches alongside Teun Koopmeiners for Atalanta BC (2022 to 2023)",
+    "[Squad data > Atalanta BC] Played in 29 matches alongside Teun Koopmeiners for Atalanta BC (2022 to 2023)"
+   ]
+  },
+  {
+   "text": "Rasmus Højlund has played with McTominay.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Manchester United] Played in 35 matches alongside Scott McTominay for Manchester United (2023 to 2024)",
+    "[Squad data > Manchester United] Played in 35 matches alongside Scott McTominay for Manchester United (2023 to 2024)"
+   ]
+  },
+  {
+   "text": "Rasmus Højlund has played with De Bruyne.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > SSC Napoli] Played in 15 matches alongside Kevin De Bruyne for SSC Napoli (2025 to 2026)",
+    "[Squad data > SSC Napoli] Played in 15 matches alongside Kevin De Bruyne for SSC Napoli (2025 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Rasmus_Højlund",
+  "revid": 1386422139
+ },
+ "alternatives": [
+  {
+   "question": "I made my first international start by scoring a hat-trick against Finland.\nFollowing my time in England, I moved to Italy on a loan deal that later became permanent.\nI've played with the likes of Eriksen, Lukaku & Neres.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I spent a brief spell in the Austrian Bundesliga before moving to Serie A.\nIt was only after joining the Premier League that I became the first player from my country to win Player of the Month.\nI've played with the likes of Koopmeiners, McTominay & De Bruyne.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I spent a brief spell playing in Austria before moving to Italy.\nIt was only after arriving in England that I became the first player from my country to win the Premier League Player of the Month award.\nI've played with the likes of Koopmeiners, McTominay & De Bruyne.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "I once became the youngest player to score twice in an away Champions League match for my club.\nDespite this promise, I later experienced a streak of 16 league games without scoring before moving back to Italy.\nI've been managed by Gasperini, Amorim & Conte.",
+   "problems": [
+    "claim not stated in the evidence: \"Rasmus Højlund experienced a streak of 16 league games without scoring before moving back to Italy.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I once became the youngest player to score twice in an away Champions League match for my club, notably doing so on a return visit to my former team.\nUnfortunately I later experienced a goalless streak of 16 league games before moving back to Italy permanently.\nI've played with Casemiro, Lukaku & been managed by Antonio Conte.",
+   "problems": [
+    "claim is wrong: \"Rasmus Højlund moved back to Italy permanently after experiencing a goalless streak of 16 league games.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I'm the youngest player to score twice in an away Champions League match for my former English club.\nYet I once went 16 Premier League games without finding the net.\nI've been managed by Gasperini, Amorim & Conte.",
+   "problems": [
+    "wording will date: a present-tense record or \"never\" that a future match could undo; anchor it to a moment (\"In 2023 I became...\", \"I once held...\")"
+   ],
+   "style": 0
+  }
+ ]
+}

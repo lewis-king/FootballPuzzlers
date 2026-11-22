@@ -1,0 +1,112 @@
+{
+ "answer": "Kelechi Iheanacho",
+ "acceptableAnswers": [
+  "Kelechi Iheanacho",
+  "Iheanacho"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "no mention of retiring in the article"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "I won the Golden Ball as the best player of a FIFA U-17 World Cup.\nFollowing my move to England, I became the first player in English football to be awarded a goal via VAR.\nI've played with the likes of Saúl Ñíguez & Oxlade-Chamberlain.",
+ "problems": [],
+ "style": {
+  "score": 2,
+  "difficulty": 4,
+  "why": "The hook is a dull procedural detail (the first VAR goal) that lacks charm or memorability, and the question reads like a list of disconnected facts rather than a story. It also fails to connect the sentences with transitions typical of the house style.",
+  "fix": "Reframe the VAR fact as a surprising twist or misdirection, and use connecting phrases like 'Yet' or 'Following that'. For example: 'I won the Golden Ball at the U-17 World Cup. Yet my first major moment in England was controversial, becoming the first player to have a goal awarded via VAR. I've had"
+ },
+ "claims": [
+  {
+   "text": "Kelechi Iheanacho won the Golden Ball as the best player of a FIFA U-17 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Iheanacho played a significant role in the 2013 FIFA U-17 World Cup, where he won the Golden Ball award for player of the tournament.",
+    "Iheanacho played a significant role in the 2013 FIFA U-17 World Cup, where he won the Golden Ball award for player of the tournament."
+   ]
+  },
+  {
+   "text": "Following his move to England, Kelechi Iheanacho became the first player in English football to be awarded a goal via VAR.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Iheanacho became the first player in English football to be awarded a goal due to video assistant referee",
+    "On 16 January 2018, Iheanacho became the first player in English football to be awarded a goal due to video assistant referee"
+   ]
+  },
+  {
+   "text": "Kelechi Iheanacho has played with Saúl Ñíguez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Sevilla FC] Played in 7 matches alongside Saúl Ñíguez for Sevilla FC (2024)",
+    "[Squad data > Sevilla FC] Played in 7 matches alongside Saúl Ñíguez for Sevilla FC (2024)"
+   ]
+  },
+  {
+   "text": "Kelechi Iheanacho has played with Oxlade-Chamberlain.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Celtic FC] Played in 4 matches alongside Alex Oxlade-Chamberlain for Celtic FC (2026)",
+    "[Squad data > Celtic FC] Played in 4 matches alongside Alex Oxlade-Chamberlain for Celtic FC (2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kelechi_Iheanacho",
+  "revid": 1386705430
+ },
+ "alternatives": [
+  {
+   "question": "I once spent time training with the Columbus Crew while waiting for a work permit.\nFollowing my move to England, I became the first player in English football to be awarded a goal via VAR.\nI've played under managers like Pep Guardiola & Brendan Rodgers.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "At the end of my first full season in England, I had the best goals-per-minute ratio of any player in the league.\nLater in my career I scored the winning penalty for my country in a 2023 Africa Cup of Nations semi-final.\nI've been managed by Manuel Pellegrini & Martin O'Neill.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "Before I could play in England, I spent time training with the Columbus Crew in the United States.\nYears later, I scored the winning penalty for my country in a 2023 Africa Cup of Nations semi-final.\nI've been managed by Manuel Pellegrini & Martin O'Neill.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "Before formally signing for my first European club, I spent time training with the Columbus Crew in America.\nI later scored a winning penalty against that same club's former manager in the 2021 Community Shield.\nI've played alongside the likes of Harry Maguire & Leroy Sané.",
+   "problems": [
+    "claim not stated in the evidence: \"Kelechi Iheanacho spent time training with the Columbus Crew in America before formally signing for his first European club.\"",
+    "claim is wrong: \"Kelechi Iheanacho scored a winning penalty against the former manager of the Columbus Crew in the 2021 Community Shield.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "I won the Golden Ball as the best player of a FIFA U-17 World Cup.\nYet my first major moment in England was controversial, becoming the first player to have a goal awarded via VAR.\nI've played with the likes of Saúl Ñíguez & Oxlade-Chamberlain.",
+   "problems": [
+    "claim not stated in the evidence: \"Kelechi Iheanacho's first major moment in England was controversial.\"",
+    "claim not stated in the evidence: \"Kelechi Iheanacho became the first player to have a goal awarded via VAR.\""
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2013 I was named the best player of the FIFA U-17 World Cup after leading my country to a fourth title.\nFollowing a move to England, I became the first player in English football to be awarded a goal due to VAR.\nI've played with the likes of Saúl Ñíguez & Oxlade-Chamberlain.",
+   "problems": [
+    "claim is wrong: \"Kelechi Iheanacho moved to England after the 2013 FIFA U-17 World Cup.\""
+   ],
+   "style": 2
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "answer": "Morgan Gibbs-White",
+ "acceptableAnswers": [
+  "Morgan Gibbs-White",
+  "Gibbs-White"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I started my career at Wolverhampton Wanderers and made my first-team debut as a sixteen-year-old in the FA Cup.\nFollowing my time there, I won the European Under-21 Championship in 2023, though I was sent off in the final.\nI've played with Patrick Cutrone, Douglas Luiz & Brennan Johnson.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is factually accurate and follows the house style well: it uses first-person British English, connects sentences with 'Following my time there', and ends with a narrowing list of teammates from different clubs (Wolves, Milan/Leeds, Spurs). The hook (debut at 16) is specific but not a 'd",
+  "fix": "The main weakness is that the first sentence explicitly names Wolverhampton Wanderers. For a player whose primary identity in recent years is linked to Wolves (and who was their breakout star), naming the club immediately narrows the field significantly for any UK fan, making it less of a puzzle and"
+ },
+ "claims": [
+  {
+   "text": "Morgan Gibbs-White started his career at Wolverhampton Wanderers.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Gibbs-White began his career with Wolverhampton Wanderers",
+    "Gibbs-White began his career with Wolverhampton Wanderers, making his first-team debut in 2017 and making 88 appearances for the club."
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White made his first-team debut as a sixteen-year-old in the FA Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He made his first team debut, aged 16, as a 62nd-minute substitute for Joe Mason in a 2–0 win over Premier League side Stoke City in the FA Cup third round on 7 January 2017.",
+    "He made his first team debut, aged 16, as a 62nd-minute substitute for Joe Mason in a 2–0 win over Premier League side Stoke City in the FA Cup third round on 7 January 2017."
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White won the European Under-21 Championship in 2023.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Honours > England U21] UEFA European Under-21 Championship: 2023",
+    "[Honours > England U21] UEFA European Under-21 Championship: 2023"
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White was sent off in the final of the 2023 European Under-21 Championship.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He scored the opening goal of their semi-final victory over Israel and also started in the final before being sent off as England beat Spain to win the tournament.",
+    "started in the final before being sent off as England beat Spain to win the tournament"
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White has played with Patrick Cutrone.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Played in 9 matches alongside Patrick Cutrone for Wolverhampton Wanderers (2019 to 2021)",
+    "[Squad data > Wolverhampton Wanderers] Played in 9 matches alongside Patrick Cutrone for Wolverhampton Wanderers (2019 to 2021)"
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White has played with Douglas Luiz.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Nottingham Forest] Played in 14 matches alongside Douglas Luiz for Nottingham Forest (2025 to 2026)",
+    "[Squad data > Nottingham Forest] Played in 14 matches alongside Douglas Luiz for Nottingham Forest (2025 to 2026)"
+   ]
+  },
+  {
+   "text": "Morgan Gibbs-White has played with Brennan Johnson.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Nottingham Forest] Played in 39 matches alongside Brennan Johnson for Nottingham Forest (2022 to 2023)",
+    "[Squad data > Nottingham Forest] Played in 39 matches alongside Brennan Johnson for Nottingham Forest (2022 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Morgan_Gibbs-White",
+  "revid": 1383526249
+ },
+ "alternatives": [
+  {
+   "question": "I was part of the England squad that won the U-17 World Cup in 2017, scoring in the final against Spain.\nYears later I joined a new club for a record transfer fee and scored the winning goal at home to Manchester United in December 2023.\nI've played with Diogo Jota, Renan Lodi & Giovanni Reyna.",
+   "problems": [
+    "claim not stated in the evidence: \"Morgan Gibbs-White joined a new club for a record transfer fee years after the 2017 U-17 World Cup.\""
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once scored in a play-off semi-final for my loan club, but missed the penalty that saw them lose the tie.\nDespite this, I was named that club's Player of the Year before moving on for a record fee in 2022.\nI've been managed by Nuno Espírito Santo & Sean Dyche.",
+   "problems": [
+    "every team-mate and manager named meets the player at Nottingham Forest, so together they only say 'Nottingham Forest'; swap at least one for a name from another club, a loan or the national team, ideally a surprising one"
+   ],
+   "style": 0
+  }
+ ]
+}

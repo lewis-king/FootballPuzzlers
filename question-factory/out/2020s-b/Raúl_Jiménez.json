@@ -1,0 +1,132 @@
+{
+ "answer": "Raúl Jiménez",
+ "acceptableAnswers": [
+  "Raúl Jiménez",
+  "Jiménez"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": false,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "In 2015 I famously failed to show up for a medical with West Ham after reports claimed I had overslept.\nInstead I signed for a Portuguese side, where I won two consecutive league titles.\nI've been managed by Nuno Espírito Santo & Marco Silva.",
+ "problems": [
+  "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is excellent and memorable (the West Ham medical saga), which fits the 'delightful oddity' criteria perfectly. The narrative flow is good, connecting the failed move to success in Portugal. However, it loses a point because the final clue ('managed by Nuno & Marco Silva') is weak; both are ",
+  "fix": "Replace the manager list with specific teammates from different clubs to create a better puzzle. For example: 'I've played alongside Pedro Mendes and Diogo Jota.' This narrows it down effectively without relying on managers who might be associated with other players too."
+ },
+ "claims": [
+  {
+   "text": "Raúl Jiménez failed to show up for a medical with West Ham in 2015.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 9 August 2015 Jiménez, who was expected to complete a loan deal to Premier League side West Ham United, failed to show up to his medical",
+    "On 9 August 2015 Jiménez, who was expected to complete a loan deal to Premier League side West Ham United, failed to show up to his medical after reports claimed he had missed his flight to London after he had overslept."
+   ]
+  },
+  {
+   "text": "Reports claimed Raúl Jiménez overslept, causing him to miss the West Ham medical in 2015.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 9 August 2015 Jiménez, who was expected to complete a loan deal to Premier League side West Ham United, failed to show up to his medical after reports claimed he had missed his flight to London after he had overslept."
+   ]
+  },
+  {
+   "text": "Raúl Jiménez signed for a Portuguese side after failing to show up for the West Ham medical in 2015.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 13 August 2015, Jiménez joined Portuguese champions Benfica, signing a five-year deal."
+   ]
+  },
+  {
+   "text": "Raúl Jiménez won two consecutive league titles with his Portuguese club.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He amassed 120 appearances and scored 31 goals during his three years with the Portuguese side, winning two consecutive league titles, among other major honours.",
+    "winning two consecutive league titles, among other major honours."
+   ]
+  },
+  {
+   "text": "Nuno Espírito Santo managed Raúl Jiménez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Wolverhampton Wanderers] Was managed by Nuno Espírito Santo at Wolverhampton Wanderers in 109 matches (2018 to 2020)",
+    "[Squad data > Wolverhampton Wanderers] Was managed by Nuno Espírito Santo at Wolverhampton Wanderers in 109 matches (2018 to 2020)"
+   ]
+  },
+  {
+   "text": "Marco Silva managed Raúl Jiménez.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 114 matches (2023 to 2026)",
+    "[Squad data > Fulham FC] Was managed by Marco Silva at Fulham FC in 114 matches (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Raúl_Jiménez",
+  "revid": 1386711433
+ },
+ "alternatives": [
+  {
+   "question": "I was part of the under-23 squad that won a gold medal at the London Olympics.\nFollowing my time in Portugal, I moved to England where I eventually became my club's all-time top scorer in the Premier League.\nI've played with the likes of Ederson, Diego Costa & Willian.",
+   "problems": [
+    "claim not stated in the evidence: \"Raúl Jiménez moved to England following his time in Portugal.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was part of the under-23 squad that won a gold medal at the 2012 Summer Olympics.\nFollowing this, I moved to Spain and then Portugal, where I won two consecutive league titles.\nI've played with Ederson, Diego Costa & Emile Smith Rowe.",
+   "problems": [
+    "claim is wrong: \"Following his participation in the 2012 Summer Olympics, Raúl Jiménez moved to Spain.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "In 2013 I scored a bicycle kick that was voted my continent's Goal of the Year.\nYet it took me another thirteen years to score my first ever goal at a FIFA World Cup.\nI've been managed by Nuno Espírito Santo & Rui Vitória, and played alongside Rúben Dias.",
+   "problems": [
+    "claim is wrong: \"Raúl Jiménez scored his first ever goal at a FIFA World Cup thirteen years after scoring the 2013 bicycle kick.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was part of the squad that won a gold medal at the 2012 Summer Olympics.\nLater in my career, I became only the third player from my country to score 100 goals for European clubs.\nI've played with Ederson, Diego Costa & Emile Smith Rowe.",
+   "problems": [
+    "wording will date: The claim of being 'only the third player' is a present-tense ranking that could change if another Mexican player reaches 100 European goals.; The claim of being 'only the third player' is a current ranking that could change if another Mexican player reaches 100 goals."
+   ],
+   "style": 3
+  },
+  {
+   "question": "In 2013 I won the Clausura tournament with Club América and finished as their second-highest goalscorer.\nFollowing a spell in Spain, I moved to Portugal where I won two consecutive league titles.\nI've been managed by Rui Vitória, Julen Lopetegui & Marco Silva.",
+   "problems": [
+    "claim is wrong: \"Raúl Jiménez moved to Portugal following his spell in Spain.\""
+   ],
+   "style": 2
+  },
+  {
+   "question": "I once scored a bicycle kick that was voted my continent's Goal of the Year in 2013.\nAlthough I later suffered a career-threatening skull fracture, I have still represented my country at four different World Cups.\nI've played with Rúben Dias & Emile Smith Rowe.",
+   "problems": [
+    "banned wording (still)",
+    "wording will date: The phrase 'still represented' implies an ongoing status that could change if the player retires or is excluded from future tournaments.; The phrase 'have still represented' and the count of World Cups could change if he plays in another."
+   ],
+   "style": 0
+  }
+ ]
+}

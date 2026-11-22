@@ -1,0 +1,112 @@
+{
+ "answer": "Joelinton",
+ "acceptableAnswers": [
+  "Joelinton"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "READY",
+ "question": "I spent two years on loan in Austria, where I scored an added-time winner to send my club to a cup final for the first time in 12 years.\nFollowing my return to Germany, I scored a Champions League equaliser against Lyon.\nI've played with Gregor Kobel & Sandro Tonali.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 5,
+  "why": "The question follows the house style well: first-person narrative, connected sentences ('Following my return...'), and a narrowing clue at the end using teammates from different clubs (Kobel/Borussia Dortmund vs Tonali/AC Milan). The facts are accurate and create a nice puzzle for experts. It loses ",
+  "fix": "The hook is slightly dry for a casual fan, but acceptable given the difficulty level. To make it punchier, you could emphasize the 'surprise' of the Austrian loan more or tighten the phrasing. However, as an expert-level question (Difficulty 5), it works perfectly because the specific combination of"
+ },
+ "claims": [
+  {
+   "text": "Joelinton spent two years on loan in Austria.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On 23 June 2016, Joelinton was loaned to Rapid Wien for two years.",
+    "On 23 June 2016, Joelinton was loaned to Rapid Wien for two years."
+   ]
+  },
+  {
+   "text": "During his time in Austria, Joelinton scored an added-time winner that sent his club to a cup final for the first time in 12 years.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "he scored an added-time winner at home to LASK as Die Grün-Weißen reached the final for the first time in 12 years.",
+    "In the semi-finals on 26 April 2017, he scored an added-time winner at home to LASK as Die Grün-Weißen reached the final for the first time in 12 years."
+   ]
+  },
+  {
+   "text": "Joelinton returned to Germany after his loan spell in Austria.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "On his return to Hoffenheim, Joelinton was given a first start in a DFB-Pokal first-round match at 1."
+   ]
+  },
+  {
+   "text": "After returning to Germany, Joelinton scored a Champions League equaliser against Lyon.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "as a substitute on 23 October he scored an added-time equaliser for a 3–3 draw against Lyon in a Champions League group game at the Rhein-Neckar-Arena.",
+    "as a substitute on 23 October he scored an added-time equaliser for a 3–3 draw against Lyon in a Champions League group game at the Rhein-Neckar-Arena"
+   ]
+  },
+  {
+   "text": "Joelinton has played with Gregor Kobel.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > TSG 1899 Hoffenheim] Played in 3 matches alongside Gregor Kobel for TSG 1899 Hoffenheim (2018)",
+    "[Squad data > TSG 1899 Hoffenheim] Played in 3 matches alongside Gregor Kobel for TSG 1899 Hoffenheim (2018)"
+   ]
+  },
+  {
+   "text": "Joelinton has played with Sandro Tonali.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Newcastle United] Played in 76 matches alongside Sandro Tonali for Newcastle United (2023 to 2026)",
+    "[Squad data > Newcastle United] Played in 76 matches alongside Sandro Tonali for Newcastle United (2023 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Joelinton",
+  "revid": 1384913793
+ },
+ "alternatives": [
+  {
+   "question": "My professional debut came in a match against city rivals Santa Cruz, though I didn't play in the final of the cup we went on to win.\nYears later I joined an English club for a record fee, but it took me over 2,000 minutes to score my first home league goal.\nI've been managed by Julian Nagelsmann & Eddie Howe.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "I joined the Premier League for a club record fee, but I struggled so much that it took me over 2,000 minutes to score my first home league goal.\nIt was only after being converted from a striker to a midfielder that I was named my club's Player of the Year.\nI've been managed by Julian Nagelsmann & Eddie Howe.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I spent two years on loan at Rapid Wien, where I scored an added-time winner in the semi-finals of the Austrian Cup.\nFollowing my return to Germany, I scored a Champions League equaliser against Lyon.\nI've played with Gregor Kobel, Bruno Guimarães & Sandro Tonali.",
+   "problems": [
+    "claim not stated in the evidence: \"Joelinton returned to Germany after his loan at Rapid Wien.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "Although I was capped for my country's under-17s in 2012, it took me over a decade to make my senior international debut.\nI managed to score on that debut against Guinea in 2023.\nI've played alongside Reiss Nelson, Alexander Isak & Anthony Gordon.",
+   "problems": [
+    "claim is wrong: \"It took Joelinton over a decade to make his senior international debut after being capped for the under-17s in 2012.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  }
+ ]
+}

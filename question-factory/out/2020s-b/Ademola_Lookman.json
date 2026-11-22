@@ -1,0 +1,91 @@
+{
+ "answer": "Ademola Lookman",
+ "acceptableAnswers": [
+  "Ademola Lookman",
+  "Lookman"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": true,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2030 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I represented England from under-19 level up to the under-21s, including winning a global tournament in 2017.\nYet I later switched my allegiance to Nigeria, with whom I finished as runners-up at the 2023 Africa Cup of Nations.\nI've played with the likes of Lukaku, Maddison & Griezmann.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The question is strong because it uses a genuine twist (switching allegiance from England to Nigeria) and ends with a clever list of teammates that spans different clubs and eras. It avoids the common trap of leading with his most famous fact (the World Cup goal). However, it loses one point for two",
+  "fix": "1. The phrase 'winning a global tournament in 2017' is slightly ambiguous; specifying 'U-20 World Cup' would be clearer and more precise.\n2. The sentence structure is a bit list-like ('I represented... Yet I later switched... I've played with...'). It could flow better by connecting the switch to a "
+ },
+ "claims": [
+  {
+   "text": "Ademola Lookman represented England from under-19 level up to the under-21s.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Having represented England from under-19 to under-21 levels, Lookman made his senior debut for Nigeria in 2022.",
+    "Having represented England from under-19 to under-21 levels, Lookman made his senior debut for Nigeria in 2022."
+   ]
+  },
+  {
+   "text": "Ademola Lookman won a global tournament in 2017 while representing England at youth level.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "England beat Venezuela 1–0 in the final, to achieve the country's first victory in the final of a global tournament since the 1966 World Cup.",
+    "[Honours > England U20] FIFA U-20 World Cup: 2017"
+   ]
+  },
+  {
+   "text": "Ademola Lookman switched his allegiance to Nigeria after representing England.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Having represented England from under-19 to under-21 levels, Lookman made his senior debut for Nigeria in 2022.",
+    "Having represented England from under-19 to under-21 levels, Lookman made his senior debut for Nigeria in 2022."
+   ]
+  },
+  {
+   "text": "Ademola Lookman finished as runners-up at the 2023 Africa Cup of Nations with Nigeria.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was part of the squad that finished runners-up at the Africa Cup of Nations in 2023 and third place in 2025.",
+    "He was part of the squad that finished runners-up at the Africa Cup of Nations in 2023"
+   ]
+  },
+  {
+   "text": "Ademola Lookman has played with Romelu Lukaku, James Maddison, and Antoine Griezmann.",
+   "final": "SUPPORTED",
+   "quotes": []
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ademola_Lookman",
+  "revid": 1385518438
+ },
+ "alternatives": [
+  {
+   "question": "I made my senior debut in 2015 for Charlton Athletic, where I was named LFE Apprentice of the Year.\nFollowing several loan spells across England and Germany, I moved to Italy and became the first player since 1969 to score a hat-trick in a one-legged European final.\nI've played with Naby Keïta, Werner & Osimhen.",
+   "problems": [
+    "claim is wrong: \"Ademola Lookman had several loan spells in England and Germany before moving to Italy.\"",
+    "claim is wrong: \"Ademola Lookman moved to Italy after his loan spells in England and Germany.\""
+   ],
+   "style": 5
+  },
+  {
+   "question": "I was once described by my manager as one of the worst penalty takers he'd ever seen.\nIncredibly, that same year I scored a hat-trick in a European final and was named African Footballer of the Year.\nI've been managed by the likes of Nagelsmann, Rodgers & Simeone.",
+   "problems": [
+    "claim is wrong: \"In the same year that his manager described him as one of the worst penalty takers, Ademola Lookman scored a hat-trick in a European final.\"",
+    "claim not stated in the evidence: \"In the same year that his manager described him as one of the worst penalty takers, Ademola Lookman was named African Footballer of the Year.\""
+   ],
+   "style": 4
+  }
+ ]
+}

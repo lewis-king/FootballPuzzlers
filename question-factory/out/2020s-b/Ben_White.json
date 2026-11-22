@@ -1,0 +1,135 @@
+{
+ "answer": "Ben White",
+ "acceptableAnswers": [
+  "Ben White",
+  "White"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": true,
+  "MID": false,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "NEEDS_WORK",
+ "question": "After leaving a World Cup for personal reasons in 2022, I spent years in self-imposed exile from my national team.\nIncredibly, upon my return to the squad in 2026, I scored on my first appearance since 2022.\nI've been managed by Graham Potter & Mikel Arteta.",
+ "problems": [
+  "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+ ],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The narrative arc (exile to redemption) is strong and fits the house style well, but it relies on a very recent event (2026 return) which may feel slightly dated or obscure depending on when this is played. More importantly, the final clue 'managed by Graham Potter & Mikel Arteta' points exclusively",
+  "fix": "The question is good but could be tightened. The 2026 date makes it time-sensitive. Consider anchoring the return differently or ensuring the 'exile' period is clearly defined as a past state rather than current. Also, ensure the 'first appearance since 2022' fact is accurate and memorable enough to"
+ },
+ "claims": [
+  {
+   "text": "Ben White left a World Cup for personal reasons in 2022.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He left the tournament for \"personal reasons\" on 30 November, the day after the team's final Group B match.",
+    "He left the tournament for \"personal reasons\" on 30 November"
+   ]
+  },
+  {
+   "text": "Ben White spent years in self-imposed exile from his national team after leaving the 2022 World Cup.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "It was later reported that White's self-imposed exile from the England team started with a 'barbed comment' from Southgate's assistant Holland in front of other members of the squad at the World Cup in Qatar in November 2022."
+   ]
+  },
+  {
+   "text": "Ben White returned to his national team squad in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In March 2026, White was called up by England for the first time since 2022",
+    "In March 2026, White was called up by England for the first time since 2022, for two friendlies featuring players on the fringe for inclusion in the 2026 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Ben White scored on his first appearance for his national team since 2022 upon returning to the squad in 2026.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "In a 1–1 draw against Uruguay on 27 March, White was subbed on in the 68th minute, scored the opener in the 81st",
+    "In a 1–1 draw against Uruguay on 27 March, White was subbed on in the 68th minute, scored the opener in the 81st, and gave away the equalising penalty in stoppage time."
+   ]
+  },
+  {
+   "text": "Graham Potter has managed Ben White.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Was managed by Graham Potter at Brighton & Hove Albion in 38 matches (2020 to 2021)",
+    "[Squad data > Brighton & Hove Albion] Was managed by Graham Potter at Brighton & Hove Albion in 38 matches (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Mikel Arteta has managed Ben White.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 185 matches (2021 to 2026)",
+    "[Squad data > Arsenal FC] Was managed by Mikel Arteta at Arsenal FC in 185 matches (2021 to 2026)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Ben_White_(footballer)",
+  "revid": 1385899664
+ },
+ "alternatives": [
+  {
+   "question": "I was once described as the best loan signing in the history of Newport County.\nIt was during that spell I earned praise for my performance against Harry Kane.\nI've played with Mac Allister, Sterling & Robert Sánchez.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "During a loan spell in League Two, I was praised for my performance against Harry Kane after helping my team force a replay at Wembley.\nI've since won the Premier League and played in a Champions League final.\nI've been managed by Graham Potter & Mikel Arteta.",
+   "problems": [
+    "claim is wrong: \"Ben White played in a Champions League final.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I once left a World Cup mid-tournament for personal reasons, which led to a self-imposed exile from the national team.\nWhen I finally returned in 2026, I scored on my comeback but gave away the equalising penalty.\nI've played alongside the likes of Trossard, Sánchez & Rice.",
+   "problems": [
+    "claim is wrong: \"Leaving the World Cup led to Ben White's self-imposed exile from the national team.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was released from my youth academy at the age of 16 after spending eight years there.\nFollowing several loans in the lower leagues, I eventually won the Premier League.\nI've played with Mac Allister, Trossard & Sterling.",
+   "problems": [
+    "claim is wrong: \"Ben White went on several loans in the lower leagues after being released from his youth academy.\"",
+    "too easy for its place in the pack: judged 2 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "After being released by my first academy at the age of 16, I eventually became the most expensive defender in the history of my next club.\nAlthough I've won a league title, I missed out on a Champions League final due to injury.\nI've played with Trossard, Lallana & Zubimendi.",
+   "problems": [
+    "claim not stated in the evidence: \"Ben White missed out on a Champions League final due to injury.\"",
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The phrase \"most expensive defender in the history\" is a superlative record that could be invalidated by future transfers.; The phrase 'most expensive defender in the history of my next club' is a current record that could be broken by a future transfer."
+   ],
+   "style": 4
+  },
+  {
+   "question": "I was released by my academy at the age of 16 after spending eight years there.\nYears later I became the most expensive defender in the history of the club I joined for £50 million.\nI've played with the likes of Mac Allister, Sterling & Zubimendi.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager",
+    "wording will date: The phrase 'most expensive defender in the history' is a present-tense superlative that could become false if a more expensive defender were signed.; The claim to be the most expensive defender in club history is a current record that could be broken by a future transfer."
+   ],
+   "style": 2
+  }
+ ]
+}

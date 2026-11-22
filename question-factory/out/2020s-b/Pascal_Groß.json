@@ -1,0 +1,98 @@
+{
+ "answer": "Pascal Groß",
+ "acceptableAnswers": [
+  "Pascal Groß",
+  "Groß"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": false,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2027 (Transfermarkt)"
+ },
+ "target": 5,
+ "status": "READY",
+ "question": "I only made my senior international debut at the age of 32.\nFollowing this I was selected for both a European Championship and a World Cup squad.\nI've played alongside the likes of Niklas Süle, Ben White & Moisés Caicedo.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 4,
+  "why": "The hook (debuting at 32) is a genuine twist that misdirects the guesser away from assuming a long-serving international star, and the teammate list effectively narrows the field by mixing clubs (Süle/White/Caicedo). However, it loses a point for being slightly flat: the middle sentence ('selected')",
+  "fix": "Replace 'Following this I was selected' with a more active or surprising detail about his impact in those tournaments (e.g., 'I started every match in both tournaments'), and consider swapping one of the teammates for a manager to add another layer of narrowing."
+ },
+ "claims": [
+  {
+   "text": "Pascal Groß made his senior international debut at the age of 32.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was called up to the senior squad for the first time aged 32 in August 2023, and made his debut on 9 September 2023 in a friendly against Japan."
+   ]
+  },
+  {
+   "text": "After making his senior international debut, Pascal Groß was selected for a European Championship squad.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "Groß was named in Germany's squad for UEFA Euro 2024.",
+    "Groß was named in Germany's squad for UEFA Euro 2024."
+   ]
+  },
+  {
+   "text": "After making his senior international debut, Pascal Groß was selected for a World Cup squad.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was selected for the German final squads at UEFA Euro 2024 and the 2026 FIFA World Cup."
+   ]
+  },
+  {
+   "text": "Pascal Groß played alongside Niklas Süle.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Borussia Dortmund] Played in 25 matches alongside Niklas Süle for Borussia Dortmund (2024 to 2025)",
+    "[Squad data > Borussia Dortmund] Played in 25 matches alongside Niklas Süle for Borussia Dortmund (2024 to 2025)"
+   ]
+  },
+  {
+   "text": "Pascal Groß played alongside Ben White.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Played in 34 matches alongside Ben White for Brighton & Hove Albion (2020 to 2021)",
+    "[Squad data > Brighton & Hove Albion] Played in 34 matches alongside Ben White for Brighton & Hove Albion (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "Pascal Groß played alongside Moisés Caicedo.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Brighton & Hove Albion] Played in 49 matches alongside Moisés Caicedo for Brighton & Hove Albion (2022 to 2023)",
+    "Played in 49 matches alongside Moisés Caicedo for Brighton & Hove Albion (2022 to 2023)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Pascal_Groß",
+  "revid": 1385066134
+ },
+ "alternatives": [
+  {
+   "question": "I always wear long-sleeved shirts during matches because I have a grass allergy.\nIn 2017 I made history by scoring the first ever Premier League goal for my club.\nI've played with the likes of Mac Allister, Sabitzer & Ansu Fati.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  },
+  {
+   "question": "In the 2016-17 Bundesliga season I created more chances than any other player in the league.\nYet my team was relegated that same year.\nI've been managed by Hasenhüttl, De Zerbi & Niko Kovac.",
+   "problems": [
+    "too easy for its place in the pack: judged 3 of 5, wanted about 5. Lead with a lesser-known fact and name a surprising team-mate or manager"
+   ],
+   "style": 4
+  }
+ ]
+}

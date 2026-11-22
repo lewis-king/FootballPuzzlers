@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
-import { ClueKey, clueBit, cluesUsed, MAX_CLUES, MAX_LETTERS, nextStreak, CLUES, PackId } from '../lib/game';
+import { ClueKey, clueBit, cluesUsed, dayNumber, MAX_CLUES, MAX_LETTERS, nextStreak, CLUES, PackId } from '../lib/game';
 import type { LegacyProgress } from '../lib/legacyRealm';
 import type { SaveData } from '../lib/saveCode';
 
@@ -19,6 +19,13 @@ type Progress = SaveData & {
   alerts: 'unasked' | 'on' | 'off';
   /** times the Notify me sheet has been shown (20 in, then once more on Pack complete) */
   alertAsks: number;
+  /** guesses checked per question, for "1st guess!" on the Correct screen (not in save codes) */
+  guesses: Record<number, number>;
+  /** the day (dayNumber) each question was solved, for "days to finish" on Pack complete (not in save codes) */
+  solvedOn: Record<number, number>;
+  /** times the store's own rating sheet has been asked for, and when last (ms) */
+  rateAsks: number;
+  rateLastAt: number | null;
 
   solve: (id: number) => void;
   revealClue: (id: number, key: ClueKey) => boolean;
@@ -30,6 +37,8 @@ type Progress = SaveData & {
   setLastPack: (pack: PackId) => void;
   setAlerts: (alerts: 'on' | 'off') => void;
   markAlertAsked: () => void;
+  markRateAsked: () => void;
+  addGuess: (id: number) => void;
 };
 
 const empty: SaveData = { answered: [], clues: {}, letters: {}, streak: { days: 0, lastDay: -10 } };
@@ -44,9 +53,15 @@ export const useProgress = create<Progress>()(
       lastPack: 'starter',
       alerts: 'unasked',
       alertAsks: 0,
+      rateAsks: 0,
+      guesses: {},
+      solvedOn: {},
+      rateLastAt: null,
 
       solve: (id) =>
-        set((s) => (s.answered.includes(id) ? s : { answered: [...s.answered, id], streak: nextStreak(s.streak) })),
+        set((s) => (s.answered.includes(id) ? s : {
+          answered: [...s.answered, id], streak: nextStreak(s.streak), solvedOn: { ...s.solvedOn, [id]: dayNumber() },
+        })),
 
       revealClue: (id, key) => {
         const mask = get().clues[id] ?? 0;
@@ -88,6 +103,8 @@ export const useProgress = create<Progress>()(
       setLastPack: (pack) => set({ lastPack: pack }),
       setAlerts: (alerts) => set({ alerts }),
       markAlertAsked: () => set((s) => ({ alertAsks: s.alertAsks + 1 })),
+      addGuess: (id) => set((s) => ({ guesses: { ...s.guesses, [id]: (s.guesses[id] ?? 0) + 1 } })),
+      markRateAsked: () => set((s) => ({ rateAsks: s.rateAsks + 1, rateLastAt: Date.now() })),
     }),
     {
       name: 'progress-v1',

@@ -1,0 +1,99 @@
+{
+ "answer": "Kalvin Phillips",
+ "acceptableAnswers": [
+  "Kalvin Phillips",
+  "Phillips"
+ ],
+ "clues": {
+  "GK": false,
+  "DEF": false,
+  "MID": true,
+  "FWD": false,
+  "ENG": true,
+  "RET": false
+ },
+ "retiredEvidence": {
+  "retired": false,
+  "quote": "",
+  "how": "contract runs to June 2028 (Transfermarkt)"
+ },
+ "target": 4,
+ "status": "READY",
+ "question": "I made my international debut before ever appearing in a top division, a feat only three other players have achieved in this century.\nFollowing that call up, I started every game for my country during our run to the Euro 2020 final.\nI've been managed by Marcelo Bielsa & David Moyes.",
+ "problems": [],
+ "style": {
+  "score": 4,
+  "difficulty": 3,
+  "why": "The hook is strong and genuinely surprising (debuting before a top-flight appearance), which fits the 'delightful oddity' criteria well. The narrative flow is good, connecting the debut to the Euro 2020 run. However, it loses a point because the final clue list ('Bielsa & Moyes') points almost too整齐",
+  "fix": "The question is strong but slightly over-specified for a mid-pack difficulty. 'Started every game... Euro 2020 final' combined with 'managed by Bielsa' narrows it to very few players (Phillips, Rice, Grealish, etc., but only Phillips fits the debut hook). To make it trickier and more in line with 'n"
+ },
+ "claims": [
+  {
+   "text": "Kalvin Phillips made his international debut before ever appearing in a top division.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was only the fourth player in the 21st century to represent England prior to making an appearance in the top division of a country, after David Nugent, Jack Butland and Wilfried Zaha.",
+    "He was only the fourth player in the 21st century to represent England prior to making an appearance in the top division of a country, after David Nugent, Jack Butland and Wilfried Zaha."
+   ]
+  },
+  {
+   "text": "Only three other players have achieved the feat of making their international debut before ever appearing in a top division in this century.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He was only the fourth player in the 21st century to represent England prior to making an appearance in the top division of a country, after David Nugent, Jack Butland and Wilfried Zaha."
+   ]
+  },
+  {
+   "text": "Kalvin Phillips started every game for his country during their run to the Euro 2020 final.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "He started every game that England played during the tournament all the way up to the final",
+    "He started every game that England played during the tournament all the way up to the final, where they were eventually beaten on penalties by tournament winners Italy."
+   ]
+  },
+  {
+   "text": "Marcelo Bielsa has managed Kalvin Phillips.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > Leeds United] Was managed by Marcelo Bielsa at Leeds United in 42 matches (2020 to 2021)",
+    "[Squad data > Leeds United] Was managed by Marcelo Bielsa at Leeds United in 42 matches (2020 to 2021)"
+   ]
+  },
+  {
+   "text": "David Moyes has managed Kalvin Phillips.",
+   "final": "SUPPORTED",
+   "quotes": [
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 10 matches (2024)",
+    "[Squad data > West Ham United] Was managed by David Moyes at West Ham United in 10 matches (2024)"
+   ]
+  }
+ ],
+ "source": {
+  "url": "https://en.wikipedia.org/wiki/Kalvin_Phillips",
+  "revid": 1386317468
+ },
+ "alternatives": [
+  {
+   "question": "I was only the fourth player in the 21st century to make my England debut before ever appearing in a top division.\nFollowing that call up, I started every game for my country during our run to the Euro 2020 final.\nI've been managed by Marcelo Bielsa & David Moyes.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "Before the start of the 2018–19 season I was converted into a defensive midfielder by Marcelo Bielsa.\nMy performances in this role eventually led to me being named England's Player of the Year for 2020–21.\nI've played alongside Erling Haaland & Kevin De Bruyne.",
+   "problems": [],
+   "style": 3
+  },
+  {
+   "question": "In my debut season for Manchester City I won a continental treble.\nYet during a subsequent loan spell I was berated by supporters after giving away a penalty, to which I responded by showing them my middle finger.\nI've played with Raphinha, Cole Palmer & Aymeric Laporte.",
+   "problems": [],
+   "style": 2
+  },
+  {
+   "question": "In my debut season for Manchester City I won a continental treble.\nYet it was during a subsequent loan spell that I was berated by supporters and responded by showing them my middle finger.\nI've played with Raphinha, Cole Palmer & Aymeric Laporte.",
+   "problems": [
+    "claim not stated in the evidence: \"During a subsequent loan spell, Kalvin Phillips was berated by supporters.\""
+   ],
+   "style": 2
+  }
+ ]
+}
