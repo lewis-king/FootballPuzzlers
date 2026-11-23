@@ -14,7 +14,7 @@ A guess-the-player football quiz, first released in 2018 and relaunched in 2026 
 | `site/` | footballwhoami.com (Cloudflare): the landing page and the privacy, terms and support pages |
 | `workers/alerts/` | The push worker that tells players about new packs (alerts.footballwhoami.com) |
 | `design/` | Figma notes (`figma.md`) and the art masters with their ComfyUI workflows |
-| Repo root (`src/`, `android/`, `ios/`) | The 2019 React Native app, kept for reference only. Don't build it |
+| git tag `app-2019` | The original 2019 React Native app, removed from the tree in Nov 2026. `git checkout app-2019 -- <path>` restores a file if you ever need to look |
 
 ## Questions: what made the game, and the rules that keep it
 

@@ -1,6 +1,6 @@
 # Football Who Am I (v3, Expo)
 
-The rebuild of the 2019 React Native 0.57 app in the repo root. It ships as an **update** to the existing store listings, so the ids match the old app:
+The rebuild of the 2019 React Native 0.57 app (kept at the git tag `app-2019`). It ships as an **update** to the existing store listings, so the ids match the old app:
 
 | | Value |
 |---|---|
