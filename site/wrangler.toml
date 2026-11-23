@@ -1,6 +1,7 @@
 # footballwhoami.com: the landing page plus privacy, terms and support, served as static assets.
-# Build with ./build.sh, then: npx wrangler@4 deploy
+# Build with ./build.sh, then: npx wrangler@4 deploy. worker.js counts store clicks and engagement.
 name = "fwai-site"
+main = "worker.js"
 compatibility_date = "2026-11-01"
 workers_dev = false
 routes = [
@@ -9,6 +10,12 @@ routes = [
 ]
 
 [assets]
+binding = "ASSETS"
 directory = "./dist"
 html_handling = "auto-trailing-slash"
 not_found_handling = "404-page"
+
+# Store clicks and engagement, anonymous (see worker.js). Free tier.
+[[analytics_engine_datasets]]
+binding = "EVENTS"
+dataset = "fwai_site_events"

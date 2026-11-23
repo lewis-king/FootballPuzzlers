@@ -1,6 +1,6 @@
 # Privacy policy
 
-Last updated: 20 November 2026
+Last updated: 23 November 2026
 
 Football Who Am I? is a quiz app made by Lewis King ("I", "me"). This policy explains what the app and this website collect, and why. The short version: there are no accounts, your progress stays on your phone, and the only outside companies involved are Google (ads), Apple and Google (payments and notifications) and Expo (sending notifications).
 
@@ -26,7 +26,7 @@ If you email me, I'll use your email address and what you send only to reply to 
 
 ## This website
 
-This site has no cookies, analytics or trackers. It's hosted on Cloudflare, which keeps short-lived server logs, such as IP addresses, for security.
+This site uses no cookies and no advertising trackers. To see how the page is used, it counts visits and a few anonymous steps (reaching each part of the page, trying the sample question, tapping a store button) with Cloudflare Web Analytics and Cloudflare's own event counts. These record the step, your country and the type of device, and nothing that identifies you: no IP address, no cookie and no id. They aren't shared with anyone. The site is hosted on Cloudflare, which keeps short-lived server logs, such as IP addresses, for security.
 
 ## Children
 
