@@ -10,7 +10,7 @@
     "backgroundColor": "#0e1b2f",
     "ios": {
       "bundleIdentifier": "com.king.FootballTrivia",
-      "buildNumber": "32",
+      "buildNumber": "33",
       "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -70,6 +70,12 @@
           "android": {
             "extraProguardRules": "# Room databases are created by reflection (WorkManager, pulled in by the Google Mobile Ads SDK).\n# Without this R8 strips WorkDatabase_Impl and the app crashes on launch.\n-keep class * extends androidx.room.RoomDatabase { <init>(); }\n-keep class androidx.work.impl.** { *; }\n"
           }
+        }
+      ],
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This lets us show you ads that are more relevant. Saying no still gives you ads, just less tailored ones."
         }
       ]
     ],

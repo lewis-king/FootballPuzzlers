@@ -1,4 +1,5 @@
-import { Platform, View } from 'react-native';
+import { getTrackingPermissionsAsync, requestTrackingPermissionsAsync } from 'expo-tracking-transparency';
+import { AppState, Platform, View } from 'react-native';
 import mobileAds, {
   AdEventType,
   AdsConsent,
@@ -33,6 +34,7 @@ export function startAds(): Promise<boolean> {
       await AdsConsent.gatherConsent().catch(() => null);
       const { canRequestAds } = await AdsConsent.getConsentInfo();
       if (!canRequestAds) return false;
+      await askToTrack();
       await mobileAds().initialize();
       loadInterstitial();
       loadRewarded();
@@ -43,6 +45,28 @@ export function startAds(): Promise<boolean> {
     }
   })();
   return ready;
+}
+
+/**
+ * iPhone and iPad: Apple's App Tracking Transparency prompt, before the ad SDK starts and so before
+ * any data that could track the player is collected. Apple rejected 3.0.0 (Nov 2026, guideline 2.1)
+ * because the app declared tracking but never asked. Shown once; the answer is the player's to change
+ * in Settings. iOS ignores the request while the app isn't active, so wait until it is.
+ */
+async function askToTrack() {
+  if (Platform.OS !== 'ios') return;
+  try {
+    if ((await getTrackingPermissionsAsync()).status !== 'undetermined') return;
+    if (AppState.currentState !== 'active') {
+      await new Promise<void>((resolve) => {
+        const sub = AppState.addEventListener('change', (s) => { if (s === 'active') { sub.remove(); resolve(); } });
+      });
+    }
+    await new Promise((r) => setTimeout(r, 600)); // let the first screen settle, or iOS can drop the prompt
+    await requestTrackingPermissionsAsync();
+  } catch {
+    // never let the prompt get in the way of playing
+  }
 }
 
 function loadInterstitial() {
